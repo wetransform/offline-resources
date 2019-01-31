@@ -18,7 +18,7 @@ publishing {
         name = parts[0..-2].join('_')
         boolean snapshot = jarVersion.endsWith('-SNAPSHOT')
 
-        create("mavenJava-${name}" + (snapshot ? '-snapshot' : ''), MavenPublication) {
+        create("mavenJava-${name}-${jarVersion}", MavenPublication) {
           groupId pubGroup
           artifactId name
           version jarVersion
@@ -52,11 +52,12 @@ publishing {
 afterEvaluate {
   tasks.withType(PublishToMavenRepository) {
     onlyIf {
-      boolean accept = (repository == publishing.repositories.snapshots &&
-        publication.name.endsWith('-snapshot')) ||
-        (repository == publishing.repositories.releases &&
-          !publication.name.endsWith('-snapshot'))
-      accept
+      if (publication.name.endsWith('-SNAPSHOT')) {
+        repository == publishing.repositories.snapshots
+      }
+      else {
+        repository == publishing.repositories.releases
+      }
     }
   }
 }
