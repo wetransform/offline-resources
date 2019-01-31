@@ -4,6 +4,7 @@ import eu.esdihumboldt.util.config.*
 
 buildscript {
   repositories {
+    // mavenLocal()
     maven {
       url 'https://artifactory.wetransform.to/artifactory/libs-release-local'
     }
@@ -15,15 +16,14 @@ buildscript {
   dependencies {
     // for Config class
     classpath 'eu.esdihumboldt.hale:eu.esdihumboldt.util.config:3.5.0'
+    // for XMLSchemaUpdater (depends on https://github.com/halestudio/hale/pull/731)
+    classpath 'eu.esdihumboldt.hale:eu.esdihumboldt.hale.common.core:4.0.0-SNAPSHOT'
   }
 }
 
 plugins {
   id 'de.undercouch.download' version '3.4.3'
 }
-
-group = 'to.wetransform.offline-resources'
-version = '0.1-SNAPSHOT'
 
 ext {
   resourcesFolder = file('resources')
@@ -54,7 +54,21 @@ class MetadataHelper {
     def configFile = new File(metadataDir, 'metadata.yml')
     configFile.parentFile.mkdirs()
     def config = configFile.exists() ? ConfigYaml.load(configFile) : new Config()
-    def result = configure(config)
+    // unexpectedly, when accessing config, instead of getAt get is used
+    // when accessing config -> thus we interact with the map instead
+    def map = config.asMap()
+    def result = configure(map)
+    result
+  }
+
+  def updateConfig(Closure configure) {
+    def configFile = new File(metadataDir, 'metadata.yml')
+    configFile.parentFile.mkdirs()
+    def config = configFile.exists() ? ConfigYaml.load(configFile) : new Config()
+    // unexpectedly, when accessing config, instead of getAt get is used
+    // when accessing config -> thus we interact with the map instead
+    def map = config.asMap()
+    def result = configure(map)
     ConfigYaml.save(config, configFile)
     result
   }
@@ -66,7 +80,7 @@ class MetadataHelper {
 
     def version = "$year.$month.$day" as String
 
-    withConfig {
+    updateConfig {
       it.year = year
       it.version = version
     }
@@ -99,6 +113,40 @@ class MetadataHelper {
       "${version}-SNAPSHOT"
     }
   }
+
+  void generateJar(File sourceFolder, File targetFolder, String name) {
+    def version = getVersion()
+
+    // assemble different publication versions
+    def fileVersions = new HashSet<>()
+    fileVersions << version
+    fileVersions << getSnapshot()
+    fileVersions << 'CURRENT-SNAPSHOT'
+
+    fileVersions.each { fileVersion ->
+
+      def jarFile = new File(targetFolder, "${name}_${fileVersion}.jar")
+
+      // OSGi symbolic name
+      def symbolicName = "to.wetransform.offline-resources.${name}"
+
+      //TODO include OSGi/hale related stuff?
+
+      // build jar
+      project.ant.jar(destfile: jarFile) {
+        fileset(dir: sourceFolder, includes: '**/*')
+        manifest {
+          attribute(name: 'Implementation-Version', value: version)
+          // OSGi related metadata
+          attribute(name: 'Bundle-Version', value: fileVersion)
+          attribute(name: 'Bundle-Name', value: "Offline Resource bundle ${name}")
+          attribute(name: 'Bundle-ManifestVersion', value: 2)
+          attribute(name: 'Bundle-SymbolicName', value: "$symbolicName;singleton:=true")
+        }
+      }
+
+    }
+  }
 }
 
 class ResourcesArchiveTask extends DefaultTask {
@@ -127,7 +175,7 @@ class ResourcesArchiveTask extends DefaultTask {
 
     def md = new MetadataHelper(project, targetDir)
     //XXX only if there were changes?
-    // md.setVersion()
+    md.setVersion()
 
     project.copy {
       // exclude Zip files
@@ -136,6 +184,45 @@ class ResourcesArchiveTask extends DefaultTask {
       from project.zipTree(tmpSchemas)
       into targetDir
     }
+  }
+}
+
+class XmlSchemaDownloadTask extends DefaultTask {
+  // the location of the remote schema
+  def schemaUrl
+  // the name if the schema
+  def schemaName
+  // the name of the resource group
+  def resourceGroup
+
+  @TaskAction
+  def download() {
+    assert schemaUrl
+    assert schemaName
+    assert resourceGroup
+
+    File schemaTargetDir = project.file("${project.ext.resourcesFolder}/$resourceGroup/$schemaName")
+    schemaTargetDir.deleteDir()
+    schemaTargetDir.mkdirs()
+
+    File schemaFile = new File(schemaTargetDir, 'schema.xsd')
+
+    // download archive
+    project.download {
+      src schemaUrl
+      dest schemaFile
+      overwrite true
+    }
+
+    def md = new MetadataHelper(project, schemaTargetDir)
+    md.setVersion()
+    md.withConfig {
+      it.originalLocation = schemaUrl as String
+    }
+
+    // update schema file and download references
+    eu.esdihumboldt.hale.common.core.io.project.util.XMLSchemaUpdater.update(
+      schemaFile, URI.create(schemaUrl), true, null)
   }
 }
 
@@ -158,6 +245,35 @@ task opengisSchemas(type: ResourcesArchiveTask) {
 }
 tasks.downloads.dependsOn(opengisSchemas)
 
+/**
+ * Schemas for metadata validation:
+ *
+ * http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/gmd/gmd.xsd
+ * http://www.isotc211.org/2005/gmd/gmd.xsd
+ * http://schemas.opengis.net/csw/2.0.2/profiles/apiso/1.0.0/apiso.xsd
+ */
+task metadataIso(type: XmlSchemaDownloadTask) {
+  schemaUrl = 'http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/gmd/gmd.xsd'
+  schemaName = 'ISO_19139_GMD'
+  resourceGroup = 'metadata-schemas'
+}
+tasks.downloads.dependsOn(metadataIso)
+
+task metadataIsoTC211(type: XmlSchemaDownloadTask) {
+  schemaUrl = 'http://www.isotc211.org/2005/gmd/gmd.xsd'
+  schemaName = 'ISO_TC211_GMD'
+  resourceGroup = 'metadata-schemas'
+}
+tasks.downloads.dependsOn(metadataIsoTC211)
+
+task metadataCSW2(type: XmlSchemaDownloadTask) {
+  schemaUrl = 'http://schemas.opengis.net/csw/2.0.2/profiles/apiso/1.0.0/apiso.xsd'
+  schemaName = 'CSW_2_APISO'
+  resourceGroup = 'metadata-schemas'
+}
+tasks.downloads.dependsOn(metadataCSW2)
+
+
 /*
  * Processing tasks
  */
@@ -169,7 +285,9 @@ task(jars) {
 
 }.doLast {
 
-  // JARs for host folders
+  /*
+   * JARs for host folders
+   */
   def files = project.ext.hostsFolder.listFiles()
   project.logger.info("Identified ${files.size()} potential host JARs")
 
@@ -179,13 +297,9 @@ task(jars) {
   def tmpJarFolder = new File(temporaryDir, 'jar')
 
   files.each { File file ->
+    // for each host folder
     if (file.isDirectory()) {
-
-      def md = new MetadataHelper(project, file)
-      def fileVersion = md.snapshot // currently always use snapshot for file
-      def version = md.version
-
-      def jarFile = new File(jarFolder, "${file.name}_${fileVersion}.jar")
+      println "Creating resources JARs for host ${file.name}"
 
       // prepare structure for inside JAR
       // use sub-directories to avoid confusion w/ other resources
@@ -202,19 +316,37 @@ task(jars) {
         exclude "${MetadataHelper.METADATA_DIR_NAME}/**"
       }
 
-      def symbolicName = "to.wetransform.offline-resources.${file.name}"
+      def md = new MetadataHelper(project, file)
+      md.generateJar(tmpJarFolder, jarFolder, file.name)
+    }
+  }
 
-      // build jar
-      ant.jar(destfile: jarFile) {
-        fileset (dir: tmpJarFolder, includes: '**/*')
-        manifest {
-          attribute(name: 'Implementation-Version', value: version)
-          attribute(name: 'Bundle-Version', value: fileVersion)
-          attribute(name: 'Bundle-Name', value: "Resources from ${file.name}")
-          attribute(name: 'Bundle-ManifestVersion', value: 2)
-          attribute(name: 'Bundle-SymbolicName', value: "$symbolicName;singleton:=true")
-        }
+  /*
+   * JARs for other folders
+   */
+  files = project.ext.resourcesFolder.listFiles()
+
+  files.each { File file ->
+    if (file.isDirectory() && !file.name.equals('hosts')) {
+      println "Creating resources JARs for ${file.name}"
+
+      // prepare structure for inside JAR
+      // use sub-directories to avoid confusion w/ other resources
+      tmpJarFolder.deleteDir()
+      tmpJarFolder.mkdirs()
+
+      def resFolder = new File(tmpJarFolder, "to/wetransform/offline-resources/${file.name}")
+      resFolder.mkdirs()
+
+      copy {
+        from file
+        into resFolder
+
+        exclude "${MetadataHelper.METADATA_DIR_NAME}/**"
       }
+      
+      def md = new MetadataHelper(project, file)
+      md.generateJar(tmpJarFolder, jarFolder, file.name)
     }
   }
 
