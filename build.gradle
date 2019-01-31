@@ -1,0 +1,239 @@
+import java.time.*
+import java.time.temporal.*
+import eu.esdihumboldt.util.config.*
+
+buildscript {
+  repositories {
+    maven {
+      url 'https://artifactory.wetransform.to/artifactory/libs-release-local'
+    }
+    maven {
+      url 'https://artifactory.wetransform.to/artifactory/libs-snapshot-local'
+    }
+    jcenter()
+  }
+  dependencies {
+    // for Config class
+    classpath 'eu.esdihumboldt.hale:eu.esdihumboldt.util.config:3.5.0'
+  }
+}
+
+plugins {
+  id 'de.undercouch.download' version '3.4.3'
+}
+
+group = 'to.wetransform.offline-resources'
+version = '0.1-SNAPSHOT'
+
+ext {
+  resourcesFolder = file('resources')
+  hostsFolder = new File(resourcesFolder, 'hosts')
+  jarFolder = new File(buildDir, 'jars')
+  now = LocalDate.now()
+}
+
+defaultTasks 'downloads', 'jars', 'publish'
+
+/*
+ * Helper classes and task definitions
+ */
+
+class MetadataHelper {
+  static final METADATA_DIR_NAME = '.metadata'
+
+  private final Project project
+  private final File parentDir
+  private final File metadataDir
+  MetadataHelper(Project project, File parentDir) {
+    this.project = project
+    this.parentDir = parentDir
+    this.metadataDir = new File(parentDir, METADATA_DIR_NAME)
+  }
+
+  def withConfig(Closure configure) {
+    def configFile = new File(metadataDir, 'metadata.yml')
+    configFile.parentFile.mkdirs()
+    def config = configFile.exists() ? ConfigYaml.load(configFile) : new Config()
+    def result = configure(config)
+    ConfigYaml.save(config, configFile)
+    result
+  }
+
+  void setVersion() {
+    int year = project.ext.now.getYear();
+    int month = project.ext.now.getMonthValue();
+    int day = project.ext.now.getDayOfMonth();
+
+    def version = "$year.$month.$day" as String
+
+    withConfig {
+      it.year = year
+      it.version = version
+    }
+  }
+
+  String getVersion() {
+    def version = withConfig {
+      it.version
+    }
+    if (!version) {
+      // default to year snapshot
+      int year = project.ext.now.getYear();
+      "${year}-SNAPSHOT"
+    }
+    else {
+      version
+    }
+  }
+
+  String getSnapshot() {
+    def version = withConfig {
+      it.year
+    }
+    if (!version) {
+      // default to current year
+      int year = project.ext.now.getYear();
+      "${year}-SNAPSHOT"
+    }
+    else {
+      "${version}-SNAPSHOT"
+    }
+  }
+}
+
+class ResourcesArchiveTask extends DefaultTask {
+  // the host that the resource bundle mirrors resources from
+  def host
+  // the remote URL to retrieve the resource ZIP archive from
+  def archiveUrl
+
+  @TaskAction
+  def downloadAndExtract() {
+    assert host
+    assert archiveUrl
+
+    // download archive
+    File tmpSchemas = new File(temporaryDir, 'schemas.zip')
+    project.download {
+      src archiveUrl
+      dest tmpSchemas
+      onlyIfModified true
+    }
+
+    File targetDir = project.file("${project.ext.hostsFolder}/$host")
+    // delete folder
+    targetDir.deleteDir()
+    targetDir.mkdirs()
+
+    def md = new MetadataHelper(project, targetDir)
+    //XXX only if there were changes?
+    // md.setVersion()
+
+    project.copy {
+      // exclude Zip files
+      exclude('**/*.zip')
+
+      from project.zipTree(tmpSchemas)
+      into targetDir
+    }
+  }
+}
+
+
+/*
+ * Download tasks
+ */
+
+/**
+ * Aggregation task for downloads
+ */
+task('downloads')
+
+/**
+ * Schemas from schemas.opengis.net
+ */
+task opengisSchemas(type: ResourcesArchiveTask) {
+  host = "schemas.opengis.net"
+  archiveUrl = "http://schemas.opengis.net/SCHEMAS_OPENGIS_NET.zip"
+}
+tasks.downloads.dependsOn(opengisSchemas)
+
+/*
+ * Processing tasks
+ */
+
+/**
+ * Task for creating resource JARs for use in Java applications
+ */
+task(jars) {
+
+}.doLast {
+
+  // JARs for host folders
+  def files = project.ext.hostsFolder.listFiles()
+  project.logger.info("Identified ${files.size()} potential host JARs")
+
+  jarFolder.deleteDir()
+  jarFolder.mkdirs()
+
+  def tmpJarFolder = new File(temporaryDir, 'jar')
+
+  files.each { File file ->
+    if (file.isDirectory()) {
+
+      def md = new MetadataHelper(project, file)
+      def fileVersion = md.snapshot // currently always use snapshot for file
+      def version = md.version
+
+      def jarFile = new File(jarFolder, "${file.name}_${fileVersion}.jar")
+
+      // prepare structure for inside JAR
+      // use sub-directories to avoid confusion w/ other resources
+      tmpJarFolder.deleteDir()
+      tmpJarFolder.mkdirs()
+
+      def resFolder = new File(tmpJarFolder, "to/wetransform/offline-resources/hosts/${file.name}")
+      resFolder.mkdirs()
+
+      copy {
+        from file
+        into resFolder
+
+        exclude "${MetadataHelper.METADATA_DIR_NAME}/**"
+      }
+
+      def symbolicName = "to.wetransform.offline-resources.${file.name}"
+
+      // build jar
+      ant.jar(destfile: jarFile) {
+        fileset (dir: tmpJarFolder, includes: '**/*')
+        manifest {
+          attribute(name: 'Implementation-Version', value: version)
+          attribute(name: 'Bundle-Version', value: fileVersion)
+          attribute(name: 'Bundle-Name', value: "Resources from ${file.name}")
+          attribute(name: 'Bundle-ManifestVersion', value: 2)
+          attribute(name: 'Bundle-SymbolicName', value: "$symbolicName;singleton:=true")
+        }
+      }
+    }
+  }
+
+}
+
+/**
+ * Task that publishes all Jars to artifactory.
+ */
+task('publishJars', type: GradleBuild) {
+  buildFile = file('publish.gradle')
+
+  startParameter.projectProperties.publications = jarFolder.getAbsolutePath()
+
+  tasks = ['publish']
+}
+
+/**
+ * Task for creating resource bundles used by hale
+ */
+task haleResourceBundles() {
+  //TODO separate task or adapt hale functionality to work with JARs built in jars task?
+}

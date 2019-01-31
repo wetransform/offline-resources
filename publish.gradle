@@ -1,0 +1,62 @@
+plugins {
+  id 'maven-publish'
+}
+
+def pubs = file(project.findProperty('publications') ?: file('build/jars'))
+def pubGroup = project.findProperty('groupId') ?: 'to.wetransform.offline-resources'
+
+publishing {
+  publications {
+
+    pubs.listFiles().each { File file ->
+      if (file.name.endsWith('.jar')) {
+        // create a publication for each JAR
+
+        def name = file.name.substring(0, file.name.length() - 4)
+        def parts = name.split(/_/)
+        def jarVersion = parts[-1]
+        name = parts[0..-2].join('_')
+        boolean snapshot = jarVersion.endsWith('-SNAPSHOT')
+
+        create("mavenJava-${name}" + (snapshot ? '-snapshot' : ''), MavenPublication) {
+          groupId pubGroup
+          artifactId name
+          version jarVersion
+
+          artifact(file)
+        }
+      }
+    }
+  }
+
+  repositories {
+    maven {
+      name = 'snapshots'
+      url 'https://artifactory.wetransform.to/artifactory/libs-snapshot-local'
+      credentials {
+        username project.hasProperty('wetfArtifactoryUser') ? wetfArtifactoryUser : ''
+        password project.hasProperty('wetfArtifactoryPassword') ? wetfArtifactoryPassword : ''
+      }
+    }
+    maven {
+      name = 'releases'
+      url 'https://artifactory.wetransform.to/artifactory/libs-release-local'
+      credentials {
+        username project.hasProperty('wetfArtifactoryUser') ? wetfArtifactoryUser : ''
+        password project.hasProperty('wetfArtifactoryPassword') ? wetfArtifactoryPassword : ''
+      }
+    }
+  }
+}
+
+afterEvaluate {
+  tasks.withType(PublishToMavenRepository) {
+    onlyIf {
+      boolean accept = (repository == publishing.repositories.snapshots &&
+        publication.name.endsWith('-snapshot')) ||
+        (repository == publishing.repositories.releases &&
+          !publication.name.endsWith('-snapshot'))
+      accept
+    }
+  }
+}
