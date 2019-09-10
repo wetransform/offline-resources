@@ -376,7 +376,8 @@ task w3Schemas(type: HostPathsDownloadTask) {
   paths = [
     '1999/xlink.xsd',
     '2001/xml.xsd',
-    '2001/XMLSchema.xsd'
+    '2001/XMLSchema.xsd',
+    '2005/08/addressing/ws-addr.xsd'
   ]
 }
 tasks.downloads.dependsOn(w3Schemas)
