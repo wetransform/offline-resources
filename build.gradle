@@ -187,6 +187,124 @@ class ResourcesArchiveTask extends DefaultTask {
   }
 }
 
+class WgetHostIndexDownloadTask extends DefaultTask {
+  // the list of URLs pointing to a web server index
+  List<String> indexUrls
+  // the list of extensions to accept
+  List<String> fileExtensions
+
+  @TaskAction
+  def download() {
+    assert indexUrls
+
+    def hosts = indexUrls.collect { URI.create(it).host }.unique()
+    assert hosts.size() == 1 : 'Index URLs must be from same host'
+
+    def host = hosts[0]
+
+    File targetDir = project.file("${project.ext.hostsFolder}/$host")
+    // delete folder
+    targetDir.deleteDir()
+    targetDir.mkdirs()
+
+    for (String indexUrl : indexUrls) {
+      // download files
+      project.exec {
+        workingDir = targetDir
+        executable = 'wget' // requires wget
+        def runArgs = ['-e', 'robots=off', '-r', '--no-parent', '--no-host-directories']
+        if (fileExtensions) {
+          runArgs << '-A'
+          runArgs << fileExtensions.join(',')
+        }
+        runArgs << indexUrl
+        args = runArgs
+      }
+    }
+
+    def md = new MetadataHelper(project, targetDir)
+    //XXX only if there were changes?
+    md.setVersion()
+  }
+}
+
+class HostPathsDownloadTask extends DefaultTask {
+  // the host that the resource bundle mirrors resources from
+  def hostUrl
+  // the paths of the files that should be retrieved from the host
+  List<String> paths
+
+  @TaskAction
+  def downloadPaths() {
+    assert hostUrl
+    assert paths
+
+    // determine host
+    def host = URI.create(hostUrl).host
+    assert host
+
+    File targetDir = project.file("${project.ext.hostsFolder}/$host")
+    // delete folder
+    targetDir.deleteDir()
+    targetDir.mkdirs()
+
+    def md = new MetadataHelper(project, targetDir)
+    //XXX only if there were changes?
+    md.setVersion()
+
+    for (String path : paths) {
+      File localFile = new File(targetDir, path)
+      def fileUrl = hostUrl + "/" + path
+
+      // download file
+      project.download {
+        src fileUrl
+        dest localFile
+        overwrite true
+      }
+    }
+
+  }
+}
+
+class WgetHostPathsDownloadTask extends DefaultTask {
+  // the host that the resource bundle mirrors resources from
+  def hostUrl
+  // the paths of the files that should be retrieved from the host
+  List<String> paths
+
+  @TaskAction
+  def downloadPaths() {
+    assert hostUrl
+    assert paths
+
+    // determine host
+    def host = URI.create(hostUrl).host
+    assert host
+
+    File targetDir = project.file("${project.ext.hostsFolder}/$host")
+    // delete folder
+    targetDir.deleteDir()
+    targetDir.mkdirs()
+
+    def md = new MetadataHelper(project, targetDir)
+    //XXX only if there were changes?
+    md.setVersion()
+
+    for (String path : paths) {
+      def fileUrl = hostUrl + "/" + path
+
+      // download file
+      project.exec {
+        workingDir = targetDir
+        executable = 'wget' // requires wget
+        args '--force-directories', '--no-host-directories', fileUrl
+      }
+    }
+
+  }
+}
+
 class XmlSchemaDownloadTask extends DefaultTask {
   // the location of the remote schema
   def schemaUrl
@@ -234,16 +352,77 @@ class XmlSchemaDownloadTask extends DefaultTask {
 /**
  * Aggregation task for downloads
  */
-task('downloads')
+task('downloads') {
+  group 'Download'
+  description 'Runs all downloads'
+}
 
 /**
  * Schemas from schemas.opengis.net
  */
 task opengisSchemas(type: ResourcesArchiveTask) {
+  group 'Download'
   host = "schemas.opengis.net"
   archiveUrl = "http://schemas.opengis.net/SCHEMAS_OPENGIS_NET.zip"
 }
 tasks.downloads.dependsOn(opengisSchemas)
+
+/**
+ * Schemas from www.w3.org
+ */
+task w3Schemas(type: HostPathsDownloadTask) {
+  group 'Download'
+  hostUrl = "https://www.w3.org"
+  paths = [
+    '1999/xlink.xsd',
+    '2001/xml.xsd',
+    '2001/XMLSchema.xsd'
+  ]
+}
+tasks.downloads.dependsOn(w3Schemas)
+
+/**
+ * Schemas from schemas.geosciml.org
+ */
+task geoscimlSchemas(type: HostPathsDownloadTask) {
+  // this schema seems to used in deegree in some context
+  // most other schemas related to GeoSciML seem to be available via OGC
+  group 'Download'
+  hostUrl = "http://schemas.geosciml.org"
+  paths = [
+    'cgiutilities/3.0/cgiUtilities.xsd'
+  ]
+}
+tasks.downloads.dependsOn(geoscimlSchemas)
+
+/**
+ * Schemas from portele.de
+ */
+task porteleSchemas(type: HostPathsDownloadTask) {
+  group 'Download'
+  hostUrl = "http://portele.de"
+  paths = [
+    'ShapeChangeAppinfo.xsd'
+  ]
+}
+tasks.downloads.dependsOn(porteleSchemas)
+
+/**
+ * INSPIRE schemas
+ */
+task inspireSchemas(type: WgetHostIndexDownloadTask) {
+  group 'Download'
+  indexUrls = [
+    'https://inspire.ec.europa.eu/schemas/',
+    'https://inspire.ec.europa.eu/draft-schemas/'
+  ]
+  fileExtensions = [
+    'xsd',
+    'xml',
+    'txt'
+  ]
+}
+tasks.downloads.dependsOn(inspireSchemas)
 
 /**
  * Schemas for metadata validation:
@@ -253,6 +432,7 @@ tasks.downloads.dependsOn(opengisSchemas)
  * http://schemas.opengis.net/csw/2.0.2/profiles/apiso/1.0.0/apiso.xsd
  */
 task metadataIso(type: XmlSchemaDownloadTask) {
+  group 'Download'
   schemaUrl = 'http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/gmd/gmd.xsd'
   schemaName = 'ISO_19139_GMD'
   resourceGroup = 'metadata-schemas'
@@ -260,6 +440,7 @@ task metadataIso(type: XmlSchemaDownloadTask) {
 tasks.downloads.dependsOn(metadataIso)
 
 task metadataIsoTC211(type: XmlSchemaDownloadTask) {
+  group 'Download'
   schemaUrl = 'http://www.isotc211.org/2005/gmd/gmd.xsd'
   schemaName = 'ISO_TC211_GMD'
   resourceGroup = 'metadata-schemas'
@@ -267,6 +448,7 @@ task metadataIsoTC211(type: XmlSchemaDownloadTask) {
 tasks.downloads.dependsOn(metadataIsoTC211)
 
 task metadataCSW2(type: XmlSchemaDownloadTask) {
+  group 'Download'
   schemaUrl = 'http://schemas.opengis.net/csw/2.0.2/profiles/apiso/1.0.0/apiso.xsd'
   schemaName = 'CSW_2_APISO'
   resourceGroup = 'metadata-schemas'
@@ -344,7 +526,7 @@ task(jars) {
 
         exclude "${MetadataHelper.METADATA_DIR_NAME}/**"
       }
-      
+
       def md = new MetadataHelper(project, file)
       md.generateJar(tmpJarFolder, jarFolder, file.name)
     }
