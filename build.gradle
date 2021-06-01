@@ -15,9 +15,9 @@ buildscript {
   }
   dependencies {
     // for Config class
-    classpath 'eu.esdihumboldt.hale:eu.esdihumboldt.util.config:3.5.0'
+    classpath 'eu.esdihumboldt.hale:eu.esdihumboldt.util.config:4.0.0'
     // for XMLSchemaUpdater (depends on https://github.com/halestudio/hale/pull/731)
-    classpath 'eu.esdihumboldt.hale:eu.esdihumboldt.hale.common.core:4.0.0-SNAPSHOT'
+    classpath 'eu.esdihumboldt.hale:eu.esdihumboldt.hale.common.core:4.0.0'
   }
 }
 
@@ -428,13 +428,14 @@ tasks.downloads.dependsOn(inspireSchemas)
 /**
  * Schemas for metadata validation:
  *
- * http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/gmd/gmd.xsd
- * http://www.isotc211.org/2005/gmd/gmd.xsd
+ * https://standards.iso.org/iso/19139/Schemas/gmd/gmd.xsd
+ * https://www.isotc211.org/2005/gmd/gmd.xsd
+ * https://www.isotc211.org/2005/gmx/gmx.xsd
  * http://schemas.opengis.net/csw/2.0.2/profiles/apiso/1.0.0/apiso.xsd
  */
 task metadataIso(type: XmlSchemaDownloadTask) {
   group 'Download'
-  schemaUrl = 'http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/gmd/gmd.xsd'
+  schemaUrl = 'https://standards.iso.org/iso/19139/Schemas/gmd/gmd.xsd'
   schemaName = 'ISO_19139_GMD'
   resourceGroup = 'metadata-schemas'
 }
@@ -442,11 +443,19 @@ tasks.downloads.dependsOn(metadataIso)
 
 task metadataIsoTC211(type: XmlSchemaDownloadTask) {
   group 'Download'
-  schemaUrl = 'http://www.isotc211.org/2005/gmd/gmd.xsd'
+  schemaUrl = 'https://www.isotc211.org/2005/gmd/gmd.xsd'
   schemaName = 'ISO_TC211_GMD'
   resourceGroup = 'metadata-schemas'
 }
 tasks.downloads.dependsOn(metadataIsoTC211)
+
+task metadataExtensionsIsoTC211(type: XmlSchemaDownloadTask) {
+  group 'Download'
+  schemaUrl = 'https://www.isotc211.org/2005/gmx/gmx.xsd'
+  schemaName = 'ISO_TC211_GMX'
+  resourceGroup = 'metadata-schemas'
+}
+tasks.downloads.dependsOn(metadataExtensionsIsoTC211)
 
 task metadataCSW2(type: XmlSchemaDownloadTask) {
   group 'Download'
