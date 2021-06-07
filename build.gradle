@@ -428,14 +428,17 @@ tasks.downloads.dependsOn(inspireSchemas)
 /**
  * Schemas for metadata validation:
  *
- * https://standards.iso.org/iso/19139/Schemas/gmd/gmd.xsd
- * https://www.isotc211.org/2005/gmd/gmd.xsd
+ * http://build-artifacts.wetransform.to/schemas/iso19139/2012-07-13/gmd/gmd.xsd (gmd version "2012-07-13")
+ *     - mirrored version of the schema at https://standards.iso.org/iso/19139/Schemas/gmd/gmd.xsd
+ *       with relativized schema references to the ISO 19139 and ISO 19136 (GML) XSDs
+ * https://www.isotc211.org/2005/gmd/gmd.xsd (gmd version "0.1")
  * https://www.isotc211.org/2005/gmx/gmx.xsd
  * http://schemas.opengis.net/csw/2.0.2/profiles/apiso/1.0.0/apiso.xsd
  */
+
 task metadataIso(type: XmlSchemaDownloadTask) {
   group 'Download'
-  schemaUrl = 'https://standards.iso.org/iso/19139/Schemas/gmd/gmd.xsd'
+  schemaUrl = 'http://build-artifacts.wetransform.to/schemas/iso19139/2012-07-13/gmd/gmd.xsd'
   schemaName = 'ISO_19139_GMD'
   resourceGroup = 'metadata-schemas'
 }
