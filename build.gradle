@@ -257,6 +257,97 @@ class ResourcesArchiveTask extends DefaultTask {
   }
 }
 
+class INSPIREDownloadTask extends DefaultTask {
+ // the host that the resource bundle mirrors resources from
+  @Input
+  def host
+  // the remote URL to retrieve the resource ZIP archive from
+  @Input
+  def archiveUrl
+  
+  @TaskAction
+  def downloadAndExtract() {
+    assert host
+    assert archiveUrl
+
+    // need a clean tmp dir
+    temporaryDir.deleteDir()
+    temporaryDir.mkdir()
+
+    // download archive
+    File tmpSchemas = new File(temporaryDir, 'schemas.zip')
+    project.download.run {
+      src archiveUrl
+      dest tmpSchemas
+      onlyIfModified true
+    }
+    File targetDir = project.file("${project.ext.hostsFolder}/$host")
+    // delete folder
+    targetDir.deleteDir()
+    targetDir.mkdirs()
+
+    def md = new MetadataHelper(project, targetDir)
+    md.cleanFolderKeepMetadata()
+  
+    project.copy {
+      // Exclude Zip files, 'governance' folder, and 'readme.md' file
+      exclude('**/*.zip', 'application-schemas-main/governance-release-process/**', 'application-schemas-main/README.md', 'application-schemas-main/.github/**')
+  
+    from project.zipTree(tmpSchemas)
+    into temporaryDir
+    }
+
+    /*
+     * The website does redirect for some schemas to a subfolder with older versions.
+     * For example `hy-p/3.0/HydroPhysicalWaters.xsd` is redirected to `2021.1/hy-p/3.0/HydroPhysicalWaters.xsd`
+     * The resource bundles don't know about these redirects, the file from the original folder is accessed.
+     * Loading the full schema may fail though, because some schema have been removed from the root and are only
+     * available in folders representing older versions.
+     * Examples:
+     * - `lc/0.0/LandCover.xsd`
+     * - `wfd/0.0/WaterFrameworkDirective.xsd`
+     *
+     * Since we don't know the exact redirection rules we attempt to have a copy of al schemas in the root, in
+     * their respective newest version, by copying newer versions over older versions.
+     */
+
+    File applicationtempschemas = new File(temporaryDir, 'application-schemas-main')
+    File tempRoot = new File(applicationtempschemas, 'tmp-schemas')
+    def versions = ['2021.1', '2021.2', '2022.1', '2022.2']
+    // copy all versions in order
+    versions.each { v ->
+      project.copy {
+        from new File(applicationtempschemas, "schemas/$v")
+        into tempRoot
+        include '**/*'
+      }
+    }
+
+    project.copy {
+      from new File(applicationtempschemas, "schemas")
+      into tempRoot
+      include '**/*'
+    }
+
+    File applicationTempSchemasfolder = new File(applicationtempschemas, 'schemas')
+    applicationTempSchemasfolder.deleteDir()
+    File applicationTempSchemasfolderNew = new File(applicationtempschemas, 'schemas')
+    tempRoot.renameTo(applicationTempSchemasfolderNew)
+
+    // List all files in the subfolder
+    def files = applicationtempschemas.listFiles()
+
+    // Copy each file to the parent folder
+    files.each { file ->
+      def destination = new File(targetDir, file.name)
+      file.renameTo(destination)
+    }
+
+    // update version on change
+    md.setVersionIfChanged()
+  }
+  }
+
 class WgetHostIndexDownloadTask extends DefaultTask {
   // the list of URLs pointing to a web server index
   @Input
@@ -515,21 +606,13 @@ tasks.downloads.dependsOn(porteleSchemas)
 /**
  * INSPIRE schemas
  */
-/* FIXME download of INSPIRE schemas is currently broken because of changes to how the schemas are served
-task inspireSchemas(type: WgetHostIndexDownloadTask) {
+task inspireSchemas(type: INSPIREDownloadTask) {
   group 'Download'
-  indexUrls = [
-    'https://inspire.ec.europa.eu/schemas/',
-    'https://inspire.ec.europa.eu/draft-schemas/'
-  ]
-  fileExtensions = [
-    'xsd',
-    'xml',
-    'txt'
-  ]
+  host = "inspire.ec.europa.eu"
+  archiveUrl = "https://github.com/INSPIRE-MIF/application-schemas/archive/refs/heads/main.zip"
 }
 tasks.downloads.dependsOn(inspireSchemas)
-*/
+
 
 /**
  * Schemas for metadata validation:
