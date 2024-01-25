@@ -6,18 +6,17 @@ buildscript {
   repositories {
     // mavenLocal()
     maven {
-      url 'https://artifactory.wetransform.to/artifactory/libs-release-local'
+      url 'https://artifactory.wetransform.to/artifactory/local'
     }
-    maven {
-      url 'https://artifactory.wetransform.to/artifactory/libs-snapshot-local'
-    }
-    jcenter()
+    mavenCentral()
   }
   dependencies {
     // for Config class
     classpath 'eu.esdihumboldt.hale:eu.esdihumboldt.util.config:4.0.0'
     // for XMLSchemaUpdater (depends on https://github.com/halestudio/hale/pull/731)
     classpath 'eu.esdihumboldt.hale:eu.esdihumboldt.hale.common.core:4.0.0'
+
+    classpath 'org.ajoberstar.grgit:grgit-core:4.1.1'
   }
 }
 
@@ -30,9 +29,8 @@ ext {
   hostsFolder = new File(resourcesFolder, 'hosts')
   jarFolder = new File(buildDir, 'jars')
   now = LocalDate.now()
+  grgit = org.ajoberstar.grgit.Grgit.open(dir: projectDir)
 }
-
-defaultTasks 'downloads', 'jars', 'publish'
 
 /*
  * Helper classes and task definitions
@@ -73,7 +71,39 @@ class MetadataHelper {
     result
   }
 
-  void setVersion() {
+  private boolean changesInFolder() {
+    File checkForDir = parentDir
+    File repoRoot = project.projectDir
+
+    def relativePath = repoRoot.relativePath(checkForDir)
+    //XXX do we need to replace \ with / for Windows?
+
+    def status = project.ext.grgit.status()
+
+    // check for any changes and conflicts
+    return [
+      status.conflicts,
+      status.staged.added,
+      status.staged.modified,
+      status.staged.removed,
+      status.unstaged.added,
+      status.unstaged.modified,
+      status.unstaged.removed
+    ].any { setOfPaths ->
+      if (setOfPaths.any { it.startsWith(relativePath) }) {
+        println "Changes detected for path $relativePath"
+        return true
+      }
+      return false
+    }
+  }
+
+  void setVersionIfChanged() {
+    // only set version if there are changes to parentDir
+    if (!changesInFolder()) {
+      return
+    }
+
     int year = project.ext.now.getYear();
     int month = project.ext.now.getMonthValue();
     int day = project.ext.now.getDayOfMonth();
@@ -84,6 +114,26 @@ class MetadataHelper {
       it.year = year
       it.version = version
     }
+
+    println "New version is $version"
+  }
+
+  void cleanFolderKeepMetadata() {
+    if (parentDir.exists()) {
+      project.delete {
+        parentDir.eachFile { file ->
+          if (file.isDirectory()) {
+            project.delete(file)
+          } else if (file.name in ['.metadata']) {
+            // preserve metadata folder
+          } else {
+            file.delete()
+          }
+        }
+      }
+    }
+
+    parentDir.mkdirs()
   }
 
   String getVersion() {
@@ -169,13 +219,10 @@ class ResourcesArchiveTask extends DefaultTask {
     }
 
     File targetDir = project.file("${project.ext.hostsFolder}/$host")
-    // delete folder
-    targetDir.deleteDir()
-    targetDir.mkdirs()
 
+    // clean up before download to remove any obsolete files
     def md = new MetadataHelper(project, targetDir)
-    //XXX only if there were changes?
-    md.setVersion()
+    md.cleanFolderKeepMetadata()
 
     project.copy {
       // exclude Zip files
@@ -184,6 +231,9 @@ class ResourcesArchiveTask extends DefaultTask {
       from project.zipTree(tmpSchemas)
       into targetDir
     }
+
+    // update version on change
+    md.setVersionIfChanged()
   }
 }
 
@@ -203,9 +253,10 @@ class WgetHostIndexDownloadTask extends DefaultTask {
     def host = hosts[0]
 
     File targetDir = project.file("${project.ext.hostsFolder}/$host")
-    // delete folder
-    targetDir.deleteDir()
-    targetDir.mkdirs()
+
+    // clean up before download to remove any obsolete files
+    def md = new MetadataHelper(project, targetDir)
+    md.cleanFolderKeepMetadata()
 
     for (String indexUrl : indexUrls) {
       // download files
@@ -222,9 +273,8 @@ class WgetHostIndexDownloadTask extends DefaultTask {
       }
     }
 
-    def md = new MetadataHelper(project, targetDir)
-    //XXX only if there were changes?
-    md.setVersion()
+    // update version on change
+    md.setVersionIfChanged()
   }
 }
 
@@ -244,13 +294,10 @@ class HostPathsDownloadTask extends DefaultTask {
     assert host
 
     File targetDir = project.file("${project.ext.hostsFolder}/$host")
-    // delete folder
-    targetDir.deleteDir()
-    targetDir.mkdirs()
 
+    // clean up before download to remove any obsolete files
     def md = new MetadataHelper(project, targetDir)
-    //XXX only if there were changes?
-    md.setVersion()
+    md.cleanFolderKeepMetadata()
 
     for (String path : paths) {
       File localFile = new File(targetDir, path)
@@ -264,6 +311,8 @@ class HostPathsDownloadTask extends DefaultTask {
       }
     }
 
+    // update version on change
+    md.setVersionIfChanged()
   }
 }
 
@@ -283,13 +332,10 @@ class WgetHostPathsDownloadTask extends DefaultTask {
     assert host
 
     File targetDir = project.file("${project.ext.hostsFolder}/$host")
-    // delete folder
-    targetDir.deleteDir()
-    targetDir.mkdirs()
 
+    // clean up before download to remove any obsolete files
     def md = new MetadataHelper(project, targetDir)
-    //XXX only if there were changes?
-    md.setVersion()
+    md.cleanFolderKeepMetadata()
 
     for (String path : paths) {
       def fileUrl = hostUrl + "/" + path
@@ -302,6 +348,8 @@ class WgetHostPathsDownloadTask extends DefaultTask {
       }
     }
 
+    // update version on change
+    md.setVersionIfChanged()
   }
 }
 
@@ -320,8 +368,10 @@ class XmlSchemaDownloadTask extends DefaultTask {
     assert resourceGroup
 
     File schemaTargetDir = project.file("${project.ext.resourcesFolder}/$resourceGroup/$schemaName")
-    schemaTargetDir.deleteDir()
-    schemaTargetDir.mkdirs()
+
+    // clean up before download to remove any obsolete files
+    def md = new MetadataHelper(project, schemaTargetDir)
+    md.cleanFolderKeepMetadata()
 
     File schemaFile = new File(schemaTargetDir, 'schema.xsd')
 
@@ -332,18 +382,43 @@ class XmlSchemaDownloadTask extends DefaultTask {
       overwrite true
     }
 
-    def md = new MetadataHelper(project, schemaTargetDir)
-    md.setVersion()
-    md.withConfig {
-      it.originalLocation = schemaUrl as String
-    }
-
     // update schema file and download references
     eu.esdihumboldt.hale.common.core.io.project.util.XMLSchemaUpdater.update(
       schemaFile, URI.create(schemaUrl), true, null)
+
+    // update version on change
+    md.setVersionIfChanged()
+    md.withConfig {
+      it.originalLocation = schemaUrl as String
+    }
   }
 }
 
+
+/**
+ * Dummy task for testing (changes result on every run)
+ */
+task('dummy') {
+  group 'Download'
+  description 'Dummy download task for testing'
+}.doFirst {
+  def host = 'example.com'
+  File targetDir = project.file("${project.ext.hostsFolder}/$host")
+
+  // clean up before download to remove any obsolete files
+  def md = new MetadataHelper(project, targetDir)
+  md.cleanFolderKeepMetadata()
+
+  def content = now.toString()
+
+  new File(targetDir, 'root.txt').text = content
+  def subfolder = new File(targetDir, 'sub')
+  subfolder.mkdirs()
+  new File(subfolder, 'sub.txt').text = content
+
+  // update version on change
+  md.setVersionIfChanged()
+}
 
 /*
  * Download tasks

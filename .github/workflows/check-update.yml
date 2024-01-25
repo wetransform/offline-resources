@@ -1,0 +1,37 @@
+name: Check resource download and Jar generation
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  check-update:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - uses: actions/setup-java@v3
+      with:
+        distribution: temurin
+        java-version: 8
+
+    - name: Setup Gradle
+      uses: gradle/gradle-build-action@v2
+
+    - name: Download resources and build Jars
+      run: |
+        ./gradlew downloads jars
+      # TODO also test publishing (e.g. to local maven repo)
+
+    - name: Add git status to summary
+      run: |
+        git add -A
+
+        echo '### Resources to be added on automated update' >> $GITHUB_STEP_SUMMARY
+        echo '' >> $GITHUB_STEP_SUMMARY
+        echo '```' >> $GITHUB_STEP_SUMMARY
+        git status >> $GITHUB_STEP_SUMMARY
+        echo '```' >> $GITHUB_STEP_SUMMARY

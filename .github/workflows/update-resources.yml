@@ -1,0 +1,54 @@
+name: Update and Create Pull Request
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Run once a day
+  workflow_dispatch: {}
+
+jobs:
+  update-and-create-pr:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - uses: actions/setup-java@v3
+      with:
+        distribution: temurin
+        java-version: 8
+
+    - name: Setup Gradle
+      uses: gradle/gradle-build-action@v2
+
+    - name: Download resources
+      run: |
+        ./gradlew downloads
+
+    - name: Create Pull Request for changes
+      # https://github.com/marketplace/actions/create-pull-request
+      uses: peter-evans/create-pull-request@v5.0.2
+      with:
+        commit-message: "refactor: automated resource update"
+        committer: wetransform Bot <admin@wetransform.to>
+        branch: auto-update
+        title: Update offline resources
+        body: Please review the changes to the resources. Merge to create updated artifacts.
+        base: master
+        reviewers: |
+          stempler
+
+    - name: Notify slack on failure
+      # https://github.com/marketplace/actions/slack-notify-build
+      uses: voxmedia/github-action-slack-notify-build@v1
+      if: ${{ inputs.notify-failure && failure() }}
+      env:
+        SLACK_BOT_TOKEN: ${{ secrets.SLACK_NOTIFICATIONS_BOT_TOKEN }}
+      with:
+        channel: build-failures
+        status: FAILED
+        color: danger

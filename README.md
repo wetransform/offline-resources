@@ -5,7 +5,7 @@ Repository collecting cached versions of online resources.
 
 It includes a Gradle build that is configured with downloading, packaging and publishing online resources for offline use in different contexts.
 
-Currently the actual resources are not added to the repository, though this may change at a later point if we think it makes sense.
+The resources are added to the repository to be able to track changes and keep maintaining the resources in case the original source is no longer available or maintained.
 
 The goal is to use this as a base for using these resources for offline use in different applications, e.g. hale studio, deegree, etc.
 
@@ -23,10 +23,25 @@ For versioning the artifacts, three different patterns are used:
 
 If applicable, all these versions are built and published.
 
+Currently there are the following types of JARs supported:
+
+1. Based on host name and resource paths
+2. Downloaded schemas with all dependencies (currently not maintained)
+
+
+### Host name based resource JARs
+
+Host name based resource JARs are used to load resources that come from a specific host and are available there on a specific path.
+These kind of JARs are build from resources downloaded to `resources/hosts/<host-name>`.
+The folder structure beneath must match the paths the resources are available at on the original host.
+
+The task that creates the JARs adds these files to the package `to.wetransform.offline-resources.hosts.<host-name>` and respective subpackages.
+This is used for example by kelvin in the respective [implementation for loading the offline resources](https://github.com/wetransform/kelvin/blob/master/deegree-core/deegree-core-commons/src/main/java/org/deegree/commons/offlineresources/OfflineResources.java)
+
+
 TODOs / Improvements
 --------------------
 
 - produce JARs compatible to hale resources mechanism
 - add configuration for existing hale resource bundles currently built in hale-platform repository
 - allow suppressing the creation/publishing of `CURRENT-SNAPSHOT` versions in case old versions are built
-- possibly add downloaded resources to version tracking to be able to track changes

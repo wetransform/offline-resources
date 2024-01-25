@@ -1,0 +1,46 @@
+name: Publish resources present in the repository
+
+#
+# Note: Does not download and update because changes should be manually reviewed,
+# for example to be able to detect when a download mechanism breaks and yields
+# the wrong results.
+#
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch: {}
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - uses: actions/setup-java@v3
+      with:
+        distribution: temurin
+        java-version: 8
+
+    - name: Setup Gradle
+      uses: gradle/gradle-build-action@v2
+
+    - name: Create and publish artifacts
+      run: ./gradlew jars publishJars
+      env:
+        ORG_GRADLE_PROJECT_wetfArtifactoryUser: ${{ secrets.WETF_ARTIFACTORY_USER }}
+        ORG_GRADLE_PROJECT_wetfArtifactoryPassword: ${{ secrets.WETF_ARTIFACTORY_PASSWORD }}
+
+    - name: Notify slack on failure
+      # https://github.com/marketplace/actions/slack-notify-build
+      uses: voxmedia/github-action-slack-notify-build@v1
+      if: ${{ inputs.notify-failure && failure() }}
+      env:
+        SLACK_BOT_TOKEN: ${{ secrets.SLACK_NOTIFICATIONS_BOT_TOKEN }}
+      with:
+        channel: build-failures
+        status: FAILED
+        color: danger
