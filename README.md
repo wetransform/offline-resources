@@ -35,7 +35,7 @@ Host name based resource JARs are used to load resources that come from a specif
 These kind of JARs are build from resources downloaded to `resources/hosts/<host-name>`.
 The folder structure beneath must match the paths the resources are available at on the original host.
 
-The task that creates the JARs adds these files to the package `to.wetransform.offline-resources.hosts.<host-name>` and respective subpackages.
+The task that creates the JARs adds these files to the folder `to/wetransform/offline-resources/hosts/<host-name>` and respective subfolders.
 This is used for example by kelvin in the respective [implementation for loading the offline resources](https://github.com/wetransform/kelvin/blob/master/deegree-core/deegree-core-commons/src/main/java/org/deegree/commons/offlineresources/OfflineResources.java)
 
 
