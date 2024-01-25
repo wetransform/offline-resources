@@ -411,6 +411,7 @@ tasks.downloads.dependsOn(porteleSchemas)
 /**
  * INSPIRE schemas
  */
+/* FIXME download of INSPIRE schemas is currently broken because of changes to how the schemas are served
 task inspireSchemas(type: WgetHostIndexDownloadTask) {
   group 'Download'
   indexUrls = [
@@ -424,6 +425,7 @@ task inspireSchemas(type: WgetHostIndexDownloadTask) {
   ]
 }
 tasks.downloads.dependsOn(inspireSchemas)
+*/
 
 /**
  * Schemas for metadata validation:
@@ -436,6 +438,8 @@ tasks.downloads.dependsOn(inspireSchemas)
  * http://schemas.opengis.net/csw/2.0.2/profiles/apiso/1.0.0/apiso.xsd
  */
 
+/* FIXME for now disabled because at least on of the resources is not longer accessible like that
+   TODO recreate missing resources in file system and re-enable tasks that still work
 task metadataIso(type: XmlSchemaDownloadTask) {
   group 'Download'
   schemaUrl = 'http://build-artifacts.wetransform.to/schemas/iso19139/2012-07-13/gmd/gmd.xsd'
@@ -467,6 +471,7 @@ task metadataCSW2(type: XmlSchemaDownloadTask) {
   resourceGroup = 'metadata-schemas'
 }
 tasks.downloads.dependsOn(metadataCSW2)
+*/
 
 
 /*
