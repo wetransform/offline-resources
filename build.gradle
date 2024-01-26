@@ -78,6 +78,9 @@ class MetadataHelper {
     def relativePath = repoRoot.relativePath(checkForDir)
     //XXX do we need to replace \ with / for Windows?
 
+    // add changes on relative path to index, so something like line-ending changes is not registered
+    project.ext.grgit.add(patterns: [relativePath])
+
     def status = project.ext.grgit.status()
 
     // check for any changes and conflicts
