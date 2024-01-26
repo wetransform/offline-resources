@@ -90,11 +90,14 @@ class MetadataHelper {
       status.unstaged.modified,
       status.unstaged.removed
     ].any { setOfPaths ->
-      if (setOfPaths.any { it.startsWith(relativePath) }) {
-        println "Changes detected for path $relativePath"
-        return true
+      def example = setOfPaths.find { it.startsWith(relativePath) }
+      if (example) {
+        println "Changes detected for path $relativePath (at least $example changed)"
+        true
       }
-      return false
+      else {
+        false
+      }
     }
   }
 
