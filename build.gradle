@@ -123,15 +123,13 @@ class MetadataHelper {
 
   void cleanFolderKeepMetadata() {
     if (parentDir.exists()) {
-      project.delete {
-        parentDir.eachFile { file ->
-          if (file.isDirectory()) {
+      parentDir.eachFile { file ->
+        if (file.isDirectory()) {
+          if (!file.name in ['.metadata']) {
             project.delete(file)
-          } else if (file.name in ['.metadata']) {
-            // preserve metadata folder
-          } else {
-            file.delete()
           }
+        } else {
+          file.delete()
         }
       }
     }
