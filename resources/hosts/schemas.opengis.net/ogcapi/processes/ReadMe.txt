@@ -17,6 +17,15 @@ http://schemas.opengis.net/SCHEMAS_OPENGIS_NET.zip
 
 -----------------------------------------------------------------------
 
+2024-01-30 Benjamin Pross, Panagiotis (Peter) A. Vretanos,
+  + v1.0: Align schema to 18-062r2
+    * Place the title in quotation marks so that the colon does not
+      cause validation to fail.
+    * Replace references to http://schemas.opengis.net/ with
+      https://schemas.opengis.net/ so that browser applications
+      running on https can import referenced schemas.
+    * Internal schema version changed from 1.0.0 to 1.0.1
+
 2021-12-20 Benjamin Pross, Panagiotis (Peter) A. Vretanos,
   + v1.0: Remove id from OGC API Proccesses Part 1 Execute example.
     No version change.
@@ -34,7 +43,7 @@ Policies, Procedures, Terms, and Conditions of OGC(r) are available
 
 OGC and OpenGIS are registered trademarks of Open Geospatial Consortium.
 
-Copyright (c) 2021 Open Geospatial Consortium.
+Copyright (c) 2021, 2024 Open Geospatial Consortium.
 
 -----------------------------------------------------------------------
 
