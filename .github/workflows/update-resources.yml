@@ -44,6 +44,8 @@ jobs:
         base: master
         reviewers: |
           stempler
+          florianesser
+          kapil-agnihotri
 
     - name: Notify slack on failure
       # https://github.com/marketplace/actions/slack-notify-build
