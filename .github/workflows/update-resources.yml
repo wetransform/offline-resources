@@ -67,7 +67,7 @@ jobs:
     - name: Notify slack on failure
       # https://github.com/marketplace/actions/slack-notify-build
       uses: voxmedia/github-action-slack-notify-build@v1
-      if: ${{ inputs.notify-failure && failure() }}
+      if: failure()
       env:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_NOTIFICATIONS_BOT_TOKEN }}
       with:
