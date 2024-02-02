@@ -29,6 +29,7 @@ ext {
   hostsFolder = new File(resourcesFolder, 'hosts')
   jarFolder = new File(buildDir, 'jars')
   now = LocalDate.now()
+  time = LocalTime.now().format(DateTimeFormatter.ofPattern('HHmmss'))
   grgit = org.ajoberstar.grgit.Grgit.open(dir: projectDir)
 }
 
@@ -122,6 +123,14 @@ class MetadataHelper {
 
     updateConfig {
       it.year = year
+      if (it.version == version) {
+        // same version -> add time as qualifier
+        version = "${version}-${project.ext.time}"
+        if (it.version == version) {
+          // still the same -> fail
+          throw new IllegalStateException('Change detected but same version is already set')
+        }
+      }
       it.version = version
     }
 

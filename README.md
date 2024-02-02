@@ -17,7 +17,7 @@ The JARs are published into the wetransform artifactory.
 
 For versioning the artifacts, three different patterns are used:
 
-- Date of the download/creation as version, e.g. `2019.1.20` for the 20th of January 2019
+- Date of the download/creation as version, e.g. `2019.1.20` for the 20th of January 2019 (if multiple versions are created on the same day, a qualifier is added once the second version for the same day is created)
 - A snapshot based on the current year, e.g. `2019-SNAPSHOT`
 - A snapshot that always represents that last state (`CURRENT-SNAPSHOT`)
 
