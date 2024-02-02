@@ -681,6 +681,19 @@ task('publishJarsToMavenLocal', type: GradleBuild) {
 }
 
 /**
+ * Task that publishes current versions to an update site.
+ * Requires Jars to be created and artifacts published to Maven Local beforehand.
+ */
+task('updateSite', type: GradleBuild) {
+  buildFile = file('updatesite.gradle')
+  buildName = 'updateSite'
+
+  startParameter.projectProperties.publications = jarFolder.getAbsolutePath()
+
+  tasks = ['updateSite']
+}
+
+/**
  * Task for creating resource bundles used by hale
  */
 task haleResourceBundles() {
