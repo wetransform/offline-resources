@@ -21,7 +21,7 @@ buildscript {
 }
 
 plugins {
-  id 'de.undercouch.download' version '3.4.3'
+  id 'de.undercouch.download' version '5.5.0'
 }
 
 ext {
@@ -30,6 +30,10 @@ ext {
   jarFolder = new File(buildDir, 'jars')
   now = LocalDate.now()
   grgit = org.ajoberstar.grgit.Grgit.open(dir: projectDir)
+}
+
+wrapper {
+  gradleVersion = '8.4'
 }
 
 /*
@@ -205,8 +209,10 @@ class MetadataHelper {
 
 class ResourcesArchiveTask extends DefaultTask {
   // the host that the resource bundle mirrors resources from
+  @Input
   def host
   // the remote URL to retrieve the resource ZIP archive from
+  @Input
   def archiveUrl
 
   @TaskAction
@@ -216,7 +222,7 @@ class ResourcesArchiveTask extends DefaultTask {
 
     // download archive
     File tmpSchemas = new File(temporaryDir, 'schemas.zip')
-    project.download {
+    project.download.run {
       src archiveUrl
       dest tmpSchemas
       onlyIfModified true
@@ -243,8 +249,10 @@ class ResourcesArchiveTask extends DefaultTask {
 
 class WgetHostIndexDownloadTask extends DefaultTask {
   // the list of URLs pointing to a web server index
+  @Input
   List<String> indexUrls
   // the list of extensions to accept
+  @Input
   List<String> fileExtensions
 
   @TaskAction
@@ -284,8 +292,10 @@ class WgetHostIndexDownloadTask extends DefaultTask {
 
 class HostPathsDownloadTask extends DefaultTask {
   // the host that the resource bundle mirrors resources from
+  @Input
   def hostUrl
   // the paths of the files that should be retrieved from the host
+  @Input
   List<String> paths
 
   @TaskAction
@@ -308,7 +318,7 @@ class HostPathsDownloadTask extends DefaultTask {
       def fileUrl = hostUrl + "/" + path
 
       // download file
-      project.download {
+      project.download.run {
         src fileUrl
         dest localFile
         overwrite true
@@ -322,8 +332,10 @@ class HostPathsDownloadTask extends DefaultTask {
 
 class WgetHostPathsDownloadTask extends DefaultTask {
   // the host that the resource bundle mirrors resources from
+  @Input
   def hostUrl
   // the paths of the files that should be retrieved from the host
+  @Input
   List<String> paths
 
   @TaskAction
@@ -359,10 +371,13 @@ class WgetHostPathsDownloadTask extends DefaultTask {
 
 class XmlSchemaDownloadTask extends DefaultTask {
   // the location of the remote schema
+  @Input
   def schemaUrl
   // the name if the schema
+  @Input
   def schemaName
   // the name of the resource group
+  @Input
   def resourceGroup
 
   @TaskAction
@@ -380,7 +395,7 @@ class XmlSchemaDownloadTask extends DefaultTask {
     File schemaFile = new File(schemaTargetDir, 'schema.xsd')
 
     // download archive
-    project.download {
+    project.download.run {
       src schemaUrl
       dest schemaFile
       overwrite true
@@ -636,6 +651,7 @@ task(jars) {
  */
 task('publishJars', type: GradleBuild) {
   buildFile = file('publish.gradle')
+  buildName = 'publishJars'
 
   startParameter.projectProperties.publications = jarFolder.getAbsolutePath()
 
@@ -647,6 +663,7 @@ task('publishJars', type: GradleBuild) {
  */
 task('publishJarsToMavenLocal', type: GradleBuild) {
   buildFile = file('publish.gradle')
+  buildName = 'publishJarsToMavenLocal'
 
   startParameter.projectProperties.publications = jarFolder.getAbsolutePath()
 
