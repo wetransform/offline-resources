@@ -643,6 +643,17 @@ task('publishJars', type: GradleBuild) {
 }
 
 /**
+ * Task that publishes all Jars to the local maven repository.
+ */
+task('publishJarsToMavenLocal', type: GradleBuild) {
+  buildFile = file('publish.gradle')
+
+  startParameter.projectProperties.publications = jarFolder.getAbsolutePath()
+
+  tasks = ['publishToMavenLocal']
+}
+
+/**
  * Task for creating resource bundles used by hale
  */
 task haleResourceBundles() {

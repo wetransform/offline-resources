@@ -1,0 +1,48 @@
+plugins {
+  id 'java'
+}
+
+/*
+ * Dependencies
+ */
+
+repositories {
+  mavenLocal() // resources to be tested should come from here
+
+  mavenCentral()
+
+  maven {
+    url 'https://artifactory.wetransform.to/artifactory/local'
+  }
+
+  maven { // wetransform internal repository (for offline resources API)
+    url 'https://artifactory.wetransform.to/artifactory/private'
+    credentials {
+      username project.hasProperty('wetfArtifactoryUser') ? wetfArtifactoryUser : ''
+      password project.hasProperty('wetfArtifactoryPassword') ? wetfArtifactoryPassword : ''
+    }
+  }
+}
+
+dependencies {
+  implementation 'to.wetransform:offline-resources-api:1.0.0'
+  implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+
+  // Testing
+  testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.1'
+  testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.1'
+
+  // Offline resources for testing
+  // Always test current versions
+  testRuntimeOnly 'to.wetransform.offline-resources:www.w3.org:CURRENT-SNAPSHOT'
+  testRuntimeOnly 'to.wetransform.offline-resources:inspire.ec.europa.eu:CURRENT-SNAPSHOT'
+}
+
+test {
+  useJUnitPlatform()
+}
+
+configurations.all {
+  // ensure SNAPSHOTs are updated every time if needed
+  resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+}
