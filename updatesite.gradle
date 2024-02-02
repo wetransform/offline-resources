@@ -1,0 +1,107 @@
+/*
+ * Build for update site.
+ *
+ * Requires artifacts to have beend published locally.
+ * (We use them instead of the Jars directly for adding the Maven dependency
+ * information to the manifests)
+ *
+ * Currently only builds an update site with only the CURRENT versions.
+ * This is intended for keeping dependent projects up-to-date with the latest
+ * versions.
+ */
+
+import org.semver4j.Semver
+
+buildscript {
+  repositories {
+    mavenCentral()
+  }
+  dependencies {
+    // for Semver class
+    classpath 'org.semver4j:semver4j:5.2.2'
+  }
+}
+
+plugins {
+  id "org.standardout.bnd-platform" version "3.0.0"
+}
+
+def pubs = file(project.findProperty('publications') ?: file('build/jars'))
+def pubGroup = project.findProperty('groupId') ?: 'to.wetransform.offline-resources'
+
+repositories {
+  mavenLocal()
+}
+
+configurations.all {
+  // ensure SNAPSHOTs are updated every time if needed
+  resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+}
+
+platform {
+  featureId = 'to.wetransform.offlineresources.feature'
+  featureName = 'Offline Resources'
+
+  addBndPlatformManifestHeaders = true
+
+  // bundles
+
+  def artifactVersions = [:] // map artifact name to release version
+  def currentArtifacts = new HashSet() // found CURRENT artifacts
+
+  pubs.listFiles().each { File file ->
+    if (file.name.endsWith('.jar')) {
+      // create a publication for each JAR
+
+      def name = file.name.substring(0, file.name.length() - 4)
+      def parts = name.split(/_/)
+      def jarVersion = parts[-1]
+      name = parts[0..-2].join('_')
+      boolean snapshot = jarVersion.endsWith('-SNAPSHOT')
+      boolean current = jarVersion.equals('CURRENT-SNAPSHOT')
+
+      if (current) {
+        currentArtifacts.add(name)
+      }
+      else if (!snapshot) {
+        artifactVersions[name] = jarVersion
+      }
+    }
+  }
+
+  def collectedVersions = []
+
+  currentArtifacts.each { name ->
+    def releaseVersion = artifactVersions[name]
+
+    if (releaseVersion) {
+      def semver = Semver.parse(releaseVersion)
+
+      if (!semver) {
+        throw new IllegalStateException("Version $releaseVersion cannot be parsed as semantic version")
+      }
+
+      // define bundle - Maven dependency points to latest version
+      bundle "${pubGroup}:${name}:CURRENT-SNAPSHOT", {
+        bnd {
+          // set release version as bundle version
+          version = releaseVersion
+        }
+      }
+
+      // collect versions to determine feature version
+      collectedVersions.add(semver)
+    }
+
+  }
+
+  // set feature version
+  featureVersion = collectedVersions.sort()[-1].version
+
+  /*
+   * Note: A feature with version 1.0.0 is created anyway - it seems this might
+   * be a bnd-platform bug. It includes the bundles with the original versions,
+   * not the ones we set.
+   */
+
+}
