@@ -7,6 +7,9 @@ on:
 
 jobs:
   update-and-create-pr:
+    # Only on main repository (don't create PRs on forks)
+    if: github.repository_owner == 'wetransform'
+
     runs-on: ubuntu-latest
 
     permissions:
