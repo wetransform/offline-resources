@@ -10,15 +10,15 @@
  * versions.
  */
 
-import org.semver4j.Semver
+import org.osgi.framework.Version
 
 buildscript {
   repositories {
     mavenCentral()
   }
   dependencies {
-    // for Semver class
-    classpath 'org.semver4j:semver4j:5.2.2'
+    // for Version class
+    classpath 'org.osgi:osgi.core:6.0.0'
   }
 }
 
@@ -75,10 +75,10 @@ platform {
     def releaseVersion = artifactVersions[name]
 
     if (releaseVersion) {
-      def semver = Semver.parse(releaseVersion)
+      def versionObj = Version.parseVersion(releaseVersion)
 
-      if (!semver) {
-        throw new IllegalStateException("Version $releaseVersion cannot be parsed as semantic version")
+      if (!versionObj) {
+        throw new IllegalStateException("Version $releaseVersion cannot be parsed as OSGi version")
       }
 
       // define bundle - Maven dependency points to latest version
@@ -90,18 +90,12 @@ platform {
       }
 
       // collect versions to determine feature version
-      collectedVersions.add(semver)
+      collectedVersions.add(versionObj)
     }
 
   }
 
   // set feature version
-  featureVersion = collectedVersions.sort()[-1].version
-
-  /*
-   * Note: A feature with version 1.0.0 is created anyway - it seems this might
-   * be a bnd-platform bug. It includes the bundles with the original versions,
-   * not the ones we set.
-   */
+  featureVersion = collectedVersions.sort()[-1].toString()
 
 }
