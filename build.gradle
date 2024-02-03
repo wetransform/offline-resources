@@ -1,4 +1,5 @@
 import java.time.*
+import java.time.format.*
 import java.time.temporal.*
 import eu.esdihumboldt.util.config.*
 
@@ -124,8 +125,8 @@ class MetadataHelper {
     updateConfig {
       it.year = year
       if (it.version == version) {
-        // same version -> add time as qualifier
-        version = "${version}-${project.ext.time}"
+        // same version -> add time as qualifier (OSGi style version)
+        version = ("${version}.${project.ext.time}" as String)
         if (it.version == version) {
           // still the same -> fail
           throw new IllegalStateException('Change detected but same version is already set')
