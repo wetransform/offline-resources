@@ -9,6 +9,11 @@ The resources are added to the repository to be able to track changes and keep m
 
 The goal is to use this as a base for using these resources for offline use in different applications, e.g. hale studio, deegree, etc.
 
+The resources can be accessed as follows:
+
+- Maven artifacts are published to Artifactory
+- An update site including only the latest versions is published to S3 and available [here](http://build-artifacts.wetransform.to/p2/offline-resources/current)
+
 Resource JARs
 -------------
 
