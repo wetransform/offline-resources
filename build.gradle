@@ -685,12 +685,12 @@ task('publishJarsToMavenLocal', type: GradleBuild) {
  * Requires Jars to be created and artifacts published to Maven Local beforehand.
  */
 task('updateSite', type: GradleBuild) {
-  buildFile = file('updatesite.gradle')
+  buildFile = file('updatesite/build.gradle')
   buildName = 'updateSite'
 
   startParameter.projectProperties.publications = jarFolder.getAbsolutePath()
 
-  tasks = ['updateSite']
+  tasks = ['clean', 'updateSite']
 }
 
 /**
