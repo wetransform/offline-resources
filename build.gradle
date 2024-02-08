@@ -313,7 +313,7 @@ class INSPIREDownloadTask extends DefaultTask {
 
     File applicationtempschemas = new File(temporaryDir, 'application-schemas-main')
     File tempRoot = new File(applicationtempschemas, 'tmp-schemas')
-    def versions = ['2021.1', '2021.2', '2022.1', '2022.2']
+    def versions = ['2021.1', '2021.2', '2022.1', '2022.2', '2023.1']
     // copy all versions in order
     versions.each { v ->
       project.copy {
