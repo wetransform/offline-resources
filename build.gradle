@@ -264,7 +264,62 @@ class INSPIREDownloadTask extends DefaultTask {
   // the remote URL to retrieve the resource ZIP archive from
   @Input
   def archiveUrl
-  
+
+  // create application schema index file
+  def inspireSchemaIndex(def project, File target, List<File> folders) {
+    // get application schemas from INSPIRE registry
+    def registry
+    new URL('https://inspire.ec.europa.eu/applicationschema/applicationschema.en.json').withReader { reader ->
+      registry = new groovy.json.JsonSlurper().parse(reader)
+    }
+    def appSchemas = []
+    registry.register.containeditems*.applicationschema.each {
+      def theme = it.theme
+      if (!theme) {
+        theme = it.themes?.getAt(0)?.theme
+      }
+
+      appSchemas << [id: it.id, name: it.label.text, theme: theme?.label?.text, themeId: theme?.id]
+    }
+
+    def inspireShortIdRegex = '^http://inspire.ec.europa.eu/applicationschema/([^/]*)$'
+
+    target.withWriter {
+      it << '<?xml version="1.0"?>\n'
+      def xml = new groovy.xml.MarkupBuilder(it)
+      xml.applicationSchemas {
+        appSchemas.each { appSchema ->
+          xml.applicationSchema(id: appSchema.id, name: appSchema.name, theme: appSchema.theme,
+              themeId: appSchema.themeId) {
+            // find corresponding schema files
+
+            // extract short identifier
+            def matcher = ( appSchema.id =~ inspireShortIdRegex )
+            def shortId = matcher[0][1]
+
+            // replace abandoned(?) Geology schema with Geology core
+            if (shortId == 'ge') shortId = 'ge-core'
+
+            folders.each { File folder ->
+              File asDir = new File(folder, shortId)
+              if (asDir.exists()) {
+                // find version subfolders
+                asDir.eachDir { File versionDir ->
+                  versionDir.eachFileMatch(~/.*\.xsd/) { File xsd ->
+                    xml.schema(
+                      version: versionDir.name,
+                      url: "https://inspire.ec.europa.eu/${folder.name}/${asDir.name}/${versionDir.name}/${xsd.name}"
+                    )
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
   @TaskAction
   def downloadAndExtract() {
     assert host
@@ -288,13 +343,13 @@ class INSPIREDownloadTask extends DefaultTask {
 
     def md = new MetadataHelper(project, targetDir)
     md.cleanFolderKeepMetadata()
-  
+
     project.copy {
       // Exclude Zip files, 'governance' folder, and 'readme.md' file
       exclude('**/*.zip', 'application-schemas-main/governance-release-process/**', 'application-schemas-main/README.md', 'application-schemas-main/.github/**')
-  
-    from project.zipTree(tmpSchemas)
-    into temporaryDir
+
+      from project.zipTree(tmpSchemas)
+      into temporaryDir
     }
 
     /*
@@ -343,10 +398,15 @@ class INSPIREDownloadTask extends DefaultTask {
       file.renameTo(destination)
     }
 
+    // create application schema index file (used by hale-studio specific bundle)
+    inspireSchemaIndex(project, new File(targetDir, 'applicationSchemas.xml'),
+      [new File(targetDir, 'schemas')]
+    )
+
     // update version on change
     md.setVersionIfChanged()
   }
-  }
+}
 
 class WgetHostIndexDownloadTask extends DefaultTask {
   // the list of URLs pointing to a web server index
@@ -613,6 +673,33 @@ task inspireSchemas(type: INSPIREDownloadTask) {
 }
 tasks.downloads.dependsOn(inspireSchemas)
 
+/**
+ * AAA and XPlanung schemas
+ */
+def aaaVersions = ['6.0', '7.1']
+def wfsExtVersions = [ '1.0', '2.0' ]
+def shapeChangeVersions = [ '1.0' ]
+// Map version number used in URLs to version number displayed to user
+def xplanungVersions = [
+  '4.0.2' :'4.0.2',
+  '4.1-Kernmodell' : '4.1',
+  '5.0' : '5.0.1',
+  '5.1' : '5.1.2',
+  '5.2' : '5.2.1',
+  '5.3' : '5.3',
+  '5.4' : '5.4',
+  '6.0' : '6.0'
+]
+
+task gdiRepositorySchemas(type: WgetHostIndexDownloadTask) {
+  group 'Download'
+  indexUrls = aaaVersions.collect { version -> "http://repository.gdi-de.org/schemas/adv/nas/${version}/" } +
+    wfsExtVersions.collect { version -> "http://repository.gdi-de.org/schemas/adv/wfsext/${version}/" } +
+    shapeChangeVersions.collect { version -> "http://repository.gdi-de.org/schemas/adv/sc/${version}/" } +
+    xplanungVersions.collect { urlVersion, displayVersion -> "https://repository.gdi-de.org/schemas/de.xleitstelle.xplanung/${urlVersion}/" }
+  fileExtensions = ['xml','xsd', 'txt']
+}
+tasks.downloads.dependsOn(gdiRepositorySchemas)
 
 /**
  * Schemas for metadata validation:
@@ -659,6 +746,110 @@ task metadataCSW2(type: XmlSchemaDownloadTask) {
 }
 tasks.downloads.dependsOn(metadataCSW2)
 */
+
+
+/*
+ * Download the FeatureConcept information from the INSPIRE registry, which is
+ * used in HALE when generating an INSPIRE Dataset Feed.
+ */
+task downloadInspireFeatureConcepts {
+  doLast {
+    File targetDir = project.file("${project.ext.resourcesFolder}/inspire-feature-concepts")
+
+    // clean up before download to remove any obsolete files
+    def md = new MetadataHelper(project, targetDir)
+    md.cleanFolderKeepMetadata()
+
+    def paths = ['featureconcept/featureconcept.en.json']
+    for (String path : paths) {
+      File localFile = new File(targetDir, path)
+      def fileUrl = "https://inspire.ec.europa.eu/" + path
+
+      // download file
+      project.download.run {
+        src fileUrl
+        dest localFile
+        overwrite true
+      }
+    }
+
+    // update version on change
+    md.setVersionIfChanged()
+  }
+}
+tasks.downloads.dependsOn('downloadInspireFeatureConcepts')
+
+
+/*
+ * Download code list files based on registry (requires wget, XML content type)
+ */
+task downloadInspireCodeLists {
+  doLast {
+
+    // determine resources to retrieve from registry
+    def registry
+    new URL('https://inspire.ec.europa.eu/codelist/codelist.en.json').withReader { reader ->
+      registry = new groovy.json.JsonSlurper().parse(reader)
+    }
+
+    def languages = ['en', 'bg', 'cs', 'hr', 'da', 'de', 'el', 'es', 'et', 'fi', 'fr',
+      'hu', 'it', 'lt', 'lv', 'mt', 'nl', 'pl', 'pt', 'ro', 'sk', 'sl', 'sv']
+
+    def genericUrls = []
+    def fixedUrls = []
+    registry.register.containeditems*.codelist.id.each { id ->
+      // the ID is the URI to retrieve the code list by default
+      genericUrls << id
+      // extract code list name
+      def regex = '/([^/]*)$'
+      def matcher = ( id =~ regex )
+      def name = matcher[0][1]
+      // add fixed urls TODO in all languages?
+      fixedUrls << "${id}/${name}.en.xml"
+      fixedUrls << "${id}/${name}.en.json"
+    }
+
+    // problem is, we can't download both generic and fixed,
+    // because the fixed URLs require a directory with the name
+    // of the generic URL -> so we create two archives/bundles
+
+    File genericDir = project.file("${project.ext.resourcesFolder}/inspire-code-lists-generic")
+
+    // clean up before download to remove any obsolete files
+    def genericMd = new MetadataHelper(project, genericDir)
+    genericMd.cleanFolderKeepMetadata()
+
+    genericUrls.each { url ->
+      exec {
+        workingDir = genericDir
+        executable = 'wget'
+        args '--force-directories', '--no-host-directories', "--header=Accept: application/xml", "--header=Accept-Language: en", url
+      }
+    }
+
+    // update version on change
+    genericMd.setVersionIfChanged()
+
+    File fixedDir = project.file("${project.ext.resourcesFolder}/inspire-code-lists-fixed")
+
+    // clean up before download to remove any obsolete files
+    def fixedMd = new MetadataHelper(project, fixedDir)
+    fixedMd.cleanFolderKeepMetadata()
+
+    fixedUrls.each { url ->
+      exec {
+        workingDir = fixedDir
+        executable = 'wget'
+        args '--force-directories', '--no-host-directories', url
+      }
+    }
+
+    // update version on change
+    fixedMd.setVersionIfChanged()
+
+  }
+}
+tasks.downloads.dependsOn('downloadInspireCodeLists')
 
 
 /*
@@ -713,6 +904,7 @@ task(jars) {
    */
   files = project.ext.resourcesFolder.listFiles()
 
+  /* XXX currently not used - TODO control where a Jar should be created?
   files.each { File file ->
     if (file.isDirectory() && !file.name.equals('hosts')) {
       println "Creating resources JARs for ${file.name}"
@@ -736,6 +928,7 @@ task(jars) {
       md.generateJar(tmpJarFolder, jarFolder, file.name)
     }
   }
+  */
 
 }
 
@@ -776,9 +969,241 @@ task('updateSite', type: GradleBuild) {
   tasks = ['clean', 'updateSite']
 }
 
+/*
+ * Hale studio specific tasks
+ */
+
+class ResourceBundleTask extends DefaultTask {
+  // the host that the resource bundle mirrors resources from
+  @Input
+  def host
+  // the local folder with source files
+  @Input
+  def sourceDir
+  // optional additional sources
+  @Input
+  @Optional
+  def additionalSources
+  // the prefix for the symbolic name
+  @Input
+  def symbolicNamePrefix = 'eu.esdihumboldt.util.resource'
+  // the bundle identifier (is appended to prefix sepearate by a dot)
+  @Input
+  def bundleId
+  // the served resource type
+  @Input
+  def resourceType = 'xmlSchema'
+  // the destination dir
+  @Input
+  def destDir = project.buildDir
+  // extra content for the plugin.xml - must be a closure taking a markup builder as argument
+  @Internal
+  java.util.function.Consumer<groovy.xml.MarkupBuilder> pluginExtra
+
+  ResourceBundleTask() {
+    getOutputs().upToDateWhen {
+      // we don't support proper up-to-date checking here
+      false
+    }
+  }
+
+  @TaskAction
+  def createBundle() {
+    assert host
+    assert sourceDir
+    assert bundleId
+    assert symbolicNamePrefix
+    assert resourceType // the primary resource type
+    assert destDir
+
+    def md = new MetadataHelper(project, sourceDir)
+
+    def version = md.version
+    def symbolicName = "$symbolicNamePrefix.$bundleId"
+
+    File tmpDir = temporaryDir //File.createTempFile('resources', 'bundle')
+    tmpDir.delete()
+    tmpDir.mkdir()
+
+    // create plugin.xml
+    File tmpPluginXml = new File(tmpDir, 'plugin.xml')
+    tmpPluginXml.withWriter {
+      it << '<?xml version="1.0"?>\n'
+      it << '<?eclipse version="3.4"?>\n'
+      def xml = new groovy.xml.MarkupBuilder(it)
+      xml.plugin {
+        extension(point: 'eu.esdihumboldt.util.resource') {
+          resolver(id: bundleId, resourceType: resourceType) {
+            xml.host(name: host)
+            bundleResolver()
+          }
+        }
+        if (pluginExtra != null) {
+          pluginExtra.accept(xml)
+        }
+      }
+    }
+
+    def variants = [version, md.snapshot, 'CURRENT-SNAPSHOT']
+    variants.each { variant ->
+      File bundle = new File(destDir, "${symbolicName}_${variant}.jar")
+
+      // build jar
+      ant.jar(destfile: bundle) {
+        fileset (dir: sourceDir, excludes: '**/.metadata/**')
+        if (additionalSources) {
+          fileset (dir: additionalSources, excludes: '**/.metadata/**')
+        }
+        fileset (dir: tmpPluginXml.parentFile, includes: tmpPluginXml.name)
+        manifest {
+          attribute(name: 'Bundle-Version', value: version)
+          attribute(name: 'Bundle-Name', value: "Resources from $host")
+          attribute(name: 'Bundle-ManifestVersion', value: 2)
+          attribute(name: 'Bundle-SymbolicName', value: "$symbolicName;singleton:=true")
+        }
+      }
+    }
+  }
+}
+
 /**
  * Task for creating resource bundles used by hale
  */
 task haleResourceBundles() {
-  //TODO separate task or adapt hale functionality to work with JARs built in jars task?
 }
+
+task porteleSchemasBundle(type: ResourceBundleTask) {
+  bundleId = 'schemas.portele.de'
+  host = 'portele.de'
+  sourceDir = new File(hostsFolder, 'portele.de')
+  destDir = jarFolder
+}
+haleResourceBundles.dependsOn('porteleSchemasBundle')
+
+task inspireFeatureConceptsBundle(type: ResourceBundleTask) {
+  bundleId = 'featureconcepts.inspire'
+  host = 'inspire.ec.europa.eu'
+  sourceDir = new File(resourcesFolder, 'inspire-feature-concepts')
+  destDir = jarFolder
+}
+haleResourceBundles.dependsOn('inspireFeatureConceptsBundle')
+
+task w3SchemasBundle(type: ResourceBundleTask) {
+  bundleId = 'w3.org'
+  host = 'www.w3.org'
+  sourceDir = new File(hostsFolder, 'www.w3.org')
+  destDir = jarFolder
+}
+haleResourceBundles.dependsOn('w3SchemasBundle')
+
+task inspireCodeListsBundleGeneric(type: ResourceBundleTask) {
+  bundleId = 'codelists.inspire.accept-xml'
+  host = 'inspire.ec.europa.eu'
+  sourceDir = new File(resourcesFolder, 'inspire-code-lists-generic')
+  destDir = jarFolder
+  resourceType = 'xmlCodeList'
+}
+haleResourceBundles.dependsOn('inspireCodeListsBundleGeneric')
+
+task inspireCodeListsBundleFixed(type: ResourceBundleTask) {
+  bundleId = 'codelists.inspire'
+  host = 'inspire.ec.europa.eu'
+  sourceDir = new File(resourcesFolder, 'inspire-code-lists-fixed')
+  destDir = jarFolder
+  resourceType = 'xmlCodeList'
+}
+haleResourceBundles.dependsOn('inspireCodeListsBundleFixed')
+
+task opengisBundle(type: ResourceBundleTask) {
+  bundleId = 'schemas.opengis.net'
+  host = 'schemas.opengis.net'
+  sourceDir = new File(hostsFolder, 'schemas.opengis.net')
+  destDir = jarFolder
+}
+haleResourceBundles.dependsOn('opengisBundle')
+
+task inspireSchemasBundle(type: ResourceBundleTask) {
+  bundleId = 'schemas.inspire'
+  host = 'inspire.ec.europa.eu'
+  sourceDir = new File(hostsFolder, 'inspire.ec.europa.eu')
+  additionalSources = new File(resourcesFolder, 'inspire-fixup')
+  destDir = jarFolder
+  pluginExtra = { xml ->
+    // read application schemas file
+    def applicationSchemasFile = new File(sourceDir, 'applicationSchemas.xml')
+    def appSchemas = new groovy.xml.XmlSlurper().parse(applicationSchemasFile)
+
+    def themeShortIdRegex = '^http://inspire.ec.europa.eu/theme/([^/]*)$'
+
+    xml.extension(point: 'eu.esdihumboldt.hale.ui.schema.presets') {
+      println appSchemas
+      appSchemas.applicationSchema.each { appSchema ->
+        def id = appSchema.@id
+
+        appSchema.schema.each { schema ->
+          def theme = appSchema.@theme as String
+          def descr = theme ? "GML Application Schema from the INSPIRE Data Specification on ${theme}." : "Application Schema from the INSPIRE Data Specifications (not associated to a theme)."
+
+          def themeId = appSchema.@themeId as String
+          def iconPath = 'icons/inspire.gif'
+          if (themeId) {
+            // extract short identifier
+            def matcher = ( themeId =~ themeShortIdRegex )
+            def shortId = matcher[0][1]
+
+            iconPath = "icons/themes/16_${shortId}.png"
+          }
+
+          xml.schema(
+            description: descr,
+            icon: iconPath,
+            id: id,
+            name: "INSPIRE ${appSchema.'@name'}",
+//            tag: 'Bundled',
+            version: schema.@version
+          ) {
+            xml.uri(value: schema.@url)
+          }
+        }
+      }
+    }
+  }
+}
+haleResourceBundles.dependsOn('inspireSchemasBundle')
+
+task gdiRepositorySchemasBundle(type: ResourceBundleTask) {
+  bundleId = 'schemas.repository.gdi-de.org'
+  host = 'repository.gdi-de.org'
+  sourceDir = new File(hostsFolder, 'repository.gdi-de.org')
+  additionalSources = new File(resourcesFolder, 'xplanung-fixup')
+  destDir = jarFolder
+  pluginExtra = { xml ->
+    xml.extension(point: 'eu.esdihumboldt.hale.ui.schema.presets') {
+      aaaVersions.each { version ->
+        xml.schema(
+          category: 'de',
+          description: "AAA (ATKIS, ALKIS, AFIS) Modell der Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV)",
+          id: "de.adv-online.aaa.${version.replace('.', '_')}",
+          name: "AAA XML Schema",
+          version: "${version}"
+        ) {
+          xml.uri(value: "http://repository.gdi-de.org/schemas/adv/nas/${version}/aaa.xsd")
+        }
+      }
+
+      xplanungVersions.each { urlVersion, displayVersion ->
+        xml.schema(
+          category: 'de',
+          description: "XPlanung GML Application Schema",
+          icon: 'icons/xplanung.png',
+          id: "de.xplanung.xplangml.${urlVersion.replace('.', '_')}",
+          name: "XPlanGML",
+          version: "${displayVersion}"
+        ) {
+          xml.uri(value: "https://repository.gdi-de.org/schemas/de.xleitstelle.xplanung/${urlVersion}/XPlanung-Operationen.xsd")
+        }
+      }
+    }
+  }
+}
+haleResourceBundles.dependsOn('gdiRepositorySchemasBundle')
