@@ -86,6 +86,9 @@ platform {
         bnd {
           // set release version as bundle version
           version = releaseVersion
+          // only resources contained, don't export packages
+          instruction 'Export-Package', ''
+          instruction 'Private-Package', '*'
         }
       }
 

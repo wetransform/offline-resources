@@ -30,7 +30,7 @@ jobs:
 
     - name: Download resources and run tests
       run: |
-        ./gradlew downloads jars publishJarsToMavenLocal :test:test
+        ./gradlew downloads jars haleResourceBundles publishJarsToMavenLocal :test:test
       env:
         ORG_GRADLE_PROJECT_wetfArtifactoryUser: ${{ secrets.WETF_ARTIFACTORY_USER }}
         ORG_GRADLE_PROJECT_wetfArtifactoryPassword: ${{ secrets.WETF_ARTIFACTORY_PASSWORD }}
