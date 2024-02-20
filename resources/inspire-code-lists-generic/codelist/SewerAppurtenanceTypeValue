@@ -1,0 +1,615 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:19 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue</latestversion>
+   <label xml:lang="en">Sewer Appurtenance Type</label>
+   <definition xml:lang="en">Classification of sewer appurtenances.</definition>
+   <parents>
+      <parent id="http://inspire.ec.europa.eu/codelist/SpecificAppurtenanceTypeValue">
+         <label xml:lang="en">Specific Appurtenance Type</label>
+      </parent>
+   </parents>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-sw">
+      <label xml:lang="en">Sewer Network</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/us">
+      <label xml:lang="en">Utility and governmental services</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/anode">
+         <language>en</language>
+         <created>2015-08-18 17:36 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/anode:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/anode</latestversion>
+         <label xml:lang="en">anode</label>
+         <definition xml:lang="en">Anode.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue">
+            <label xml:lang="en">Sewer Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-sw">
+            <label xml:lang="en">Sewer Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/barrel">
+         <language>en</language>
+         <created>2015-08-18 17:36 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/barrel:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/barrel</latestversion>
+         <label xml:lang="en">barrel</label>
+         <definition xml:lang="en">Barrel.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue">
+            <label xml:lang="en">Sewer Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-sw">
+            <label xml:lang="en">Sewer Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/barScreen">
+         <language>en</language>
+         <created>2015-08-18 17:36 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/barScreen:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/barScreen</latestversion>
+         <label xml:lang="en">bar screen</label>
+         <definition xml:lang="en">Bar screen.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue">
+            <label xml:lang="en">Sewer Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-sw">
+            <label xml:lang="en">Sewer Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/catchBasin">
+         <language>en</language>
+         <created>2015-08-18 17:36 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/catchBasin:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/catchBasin</latestversion>
+         <label xml:lang="en">catch basin</label>
+         <definition xml:lang="en">Catch basin.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue">
+            <label xml:lang="en">Sewer Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-sw">
+            <label xml:lang="en">Sewer Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/cleanOut">
+         <language>en</language>
+         <created>2015-08-18 17:36 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/cleanOut:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/cleanOut</latestversion>
+         <label xml:lang="en">clean out</label>
+         <definition xml:lang="en">Clean out.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue">
+            <label xml:lang="en">Sewer Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-sw">
+            <label xml:lang="en">Sewer Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/dischargeStructure">
+         <language>en</language>
+         <created>2015-08-18 17:36 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/dischargeStructure:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/dischargeStructure</latestversion>
+         <label xml:lang="en">discharge structure</label>
+         <definition xml:lang="en">Discharge structure.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue">
+            <label xml:lang="en">Sewer Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-sw">
+            <label xml:lang="en">Sewer Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/meter">
+         <language>en</language>
+         <created>2015-08-18 17:36 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/meter:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/meter</latestversion>
+         <label xml:lang="en">meter</label>
+         <definition xml:lang="en">Meter.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue">
+            <label xml:lang="en">Sewer Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-sw">
+            <label xml:lang="en">Sewer Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/pump">
+         <language>en</language>
+         <created>2015-08-18 17:36 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/pump:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/pump</latestversion>
+         <label xml:lang="en">pump</label>
+         <definition xml:lang="en">Pump.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue">
+            <label xml:lang="en">Sewer Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-sw">
+            <label xml:lang="en">Sewer Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/regulator">
+         <language>en</language>
+         <created>2015-08-18 17:36 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/regulator:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/regulator</latestversion>
+         <label xml:lang="en">regulator</label>
+         <definition xml:lang="en">Regulator.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue">
+            <label xml:lang="en">Sewer Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-sw">
+            <label xml:lang="en">Sewer Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/scadaSensor">
+         <language>en</language>
+         <created>2015-08-18 17:36 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/scadaSensor:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/scadaSensor</latestversion>
+         <label xml:lang="en">scada sensor</label>
+         <definition xml:lang="en">SCADA sensor.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue">
+            <label xml:lang="en">Sewer Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-sw">
+            <label xml:lang="en">Sewer Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/thrustProtection">
+         <language>en</language>
+         <created>2015-08-18 17:36 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/thrustProtection:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/thrustProtection</latestversion>
+         <label xml:lang="en">thrust protection</label>
+         <definition xml:lang="en">Thrust protection.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue">
+            <label xml:lang="en">Sewer Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-sw">
+            <label xml:lang="en">Sewer Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/tideGate">
+         <language>en</language>
+         <created>2015-08-18 17:36 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/tideGate:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/tideGate</latestversion>
+         <label xml:lang="en">tide gate</label>
+         <definition xml:lang="en">Tide gate.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue">
+            <label xml:lang="en">Sewer Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-sw">
+            <label xml:lang="en">Sewer Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/sewerNode">
+         <language>en</language>
+         <created>2015-08-18 17:36 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/sewerNode:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/sewerNode</latestversion>
+         <label xml:lang="en">sewer network node</label>
+         <definition xml:lang="en">Node in a sewer network.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue">
+            <label xml:lang="en">Sewer Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-sw">
+            <label xml:lang="en">Sewer Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/connection">
+         <language>en</language>
+         <created>2015-08-18 17:36 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/connection:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/connection</latestversion>
+         <label xml:lang="en">connection</label>
+         <definition xml:lang="en">Connection.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue">
+            <label xml:lang="en">Sewer Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-sw">
+            <label xml:lang="en">Sewer Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/specificStructure">
+         <language>en</language>
+         <created>2015-08-18 17:36 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/specificStructure:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/specificStructure</latestversion>
+         <label xml:lang="en">specific structure</label>
+         <definition xml:lang="en">Specific structure.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue">
+            <label xml:lang="en">Sewer Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-sw">
+            <label xml:lang="en">Sewer Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/mechanicAndElectromechanicEquipment">
+         <language>en</language>
+         <created>2015-08-18 17:36 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/mechanicAndElectromechanicEquipment:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/mechanicAndElectromechanicEquipment</latestversion>
+         <label xml:lang="en">mechanic and electromechanic equipment</label>
+         <definition xml:lang="en">Mechanic and electromechanic equipment.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue">
+            <label xml:lang="en">Sewer Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-sw">
+            <label xml:lang="en">Sewer Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/rainwaterCollector">
+         <language>en</language>
+         <created>2015-08-18 17:36 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/rainwaterCollector:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/rainwaterCollector</latestversion>
+         <label xml:lang="en">rainwater collector</label>
+         <definition xml:lang="en">Rainwater collector.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue">
+            <label xml:lang="en">Sewer Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-sw">
+            <label xml:lang="en">Sewer Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/watertankOrChamber">
+         <language>en</language>
+         <created>2015-08-18 17:37 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/watertankOrChamber:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/watertankOrChamber</latestversion>
+         <label xml:lang="en">watertank or chamber</label>
+         <definition xml:lang="en">Watertank or chamber.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue">
+            <label xml:lang="en">Sewer Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-sw">
+            <label xml:lang="en">Sewer Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

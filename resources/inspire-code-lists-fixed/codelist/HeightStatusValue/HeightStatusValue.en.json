@@ -1,0 +1,269 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Height Status",
+          "id" : "http://inspire.ec.europa.eu/codelist/HeightStatusValue"
+        },
+        "created" : "2015-08-18 17:28 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "EXAMPLE 1: Typically, the height has been estimated from the number of floors.\\nEXAMPLE 2: In some cases, the height has been estimated by interpolation of a set of heights of adjacent buildings.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "estimated",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "bu-base",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Building Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "definition" : {
+          "text" : "The height has been estimated and not measured.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "bu",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/bu"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/HeightStatusValue/estimated",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/HeightStatusValue/estimated",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/HeightStatusValue/estimated:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Height Status",
+          "id" : "http://inspire.ec.europa.eu/codelist/HeightStatusValue"
+        },
+        "created" : "2015-08-18 17:28 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "EXAMPLE: typically, the elevation at ground level and at roof level has been measured by stereo-plotting or by field survey or by cross-referencing with DTM (Digital Terrain Model).",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "measured",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "bu-base",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Building Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "definition" : {
+          "text" : "The height has been (directly or indirectly) measured.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "bu",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/bu"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/HeightStatusValue/measured",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/HeightStatusValue/measured",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/HeightStatusValue/measured:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Height Status",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "none",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Not extensible",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "bu-base",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Building Base",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+    },
+    "definition" : {
+      "text" : "Values indicating the method used to capture a height.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "bu",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/bu"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/HeightStatusValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/HeightStatusValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/HeightStatusValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

@@ -1,0 +1,125 @@
+﻿<!--Erzeugt mit KIT (www.kit.edu) UmlToXmlTransformation-Software, Erstellungsdatum: 31.10.2022 09:25:48-->
+<TypeDefinition xmlns="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ../xsd/ShapeChangeDefinitions.xsd" gml:id="xplan_LP_TypBioVerbundKomplex">
+  <gml:description>Datentyp mit Angaben zu Typen des Biotopverbunds.</gml:description>
+  <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_TypBioVerbundKomplex</gml:identifier>
+  <gml:name>xplan:LP_TypBioVerbundKomplex</gml:name>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_TypBioVerbundKomplex_flaechenTypBV">
+      <gml:description>Fl&amp;#228;chentyp des Biotopverbunds nach &amp;#167; 21 Abs. 3 BNatSchG.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_TypBioVerbundKomplex:attribute:flaechenTypBV</gml:identifier>
+      <gml:name>xplan:flaechenTypBV</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_TypBioVerbundKomplex_flaechenTypBV_LP_FlaechenTypBV_1000">
+          <gml:description>Kernfl&amp;#228;che</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_TypBioVerbundKomplex:flaechenTypBV:LP_FlaechenTypBV:1000</gml:identifier>
+          <gml:name>Kernflaeche</gml:name>
+          <gml:name codeSpace="lesbarerName">Kernfläche</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_TypBioVerbundKomplex_flaechenTypBV_LP_FlaechenTypBV_2000">
+          <gml:description>Verbindungsfl&amp;#228;che</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_TypBioVerbundKomplex:flaechenTypBV:LP_FlaechenTypBV:2000</gml:identifier>
+          <gml:name>Verbindungsfläche</gml:name>
+          <gml:name codeSpace="lesbarerName">Verbindungsfläche</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_TypBioVerbundKomplex_flaechenTypBV_LP_FlaechenTypBV_3000">
+          <gml:description>Verbindungselement</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_TypBioVerbundKomplex:flaechenTypBV:LP_FlaechenTypBV:3000</gml:identifier>
+          <gml:name>Verbindungselement</gml:name>
+          <gml:name codeSpace="lesbarerName">Verbindungselement</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>1</def:cardinality>
+      <def:valueTypeName>LP_FlaechenTypBV</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_TypBioVerbundKomplex_flaechentypBVSpeziell">
+      <gml:description>Differenzierung des speziellen Fl&amp;#228;chentyp des Biotopverbunds nach &amp;#167; 21 Abs. 3 BNatSchG.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_TypBioVerbundKomplex:attribute:flaechentypBVSpeziell</gml:identifier>
+      <gml:name>xplan:flaechentypBVSpeziell</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_TypBioVerbundKomplex_flaechentypBVSpeziell_LP_FlaechenTypBVSpeziell_1000">
+          <gml:description>Verbindungsr&amp;#228;ume</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_TypBioVerbundKomplex:flaechentypBVSpeziell:LP_FlaechenTypBVSpeziell:1000</gml:identifier>
+          <gml:name>Verbindungsraeume</gml:name>
+          <gml:name codeSpace="lesbarerName">Verbindungsräume</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_TypBioVerbundKomplex_flaechentypBVSpeziell_LP_FlaechenTypBVSpeziell_2000">
+          <gml:description>Verbundachse</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_TypBioVerbundKomplex:flaechentypBVSpeziell:LP_FlaechenTypBVSpeziell:2000</gml:identifier>
+          <gml:name>Verbundachse</gml:name>
+          <gml:name codeSpace="lesbarerName">Verbundachse</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_TypBioVerbundKomplex_flaechentypBVSpeziell_LP_FlaechenTypBVSpeziell_3000">
+          <gml:description>Wildtierkorridor</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_TypBioVerbundKomplex:flaechentypBVSpeziell:LP_FlaechenTypBVSpeziell:3000</gml:identifier>
+          <gml:name>Wildtierkorridor</gml:name>
+          <gml:name codeSpace="lesbarerName">Wildtierkorridor</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_TypBioVerbundKomplex_flaechentypBVSpeziell_LP_FlaechenTypBVSpeziell_4000">
+          <gml:description>Entwicklungsfl&amp;#228;che</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_TypBioVerbundKomplex:flaechentypBVSpeziell:LP_FlaechenTypBVSpeziell:4000</gml:identifier>
+          <gml:name>Entwicklungsflaeche</gml:name>
+          <gml:name codeSpace="lesbarerName">Entwicklungsfläche</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_TypBioVerbundKomplex_flaechentypBVSpeziell_LP_FlaechenTypBVSpeziell_5000">
+          <gml:description>Entwicklungsma&amp;#223;nahme</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_TypBioVerbundKomplex:flaechentypBVSpeziell:LP_FlaechenTypBVSpeziell:5000</gml:identifier>
+          <gml:name>Entwicklungsmassnahme</gml:name>
+          <gml:name codeSpace="lesbarerName">Entwicklungsmaßnahme</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_TypBioVerbundKomplex_flaechentypBVSpeziell_LP_FlaechenTypBVSpeziell_6000">
+          <gml:description>Vernetzungselement</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_TypBioVerbundKomplex:flaechentypBVSpeziell:LP_FlaechenTypBVSpeziell:6000</gml:identifier>
+          <gml:name>Vernetzungselement</gml:name>
+          <gml:name codeSpace="lesbarerName">Vernetzungselement</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_TypBioVerbundKomplex_flaechentypBVSpeziell_LP_FlaechenTypBVSpeziell_7000">
+          <gml:description>Trittsteinbiotop</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_TypBioVerbundKomplex:flaechentypBVSpeziell:LP_FlaechenTypBVSpeziell:7000</gml:identifier>
+          <gml:name>Trittsteinbiotop</gml:name>
+          <gml:name codeSpace="lesbarerName">Trittsteinbiotop</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_TypBioVerbundKomplex_flaechentypBVSpeziell_LP_FlaechenTypBVSpeziell_9999">
+          <gml:description>Sonstiges Biotopverbundelement.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_TypBioVerbundKomplex:flaechentypBVSpeziell:LP_FlaechenTypBVSpeziell:9999</gml:identifier>
+          <gml:name>Sonstiges</gml:name>
+          <gml:name codeSpace="lesbarerName">Sonstiges</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>LP_FlaechenTypBVSpeziell</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_TypBioVerbundKomplex_flaechentypSpeziellText">
+      <gml:description>Textliche Erg&amp;#228;nzungen zu &lt;i&gt;flaechentypBVSpeziell&lt;/i&gt;.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_TypBioVerbundKomplex:attribute:flaechentypSpeziellText</gml:identifier>
+      <gml:name>xplan:flaechentypSpeziellText</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>CharacterString</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <def:classification>featureType</def:classification>
+</TypeDefinition>

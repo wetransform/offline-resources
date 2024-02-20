@@ -1,0 +1,103 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "created" : "2015-08-18 17:19 PM CEST",
+    "document" : {
+      "label" : {
+        "text" : "WasteStat",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/document/WasteStat"
+    },
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "EU Waste Statistics Economic Activity Classification",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "none",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Not extensible",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "act-core",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/act-core"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Activity Complex",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/act-core"
+    },
+    "definition" : {
+      "text" : "Classification of economic activities according to Section 8 of Annex I of Regulation (EC) No 2150/2002.",
+      "lang" : "en"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/EconomicActivityWasteStatisticsValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/EconomicActivityWasteStatisticsValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/EconomicActivityWasteStatisticsValue:1",
+    "parents" : [ {
+      "parent" : {
+        "label" : {
+          "text" : "Economic Activity",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EconomicActivityValue"
+      }
+    } ],
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

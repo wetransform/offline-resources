@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/LocatorLevelValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/LocatorLevelValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/LocatorLevelValue</latestversion>
+   <label xml:lang="en">Locator Level</label>
+   <definition xml:lang="en">The level to which the locator refers.</definition>
+   <description xml:lang="en">NOTE The locator level attribute enables the comparison of locators from different countries. \n\nEXAMPLE In The Netherlands a single locator, the address number, identifies a dwelling or business entity unit (unit level locator). In Spain up to four locators could be needed to obtain the same level of detail: Address number, entrance number, stair identifier plus a floor and door identifier.</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ad">
+      <label xml:lang="en">Addresses</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/ad">
+      <label xml:lang="en">Addresses</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/LocatorLevelValue/accessLevel">
+         <language>en</language>
+         <created>2015-08-18 17:39 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/LocatorLevelValue/accessLevel:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/LocatorLevelValue/accessLevel</latestversion>
+         <label xml:lang="en">access level</label>
+         <definition xml:lang="en">The locator identifies a specific access to a plot of land, building or similar by use of an entrance number or similar identifier.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/LocatorLevelValue">
+            <label xml:lang="en">Locator Level</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ad">
+            <label xml:lang="en">Addresses</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ad">
+            <label xml:lang="en">Addresses</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/LocatorLevelValue/postalDeliveryPoint">
+         <language>en</language>
+         <created>2015-08-18 17:39 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/LocatorLevelValue/postalDeliveryPoint:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/LocatorLevelValue/postalDeliveryPoint</latestversion>
+         <label xml:lang="en">postal delivery point</label>
+         <definition xml:lang="en">The locator identifies a postal delivery point.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/LocatorLevelValue">
+            <label xml:lang="en">Locator Level</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ad">
+            <label xml:lang="en">Addresses</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ad">
+            <label xml:lang="en">Addresses</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/LocatorLevelValue/siteLevel">
+         <language>en</language>
+         <created>2015-08-18 17:39 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/LocatorLevelValue/siteLevel:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/LocatorLevelValue/siteLevel</latestversion>
+         <label xml:lang="en">site level</label>
+         <definition xml:lang="en">The locator identifies a specific plot of land, building or similar property by use of an address number, building number, building or property name.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/LocatorLevelValue">
+            <label xml:lang="en">Locator Level</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ad">
+            <label xml:lang="en">Addresses</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ad">
+            <label xml:lang="en">Addresses</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/LocatorLevelValue/unitLevel">
+         <language>en</language>
+         <created>2015-08-18 17:39 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/LocatorLevelValue/unitLevel:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/LocatorLevelValue/unitLevel</latestversion>
+         <label xml:lang="en">unit level</label>
+         <definition xml:lang="en">The locator identifies a specific part of a building.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/LocatorLevelValue">
+            <label xml:lang="en">Locator Level</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ad">
+            <label xml:lang="en">Addresses</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ad">
+            <label xml:lang="en">Addresses</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

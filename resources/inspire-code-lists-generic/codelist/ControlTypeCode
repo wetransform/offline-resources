@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/ControlTypeCode">
+   <language>en</language>
+   <created>2015-08-18 17:19 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/ControlTypeCode:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/ControlTypeCode</latestversion>
+   <label xml:lang="en">Control Type Code</label>
+   <definition xml:lang="en">Types of control used to manage activities within the zone.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/any">
+      <label xml:lang="en">Empty code list</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/am">
+      <label xml:lang="en">Area Management Restriction and Regulation Zones</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/am">
+      <label xml:lang="en">Area management/restriction/regulation zones and reporting units</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+      <label xml:lang="en">Technical (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/ControlTypeCode/permitted">
+         <language>en</language>
+         <created>2015-08-18 17:50 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ControlTypeCode/permitted:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ControlTypeCode/permitted</latestversion>
+         <label xml:lang="en">permitted</label>
+         <definition xml:lang="en">The activity is allowed to be performed within the zone.</definition>
+         <description xml:lang="en">NOTE 1: To achieve or maintain good environmental status only a specific activity or activities may be allowed to be performed in the zone.\nNOTE 2: If an activity is only allowed between a particular time period then this should be documented in the validTime attribute.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ControlTypeCode">
+            <label xml:lang="en">Control Type Code</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/am">
+            <label xml:lang="en">Area Management Restriction and Regulation Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/am">
+            <label xml:lang="en">Area management/restriction/regulation zones and reporting units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ControlTypeCode/restricted">
+         <language>en</language>
+         <created>2015-08-18 17:50 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ControlTypeCode/restricted:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ControlTypeCode/restricted</latestversion>
+         <label xml:lang="en">restricted</label>
+         <definition xml:lang="en">An activity is limited to only be performed within specific bounds.</definition>
+         <description xml:lang="en">NOTE 1: To achieve or maintain good environmental status an activity may be restricted to mitigate the risk of environmental degradation.\nNOTE 2: If an activity is restricted between a particular time period then this should be documented in the validTime attribute\nEXAMPLE: Water abstraction: is restricted and controlled by licence where the operator may be limited to abstracting a specific amount of water per day.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ControlTypeCode">
+            <label xml:lang="en">Control Type Code</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/am">
+            <label xml:lang="en">Area Management Restriction and Regulation Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/am">
+            <label xml:lang="en">Area management/restriction/regulation zones and reporting units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ControlTypeCode/prohibited">
+         <language>en</language>
+         <created>2015-08-18 17:50 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ControlTypeCode/prohibited:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ControlTypeCode/prohibited</latestversion>
+         <label xml:lang="en">prohibited</label>
+         <definition xml:lang="en">An activity is not allowed to be performed within the zone.</definition>
+         <description xml:lang="en">NOTE 1: To achieve or maintain good environmental status specific activity or activities may not be allowed to be performed in the zone.\nNOTE 2: If an activity is prohibited within a particular time period then this should be documented in the schedule.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ControlTypeCode">
+            <label xml:lang="en">Control Type Code</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/am">
+            <label xml:lang="en">Area Management Restriction and Regulation Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/am">
+            <label xml:lang="en">Area management/restriction/regulation zones and reporting units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ControlTypeCode/promoted">
+         <language>en</language>
+         <created>2015-08-18 17:50 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ControlTypeCode/promoted:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ControlTypeCode/promoted</latestversion>
+         <label xml:lang="en">promoted</label>
+         <definition xml:lang="en">An activity that is positively promoted or introduced within the zone to achieve good environmental status.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ControlTypeCode">
+            <label xml:lang="en">Control Type Code</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/am">
+            <label xml:lang="en">Area Management Restriction and Regulation Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/am">
+            <label xml:lang="en">Area management/restriction/regulation zones and reporting units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

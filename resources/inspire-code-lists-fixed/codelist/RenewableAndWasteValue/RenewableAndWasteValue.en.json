@@ -1,0 +1,1057 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Renewable and Waste",
+          "id" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue"
+        },
+        "created" : "2015-08-18 17:29 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "It does not include gases created by anaerobic digestion of biomass (e.g. municipal or sewage gas) nor gasworks gas.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "biogas",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "er-b",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Energy Resources Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "definition" : {
+          "text" : "A gas composed principally of methane and carbon dioxide produced by anaerobic digestion of biomass.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "er",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/er"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/biogas",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/biogas",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/biogas:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/biogas:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Renewable and Waste",
+          "id" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue"
+        },
+        "created" : "2015-08-18 17:29 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "SOURCE Adapted from Energy Statistics Regulation EC 1099/2008 .",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "geothermal",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "er-b",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Energy Resources Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "definition" : {
+          "text" : "Energy available as heat emitted from within the Earth's crust, usually in the form of hot water or steam. This energy production is the difference between the enthalpy of the fluid produced in the production borehole and that of the fluid eventually disposed of. It is exploited at suitable sites for electricity generation or directly as heat.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "er",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/er"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/geothermal",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/geothermal",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/geothermal:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/geothermal:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Renewable and Waste",
+          "id" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue"
+        },
+        "created" : "2015-08-18 17:29 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "SOURCE Adapted from Energy Statistics Regulation EC 1099/2008 .",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "hydro power",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "er-b",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Energy Resources Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "definition" : {
+          "text" : "Potential and kinetic energy of water converted into electricity in hydroelectric plants.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "er",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/er"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/hydro",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/hydro",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/hydro:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Renewable and Waste",
+          "id" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue"
+        },
+        "created" : "2015-08-18 17:29 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "industrial waste",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "er-b",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Energy Resources Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "definition" : {
+          "text" : "Waste of industrial non-renewable origin (solids or liquids) combusted directly for the production of electricity and/or heat.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "er",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/er"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/industrialWaste",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/industrialWaste",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/industrialWaste:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Renewable and Waste",
+          "id" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue"
+        },
+        "created" : "2015-08-18 17:29 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "liquid biofuels",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "er-b",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Energy Resources Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "definition" : {
+          "text" : "Liquid biofuels are biogasoline, bio-diesels or other biofuels directly used as fuel.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "er",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/er"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/liquidBiofuels",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/liquidBiofuels",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/liquidBiofuels:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Renewable and Waste",
+          "id" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue"
+        },
+        "created" : "2015-08-18 17:29 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "SOURCE Adapted from Energy Statistics Regulation EC 1099/2008 .",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "municipal solid waste",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "er-b",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Energy Resources Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "definition" : {
+          "text" : "Waste produced by households, industry, hospitals and the tertiary sector which contains biodegradable materials that are incinerated at specific installations.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "er",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/er"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/municipalSolidWaste",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/municipalSolidWaste",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/municipalSolidWaste:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Renewable and Waste",
+          "id" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue"
+        },
+        "created" : "2015-08-18 17:29 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "SOURCE Adapted from Energy Statistics Regulation EC 1099/2008 .",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "solar photovoltaic",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "er-b",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Energy Resources Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "definition" : {
+          "text" : "Sunlight converted into electricity by the use of solar cells usually made of semi-conducting material which, when exposed to light, will generate electricity.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "er",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/er"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/solarPhotovoltaic",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/solarPhotovoltaic",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/solarPhotovoltaic:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/solarPhotovoltaic:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Renewable and Waste",
+          "id" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue"
+        },
+        "created" : "2015-08-18 17:29 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "SOURCE Adapted from Energy Statistics Regulation EC 1099/2008 .",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "solar thermal",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "er-b",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Energy Resources Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "definition" : {
+          "text" : "Heat from solar radiationthat can consist ofsolar thermal-electric plants or",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "er",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/er"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/solarThermal",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/solarThermal",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/solarThermal:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Renewable and Waste",
+          "id" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue"
+        },
+        "created" : "2015-08-18 17:29 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "SOURCE Adapted from Energy Statistics Regulation EC 1099/2008 .",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "solid biomass",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "er-b",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Energy Resources Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "definition" : {
+          "text" : "Covers organic, non-fossil material of biological origin which may be used as fuel for heat production or electricity generation.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "er",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/er"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/solidBiomass",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/solidBiomass",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/solidBiomass:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Renewable and Waste",
+          "id" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue"
+        },
+        "created" : "2015-08-18 17:29 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "SOURCE Adapted from Energy Statistics Regulation EC 1099/2008 .",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "tide, wave, ocean",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "er-b",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Energy Resources Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "definition" : {
+          "text" : "Mechanical energy derived from tidal movement, wave motion or ocean current and exploited for electricity generation.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "er",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/er"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/tideWaveOcean",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/tideWaveOcean",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/tideWaveOcean:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Renewable and Waste",
+          "id" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue"
+        },
+        "created" : "2015-08-18 17:29 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "SOURCE Adapted from Energy Statistics Regulation EC 1099/2008 .",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "wind",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "er-b",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Energy Resources Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "definition" : {
+          "text" : "Kinetic energy of wind exploited for electricity generation in wind turbines.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "er",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/er"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/wind",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/wind",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/wind:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "description" : {
+      "text" : "NOTE Waste values have been included in this code list to simplify the code lists rather than to imply that only renewable waste is included.",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Renewable and Waste",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "none",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Not extensible",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "er-b",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Energy Resources Base",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+    },
+    "definition" : {
+      "text" : "Types of renewable and waste resources.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "er",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/er"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/AquiferTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/AquiferTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/AquiferTypeValue</latestversion>
+   <label xml:lang="en">Aquifer Type</label>
+   <definition xml:lang="en">Types of aquifers.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+      <label xml:lang="en">Hydrogeology</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/ge">
+      <label xml:lang="en">Geology</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/AquiferTypeValue/confinedSubArtesian">
+         <language>en</language>
+         <created>2015-08-18 17:32 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AquiferTypeValue/confinedSubArtesian:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AquiferTypeValue/confinedSubArtesian</latestversion>
+         <label xml:lang="en">confined subartesian</label>
+         <definition xml:lang="en">An aquifer containing water between two relatively impermeable boundaries. The water level in a well tapping a confined aquifer stands above the top of the confined aquifer and can be higher or lower than the water table that may be present in the material above it. The water level does not rise above the ground surface.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AquiferTypeValue">
+            <label xml:lang="en">Aquifer Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AquiferTypeValue/confinedArtesian">
+         <language>en</language>
+         <created>2015-08-18 17:32 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AquiferTypeValue/confinedArtesian:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AquiferTypeValue/confinedArtesian</latestversion>
+         <label xml:lang="en">confined artesian</label>
+         <definition xml:lang="en">An aquifer containing water between two relatively impermeable boundaries. The water level in a well tapping a confined aquifer stands above the top of the confined aquifer and can be higher or lower than the water table that may be present in the material above. The water level rises above the ground surface, yielding a flowing well.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AquiferTypeValue">
+            <label xml:lang="en">Aquifer Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AquiferTypeValue/unconfined">
+         <language>en</language>
+         <created>2015-08-18 17:32 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AquiferTypeValue/unconfined:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AquiferTypeValue/unconfined</latestversion>
+         <label xml:lang="en">unconfined</label>
+         <definition xml:lang="en">An aquifer containing water that is not under pressure. The water level in a well is the same as the water table outside the well.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AquiferTypeValue">
+            <label xml:lang="en">Aquifer Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

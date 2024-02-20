@@ -1,0 +1,60 @@
+﻿<!--Erzeugt mit KIT (www.kit.edu) UmlToXmlTransformation-Software, Erstellungsdatum: 31.10.2022 09:24:38-->
+<TypeDefinition xmlns="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ../xsd/ShapeChangeDefinitions.xsd" gml:id="xplan_BP_Bereich">
+  <gml:description>Diese Klasse modelliert einen Bereich eines Bebauungsplans, z.B. einen räumlichen oder sachlichen Teilbereich.</gml:description>
+  <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_Bereich</gml:identifier>
+  <gml:name>xplan:BP_Bereich</gml:name>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_Bereich_verfahren">
+      <gml:description>Verfahrensart der BPlan-Aufstellung oder -Änderung.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_Bereich:attribute:verfahren</gml:identifier>
+      <gml:name>xplan:verfahren</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_Bereich_verfahren_BP_Verfahren_1000">
+          <gml:description>Normales BPlan Verfahren.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_Bereich:verfahren:BP_Verfahren:1000</gml:identifier>
+          <gml:name>Normal</gml:name>
+          <gml:name codeSpace="lesbarerName">Normal</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_Bereich_verfahren_BP_Verfahren_2000">
+          <gml:description>BPlan Verfahren nach Paragraph 13 BauGB.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_Bereich:verfahren:BP_Verfahren:2000</gml:identifier>
+          <gml:name>Parag13</gml:name>
+          <gml:name codeSpace="lesbarerName">Paragraph 13</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_Bereich_verfahren_BP_Verfahren_3000">
+          <gml:description>BPlan Verfahren nach Paragraph 13a BauGB.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_Bereich:verfahren:BP_Verfahren:3000</gml:identifier>
+          <gml:name>Parag13a</gml:name>
+          <gml:name codeSpace="lesbarerName">Paragraph 13a</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_Bereich_verfahren_BP_Verfahren_4000">
+          <gml:description>BPlan Verfahren nach Paragraph 13b BauGB.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_Bereich:verfahren:BP_Verfahren:4000</gml:identifier>
+          <gml:name>Parag13b</gml:name>
+          <gml:name codeSpace="lesbarerName">Paragraph 13b</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>BP_Verfahren</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_Bereich_gehoertZuPlan">
+      <gml:description>Referenz eines Bereichs eines Bebauungsplans auf das zugehörige Plan-Objekt.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_Bereich:association-role:gehoertZuPlan</gml:identifier>
+      <gml:name>xplan:gehoertZuPlan</gml:name>
+      <def:cardinality>1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:BP_Plan" />
+      <def:type>associationRole</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <def:classification>featureType</def:classification>
+  <def:supertypeRef xlink:href="urn:xplan:element:xplan:XP_Bereich" />
+</TypeDefinition>

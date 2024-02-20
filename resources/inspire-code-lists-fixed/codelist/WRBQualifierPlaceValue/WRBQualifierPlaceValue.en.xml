@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue">
+   <language>en</language>
+   <created>2015-08-18 17:19 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue</latestversion>
+   <label xml:lang="en">WRB Qualifier Place</label>
+   <definition xml:lang="en">A code list of values indicating the placement of the Qualifier with regard to the WRB reference soil group (RSG). The placement can be in front of the RSG i.e. 'prefix' or it can be behind the RSG i.e. 'suffix'.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+      <label xml:lang="en">Soil</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/so">
+      <label xml:lang="en">Soil</label>
+   </theme>
+   <document id="http://inspire.ec.europa.eu/document/WRBQuP">
+      <label xml:lang="en">World reference base for soil resources 2006, first update 2007, World Soil Resources Reports No. 103, Food and Agriculture Organization of the United Nations, Rome, 2007  (p. 51-66)</label>
+   </document>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue/prefix">
+         <language>en</language>
+         <created>2023-03-17 12:01 PM CET</created>
+         <issued>2023-03-16 15:02 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue/prefix:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue/prefix</latestversion>
+         <label xml:lang="en">prefix</label>
+         <definition xml:lang="en">Prefix</definition>
+         <description xml:lang="en">The placement of the Qualifier is before the WRB reference soil group (RSG)</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue">
+            <label xml:lang="en">WRB Qualifier Place</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <referencelink id="http://inspire.ec.europa.eu/document/WRBQuP">
+            <label xml:lang="en">http://inspire.ec.europa.eu/document/WRBQuP</label>
+         </referencelink>
+         <referencesource xml:lang="en">World reference base for soil resources 2006, first update 2007, World Soil Resources Reports No. 103, Food and Agriculture Organization of the United Nations, Rome, 2007 (p. 51-66)</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue/suffix">
+         <language>en</language>
+         <created>2023-03-17 12:01 PM CET</created>
+         <issued>2023-03-16 15:02 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue/suffix:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue/suffix</latestversion>
+         <label xml:lang="en">suffix</label>
+         <definition xml:lang="en">Suffix</definition>
+         <description xml:lang="en">The placement of the Qualifier is after the WRB reference soil group (RSG)</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue">
+            <label xml:lang="en">WRB Qualifier Place</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <referencelink id="http://inspire.ec.europa.eu/document/WRBQuP">
+            <label xml:lang="en">http://inspire.ec.europa.eu/document/WRBQuP</label>
+         </referencelink>
+         <referencesource xml:lang="en">World reference base for soil resources 2006, first update 2007, World Soil Resources Reports No. 103, Food and Agriculture Organization of the United Nations, Rome, 2007 (p. 51-66)</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

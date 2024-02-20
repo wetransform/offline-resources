@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue</latestversion>
+   <label xml:lang="en">Airspace Area Type</label>
+   <definition xml:lang="en">Recognised types of Airspace.</definition>
+   <description xml:lang="en">SOURCE [CodeAirspaceType - AIXM5.0].</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-a">
+      <label xml:lang="en">Air Transport Network</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/tn">
+      <label xml:lang="en">Transport networks</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/ATZ">
+         <language>en</language>
+         <created>2015-08-18 17:39 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/ATZ:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/ATZ</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/ATZ:1</version>
+         </previousversions>
+         <label xml:lang="en">Airport Traffic Zone</label>
+         <definition xml:lang="en">Airspace of defined dimensions established around an airport for the protection of airport traffic.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue">
+            <label xml:lang="en">Airspace Area Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-a">
+            <label xml:lang="en">Air Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/CTA">
+         <language>en</language>
+         <created>2015-08-18 17:39 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/CTA:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/CTA</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/CTA:1</version>
+         </previousversions>
+         <label xml:lang="en">control area</label>
+         <definition xml:lang="en">A controlled airspace extending upwards from a specified limit above the earth.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue">
+            <label xml:lang="en">Airspace Area Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-a">
+            <label xml:lang="en">Air Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/CTR">
+         <language>en</language>
+         <created>2015-08-18 17:39 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/CTR:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/CTR</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/CTR:1</version>
+         </previousversions>
+         <label xml:lang="en">control zone</label>
+         <definition xml:lang="en">A controlled airspace extending upwards from the surface of the earth to a specified upper limit.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue">
+            <label xml:lang="en">Airspace Area Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-a">
+            <label xml:lang="en">Air Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/D">
+         <language>en</language>
+         <created>2015-08-18 17:39 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/D:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/D</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/D:1</version>
+         </previousversions>
+         <label xml:lang="en">Danger area</label>
+         <definition xml:lang="en">Danger area. Airspace of defined dimensions within which activities dangerous to the flight of aircraft may exist at specified times.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue">
+            <label xml:lang="en">Airspace Area Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-a">
+            <label xml:lang="en">Air Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/FIR">
+         <language>en</language>
+         <created>2015-08-18 17:39 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/FIR:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/FIR</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/FIR:1</version>
+         </previousversions>
+         <label xml:lang="en">Flight Information Region</label>
+         <definition xml:lang="en">Airspace of defined dimensions within which flight information service and alerting service are provided. Might, for example, be used if service provided by more than one unit.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue">
+            <label xml:lang="en">Airspace Area Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-a">
+            <label xml:lang="en">Air Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/P">
+         <language>en</language>
+         <created>2015-08-18 17:39 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/P:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/P</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/P:1</version>
+         </previousversions>
+         <label xml:lang="en">Prohibited area</label>
+         <definition xml:lang="en">Prohibited area. Airspace of defined dimensions, above the land areas or territorial waters of a State, within which the flight of aircraft is prohibited.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue">
+            <label xml:lang="en">Airspace Area Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-a">
+            <label xml:lang="en">Air Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/R">
+         <language>en</language>
+         <created>2015-08-18 17:39 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/R:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/R</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/R:1</version>
+         </previousversions>
+         <label xml:lang="en">Restricted area</label>
+         <definition xml:lang="en">Restricted area. Airspace of defined dimensions, above the land areas or territorial waters of a State, within which the flight of aircraft is restricted in accordance with certain specified conditions.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue">
+            <label xml:lang="en">Airspace Area Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-a">
+            <label xml:lang="en">Air Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/TMA">
+         <language>en</language>
+         <created>2015-08-18 17:39 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/TMA:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/TMA</latestversion>
+         <label xml:lang="en">terminal control area</label>
+         <definition xml:lang="en">Control area normally established at the confluence of ATS routes in the vicinity of one or more major aerodromes. Mainly used in Europe under the Flexible Use of Airspace concept.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue">
+            <label xml:lang="en">Airspace Area Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-a">
+            <label xml:lang="en">Air Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/UIR">
+         <language>en</language>
+         <created>2015-08-18 17:39 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/UIR:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/UIR</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/UIR:1</version>
+         </previousversions>
+         <label xml:lang="en">Upper flight Information Region</label>
+         <definition xml:lang="en">An upper airspace of defined dimensions within which flight information service and alerting service are provided. Each state determines its definition for upper airspace.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue">
+            <label xml:lang="en">Airspace Area Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-a">
+            <label xml:lang="en">Air Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

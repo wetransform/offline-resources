@@ -1,0 +1,104 @@
+﻿<!--Erzeugt mit KIT (www.kit.edu) UmlToXmlTransformation-Software, Erstellungsdatum: 31.10.2022 09:25:22-->
+<TypeDefinition xmlns="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ../xsd/ShapeChangeDefinitions.xsd" gml:id="xplan_FP_Nutzungsbeschraenkung">
+  <gml:description>Umgrenzungen von Flächen für Nutzungsbeschränkungen oder für Vorkehrungen zum Schutz gegen schädliche Umwelteinwirkungen im Sinne des Bundes-Immissionsschutzgesetzes (§ 5, Abs. 2, Nr. 6 BauGB)</gml:description>
+  <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:FP_Nutzungsbeschraenkung</gml:identifier>
+  <gml:name>xplan:FP_Nutzungsbeschraenkung</gml:name>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_FP_Nutzungsbeschraenkung_nutzung">
+      <gml:description>Festgesetzte Nutzung der Fläche</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:FP_Nutzungsbeschraenkung:attribute:nutzung</gml:identifier>
+      <gml:name>xplan:nutzung</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::CharacterString" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_FP_Nutzungsbeschraenkung_typ">
+      <gml:description>Differenzierung der Fläche gemäß BauGB</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:FP_Nutzungsbeschraenkung:attribute:typ</gml:identifier>
+      <gml:name>xplan:typ</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_FP_Nutzungsbeschraenkung_typ_XP_ImmissionsschutzTypen_1000">
+          <gml:description>Von der Bebauung freizuhaltende Schutzfl&amp;#228;che nach &amp;#167;9 Abs. 1 Nr. 24 BauGB</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:FP_Nutzungsbeschraenkung:typ:XP_ImmissionsschutzTypen:1000</gml:identifier>
+          <gml:name>Schutzflaeche</gml:name>
+          <gml:name codeSpace="lesbarerName">Schutzfläche</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_FP_Nutzungsbeschraenkung_typ_XP_ImmissionsschutzTypen_2000">
+          <gml:description>Fl&amp;#228;che f&amp;#252;r besondere Anlagen und Vorkehrungen zum Schutz vor sch&amp;#228;dlichen Umwelteinwirkungen nach &amp;#167;9 Abs. 1 Nr. 24 oder &amp;#167;5 Abs.2 Nr.6 BauGB</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:FP_Nutzungsbeschraenkung:typ:XP_ImmissionsschutzTypen:2000</gml:identifier>
+          <gml:name>BesondereAnlagenVorkehrungen</gml:name>
+          <gml:name codeSpace="lesbarerName">Besondere Anlagen oder Vorkehrungen</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>XP_ImmissionsschutzTypen</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_FP_Nutzungsbeschraenkung_technVorkehrung">
+      <gml:description>Klassifizierung der auf der Fläche zu treffenden baulichen oder sonstigen technischen Vorkehrungen</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:FP_Nutzungsbeschraenkung:attribute:technVorkehrung</gml:identifier>
+      <gml:name>xplan:technVorkehrung</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_FP_Nutzungsbeschraenkung_technVorkehrung_XP_TechnVorkehrungenImmissionsschutz_1000">
+          <gml:description>Allgemeine Lärmschutzvorkehrung</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:FP_Nutzungsbeschraenkung:technVorkehrung:XP_TechnVorkehrungenImmissionsschutz:1000</gml:identifier>
+          <gml:name>Laermschutzvorkehrung</gml:name>
+          <gml:name codeSpace="lesbarerName">Lärmschutzvorkehrung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_FP_Nutzungsbeschraenkung_technVorkehrung_XP_TechnVorkehrungenImmissionsschutz_10000">
+          <gml:description>Fassaden mit Schallschutzmaßnahmen</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:FP_Nutzungsbeschraenkung:technVorkehrung:XP_TechnVorkehrungenImmissionsschutz:10000</gml:identifier>
+          <gml:name>FassadenMitSchallschutzmassnahmen</gml:name>
+          <gml:name codeSpace="lesbarerName">Fassaden mit Schallschutzmaßnahmen</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_FP_Nutzungsbeschraenkung_technVorkehrung_XP_TechnVorkehrungenImmissionsschutz_10001">
+          <gml:description>Lärmschutzwand</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:FP_Nutzungsbeschraenkung:technVorkehrung:XP_TechnVorkehrungenImmissionsschutz:10001</gml:identifier>
+          <gml:name>Laermschutzwand</gml:name>
+          <gml:name codeSpace="lesbarerName">Lärmschutzwand</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_FP_Nutzungsbeschraenkung_technVorkehrung_XP_TechnVorkehrungenImmissionsschutz_10002">
+          <gml:description>Lärmschutzwall</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:FP_Nutzungsbeschraenkung:technVorkehrung:XP_TechnVorkehrungenImmissionsschutz:10002</gml:identifier>
+          <gml:name>Laermschutzwall</gml:name>
+          <gml:name codeSpace="lesbarerName">Lärmschutzwall</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_FP_Nutzungsbeschraenkung_technVorkehrung_XP_TechnVorkehrungenImmissionsschutz_9999">
+          <gml:description>Sonstige Vorkehrung zum Immissionsschutz</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:FP_Nutzungsbeschraenkung:technVorkehrung:XP_TechnVorkehrungenImmissionsschutz:9999</gml:identifier>
+          <gml:name>SonstigeVorkehrung</gml:name>
+          <gml:name codeSpace="lesbarerName">Sonstige Vorkehrung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>XP_TechnVorkehrungenImmissionsschutz</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_FP_Nutzungsbeschraenkung_detaillierteTechnVorkehrung">
+      <gml:description>Detaillierte Klassifizierung der auf der Fläche zu treffenden baulichen oder sonstigen technischen Vorkehrungen.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:FP_Nutzungsbeschraenkung:attribute:detaillierteTechnVorkehrung</gml:identifier>
+      <gml:name>xplan:detaillierteTechnVorkehrung</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>XP_DetailTechnVorkehrungImmissionsschutz</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <def:classification>featureType</def:classification>
+  <def:supertypeRef xlink:href="urn:xplan:element:xplan:FP_Geometrieobjekt" />
+</TypeDefinition>

@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/RegionClassificationLevelValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/RegionClassificationLevelValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/RegionClassificationLevelValue</latestversion>
+   <label xml:lang="en">Region Classification Level</label>
+   <definition xml:lang="en">Codes defining the classification level of the region class.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/br">
+      <label xml:lang="en">Bio-geographical Regions</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/br">
+      <label xml:lang="en">Bio-geographical regions</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/RegionClassificationLevelValue/international">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RegionClassificationLevelValue/international:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RegionClassificationLevelValue/international</latestversion>
+         <label xml:lang="en">International</label>
+         <definition xml:lang="en">This is a region classification on the international level.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RegionClassificationLevelValue">
+            <label xml:lang="en">Region Classification Level</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/br">
+            <label xml:lang="en">Bio-geographical Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/br">
+            <label xml:lang="en">Bio-geographical regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RegionClassificationLevelValue/local">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RegionClassificationLevelValue/local:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RegionClassificationLevelValue/local</latestversion>
+         <label xml:lang="en">Local</label>
+         <definition xml:lang="en">This is a region classification on the local level.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RegionClassificationLevelValue">
+            <label xml:lang="en">Region Classification Level</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/br">
+            <label xml:lang="en">Bio-geographical Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/br">
+            <label xml:lang="en">Bio-geographical regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RegionClassificationLevelValue/national">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RegionClassificationLevelValue/national:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RegionClassificationLevelValue/national</latestversion>
+         <label xml:lang="en">National</label>
+         <definition xml:lang="en">This is a region classification on the national level.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RegionClassificationLevelValue">
+            <label xml:lang="en">Region Classification Level</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/br">
+            <label xml:lang="en">Bio-geographical Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/br">
+            <label xml:lang="en">Bio-geographical regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RegionClassificationLevelValue/regional">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RegionClassificationLevelValue/regional:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RegionClassificationLevelValue/regional</latestversion>
+         <label xml:lang="en">Regional</label>
+         <definition xml:lang="en">This is a region classification on the regional level.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RegionClassificationLevelValue">
+            <label xml:lang="en">Region Classification Level</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/br">
+            <label xml:lang="en">Bio-geographical Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/br">
+            <label xml:lang="en">Bio-geographical regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

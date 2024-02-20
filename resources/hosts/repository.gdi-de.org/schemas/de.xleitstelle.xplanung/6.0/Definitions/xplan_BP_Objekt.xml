@@ -1,0 +1,108 @@
+﻿<!--Erzeugt mit KIT (www.kit.edu) UmlToXmlTransformation-Software, Erstellungsdatum: 31.10.2022 09:24:39-->
+<TypeDefinition xmlns="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ../xsd/ShapeChangeDefinitions.xsd" gml:id="xplan_BP_Objekt">
+  <gml:description>Basisklasse für alle raumbezogenen Festsetzungen,  Hinweise, Vermerke und Kennzeichnungen eines Bebauungsplans.</gml:description>
+  <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_Objekt</gml:identifier>
+  <gml:name>xplan:BP_Objekt</gml:name>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_Objekt_wirdAusgeglichenDurchFlaeche">
+      <gml:description>Referenz auf Ausgleichsfläche, die den Eingriff ausgleicht.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_Objekt:association-role:wirdAusgeglichenDurchFlaeche</gml:identifier>
+      <gml:name>xplan:wirdAusgeglichenDurchFlaeche</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:BP_AusgleichsFlaeche" />
+      <def:type>associationRole</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_Objekt_wirdAusgeglichenDurchABE">
+      <gml:description>Referenz auf eine Anpflanzungs-, Bindungs- oder Erhaltungsmaßnahme, durch die ein Eingriff ausgeglichen wird.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_Objekt:association-role:wirdAusgeglichenDurchABE</gml:identifier>
+      <gml:name>xplan:wirdAusgeglichenDurchABE</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:BP_AnpflanzungBindungErhaltung" />
+      <def:type>associationRole</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_Objekt_wirdAusgeglichenDurchSPEMassnahme">
+      <gml:description>Referenz auf eine Schutz-, Pflege- oder Entwicklungsmaßnahme, durch die ein Eingriff ausgeglichen wird.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_Objekt:association-role:wirdAusgeglichenDurchSPEMassnahme</gml:identifier>
+      <gml:name>xplan:wirdAusgeglichenDurchSPEMassnahme</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:BP_SchutzPflegeEntwicklungsMassnahme" />
+      <def:type>associationRole</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_Objekt_wirdAusgeglichenDurchSPEFlaeche">
+      <gml:description>Referenz auf eine Schutz-, Pflege- oder Entwicklungs-Fläche, die den Eingriff ausgleicht.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_Objekt:association-role:wirdAusgeglichenDurchSPEFlaeche</gml:identifier>
+      <gml:name>xplan:wirdAusgeglichenDurchSPEFlaeche</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:BP_SchutzPflegeEntwicklungsFlaeche" />
+      <def:type>associationRole</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_Objekt_wirdAusgeglichenDurchMassnahme">
+      <gml:description>Verweis auf eine  Ausgleichsmaßnahme, die einen vorgenommenen Eingriff ausgleicht.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_Objekt:association-role:wirdAusgeglichenDurchMassnahme</gml:identifier>
+      <gml:name>xplan:wirdAusgeglichenDurchMassnahme</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:BP_AusgleichsMassnahme" />
+      <def:type>associationRole</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_Objekt_laermkontingent">
+      <gml:description>Festsetzung eines Lärmemissionskontingent</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_Objekt:attribute:laermkontingent</gml:identifier>
+      <gml:name>xplan:laermkontingent</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:BP_EmissionskontingentLaerm" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_Objekt_laermkontingentGebiet">
+      <gml:description>Festsetzung von Lärmemissionskontingenten nach DIN 45691, die einzelnen Immissionsgebieten zugeordnet sind</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_Objekt:attribute:laermkontingentGebiet</gml:identifier>
+      <gml:name>xplan:laermkontingentGebiet</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:BP_EmissionskontingentLaermGebiet" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_Objekt_zusatzkontingent">
+      <gml:description>Festsetzung von Zusatzkontingenten für die Lärmemission, die einzelnen Richtungssektoren zugeordnet sind. Die einzelnen Richtungssektoren werden parametrisch definiert.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_Objekt:association-role:zusatzkontingent</gml:identifier>
+      <gml:name>xplan:zusatzkontingent</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:BP_ZusatzkontingentLaerm" />
+      <def:type>associationRole</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_Objekt_zusatzkontingentFlaeche">
+      <gml:description>Festsetzung von Zusatzkontingenten für die Lärmemission, die einzelnen Richtungssektoren zugeordnet sind. Die einzelnen Richtungssektoren werden durch explizite Flächen definiert.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_Objekt:association-role:zusatzkontingentFlaeche</gml:identifier>
+      <gml:name>xplan:zusatzkontingentFlaeche</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:BP_ZusatzkontingentLaermFlaeche" />
+      <def:type>associationRole</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_Objekt_richtungssektorGrenze">
+      <gml:description>Zuordnung einer Richtungssektor-Grenze für die Festlegung zusätzlicher Lärmkontingente</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_Objekt:association-role:richtungssektorGrenze</gml:identifier>
+      <gml:name>xplan:richtungssektorGrenze</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:BP_RichtungssektorGrenze" />
+      <def:type>associationRole</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <def:classification>featureType</def:classification>
+  <def:supertypeRef xlink:href="urn:xplan:element:xplan:XP_Objekt" />
+</TypeDefinition>

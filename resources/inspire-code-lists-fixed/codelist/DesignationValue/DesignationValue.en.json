@@ -1,0 +1,711 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "codelist" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "created" : "2015-08-18 17:18 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "IUCN Designation",
+          "lang" : "en"
+        },
+        "extensibility" : {
+          "label" : {
+            "text" : "none",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+        },
+        "extensibility item" : {
+          "label" : {
+            "text" : "Not extensible",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ps",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ps"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeList",
+            "lang" : "en"
+          },
+          "id" : "CodeList"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Protected Sites Simple",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ps"
+        },
+        "definition" : {
+          "text" : "A code list for the International Union for the Conservation of Nature classification scheme.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ps",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ps"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/IUCNDesignationValue",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/IUCNDesignationValue",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/IUCNDesignationValue:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "Designation",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/DesignationValue"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "codelist" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "created" : "2015-08-18 17:18 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "National Monuments Record Designation",
+          "lang" : "en"
+        },
+        "extensibility" : {
+          "label" : {
+            "text" : "none",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+        },
+        "extensibility item" : {
+          "label" : {
+            "text" : "Not extensible",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ps",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ps"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeList",
+            "lang" : "en"
+          },
+          "id" : "CodeList"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Protected Sites Simple",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ps"
+        },
+        "definition" : {
+          "text" : "A code list for the National Monuments Record classification scheme.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ps",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ps"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "Designation",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/DesignationValue"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "codelist" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "created" : "2015-08-18 17:18 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Natura2000 Designation",
+          "lang" : "en"
+        },
+        "extensibility" : {
+          "label" : {
+            "text" : "none",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+        },
+        "extensibility item" : {
+          "label" : {
+            "text" : "Not extensible",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ps",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ps"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeList",
+            "lang" : "en"
+          },
+          "id" : "CodeList"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Protected Sites Simple",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ps"
+        },
+        "definition" : {
+          "text" : "A code list for the Natura2000 designation scheme, in accordance with Council Directive 92/43/EEC  (Habitats Directive).",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ps",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ps"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/Natura2000DesignationValue",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/Natura2000DesignationValue",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/Natura2000DesignationValue:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "Designation",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/DesignationValue"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "codelist" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "created" : "2015-08-18 17:18 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Ramsar Designation",
+          "lang" : "en"
+        },
+        "extensibility" : {
+          "label" : {
+            "text" : "none",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+        },
+        "extensibility item" : {
+          "label" : {
+            "text" : "Not extensible",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ps",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ps"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeList",
+            "lang" : "en"
+          },
+          "id" : "CodeList"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Protected Sites Simple",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ps"
+        },
+        "definition" : {
+          "text" : "A code list for the Convention on Wetlands of International Importance (Ramsar Convention) designation scheme.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ps",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ps"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/RamsarDesignationValue",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/RamsarDesignationValue",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/RamsarDesignationValue:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "Designation",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/DesignationValue"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "codelist" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "created" : "2015-08-18 17:18 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "UNESCO Man And Biosphere Programme Designation",
+          "lang" : "en"
+        },
+        "extensibility" : {
+          "label" : {
+            "text" : "none",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+        },
+        "extensibility item" : {
+          "label" : {
+            "text" : "Not extensible",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ps",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ps"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeList",
+            "lang" : "en"
+          },
+          "id" : "CodeList"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Protected Sites Simple",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ps"
+        },
+        "definition" : {
+          "text" : "A code list for the Man and Biosphere Programme classification scheme.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ps",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ps"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/UNESCOManAndBiosphereProgrammeDesignationValue",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/UNESCOManAndBiosphereProgrammeDesignationValue",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/UNESCOManAndBiosphereProgrammeDesignationValue:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "Designation",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/DesignationValue"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "codelist" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "created" : "2015-08-18 17:18 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "UNESCO World Heritage Designation",
+          "lang" : "en"
+        },
+        "extensibility" : {
+          "label" : {
+            "text" : "none",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+        },
+        "extensibility item" : {
+          "label" : {
+            "text" : "Not extensible",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ps",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ps"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeList",
+            "lang" : "en"
+          },
+          "id" : "CodeList"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Protected Sites Simple",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ps"
+        },
+        "definition" : {
+          "text" : "A code list for the World Heritage designation scheme.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ps",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ps"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/UNESCOWorldHeritageDesignationValue",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/UNESCOWorldHeritageDesignationValue",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/UNESCOWorldHeritageDesignationValue:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "Designation",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/DesignationValue"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "description" : {
+      "text" : "NOTE 1Some of these designation and classification lists are closed (for example, Natura2000), while some change regularly.\\n\\nNOTE 2 Typically, additional code lists will be created as sub-types of this type to represent designation or classification values within Member States, e.g.<b> </b>natuurbeschermingsGebieden, rijksBeschermdeArcheologischeGebieden, nationaleParken, nationaleLandschappen etc. in the Netherlands.",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Designation",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "open",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Extensible with values at any level",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "ps",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/ps"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Protected Sites Simple",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/ps"
+    },
+    "definition" : {
+      "text" : "Abstract base type for code lists containing the classification and designation types under different schemes.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "ps",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/ps"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/DesignationValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/DesignationValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/DesignationValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

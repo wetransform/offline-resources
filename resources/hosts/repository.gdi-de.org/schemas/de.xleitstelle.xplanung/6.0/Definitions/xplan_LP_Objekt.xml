@@ -1,0 +1,117 @@
+﻿<!--Erzeugt mit KIT (www.kit.edu) UmlToXmlTransformation-Software, Erstellungsdatum: 31.10.2022 09:25:46-->
+<TypeDefinition xmlns="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ../xsd/ShapeChangeDefinitions.xsd" gml:id="xplan_LP_Objekt">
+  <gml:description>Basisklasse für alle spezifischen Inhalte eines Landschaftsplans.</gml:description>
+  <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_Objekt</gml:identifier>
+  <gml:name>xplan:LP_Objekt</gml:name>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_Objekt_raumkonkretisierung">
+      <gml:description>Beschreibung der r&amp;#228;umlichen Sch&amp;#228;rfe des geometrischen Objekts, d.h. wie konkret die Geometrie in Attribut &lt;i&gt;position &lt;/i&gt;die tats&amp;#228;chliche r&amp;#228;umliche Gestalt des Planinhalts darstellt.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_Objekt:attribute:raumkonkretisierung</gml:identifier>
+      <gml:name>xplan:raumkonkretisierung</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_Objekt_raumkonkretisierung_LP_Raumkonkretisierung_1000">
+          <gml:description>Scharf abgegrenzte Fl&amp;#228;che bzw. eine im Erfassungsma&amp;#223;stab des Plans sinnvollerweise als Linien- oder Punktobjekt erfassbare scharfe Geometrie.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_Objekt:raumkonkretisierung:LP_Raumkonkretisierung:1000</gml:identifier>
+          <gml:name>Scharf</gml:name>
+          <gml:name codeSpace="lesbarerName">Scharf</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_Objekt_raumkonkretisierung_LP_Raumkonkretisierung_2000">
+          <gml:description>Suchraum (die Ma&amp;#223;nahme/Planung bzw. bezieht sich auf Teilbereiche innerhalb der Gesamtfl&amp;#228;che)</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_Objekt:raumkonkretisierung:LP_Raumkonkretisierung:2000</gml:identifier>
+          <gml:name>Suchraum</gml:name>
+          <gml:name codeSpace="lesbarerName">Suchraum</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_Objekt_raumkonkretisierung_LP_Raumkonkretisierung_3000">
+          <gml:description>Flie&amp;#223;ende Grenzen, mit &amp;#220;bergangsbereichen.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_Objekt:raumkonkretisierung:LP_Raumkonkretisierung:3000</gml:identifier>
+          <gml:name>Unscharf</gml:name>
+          <gml:name codeSpace="lesbarerName">Unscharf</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_Objekt_raumkonkretisierung_LP_Raumkonkretisierung_4000">
+          <gml:description>Markierung durch eine vereinfachte Geometrie ohne konkrete Festlegung der tats&amp;#228;chlichen r&amp;#228;umlichen Ausdehnung; meist als Geometrietyp Punkt oder Linie); f&amp;#252;r diese Stelle liegt eine Information vor, die genaue r&amp;#228;umliche Ausdehnung &amp;#252;ber diese Geometrie hinaus ist unklar.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_Objekt:raumkonkretisierung:LP_Raumkonkretisierung:4000</gml:identifier>
+          <gml:name>Position</gml:name>
+          <gml:name codeSpace="lesbarerName">Position</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_Objekt_raumkonkretisierung_LP_Raumkonkretisierung_5000">
+          <gml:description>Raumunkonkret (keine r&amp;#228;umlich belastbaren oder nur textliche Informationen zum gemeinten Raum, z.B. „naturfern verbaute Teilabschnitte der B&amp;#228;che und Flie&amp;#223;gew&amp;#228;sser im Plangebiet“); m&amp;#246;glicherweise  ganz ohne Darstellung in der Planzeichnung.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_Objekt:raumkonkretisierung:LP_Raumkonkretisierung:5000</gml:identifier>
+          <gml:name>Raumunkonkret</gml:name>
+          <gml:name codeSpace="lesbarerName">Raumunkonkret</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_Objekt_raumkonkretisierung_LP_Raumkonkretisierung_9998">
+          <gml:description>Unbekannt (keine Einordnung m&amp;#246;glich, z.B. zur &amp;#220;bernahme von Alt-Pl&amp;#228;nen, in denen der Grad der Raumkonkretisierung erkennbar / nicht mehr recherchierbar ist.)</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_Objekt:raumkonkretisierung:LP_Raumkonkretisierung:9998</gml:identifier>
+          <gml:name>Unbekannt</gml:name>
+          <gml:name codeSpace="lesbarerName">Unbekannt</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>1</def:cardinality>
+      <def:valueTypeName>LP_Raumkonkretisierung</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_Objekt_rechtsCharText">
+      <gml:description>Textliche Konkretisierung der rechtlichen Charakterisierung.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_Objekt:attribute:rechtsCharText</gml:identifier>
+      <gml:name>xplan:rechtsCharText</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::CharacterString" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_Objekt_vorschlagIntegrationBLP">
+      <gml:description>Verweis auf ein Objekt im Modellbereich Bauleitplanung, das von der Landschaftsplanung als Kopiervorlage zur &amp;#220;bernahme in den FNP/Bebauungsplan vorgeschlagen wird. Referenziert ein Objekt mit Angabe der Begr&amp;#252;ndung.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_Objekt:attribute:vorschlagIntegrationBLP</gml:identifier>
+      <gml:name>xplan:vorschlagIntegrationBLP</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:LP_VorschlagIntegrationBauleitplanung" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_Objekt_vorschlagIntegrationRO">
+      <gml:description>Verweis auf ein Objekt im Modellbereich Raumordnung, das von der Landschaftsplanung als Kopiervorlage zur &amp;#220;bernahme in den Raumordnungsplan vorgeschlagen wird. Referenziert ein Objekt mit Angabe der Begr&amp;#252;ndung.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_Objekt:attribute:vorschlagIntegrationRO</gml:identifier>
+      <gml:name>xplan:vorschlagIntegrationRO</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:LP_VorschlagIntegrationRaumordnung" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_Objekt_referenziertLPObjekt">
+      <gml:description>Angaben zu einem anderen LP-Planinhalt, der mit diesem LP-Objekt in Verbindung steht.
+</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_Objekt:attribute:referenziertLPObjekt</gml:identifier>
+      <gml:name>xplan:referenziertLPObjekt</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:LP_ReferenzLPObjekt" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_Objekt_wirdReferenziertVon">
+      <gml:description>R&amp;#252;ckw&amp;#228;rtsreferenz zu einem LP- Objekt, das dieses LP-Objekt referenziert.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_Objekt:attribute:wirdReferenziertVon</gml:identifier>
+      <gml:name>xplan:wirdReferenziertVon</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:LP_ReferenzLPObjekt" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <def:classification>featureType</def:classification>
+  <def:supertypeRef xlink:href="urn:xplan:element:xplan:XP_Objekt" />
+</TypeDefinition>

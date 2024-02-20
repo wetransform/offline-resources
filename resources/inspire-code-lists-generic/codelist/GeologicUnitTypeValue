@@ -1,0 +1,770 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue</latestversion>
+   <label xml:lang="en">Geologic Unit Type</label>
+   <definition xml:lang="en">Terms describing the type of geologic unit.</definition>
+   <description xml:lang="en">EXAMPLE: GeologicUnit, AllostratigraphicUnit etc</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+      <label xml:lang="en">Geology</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/ge">
+      <label xml:lang="en">Geology</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geologicUnit">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geologicUnit:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geologicUnit</latestversion>
+         <label xml:lang="en">geologic unit</label>
+         <definition xml:lang="en">Type of geologic unit that is unknown, unspecified, irrelevant, or some type not included in the vocabulary.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue">
+            <label xml:lang="en">Geologic Unit Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/geologicunittype/geologic_unit">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/geologicunittype/geologic_unit</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/allostratigraphicUnit">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/allostratigraphicUnit:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/allostratigraphicUnit</latestversion>
+         <label xml:lang="en">allostratigraphic unit</label>
+         <definition xml:lang="en">Geologic unit defined by bounding surfaces. Not necessarily stratified.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue">
+            <label xml:lang="en">Geologic Unit Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geologicUnit">
+               <label xml:lang="en">geologic unit</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/geologicunittype/allostratigraphic_unit">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/geologicunittype/allostratigraphic_unit</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/alterationUnit">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/alterationUnit:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/alterationUnit</latestversion>
+         <label xml:lang="en">alteration unit</label>
+         <definition xml:lang="en">Geologic unit defined by alteration process.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue">
+            <label xml:lang="en">Geologic Unit Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geologicUnit">
+               <label xml:lang="en">geologic unit</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/geologicunittype/alteration_unit">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/geologicunittype/alteration_unit</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/biostratigraphicUnit">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/biostratigraphicUnit:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/biostratigraphicUnit</latestversion>
+         <label xml:lang="en">biostratigraphic unit</label>
+         <definition xml:lang="en">Geologic unit defined based on fossil content.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue">
+            <label xml:lang="en">Geologic Unit Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geologicUnit">
+               <label xml:lang="en">geologic unit</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/geologicunittype/biostratigraphic_unit">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/geologicunittype/biostratigraphic_unit</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/chronostratigraphicUnit">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/chronostratigraphicUnit:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/chronostratigraphicUnit</latestversion>
+         <label xml:lang="en">chronostratigraphic unit</label>
+         <definition xml:lang="en">Geologic unit that includes all rocks formed during a specific interval of geologic time</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue">
+            <label xml:lang="en">Geologic Unit Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geologicUnit">
+               <label xml:lang="en">geologic unit</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink xml:lang="en">ttp://resource.geosciml.org/classifier/cgi/geologicunittype/chronostratigraphic_unit</referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geophysicalUnit">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geophysicalUnit:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geophysicalUnit</latestversion>
+         <label xml:lang="en">geophysical unit</label>
+         <definition xml:lang="en">Geologic unit defined by its geophysical characteristics.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue">
+            <label xml:lang="en">Geologic Unit Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geologicUnit">
+               <label xml:lang="en">geologic unit</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/geologicunittype/geophysical_unit">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/geologicunittype/geophysical_unit</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/magnetostratigraphicUnit">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/magnetostratigraphicUnit:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/magnetostratigraphicUnit</latestversion>
+         <label xml:lang="en">magnetostratigraphic unit</label>
+         <definition xml:lang="en">Geologic unit defined by magnetic characteristics.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue">
+            <label xml:lang="en">Geologic Unit Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geophysicalUnit">
+               <label xml:lang="en">geophysical unit</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/geologicunittype/magnetostratigraphic_unit">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/geologicunittype/magnetostratigraphic_unit</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithogeneticUnit">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithogeneticUnit:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithogeneticUnit</latestversion>
+         <label xml:lang="en">lithogenetic unit</label>
+         <definition xml:lang="en">Geologic unit defined by genesis. The genesis is manifested by material properties, but the material is not the defining property.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue">
+            <label xml:lang="en">Geologic Unit Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geologicUnit">
+               <label xml:lang="en">geologic unit</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/geologicunittype/lithogenetic_unit">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/geologicunittype/lithogenetic_unit</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/artificialGround">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/artificialGround:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/artificialGround</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/artificialGround:1</version>
+         </previousversions>
+         <label xml:lang="en">artificial ground</label>
+         <definition xml:lang="en">Geologic unit defined by genesis involving direct human action to deposit or modify material.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue">
+            <label xml:lang="en">Geologic Unit Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithogeneticUnit">
+               <label xml:lang="en">lithogenetic unit</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/geologicunittype/artificial_ground">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/geologicunittype/artificial_ground</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/excavationUnit">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/excavationUnit:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/excavationUnit</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/excavationUnit:1</version>
+         </previousversions>
+         <label xml:lang="en">excavation unit</label>
+         <definition xml:lang="en">Geologic unit defined by human-made genesis involving excavation.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue">
+            <label xml:lang="en">Geologic Unit Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithogeneticUnit">
+               <label xml:lang="en">lithogenetic unit</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/geologicunittype/excavation_unit">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/geologicunittype/excavation_unit</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/massMovementUnit">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/massMovementUnit:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/massMovementUnit</latestversion>
+         <label xml:lang="en">mass movement unit</label>
+         <definition xml:lang="en">Geologic unit produced by gravity driven, down-slope displacement of material, and characterized by the type of movement giving rise to the deposit, and by how the individual movement types present in the deposit are related in time and space.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue">
+            <label xml:lang="en">Geologic Unit Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithogeneticUnit">
+               <label xml:lang="en">lithogenetic unit</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/geologicunittype/mass_movement_unit">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/geologicunittype/mass_movement_unit</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithologicUnit">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithologicUnit:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithologicUnit</latestversion>
+         <label xml:lang="en">lithologic unit</label>
+         <definition xml:lang="en">Geologic unit defined by lithology independent of relationships to other units.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue">
+            <label xml:lang="en">Geologic Unit Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geologicUnit">
+               <label xml:lang="en">geologic unit</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/geologicunittype/lithologic_unit">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/geologicunittype/lithologic_unit</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithostratigraphicUnit">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithostratigraphicUnit:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithostratigraphicUnit</latestversion>
+         <label xml:lang="en">lithostratigraphic unit</label>
+         <definition xml:lang="en">Geologic unit defined on the basis of observable and distinctive lithologic properties or combination of lithologic properties and stratigraphic relationships.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue">
+            <label xml:lang="en">Geologic Unit Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geologicUnit">
+               <label xml:lang="en">geologic unit</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/geologicunittype/lithostratigraphic_unit">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/geologicunittype/lithostratigraphic_unit</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithodemicUnit">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithodemicUnit:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithodemicUnit</latestversion>
+         <label xml:lang="en">lithodemic unit</label>
+         <definition xml:lang="en">Lithostratigraphic unit that lacks stratification</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue">
+            <label xml:lang="en">Geologic Unit Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithostratigraphicUnit">
+               <label xml:lang="en">lithostratigraphic unit</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/geologicunittype/lithodemic_unit">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/geologicunittype/lithodemic_unit</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithotectonicUnit">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithotectonicUnit:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithotectonicUnit</latestversion>
+         <label xml:lang="en">lithotectonic unit</label>
+         <definition xml:lang="en">Geologic unit defined on basis of structural or deformation features, mutual relations, origin or historical evolution. Contained material may be igneous, sedimentary, or metamorphic.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue">
+            <label xml:lang="en">Geologic Unit Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geologicUnit">
+               <label xml:lang="en">geologic unit</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/geologicunittype/lithotectonic_unit">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/geologicunittype/lithotectonic_unit</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/deformationUnit">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/deformationUnit:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/deformationUnit</latestversion>
+         <label xml:lang="en">deformation unit</label>
+         <definition xml:lang="en">Lithotectonic unit defined by deformation style or characteristic geologic structure observable in outcrop.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue">
+            <label xml:lang="en">Geologic Unit Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithotectonicUnit">
+               <label xml:lang="en">lithotectonic unit</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink xml:lang="en">ttp://resource.geosciml.org/classifier/cgi/geologicunittype/deformation_unit</referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/pedostratigraphicUnit">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/pedostratigraphicUnit:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/pedostratigraphicUnit</latestversion>
+         <label xml:lang="en">pedostratigraphic unit</label>
+         <definition xml:lang="en">Geologic unit that represents a single pedologic horizon in a sequence of strata (consolidated or non-consolidated).</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue">
+            <label xml:lang="en">Geologic Unit Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geologicUnit">
+               <label xml:lang="en">geologic unit</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/geologicunittype/pedostratigraphic_unit">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/geologicunittype/pedostratigraphic_unit</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/polarityChronostratigraphicUnit">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/polarityChronostratigraphicUnit:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/polarityChronostratigraphicUnit</latestversion>
+         <label xml:lang="en">polarity chronostratigraphic unit</label>
+         <definition xml:lang="en">Geologic unit defined by primary magnetic-polarity record imposed when the rock was deposited or crystallized during a specific interval of geologic time.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue">
+            <label xml:lang="en">Geologic Unit Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geologicUnit">
+               <label xml:lang="en">geologic unit</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/geologicunittype/polarity_chronostratigraphic_unit">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/geologicunittype/polarity_chronostratigraphic_unit</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

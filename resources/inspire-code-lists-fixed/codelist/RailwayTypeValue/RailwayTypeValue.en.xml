@@ -1,0 +1,290 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/RailwayTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/RailwayTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/RailwayTypeValue</latestversion>
+   <label xml:lang="en">Railway Type</label>
+   <definition xml:lang="en">The possible types of railway transport.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ra">
+      <label xml:lang="en">Railway Transport Network</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/tn">
+      <label xml:lang="en">Transport networks</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/RailwayTypeValue/cogRailway">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RailwayTypeValue/cogRailway:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RailwayTypeValue/cogRailway</latestversion>
+         <label xml:lang="en">cog railway</label>
+         <definition xml:lang="en">A railway transport which allows the vehicles to operate on steep gradients, consisting of a railway provided with a toothed rack rail (usually between the running rails) where vehicles are fitted with one or more cog wheels or pinions that mesh with this rack rail.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RailwayTypeValue">
+            <label xml:lang="en">Railway Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ra">
+            <label xml:lang="en">Railway Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RailwayTypeValue/funicular">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RailwayTypeValue/funicular:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RailwayTypeValue/funicular</latestversion>
+         <label xml:lang="en">funicular</label>
+         <definition xml:lang="en">A railway transport consisting of a cable attached to a vehicle on rails which moves them up and down a very steep slope. Where possible the ascending and descending vehicles counterbalance each other.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RailwayTypeValue">
+            <label xml:lang="en">Railway Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ra">
+            <label xml:lang="en">Railway Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RailwayTypeValue/magneticLevitation">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RailwayTypeValue/magneticLevitation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RailwayTypeValue/magneticLevitation</latestversion>
+         <label xml:lang="en">magnetic levitation</label>
+         <definition xml:lang="en">A railway transport based on a single rail which acts as guideway of a vehicle and supports it by means of a magnetic levitation mechanism.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RailwayTypeValue">
+            <label xml:lang="en">Railway Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ra">
+            <label xml:lang="en">Railway Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RailwayTypeValue/metro">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RailwayTypeValue/metro:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RailwayTypeValue/metro</latestversion>
+         <label xml:lang="en">metro</label>
+         <definition xml:lang="en">An urban railway transport system used in large urban areas, which runs on a separate track from other transport systems, is usually electrically powered and in some cases runs under ground.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RailwayTypeValue">
+            <label xml:lang="en">Railway Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ra">
+            <label xml:lang="en">Railway Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RailwayTypeValue/monorail">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RailwayTypeValue/monorail:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RailwayTypeValue/monorail</latestversion>
+         <label xml:lang="en">monorail</label>
+         <definition xml:lang="en">A railway transport based on a single rail which acts as both its only support and guideway.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RailwayTypeValue">
+            <label xml:lang="en">Railway Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ra">
+            <label xml:lang="en">Railway Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RailwayTypeValue/suspendedRail">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RailwayTypeValue/suspendedRail:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RailwayTypeValue/suspendedRail</latestversion>
+         <label xml:lang="en">suspended rail</label>
+         <definition xml:lang="en">A railway transport based on a single rail, acting as both support and guideway, from which a vehicle is suspended to move along the railway.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RailwayTypeValue">
+            <label xml:lang="en">Railway Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ra">
+            <label xml:lang="en">Railway Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RailwayTypeValue/train">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RailwayTypeValue/train:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RailwayTypeValue/train</latestversion>
+         <label xml:lang="en">train</label>
+         <definition xml:lang="en">A railway transport usually consisting of two parallel rails on which a powered-vehicle or train machine pulls a connected series of vehicles to move them along the railway in order to transport freight or passengers from one destination to another.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RailwayTypeValue">
+            <label xml:lang="en">Railway Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ra">
+            <label xml:lang="en">Railway Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RailwayTypeValue/tramway">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RailwayTypeValue/tramway:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RailwayTypeValue/tramway</latestversion>
+         <label xml:lang="en">tramway</label>
+         <definition xml:lang="en">A railway transport system used in urban areas, which often runs at street level, sharing road space with motor traffic and pedestrians. Tramways are usually electrically powered.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RailwayTypeValue">
+            <label xml:lang="en">Railway Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ra">
+            <label xml:lang="en">Railway Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

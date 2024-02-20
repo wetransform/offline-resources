@@ -1,0 +1,328 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Technical (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Void Reason Value",
+          "id" : "http://inspire.ec.europa.eu/codelist/VoidReasonValue"
+        },
+        "created" : "2015-08-18 18:25 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "EXAMPLE When the \"elevation of the water body above the sea level\" of a certain lake has not been measured, then the reason for a void value of this property would be 'Unknown'.\\n \\nNOTE 'Unknown' is applied on an object-by-object basis in a spatial data set.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Unknown",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "base",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/base"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Base Types",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/base"
+        },
+        "definition" : {
+          "text" : "The correct value for the specific spatial object is not known to, and not computable by, the data provider. However, a correct value may exist.",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unknown",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unknown",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unknown:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Void Reason Value",
+          "id" : "http://inspire.ec.europa.eu/codelist/VoidReasonValue"
+        },
+        "created" : "2015-08-18 18:25 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "EXAMPLE When the “elevation of the water body above the sea level” has not been included in a dataset containing lake spatial objects, then the reason for a void value of this property would be ‘Unpopulated’.\\n \\nNOTE The characteristic receives this value for all objects in the spatial data set.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Unpopulated",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "base",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/base"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Base Types",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/base"
+        },
+        "definition" : {
+          "text" : "The characteristic is not part of the dataset maintained by the data provider. However, the characteristic may exist in the real world.",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unpopulated",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unpopulated",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unpopulated:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Void Reason Value",
+          "id" : "http://inspire.ec.europa.eu/codelist/VoidReasonValue"
+        },
+        "created" : "2015-08-18 18:25 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Withheld",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "base",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/base"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Base Types",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/base"
+        },
+        "definition" : {
+          "text" : "The characteristic may exist, but is confidential and not divulged by the data provider.",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/VoidReasonValue/Withheld",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/VoidReasonValue/Withheld",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/VoidReasonValue/Withheld:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:19 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-technical",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+    },
+    "description" : {
+      "text" : "NOTE 1 INSPIRE application schemas may propose extensions to this code list, if required.NOTE 2 It is expected that additional reasons will be identified in the future, in particular to support reasons / special values in coverage ranges.",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Void Reason Value",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "none",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Not extensible",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "base",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/base"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Base Types",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/base"
+    },
+    "definition" : {
+      "text" : "Reasons for void values",
+      "lang" : "en"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/VoidReasonValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/VoidReasonValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/VoidReasonValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

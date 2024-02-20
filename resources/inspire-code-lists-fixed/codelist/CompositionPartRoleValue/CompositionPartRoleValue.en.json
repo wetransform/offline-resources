@@ -1,0 +1,798 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Composition Part Role",
+          "id" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue"
+        },
+        "created" : "2015-08-18 17:30 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/only_part",
+            "lang" : "en"
+          },
+          "id" : "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/only_part"
+        },
+        "label" : {
+          "text" : "only part",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "referencesource" : {
+          "text" : "CGI Controlled Vocabulary",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Entire described unit consists of a single part or constituent.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/onlyPart",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/onlyPart",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/onlyPart:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Composition Part Role",
+          "id" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue"
+        },
+        "created" : "2015-08-18 17:30 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/part_of",
+            "lang" : "en"
+          },
+          "id" : "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/part_of"
+        },
+        "label" : {
+          "text" : "part of",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "referencesource" : {
+          "text" : "CGI Controlled Vocabulary",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The geologic unit part role is not known in any greater detail.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/partOf",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/partOf",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/partOf:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Composition Part Role",
+          "id" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue"
+        },
+        "created" : "2015-08-18 17:30 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/facies",
+            "lang" : "en"
+          },
+          "id" : "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/facies"
+        },
+        "label" : {
+          "text" : "facies",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "referencesource" : {
+          "text" : "CGI Controlled Vocabulary",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Represents a particular body of rock that is a lateral variant of a lithostratigraphic unit, or a variant of a lithodemic unit.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/facies",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/facies",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/facies:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "part of",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/partOf"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Composition Part Role",
+          "id" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue"
+        },
+        "created" : "2015-08-18 17:30 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/inclusion",
+            "lang" : "en"
+          },
+          "id" : "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/inclusion"
+        },
+        "label" : {
+          "text" : "inclusion",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "referencesource" : {
+          "text" : "CGI Controlled Vocabulary",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Geologic unit constituent is present as masses with generally sharp boundaries enclosed within a matrix of some other material.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/inclusion",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/inclusion",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/inclusion:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "part of",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/partOf"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Composition Part Role",
+          "id" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue"
+        },
+        "created" : "2015-08-18 17:30 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/lithosome",
+            "lang" : "en"
+          },
+          "id" : "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/lithosome"
+        },
+        "label" : {
+          "text" : "lithosome",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "referencesource" : {
+          "text" : "CGI Controlled Vocabulary",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "A kind of rock body that has multiple occurrences in a single geologic unit. A mass of rock of uniform character, characterized by geometry, composition, and internal structure.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/lithosome",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/lithosome",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/lithosome:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "part of",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/partOf"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Composition Part Role",
+          "id" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue"
+        },
+        "created" : "2015-08-18 17:30 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/stratigraphic_part",
+            "lang" : "en"
+          },
+          "id" : "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/stratigraphic_part"
+        },
+        "label" : {
+          "text" : "stratigraphic part",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "referencesource" : {
+          "text" : "CGI Controlled Vocabulary",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "A geologic unit part that occupies a particular stratigraphic position within a geologic unit.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/stratigraphicPart",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/stratigraphicPart",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/stratigraphicPart:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "part of",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/partOf"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Composition Part Role",
+          "id" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue"
+        },
+        "created" : "2015-08-18 17:30 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/unspecified_part_role",
+            "lang" : "en"
+          },
+          "id" : "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/unspecified_part_role"
+        },
+        "label" : {
+          "text" : "unspecified part role",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "referencesource" : {
+          "text" : "CGI Controlled Vocabulary",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Geologic unit part with unspecified role.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/unspecifiedPartRole",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/unspecifiedPartRole",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/unspecifiedPartRole:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "part of",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/partOf"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Composition Part Role",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "open",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Extensible with values at any level",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "ge",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Geology",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+    },
+    "definition" : {
+      "text" : "Roles that a compositional part plays in a geologic unit.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "ge",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/ge"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

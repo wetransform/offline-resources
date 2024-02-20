@@ -1,0 +1,685 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Resource Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "measured mineral resource",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "The part of a Mineral Resource for which tonnage, densities, shape, physical characteristics, grade and mineral content can be estimated with a high level of confidence.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue/measuredMineralResource",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue/measuredMineralResource",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue/measuredMineralResource:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue/measuredMineralResource:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Resource Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "indicated mineral resource",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "The part of a Mineral Resource for which tonnage, densities, shape, physical characteristics, grade and mineral content can be estimated with a reasonable level of confidence.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue/indicatedMineralResource",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue/indicatedMineralResource",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue/indicatedMineralResource:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue/indicatedMineralResource:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Resource Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "inferred mineral resource",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "The part of a Mineral Resource for which tonnage, grade and mineral content can be estimated with a low level of confidence. It is inferred from geological evidence and assumed but not verified geological and/or grade continuity.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue/inferredMineralResource",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue/inferredMineralResource",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue/inferredMineralResource:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue/inferredMineralResource:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Resource Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "measured and indicated mineral resource",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "A combination of measured mineral resource and indicated mineral resource.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue/measuredAndIndicatedMineralResource",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue/measuredAndIndicatedMineralResource",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue/measuredAndIndicatedMineralResource:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Resource Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "measured, indicated and inferred mineral resource",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "A combination of measured mineral resource, indicated mineral resource and inferred mineral resource.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue/measuredIndicatedAndInferredMineralResource",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue/measuredIndicatedAndInferredMineralResource",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue/measuredIndicatedAndInferredMineralResource:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Resource Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "indicated and inferred mineral resource",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "A combination of indicated mineral resource and inferred mineral resource.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue/indicatedAndInferredMineralResource",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue/indicatedAndInferredMineralResource",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue/indicatedAndInferredMineralResource:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Resource Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "poorly documented",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Poorly estimated or documented mineral resource.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue/poorlyDocumented",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue/poorlyDocumented",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue/poorlyDocumented:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Resource Category",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "open",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Extensible with values at any level",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "mr-core",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Mineral Resources",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+    },
+    "definition" : {
+      "text" : "Indication whether the resource is measured, indicated or inferred.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "mr",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/mr"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

@@ -1,0 +1,325 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue</latestversion>
+   <label xml:lang="en">Horizontal Geometry Reference</label>
+   <definition xml:lang="en">Values indicating the element considered to capture a horizontal geometry.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+      <label xml:lang="en">Building Base</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/bu">
+      <label xml:lang="en">Buildings</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/aboveGroundEnvelope">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/aboveGroundEnvelope:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/aboveGroundEnvelope</latestversion>
+         <label xml:lang="en">above ground envelope</label>
+         <definition xml:lang="en">The building horizontal geometry has been captured using the above ground envelope of the building, i.e. the maximum extent of the building above ground.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue">
+            <label xml:lang="en">Horizontal Geometry Reference</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/combined">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/combined:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/combined</latestversion>
+         <label xml:lang="en">combined</label>
+         <definition xml:lang="en">The building horizontal geometry has been obtained from the combination of the geometries of its building parts with the geometries of the building parts using different horizontal geometry references.</definition>
+         <description xml:lang="en">EXAMPLE: A building with two building parts, one captured by its footprint and the other by its lowest floor above ground, and whose geometry is obtained by merging the geometries of the building parts.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue">
+            <label xml:lang="en">Horizontal Geometry Reference</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/entrancePoint">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/entrancePoint:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/entrancePoint</latestversion>
+         <label xml:lang="en">entrance point</label>
+         <definition xml:lang="en">The building geometry is represented by a point located at the entrance of the building.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue">
+            <label xml:lang="en">Horizontal Geometry Reference</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/envelope">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/envelope:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/envelope</latestversion>
+         <label xml:lang="en">envelope</label>
+         <definition xml:lang="en">The building horizontal geometry has been captured using the whole envelope of the building, i.e. the maximum extent of the building above and under ground.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue">
+            <label xml:lang="en">Horizontal Geometry Reference</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/footPrint">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/footPrint:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/footPrint</latestversion>
+         <label xml:lang="en">foot print</label>
+         <definition xml:lang="en">The building horizontal geometry has been captured using the footprint of the building, i.e. its extent at ground level.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue">
+            <label xml:lang="en">Horizontal Geometry Reference</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/lowestFloorAboveGround">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/lowestFloorAboveGround:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/lowestFloorAboveGround</latestversion>
+         <label xml:lang="en">lowest floor above ground</label>
+         <definition xml:lang="en">The building horizontal geometry has been captured using the lowest floor above ground of the building.</definition>
+         <description xml:lang="en">This value is of interest for over-hanging buildings or for buildings on pilotis.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue">
+            <label xml:lang="en">Horizontal Geometry Reference</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/pointInsideBuilding">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/pointInsideBuilding:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/pointInsideBuilding</latestversion>
+         <label xml:lang="en">point inside building</label>
+         <definition xml:lang="en">The building horizontal geometry is represented by a point located within the building.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue">
+            <label xml:lang="en">Horizontal Geometry Reference</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/pointInsideCadastralParcel">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/pointInsideCadastralParcel:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/pointInsideCadastralParcel</latestversion>
+         <label xml:lang="en">point inside cadastral parcel</label>
+         <definition xml:lang="en">The building horizontal geometry is represented by a point located within the parcel the building belongs to.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue">
+            <label xml:lang="en">Horizontal Geometry Reference</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/roofEdge">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/roofEdge:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/roofEdge</latestversion>
+         <label xml:lang="en">roof edge</label>
+         <definition xml:lang="en">The building horizontal geometry has been captured using the roof edges of the building.</definition>
+         <description xml:lang="en">NOTE: This value may be used more generally when the building horizontal geometry has been captured by the roof extent.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue">
+            <label xml:lang="en">Horizontal Geometry Reference</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

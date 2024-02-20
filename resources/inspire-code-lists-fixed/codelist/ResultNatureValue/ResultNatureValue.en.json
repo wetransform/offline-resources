@@ -1,0 +1,344 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Result Nature",
+          "id" : "http://inspire.ec.europa.eu/codelist/ResultNatureValue"
+        },
+        "created" : "2015-08-18 17:51 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "primary",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ef",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ef"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Environmental Monitoring Facilities",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ef"
+        },
+        "definition" : {
+          "text" : "The result provided with the observation is the direct result of an estimate of a property on the featureOfInterest. No further processing has been performed. Processing may have taken place, but only in the sense of the measurement methodology itself, i.e. converting the millivolt returned from the sensor to the concentration of a substance.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ef",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ef"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ResultNatureValue/primary",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ResultNatureValue/primary",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ResultNatureValue/primary:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Result Nature",
+          "id" : "http://inspire.ec.europa.eu/codelist/ResultNatureValue"
+        },
+        "created" : "2015-08-18 17:51 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "processed",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ef",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ef"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Environmental Monitoring Facilities",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ef"
+        },
+        "definition" : {
+          "text" : "The result provided, while usually based on primary measurements, has been substantially processed. This processing can be of diverse natures, in some situations complex aggregates are provided, in other situations, the existing values are interpolated to a continuum.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ef",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ef"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ResultNatureValue/processed",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ResultNatureValue/processed",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ResultNatureValue/processed:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Result Nature",
+          "id" : "http://inspire.ec.europa.eu/codelist/ResultNatureValue"
+        },
+        "created" : "2015-08-18 17:51 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "simulated",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ef",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ef"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Environmental Monitoring Facilities",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ef"
+        },
+        "definition" : {
+          "text" : "The result provided, while usually based on primary measurements, is based on an interpretation model, and provides a simulation of past or future states of the media being analyzed. In this case, the existing values are usually extrapolated into the past or future.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ef",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ef"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ResultNatureValue/simulated",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ResultNatureValue/simulated",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ResultNatureValue/simulated:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Result Nature",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "any",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Empty code list",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "ef",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/ef"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Environmental Monitoring Facilities",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/ef"
+    },
+    "definition" : {
+      "text" : "State of the result of an observation.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "ef",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/ef"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/ResultNatureValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/ResultNatureValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/ResultNatureValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

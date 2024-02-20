@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/FAOPrimeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/FAOPrimeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/FAOPrimeValue</latestversion>
+   <label xml:lang="en">FAO Prime</label>
+   <definition xml:lang="en">A prime and double prime may be used to connotate the master horizon symbol of the lower of two (prime) or three (double prime) horizons having identical Arabic-numeral prefixes and letter combinations.</definition>
+   <description xml:lang="en">Identical designations may be appropriate for two or more horizons or layers separated by at least one horizon or layer of a more different kind in the same pedon. The sequence A-E-Bt-E-Btx-C is an example - the soil has two E horizons. To make communication easier, a prime is used with the master horizon symbol of the lower of two horizons having identical letter designations: A-E-Bt-EÆ-Btx-C. The prime is applied to the capital letter designation, and any lower case symbol follows it: BÆt. The prime is not used unless all letters of the designations of two different layers are identical. Prime can be used for both minerals and organic soils.</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+      <label xml:lang="en">Soil</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/so">
+      <label xml:lang="en">Soil</label>
+   </theme>
+   <document id="http://inspire.ec.europa.eu/document/FaoPrime">
+      <label xml:lang="en">Guidelines for soil description, 4th edition, Food and Agriculture Organization of the United Nations, Rome, 2006, pp. 77</label>
+   </document>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/FAOPrimeValue/3">
+         <language>en</language>
+         <created>2023-07-28 12:02 PM CEST</created>
+         <issued>2023-07-21 12:31 PM CEST</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FAOPrimeValue/3:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FAOPrimeValue/3</latestversion>
+         <label xml:lang="en">3</label>
+         <definition xml:lang="en">Three Primes</definition>
+         <description xml:lang="en">Three Primes apply to this layer or horizon</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FAOPrimeValue">
+            <label xml:lang="en">FAO Prime</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <referencelink id="http://inspire.ec.europa.eu/document/FaoPrime">
+            <label xml:lang="en">http://inspire.ec.europa.eu/document/FaoPrime</label>
+         </referencelink>
+         <referencesource xml:lang="en">Guidelines for soil description, 4th edition, Food and Agriculture Organization of the United Nations, Rome, 2006, pp. 77</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FAOPrimeValue/2">
+         <language>en</language>
+         <created>2023-07-28 12:02 PM CEST</created>
+         <issued>2023-07-21 12:31 PM CEST</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FAOPrimeValue/2:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FAOPrimeValue/2</latestversion>
+         <label xml:lang="en">2</label>
+         <definition xml:lang="en">Two Primes</definition>
+         <description xml:lang="en">Two Primes apply to this layer or horizon</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FAOPrimeValue">
+            <label xml:lang="en">FAO Prime</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <referencelink id="http://inspire.ec.europa.eu/document/FaoPrime">
+            <label xml:lang="en">http://inspire.ec.europa.eu/document/FaoPrime</label>
+         </referencelink>
+         <referencesource xml:lang="en">Guidelines for soil description, 4th edition, Food and Agriculture Organization of the United Nations, Rome, 2006, pp. 77</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FAOPrimeValue/0">
+         <language>en</language>
+         <created>2023-07-28 12:02 PM CEST</created>
+         <issued>2023-07-21 12:31 PM CEST</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FAOPrimeValue/0:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FAOPrimeValue/0</latestversion>
+         <label xml:lang="en">0</label>
+         <definition xml:lang="en">No Prime</definition>
+         <description xml:lang="en">No Prime applies to this layer or horizon</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FAOPrimeValue">
+            <label xml:lang="en">FAO Prime</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <referencelink id="http://inspire.ec.europa.eu/document/FaoPrime">
+            <label xml:lang="en">http://inspire.ec.europa.eu/document/FaoPrime</label>
+         </referencelink>
+         <referencesource xml:lang="en">Guidelines for soil description, 4th edition, Food and Agriculture Organization of the United Nations, Rome, 2006, pp. 77</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FAOPrimeValue/1">
+         <language>en</language>
+         <created>2023-07-28 12:02 PM CEST</created>
+         <issued>2023-07-21 12:31 PM CEST</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FAOPrimeValue/1:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FAOPrimeValue/1</latestversion>
+         <label xml:lang="en">1</label>
+         <definition xml:lang="en">One Prime</definition>
+         <description xml:lang="en">One Prime applies to this layer or horizon</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FAOPrimeValue">
+            <label xml:lang="en">FAO Prime</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <referencelink id="http://inspire.ec.europa.eu/document/FaoPrime">
+            <label xml:lang="en">http://inspire.ec.europa.eu/document/FaoPrime</label>
+         </referencelink>
+         <referencesource xml:lang="en">Guidelines for soil description, 4th edition, Food and Agriculture Organization of the United Nations, Rome, 2006, pp. 77</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

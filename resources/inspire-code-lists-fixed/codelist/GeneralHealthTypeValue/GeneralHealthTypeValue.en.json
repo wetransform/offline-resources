@@ -1,0 +1,593 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "General Health Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "measured BMI",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Human Health",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "definition" : {
+          "text" : "Measured Body mass index.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hh"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/measuredBMI",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/measuredBMI",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/measuredBMI:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "General Health Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "self perceived BMI",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Human Health",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "definition" : {
+          "text" : "Self Perceived Body mass index.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hh"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/selfPerceivedBMI",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/selfPerceivedBMI",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/selfPerceivedBMI:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "General Health Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "self perceived health",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Human Health",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "definition" : {
+          "text" : "The data on self-perceived health refer to the auto-evaluation of the general health state (i.e. any temporary health problem is not considered) by respondents using a scale from \"very good\" to \"very bad\".",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hh"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/selfPerceivedHealth",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/selfPerceivedHealth",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/selfPerceivedHealth:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "General Health Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "smokers",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Human Health",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "definition" : {
+          "text" : "smokers",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hh"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/smokers",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/smokers",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/smokers:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "General Health Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "long standing illness",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Human Health",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "definition" : {
+          "text" : "The data on chronic (longstanding) illnesses or conditions refer to the self-declaration by the respondents of whether they have or have not a chronic (longstanding) illness or condition.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hh"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/longStandingIllness",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/longStandingIllness",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/longStandingIllness:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "General Health Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "self perceived limitation of daily activity",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Human Health",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "definition" : {
+          "text" : "The data on limitation in activities due to health problems refer to the auto-evaluation by the respondents of the extent of which they are limited in activities people usually do because of health problems for at least the last 6 months (strongly limited, limited, not limited).",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hh"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/selfPerceivedLimitationDailyActivity",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/selfPerceivedLimitationDailyActivity",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/selfPerceivedLimitationDailyActivity:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "General Health Type",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "any",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Empty code list",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "hh",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Human Health",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+    },
+    "definition" : {
+      "text" : "Type of health status indicator.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "hh",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/hh"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

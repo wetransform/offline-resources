@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue</latestversion>
+   <label xml:lang="en">Fold Profile Type</label>
+   <definition xml:lang="en">Terms specifying the type of fold.</definition>
+   <description xml:lang="en">Folds are typed according to the concave/convex geometry of the fold relative to the earth surface, and the relationship to younging direction in folded strata if known.\nEXAMPLE: antiform, synform, anticline, syncline, etc.</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+      <label xml:lang="en">Geology</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/ge">
+      <label xml:lang="en">Geology</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue/anticline">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue/anticline:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue/anticline</latestversion>
+         <label xml:lang="en">anticline</label>
+         <definition xml:lang="en">A fold, general convex upward, whose core contains the stratigraphically older rocks.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue">
+            <label xml:lang="en">Fold Profile Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue/antiform">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue/antiform:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue/antiform</latestversion>
+         <label xml:lang="en">antiform</label>
+         <definition xml:lang="en">Any convex-upward, concave downward fold.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue">
+            <label xml:lang="en">Fold Profile Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue/syncline">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue/syncline:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue/syncline</latestversion>
+         <label xml:lang="en">syncline</label>
+         <definition xml:lang="en">A fold of which the core contains the stratigraphically younger rocks; it is generally concave upward.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue">
+            <label xml:lang="en">Fold Profile Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue/synform">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue/synform:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue/synform</latestversion>
+         <label xml:lang="en">synform</label>
+         <definition xml:lang="en">Any fold whose limbs close at the bottom.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue">
+            <label xml:lang="en">Fold Profile Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

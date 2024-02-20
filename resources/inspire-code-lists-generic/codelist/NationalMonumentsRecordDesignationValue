@@ -1,0 +1,615 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue</latestversion>
+   <label xml:lang="en">National Monuments Record Designation</label>
+   <definition xml:lang="en">A code list for the National Monuments Record classification scheme.</definition>
+   <parents>
+      <parent id="http://inspire.ec.europa.eu/codelist/DesignationValue">
+         <label xml:lang="en">Designation</label>
+      </parent>
+   </parents>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+      <label xml:lang="en">Protected Sites Simple</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/ps">
+      <label xml:lang="en">Protected sites</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/agricultureAndSubsistence">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/agricultureAndSubsistence:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/agricultureAndSubsistence</latestversion>
+         <label xml:lang="en">agriculture and subsistence</label>
+         <definition xml:lang="en">The Protected Site is classified as an agricultural or subsistence monument under the National Monuments Record classification scheme.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue">
+            <label xml:lang="en">National Monuments Record Designation</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+            <label xml:lang="en">Protected Sites Simple</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ps">
+            <label xml:lang="en">Protected sites</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/civil">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/civil:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/civil</latestversion>
+         <label xml:lang="en">civil</label>
+         <definition xml:lang="en">The Protected Site is classified as a civil monument under the National Monuments Record classification scheme.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue">
+            <label xml:lang="en">National Monuments Record Designation</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+            <label xml:lang="en">Protected Sites Simple</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ps">
+            <label xml:lang="en">Protected sites</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/commemorative">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/commemorative:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/commemorative</latestversion>
+         <label xml:lang="en">commemorative</label>
+         <definition xml:lang="en">The Protected Site is classified as a commemorative monument under the National Monuments Record classification scheme.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue">
+            <label xml:lang="en">National Monuments Record Designation</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+            <label xml:lang="en">Protected Sites Simple</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ps">
+            <label xml:lang="en">Protected sites</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/commercial">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/commercial:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/commercial</latestversion>
+         <label xml:lang="en">commercial</label>
+         <definition xml:lang="en">The Protected Site is classified as a commercial monument under the National Monuments Record classification scheme.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue">
+            <label xml:lang="en">National Monuments Record Designation</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+            <label xml:lang="en">Protected Sites Simple</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ps">
+            <label xml:lang="en">Protected sites</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/communications">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/communications:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/communications</latestversion>
+         <label xml:lang="en">communications</label>
+         <definition xml:lang="en">The Protected Site is classified as a communications monument under the National Monuments Record classification scheme.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue">
+            <label xml:lang="en">National Monuments Record Designation</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+            <label xml:lang="en">Protected Sites Simple</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ps">
+            <label xml:lang="en">Protected sites</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/defence">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/defence:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/defence</latestversion>
+         <label xml:lang="en">defence</label>
+         <definition xml:lang="en">The Protected Site is classified as a defence monument under the National Monuments Record classification scheme.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue">
+            <label xml:lang="en">National Monuments Record Designation</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+            <label xml:lang="en">Protected Sites Simple</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ps">
+            <label xml:lang="en">Protected sites</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/domestic">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/domestic:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/domestic</latestversion>
+         <label xml:lang="en">domestic</label>
+         <definition xml:lang="en">The Protected Site is classified as a domestic monument under the National Monuments Record classification scheme.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue">
+            <label xml:lang="en">National Monuments Record Designation</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+            <label xml:lang="en">Protected Sites Simple</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ps">
+            <label xml:lang="en">Protected sites</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/education">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/education:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/education</latestversion>
+         <label xml:lang="en">education</label>
+         <definition xml:lang="en">The Protected Site is classified as an education monument under the National Monuments Record classification scheme.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue">
+            <label xml:lang="en">National Monuments Record Designation</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+            <label xml:lang="en">Protected Sites Simple</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ps">
+            <label xml:lang="en">Protected sites</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/gardensParksAndUrbanSpaces">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/gardensParksAndUrbanSpaces:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/gardensParksAndUrbanSpaces</latestversion>
+         <label xml:lang="en">gardens parks and urban spaces</label>
+         <definition xml:lang="en">The Protected Site is classified as a garden, park or urban space monument under the National Monuments Record classification scheme.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue">
+            <label xml:lang="en">National Monuments Record Designation</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+            <label xml:lang="en">Protected Sites Simple</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ps">
+            <label xml:lang="en">Protected sites</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/healthAndWelfare">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/healthAndWelfare:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/healthAndWelfare</latestversion>
+         <label xml:lang="en">health and welfare</label>
+         <definition xml:lang="en">The Protected Site is classified as a health and welfare monument under the National Monuments Record classification scheme.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue">
+            <label xml:lang="en">National Monuments Record Designation</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+            <label xml:lang="en">Protected Sites Simple</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ps">
+            <label xml:lang="en">Protected sites</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/industrial">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/industrial:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/industrial</latestversion>
+         <label xml:lang="en">industrial</label>
+         <definition xml:lang="en">The Protected Site is classified as an industrial monument under the National Monuments Record classification scheme.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue">
+            <label xml:lang="en">National Monuments Record Designation</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+            <label xml:lang="en">Protected Sites Simple</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ps">
+            <label xml:lang="en">Protected sites</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/maritime">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/maritime:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/maritime</latestversion>
+         <label xml:lang="en">maritime</label>
+         <definition xml:lang="en">The Protected Site is classified as a maritime monument under the National Monuments Record classification scheme.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue">
+            <label xml:lang="en">National Monuments Record Designation</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+            <label xml:lang="en">Protected Sites Simple</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ps">
+            <label xml:lang="en">Protected sites</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/monument">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/monument:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/monument</latestversion>
+         <label xml:lang="en">monument</label>
+         <definition xml:lang="en">The Protected Site is classified as a monument with some unclassified form under the National Monuments Record classification scheme.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue">
+            <label xml:lang="en">National Monuments Record Designation</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+            <label xml:lang="en">Protected Sites Simple</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ps">
+            <label xml:lang="en">Protected sites</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/recreational">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/recreational:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/recreational</latestversion>
+         <label xml:lang="en">recreational</label>
+         <definition xml:lang="en">The Protected Site is classified as a recreational monument under the National Monuments Record classification scheme.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue">
+            <label xml:lang="en">National Monuments Record Designation</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+            <label xml:lang="en">Protected Sites Simple</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ps">
+            <label xml:lang="en">Protected sites</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/religiousRitualAndFunerary">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/religiousRitualAndFunerary:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/religiousRitualAndFunerary</latestversion>
+         <label xml:lang="en">religious ritual and funerary</label>
+         <definition xml:lang="en">The Protected Site is classified as a religious, ritual or funerary monument under the National Monuments Record classification scheme.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue">
+            <label xml:lang="en">National Monuments Record Designation</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+            <label xml:lang="en">Protected Sites Simple</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ps">
+            <label xml:lang="en">Protected sites</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/settlement">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/settlement:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/settlement</latestversion>
+         <label xml:lang="en">settlement</label>
+         <definition xml:lang="en">The Protected Site is classified as a settlement under the National Monuments Record classification scheme.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue">
+            <label xml:lang="en">National Monuments Record Designation</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+            <label xml:lang="en">Protected Sites Simple</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ps">
+            <label xml:lang="en">Protected sites</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/transport">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/transport:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/transport</latestversion>
+         <label xml:lang="en">transport</label>
+         <definition xml:lang="en">The Protected Site is classified as a transport monument under the National Monuments Record classification scheme.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue">
+            <label xml:lang="en">National Monuments Record Designation</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+            <label xml:lang="en">Protected Sites Simple</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ps">
+            <label xml:lang="en">Protected sites</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/waterSupplyAndDrainage">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/waterSupplyAndDrainage:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/waterSupplyAndDrainage</latestversion>
+         <label xml:lang="en">water supply and drainage</label>
+         <definition xml:lang="en">The Protected Site is classified as a water supply and drainage monument under the National Monuments Record classification scheme.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue">
+            <label xml:lang="en">National Monuments Record Designation</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+            <label xml:lang="en">Protected Sites Simple</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ps">
+            <label xml:lang="en">Protected sites</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

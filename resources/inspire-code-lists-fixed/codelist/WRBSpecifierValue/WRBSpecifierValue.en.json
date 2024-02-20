@@ -1,0 +1,105 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "created" : "2015-08-18 17:19 PM CEST",
+    "document" : {
+      "label" : {
+        "text" : "WRBSpec",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/document/WRBSpec"
+    },
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "description" : {
+      "text" : "SOURCE <i>World reference base for soil resources 2006</i>, <i>first update 2007</i>, World Soil Resources Reports No. 103, Food and Agriculture Organization of the United Nations, Rome, 2007.\\nSpecifiers are name elements in WRB restricting the meaning of qualifiers.",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "WRB Specifiers",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "none",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Not extensible",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "so",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Soil",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+    },
+    "definition" : {
+      "text" : "A code list of possible specifiers.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "so",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/so"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/WRBSpecifierValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/WRBSpecifierValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/WRBSpecifierValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

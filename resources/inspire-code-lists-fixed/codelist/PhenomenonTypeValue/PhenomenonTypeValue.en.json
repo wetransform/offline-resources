@@ -1,0 +1,931 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "codelist" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "created" : "2015-08-18 17:19 PM CEST",
+        "document" : {
+          "label" : {
+            "text" : "CFSNames",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/document/CFSNames"
+        },
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Climate and Forecast Standard Names",
+          "lang" : "en"
+        },
+        "extensibility" : {
+          "label" : {
+            "text" : "none",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+        },
+        "extensibility item" : {
+          "label" : {
+            "text" : "Not extensible",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "base2",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/base2"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeList",
+            "lang" : "en"
+          },
+          "id" : "CodeList"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Base Types 2",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/base2"
+        },
+        "definition" : {
+          "text" : "Definitions of phenomena observed in meteorology and oceanography.",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/CFStandardNamesValue",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/CFStandardNamesValue",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/CFStandardNamesValue:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "Phenomenon Type",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/PhenomenonTypeValue"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "codelist" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "created" : "2015-08-18 17:18 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "WMO GRIB Code and Flags Table 4.2",
+          "lang" : "en"
+        },
+        "extensibility" : {
+          "label" : {
+            "text" : "any",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+        },
+        "extensibility item" : {
+          "label" : {
+            "text" : "Empty code list",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ac-mf",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ac-mf"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeList",
+            "lang" : "en"
+          },
+          "id" : "CodeList"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Atmospheric Conditions and Meteorological Geographical Features",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ac-mf"
+        },
+        "definition" : {
+          "text" : "Definitions of phenomena observed in meteorology.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mf",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mf"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/GRIB_CodeTable4_2Value",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/GRIB_CodeTable4_2Value",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/GRIB_CodeTable4_2Value:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "Phenomenon Type",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/PhenomenonTypeValue"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "codelist" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "created" : "2015-08-18 17:18 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Basically these parameters can be divided in several major groups like:\\n<ul>\\n<li>Chemical parameters</li>\\n<li>Physical parameters</li>\\n<li>Biological parameters</li>\\n</ul>",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Soil Profile Parameter Name",
+          "lang" : "en"
+        },
+        "extensibility" : {
+          "label" : {
+            "text" : "narrower",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/extensibility/narrower"
+        },
+        "extensibility item" : {
+          "label" : {
+            "text" : "Extensible with narrower values",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/extensibility/narrower"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeList",
+            "lang" : "en"
+          },
+          "id" : "CodeList"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Soil",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "definition" : {
+          "text" : "Properties that can be observed to characterize the soil profile.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/so"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "Phenomenon Type",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/PhenomenonTypeValue"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "codelist" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "created" : "2015-08-18 17:18 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Basically these parameters can be divided in several major groups like:\\n<ul>\\n<li>Chemical parameters</li>\\n<li>Physical parameters</li>\\n<li>Biological parameters</li>\\n</ul>",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Soil Derived Object Parameter Name",
+          "lang" : "en"
+        },
+        "extensibility" : {
+          "label" : {
+            "text" : "narrower",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/extensibility/narrower"
+        },
+        "extensibility item" : {
+          "label" : {
+            "text" : "Extensible with narrower values",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/extensibility/narrower"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeList",
+            "lang" : "en"
+          },
+          "id" : "CodeList"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Soil",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "definition" : {
+          "text" : "Soil-related properties that can be derived from soil and other data.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/so"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SoilDerivedObjectParameterNameValue",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SoilDerivedObjectParameterNameValue",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SoilDerivedObjectParameterNameValue:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "Phenomenon Type",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/PhenomenonTypeValue"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "codelist" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "created" : "2015-08-18 17:18 PM CEST",
+        "document" : {
+          "label" : {
+            "text" : "BODC",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/document/BODC"
+        },
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "BODC P01 Parameter Usage",
+          "lang" : "en"
+        },
+        "extensibility" : {
+          "label" : {
+            "text" : "any",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+        },
+        "extensibility item" : {
+          "label" : {
+            "text" : "Empty code list",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "of",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/of"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeList",
+            "lang" : "en"
+          },
+          "id" : "CodeList"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Oceanographic Geographical Features",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/of"
+        },
+        "definition" : {
+          "text" : "Definitions of phenomena observed in oceanography.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "of",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/of"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/BODC_P01ParameterUsageValue",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/BODC_P01ParameterUsageValue",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/BODC_P01ParameterUsageValue:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "Phenomenon Type",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/PhenomenonTypeValue"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "codelist" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "created" : "2015-08-18 17:18 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "EU Air Quality Reference Component",
+          "lang" : "en"
+        },
+        "extensibility" : {
+          "label" : {
+            "text" : "any",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+        },
+        "extensibility item" : {
+          "label" : {
+            "text" : "Empty code list",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ac-mf",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ac-mf"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeList",
+            "lang" : "en"
+          },
+          "id" : "CodeList"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Atmospheric Conditions and Meteorological Geographical Features",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ac-mf"
+        },
+        "definition" : {
+          "text" : "Definitions of phenomena regarding air quality in the context of reporting under Union legislation.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mf",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mf"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EU_AirQualityReferenceComponentValue",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EU_AirQualityReferenceComponentValue",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EU_AirQualityReferenceComponentValue:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "Phenomenon Type",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/PhenomenonTypeValue"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "codelist" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "created" : "2015-08-18 17:18 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Basically these parameters can be divided in several major groups like:\\n<ul>\\n<li>Chemical parameters</li>\\n<li>Physical parameters</li>\\n<li>Biological parameters</li>\\n</ul>",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Profile Element Parameter Name",
+          "lang" : "en"
+        },
+        "extensibility" : {
+          "label" : {
+            "text" : "narrower",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/extensibility/narrower"
+        },
+        "extensibility item" : {
+          "label" : {
+            "text" : "Extensible with narrower values",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/extensibility/narrower"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeList",
+            "lang" : "en"
+          },
+          "id" : "CodeList"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Soil",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "definition" : {
+          "text" : "Properties that can be observed to characterize the profile element.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/so"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ProfileElementParameterNameValue",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ProfileElementParameterNameValue",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ProfileElementParameterNameValue:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "Phenomenon Type",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/PhenomenonTypeValue"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "codelist" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "created" : "2015-08-18 17:19 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Basically these parameters can be divided in several major groups like:\\n\\n<ul>\\n<li>Chemical parameters</li>\\n<li>Physical parameters</li>\\n<li>Biological parameters</li>\\n</ul>",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Soil Site Parameter Name",
+          "lang" : "en"
+        },
+        "extensibility" : {
+          "label" : {
+            "text" : "narrower",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/extensibility/narrower"
+        },
+        "extensibility item" : {
+          "label" : {
+            "text" : "Extensible with narrower values",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/extensibility/narrower"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeList",
+            "lang" : "en"
+          },
+          "id" : "CodeList"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Soil",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "definition" : {
+          "text" : "Properties that can be observed to characterize the soil site.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/so"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SoilSiteParameterNameValue",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SoilSiteParameterNameValue",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SoilSiteParameterNameValue:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "Phenomenon Type",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/PhenomenonTypeValue"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:19 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "description" : {
+      "text" : "A code list of phenomena. This code list itself is an empty placeholder and should be extended and specified for any thematic domain.",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Phenomenon Type",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "open",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Extensible with values at any level",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "omop",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/omop"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Observable Properties",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/omop"
+    },
+    "definition" : {
+      "text" : "A code list of phenomena (e.g. temperature, wind speed).",
+      "lang" : "en"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/PhenomenonTypeValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/PhenomenonTypeValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/PhenomenonTypeValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

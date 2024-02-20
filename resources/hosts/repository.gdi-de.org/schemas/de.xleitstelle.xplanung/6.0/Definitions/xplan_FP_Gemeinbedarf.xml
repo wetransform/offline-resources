@@ -1,0 +1,86 @@
+﻿<!--Erzeugt mit KIT (www.kit.edu) UmlToXmlTransformation-Software, Erstellungsdatum: 31.10.2022 09:25:16-->
+<TypeDefinition xmlns="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ../xsd/ShapeChangeDefinitions.xsd" gml:id="xplan_FP_Gemeinbedarf">
+  <gml:description>Darstellung von Flächen für den Gemeinbedarf nach § 5,  Abs. 2, Nr. 2 BauGB.</gml:description>
+  <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:FP_Gemeinbedarf</gml:identifier>
+  <gml:name>xplan:FP_Gemeinbedarf</gml:name>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_FP_Gemeinbedarf_zweckbestimmung">
+      <gml:description>Zweckbestimmung der Fläche</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:FP_Gemeinbedarf:attribute:zweckbestimmung</gml:identifier>
+      <gml:name>xplan:zweckbestimmung</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:FP_KomplexeZweckbestGemeinbedarf" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_FP_Gemeinbedarf_traeger">
+      <gml:description>Trägerschaft einer Gemeinbedarfs-Fläche</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:FP_Gemeinbedarf:attribute:traeger</gml:identifier>
+      <gml:name>xplan:traeger</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_FP_Gemeinbedarf_traeger_XP_Traegerschaft_1000">
+          <gml:description>Einrichtung des Bundes</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:FP_Gemeinbedarf:traeger:XP_Traegerschaft:1000</gml:identifier>
+          <gml:name>EinrichtungBund</gml:name>
+          <gml:name codeSpace="lesbarerName">Einrichtung Bund</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_FP_Gemeinbedarf_traeger_XP_Traegerschaft_2000">
+          <gml:description>Einrichtung eines Bundeslandes</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:FP_Gemeinbedarf:traeger:XP_Traegerschaft:2000</gml:identifier>
+          <gml:name>EinrichtungLand</gml:name>
+          <gml:name codeSpace="lesbarerName">Einrichtung Land</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_FP_Gemeinbedarf_traeger_XP_Traegerschaft_3000">
+          <gml:description>Einrichtung eines Landkreises</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:FP_Gemeinbedarf:traeger:XP_Traegerschaft:3000</gml:identifier>
+          <gml:name>EinrichtungKreis</gml:name>
+          <gml:name codeSpace="lesbarerName">Einrichtung Kreis</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_FP_Gemeinbedarf_traeger_XP_Traegerschaft_4000">
+          <gml:description>Kommunaler Träger</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:FP_Gemeinbedarf:traeger:XP_Traegerschaft:4000</gml:identifier>
+          <gml:name>KommunaleEinrichtung</gml:name>
+          <gml:name codeSpace="lesbarerName">Kommunale Einrichtung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_FP_Gemeinbedarf_traeger_XP_Traegerschaft_5000">
+          <gml:description>Träger ist eine Religionsgemeinschaft</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:FP_Gemeinbedarf:traeger:XP_Traegerschaft:5000</gml:identifier>
+          <gml:name>ReligioeserTraeger</gml:name>
+          <gml:name codeSpace="lesbarerName">Religiöser Träger</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_FP_Gemeinbedarf_traeger_XP_Traegerschaft_6000">
+          <gml:description>Sonstiger, z.B. privater Träger</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:FP_Gemeinbedarf:traeger:XP_Traegerschaft:6000</gml:identifier>
+          <gml:name>SonstTraeger</gml:name>
+          <gml:name codeSpace="lesbarerName">Sonstiger Träger</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>XP_Traegerschaft</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_FP_Gemeinbedarf_zugunstenVon">
+      <gml:description>Angabe des Begünstigten der Ausweisung.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:FP_Gemeinbedarf:attribute:zugunstenVon</gml:identifier>
+      <gml:name>xplan:zugunstenVon</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::CharacterString" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <def:classification>featureType</def:classification>
+  <def:supertypeRef xlink:href="urn:xplan:element:xplan:FP_Geometrieobjekt" />
+</TypeDefinition>

@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/RiskTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:19 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/RiskTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/RiskTypeValue</latestversion>
+   <label xml:lang="en">risk type value</label>
+   <definition xml:lang="en">Type of exposure route for risk receptors</definition>
+   <description xml:lang="en">in relation to type of pollutants</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+      <label xml:lang="en">Soil</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/so">
+      <label xml:lang="en">Soil</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+      <label xml:lang="en">Technical (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/RiskTypeValue/hazardousVaporsEnteringBuildings">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RiskTypeValue/hazardousVaporsEnteringBuildings:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RiskTypeValue/hazardousVaporsEnteringBuildings</latestversion>
+         <label xml:lang="en">hazardous vapors entering buildings</label>
+         <definition xml:lang="en">hazardous vapors entering buildings</definition>
+         <description xml:lang="en">volatile pollutants</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RiskTypeValue">
+            <label xml:lang="en">risk type value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RiskTypeValue/investigationOfPollutedSoil">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RiskTypeValue/investigationOfPollutedSoil:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RiskTypeValue/investigationOfPollutedSoil</latestversion>
+         <label xml:lang="en">investigation of polluted soil</label>
+         <definition xml:lang="en">ingestion of polluted soil</definition>
+         <description xml:lang="en">involuntary ingestion resulting from soil dust, soil on hands, between nails etc., may be especially relevant for children and gardeners</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RiskTypeValue">
+            <label xml:lang="en">risk type value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RiskTypeValue/inhalationOfAsbestosFibres">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RiskTypeValue/inhalationOfAsbestosFibres:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RiskTypeValue/inhalationOfAsbestosFibres</latestversion>
+         <label xml:lang="en">inhalation of asbestos fibres</label>
+         <definition xml:lang="en">inhalation of asbestos fibres</definition>
+         <description xml:lang="en">for soil levelled with asbestos containing materials e.g. from buidling materials</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RiskTypeValue">
+            <label xml:lang="en">risk type value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RiskTypeValue/odourNuissance">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RiskTypeValue/odourNuissance:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RiskTypeValue/odourNuissance</latestversion>
+         <label xml:lang="en">odour nuissance</label>
+         <definition xml:lang="en">odour nuissance</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RiskTypeValue">
+            <label xml:lang="en">risk type value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RiskTypeValue/consumptionOfCropsFromThePollutedSoil">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RiskTypeValue/consumptionOfCropsFromThePollutedSoil:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RiskTypeValue/consumptionOfCropsFromThePollutedSoil</latestversion>
+         <label xml:lang="en">consumption of crops from the polluted soil</label>
+         <definition xml:lang="en">consumption of crops from the polluted soil</definition>
+         <description xml:lang="en">risk depends on uptake in crops and consumed amounts of crops which may differ for each crop, an estimated consumer basket for the situation is advised</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RiskTypeValue">
+            <label xml:lang="en">risk type value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RiskTypeValue/consumptionOfOtherProduceFromThePollutedSite">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RiskTypeValue/consumptionOfOtherProduceFromThePollutedSite:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RiskTypeValue/consumptionOfOtherProduceFromThePollutedSite</latestversion>
+         <label xml:lang="en">consumption of other produce from the polluted site</label>
+         <definition xml:lang="en">consumption of other produce from the polluted site</definition>
+         <description xml:lang="en">the use of an estimated consumer basket for the situation is advised</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RiskTypeValue">
+            <label xml:lang="en">risk type value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RiskTypeValue/useOfDrinkingWaterFromAnAreaInfluencedByThePollutedSite">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RiskTypeValue/useOfDrinkingWaterFromAnAreaInfluencedByThePollutedSite:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RiskTypeValue/useOfDrinkingWaterFromAnAreaInfluencedByThePollutedSite</latestversion>
+         <label xml:lang="en">use of drinking water from an area influenced by the polluted site</label>
+         <definition xml:lang="en">use of drinking water from an area influenced by the polluted site</definition>
+         <description xml:lang="en">Generally the drinking water authority will control the drinking water quality but closing of sites will give extra costs</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RiskTypeValue">
+            <label xml:lang="en">risk type value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RiskTypeValue/permeationIntoDrinkingWaterPipelines">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RiskTypeValue/permeationIntoDrinkingWaterPipelines:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RiskTypeValue/permeationIntoDrinkingWaterPipelines</latestversion>
+         <label xml:lang="en">permeation into drinking water pipelines</label>
+         <definition xml:lang="en">permeation into drinking water pipelines</definition>
+         <description xml:lang="en">when in doubt control of taps on the site may be advised</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RiskTypeValue">
+            <label xml:lang="en">risk type value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RiskTypeValue/nuisanceFromSkinContact">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RiskTypeValue/nuisanceFromSkinContact:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RiskTypeValue/nuisanceFromSkinContact</latestversion>
+         <label xml:lang="en">nuisance from skin contact</label>
+         <definition xml:lang="en">nuisance from skin contact</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RiskTypeValue">
+            <label xml:lang="en">risk type value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RiskTypeValue/other">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RiskTypeValue/other:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RiskTypeValue/other</latestversion>
+         <label xml:lang="en">other</label>
+         <definition xml:lang="en">other</definition>
+         <description xml:lang="en">if it is an extendable list this can be skipped</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RiskTypeValue">
+            <label xml:lang="en">risk type value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

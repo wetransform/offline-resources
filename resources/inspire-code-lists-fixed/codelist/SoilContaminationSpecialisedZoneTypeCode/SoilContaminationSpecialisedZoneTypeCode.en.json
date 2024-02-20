@@ -1,0 +1,1056 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Technical (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "soil contamination specialised zone type code",
+          "id" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode"
+        },
+        "created" : "2015-08-18 18:21 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "e.g. possible restrictions: no home gardening for consumption, limited consumption, only crops with little uptake, carefull washing of vegetables, adjusted fertiliser and calcium addition regime; monitoring: including declared limiting concentrtaions and set rules for action",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "restricted home gardening and or monitoring of produce",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Soil",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "definition" : {
+          "text" : "protection of local consumers living of crops grown non -commercially on the site",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/so"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedHomeGardeningAndOrMonitoringOfProduce",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedHomeGardeningAndOrMonitoringOfProduce",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedHomeGardeningAndOrMonitoringOfProduce:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "soil contamination specialised zone type code",
+          "id" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode"
+        },
+        "created" : "2015-08-18 18:21 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "agricultural produce is for use elsewhere and follows commercial rules; possible content of chemicals with adverse effects will generally be regulated and maintained by the producing member state and according trade rules",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "restricted agriculture and/or monitoring of produce",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Soil",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "definition" : {
+          "text" : "general food protection rules; care for additional monitoring when land is possibly contaminated",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/so"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedAgricultureAndOrMonitoringOfProduce",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedAgricultureAndOrMonitoringOfProduce",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedAgricultureAndOrMonitoringOfProduce:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "soil contamination specialised zone type code",
+          "id" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode"
+        },
+        "created" : "2015-08-18 18:21 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "storm water, run off to surface water and transport in sewer systems may be an additional route of dispersion and need care",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "storm water and sewer management",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Soil",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "definition" : {
+          "text" : "structural works to minimise the dispersion or the effects of dispersion of contaminants, in sewers and dewatering regulation systems",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/so"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/stormWaterAndSewerManagement",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/stormWaterAndSewerManagement",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/stormWaterAndSewerManagement:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "soil contamination specialised zone type code",
+          "id" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode"
+        },
+        "created" : "2015-08-18 18:21 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "soil is part of a soil- water system with both media generally in cliose contact; dispersion with surface water in close contact to the site or inclusion in underwater soil /surface water sediment is common",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "management and monitoring of surface waters in connection with the site",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Soil",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "definition" : {
+          "text" : "structural works to minimise the dispersion or the effects of dispersion of contaminants by management of surface wates in contact with the site",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/so"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/managementAndMonitoringOfSurfaceWatersInConnectionWithTheSite",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/managementAndMonitoringOfSurfaceWatersInConnectionWithTheSite",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/managementAndMonitoringOfSurfaceWatersInConnectionWithTheSite:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "soil contamination specialised zone type code",
+          "id" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode"
+        },
+        "created" : "2015-08-18 18:21 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "e.g. not as untreated drinking water, not as irrigation water",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "restricted or licensed use of groundwater wells on the site",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Soil",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "definition" : {
+          "text" : "dependent of pollution level water from groundwater wells may have restricted use",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/so"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedOrLicensedUseOfGroundwaterWellsOnTheSite",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedOrLicensedUseOfGroundwaterWellsOnTheSite",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedOrLicensedUseOfGroundwaterWellsOnTheSite:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "soil contamination specialised zone type code",
+          "id" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode"
+        },
+        "created" : "2015-08-18 18:21 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "to avoid contact with pollution, to avoid dispersion from stabilised bodies of polluted soil or enclosed voltile substances",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "restricted or licensed excavation or digging only",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Soil",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "definition" : {
+          "text" : "excavation /digging permits from local authority",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/so"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedOrLicensedExcavationOrDiggingOnly",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedOrLicensedExcavationOrDiggingOnly",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedOrLicensedExcavationOrDiggingOnly:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "soil contamination specialised zone type code",
+          "id" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode"
+        },
+        "created" : "2015-08-18 18:21 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "to avoid dispersion of pollution with excavated soil to other areas",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "restricted or licensed tranport of soil and or waste material to and from site",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Soil",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "definition" : {
+          "text" : "permits for transport of soil and waste from local authority",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/so"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedOrLicensedTranportOfSoilAndOrWasteMaterialToAndFromSite",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedOrLicensedTranportOfSoilAndOrWasteMaterialToAndFromSite",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedOrLicensedTranportOfSoilAndOrWasteMaterialToAndFromSite:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "soil contamination specialised zone type code",
+          "id" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode"
+        },
+        "created" : "2015-08-18 18:21 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "to avoid blocking cleaning possibilities and to avoid buildings with limited use or comercial values after finishing",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "restrictions on builing activities",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Soil",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "definition" : {
+          "text" : "according applicable rules for building permits",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/so"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictionsOnBuilingActivities",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictionsOnBuilingActivities",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictionsOnBuilingActivities:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "soil contamination specialised zone type code",
+          "id" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode"
+        },
+        "created" : "2015-08-18 18:21 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "i.e. regarding indoor air quality",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "restrictions on use of buildings and facilities",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Soil",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "definition" : {
+          "text" : "according view of local health authorities",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/so"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictionsOnUseOfBuildingsAndFacilities",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictionsOnUseOfBuildingsAndFacilities",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictionsOnUseOfBuildingsAndFacilities:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "soil contamination specialised zone type code",
+          "id" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode"
+        },
+        "created" : "2015-08-18 18:21 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "i.e.check on tears, punctures, deep rooting trees, taking up of water, escaping gasses",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "cover management",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Soil",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "definition" : {
+          "text" : "if cover is applied to avoid contact with polluted soil this should be maneged",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/so"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/coverManagement",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/coverManagement",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/coverManagement:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "soil contamination specialised zone type code",
+          "id" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode"
+        },
+        "created" : "2015-08-18 18:21 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "i.e. to avoid contact with pollution for innocent bypassers and playing children, to demand protection and safety measures for workers entering the area",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "restricted or licensed entrance only",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Soil",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "definition" : {
+          "text" : "restricted or licensed entrance only",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/so"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedOrLicensedEntranceOnly",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedOrLicensedEntranceOnly",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedOrLicensedEntranceOnly:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:19 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-technical",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+    },
+    "description" : {
+      "text" : "Imposed restrictions in land use",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "soil contamination specialised zone type code",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "open",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Extensible with values at any level",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "so",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Soil",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+    },
+    "definition" : {
+      "text" : "Indicates restrictions on the site as a consequence of the current situation.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "so",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/so"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

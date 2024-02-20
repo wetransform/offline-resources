@@ -1,0 +1,795 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Classification and Quantification Framework",
+          "id" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue"
+        },
+        "created" : "2015-08-18 17:50 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "The Norwegian Petroleum Directorate classification (NPD-2001) is based on the SPE/WPC/AAPG 2000 classification but expanded to utilize categories that differentiate projects based on their commerciality, that is, their maturity towards full producing status.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Norwegian Petroleum Directorate classification (NPD-2001)",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "er-b",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Energy Resources Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "definition" : {
+          "text" : "Norwegian Petroleum Directorate classification (NPD-2001)",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "er",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/er"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/NPD",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/NPD",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/NPD:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Classification and Quantification Framework",
+          "id" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue"
+        },
+        "created" : "2015-08-18 17:50 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "The PERC Code for Reporting of Exploration Results, Mineral Resources and Mineral Reserves sets out minimum standards, recommendations and guidelines for Public Reporting of Exploration Results, Mineral Resources and Mineral Reserves in the United Kingdom, Ireland and Europe. The Code has been adopted by the Institute of Materials, Minerals and Mining (IoM3), the Geological Society of London (GSL), the European Federation of Geologists (EFG) and the Institute of Geologists of Ireland (IGI), and is therefore binding on their individual members.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Pan-European Code for Reporting of Exploration Results, Mineral Resources and Reserves (PERC).",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "er-b",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Energy Resources Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "definition" : {
+          "text" : "Pan-European Code for Reporting of Exploration Results, Mineral Resources and Reserves (PERC).",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "er",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/er"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/PERC",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/PERC",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/PERC:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Classification and Quantification Framework",
+          "id" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue"
+        },
+        "created" : "2015-08-18 17:50 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "Russian reserve guidelines are in a state of transition from the system utilized within Soviet state companies to a new system more closely aligned with the needs of private industry.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Russian reserve guidelines.",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "er-b",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Energy Resources Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "definition" : {
+          "text" : "Russian reserve guidelines.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "er",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/er"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/RF",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/RF",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/RF:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Classification and Quantification Framework",
+          "id" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue"
+        },
+        "created" : "2015-08-18 17:50 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "In 2000, the Society of Petroleum Engineers (SPE) jointly with the World Petroleum Council (WPC) and the American Association of Petroleum Geologists (AAPG) published a Reserve and Resource Classification to address the requirement for an international standard. The underlying Reserves Definitions were unchanged from those published by the SPE/WPC in 1997. Additionally, in 2001 the SPE/WPC/AAPG jointly published Guidelines for the Evaluation of Petroleum Reserves and Resources as clarifications for the application of the 2001 and 1997 documents. Further clarification was provided in the Glossary of 2005, in particular by the definition of the term commercial, and thereby reserves.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Petroleum Resources Management System",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "er-b",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Energy Resources Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "definition" : {
+          "text" : "Petroleum Resources Management System",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "er",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/er"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/SPE-WPC-AAPG-PRMS",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/SPE-WPC-AAPG-PRMS",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/SPE-WPC-AAPG-PRMS:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Classification and Quantification Framework",
+          "id" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue"
+        },
+        "created" : "2015-08-18 17:50 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "The classification is based on three key attributes:\\n• Economic (E)\\n• Field Project Sta-tus/Feasibility (F)\\n• Geological (G)",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "United Nations Framework Classification (1997).",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "er-b",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Energy Resources Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "definition" : {
+          "text" : "United Nations Framework Classification (1997).",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "er",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/er"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/UNFC1997",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/UNFC1997",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/UNFC1997:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Classification and Quantification Framework",
+          "id" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue"
+        },
+        "created" : "2015-08-18 17:50 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "The classification is based on three key attributes:\\n• Economic (E)\\n• Field Project Sta-tus/Feasibility (F)\\n• Geological (G)",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "United Nations Framework Classification (2004).",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "er-b",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Energy Resources Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "definition" : {
+          "text" : "United Nations Framework Classification (2004).",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "er",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/er"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/UNFC2004",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/UNFC2004",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/UNFC2004:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Classification and Quantification Framework",
+          "id" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue"
+        },
+        "created" : "2015-08-18 17:50 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "The classification is based on three key attributes:\\n• Economic (E)\\n• Field Project Sta-tus/Feasibility (F)\\n• Geological (G)",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "United Nations Framework Classification (2009).",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "er-b",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Energy Resources Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "definition" : {
+          "text" : "United Nations Framework Classification (2009).",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "er",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/er"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/UNFC2009",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/UNFC2009",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/UNFC2009:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Classification and Quantification Framework",
+          "id" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue"
+        },
+        "created" : "2015-08-18 17:50 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "The USGS classifi-cation is based on two parameters whereby resources are classified by feasibility of eco-nomic recovery and degree of geologic certainty.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "United States Geological Survey",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "er-b",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Energy Resources Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "definition" : {
+          "text" : "United States Geological Survey",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "er",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/er"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/USGS",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/USGS",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/USGS:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "description" : {
+      "text" : "NOTE Most of the listed classification frameworks only focus on fossil fuels.",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Classification and Quantification Framework",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "open",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Extensible with values at any level",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "er-b",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Energy Resources Base",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+    },
+    "definition" : {
+      "text" : "Values for the most widely used classification schemes to classify and quantify energy resources.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "er",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/er"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/ReferenceHabitatTypeSchemeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/ReferenceHabitatTypeSchemeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/ReferenceHabitatTypeSchemeValue</latestversion>
+   <label xml:lang="en">Reference Habitat Type Scheme</label>
+   <definition xml:lang="en">This value defines which pan-European habitat classification scheme has been used.</definition>
+   <description xml:lang="en">EXAMPLE Eunis</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hb">
+      <label xml:lang="en">Habitats and Biotopes</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/hb">
+      <label xml:lang="en">Habitats and biotopes</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/ReferenceHabitatTypeSchemeValue/eunis">
+         <language>en</language>
+         <created>2015-08-18 17:31 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ReferenceHabitatTypeSchemeValue/eunis:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ReferenceHabitatTypeSchemeValue/eunis</latestversion>
+         <label xml:lang="en">Eunis</label>
+         <definition xml:lang="en">EUNIS habitat classification.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ReferenceHabitatTypeSchemeValue">
+            <label xml:lang="en">Reference Habitat Type Scheme</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hb">
+            <label xml:lang="en">Habitats and Biotopes</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hb">
+            <label xml:lang="en">Habitats and biotopes</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ReferenceHabitatTypeSchemeValue/habitatsDirective">
+         <language>en</language>
+         <created>2015-08-18 17:31 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ReferenceHabitatTypeSchemeValue/habitatsDirective:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ReferenceHabitatTypeSchemeValue/habitatsDirective</latestversion>
+         <label xml:lang="en">Habitats directive</label>
+         <definition xml:lang="en">Classification of habitats according to Annex I to Directive 92/43/EEC.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ReferenceHabitatTypeSchemeValue">
+            <label xml:lang="en">Reference Habitat Type Scheme</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hb">
+            <label xml:lang="en">Habitats and Biotopes</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hb">
+            <label xml:lang="en">Habitats and biotopes</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ReferenceHabitatTypeSchemeValue/marineStrategyFrameworkDirective">
+         <language>en</language>
+         <created>2015-08-18 17:31 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ReferenceHabitatTypeSchemeValue/marineStrategyFrameworkDirective:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ReferenceHabitatTypeSchemeValue/marineStrategyFrameworkDirective</latestversion>
+         <label xml:lang="en">Marine strategy framework directive</label>
+         <definition xml:lang="en">Classification of habitats according to table 1 of Annex III to Directive 2008/56/EC.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ReferenceHabitatTypeSchemeValue">
+            <label xml:lang="en">Reference Habitat Type Scheme</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hb">
+            <label xml:lang="en">Habitats and Biotopes</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hb">
+            <label xml:lang="en">Habitats and biotopes</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

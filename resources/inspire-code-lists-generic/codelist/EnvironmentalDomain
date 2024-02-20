@@ -1,0 +1,409 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/EnvironmentalDomain">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/EnvironmentalDomain:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/EnvironmentalDomain</latestversion>
+   <label xml:lang="en">Environmental Domain</label>
+   <definition xml:lang="en">Environmental domain, for which environmental objectives can be defined.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/am">
+      <label xml:lang="en">Area Management Restriction and Regulation Zones</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/am">
+      <label xml:lang="en">Area management/restriction/regulation zones and reporting units</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/soil">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/soil:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/soil</latestversion>
+         <label xml:lang="en">soil</label>
+         <definition xml:lang="en">The top layer of the land surface of the earth that is composed of disintegrated rock particles, humus, water and air.</definition>
+         <description xml:lang="en">SOURCE: GEMET / CED</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EnvironmentalDomain">
+            <label xml:lang="en">Environmental Domain</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/am">
+            <label xml:lang="en">Area Management Restriction and Regulation Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/am">
+            <label xml:lang="en">Area management/restriction/regulation zones and reporting units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/noise">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/noise:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/noise</latestversion>
+         <label xml:lang="en">noise</label>
+         <definition xml:lang="en">Sound which is unwanted, either because of its effects on humans, its effect on fatigue or malfunction of physical equipment, or its interference with the perception or detection of other sounds.</definition>
+         <description xml:lang="en">SOURCE: GEMET / MGH</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EnvironmentalDomain">
+            <label xml:lang="en">Environmental Domain</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/am">
+            <label xml:lang="en">Area Management Restriction and Regulation Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/am">
+            <label xml:lang="en">Area management/restriction/regulation zones and reporting units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/naturalResources">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/naturalResources:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/naturalResources</latestversion>
+         <label xml:lang="en">natural resources</label>
+         <definition xml:lang="en">A feature or component of the natural environment that is of value in serving human needs, e.g. soil, water, plant life, wildlife, etc. Some natural resources have an economic value (e.g. timber) while others have a "non-economic" value (e.g. scenic beauty).</definition>
+         <description xml:lang="en">SOURCE: GEMET / UNUN</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EnvironmentalDomain">
+            <label xml:lang="en">Environmental Domain</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/am">
+            <label xml:lang="en">Area Management Restriction and Regulation Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/am">
+            <label xml:lang="en">Area management/restriction/regulation zones and reporting units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/climateAndClimateChange">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/climateAndClimateChange:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/climateAndClimateChange</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/climateAndClimateChange:1</version>
+         </previousversions>
+         <label xml:lang="en">climate and climate change</label>
+         <definition xml:lang="en">State of the climate and/or change in this state that can be identified (e.g., by using statistical tests) by changes in the mean and/or the variability of its properties, and that persists for an extended period, typically decades or longer.</definition>
+         <description xml:lang="en">TBD</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EnvironmentalDomain">
+            <label xml:lang="en">Environmental Domain</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/am">
+            <label xml:lang="en">Area Management Restriction and Regulation Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/am">
+            <label xml:lang="en">Area management/restriction/regulation zones and reporting units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/healthProtection">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/healthProtection:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/healthProtection</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/healthProtection:1</version>
+         </previousversions>
+         <label xml:lang="en">health protection</label>
+         <definition xml:lang="en">Measures or devices designed to reduce the risk of harm to human health posed by pollutants or other threatening conditions in the ecosystem.</definition>
+         <description xml:lang="en">SOURCE: GEMET / TOE (for "environmental health protection")</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EnvironmentalDomain">
+            <label xml:lang="en">Environmental Domain</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/am">
+            <label xml:lang="en">Area Management Restriction and Regulation Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/am">
+            <label xml:lang="en">Area management/restriction/regulation zones and reporting units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/air">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/air:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/air</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/air:1</version>
+         </previousversions>
+         <label xml:lang="en">air</label>
+         <definition xml:lang="en">A predominantly mechanical mixture of a variety of individual gases forming the earth's enveloping atmosphere.</definition>
+         <description xml:lang="en">SOURCE: GEMET / MGH</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EnvironmentalDomain">
+            <label xml:lang="en">Environmental Domain</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/am">
+            <label xml:lang="en">Area Management Restriction and Regulation Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/am">
+            <label xml:lang="en">Area management/restriction/regulation zones and reporting units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/water">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/water:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/water</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/water:1</version>
+         </previousversions>
+         <label xml:lang="en">water</label>
+         <definition xml:lang="en">Common liquid (H2O) which forms rain, rivers, the sea, etc., and which makes up a large part of the bodies of organisms.</definition>
+         <description xml:lang="en">SOURCE: GEMET / PHC</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EnvironmentalDomain">
+            <label xml:lang="en">Environmental Domain</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/am">
+            <label xml:lang="en">Area Management Restriction and Regulation Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/am">
+            <label xml:lang="en">Area management/restriction/regulation zones and reporting units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/waste">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/waste:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/waste</latestversion>
+         <label xml:lang="en">waste</label>
+         <definition xml:lang="en">Material, often unusable, left over from any manufacturing, industrial, agricultural or other human process; material damaged or altered during a manufacturing process and subsequently left useless.</definition>
+         <description xml:lang="en">SOURCE: GEMET / HMD / OED</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EnvironmentalDomain">
+            <label xml:lang="en">Environmental Domain</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/am">
+            <label xml:lang="en">Area Management Restriction and Regulation Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/am">
+            <label xml:lang="en">Area management/restriction/regulation zones and reporting units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/natureAndBiodiversity">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/natureAndBiodiversity:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/natureAndBiodiversity</latestversion>
+         <label xml:lang="en">nature and biodiversity</label>
+         <definition xml:lang="en">Active management of the earth's natural resources and environment to ensure their quality is maintained and that they are wisely used.</definition>
+         <description xml:lang="en">SOURCE: GEMET / PHC (for "nature conservation")</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EnvironmentalDomain">
+            <label xml:lang="en">Environmental Domain</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/am">
+            <label xml:lang="en">Area Management Restriction and Regulation Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/am">
+            <label xml:lang="en">Area management/restriction/regulation zones and reporting units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/sustainableDevelopment">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/sustainableDevelopment:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/sustainableDevelopment</latestversion>
+         <label xml:lang="en">sustainable development</label>
+         <definition xml:lang="en">Development that provides economic, social and environmental benefits in the long term having regard to the needs of living and future generations.</definition>
+         <description xml:lang="en">SOURCE: GEMET\n\nNOTE  Defined by the World Commission on Environment and Development in 1987 as: development that meets the needs of the present without compromising the ability of future generations to meet their own needs. (Source: GILP96)</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EnvironmentalDomain">
+            <label xml:lang="en">Environmental Domain</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/am">
+            <label xml:lang="en">Area Management Restriction and Regulation Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/am">
+            <label xml:lang="en">Area management/restriction/regulation zones and reporting units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/landUse">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/landUse:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/landUse</latestversion>
+         <label xml:lang="en">land use</label>
+         <definition xml:lang="en">The term land use deals with the spatial aspects of all human activities on the land and with the way in which the land surface is adapted, or could be adapted, to serve human needs.</definition>
+         <description xml:lang="en">SOURCE: GEMET / GOOD</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EnvironmentalDomain">
+            <label xml:lang="en">Environmental Domain</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/am">
+            <label xml:lang="en">Area Management Restriction and Regulation Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/am">
+            <label xml:lang="en">Area management/restriction/regulation zones and reporting units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

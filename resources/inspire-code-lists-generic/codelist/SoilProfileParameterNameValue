@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue</latestversion>
+   <label xml:lang="en">Soil Profile Parameter Name</label>
+   <definition xml:lang="en">Properties that can be observed to characterize the soil profile.</definition>
+   <description xml:lang="en">Basically these parameters can be divided in several major groups like:\n&lt;ul>\n&lt;li>Chemical parameters&lt;/li>\n&lt;li>Physical parameters&lt;/li>\n&lt;li>Biological parameters&lt;/li>\n&lt;/ul></description>
+   <parents>
+      <parent id="http://inspire.ec.europa.eu/codelist/PhenomenonTypeValue">
+         <label xml:lang="en">Phenomenon Type</label>
+      </parent>
+   </parents>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/narrower">
+      <label xml:lang="en">Extensible with narrower values</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+      <label xml:lang="en">Soil</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/so">
+      <label xml:lang="en">Soil</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue/chemicalParameter">
+         <language>en</language>
+         <created>2015-08-18 17:37 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue/chemicalParameter:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue/chemicalParameter</latestversion>
+         <label xml:lang="en">chemical parameter</label>
+         <definition xml:lang="en">Chemical parameters observed to characterize the soil profile.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue">
+            <label xml:lang="en">Soil Profile Parameter Name</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue/physicalParameter">
+         <language>en</language>
+         <created>2015-08-18 17:37 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue/physicalParameter:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue/physicalParameter</latestversion>
+         <label xml:lang="en">physical parameter</label>
+         <definition xml:lang="en">Physical parameters observed to characterize the soil profile.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue">
+            <label xml:lang="en">Soil Profile Parameter Name</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue/biologicalParameter">
+         <language>en</language>
+         <created>2015-08-18 17:37 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue/biologicalParameter:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue/biologicalParameter</latestversion>
+         <label xml:lang="en">biological parameter</label>
+         <definition xml:lang="en">Biological parameters observed to characterize the soil profile.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue">
+            <label xml:lang="en">Soil Profile Parameter Name</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue/potentialRootDepth">
+         <language>en</language>
+         <created>2015-08-18 17:37 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue/potentialRootDepth:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue/potentialRootDepth</latestversion>
+         <label xml:lang="en">potential root depth</label>
+         <definition xml:lang="en">Potential depth of the soil profile where roots develop (in cm).</definition>
+         <description xml:lang="en">This depth must take in account the presence of obstacle to roots. An obstacle can be:  • a toxic layer resulting from low pH values and associated high concentrations of Al and heavy metals, or a high salt content, etc.;  • a layer with few oxygen available for plant roots resulting from the presence of permanent or a perched water table, or the presence of a decomposing peat layer, etc;  • a layer forming a mechanical obstacle like a hard rock, a petrocalcic horizon, etc.;  • an impermeable layer such as a fragipan, an iron pan, clay layers in sediments or as result of pedogenesis. NOTE The potential root depth is a parameter to be taken into account for meeting the (i) Agri-environmental indicators that track the integration of environmental concerns into CAP at EU, national and regional levels</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue">
+            <label xml:lang="en">Soil Profile Parameter Name</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue/physicalParameter">
+               <label xml:lang="en">physical parameter</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue/availableWaterCapacity">
+         <language>en</language>
+         <created>2015-08-18 17:37 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue/availableWaterCapacity:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue/availableWaterCapacity</latestversion>
+         <label xml:lang="en">available water capacity</label>
+         <definition xml:lang="en">Amount of water that a soil can store that is usable by plants, based on the potential root depth.</definition>
+         <description xml:lang="en">the amount of water that a soil can store that is available for use by plants. It is the water held between field capacity and the wilting point adjusted downward for rock fragments and for salts in solution. DEFINITION Field capacity: maximum water content expressed in percent (mass fraction or volume fraction), that an unsaturated soil can retain against gravity under undisturbed soil conditions (conventionally stated as the water content 2 to 3 days after full saturation with water). DEFINITION Wilting point: water content of the soil below which the plants are not able to uptake water with their root system. SOURCE ISO 11074 NOTE The water available capacity is a parameter to be taken into account for meeting the (i) Directive 2009/28/EC of the European Parliament and of the Council (energy from renewable resources)</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue">
+            <label xml:lang="en">Soil Profile Parameter Name</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue/physicalParameter">
+               <label xml:lang="en">physical parameter</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue/carbonStock">
+         <language>en</language>
+         <created>2015-08-18 17:37 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue/carbonStock:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue/carbonStock</latestversion>
+         <label xml:lang="en">carbon stock</label>
+         <definition xml:lang="en">The total mass of carbon in soil for a given depth.</definition>
+         <description xml:lang="en">NOTE The carbon stock is a parameter to be taken into account for meeting the (i) Directive 2009/28/EC of the European Parliament and of the Council (Energy from renewable resources)</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue">
+            <label xml:lang="en">Soil Profile Parameter Name</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue/chemicalParameter">
+               <label xml:lang="en">chemical parameter</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue/waterDrainage">
+         <language>en</language>
+         <created>2015-08-18 17:37 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue/waterDrainage:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue/waterDrainage</latestversion>
+         <label xml:lang="en">water drainage</label>
+         <definition xml:lang="en">Natural internal water drainage class of the soil profile.</definition>
+         <description xml:lang="en">The natural water drainage class refers to the frequency and duration of wet periods under conditions similar to those under which the soil developed. Alteration of the water regime by man, either through drainage or irrigation, is not a consideration unless the alterations have significantly changed the morphology of the soil. SOURCE: USDA, Soil Survey Manual. NOTE The water drainage is a parameter to be taken into account for meeting the (i) Council Directive 91/676/EEC of 12 December 1991 concerning the protection of waters against pollution caused by nitrates form agricultural sources, (ii) Directive 2009/28/EC of the European Parliament and of the Council (energy from renewable resources)</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue">
+            <label xml:lang="en">Soil Profile Parameter Name</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue/physicalParameter">
+               <label xml:lang="en">physical parameter</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

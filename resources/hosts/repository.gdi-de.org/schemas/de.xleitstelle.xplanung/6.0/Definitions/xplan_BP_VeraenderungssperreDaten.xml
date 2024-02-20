@@ -1,0 +1,81 @@
+﻿<!--Erzeugt mit KIT (www.kit.edu) UmlToXmlTransformation-Software, Erstellungsdatum: 31.10.2022 09:24:40-->
+<TypeDefinition xmlns="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ../xsd/ShapeChangeDefinitions.xsd" gml:id="xplan_BP_VeraenderungssperreDaten">
+  <gml:description>Spezifikation der Daten für eine Veränderungssperre</gml:description>
+  <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_VeraenderungssperreDaten</gml:identifier>
+  <gml:name>xplan:BP_VeraenderungssperreDaten</gml:name>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_VeraenderungssperreDaten_startDatum">
+      <gml:description>Datum, ab dem die Veränderungssperre gilt</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_VeraenderungssperreDaten:attribute:startDatum</gml:identifier>
+      <gml:name>xplan:startDatum</gml:name>
+      <def:cardinality>1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::Date" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_VeraenderungssperreDaten_endDatum">
+      <gml:description>Enddatum der Veränderungssperre</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_VeraenderungssperreDaten:attribute:endDatum</gml:identifier>
+      <gml:name>xplan:endDatum</gml:name>
+      <def:cardinality>1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::Date" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_VeraenderungssperreDaten_verlaengerung">
+      <gml:description>Gibt an, ob die Veränderungssperre bereits ein- oder zweimal verlängert wurde</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_VeraenderungssperreDaten:attribute:verlaengerung</gml:identifier>
+      <gml:name>xplan:verlaengerung</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_VeraenderungssperreDaten_verlaengerung_BP_VerlaengerungVeraenderungssperre_1000">
+          <gml:description>Veränderungssperre wurde noch nicht verlängert.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_VeraenderungssperreDaten:verlaengerung:BP_VerlaengerungVeraenderungssperre:1000</gml:identifier>
+          <gml:name>Keine</gml:name>
+          <gml:name codeSpace="lesbarerName">Keine</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_VeraenderungssperreDaten_verlaengerung_BP_VerlaengerungVeraenderungssperre_2000">
+          <gml:description>Veränderungssperre wurde einmal verlängert.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_VeraenderungssperreDaten:verlaengerung:BP_VerlaengerungVeraenderungssperre:2000</gml:identifier>
+          <gml:name>ErsteVerlaengerung</gml:name>
+          <gml:name codeSpace="lesbarerName">Erste Verlängerung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_VeraenderungssperreDaten_verlaengerung_BP_VerlaengerungVeraenderungssperre_3000">
+          <gml:description>Veränderungssperre wurde zweimal verlängert.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_VeraenderungssperreDaten:verlaengerung:BP_VerlaengerungVeraenderungssperre:3000</gml:identifier>
+          <gml:name>ZweiteVerlaengerung</gml:name>
+          <gml:name codeSpace="lesbarerName">Zweite Verlängerung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>1</def:cardinality>
+      <def:valueTypeName>BP_VerlaengerungVeraenderungssperre</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_VeraenderungssperreDaten_beschlussDatum">
+      <gml:description>Beschlussdatum der Veränderungssperre </gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_VeraenderungssperreDaten:attribute:beschlussDatum</gml:identifier>
+      <gml:name>xplan:beschlussDatum</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::Date" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_VeraenderungssperreDaten_refBeschluss">
+      <gml:description>Referenz auf das Dokument des Veränderungssperre-Beschlusses.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_VeraenderungssperreDaten:attribute:refBeschluss</gml:identifier>
+      <gml:name>xplan:refBeschluss</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:XP_ExterneReferenz" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <def:classification>featureType</def:classification>
+</TypeDefinition>

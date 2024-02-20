@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/RestrictionTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/RestrictionTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/RestrictionTypeValue</latestversion>
+   <label xml:lang="en">Restriction Type</label>
+   <definition xml:lang="en">Possible restrictions on vehicles that can access a transport element.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn">
+      <label xml:lang="en">Common Transport Elements</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/tn">
+      <label xml:lang="en">Transport networks</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumDoubleAxleWeight">
+         <language>en</language>
+         <created>2015-08-18 17:40 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumDoubleAxleWeight:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumDoubleAxleWeight</latestversion>
+         <label xml:lang="en">maximum double axle weight</label>
+         <definition xml:lang="en">The maximum weight per double axle of a vehicle allowed at a transport element.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RestrictionTypeValue">
+            <label xml:lang="en">Restriction Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn">
+            <label xml:lang="en">Common Transport Elements</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumDraught">
+         <language>en</language>
+         <created>2015-08-18 17:40 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumDraught:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumDraught</latestversion>
+         <label xml:lang="en">maximum draught</label>
+         <definition xml:lang="en">The maximum draught of a vehicle allowed on a transport element.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RestrictionTypeValue">
+            <label xml:lang="en">Restriction Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn">
+            <label xml:lang="en">Common Transport Elements</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumFlightLevel">
+         <language>en</language>
+         <created>2015-08-18 17:40 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumFlightLevel:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumFlightLevel</latestversion>
+         <label xml:lang="en">maximum flight level</label>
+         <definition xml:lang="en">The maximum flight level allowed for a vehicle at a transport element.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RestrictionTypeValue">
+            <label xml:lang="en">Restriction Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn">
+            <label xml:lang="en">Common Transport Elements</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumHeight">
+         <language>en</language>
+         <created>2015-08-18 17:40 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumHeight:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumHeight</latestversion>
+         <label xml:lang="en">maximum height</label>
+         <definition xml:lang="en">The maximum height of a vehicle which can pass under another object.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RestrictionTypeValue">
+            <label xml:lang="en">Restriction Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn">
+            <label xml:lang="en">Common Transport Elements</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumLength">
+         <language>en</language>
+         <created>2015-08-18 17:40 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumLength:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumLength</latestversion>
+         <label xml:lang="en">maximum length</label>
+         <definition xml:lang="en">The maximum length of a vehicle allowed at a transport element.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RestrictionTypeValue">
+            <label xml:lang="en">Restriction Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn">
+            <label xml:lang="en">Common Transport Elements</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumSingleAxleWeight">
+         <language>en</language>
+         <created>2015-08-18 17:40 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumSingleAxleWeight:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumSingleAxleWeight</latestversion>
+         <label xml:lang="en">maximum single axle weight</label>
+         <definition xml:lang="en">The maximum weight per single axle of a vehicle allowed at a transport element.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RestrictionTypeValue">
+            <label xml:lang="en">Restriction Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn">
+            <label xml:lang="en">Common Transport Elements</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumTotalWeight">
+         <language>en</language>
+         <created>2015-08-18 17:40 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumTotalWeight:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumTotalWeight</latestversion>
+         <label xml:lang="en">maximum total weight</label>
+         <definition xml:lang="en">The maximum total weight of a vehicle allowed at a transport element.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RestrictionTypeValue">
+            <label xml:lang="en">Restriction Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn">
+            <label xml:lang="en">Common Transport Elements</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumTripleAxleWeight">
+         <language>en</language>
+         <created>2015-08-18 17:40 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumTripleAxleWeight:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumTripleAxleWeight</latestversion>
+         <label xml:lang="en">maximum triple axle weight</label>
+         <definition xml:lang="en">The maximum weight per triple axle of a vehicle allowed at a transport element.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RestrictionTypeValue">
+            <label xml:lang="en">Restriction Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn">
+            <label xml:lang="en">Common Transport Elements</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumWidth">
+         <language>en</language>
+         <created>2015-08-18 17:40 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumWidth:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumWidth</latestversion>
+         <label xml:lang="en">maximum width</label>
+         <definition xml:lang="en">The maximum width of a vehicle allowed on a transport element.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RestrictionTypeValue">
+            <label xml:lang="en">Restriction Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn">
+            <label xml:lang="en">Common Transport Elements</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/minimumFlightLevel">
+         <language>en</language>
+         <created>2015-08-18 17:40 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/minimumFlightLevel:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/minimumFlightLevel</latestversion>
+         <label xml:lang="en">minimum flight level</label>
+         <definition xml:lang="en">The minimum flight level allowed for a vehicle at a transport element.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RestrictionTypeValue">
+            <label xml:lang="en">Restriction Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn">
+            <label xml:lang="en">Common Transport Elements</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

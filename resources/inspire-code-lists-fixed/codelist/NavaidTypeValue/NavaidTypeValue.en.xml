@@ -1,0 +1,611 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue</latestversion>
+   <label xml:lang="en">Navaid Type</label>
+   <definition xml:lang="en">Types of Navaid Services.</definition>
+   <description xml:lang="en">SOURCE [AIXM5.0].</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-a">
+      <label xml:lang="en">Air Transport Network</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/tn">
+      <label xml:lang="en">Transport networks</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue/DME">
+         <language>en</language>
+         <created>2015-08-18 17:39 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/DME:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/DME</latestversion>
+         <label xml:lang="en">DME</label>
+         <definition xml:lang="en">Distance Measuring Equipment.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue">
+            <label xml:lang="en">Navaid Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-a">
+            <label xml:lang="en">Air Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.aixm.aero">
+            <label xml:lang="en">http://www.aixm.aero</label>
+         </referencelink>
+         <referencesource xml:lang="en">AIXM5.0 Conceptual Model</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue/ILS">
+         <language>en</language>
+         <created>2015-08-18 17:39 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/ILS:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/ILS</latestversion>
+         <label xml:lang="en">ILS</label>
+         <definition xml:lang="en">Instrument Landing System.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue">
+            <label xml:lang="en">Navaid Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-a">
+            <label xml:lang="en">Air Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.aixm.aero">
+            <label xml:lang="en">http://www.aixm.aero</label>
+         </referencelink>
+         <referencesource xml:lang="en">AIXM5.0 Conceptual Model</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue/ILS-DME">
+         <language>en</language>
+         <created>2015-08-18 17:40 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/ILS-DME:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/ILS-DME</latestversion>
+         <label xml:lang="en">ILS-DME</label>
+         <definition xml:lang="en">ILS with collocated DME.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue">
+            <label xml:lang="en">Navaid Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-a">
+            <label xml:lang="en">Air Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.aixm.aero">
+            <label xml:lang="en">http://www.aixm.aero</label>
+         </referencelink>
+         <referencesource xml:lang="en">AIXM5.0 Conceptual Model</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue/LOC">
+         <language>en</language>
+         <created>2015-08-18 17:40 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/LOC:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/LOC</latestversion>
+         <label xml:lang="en">LOC</label>
+         <definition xml:lang="en">Localizer.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue">
+            <label xml:lang="en">Navaid Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-a">
+            <label xml:lang="en">Air Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.aixm.aero">
+            <label xml:lang="en">http://www.aixm.aero</label>
+         </referencelink>
+         <referencesource xml:lang="en">AIXM5.0 Conceptual Model</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue/LOC-DME">
+         <language>en</language>
+         <created>2015-08-18 17:40 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/LOC-DME:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/LOC-DME</latestversion>
+         <label xml:lang="en">LOC-DME</label>
+         <definition xml:lang="en">LOC and DME collocated.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue">
+            <label xml:lang="en">Navaid Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-a">
+            <label xml:lang="en">Air Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.aixm.aero">
+            <label xml:lang="en">http://www.aixm.aero</label>
+         </referencelink>
+         <referencesource xml:lang="en">AIXM5.0 Conceptual Model</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue/MKR">
+         <language>en</language>
+         <created>2015-08-18 17:40 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/MKR:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/MKR</latestversion>
+         <label xml:lang="en">MKR</label>
+         <definition xml:lang="en">Marker Beacon.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue">
+            <label xml:lang="en">Navaid Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-a">
+            <label xml:lang="en">Air Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.aixm.aero">
+            <label xml:lang="en">http://www.aixm.aero</label>
+         </referencelink>
+         <referencesource xml:lang="en">AIXM5.0 Conceptual Model</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue/MLS">
+         <language>en</language>
+         <created>2015-08-18 17:40 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/MLS:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/MLS</latestversion>
+         <label xml:lang="en">MLS</label>
+         <definition xml:lang="en">Microwave Landing System.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue">
+            <label xml:lang="en">Navaid Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-a">
+            <label xml:lang="en">Air Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.aixm.aero">
+            <label xml:lang="en">http://www.aixm.aero</label>
+         </referencelink>
+         <referencesource xml:lang="en">AIXM5.0 Conceptual Model</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue/MLS-DME">
+         <language>en</language>
+         <created>2015-08-18 17:40 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/MLS-DME:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/MLS-DME</latestversion>
+         <label xml:lang="en">MLS-DME</label>
+         <definition xml:lang="en">MLS with collocated DME.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue">
+            <label xml:lang="en">Navaid Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-a">
+            <label xml:lang="en">Air Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.aixm.aero">
+            <label xml:lang="en">http://www.aixm.aero</label>
+         </referencelink>
+         <referencesource xml:lang="en">AIXM5.0 Conceptual Model</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue/NDB">
+         <language>en</language>
+         <created>2015-08-18 17:40 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/NDB:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/NDB</latestversion>
+         <label xml:lang="en">NDB</label>
+         <definition xml:lang="en">Non-Directional Radio Beacon.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue">
+            <label xml:lang="en">Navaid Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-a">
+            <label xml:lang="en">Air Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.aixm.aero">
+            <label xml:lang="en">http://www.aixm.aero</label>
+         </referencelink>
+         <referencesource xml:lang="en">AIXM5.0 Conceptual Model</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue/NDB-DME">
+         <language>en</language>
+         <created>2015-08-18 17:40 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/NDB-DME:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/NDB-DME</latestversion>
+         <label xml:lang="en">NDB-DME</label>
+         <definition xml:lang="en">NDB and DME collocated.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue">
+            <label xml:lang="en">Navaid Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-a">
+            <label xml:lang="en">Air Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.aixm.aero">
+            <label xml:lang="en">http://www.aixm.aero</label>
+         </referencelink>
+         <referencesource xml:lang="en">AIXM5.0 Conceptual Model</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue/NDB-MKR">
+         <language>en</language>
+         <created>2015-08-18 17:40 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/NDB-MKR:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/NDB-MKR</latestversion>
+         <label xml:lang="en">NDB-MKR</label>
+         <definition xml:lang="en">Non-Directional Radio Beacon and Marker Beacon.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue">
+            <label xml:lang="en">Navaid Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-a">
+            <label xml:lang="en">Air Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.aixm.aero">
+            <label xml:lang="en">http://www.aixm.aero</label>
+         </referencelink>
+         <referencesource xml:lang="en">AIXM5.0 Conceptual Model</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue/TACAN">
+         <language>en</language>
+         <created>2015-08-18 17:40 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/TACAN:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/TACAN</latestversion>
+         <label xml:lang="en">TACAN</label>
+         <definition xml:lang="en">Tactical Air Navigation Beacon.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue">
+            <label xml:lang="en">Navaid Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-a">
+            <label xml:lang="en">Air Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.aixm.aero">
+            <label xml:lang="en">http://www.aixm.aero</label>
+         </referencelink>
+         <referencesource xml:lang="en">AIXM5.0 Conceptual Model</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue/TLS">
+         <language>en</language>
+         <created>2015-08-18 17:40 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/TLS:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/TLS</latestversion>
+         <label xml:lang="en">TLS</label>
+         <definition xml:lang="en">Transponder Landing System.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue">
+            <label xml:lang="en">Navaid Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-a">
+            <label xml:lang="en">Air Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.aixm.aero">
+            <label xml:lang="en">http://www.aixm.aero</label>
+         </referencelink>
+         <referencesource xml:lang="en">AIXM5.0 Conceptual Model</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue/VOR">
+         <language>en</language>
+         <created>2015-08-18 17:40 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/VOR:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/VOR</latestversion>
+         <label xml:lang="en">VOR</label>
+         <definition xml:lang="en">VHF Omnidirectional Radio Range.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue">
+            <label xml:lang="en">Navaid Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-a">
+            <label xml:lang="en">Air Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.aixm.aero">
+            <label xml:lang="en">http://www.aixm.aero</label>
+         </referencelink>
+         <referencesource xml:lang="en">AIXM5.0 Conceptual Model</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue/VOR-DME">
+         <language>en</language>
+         <created>2015-08-18 17:40 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/VOR-DME:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/VOR-DME</latestversion>
+         <label xml:lang="en">VOR-DME</label>
+         <definition xml:lang="en">VOR and DME collocated.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue">
+            <label xml:lang="en">Navaid Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-a">
+            <label xml:lang="en">Air Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.aixm.aero">
+            <label xml:lang="en">http://www.aixm.aero</label>
+         </referencelink>
+         <referencesource xml:lang="en">AIXM5.0 Conceptual Model</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue/VORTAC">
+         <language>en</language>
+         <created>2015-08-18 17:40 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/VORTAC:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NavaidTypeValue/VORTAC</latestversion>
+         <label xml:lang="en">VORTAC</label>
+         <definition xml:lang="en">VOR and TACAN collocated.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NavaidTypeValue">
+            <label xml:lang="en">Navaid Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-a">
+            <label xml:lang="en">Air Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.aixm.aero">
+            <label xml:lang="en">http://www.aixm.aero</label>
+         </referencelink>
+         <referencesource xml:lang="en">AIXM5.0 Conceptual Model</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

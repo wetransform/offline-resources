@@ -1,0 +1,110 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "created" : "2015-08-18 17:18 PM CEST",
+    "document" : {
+      "label" : {
+        "text" : "EC562008",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/document/EC562008"
+    },
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Marine Strategy Framework Directive Classification",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "open",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Extensible with values at any level",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "br",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/br"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Bio-geographical Regions",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/br"
+    },
+    "definition" : {
+      "text" : "Codes for the Marine Stategy Framework Directive classification, as listed in Article 4 of Directive 2008/56/EC.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "br",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/br"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/MarineStrategyFrameworkDirectiveClassificationValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/MarineStrategyFrameworkDirectiveClassificationValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/MarineStrategyFrameworkDirectiveClassificationValue:1",
+    "parents" : [ {
+      "parent" : {
+        "label" : {
+          "text" : "Region Classification",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/RegionClassificationValue"
+      }
+    } ],
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

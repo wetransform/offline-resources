@@ -1,0 +1,290 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/TidalPotentialValue">
+   <language>en</language>
+   <created>2015-08-18 17:19 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/TidalPotentialValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/TidalPotentialValue</latestversion>
+   <label xml:lang="en">Tidal Potential</label>
+   <definition xml:lang="en">Types of potential tidal energy.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/any">
+      <label xml:lang="en">Empty code list</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-c">
+      <label xml:lang="en">Energy Resources Coverage</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/er">
+      <label xml:lang="en">Energy resources</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+      <label xml:lang="en">Technical (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/TidalPotentialValue/averagePeakFlow">
+         <language>en</language>
+         <created>2015-08-18 17:51 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/TidalPotentialValue/averagePeakFlow:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/TidalPotentialValue/averagePeakFlow</latestversion>
+         <label xml:lang="en">average peak flow</label>
+         <definition xml:lang="en">Peak velocity of tidal stream for whole tidal cycle.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/TidalPotentialValue">
+            <label xml:lang="en">Tidal Potential</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-c">
+            <label xml:lang="en">Energy Resources Coverage</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/TidalPotentialValue/averageTidalPower">
+         <language>en</language>
+         <created>2015-08-18 17:51 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/TidalPotentialValue/averageTidalPower:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/TidalPotentialValue/averageTidalPower</latestversion>
+         <label xml:lang="en">average tidal power</label>
+         <definition xml:lang="en">Average tidal power obtainable over a complete year.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/TidalPotentialValue">
+            <label xml:lang="en">Tidal Potential</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-c">
+            <label xml:lang="en">Energy Resources Coverage</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/TidalPotentialValue/meanNeapTidalPower">
+         <language>en</language>
+         <created>2015-08-18 17:51 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/TidalPotentialValue/meanNeapTidalPower:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/TidalPotentialValue/meanNeapTidalPower</latestversion>
+         <label xml:lang="en">mean neap tidal power</label>
+         <definition xml:lang="en">Average neap power taking into account the peak only of the neap tidal curve.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/TidalPotentialValue">
+            <label xml:lang="en">Tidal Potential</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-c">
+            <label xml:lang="en">Energy Resources Coverage</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/TidalPotentialValue/meanNeapTidalRange">
+         <language>en</language>
+         <created>2015-08-18 17:51 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/TidalPotentialValue/meanNeapTidalRange:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/TidalPotentialValue/meanNeapTidalRange</latestversion>
+         <label xml:lang="en">mean neap tidal range</label>
+         <definition xml:lang="en">Vertical distance between high and low tide during neap tidal curve.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/TidalPotentialValue">
+            <label xml:lang="en">Tidal Potential</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-c">
+            <label xml:lang="en">Energy Resources Coverage</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/TidalPotentialValue/meanNeapTidePeakFlow">
+         <language>en</language>
+         <created>2015-08-18 17:51 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/TidalPotentialValue/meanNeapTidePeakFlow:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/TidalPotentialValue/meanNeapTidePeakFlow</latestversion>
+         <label xml:lang="en">mean neap tide peak flow</label>
+         <definition xml:lang="en">Peak velocity of neap tidal stream.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/TidalPotentialValue">
+            <label xml:lang="en">Tidal Potential</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-c">
+            <label xml:lang="en">Energy Resources Coverage</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/TidalPotentialValue/meanSpringTidalPower">
+         <language>en</language>
+         <created>2015-08-18 17:51 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/TidalPotentialValue/meanSpringTidalPower:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/TidalPotentialValue/meanSpringTidalPower</latestversion>
+         <label xml:lang="en">mean spring tidal power</label>
+         <definition xml:lang="en">Average spring power taking account the peak only of the spring tidal curve.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/TidalPotentialValue">
+            <label xml:lang="en">Tidal Potential</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-c">
+            <label xml:lang="en">Energy Resources Coverage</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/TidalPotentialValue/meanSpringTidalRange">
+         <language>en</language>
+         <created>2015-08-18 17:51 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/TidalPotentialValue/meanSpringTidalRange:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/TidalPotentialValue/meanSpringTidalRange</latestversion>
+         <label xml:lang="en">mean spring tidal range</label>
+         <definition xml:lang="en">Vertical distance between high and low tide during spring tidal curve</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/TidalPotentialValue">
+            <label xml:lang="en">Tidal Potential</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-c">
+            <label xml:lang="en">Energy Resources Coverage</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/TidalPotentialValue/meanSpringTidePeakFlow">
+         <language>en</language>
+         <created>2015-08-18 17:51 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/TidalPotentialValue/meanSpringTidePeakFlow:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/TidalPotentialValue/meanSpringTidePeakFlow</latestversion>
+         <label xml:lang="en">mean spring tide peak flow</label>
+         <definition xml:lang="en">Peak velocity of spring tidal stream.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/TidalPotentialValue">
+            <label xml:lang="en">Tidal Potential</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-c">
+            <label xml:lang="en">Energy Resources Coverage</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

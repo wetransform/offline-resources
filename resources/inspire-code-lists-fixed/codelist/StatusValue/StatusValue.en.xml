@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/StatusValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/StatusValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/StatusValue</latestversion>
+   <label xml:lang="en">Status</label>
+   <definition xml:lang="en">Current validity of the real world address or address component.</definition>
+   <description xml:lang="en">NOTE 1 This element enables the application schema to represent a full life-cycle of an address and address component, from proposed to reserved, current and retired, or even alternative. \n\nNOTE 2 The status value relates to the real world address or address component and not to the property to which the address or address component is assigned (the addressable object).</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ad">
+      <label xml:lang="en">Addresses</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/ad">
+      <label xml:lang="en">Addresses</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/StatusValue/alternative">
+         <language>en</language>
+         <created>2015-08-18 17:39 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/StatusValue/alternative:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/StatusValue/alternative</latestversion>
+         <label xml:lang="en">alternative</label>
+         <definition xml:lang="en">An address or address component in common use but different from the master address or address component as determined by the official body responsible for address allocation or by the dataset custodian.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/StatusValue">
+            <label xml:lang="en">Status</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ad">
+            <label xml:lang="en">Addresses</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ad">
+            <label xml:lang="en">Addresses</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/StatusValue/current">
+         <language>en</language>
+         <created>2015-08-18 17:39 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/StatusValue/current:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/StatusValue/current</latestversion>
+         <label xml:lang="en">current</label>
+         <definition xml:lang="en">Current and valid address or address component according to official body responsible for address allocation or deemed, by the dataset custodian, to be the most appropriate, commonly used address.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/StatusValue">
+            <label xml:lang="en">Status</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ad">
+            <label xml:lang="en">Addresses</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ad">
+            <label xml:lang="en">Addresses</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/StatusValue/proposed">
+         <language>en</language>
+         <created>2015-08-18 17:39 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/StatusValue/proposed:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/StatusValue/proposed</latestversion>
+         <label xml:lang="en">proposed</label>
+         <definition xml:lang="en">An address or address component awaiting approval by the dataset custodian or official body responsible for address allocation.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/StatusValue">
+            <label xml:lang="en">Status</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ad">
+            <label xml:lang="en">Addresses</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ad">
+            <label xml:lang="en">Addresses</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/StatusValue/reserved">
+         <language>en</language>
+         <created>2015-08-18 17:39 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/StatusValue/reserved:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/StatusValue/reserved</latestversion>
+         <label xml:lang="en">reserved</label>
+         <definition xml:lang="en">An address or address component approved by the official body responsible for address allocation or by the dataset custodian, but yet to be implemented.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/StatusValue">
+            <label xml:lang="en">Status</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ad">
+            <label xml:lang="en">Addresses</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ad">
+            <label xml:lang="en">Addresses</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/StatusValue/retired">
+         <language>en</language>
+         <created>2015-08-18 17:39 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/StatusValue/retired:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/StatusValue/retired</latestversion>
+         <label xml:lang="en">retired</label>
+         <definition xml:lang="en">An address or address component no longer in every day use or abolished by the official body responsible for address allocation or by the dataset custodian.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/StatusValue">
+            <label xml:lang="en">Status</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ad">
+            <label xml:lang="en">Addresses</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ad">
+            <label xml:lang="en">Addresses</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

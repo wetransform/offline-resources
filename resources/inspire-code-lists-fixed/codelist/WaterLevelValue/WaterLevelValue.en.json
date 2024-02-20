@@ -1,0 +1,3577 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:41 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "equinoctial spring low water",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The level of low water springs near the time of an equinox.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/equinoctialSpringLowWater",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/equinoctialSpringLowWater",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/equinoctialSpringLowWater:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:41 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "higher high water",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The highest of the high waters (or single high water) of any specified tidal day due to the declination A1 effects of the moon and sun.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/higherHighWater",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/higherHighWater",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/higherHighWater:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:41 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "higher high water large tide",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The average of the highest high waters, one from each of 19 years of observations.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/higherHighWaterLargeTide",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/higherHighWaterLargeTide",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/higherHighWaterLargeTide:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:41 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "highest astronomical tide",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The highest tidal level, which can be predicted to occur under average meteorological conditions and under any combination of astronomical conditions.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/highestAstronomicalTide",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/highestAstronomicalTide",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/highestAstronomicalTide:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:41 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "highest high water",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The highest water level observed at a location.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/highestHighWater",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/highestHighWater",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/highestHighWater:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:41 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "high water",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The highest level reached at a location by the water surface in one tidal cycle.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/highWater",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/highWater",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/highWater:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "high water springs",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "An arbitrary level, approximating that of mean high water springs.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/highWaterSprings",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/highWaterSprings",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/highWaterSprings:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "indian spring high water",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "A tidal surface datum approximating the level of the mean of the higher high water at spring tides.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/indianSpringHighWater",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/indianSpringHighWater",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/indianSpringHighWater:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "indian spring low water",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "A tidal surface datum approximating the level of the mean of the lower low water at spring tides.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/indianSpringLowWater",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/indianSpringLowWater",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/indianSpringLowWater:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "local datum",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "An arbitrary datum defined by an authority of a local harbour, from which levels and tidal heights are measured by that authority.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/localDatum",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/localDatum",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/localDatum:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "lower low water",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The lowest of the low waters (or single low water) of any specified tidal day due to the declination A1 effects of the moon and sun.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/lowerLowWater",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/lowerLowWater",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/lowerLowWater:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "lower low water large tide",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The average of the lowest low waters, one from each of 19 years of observations.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/lowerLowWaterLargeTide",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/lowerLowWaterLargeTide",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/lowerLowWaterLargeTide:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "lowest astronomical tide",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The lowest tide level that can be predicted to occur under average meteorological conditions and under any combination of astronomical conditions.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/lowestAstronomicalTide",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/lowestAstronomicalTide",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/lowestAstronomicalTide:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "lowest low water",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "An arbitrary level conforming to the lowest tide observed at a location, or somewhat lower.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/lowestLowWater",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/lowestLowWater",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/lowestLowWater:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "lowest low water springs",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "An arbitrary level conforming to the lowest water level observed at a location at spring tides during a period shorter than 19 years.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/lowestLowWaterSprings",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/lowestLowWaterSprings",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/lowestLowWaterSprings:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "low water",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "An approximation of mean low water adopted as the reference level for a limited region, irrespective of better determinations later.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/lowWater",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/lowWater",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/lowWater:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "low water datum",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "An approximation of mean low water that has been adopted as a standard reference for a limited area.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/lowWaterDatum",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/lowWaterDatum",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/lowWaterDatum:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "low water springs",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "A level approximating that of mean low water springs.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/lowWaterSprings",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/lowWaterSprings",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/lowWaterSprings:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "mean higher high water",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The average height of higher high waters at a location over a 19-year period.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanHigherHighWater",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanHigherHighWater",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanHigherHighWater:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "mean higher high water springs",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The average height of higher high water at spring tides at a location.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanHigherHighWaterSprings",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanHigherHighWaterSprings",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanHigherHighWaterSprings:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "mean higher low water",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The average of the higher low water height of each tidal day observed over a National Tidal Datum Epoch.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanHigherLowWater",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanHigherLowWater",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanHigherLowWater:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "mean high water",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The average height of all high waters at a location over a 19-year period.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanHighWater",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanHighWater",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanHighWater:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "mean high water neaps",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The average height of the high waters of the neap tide.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanHighWaterNeaps",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanHighWaterNeaps",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanHighWaterNeaps:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "mean high water springs",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The average height of the high waters of spring tides.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanHighWaterSprings",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanHighWaterSprings",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanHighWaterSprings:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "mean lower high water",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The average of the lower high water height of each tidal day observed over a National Tidal Datum Epoch.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanLowerHighWater",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanLowerHighWater",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanLowerHighWater:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "mean lower low water",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The average height of the lower low waters at a location over a 19-year period.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanLowerLowWater",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanLowerLowWater",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanLowerLowWater:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "mean lower low water springs",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The average height of lower low water at spring tides at a location.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanLowerLowWaterSprings",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanLowerLowWaterSprings",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanLowerLowWaterSprings:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "mean low water",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The average height of all low waters at a location over a 19-year period.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanLowWater",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanLowWater",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanLowWater:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "mean low water neaps",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The average height of the low waters of the neap tide.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanLowWaterNeaps",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanLowWaterNeaps",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanLowWaterNeaps:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "mean low water springs",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The average height of the low waters of spring tides.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanLowWaterSprings",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanLowWaterSprings",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanLowWaterSprings:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "mean sea level",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The average height of the sea at a tide station measured from a fixed predetermined reference level.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanSeaLevel",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanSeaLevel",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanSeaLevel:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "mean tide level",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The arithmetic mean of mean high water and mean low water.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanTideLevel",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanTideLevel",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanTideLevel:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "mean water level",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The average of all hourly water levels over the available period of record.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanWaterLevel",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanWaterLevel",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/meanWaterLevel:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "nearly highest high water",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "An arbitrary level approximating the highest water level observed at a location, usually equivalent to the high water springs.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/nearlyHighestHighWater",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/nearlyHighestHighWater",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/nearlyHighestHighWater:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "nearly lowest low water",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "A level approximating the lowest water level observed at a location, usually equivalent to Indian spring low water.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/nearlyLowestLowWater",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/nearlyLowestLowWater",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/nearlyLowestLowWater:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "tropic higher high water",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The highest of the high waters (or single high water) of the tides occurring semimonthly when the effect of the Moon's maximum declination is greatest.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/tropicHigherHighWater",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/tropicHigherHighWater",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/tropicHigherHighWater:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Water Level",
+          "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue"
+        },
+        "created" : "2015-08-18 17:42 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "tropic lower low water",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The lowest of the low waters (or single low water) of the tides occurring semimonthly when the effect of the Moon's maximum declination is greatest.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/tropicLowerLowWater",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/tropicLowerLowWater",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue/tropicLowerLowWater:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "description" : {
+      "text" : "SOURCE [Codelist values based on DFDD].",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Water Level",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "none",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Not extensible",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "hy-p",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Hydro - Physical Waters",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+    },
+    "definition" : {
+      "text" : "The tidal datum / waterlevel to which depths and heights are referenced.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "hy",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/hy"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/WaterLevelValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

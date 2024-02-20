@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue</latestversion>
+   <label xml:lang="en">Health Services Type</label>
+   <definition xml:lang="en">Type of health care indicator.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/any">
+      <label xml:lang="en">Empty code list</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+      <label xml:lang="en">Human Health</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/hh">
+      <label xml:lang="en">Human health and safety</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/hospitalBed">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/hospitalBed:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/hospitalBed</latestversion>
+         <label xml:lang="en">Hospital bed</label>
+         <definition xml:lang="en">Total hospital beds are all hospital beds which are regularly maintained and staffed and immediately available for the care of admitted patients. Hospital beds provide information on health care capacities, i.e. on the maximum number of patients who can be treated by hospitals.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue">
+            <label xml:lang="en">Health Services Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/physician">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/physician:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/physician</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/physician:1</version>
+         </previousversions>
+         <label xml:lang="en">Physician</label>
+         <definition xml:lang="en">Physicians (medical doctors) as defined by ISCO 88 (code 2221) apply preventive and curative measures, improve or develop concepts, theories and operational methods and conduct research in the area of medicine and health care (http://epp.eurostat.ec.europa.eu/tgm/table.do?\ntab=table&amp;init=1&amp;language=en&amp;pcode=tps00044&amp;plugin=1).</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue">
+            <label xml:lang="en">Health Services Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/healthCareExpenditure">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/healthCareExpenditure:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/healthCareExpenditure</latestversion>
+         <label xml:lang="en">Health care expenditure</label>
+         <definition xml:lang="en">Health care expenditure data provide information on expenditure in the functionally defined area of health distinct by provider category (e.g. hospitals, general practitioners), function category (e.g. services of curative care, rehabilitative care, clinical laboratory, patient transport, prescribed medicines) and financing agent (e.g. social security, private insurance company, household).</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue">
+            <label xml:lang="en">Health Services Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/curativeHospitalBed">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/curativeHospitalBed:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/curativeHospitalBed</latestversion>
+         <label xml:lang="en">Curative hospital bed</label>
+         <definition xml:lang="en">Curative care (or acute care) beds in hospitals are beds that are available for curative care. These beds are a subgroup of total hospital beds; both occupied and unoccupied beds are covered.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue">
+            <label xml:lang="en">Health Services Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/averageLengthOfStay">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/averageLengthOfStay:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/averageLengthOfStay</latestversion>
+         <label xml:lang="en">Average length of stay</label>
+         <definition xml:lang="en">Average length of stay (ALOS) is computed by dividing the number of hospital days (or bed-days or in-patient days) from the date of admission in an in-patient institution (date of discharge minus date of admission) by the number of discharges (including deaths) during the year.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue">
+            <label xml:lang="en">Health Services Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/psychiatricCareBed">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/psychiatricCareBed:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/psychiatricCareBed</latestversion>
+         <label xml:lang="en">Psychiatric care bed</label>
+         <definition xml:lang="en">Psychiatric care beds in hospitals are beds accommodating patients with mental health problems. These beds are a subgroup of total hospital beds; both occupied and unoccupied beds are covered.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue">
+            <label xml:lang="en">Health Services Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/discharge">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/discharge:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/discharge</latestversion>
+         <label xml:lang="en">Discharge</label>
+         <definition xml:lang="en">The total number of in-patient discharges (excluding day cases) with the above diagnosis for a given gender and age group.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue">
+            <label xml:lang="en">Health Services Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/bedDays">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/bedDays:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/bedDays</latestversion>
+         <label xml:lang="en">Bed days</label>
+         <definition xml:lang="en">The total number of bed-days used by in-patients (excluding day cases) with the above diagnosis for given gender and age group.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue">
+            <label xml:lang="en">Health Services Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/dayCases">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/dayCases:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/dayCases</latestversion>
+         <label xml:lang="en">Day cases</label>
+         <definition xml:lang="en">The total number of day case discharges with the above diagnosis for a given gender and age group.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue">
+            <label xml:lang="en">Health Services Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/practisingPhysician">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/practisingPhysician:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/practisingPhysician</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/practisingPhysician:1</version>
+         </previousversions>
+         <label xml:lang="en">Practising physicians</label>
+         <definition xml:lang="en">Practising physicians as defined by ISCO 88 (code 2221) provide services directly to patients(http://epp.eurostat.ec.europa.eu/tgm/table.do?\ntab=table&amp;init=1&amp;language=en&amp;pcode=tps00044&amp;plugin=1).</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue">
+            <label xml:lang="en">Health Services Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

@@ -1,0 +1,2707 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/CODValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/CODValue:2</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/CODValue</latestversion>
+   <previousversions>
+      <version>http://inspire.ec.europa.eu/codelist/CODValue:1</version>
+   </previousversions>
+   <label xml:lang="en">Cause Of death</label>
+   <definition xml:lang="en">Data on causes of death (COD) provide information on mortality patterns and form a major element of public health information.</definition>
+   <description xml:lang="en">COD data refer to the underlying cause which - according to the World Health Organisation (WHO) - is "the disease or injury which initiated the train of morbid events leading directly to death, or the circumstances of the accident or violence which produced the fatal injury".</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+      <label xml:lang="en">Human Health</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/hh">
+      <label xml:lang="en">Human health and safety</label>
+   </theme>
+   <document id="http://inspire.ec.europa.eu/document/CoD">
+      <label xml:lang="en">European Shortlist for Causes of Death, 2012</label>
+   </document>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/1">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/1:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/1</latestversion>
+         <label xml:lang="en">Infectious and parasitic diseases</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/1.1">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/1.1:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/1.1</latestversion>
+         <label xml:lang="en">Tuberculosis</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/1.2">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/1.2:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/1.2</latestversion>
+         <label xml:lang="en">AIDS (HIV-disease)</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/1.3">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/1.3:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/1.3</latestversion>
+         <label xml:lang="en">Viral hepatitis</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/1.4">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/1.4:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/1.4</latestversion>
+         <label xml:lang="en">Other infectious and parasitic diseases</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/2">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/2:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/2</latestversion>
+         <label xml:lang="en">Neoplasms</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/2.1">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1</latestversion>
+         <label xml:lang="en">Malignant neoplasms</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/2.1.1">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.1:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.1</latestversion>
+         <label xml:lang="en">Malignant neoplasm of lip, oral cavity, pharynx</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/2.1.2">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.2:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.2</latestversion>
+         <label xml:lang="en">Malignant neoplasm of oesophagus</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/2.1.3">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.3:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.3</latestversion>
+         <label xml:lang="en">Malignant neoplasm of stomach</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/2.1.4">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.4:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.4</latestversion>
+         <label xml:lang="en">Malignant neoplasm of colon, rectum and anus</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/2.1.5">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.5:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.5</latestversion>
+         <label xml:lang="en">Malignant neoplasm of liver and intrahepatic bile ducts</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/2.1.6">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.6:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.6</latestversion>
+         <label xml:lang="en">Malignant neoplasm of pancreas</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/2.1.7">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.7:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.7</latestversion>
+         <label xml:lang="en">Malignant neoplasm of larynx</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/2.1.8">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.8:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.8</latestversion>
+         <label xml:lang="en">Malignant neoplasm of trachea, bronchus, lung</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/2.1.9">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.9:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.9</latestversion>
+         <label xml:lang="en">Malignant melanoma of skin</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/2.1.10">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.10:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.10</latestversion>
+         <label xml:lang="en">Malignant neoplasm of breast</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/2.1.11">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.11:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.11</latestversion>
+         <label xml:lang="en">Malignant neoplasm of cervix uteri</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/2.1.12">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.12:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.12</latestversion>
+         <label xml:lang="en">Malignant neoplasm of other and unspecified parts of uterus</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/2.1.13">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.13:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.13</latestversion>
+         <label xml:lang="en">Malignant neoplasm of ovary</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/2.1.14">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.14:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.14</latestversion>
+         <label xml:lang="en">Malignant neoplasm of prostate</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/2.1.15">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.15:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.15</latestversion>
+         <label xml:lang="en">Malignant neoplasm of kidney</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/2.1.16">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.16:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.16</latestversion>
+         <label xml:lang="en">Malignant neoplasm of bladder</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/2.1.17">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.17:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.17</latestversion>
+         <label xml:lang="en">Malignant neoplasm of brain and central nervous system</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/2.1.18">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.18:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.18</latestversion>
+         <label xml:lang="en">Malignant neoplasm of thyroid</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/2.1.19">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.19:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.19</latestversion>
+         <label xml:lang="en">Hodgkin disease and lymphomas</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/2.1.20">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.20:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.20</latestversion>
+         <label xml:lang="en">Leukaemia</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/2.1.21">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.21:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.21</latestversion>
+         <label xml:lang="en">Other malignant neoplasm of lymphoid  and haematopoietic tissue</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/2.1.22">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.22:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/2.1.22</latestversion>
+         <label xml:lang="en">Other malignant neoplasms</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/2.2">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/2.2:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/2.2</latestversion>
+         <label xml:lang="en">Non-malignant neoplasms (benign and uncertain)</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/3">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/3:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/3</latestversion>
+         <label xml:lang="en">Diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/4">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/4:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/4</latestversion>
+         <label xml:lang="en">Endocrine, nutritional and metabolic diseases</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/4.1">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/4.1:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/4.1</latestversion>
+         <label xml:lang="en">Diabetes mellitus</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/4.2">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/4.2:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/4.2</latestversion>
+         <label xml:lang="en">Other endocrine, nutritional and metabolic diseases</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/5">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/5:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/5</latestversion>
+         <label xml:lang="en">Mental and behavioural disorders</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/5.1">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/5.1:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/5.1</latestversion>
+         <label xml:lang="en">Dementia</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/5.2">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/5.2:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/5.2</latestversion>
+         <label xml:lang="en">Alcohol abuse (including alcoholic psychosis)</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/5.3">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/5.3:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/5.3</latestversion>
+         <label xml:lang="en">Drug dependence, toxicomania</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/5.4">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/5.4:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/5.4</latestversion>
+         <label xml:lang="en">Other mental and behavioural disorders</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/6">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/6:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/6</latestversion>
+         <label xml:lang="en">Diseases of the nervous system and the sense organs</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/6.1">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/6.1:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/6.1</latestversion>
+         <label xml:lang="en">Parkinson’s disease</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/6.2">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/6.2:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/6.2</latestversion>
+         <label xml:lang="en">Alzheimer’s disease</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/6.3">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/6.3:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/6.3</latestversion>
+         <label xml:lang="en">Other diseases of the nervous system and the sense organs</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/7">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/7:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/7</latestversion>
+         <label xml:lang="en">Diseases of the circulatory system</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/7.1">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/7.1:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/7.1</latestversion>
+         <label xml:lang="en">Ischaemic heart diseases</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/7.1.1">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/7.1.1:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/7.1.1</latestversion>
+         <label xml:lang="en">Acute myocardial infarction</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/7.1.2">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/7.1.2:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/7.1.2</latestversion>
+         <label xml:lang="en">Other ischaemic heart diseases</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/7.2">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/7.2:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/7.2</latestversion>
+         <label xml:lang="en">Other heart diseases</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/7.3">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/7.3:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/7.3</latestversion>
+         <label xml:lang="en">Cerebrovascular diseases</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/7.4">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/7.4:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/7.4</latestversion>
+         <label xml:lang="en">Other diseases of the circulatory system</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/8">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/8:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/8</latestversion>
+         <label xml:lang="en">Diseases of the respiratory system</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/8.1">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/8.1:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/8.1</latestversion>
+         <label xml:lang="en">Influenza</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/8.2">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/8.2:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/8.2</latestversion>
+         <label xml:lang="en">Pneumonia</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/8.3">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/8.3:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/8.3</latestversion>
+         <label xml:lang="en">Chronic lower respiratory diseases</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/8.3.1">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/8.3.1:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/8.3.1</latestversion>
+         <label xml:lang="en">Asthma</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/8.3.2">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/8.3.2:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/8.3.2</latestversion>
+         <label xml:lang="en">Other chronic lower respiratory diseases</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/8.4">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/8.4:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/8.4</latestversion>
+         <label xml:lang="en">Other diseases of the respiratory system</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/9">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/9:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/9</latestversion>
+         <label xml:lang="en">Diseases of the digestive system</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/9.1">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/9.1:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/9.1</latestversion>
+         <label xml:lang="en">Ulcer of stomach, duodenum and jejunum</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/9.2">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/9.2:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/9.2</latestversion>
+         <label xml:lang="en">Cirrhosis, fibrosis and chronic hepatitis</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/9.3">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/9.3:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/9.3</latestversion>
+         <label xml:lang="en">Other diseases of the digestive system</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/10">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/10:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/10</latestversion>
+         <label xml:lang="en">Diseases of the skin and subcutaneous tissue</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/11">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/11:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/11</latestversion>
+         <label xml:lang="en">Diseases of the musculoskeletal system/connective tissue</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/11.1">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/11.1:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/11.1</latestversion>
+         <label xml:lang="en">Rheumatoid arthritis and osteoarthrosis</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/11.2">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/11.2:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/11.2</latestversion>
+         <label xml:lang="en">Other diseases of the musculoskeletal system/connective tissue</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/12">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/12:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/12</latestversion>
+         <label xml:lang="en">Diseases of the genitourinary system</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/12.1">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/12.1:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/12.1</latestversion>
+         <label xml:lang="en">Diseases of kidney and ureter</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/12.2">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/12.2:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/12.2</latestversion>
+         <label xml:lang="en">Other diseases of the genitourinary system</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/13">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/13:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/13</latestversion>
+         <label xml:lang="en">Complications of pregnancy, childbirth and puerperium</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/14">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/14:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/14</latestversion>
+         <label xml:lang="en">Certain conditions originating in the perinatal period</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/15">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/15:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/15</latestversion>
+         <label xml:lang="en">Congenital malformations and chromosomal abnormalities</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/16">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/16:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/16</latestversion>
+         <label xml:lang="en">Symptoms, signs, ill-defined causes</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/16.1">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/16.1:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/16.1</latestversion>
+         <label xml:lang="en">Sudden infant death syndrome</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/16.2">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/16.2:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/16.2</latestversion>
+         <label xml:lang="en">Unknown and unspecified causes</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/16.3">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/16.3:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/16.3</latestversion>
+         <label xml:lang="en">Other symptoms, signs, ill-defined causes</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/17">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/17:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/17</latestversion>
+         <label xml:lang="en">External causes of morbidity and mortality</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/17.1">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/17.1:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/17.1</latestversion>
+         <label xml:lang="en">Accidents</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/17.1.1">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/17.1.1:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/17.1.1</latestversion>
+         <label xml:lang="en">Transport accidents</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/17.1.2">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/17.1.2:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/17.1.2</latestversion>
+         <label xml:lang="en">Accidental falls</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/17.1.3">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/17.1.3:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/17.1.3</latestversion>
+         <label xml:lang="en">Drowning and accidental submersion</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/17.1.4">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/17.1.4:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/17.1.4</latestversion>
+         <label xml:lang="en">Accidental poisoning</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/17.1.5">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/17.1.5:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/17.1.5</latestversion>
+         <label xml:lang="en">Other accidents</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/17.2">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/17.2:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/17.2</latestversion>
+         <label xml:lang="en">Suicide and intentional self-harm</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/17.3">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/17.3:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/17.3</latestversion>
+         <label xml:lang="en">Homicide, assault</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/17.4">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/17.4:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/17.4</latestversion>
+         <label xml:lang="en">Events of undetermined intent</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CODValue/17.5">
+         <language>en</language>
+         <created>2018-11-23 10:09 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CODValue/17.5:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CODValue/17.5</latestversion>
+         <label xml:lang="en">Other external causes of injury and poisoning</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CODValue">
+            <label xml:lang="en">Cause Of death</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

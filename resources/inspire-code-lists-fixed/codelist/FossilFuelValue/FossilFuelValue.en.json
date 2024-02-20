@@ -1,0 +1,794 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Fossil Fuel",
+          "id" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue"
+        },
+        "created" : "2015-08-18 17:29 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "These coals have a gross calorific value greater than 23 865 kJ/kg (5 700 kcal/kg) on an ashfree but moist basis and with a mean random reflectance of vitrinite of at least 0.6. SOURCE Adapted from IEA (2011): Coal Information 2011 Edition - Documentation For Beyond 2020 Files and Directive 2008/1099/EC.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "hard coal",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "er-b",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Energy Resources Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "definition" : {
+          "text" : "Black, combustible, solid, organic fossil sediment often referred to as High Rank, due to their high calorific value, or Black Coals, given their physical characteristic. This category includes anthracite, coking coal and other bituminous coal.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "er",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/er"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue/hardCoal",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue/hardCoal",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue/hardCoal:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Fossil Fuel",
+          "id" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue"
+        },
+        "created" : "2015-08-18 17:29 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "These coals have gross calorific values less that 23 865 kJ/kg (5 700 kcal/kg) on an ash free but moist basis.  The sub type of sub-bituminous coal refers to . non-agglomerating coal with a gross calorific value between 17 435 kJ/kg (4 165 kcal/kg) and 23 865 kJ/kg (5 700 kcal/kg) containing more than 31% volatile matter on a dry mineral matter free basis.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "low-rank coal",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "er-b",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Energy Resources Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "definition" : {
+          "text" : "Combustible brown to black organic fossil sediment which are non-agglomerating and are often referred to as Low Rank Coals due to their lower calorific value or Brown Coals, due to their physical characteristics. This category includes both sub-bituminous coals and lignite.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "er",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/er"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue/lowRankCoal",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue/lowRankCoal",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue/lowRankCoal:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Fossil Fuel",
+          "id" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue"
+        },
+        "created" : "2015-08-18 17:29 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Lignite is a non-agglomerating coal with a gross calorific value less than 17 435 kJ/kg (4 165 kcal/kg) and greater than 31% volatile matter on a dry mineral matter free basis.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "peat",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "er-b",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Energy Resources Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "definition" : {
+          "text" : "A combustible soft, porous or compressed, sedimentary deposit of plant origin with high water content (up to 90 % in the raw state), easily cut, of light to dark brown colour.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "er",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/er"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue/peat",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue/peat",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue/peat:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Fossil Fuel",
+          "id" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue"
+        },
+        "created" : "2015-08-18 17:29 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "SOURCE Adapted from IEA (2011): Coal Information 2011 Edition - Documentation For Beyond 2020 Files and Directive 2008/1099/EC.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "crude oil",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "er-b",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Energy Resources Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "definition" : {
+          "text" : "Crude oil is a mineral oil of natural origin comprising a mixture of hydrocarbons and associated impurities, such as sulphur. It exists in the liquid phase under normal surface temperature and pressure and its physical characteristics (density, viscosity, etc.) are highly variable.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "er",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/er"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue/crudeOil",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue/crudeOil",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue/crudeOil:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Fossil Fuel",
+          "id" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue"
+        },
+        "created" : "2015-08-18 17:29 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Peat used for non-energy purposes is not included.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "natural gas",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "er-b",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Energy Resources Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "definition" : {
+          "text" : "Gases occurring in underground deposits, whether liquefied or gaseous, consisting mainly of methane.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "er",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/er"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue/naturalGas",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue/naturalGas",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue/naturalGas:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Fossil Fuel",
+          "id" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue"
+        },
+        "created" : "2015-08-18 17:29 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "SOURCE Adapted from Directive 2008/1099/EC which is also without prejudice to the definition of renewable energy sources in \"Directive 2001/77/EC and to the 2006 IPCC Guidelines for National Greenhouse Gas inventories.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "natural gas liquids",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "er-b",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Energy Resources Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "definition" : {
+          "text" : "Liquid or liquefied hydrocarbons recovered from natural gas in separation facilities or gas processing plants.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "er",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/er"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue/naturalGasLiquids",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue/naturalGasLiquids",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue/naturalGasLiquids:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Fossil Fuel",
+          "id" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue"
+        },
+        "created" : "2015-08-18 17:29 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "SOURCE Adapted from Energy Statistics Regulation EC 1099/2008 .",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "oil sands",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "er-b",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Energy Resources Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "definition" : {
+          "text" : "Oil sands, tar sands or, more technically, bituminous sands, are loose sand or partially consolidated sandstone saturated with a dense and extremely viscous form of petroleum technically referred to as bitumen.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "er",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/er"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue/oilSands",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue/oilSands",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue/oilSands:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Fossil Fuel",
+          "id" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue"
+        },
+        "created" : "2015-08-18 17:29 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "It includes both non-associated gas originating from fields producing hydrocarbons only in gaseous form, and associated gas produced in association with crude oil as well as methane recovered from coal mines (coal mine methane) or from coal seams (coal seam gas).",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "oil shales",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "er-b",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Energy Resources Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+        },
+        "definition" : {
+          "text" : "Oil shale, also known as kerogen shale, is an organic-rich fine-grained sedimentary rock containing kerogen (immature hydrocarbons).",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "er",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/er"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue/oilShales",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue/oilShales",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue/oilShales:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue/oilShales:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Fossil Fuel",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "none",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Not extensible",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "er-b",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Energy Resources Base",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/er-b"
+    },
+    "definition" : {
+      "text" : "Types of fossil fuels.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "er",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/er"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/FossilFuelValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

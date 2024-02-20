@@ -1,0 +1,115 @@
+﻿<!--Erzeugt mit KIT (www.kit.edu) UmlToXmlTransformation-Software, Erstellungsdatum: 31.10.2022 09:25:48-->
+<TypeDefinition xmlns="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ../xsd/ShapeChangeDefinitions.xsd" gml:id="xplan_LP_Eingriffsregelung">
+  <gml:description>Planungsaussagen mit Bezug zur Eingriffsregelung und der Bew&amp;#228;ltigung von Eingriffsfolgen.
+Fl&amp;#228;chen und Ma&amp;#223;nahmen zum Ausgleich von Eingriffen im Sinne des &amp;#167; 8 und 8a BNatSchG (in Verbindung mit &amp;#167; 1a BauGB, Ausgleichs- und Ersatzma&amp;#223;nahmen).
+</gml:description>
+  <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_Eingriffsregelung</gml:identifier>
+  <gml:name>xplan:LP_Eingriffsregelung</gml:name>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_Eingriffsregelung_eingriffsregelungFlaechenTyp">
+      <gml:description>Angaben zum Fl&amp;#228;chentyp in Bezug auf Eingriffsregelung</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_Eingriffsregelung:attribute:eingriffsregelungFlaechenTyp</gml:identifier>
+      <gml:name>xplan:eingriffsregelungFlaechenTyp</gml:name>
+      <def:cardinality>1..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:LP_EingriffsregelungKomplex" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_Eingriffsregelung_umsetzungsstand">
+      <gml:description>Zeigt an, ob eine bereit umgesetzte oder angerechnete Kompensationsfl&amp;#228;che oder -Ma&amp;#223;nahme nachrichtlich &amp;#252;bernommen oder f&amp;#252;r neue Kompensationsma&amp;#223;enahmen vorgeschlagen wird. 
+</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_Eingriffsregelung:attribute:umsetzungsstand</gml:identifier>
+      <gml:name>xplan:umsetzungsstand</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_Eingriffsregelung_umsetzungsstand_LP_Umsetzungsstand_1000">
+          <gml:description>Nachrichtliche &amp;#220;bernahme von Kompensationsfl&amp;#228;chen und -ma&amp;#223;nahmen aus vorliegenden Planwerken, die bereits umgesetzt oder angerechnet wurden.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_Eingriffsregelung:umsetzungsstand:LP_Umsetzungsstand:1000</gml:identifier>
+          <gml:name>NachrichtlichUmgesetztAngerechnet</gml:name>
+          <gml:name codeSpace="lesbarerName">Nachrichtlich umgesetzt oder angerechnet</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_Eingriffsregelung_umsetzungsstand_LP_Umsetzungsstand_2000">
+          <gml:description>Vorschlag von Kompensationsfl&amp;#228;chen und -ma&amp;#223;nahmen.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_Eingriffsregelung:umsetzungsstand:LP_Umsetzungsstand:2000</gml:identifier>
+          <gml:name>Vorschlag</gml:name>
+          <gml:name codeSpace="lesbarerName">Vorschlag</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_Eingriffsregelung_umsetzungsstand_LP_Umsetzungsstand_9998">
+          <gml:description>Unbekannter Umsetzungsstand (bei &amp;#220;bernahme von Altdaten).</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_Eingriffsregelung:umsetzungsstand:LP_Umsetzungsstand:9998</gml:identifier>
+          <gml:name>Unbekannt</gml:name>
+          <gml:name codeSpace="lesbarerName">Unbekannt</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>1</def:cardinality>
+      <def:valueTypeName>LP_Umsetzungsstand</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_Eingriffsregelung_massnahmentyp">
+      <gml:description>Differenziert in nationalrechtliche und unionsrechtliche Kompensationsma&amp;#223;nahmen.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_Eingriffsregelung:attribute:massnahmentyp</gml:identifier>
+      <gml:name>xplan:massnahmentyp</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_Eingriffsregelung_massnahmentyp_LP_MassnahmenTyp_1000">
+          <gml:description>Kompensationsma&amp;#223;nahme nach nationalem Recht.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_Eingriffsregelung:massnahmentyp:LP_MassnahmenTyp:1000</gml:identifier>
+          <gml:name>Kompensationsmassnahme</gml:name>
+          <gml:name codeSpace="lesbarerName">Kompensationsmaßnahme</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_Eingriffsregelung_massnahmentyp_LP_MassnahmenTyp_2000">
+          <gml:description>Ma&amp;#223;nahme des strengen Artenschutzes &lt;b&gt;zur dauerhaften Sicherung der &amp;#246;kologischen Funktion&lt;/b&gt; im Rahmen der SAP (engl. &lt;b&gt;C&lt;/b&gt;ontinuous &lt;b&gt;E&lt;/b&gt;cological &lt;b&gt;F&lt;/b&gt;unctionality-measures).</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_Eingriffsregelung:massnahmentyp:LP_MassnahmenTyp:2000</gml:identifier>
+          <gml:name>MassnahmeCEF</gml:name>
+          <gml:name codeSpace="lesbarerName">Massnahme CEF</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_Eingriffsregelung_massnahmentyp_LP_MassnahmenTyp_3000">
+          <gml:description>Ma&amp;#223;nahme des strengen Artenschutzes &lt;b&gt;zur Sicherung des Erhaltungszustandes&lt;/b&gt; im Rahmen der SAP (engl. &lt;b&gt;F&lt;/b&gt;avorable &lt;b&gt;C&lt;/b&gt;onservation &lt;b&gt;S&lt;/b&gt;tatus).</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_Eingriffsregelung:massnahmentyp:LP_MassnahmenTyp:3000</gml:identifier>
+          <gml:name>MassnahmeFCS</gml:name>
+          <gml:name codeSpace="lesbarerName">Massnahme FCS</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_Eingriffsregelung_massnahmentyp_LP_MassnahmenTyp_4000">
+          <gml:description>Ma&amp;#223;nahme zur Koh&amp;#228;renzsicherung im Rahmen der FFH-Vertr&amp;#228;glichkeitspr&amp;#252;fung.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_Eingriffsregelung:massnahmentyp:LP_MassnahmenTyp:4000</gml:identifier>
+          <gml:name>MassnahmeKohaerenzsicherung</gml:name>
+          <gml:name codeSpace="lesbarerName">Maßnahme Kohärenzsicherung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_Eingriffsregelung_massnahmentyp_LP_MassnahmenTyp_9998">
+          <gml:description>Unbekannter Typ von Kompensationsfl&amp;#228;chen/-Ma&amp;#223;nahmen (zur &amp;#220;bernahme von Altdaten)</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_Eingriffsregelung:massnahmentyp:LP_MassnahmenTyp:9998</gml:identifier>
+          <gml:name>Unbekannt</gml:name>
+          <gml:name codeSpace="lesbarerName">Unbekannt</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>1..*</def:cardinality>
+      <def:valueTypeName>LP_MassnahmenTyp</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_Eingriffsregelung_kompensationText">
+      <gml:description>Erg&amp;#228;nzende Informationen zur Kompensation. </gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_Eingriffsregelung:attribute:kompensationText</gml:identifier>
+      <gml:name>xplan:kompensationText</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::CharacterString" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <def:classification>featureType</def:classification>
+  <def:supertypeRef xlink:href="urn:xplan:element:xplan:LP_Geometrieobjekt" />
+</TypeDefinition>

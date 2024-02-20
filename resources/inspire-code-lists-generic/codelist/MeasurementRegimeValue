@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue</latestversion>
+   <label xml:lang="en">Measurement Regime</label>
+   <definition xml:lang="en">Categories for different types of the MeasurementRegime.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/any">
+      <label xml:lang="en">Empty code list</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ef">
+      <label xml:lang="en">Environmental Monitoring Facilities</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/ef">
+      <label xml:lang="en">Environmental monitoring facilities</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/continuousDataCollection">
+         <language>en</language>
+         <created>2015-08-18 17:51 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/continuousDataCollection:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/continuousDataCollection</latestversion>
+         <label xml:lang="en">continuous data collection</label>
+         <definition xml:lang="en">Data is collected on a continuous basis. there is usually no end date, as further data is collected</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue">
+            <label xml:lang="en">Measurement Regime</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ef">
+            <label xml:lang="en">Environmental Monitoring Facilities</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ef">
+            <label xml:lang="en">Environmental monitoring facilities</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/demandDrivenDataCollection">
+         <language>en</language>
+         <created>2015-08-18 17:51 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/demandDrivenDataCollection:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/demandDrivenDataCollection</latestversion>
+         <label xml:lang="en">demand driven data collection</label>
+         <definition xml:lang="en">Data is collected on demand.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue">
+            <label xml:lang="en">Measurement Regime</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ef">
+            <label xml:lang="en">Environmental Monitoring Facilities</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ef">
+            <label xml:lang="en">Environmental monitoring facilities</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/onceOffDataCollection">
+         <language>en</language>
+         <created>2015-08-18 17:51 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/onceOffDataCollection:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/onceOffDataCollection</latestversion>
+         <label xml:lang="en">once-off data collection</label>
+         <definition xml:lang="en">Data is collected only once in this configuration. no further observations in this configuration can be expected</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue">
+            <label xml:lang="en">Measurement Regime</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ef">
+            <label xml:lang="en">Environmental Monitoring Facilities</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ef">
+            <label xml:lang="en">Environmental monitoring facilities</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/periodicDataCollection">
+         <language>en</language>
+         <created>2015-08-18 17:51 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/periodicDataCollection:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/periodicDataCollection</latestversion>
+         <label xml:lang="en">periodic data collection</label>
+         <definition xml:lang="en">Data is collected at regular intervals. No information is available at to the data collection interval.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue">
+            <label xml:lang="en">Measurement Regime</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ef">
+            <label xml:lang="en">Environmental Monitoring Facilities</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ef">
+            <label xml:lang="en">Environmental monitoring facilities</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

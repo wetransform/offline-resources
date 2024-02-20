@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/FossilFuelValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/FossilFuelValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/FossilFuelValue</latestversion>
+   <label xml:lang="en">Fossil Fuel</label>
+   <definition xml:lang="en">Types of fossil fuels.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+      <label xml:lang="en">Energy Resources Base</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/er">
+      <label xml:lang="en">Energy resources</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/FossilFuelValue/hardCoal">
+         <language>en</language>
+         <created>2015-08-18 17:29 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FossilFuelValue/hardCoal:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FossilFuelValue/hardCoal</latestversion>
+         <label xml:lang="en">hard coal</label>
+         <definition xml:lang="en">Black, combustible, solid, organic fossil sediment often referred to as High Rank, due to their high calorific value, or Black Coals, given their physical characteristic. This category includes anthracite, coking coal and other bituminous coal.</definition>
+         <description xml:lang="en">These coals have a gross calorific value greater than 23 865 kJ/kg (5 700 kcal/kg) on an ashfree but moist basis and with a mean random reflectance of vitrinite of at least 0.6. SOURCE Adapted from IEA (2011): Coal Information 2011 Edition - Documentation For Beyond 2020 Files and Directive 2008/1099/EC.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FossilFuelValue">
+            <label xml:lang="en">Fossil Fuel</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+            <label xml:lang="en">Energy Resources Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FossilFuelValue/lowRankCoal">
+         <language>en</language>
+         <created>2015-08-18 17:29 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FossilFuelValue/lowRankCoal:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FossilFuelValue/lowRankCoal</latestversion>
+         <label xml:lang="en">low-rank coal</label>
+         <definition xml:lang="en">Combustible brown to black organic fossil sediment which are non-agglomerating and are often referred to as Low Rank Coals due to their lower calorific value or Brown Coals, due to their physical characteristics. This category includes both sub-bituminous coals and lignite.</definition>
+         <description xml:lang="en">These coals have gross calorific values less that 23 865 kJ/kg (5 700 kcal/kg) on an ash free but moist basis.  The sub type of sub-bituminous coal refers to . non-agglomerating coal with a gross calorific value between 17 435 kJ/kg (4 165 kcal/kg) and 23 865 kJ/kg (5 700 kcal/kg) containing more than 31% volatile matter on a dry mineral matter free basis.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FossilFuelValue">
+            <label xml:lang="en">Fossil Fuel</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+            <label xml:lang="en">Energy Resources Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FossilFuelValue/peat">
+         <language>en</language>
+         <created>2015-08-18 17:29 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FossilFuelValue/peat:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FossilFuelValue/peat</latestversion>
+         <label xml:lang="en">peat</label>
+         <definition xml:lang="en">A combustible soft, porous or compressed, sedimentary deposit of plant origin with high water content (up to 90 % in the raw state), easily cut, of light to dark brown colour.</definition>
+         <description xml:lang="en">Lignite is a non-agglomerating coal with a gross calorific value less than 17 435 kJ/kg (4 165 kcal/kg) and greater than 31% volatile matter on a dry mineral matter free basis.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FossilFuelValue">
+            <label xml:lang="en">Fossil Fuel</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+            <label xml:lang="en">Energy Resources Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FossilFuelValue/crudeOil">
+         <language>en</language>
+         <created>2015-08-18 17:29 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FossilFuelValue/crudeOil:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FossilFuelValue/crudeOil</latestversion>
+         <label xml:lang="en">crude oil</label>
+         <definition xml:lang="en">Crude oil is a mineral oil of natural origin comprising a mixture of hydrocarbons and associated impurities, such as sulphur. It exists in the liquid phase under normal surface temperature and pressure and its physical characteristics (density, viscosity, etc.) are highly variable.</definition>
+         <description xml:lang="en">SOURCE Adapted from IEA (2011): Coal Information 2011 Edition - Documentation For Beyond 2020 Files and Directive 2008/1099/EC.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FossilFuelValue">
+            <label xml:lang="en">Fossil Fuel</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+            <label xml:lang="en">Energy Resources Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FossilFuelValue/naturalGas">
+         <language>en</language>
+         <created>2015-08-18 17:29 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FossilFuelValue/naturalGas:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FossilFuelValue/naturalGas</latestversion>
+         <label xml:lang="en">natural gas</label>
+         <definition xml:lang="en">Gases occurring in underground deposits, whether liquefied or gaseous, consisting mainly of methane.</definition>
+         <description xml:lang="en">Peat used for non-energy purposes is not included.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FossilFuelValue">
+            <label xml:lang="en">Fossil Fuel</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+            <label xml:lang="en">Energy Resources Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FossilFuelValue/naturalGasLiquids">
+         <language>en</language>
+         <created>2015-08-18 17:29 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FossilFuelValue/naturalGasLiquids:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FossilFuelValue/naturalGasLiquids</latestversion>
+         <label xml:lang="en">natural gas liquids</label>
+         <definition xml:lang="en">Liquid or liquefied hydrocarbons recovered from natural gas in separation facilities or gas processing plants.</definition>
+         <description xml:lang="en">SOURCE Adapted from Directive 2008/1099/EC which is also without prejudice to the definition of renewable energy sources in "Directive 2001/77/EC and to the 2006 IPCC Guidelines for National Greenhouse Gas inventories.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FossilFuelValue">
+            <label xml:lang="en">Fossil Fuel</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+            <label xml:lang="en">Energy Resources Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FossilFuelValue/oilSands">
+         <language>en</language>
+         <created>2015-08-18 17:29 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FossilFuelValue/oilSands:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FossilFuelValue/oilSands</latestversion>
+         <label xml:lang="en">oil sands</label>
+         <definition xml:lang="en">Oil sands, tar sands or, more technically, bituminous sands, are loose sand or partially consolidated sandstone saturated with a dense and extremely viscous form of petroleum technically referred to as bitumen.</definition>
+         <description xml:lang="en">SOURCE Adapted from Energy Statistics Regulation EC 1099/2008 .</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FossilFuelValue">
+            <label xml:lang="en">Fossil Fuel</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+            <label xml:lang="en">Energy Resources Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FossilFuelValue/oilShales">
+         <language>en</language>
+         <created>2015-08-18 17:29 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FossilFuelValue/oilShales:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FossilFuelValue/oilShales</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/FossilFuelValue/oilShales:1</version>
+         </previousversions>
+         <label xml:lang="en">oil shales</label>
+         <definition xml:lang="en">Oil shale, also known as kerogen shale, is an organic-rich fine-grained sedimentary rock containing kerogen (immature hydrocarbons).</definition>
+         <description xml:lang="en">It includes both non-associated gas originating from fields producing hydrocarbons only in gaseous form, and associated gas produced in association with crude oil as well as methane recovered from coal mines (coal mine methane) or from coal seams (coal seam gas).</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FossilFuelValue">
+            <label xml:lang="en">Fossil Fuel</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+            <label xml:lang="en">Energy Resources Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

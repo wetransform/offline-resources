@@ -1,0 +1,30 @@
+﻿<!--Erzeugt mit KIT (www.kit.edu) UmlToXmlTransformation-Software, Erstellungsdatum: 31.10.2022 09:25:46-->
+<TypeDefinition xmlns="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ../xsd/ShapeChangeDefinitions.xsd" gml:id="xplan_LP_ReferenzLPObjekt">
+  <gml:description>Verweis auf einen anderen Planinhalt (LP-Objekt) dieses Plans, der mit diesem LP-Objekt in Verbindung steht.
+Dieses kennzeichnet ein zugeh&amp;#246;riges Objekt im Landschaftsplan.
+(z.B. kann zum Beispiel ein ges. gesch. Biotop aus &lt;i&gt;LP_SchutzBestimmterTeileVonNaturUndLandschaft &lt;/i&gt;ein Feature der Klasse &lt;i&gt;LP_ZieleErfordernisseMassnahmen referenzieren, in dem &lt;/i&gt;die Angabe des Biotoptypen-Schl&amp;#252;ssels nach BKompV und / oder Landeskartierschl&amp;#252;ssel erfolgt.
+Oder ein Objekt der Klasse &lt;i&gt;LP_BiotopverbundBiotopvernetzung &lt;/i&gt;referenziert ein Objekt der Klasse &lt;i&gt;LP_ZieleErfordernisseMassnahmen&lt;/i&gt;, in dem die Arten oder Biotoptypen n&amp;#228;her spezifiziert werden, die &amp;#252;ber das Biotopverbundelement vernetzt werden sollen. </gml:description>
+  <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_ReferenzLPObjekt</gml:identifier>
+  <gml:name>xplan:LP_ReferenzLPObjekt</gml:name>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_ReferenzLPObjekt_beschreibung">
+      <gml:description>Textliche Beschreibung der Beziehung zwischen diesem und dem referenzierten Landschaftsplanungs-Objekt.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_ReferenzLPObjekt:attribute:beschreibung</gml:identifier>
+      <gml:name>xplan:beschreibung</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::CharacterString" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_ReferenzLPObjekt_verbundenesLPObjekt">
+      <gml:description>Referenz auf einen anderen Planinhalt, der mit diesem LP-Objekt in Verbindung steht.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_ReferenzLPObjekt:association-role:verbundenesLPObjekt</gml:identifier>
+      <gml:name>xplan:verbundenesLPObjekt</gml:name>
+      <def:cardinality>1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:LP_Objekt" />
+      <def:type>associationRole</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <def:classification>featureType</def:classification>
+</TypeDefinition>

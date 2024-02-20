@@ -1,0 +1,3272 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue</latestversion>
+   <label xml:lang="en">Age By Year</label>
+   <definition xml:lang="en">Code values for age by year classification items, including one value for each one-year interval. The first value shall be “0-1” with the label “0-1” and the definition “0 to less than 1 year”, and the last value shall be “100+” with label “100+” and the definition “100 years or older”.</definition>
+   <description xml:lang="en">The first value shall be “0-1” with the label “0-1” and the definition “0 to less than 1 year”, and the last value shall be “100+” with label “100+” and the definition “100 years or older”.</description>
+   <parents>
+      <parent id="http://inspire.ec.europa.eu/codelist/ClassificationItemTypeValue">
+         <label xml:lang="en">Classification Item Type</label>
+      </parent>
+   </parents>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+      <label xml:lang="en">Population Distribution - Demography</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/pd">
+      <label xml:lang="en">Population distribution — demography</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/0_1">
+         <language>en</language>
+         <created>2015-08-18 18:17 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/0_1:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/0_1</latestversion>
+         <label xml:lang="en">0_1</label>
+         <definition xml:lang="en">0 to less than 1</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/1_2">
+         <language>en</language>
+         <created>2015-08-18 18:17 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/1_2:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/1_2</latestversion>
+         <label xml:lang="en">1_2</label>
+         <definition xml:lang="en">1 to less than 2</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/2_3">
+         <language>en</language>
+         <created>2015-08-18 18:17 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/2_3:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/2_3</latestversion>
+         <label xml:lang="en">2_3</label>
+         <definition xml:lang="en">2 to less than 3</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/3_4">
+         <language>en</language>
+         <created>2015-08-18 18:17 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/3_4:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/3_4</latestversion>
+         <label xml:lang="en">3_4</label>
+         <definition xml:lang="en">3 to less than 4</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/4_5">
+         <language>en</language>
+         <created>2015-08-18 18:17 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/4_5:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/4_5</latestversion>
+         <label xml:lang="en">4_5</label>
+         <definition xml:lang="en">4 to less than 5</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/5_6">
+         <language>en</language>
+         <created>2015-08-18 18:17 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/5_6:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/5_6</latestversion>
+         <label xml:lang="en">5_6</label>
+         <definition xml:lang="en">5 to less than 6</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/6_7">
+         <language>en</language>
+         <created>2015-08-18 18:17 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/6_7:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/6_7</latestversion>
+         <label xml:lang="en">6_7</label>
+         <definition xml:lang="en">6 to less than 7</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/7_8">
+         <language>en</language>
+         <created>2015-08-18 18:17 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/7_8:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/7_8</latestversion>
+         <label xml:lang="en">7_8</label>
+         <definition xml:lang="en">7 to less than 8</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/8_9">
+         <language>en</language>
+         <created>2015-08-18 18:17 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/8_9:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/8_9</latestversion>
+         <label xml:lang="en">8_9</label>
+         <definition xml:lang="en">8 to less than 9</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/9_10">
+         <language>en</language>
+         <created>2015-08-18 18:17 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/9_10:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/9_10</latestversion>
+         <label xml:lang="en">9_10</label>
+         <definition xml:lang="en">9 to less than 10</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/10_11">
+         <language>en</language>
+         <created>2015-08-18 18:17 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/10_11:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/10_11</latestversion>
+         <label xml:lang="en">10_11</label>
+         <definition xml:lang="en">10 to less than 11</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/11_12">
+         <language>en</language>
+         <created>2015-08-18 18:17 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/11_12:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/11_12</latestversion>
+         <label xml:lang="en">11_12</label>
+         <definition xml:lang="en">11 to less than 12</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/12_13">
+         <language>en</language>
+         <created>2015-08-18 18:17 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/12_13:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/12_13</latestversion>
+         <label xml:lang="en">12_13</label>
+         <definition xml:lang="en">12 to less than 13</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/13_14">
+         <language>en</language>
+         <created>2015-08-18 18:17 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/13_14:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/13_14</latestversion>
+         <label xml:lang="en">13_14</label>
+         <definition xml:lang="en">13 to less than 14</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/14_15">
+         <language>en</language>
+         <created>2015-08-18 18:17 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/14_15:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/14_15</latestversion>
+         <label xml:lang="en">14_15</label>
+         <definition xml:lang="en">14 to less than 15</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/15_16">
+         <language>en</language>
+         <created>2015-08-18 18:17 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/15_16:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/15_16</latestversion>
+         <label xml:lang="en">15_16</label>
+         <definition xml:lang="en">15 to less than 16</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/16_17">
+         <language>en</language>
+         <created>2015-08-18 18:17 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/16_17:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/16_17</latestversion>
+         <label xml:lang="en">16_17</label>
+         <definition xml:lang="en">16 to less than 17</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/17_18">
+         <language>en</language>
+         <created>2015-08-18 18:17 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/17_18:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/17_18</latestversion>
+         <label xml:lang="en">17_18</label>
+         <definition xml:lang="en">17 to less than 18</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/18_19">
+         <language>en</language>
+         <created>2015-08-18 18:17 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/18_19:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/18_19</latestversion>
+         <label xml:lang="en">18_19</label>
+         <definition xml:lang="en">18 to less than 19</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/19_20">
+         <language>en</language>
+         <created>2015-08-18 18:17 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/19_20:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/19_20</latestversion>
+         <label xml:lang="en">19_20</label>
+         <definition xml:lang="en">19 to less than 20</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/20_21">
+         <language>en</language>
+         <created>2015-08-18 18:17 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/20_21:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/20_21</latestversion>
+         <label xml:lang="en">20_21</label>
+         <definition xml:lang="en">20 to less than 21</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/21_22">
+         <language>en</language>
+         <created>2015-08-18 18:17 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/21_22:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/21_22</latestversion>
+         <label xml:lang="en">21_22</label>
+         <definition xml:lang="en">21 to less than 22</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/22_23">
+         <language>en</language>
+         <created>2015-08-18 18:17 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/22_23:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/22_23</latestversion>
+         <label xml:lang="en">22_23</label>
+         <definition xml:lang="en">22 to less than 23</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/23_24">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/23_24:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/23_24</latestversion>
+         <label xml:lang="en">23_24</label>
+         <definition xml:lang="en">23 to less than 24</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/24_25">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/24_25:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/24_25</latestversion>
+         <label xml:lang="en">24_25</label>
+         <definition xml:lang="en">24 to less than 25</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/25_26">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/25_26:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/25_26</latestversion>
+         <label xml:lang="en">25_26</label>
+         <definition xml:lang="en">25 to less than 26</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/26_27">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/26_27:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/26_27</latestversion>
+         <label xml:lang="en">26_27</label>
+         <definition xml:lang="en">26 to less than 27</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/27_28">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/27_28:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/27_28</latestversion>
+         <label xml:lang="en">27_28</label>
+         <definition xml:lang="en">27 to less than 28</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/28_29">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/28_29:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/28_29</latestversion>
+         <label xml:lang="en">28_29</label>
+         <definition xml:lang="en">28 to less than 29</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/29_30">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/29_30:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/29_30</latestversion>
+         <label xml:lang="en">29_30</label>
+         <definition xml:lang="en">29 to less than 30</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/30_31">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/30_31:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/30_31</latestversion>
+         <label xml:lang="en">30_31</label>
+         <definition xml:lang="en">30 to less than 31</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/31_32">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/31_32:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/31_32</latestversion>
+         <label xml:lang="en">31_32</label>
+         <definition xml:lang="en">31 to less than 32</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/32_33">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/32_33:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/32_33</latestversion>
+         <label xml:lang="en">32_33</label>
+         <definition xml:lang="en">32 to less than 33</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/33_34">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/33_34:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/33_34</latestversion>
+         <label xml:lang="en">33_34</label>
+         <definition xml:lang="en">33 to less than 34</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/34_35">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/34_35:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/34_35</latestversion>
+         <label xml:lang="en">34_35</label>
+         <definition xml:lang="en">34 to less than 35</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/35_36">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/35_36:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/35_36</latestversion>
+         <label xml:lang="en">35_36</label>
+         <definition xml:lang="en">35 to less than 36</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/36_37">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/36_37:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/36_37</latestversion>
+         <label xml:lang="en">36_37</label>
+         <definition xml:lang="en">36 to less than 37</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/37_38">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/37_38:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/37_38</latestversion>
+         <label xml:lang="en">37_38</label>
+         <definition xml:lang="en">37 to less than 38</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/38_39">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/38_39:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/38_39</latestversion>
+         <label xml:lang="en">38_39</label>
+         <definition xml:lang="en">38 to less than 39</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/39_40">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/39_40:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/39_40</latestversion>
+         <label xml:lang="en">39_40</label>
+         <definition xml:lang="en">39 to less than 40</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/40_41">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/40_41:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/40_41</latestversion>
+         <label xml:lang="en">40_41</label>
+         <definition xml:lang="en">40 to less than 41</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/41_42">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/41_42:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/41_42</latestversion>
+         <label xml:lang="en">41_42</label>
+         <definition xml:lang="en">41 to less than 42</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/42_43">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/42_43:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/42_43</latestversion>
+         <label xml:lang="en">42_43</label>
+         <definition xml:lang="en">42 to less than 43</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/43_44">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/43_44:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/43_44</latestversion>
+         <label xml:lang="en">43_44</label>
+         <definition xml:lang="en">43 to less than 44</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/44_45">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/44_45:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/44_45</latestversion>
+         <label xml:lang="en">44_45</label>
+         <definition xml:lang="en">44 to less than 45</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/45_46">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/45_46:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/45_46</latestversion>
+         <label xml:lang="en">45_46</label>
+         <definition xml:lang="en">45 to less than 46</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/46_47">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/46_47:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/46_47</latestversion>
+         <label xml:lang="en">46_47</label>
+         <definition xml:lang="en">46 to less than 47</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/47_48">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/47_48:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/47_48</latestversion>
+         <label xml:lang="en">47_48</label>
+         <definition xml:lang="en">47 to less than 48</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/48_49">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/48_49:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/48_49</latestversion>
+         <label xml:lang="en">48_49</label>
+         <definition xml:lang="en">48 to less than 49</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/49_50">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/49_50:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/49_50</latestversion>
+         <label xml:lang="en">49_50</label>
+         <definition xml:lang="en">49 to less than 50</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/50_51">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/50_51:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/50_51</latestversion>
+         <label xml:lang="en">50_51</label>
+         <definition xml:lang="en">50 to less than 51</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/51_52">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/51_52:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/51_52</latestversion>
+         <label xml:lang="en">51_52</label>
+         <definition xml:lang="en">51 to less than 52</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/52_53">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/52_53:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/52_53</latestversion>
+         <label xml:lang="en">52_53</label>
+         <definition xml:lang="en">52 to less than 53</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/53_54">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/53_54:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/53_54</latestversion>
+         <label xml:lang="en">53_54</label>
+         <definition xml:lang="en">53 to less than 54</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/54_55">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/54_55:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/54_55</latestversion>
+         <label xml:lang="en">54_55</label>
+         <definition xml:lang="en">54 to less than 55</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/55_56">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/55_56:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/55_56</latestversion>
+         <label xml:lang="en">55_56</label>
+         <definition xml:lang="en">55 to less than 56</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/56_57">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/56_57:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/56_57</latestversion>
+         <label xml:lang="en">56_57</label>
+         <definition xml:lang="en">56 to less than 57</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/57_58">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/57_58:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/57_58</latestversion>
+         <label xml:lang="en">57_58</label>
+         <definition xml:lang="en">57 to less than 58</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/58_59">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/58_59:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/58_59</latestversion>
+         <label xml:lang="en">58_59</label>
+         <definition xml:lang="en">58 to less than 59</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/59_60">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/59_60:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/59_60</latestversion>
+         <label xml:lang="en">59_60</label>
+         <definition xml:lang="en">59 to less than 60</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/60_61">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/60_61:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/60_61</latestversion>
+         <label xml:lang="en">60_61</label>
+         <definition xml:lang="en">60 to less than 61</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/61_62">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/61_62:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/61_62</latestversion>
+         <label xml:lang="en">61_62</label>
+         <definition xml:lang="en">61 to less than 62</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/62_63">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/62_63:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/62_63</latestversion>
+         <label xml:lang="en">62_63</label>
+         <definition xml:lang="en">62 to less than 63</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/63_64">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/63_64:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/63_64</latestversion>
+         <label xml:lang="en">63_64</label>
+         <definition xml:lang="en">63 to less than 64</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/64_65">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/64_65:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/64_65</latestversion>
+         <label xml:lang="en">64_65</label>
+         <definition xml:lang="en">64 to less than 65</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/65_66">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/65_66:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/65_66</latestversion>
+         <label xml:lang="en">65_66</label>
+         <definition xml:lang="en">65 to less than 66</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/66_67">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/66_67:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/66_67</latestversion>
+         <label xml:lang="en">66_67</label>
+         <definition xml:lang="en">66 to less than 67</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/67_68">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/67_68:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/67_68</latestversion>
+         <label xml:lang="en">67_68</label>
+         <definition xml:lang="en">67 to less than 68</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/68_69">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/68_69:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/68_69</latestversion>
+         <label xml:lang="en">68_69</label>
+         <definition xml:lang="en">68 to less than 69</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/69_70">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/69_70:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/69_70</latestversion>
+         <label xml:lang="en">69_70</label>
+         <definition xml:lang="en">69 to less than 70</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/70_71">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/70_71:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/70_71</latestversion>
+         <label xml:lang="en">70_71</label>
+         <definition xml:lang="en">70 to less than 71</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/71_72">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/71_72:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/71_72</latestversion>
+         <label xml:lang="en">71_72</label>
+         <definition xml:lang="en">71 to less than 72</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/72_73">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/72_73:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/72_73</latestversion>
+         <label xml:lang="en">72_73</label>
+         <definition xml:lang="en">72 to less than 73</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/73_74">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/73_74:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/73_74</latestversion>
+         <label xml:lang="en">73_74</label>
+         <definition xml:lang="en">73 to less than 74</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/74_75">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/74_75:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/74_75</latestversion>
+         <label xml:lang="en">74_75</label>
+         <definition xml:lang="en">74 to less than 75</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/75_76">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/75_76:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/75_76</latestversion>
+         <label xml:lang="en">75_76</label>
+         <definition xml:lang="en">75 to less than 76</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/76_77">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/76_77:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/76_77</latestversion>
+         <label xml:lang="en">76_77</label>
+         <definition xml:lang="en">76 to less than 77</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/77_78">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/77_78:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/77_78</latestversion>
+         <label xml:lang="en">77_78</label>
+         <definition xml:lang="en">77 to less than 78</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/78_79">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/78_79:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/78_79</latestversion>
+         <label xml:lang="en">78_79</label>
+         <definition xml:lang="en">78 to less than 79</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/79_80">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/79_80:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/79_80</latestversion>
+         <label xml:lang="en">79_80</label>
+         <definition xml:lang="en">79 to less than 80</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/80_81">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/80_81:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/80_81</latestversion>
+         <label xml:lang="en">80_81</label>
+         <definition xml:lang="en">80 to less than 81</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/81_82">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/81_82:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/81_82</latestversion>
+         <label xml:lang="en">81_82</label>
+         <definition xml:lang="en">81 to less than 82</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/82_83">
+         <language>en</language>
+         <created>2015-08-18 18:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/82_83:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/82_83</latestversion>
+         <label xml:lang="en">82_83</label>
+         <definition xml:lang="en">82 to less than 83</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/83_84">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/83_84:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/83_84</latestversion>
+         <label xml:lang="en">83_84</label>
+         <definition xml:lang="en">83 to less than 84</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/84_85">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/84_85:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/84_85</latestversion>
+         <label xml:lang="en">84_85</label>
+         <definition xml:lang="en">84 to less than 85</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/85_86">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/85_86:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/85_86</latestversion>
+         <label xml:lang="en">85_86</label>
+         <definition xml:lang="en">85 to less than 86</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/86_87">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/86_87:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/86_87</latestversion>
+         <label xml:lang="en">86_87</label>
+         <definition xml:lang="en">86 to less than 87</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/87_88">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/87_88:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/87_88</latestversion>
+         <label xml:lang="en">87_88</label>
+         <definition xml:lang="en">87 to less than 88</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/88_89">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/88_89:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/88_89</latestversion>
+         <label xml:lang="en">88_89</label>
+         <definition xml:lang="en">88 to less than 89</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/89_90">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/89_90:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/89_90</latestversion>
+         <label xml:lang="en">89_90</label>
+         <definition xml:lang="en">89 to less than 90</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/90_91">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/90_91:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/90_91</latestversion>
+         <label xml:lang="en">90_91</label>
+         <definition xml:lang="en">90 to less than 91</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/91_92">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/91_92:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/91_92</latestversion>
+         <label xml:lang="en">91_92</label>
+         <definition xml:lang="en">91 to less than 92</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/92_93">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/92_93:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/92_93</latestversion>
+         <label xml:lang="en">92_93</label>
+         <definition xml:lang="en">92 to less than 93</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/93_94">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/93_94:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/93_94</latestversion>
+         <label xml:lang="en">93_94</label>
+         <definition xml:lang="en">93 to less than 94</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/94_95">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/94_95:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/94_95</latestversion>
+         <label xml:lang="en">94_95</label>
+         <definition xml:lang="en">94 to less than 95</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/95_96">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/95_96:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/95_96</latestversion>
+         <label xml:lang="en">95_96</label>
+         <definition xml:lang="en">95 to less than 96</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/96_97">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/96_97:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/96_97</latestversion>
+         <label xml:lang="en">96_97</label>
+         <definition xml:lang="en">96 to less than 97</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/97_98">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/97_98:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/97_98</latestversion>
+         <label xml:lang="en">97_98</label>
+         <definition xml:lang="en">97 to less than 98</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/98_99">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/98_99:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/98_99</latestversion>
+         <label xml:lang="en">98_99</label>
+         <definition xml:lang="en">98 to less than 99</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/99_100">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/99_100:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/99_100</latestversion>
+         <label xml:lang="en">99_100</label>
+         <definition xml:lang="en">99 to less than 100</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AgeByYearValue/100+">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/100+:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AgeByYearValue/100+</latestversion>
+         <label xml:lang="en">100+</label>
+         <definition xml:lang="en">100 and more</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AgeByYearValue">
+            <label xml:lang="en">Age By Year</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

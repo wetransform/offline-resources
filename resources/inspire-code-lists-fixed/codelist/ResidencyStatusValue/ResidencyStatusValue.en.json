@@ -1,0 +1,763 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Residency Status",
+          "id" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue"
+        },
+        "created" : "2015-08-18 18:25 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "cultivated",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "sd",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/sd"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Species Distribution",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/sd"
+        },
+        "definition" : {
+          "text" : "Species is cultivated in the spatial unit defined by the speciesDistributionUnit.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "sd",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/sd"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue/cultivated",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue/cultivated",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue/cultivated:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Residency Status",
+          "id" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue"
+        },
+        "created" : "2015-08-18 18:25 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "extinct",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "sd",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/sd"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Species Distribution",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/sd"
+        },
+        "definition" : {
+          "text" : "Species has been extincted in the spatial unit defined by the speciesDistributionUnit.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "sd",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/sd"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue/extinct",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue/extinct",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue/extinct:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Residency Status",
+          "id" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue"
+        },
+        "created" : "2015-08-18 18:25 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "introduced established",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "sd",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/sd"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Species Distribution",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/sd"
+        },
+        "definition" : {
+          "text" : "Species has been introduced and is reproducing with stable populations in the spatial unit defined by the speciesDistributionUnit.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "sd",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/sd"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue/introducedEstablished",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue/introducedEstablished",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue/introducedEstablished:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Residency Status",
+          "id" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue"
+        },
+        "created" : "2015-08-18 18:25 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "introduced impermanent",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "sd",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/sd"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Species Distribution",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/sd"
+        },
+        "definition" : {
+          "text" : "Species has been introduced, but has no stable, reproducing populations in the spatial unit defined by the speciesDistributionUnit.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "sd",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/sd"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue/introducedImpermanent",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue/introducedImpermanent",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue/introducedImpermanent:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Residency Status",
+          "id" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue"
+        },
+        "created" : "2015-08-18 18:25 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "native",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "sd",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/sd"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Species Distribution",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/sd"
+        },
+        "definition" : {
+          "text" : "Species is occuring natively in the spatial unit defined by the speciesDistributionUnit.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "sd",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/sd"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue/native",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue/native",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue/native:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Residency Status",
+          "id" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue"
+        },
+        "created" : "2015-08-18 18:25 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "naturally impermanent",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "sd",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/sd"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Species Distribution",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/sd"
+        },
+        "definition" : {
+          "text" : "Species is naturally introduced (by natural migration), but has no stable, reproducing populations.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "sd",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/sd"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue/naturallyImpermanent",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue/naturallyImpermanent",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue/naturallyImpermanent:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Residency Status",
+          "id" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue"
+        },
+        "created" : "2015-08-18 18:25 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "probably extinct",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "sd",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/sd"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Species Distribution",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/sd"
+        },
+        "definition" : {
+          "text" : "Species has not been observed by recent surveys, but no positive proof of extinction is possible in the spatial unit defined by the speciesDistributionUnit.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "sd",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/sd"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue/probablyExtinct",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue/probablyExtinct",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue/probablyExtinct:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Residency Status",
+          "id" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue"
+        },
+        "created" : "2015-08-18 18:25 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "re-introduced or translocated",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "sd",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/sd"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Species Distribution",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/sd"
+        },
+        "definition" : {
+          "text" : "An extinct population of a formerly native species has been re-introduced as a nature conservation measure in the spatial unit defined by the speciesDistributionUnit.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "sd",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/sd"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue/re-introducedOrTranslocated",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue/re-introducedOrTranslocated",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue/re-introducedOrTranslocated:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:19 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "description" : {
+      "text" : "These values are used for Natura2000 (revised SDF).\\n\\nNOTE One or more categories of population may be listed in the dataset, giving population size of e.g. permanent and wintering populations.",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Residency Status",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "any",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Empty code list",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "sd",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/sd"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Species Distribution",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/sd"
+    },
+    "definition" : {
+      "text" : "Category of the residency of the occurrences or estimated population within a given aggregation unit.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "sd",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/sd"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

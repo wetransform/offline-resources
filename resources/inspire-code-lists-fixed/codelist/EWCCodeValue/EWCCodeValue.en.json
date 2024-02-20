@@ -1,0 +1,101 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Technical (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+    },
+    "created" : "2015-08-18 17:19 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-technical",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+    },
+    "description" : {
+      "text" : "EWC classification has a hierarchical structure funded on different levels embedded in the waste code. The waste code is accompanied by the waste denomination.",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "EWC code value",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "any",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Empty code list",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "pf",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/pf"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Production and Industrial Facilities",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/pf"
+    },
+    "definition" : {
+      "text" : "The EWCCodeValue code list hosts the family of reference values for the \"waste\" item referred to the attribute processItem in the ProcessInput or ProcessOutput classes. Waste means any substance or object which the holder discards or intends or is required to discard.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "pf",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/pf"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/EWCCodeValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/EWCCodeValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/EWCCodeValue:2",
+    "historyversion" : [ {
+      "version" : "http://inspire.ec.europa.eu/codelist/EWCCodeValue:1"
+    } ],
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

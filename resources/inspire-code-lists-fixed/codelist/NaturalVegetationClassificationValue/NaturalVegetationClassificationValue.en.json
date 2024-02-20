@@ -1,0 +1,110 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "created" : "2015-08-18 17:18 PM CEST",
+    "document" : {
+      "label" : {
+        "text" : "FLORAEU",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/document/FLORAEU"
+    },
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Natural Vegetation Classification",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "open",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Extensible with values at any level",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "br",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/br"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Bio-geographical Regions",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/br"
+    },
+    "definition" : {
+      "text" : "Codes for the natural vegetation classification, as specified in the main formations in Bohn, U., Gollub, G., and Hettwer, C., Map of the natural vegetation of Europe: scale 1:2,500,000, Part 2: Legend, Bundesamt für Naturschutz (German Federal Agency for Nature conservation), Bonn, 2000.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "br",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/br"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/NaturalVegetationClassificationValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalVegetationClassificationValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalVegetationClassificationValue:1",
+    "parents" : [ {
+      "parent" : {
+        "label" : {
+          "text" : "Region Classification",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/RegionClassificationValue"
+      }
+    } ],
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

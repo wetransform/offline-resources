@@ -1,0 +1,27 @@
+﻿<!--Erzeugt mit KIT (www.kit.edu) UmlToXmlTransformation-Software, Erstellungsdatum: 31.10.2022 09:25:46-->
+<TypeDefinition xmlns="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ../xsd/ShapeChangeDefinitions.xsd" gml:id="xplan_LP_VorschlagIntegrationRaumordnung">
+  <gml:description>Vorschlag zur Integration in die Raumordnung</gml:description>
+  <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_VorschlagIntegrationRaumordnung</gml:identifier>
+  <gml:name>xplan:LP_VorschlagIntegrationRaumordnung</gml:name>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_VorschlagIntegrationRaumordnung_begruendung">
+      <gml:description>Begr&amp;#252;ndung, warum die Landschaftsplanung die &amp;#220;bernahme in die Bauleitplanung vorschl&amp;#228;gt / empfiehlt / festsetzt.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_VorschlagIntegrationRaumordnung:attribute:begruendung</gml:identifier>
+      <gml:name>xplan:begruendung</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::CharacterString" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_VorschlagIntegrationRaumordnung_refObjektRaumordnung">
+      <gml:description>Referenz auf ein Objekt im Modellbereich Raumordnung, das von der Landschaftsplanung als Kopiervorlage zur Übernahme in einen Raumordnungsplan vorgeschlagen wird.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_VorschlagIntegrationRaumordnung:association-role:refObjektRaumordnung</gml:identifier>
+      <gml:name>xplan:refObjektRaumordnung</gml:name>
+      <def:cardinality>1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:XP_Objekt" />
+      <def:type>associationRole</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <def:classification>featureType</def:classification>
+</TypeDefinition>

@@ -1,0 +1,1026 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue</latestversion>
+   <label xml:lang="en">Exploration Activity Type</label>
+   <definition xml:lang="en">Types of exploration activity carried out.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+      <label xml:lang="en">Mineral Resources</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/mr">
+      <label xml:lang="en">Mineral resources</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/regionalReconnaissance">
+         <language>en</language>
+         <created>2015-08-18 17:33 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/regionalReconnaissance:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/regionalReconnaissance</latestversion>
+         <label xml:lang="en">regional reconnaissance</label>
+         <definition xml:lang="en">Regional investigation to identify anomalies (geochemical, geophysical, mineralogical) and discover occurrences.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue">
+            <label xml:lang="en">Exploration Activity Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/hammerProspectingAndGeologicalReconnaissance">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/hammerProspectingAndGeologicalReconnaissance:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/hammerProspectingAndGeologicalReconnaissance</latestversion>
+         <label xml:lang="en">hammer prospecting and geological reconnaissance</label>
+         <definition xml:lang="en">Drafting of a very preliminary geological map with the main formations and the main structures, including the location of discovered mineral showings.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue">
+            <label xml:lang="en">Exploration Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/regionalReconnaissance">
+               <label xml:lang="en">regional reconnaissance</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/regionalGeochemistry">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/regionalGeochemistry:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/regionalGeochemistry</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/regionalGeochemistry:1</version>
+         </previousversions>
+         <label xml:lang="en">regional geochemistry</label>
+         <definition xml:lang="en">The detection of abnormal concentrations of chemical elements in superficial water, soils or organisms, usually accomplished by instrumental, spot-test, or rapid techniques which are applicable in the field.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue">
+            <label xml:lang="en">Exploration Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/regionalReconnaissance">
+               <label xml:lang="en">regional reconnaissance</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/airborneGeophysics">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/airborneGeophysics:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/airborneGeophysics</latestversion>
+         <label xml:lang="en">airborne geophysics</label>
+         <definition xml:lang="en">Exploration technique based on the detection of anomalous physical characteristics of a ground.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue">
+            <label xml:lang="en">Exploration Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/regionalReconnaissance">
+               <label xml:lang="en">regional reconnaissance</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/regionalHeavyMineralSampling">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/regionalHeavyMineralSampling:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/regionalHeavyMineralSampling</latestversion>
+         <label xml:lang="en">regional heavy mineral sampling</label>
+         <definition xml:lang="en">Prospecting with a hand-held washing tool, usually shaped like a plate or a flat cone, at the bottom of which the densest fractions of a soil, a stream sediment are collected.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue">
+            <label xml:lang="en">Exploration Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/regionalReconnaissance">
+               <label xml:lang="en">regional reconnaissance</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/detailedSurfaceExploration">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/detailedSurfaceExploration:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/detailedSurfaceExploration</latestversion>
+         <label xml:lang="en">detailed surface exploration</label>
+         <definition xml:lang="en">Detailed surface exploration to delineate anomalies and describe occurrences in their refined geological context.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue">
+            <label xml:lang="en">Exploration Activity Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/geologicalMappingAndSampling">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/geologicalMappingAndSampling:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/geologicalMappingAndSampling</latestversion>
+         <label xml:lang="en">geological mapping and sampling</label>
+         <definition xml:lang="en">Detailed geological mapping of the area(s) of interest.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue">
+            <label xml:lang="en">Exploration Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/detailedSurfaceExploration">
+               <label xml:lang="en">detailed surface exploration</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/detailedGeochemistry">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/detailedGeochemistry:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/detailedGeochemistry</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/detailedGeochemistry:1</version>
+         </previousversions>
+         <label xml:lang="en">detailed geochemistry</label>
+         <definition xml:lang="en">Detailed surveys (often on a grid) with the most appropriate method, in order to confirm and better delineate and characterize geochemical anomalies identified during the previous phase.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue">
+            <label xml:lang="en">Exploration Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/detailedSurfaceExploration">
+               <label xml:lang="en">detailed surface exploration</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/detailedGeophysics">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/detailedGeophysics:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/detailedGeophysics</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/detailedGeophysics:1</version>
+         </previousversions>
+         <label xml:lang="en">detailed geophysics</label>
+         <definition xml:lang="en">Detailed surveys (often on a grid) with the most appropriate method, in order to confirm and better delineate and characterize geophysical anomalies identified during the previous phase.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue">
+            <label xml:lang="en">Exploration Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/detailedSurfaceExploration">
+               <label xml:lang="en">detailed surface exploration</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/detailedHeavyMineralSampling">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/detailedHeavyMineralSampling:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/detailedHeavyMineralSampling</latestversion>
+         <label xml:lang="en">detailed heavy mineral sampling</label>
+         <definition xml:lang="en">Detail prospecting in a local scale with a hand-held washing tool, usually shaped like a plate or a flat cone, at the bottom of which the densest fractions of a soil, a stream sediment are collected.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue">
+            <label xml:lang="en">Exploration Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/detailedSurfaceExploration">
+               <label xml:lang="en">detailed surface exploration</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/subsurfaceExploration">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/subsurfaceExploration:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/subsurfaceExploration</latestversion>
+         <label xml:lang="en">subsurface exploration</label>
+         <definition xml:lang="en">Subsurface exploration using the low costs techniques (trenching, destructive drilling, etc.), of resources appraisal.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue">
+            <label xml:lang="en">Exploration Activity Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/trenchingChannelSampling">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/trenchingChannelSampling:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/trenchingChannelSampling</latestversion>
+         <label xml:lang="en">removal of overburden, trenching, channel sampling</label>
+         <definition xml:lang="en">Shallow ditch from which a sample can be taken and a geological observation made.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue">
+            <label xml:lang="en">Exploration Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/subsurfaceExploration">
+               <label xml:lang="en">subsurface exploration</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/augerDrilling">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/augerDrilling:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/augerDrilling</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/augerDrilling:1</version>
+         </previousversions>
+         <label xml:lang="en">auger drilling</label>
+         <definition xml:lang="en">Drilling of a cylindrical hole with an ad hoc tool in order to collect a rock sample, or to carry out a physical measurement or a geological observation. By extension, designates also the drill hole, whatever the latter's purpose. In this case drilling is performed by means of an auger, i.e. with a helical screw which is driven into the ground with rotation.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue">
+            <label xml:lang="en">Exploration Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/subsurfaceExploration">
+               <label xml:lang="en">subsurface exploration</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/percussionDrilling">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/percussionDrilling:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/percussionDrilling</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/percussionDrilling:1</version>
+         </previousversions>
+         <label xml:lang="en">percussion drilling</label>
+         <definition xml:lang="en">Drilling of a cylindrical hole with an ad hoc tool in order to collect a rock sample, or to carry out a physical measurement or a geological observation. By extension, designates also the drill hole, whatever the latter's purpose. In this case, drilling is performed with a percussion tool.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue">
+            <label xml:lang="en">Exploration Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/subsurfaceExploration">
+               <label xml:lang="en">subsurface exploration</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/assesmentOfResource">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/assesmentOfResource:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/assesmentOfResource</latestversion>
+         <label xml:lang="en">assesmantof the resource</label>
+         <definition xml:lang="en">The aim of this phase is the (still rough) delineation of the envelope of an orebody. Logging of cores, sampling of mineralized sections to better understand the distinctive features of the deposit, the physical properties of the ore, and finally to lead to a first (still approximate) calculation of the resource.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue">
+            <label xml:lang="en">Exploration Activity Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/reconnaissancePercussionDrilling">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/reconnaissancePercussionDrilling:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/reconnaissancePercussionDrilling</latestversion>
+         <label xml:lang="en">reconnaissance percussion drilling</label>
+         <definition xml:lang="en">The assessment of the resource using percussion drilling, sometimes on a grid with a wide mesh. The aim of this phase is the (still rough) delineation of the envelope of an orebody. Drill logging, sampling of mineralized sections to better understand the distinctive features of the deposit, the physical properties of the ore, and finally to lead to a first (still approximate) calculation of the resource.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue">
+            <label xml:lang="en">Exploration Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/assesmentOfResource">
+               <label xml:lang="en">assesmantof the resource</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/reconnaissanceCoreDrilling">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/reconnaissanceCoreDrilling:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/reconnaissanceCoreDrilling</latestversion>
+         <label xml:lang="en">reconnaissance core drilling</label>
+         <definition xml:lang="en">Drilling of a cylindrical hole with an ad hoc tool in order to collect a rock sample, or to carry out a physical measurement or a geological observation. By extension, designates also the drill hole, whatever the latter's purpose. Boreholes are drilled by coring. This technique is used to collect undisturbed rock cylinders and allows to confirm/to precise results from percussion drilling.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue">
+            <label xml:lang="en">Exploration Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/assesmentOfResource">
+               <label xml:lang="en">assesmantof the resource</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/geologicalInterpretation">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/geologicalInterpretation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/geologicalInterpretation</latestversion>
+         <label xml:lang="en">geological interpretation</label>
+         <definition xml:lang="en">Compilation and synthesis of all the available geological information in order to get an as precise as possible model of the mineral resource.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue">
+            <label xml:lang="en">Exploration Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/assesmentOfResource">
+               <label xml:lang="en">assesmantof the resource</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/oreBeneficiationTest">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/oreBeneficiationTest:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/oreBeneficiationTest</latestversion>
+         <label xml:lang="en">ore beneficiation tests</label>
+         <definition xml:lang="en">Technique designed to treat run of mine material.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue">
+            <label xml:lang="en">Exploration Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/assesmentOfResource">
+               <label xml:lang="en">assesmantof the resource</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/approximateResourceCalculation">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/approximateResourceCalculation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/approximateResourceCalculation</latestversion>
+         <label xml:lang="en">approximate calculation of the resource</label>
+         <definition xml:lang="en">Rough evaluation of the tonnage and grade essentially based on drill holes information, by correlation and interpolation of intersected mineralized sections.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue">
+            <label xml:lang="en">Exploration Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/assesmentOfResource">
+               <label xml:lang="en">assesmantof the resource</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/evaluationOfOreDeposit">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/evaluationOfOreDeposit:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/evaluationOfOreDeposit</latestversion>
+         <label xml:lang="en">evaluation of the ore deposit</label>
+         <definition xml:lang="en">This the final phase of evaluation leading to the final yes/no mining decision.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue">
+            <label xml:lang="en">Exploration Activity Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/systematicReconnaissanceCoreDrilling">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/systematicReconnaissanceCoreDrilling:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/systematicReconnaissanceCoreDrilling</latestversion>
+         <label xml:lang="en">systematic reconnaissance core drilling</label>
+         <definition xml:lang="en">The evaluation of the ore deposit with the aim of getting very detailed information on the whole deposit and best quality samples. This the final phase of evaluation leading to the final yes/no mining decision</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue">
+            <label xml:lang="en">Exploration Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/evaluationOfOreDeposit">
+               <label xml:lang="en">evaluation of the ore deposit</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/miningWorkings">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/miningWorkings:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/miningWorkings</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/miningWorkings:1</version>
+         </previousversions>
+         <label xml:lang="en">mining workings</label>
+         <definition xml:lang="en">Reconnaissance workings aimed at getting a better understanding of the deposit, and allowing to get large ore samples for detailed beneficiation tests.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue">
+            <label xml:lang="en">Exploration Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/evaluationOfOreDeposit">
+               <label xml:lang="en">evaluation of the ore deposit</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/geostatisticalEstimates">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/geostatisticalEstimates:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/geostatisticalEstimates</latestversion>
+         <label xml:lang="en">geostatistical estimates</label>
+         <definition xml:lang="en">Technique based on probability theory that is used to compute regionalized variables, the values of which depend on their position in space, such as the metal content or grade in a deposit.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue">
+            <label xml:lang="en">Exploration Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/evaluationOfOreDeposit">
+               <label xml:lang="en">evaluation of the ore deposit</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/feasibilityStudyReport">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/feasibilityStudyReport:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/feasibilityStudyReport</latestversion>
+         <label xml:lang="en">feasibility study and report</label>
+         <definition xml:lang="en">Technical economic study aimed at assessing the possibility to launching a mine venture.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue">
+            <label xml:lang="en">Exploration Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/evaluationOfOreDeposit">
+               <label xml:lang="en">evaluation of the ore deposit</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/miningPilot">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/miningPilot:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/miningPilot</latestversion>
+         <label xml:lang="en">mining pilot</label>
+         <definition xml:lang="en">Intermediate phase between laboratory tests and actual plant.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue">
+            <label xml:lang="en">Exploration Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/evaluationOfOreDeposit">
+               <label xml:lang="en">evaluation of the ore deposit</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/coreDrilling">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/coreDrilling:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/coreDrilling</latestversion>
+         <label xml:lang="en">core drilling</label>
+         <definition xml:lang="en">Drilling in order to collect intact rock sample cores, or to carry out a physical measurement or a geological observation. Can confirm results from obtained from percussion drilling.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue">
+            <label xml:lang="en">Exploration Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/subsurfaceExploration">
+               <label xml:lang="en">subsurface exploration</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

@@ -1,0 +1,178 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Technical (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Hydro Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/HydroPotentialValue"
+        },
+        "created" : "2015-08-18 17:51 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "potential hydro power",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "er-c",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/er-c"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Energy Resources Coverage",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/er-c"
+        },
+        "definition" : {
+          "text" : "Yearly potential hydro power production.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "er",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/er"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/HydroPotentialValue/potentialHydroPower",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/HydroPotentialValue/potentialHydroPower",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/HydroPotentialValue/potentialHydroPower:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:19 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-technical",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Hydro Potential",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "any",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Empty code list",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "er-c",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/er-c"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Energy Resources Coverage",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/er-c"
+    },
+    "definition" : {
+      "text" : "Types of potential hydro energy.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "er",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/er"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/HydroPotentialValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/HydroPotentialValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/HydroPotentialValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

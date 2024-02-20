@@ -1,0 +1,192 @@
+﻿<!--Erzeugt mit KIT (www.kit.edu) UmlToXmlTransformation-Software, Erstellungsdatum: 31.10.2022 09:25:48-->
+<TypeDefinition xmlns="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ../xsd/ShapeChangeDefinitions.xsd" gml:id="xplan_LP_BiotopverbundBiotopvernetzung">
+  <gml:description>Fl&amp;#228;chen und Elemente f&amp;#252;r Biotopverbund und Biotopvernetzung.</gml:description>
+  <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BiotopverbundBiotopvernetzung</gml:identifier>
+  <gml:name>xplan:LP_BiotopverbundBiotopvernetzung</gml:name>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_BiotopverbundBiotopvernetzung_planungsEbene">
+      <gml:description>Nutzungsregelung (Klassifikation).</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BiotopverbundBiotopvernetzung:attribute:planungsEbene</gml:identifier>
+      <gml:name>xplan:planungsEbene</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BiotopverbundBiotopvernetzung_planungsEbene_LP_PlanungsEbene_1000">
+          <gml:description>Biotopvernetzung auf Landesebene nach &amp;#167; 21 Abs. 1-5 BNatSchG</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BiotopverbundBiotopvernetzung:planungsEbene:LP_PlanungsEbene:1000</gml:identifier>
+          <gml:name>Biotopverbund</gml:name>
+          <gml:name codeSpace="lesbarerName">Biotopverbund</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BiotopverbundBiotopvernetzung_planungsEbene_LP_PlanungsEbene_2000">
+          <gml:description>Biotopvernetzung auf regionaler Ebene nach &amp;#167; 21 Abs. 6 BNatschG</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BiotopverbundBiotopvernetzung:planungsEbene:LP_PlanungsEbene:2000</gml:identifier>
+          <gml:name>Biotopvernetzung</gml:name>
+          <gml:name codeSpace="lesbarerName">Biotopvernetzung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeName>LP_PlanungsEbene</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_BiotopverbundBiotopvernetzung_typBioVerbund">
+      <gml:description>Angaben zum Typen des Biotopverbundelementes</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BiotopverbundBiotopvernetzung:attribute:typBioVerbund</gml:identifier>
+      <gml:name>xplan:typBioVerbund</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:LP_TypBioVerbundKomplex" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_BiotopverbundBiotopvernetzung_rechtlicheSicherung">
+      <gml:description>Rechtliche Sicherung f&amp;#252;r Fl&amp;#228;chen des Biotopverbunds und der Biotopvernetzung nach &amp;#167; 21 Abs. 4 BNatSchG.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BiotopverbundBiotopvernetzung:attribute:rechtlicheSicherung</gml:identifier>
+      <gml:name>xplan:rechtlicheSicherung</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BiotopverbundBiotopvernetzung_rechtlicheSicherung_LP_RechtlicheSicherung_1000">
+          <gml:description>Schutzerkl&amp;#228;rung</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BiotopverbundBiotopvernetzung:rechtlicheSicherung:LP_RechtlicheSicherung:1000</gml:identifier>
+          <gml:name>Schutzerklaerung</gml:name>
+          <gml:name codeSpace="lesbarerName">Schutzerklärung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BiotopverbundBiotopvernetzung_rechtlicheSicherung_LP_RechtlicheSicherung_2000">
+          <gml:description>Planungsrechtliche Festlegung</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BiotopverbundBiotopvernetzung:rechtlicheSicherung:LP_RechtlicheSicherung:2000</gml:identifier>
+          <gml:name>PlanungsrechtlicheFestlegung</gml:name>
+          <gml:name codeSpace="lesbarerName">Planungsrechtliche Festlegung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BiotopverbundBiotopvernetzung_rechtlicheSicherung_LP_RechtlicheSicherung_3000">
+          <gml:description>Vertragliche Regelung</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BiotopverbundBiotopvernetzung:rechtlicheSicherung:LP_RechtlicheSicherung:3000</gml:identifier>
+          <gml:name>VertraglicheRegelung</gml:name>
+          <gml:name codeSpace="lesbarerName">Vertragliche Regelung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BiotopverbundBiotopvernetzung_rechtlicheSicherung_LP_RechtlicheSicherung_9999">
+          <gml:description>Sonstige rechtliche Sicherung (siehe &lt;i&gt;rechtlicheSicherungText&lt;/i&gt;)</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BiotopverbundBiotopvernetzung:rechtlicheSicherung:LP_RechtlicheSicherung:9999</gml:identifier>
+          <gml:name>Sonstiges</gml:name>
+          <gml:name codeSpace="lesbarerName">Sonstiges</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>LP_RechtlicheSicherung</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_BiotopverbundBiotopvernetzung_rechtlicheSicherungText">
+      <gml:description>Erl&amp;#228;uterung zu Sonstiger rechtlicher Sicherung in &lt;i&gt;rechtlicheSicherung&lt;/i&gt; oder erg&amp;#228;nzende Information zur ausgew&amp;#228;hlten rechtlichen Sicherungsart.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BiotopverbundBiotopvernetzung:attribute:rechtlicheSicherungText</gml:identifier>
+      <gml:name>xplan:rechtlicheSicherungText</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>CharacterString</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_BiotopverbundBiotopvernetzung_bioVerbundsystemArt">
+      <gml:description>Zeigt die Art des Verbundsystems an.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BiotopverbundBiotopvernetzung:attribute:bioVerbundsystemArt</gml:identifier>
+      <gml:name>xplan:bioVerbundsystemArt</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BiotopverbundBiotopvernetzung_bioVerbundsystemArt_LP_BioVerbundsystemArt_1000">
+          <gml:description>Allgemein</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BiotopverbundBiotopvernetzung:bioVerbundsystemArt:LP_BioVerbundsystemArt:1000</gml:identifier>
+          <gml:name>Allgemein</gml:name>
+          <gml:name codeSpace="lesbarerName">Allgemein</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BiotopverbundBiotopvernetzung_bioVerbundsystemArt_LP_BioVerbundsystemArt_2000">
+          <gml:description>Offenland inkl. Halboffenland</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BiotopverbundBiotopvernetzung:bioVerbundsystemArt:LP_BioVerbundsystemArt:2000</gml:identifier>
+          <gml:name>OffenlandHalboffenland</gml:name>
+          <gml:name codeSpace="lesbarerName">Offenland, Halboffenland</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BiotopverbundBiotopvernetzung_bioVerbundsystemArt_LP_BioVerbundsystemArt_3000">
+          <gml:description>Wald</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BiotopverbundBiotopvernetzung:bioVerbundsystemArt:LP_BioVerbundsystemArt:3000</gml:identifier>
+          <gml:name>Wald</gml:name>
+          <gml:name codeSpace="lesbarerName">Wald</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BiotopverbundBiotopvernetzung_bioVerbundsystemArt_LP_BioVerbundsystemArt_4000">
+          <gml:description>Gew&amp;#228;sser</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BiotopverbundBiotopvernetzung:bioVerbundsystemArt:LP_BioVerbundsystemArt:4000</gml:identifier>
+          <gml:name>Gewaesser</gml:name>
+          <gml:name codeSpace="lesbarerName">Gewässer</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>1</def:cardinality>
+      <def:valueTypeName>LP_BioVerbundsystemArt</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_BiotopverbundBiotopvernetzung_bioVStandortFeuchte">
+      <gml:description>Zeigt die Auspr&amp;#228;gung der Standortverh&amp;#228;ltnisse des Verbundsystems im Hinblick auf Feuchtigkeit an.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BiotopverbundBiotopvernetzung:attribute:bioVStandortFeuchte</gml:identifier>
+      <gml:name>xplan:bioVStandortFeuchte</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BiotopverbundBiotopvernetzung_bioVStandortFeuchte_LP_BioVStandortFeuchte_1000">
+          <gml:description>Feuchte Standortverh&amp;#228;ltnisse</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BiotopverbundBiotopvernetzung:bioVStandortFeuchte:LP_BioVStandortFeuchte:1000</gml:identifier>
+          <gml:name>Feucht</gml:name>
+          <gml:name codeSpace="lesbarerName">Feucht</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BiotopverbundBiotopvernetzung_bioVStandortFeuchte_LP_BioVStandortFeuchte_2000">
+          <gml:description>Mittelfeuchte Standortverh&amp;#228;ltnisse</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BiotopverbundBiotopvernetzung:bioVStandortFeuchte:LP_BioVStandortFeuchte:2000</gml:identifier>
+          <gml:name>Mittel</gml:name>
+          <gml:name codeSpace="lesbarerName">Mittel</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BiotopverbundBiotopvernetzung_bioVStandortFeuchte_LP_BioVStandortFeuchte_3000">
+          <gml:description>Trockene Standortverh&amp;#228;ltnisse</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BiotopverbundBiotopvernetzung:bioVStandortFeuchte:LP_BioVStandortFeuchte:3000</gml:identifier>
+          <gml:name>Trocken</gml:name>
+          <gml:name codeSpace="lesbarerName">Trocken</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>LP_BioVStandortFeuchte</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_BiotopverbundBiotopvernetzung_bioVerbundsystemText">
+      <gml:description>Textliche erg&amp;#228;nzende Informationen zu Art und Auspr&amp;#228;gung der Standortverh&amp;#228;ltnisse des Verbundsystems.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BiotopverbundBiotopvernetzung:attribute:bioVerbundsystemText</gml:identifier>
+      <gml:name>xplan:bioVerbundsystemText</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>CharacterString</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_BiotopverbundBiotopvernetzung_foerdermoeglichkeit">
+      <gml:description>Nennung von F&amp;#246;rderm&amp;#246;glichkeiten f&amp;#252;r den Biotopverbund oder die Biotopvernetzung.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BiotopverbundBiotopvernetzung:attribute:foerdermoeglichkeit</gml:identifier>
+      <gml:name>xplan:foerdermoeglichkeit</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeName>CharacterString</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <def:classification>featureType</def:classification>
+  <def:supertypeRef xlink:href="urn:xplan:element:xplan:LP_Geometrieobjekt" />
+</TypeDefinition>

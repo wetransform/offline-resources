@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue</latestversion>
+   <label xml:lang="en">Soil Plot Type</label>
+   <definition xml:lang="en">A code list of terms specifying on what kind of plot the observation of the soil is made.</definition>
+   <description xml:lang="en">NOTE Trial pits, boreholes or samples can be seen as types of soil plots.</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+      <label xml:lang="en">Soil</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/so">
+      <label xml:lang="en">Soil</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue/borehole">
+         <language>en</language>
+         <created>2015-08-18 17:37 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue/borehole:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue/borehole</latestversion>
+         <label xml:lang="en">borehole</label>
+         <definition xml:lang="en">Penetration into the sub-surface with removal of soil/rock material by using, for instance, a hollow tube-shaped tool, in order to carry out profile descriptions, sampling and/or field tests.</definition>
+         <description xml:lang="en">NOTE 1 generally, it is a vertical penetra-tion. NOTE 2 boring and bore are syno-nyms. SOURCE adapted from ISO 11074</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue">
+            <label xml:lang="en">Soil Plot Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue/sample">
+         <language>en</language>
+         <created>2015-08-18 17:37 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue/sample:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue/sample</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue/sample:1</version>
+         </previousversions>
+         <label xml:lang="en">sample</label>
+         <definition xml:lang="en">Exacavation where soil material is removed as a soil sample without doing any soil profile description.</definition>
+         <description xml:lang="en">EXAMPLE Location from the LUCAS survey SOURCE adopted from ISO/DIS 28258</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue">
+            <label xml:lang="en">Soil Plot Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue/trialPit">
+         <language>en</language>
+         <created>2015-08-18 17:37 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue/trialPit:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue/trialPit</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue/trialPit:1</version>
+         </previousversions>
+         <label xml:lang="en">trial pit</label>
+         <definition xml:lang="en">Excavation or other exposition of the soil prepared to carry out profile descriptions, sampling and/or field tests.</definition>
+         <description xml:lang="en">NOTE synonyms: test pit, trench, soil pit SOURCE adapted from ISO 11074</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue">
+            <label xml:lang="en">Soil Plot Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

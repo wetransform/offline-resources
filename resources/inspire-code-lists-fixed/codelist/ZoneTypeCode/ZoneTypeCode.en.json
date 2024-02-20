@@ -1,0 +1,1762 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Zone Type Code",
+          "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode"
+        },
+        "created" : "2015-08-18 17:27 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "SOURCE: Air Quality Directive (2008/50/EC).",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "air quality management zone",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Area Management Restriction and Regulation Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "definition" : {
+          "text" : "Part of the territory of a Member State, as delimited by that Member State for the purposes of air quality assessment and management.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/am"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/airQualityManagementZone",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/airQualityManagementZone",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/airQualityManagementZone:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/airQualityManagementZone:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Zone Type Code",
+          "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode"
+        },
+        "created" : "2015-08-18 17:27 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "NOTE: Noise restriction zones may also be defined to manage noise exposure relating to transport (airports, roads, rail), entertainment venues, recreational activities, construction, etc.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "noise restriction zone",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Area Management Restriction and Regulation Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "definition" : {
+          "text" : "An area delimited by a competent authority to manage and mitigate noise pollution. This includes agglomerations and quiet areas (in agglomerations and open country) as defined in the Directive 2002/49/EC of the European Parliament and of the Council.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/am"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/noiseRestrictionZone",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/noiseRestrictionZone",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/noiseRestrictionZone:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Zone Type Code",
+          "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode"
+        },
+        "created" : "2015-08-18 17:27 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "EXAMPLE: Bluetongue Restriction Zones (Council Directive 2000/75/EC).\\n\\nEXAMPLE: Avian Influenza Restriction Zones (Council Directive 2005/94/EC).\\n\\nEXAMPLE: African Horse Sickness (Council Directive 92/35/EEC).",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "animal health restriction zone",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Area Management Restriction and Regulation Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "definition" : {
+          "text" : "Restriction zones established for the control and eradication of notifiable animal diseases",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/am"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/animalHealthRestrictionZone",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/animalHealthRestrictionZone",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/animalHealthRestrictionZone:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Zone Type Code",
+          "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode"
+        },
+        "created" : "2015-08-18 17:27 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "EXAMPLE:  Directive 94/22/EC on conditions for granting and using authorisations for the prospection, exploration and production of hydrocarbons, stipulates that the limits of the geographical areas covered by an authorisation and the duration of that authorisation must be determined in proportion to what is justified in terms of the best possible exercise of the activities from an economic and technical point of view.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "prospecting and mining permit area",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Area Management Restriction and Regulation Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "definition" : {
+          "text" : "The area on which the prospection or extraction of any mineral has been authorised and for which that right or permit is granted.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/am"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/prospectingAndMiningPermitArea",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/prospectingAndMiningPermitArea",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/prospectingAndMiningPermitArea:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Zone Type Code",
+          "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode"
+        },
+        "created" : "2015-08-18 17:27 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "EXAMPLE: Regulated fairways established in accordance with Decision 884/2004/EC of the European Parliament and Council of 29 April 2004 amending Decision No 1692/96/EC on Community guidelines for the development of the trans - European transport network to organise sailing traffic, prevent accident and pollution.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "regulated fairway at Sea or large inland water",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Area Management Restriction and Regulation Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "definition" : {
+          "text" : "Regulated navigation areas port-to-port established to organise traffic, prevent accident and pollution and to support management and planning.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/am"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/regulatedFairwayAtSeaOrLargeInlandWater",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/regulatedFairwayAtSeaOrLargeInlandWater",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/regulatedFairwayAtSeaOrLargeInlandWater:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Zone Type Code",
+          "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode"
+        },
+        "created" : "2015-08-18 17:28 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "EXAMPLE: Chernobyl Nuclear Power Plant Exclusion Zone which was established to evacuate the local population and to prevent people from entering the heavily contaminated territory.\\n\\nEXAMPLE: Zone established around an area suffering from soil contamination to restrict development and protect human health.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "restricted zones around contaminated sites",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Area Management Restriction and Regulation Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "definition" : {
+          "text" : "Zones established to protect human, plant and animal health and control movement and development within a contaminated site.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/am"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/restrictedZonesAroundContaminatedSites",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/restrictedZonesAroundContaminatedSites",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/restrictedZonesAroundContaminatedSites:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Zone Type Code",
+          "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode"
+        },
+        "created" : "2015-08-18 17:28 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "area for disposal of waste",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Area Management Restriction and Regulation Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "definition" : {
+          "text" : "Area affected by disposal of waste as defined in Article 3(19) of Directive 2008/98/EC .",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/am"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/areaForDisposalOfWaste",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/areaForDisposalOfWaste",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/areaForDisposalOfWaste:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Zone Type Code",
+          "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode"
+        },
+        "created" : "2015-08-18 17:28 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "DEFINITION: \"Integrated coastal zone management\" is a dynamic process for the sustainable management and use of coastal zones, taking into account at the same time the fragility of coastal ecosystems and landscapes, the diversity of activities and uses, their interactions, the maritime orientation of certain activities and uses and their impact on both the marine and land parts.\\n\\nSOURCE: Protocol on Integrated Coastal Zone Management in the Mediterranean - signed in Madrid on 20-21 January 2008.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "coastal zone management area",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Area Management Restriction and Regulation Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "definition" : {
+          "text" : "Area in which integrated coastal zone management takes place.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/am"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/coastalZoneManagementArea",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/coastalZoneManagementArea",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/coastalZoneManagementArea:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Zone Type Code",
+          "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode"
+        },
+        "created" : "2015-08-18 17:28 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "EXAMPLE: From Directive 80/778, relating to the quality of water intended for human consumption.\\nAccording to the article 8 providing that Member States shall take all the necessary measures to ensure that any substances used in the preparation of water for human consumption do not remain in concentrations higher than the maximum admissible.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "drinking water protection area",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Area Management Restriction and Regulation Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "definition" : {
+          "text" : "Area in which waste water leakage, use of fertilizer or pesticides, or establishment of waste disposal sites are prohibited.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/am"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/drinkingWaterProtectionArea",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/drinkingWaterProtectionArea",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/drinkingWaterProtectionArea:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Zone Type Code",
+          "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode"
+        },
+        "created" : "2015-08-18 17:28 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "SOURCE: Art 3 of Council Directive 91/676/EEC of 12 December 1991 concerning the protection of waters against pollution caused by nitrates from agricultural sources.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "nitrate vulnerable zone",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Area Management Restriction and Regulation Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "definition" : {
+          "text" : "Areas of land which drain into polluted or threatened waters and which contribute to nitrate pollution.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/am"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/nitrateVulnerableZone",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/nitrateVulnerableZone",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/nitrateVulnerableZone:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/nitrateVulnerableZone:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Zone Type Code",
+          "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode"
+        },
+        "created" : "2015-08-18 17:28 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "EXAMPLE 1: For each Marine Region a marine strategy shall be developed and implemented to maintain and improve good environmental status.\\nSOURCE: Marine Strategy Framework Directive (2008/56/EC).\\n\\nEXAMPLE 2: Convention on the Protection of the Marine Environment of the Baltic Sea Area (Helsinki Convention) shall apply to the protection of the marine environment of the Baltic Sea Area which comprises the water-body and the seabed including their living resources and other forms of marine life.\\n\\nEXAMPLE 3: The Convention for the Protection of the marine Environment of the North-East Atlantic (OSPAR Convention) is dealing with specific areas like: prevention and elimination of pollution from land-based sources; prevention and elimination of pollution by dumping or incineration; prevention and elimination of pollution from offshore sources and assessment of the quality of the marine environment.\\n\\nEXAMPLE 4: Convention for the Protection of the Marine Environment and the Coastal Region of the Mediterranean (Barcelona Convention) aims to to prevent, abate and combat pollution of the Mediterranean Sea area and to protect and enhance the marine environment in that area.\\n\\nEXAMPLE 5: The Convention on the Protection of the Black Sea Against Pollution (Bucharest Convention) aims to prevent, reduce and control the pollution and protect the biodiversity and the marine living resources. \\n\\nEXAMPLE 6: UNEP Regional Seas Programme aims to address the accelerating degradation of the world’s oceans and coastal areas through the sustainable management and use of the marine and coastal environment.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "marine region",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Area Management Restriction and Regulation Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "definition" : {
+          "text" : "Marine regions and their subregions are sea regions designated under international, Union, national or sub-national legislation for the purpose of assessment, management and regulation.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/am"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/marineRegion",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/marineRegion",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/marineRegion:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/marineRegion:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Zone Type Code",
+          "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode"
+        },
+        "created" : "2015-08-18 17:28 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "SOURCE: Art 2 (15) of DIRECTIVE 2000/60/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 23 October 2000 establishing a framework for Community action in the field of water policy.\\n\\nNOTE: A river basin district can either be an international or national river basin district or a sub unit of management.\\n\\nNOTE 2: The relatedZone role should be used to link river basin districts. For example, a national river basin district should include a relatedZone attribute linking it to the international river basin district.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "river basin district",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Area Management Restriction and Regulation Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "definition" : {
+          "text" : "Area of land and sea, made up of one or more neighbouring river basins together with their associated groundwaters and coastal waters, identified under Article 3(1) of Directive 2000/60/EC  as the main unit for management of river basins.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/am"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/riverBasinDistrict",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/riverBasinDistrict",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/riverBasinDistrict:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/riverBasinDistrict:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Zone Type Code",
+          "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode"
+        },
+        "created" : "2015-08-18 17:28 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "NOTE: Bathing waters are set limits for physical, chemical and microbiological parameters to ensuring clean bathing waters to protect public health and the environment.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "bathing waters",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Area Management Restriction and Regulation Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "definition" : {
+          "text" : "Coastal waters or inland waters (rivers, lakes) explicitly authorised, or not prohibited for recreational bathing by large numbers of people.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/am"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/bathingWaters",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/bathingWaters",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/bathingWaters:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Zone Type Code",
+          "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode"
+        },
+        "created" : "2015-08-18 17:28 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Source: Floods Directive: 2007/60/EU.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "flood unit of management",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Area Management Restriction and Regulation Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "definition" : {
+          "text" : "Area of land and sea, identified under Directive 2007/60/EC of the European Parliament and Council  as the main unit for management when an alternative to the River Basin Districts or Sub-Districts are chosen.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/am"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/floodUnitOfManagement",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/floodUnitOfManagement",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/floodUnitOfManagement:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Zone Type Code",
+          "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode"
+        },
+        "created" : "2015-08-18 17:28 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "SOURCE: Art 2 (15) of DIRECTIVE 2000/60/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 23 October 2000 establishing a framework for Community action in the field of water policy.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "water body under the Water Framework Directive (2000/60/EC)",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Area Management Restriction and Regulation Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "definition" : {
+          "text" : "The “water body” is a coherent sub-unit in the river basin (district) to which the environmental objectives of the Directive 2000/60/EC must apply. The identification of water bodies is based on geographical and hydrological determinants. This includes surface (river, lake, transitional and coastal) and ground water bodies.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/am"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/waterBodyForWFD",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/waterBodyForWFD",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/waterBodyForWFD:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Zone Type Code",
+          "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode"
+        },
+        "created" : "2015-08-18 17:28 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "SOURCE: Urban Waste Water Treatment Directive (91/271/EEC).",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "sensitive area",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Area Management Restriction and Regulation Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "definition" : {
+          "text" : "Water bodies identified as sensitive areas, as defined in Annex II to Directive 91/271/EEC .",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/am"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/sensitiveArea",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/sensitiveArea",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/sensitiveArea:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Zone Type Code",
+          "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode"
+        },
+        "created" : "2015-08-18 17:28 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Member States are required to define designated waters to protect freshwater fish and shellfish by the Fisheries Directive (2006/44/EC) and  Shellfish Waters Directive (2006/113/EEC).",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "designated waters",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Area Management Restriction and Regulation Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "definition" : {
+          "text" : "Marine, coastal or surface waters designated by Member States as needing protection or improvement in order to support fish life.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/am"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/designatedWaters",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/designatedWaters",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/designatedWaters:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/designatedWaters:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Zone Type Code",
+          "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode"
+        },
+        "created" : "2015-08-18 17:28 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "SOURCE: COMMISSION REGULATION (EC) No 690/2008.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "plant health protection zone",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Area Management Restriction and Regulation Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "definition" : {
+          "text" : "Protection zone within which protective measures are established against the introduction of organisms harmful to plants or plant products and against their spread.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/am"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/plantHealthProtectionZone",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/plantHealthProtectionZone",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/plantHealthProtectionZone:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/plantHealthProtectionZone:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Zone Type Code",
+          "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode"
+        },
+        "created" : "2015-08-18 17:28 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "NOTE: FOREST EUROPE (the Ministerial Conference on the Protection of Forests in Europe) has developed and adopted six criteria and a set of associated indicators for sustainable forest management. They provide guidance for developing policies and help assess progress on sustainable forest management. Similar criteria have been developed in other regional and international pro- cesses, all in line with the seven thematic elements of sustain- able forest management agreed by the United Nations.\\nThe pan-European criteria describe the different ele- ments and goals as follows:\\n1. Maintenance and appropriate enhancement of forest resources and their contribution to global carbon cycles;\\n2. Maintenance of forest ecosystems’ health and vitality;\\n3. Maintenance and encouragement of productive functions of forests (wood and non-wood);\\n4. Maintenance, conservation and appropriate enhancement of biological diversity in forest ecosystems;\\n5. Maintenance, conservation and appropriate en- hancement of protective functions in forest management (notably soil and water);\\n6. Maintenance of other socio-economic functions and conditions.\\n\\nSOURCE: http://www.foresteurope.org/filestore/foresteurope/Publications/pdf/Factsheet_Sustainable_Forest_Management_print.pdf]",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "forest management area",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Area Management Restriction and Regulation Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "definition" : {
+          "text" : "Area designated for the sustainable management of forest resources and functions.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/am"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/forestManagementArea",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/forestManagementArea",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/forestManagementArea:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Zone Type Code",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "open",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Extensible with values at any level",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "am",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/am"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Area Management Restriction and Regulation Zones",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/am"
+    },
+    "definition" : {
+      "text" : "High-level classification defining the type of Management, Restriction or Regulation Zone.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "am",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/am"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/ZoneTypeCode:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

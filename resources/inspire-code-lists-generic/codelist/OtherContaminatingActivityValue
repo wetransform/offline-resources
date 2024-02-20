@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue">
+   <language>en</language>
+   <created>2015-08-18 17:19 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue</latestversion>
+   <label xml:lang="en">other contaminating activity value</label>
+   <definition xml:lang="en">For polluted sites: activity which polluted the soil and groundwater on the site. For inventories of potentially polluted sites: the activities present on the site which have a potential for polluting soil and groundwater, dependent on processes, size an management. This list is an extension of the NACE codelist of industrial activities and made to cover other types of possibly polluting activities.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+      <label xml:lang="en">Soil</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/so">
+      <label xml:lang="en">Soil</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+      <label xml:lang="en">Technical (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/SitesWithMajoraccidentHazardsInvolvingDangerousSubstancesAccordingSevesodirectives">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/SitesWithMajoraccidentHazardsInvolvingDangerousSubstancesAccordingSevesodirectives:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/SitesWithMajoraccidentHazardsInvolvingDangerousSubstancesAccordingSevesodirectives</latestversion>
+         <label xml:lang="en">Sites with major-accident hazards involving dangerous substances according to Seveso-directive</label>
+         <definition xml:lang="en">Sites with major-accident hazards involving dangerous substances as defined by directives 96/82/EC Seveso II and 2003/105/EC Seveso III amendment</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue">
+            <label xml:lang="en">other contaminating activity value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/CityGasworks">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/CityGasworks:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/CityGasworks</latestversion>
+         <label xml:lang="en">City gasworks</label>
+         <definition xml:lang="en">City gasworks</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue">
+            <label xml:lang="en">other contaminating activity value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/AreasForHandlingAndStorageOfHazardousMaterialsOnPortsAirportsMilitarySites">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/AreasForHandlingAndStorageOfHazardousMaterialsOnPortsAirportsMilitarySites:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/AreasForHandlingAndStorageOfHazardousMaterialsOnPortsAirportsMilitarySites</latestversion>
+         <label xml:lang="en">Areas for handling and storage of hazardous materials on ports, airports and military sites</label>
+         <definition xml:lang="en">Areas for handling and storage of significant amounts of hazardous materials on ports, airports and military sites</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue">
+            <label xml:lang="en">other contaminating activity value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/PetrolAndFillingStationsLargeOilTanks">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/PetrolAndFillingStationsLargeOilTanks:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/PetrolAndFillingStationsLargeOilTanks</latestversion>
+         <label xml:lang="en">Petrol and filling stations, large oils tank sites</label>
+         <definition xml:lang="en">Petrol and filling stations, large oils tank sites</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue">
+            <label xml:lang="en">other contaminating activity value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/DryCleaners">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/DryCleaners:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/DryCleaners</latestversion>
+         <label xml:lang="en">Dry cleaners</label>
+         <definition xml:lang="en">Dry cleaners</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue">
+            <label xml:lang="en">other contaminating activity value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/MiningInstallations">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/MiningInstallations:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/MiningInstallations</latestversion>
+         <label xml:lang="en">Mining installations</label>
+         <definition xml:lang="en">Coal, ores, oil, gas</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue">
+            <label xml:lang="en">other contaminating activity value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/PesticideSites">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/PesticideSites:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/PesticideSites</latestversion>
+         <label xml:lang="en">Pesticides factories, reformulation and storage sites</label>
+         <definition xml:lang="en">Pesticides factories, reformulation and storage sites</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue">
+            <label xml:lang="en">other contaminating activity value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/WasteLandfills">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/WasteLandfills:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/WasteLandfills</latestversion>
+         <label xml:lang="en">Uncontrolled  hazardous waste landfills</label>
+         <definition xml:lang="en">Uncontrolled landfill or major dumpsite with suspicion or recorded hazardous substances in substantial amounts</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue">
+            <label xml:lang="en">other contaminating activity value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/LandRaisingOrFillingInWaterways">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/LandRaisingOrFillingInWaterways:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/LandRaisingOrFillingInWaterways</latestversion>
+         <label xml:lang="en">Land raising or filling in waterways with hazardous waste materials</label>
+         <definition xml:lang="en">Land raising or filling in waterways with hazardous waste materials</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue">
+            <label xml:lang="en">other contaminating activity value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/SiteOfPumpingStationsAndOrPipelines">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/SiteOfPumpingStationsAndOrPipelines:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/SiteOfPumpingStationsAndOrPipelines</latestversion>
+         <label xml:lang="en">Site of  pumping stations and/or pipelines</label>
+         <definition xml:lang="en">Pipelines for transport of hazardous substances</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue">
+            <label xml:lang="en">other contaminating activity value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

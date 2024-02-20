@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/VoidReasonValue">
+   <language>en</language>
+   <created>2015-08-18 17:19 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/VoidReasonValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/VoidReasonValue</latestversion>
+   <label xml:lang="en">Void Reason Value</label>
+   <definition xml:lang="en">Reasons for void values</definition>
+   <description xml:lang="en">NOTE 1 INSPIRE application schemas may propose extensions to this code list, if required.NOTE 2 It is expected that additional reasons will be identified in the future, in particular to support reasons / special values in coverage ranges.</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/base">
+      <label xml:lang="en">Base Types</label>
+   </applicationschema>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+      <label xml:lang="en">Technical (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unknown">
+         <language>en</language>
+         <created>2015-08-18 18:25 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unknown:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unknown</latestversion>
+         <label xml:lang="en">Unknown</label>
+         <definition xml:lang="en">The correct value for the specific spatial object is not known to, and not computable by, the data provider. However, a correct value may exist.</definition>
+         <description xml:lang="en">EXAMPLE When the "elevation of the water body above the sea level" of a certain lake has not been measured, then the reason for a void value of this property would be 'Unknown'.\n \nNOTE 'Unknown' is applied on an object-by-object basis in a spatial data set.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VoidReasonValue">
+            <label xml:lang="en">Void Reason Value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/base">
+            <label xml:lang="en">Base Types</label>
+         </applicationschema>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unpopulated">
+         <language>en</language>
+         <created>2015-08-18 18:25 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unpopulated:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unpopulated</latestversion>
+         <label xml:lang="en">Unpopulated</label>
+         <definition xml:lang="en">The characteristic is not part of the dataset maintained by the data provider. However, the characteristic may exist in the real world.</definition>
+         <description xml:lang="en">EXAMPLE When the “elevation of the water body above the sea level” has not been included in a dataset containing lake spatial objects, then the reason for a void value of this property would be ‘Unpopulated’.\n \nNOTE The characteristic receives this value for all objects in the spatial data set.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VoidReasonValue">
+            <label xml:lang="en">Void Reason Value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/base">
+            <label xml:lang="en">Base Types</label>
+         </applicationschema>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VoidReasonValue/Withheld">
+         <language>en</language>
+         <created>2015-08-18 18:25 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VoidReasonValue/Withheld:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VoidReasonValue/Withheld</latestversion>
+         <label xml:lang="en">Withheld</label>
+         <definition xml:lang="en">The characteristic may exist, but is confidential and not divulged by the data provider.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VoidReasonValue">
+            <label xml:lang="en">Void Reason Value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/base">
+            <label xml:lang="en">Base Types</label>
+         </applicationschema>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

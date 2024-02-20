@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/ResultNatureValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/ResultNatureValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/ResultNatureValue</latestversion>
+   <label xml:lang="en">Result Nature</label>
+   <definition xml:lang="en">State of the result of an observation.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/any">
+      <label xml:lang="en">Empty code list</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ef">
+      <label xml:lang="en">Environmental Monitoring Facilities</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/ef">
+      <label xml:lang="en">Environmental monitoring facilities</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/ResultNatureValue/primary">
+         <language>en</language>
+         <created>2015-08-18 17:51 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ResultNatureValue/primary:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ResultNatureValue/primary</latestversion>
+         <label xml:lang="en">primary</label>
+         <definition xml:lang="en">The result provided with the observation is the direct result of an estimate of a property on the featureOfInterest. No further processing has been performed. Processing may have taken place, but only in the sense of the measurement methodology itself, i.e. converting the millivolt returned from the sensor to the concentration of a substance.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ResultNatureValue">
+            <label xml:lang="en">Result Nature</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ef">
+            <label xml:lang="en">Environmental Monitoring Facilities</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ef">
+            <label xml:lang="en">Environmental monitoring facilities</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ResultNatureValue/processed">
+         <language>en</language>
+         <created>2015-08-18 17:51 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ResultNatureValue/processed:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ResultNatureValue/processed</latestversion>
+         <label xml:lang="en">processed</label>
+         <definition xml:lang="en">The result provided, while usually based on primary measurements, has been substantially processed. This processing can be of diverse natures, in some situations complex aggregates are provided, in other situations, the existing values are interpolated to a continuum.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ResultNatureValue">
+            <label xml:lang="en">Result Nature</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ef">
+            <label xml:lang="en">Environmental Monitoring Facilities</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ef">
+            <label xml:lang="en">Environmental monitoring facilities</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ResultNatureValue/simulated">
+         <language>en</language>
+         <created>2015-08-18 17:51 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ResultNatureValue/simulated:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ResultNatureValue/simulated</latestversion>
+         <label xml:lang="en">simulated</label>
+         <definition xml:lang="en">The result provided, while usually based on primary measurements, is based on an interpretation model, and provides a simulation of past or future states of the media being analyzed. In this case, the existing values are usually extrapolated into the past or future.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ResultNatureValue">
+            <label xml:lang="en">Result Nature</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ef">
+            <label xml:lang="en">Environmental Monitoring Facilities</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ef">
+            <label xml:lang="en">Environmental monitoring facilities</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

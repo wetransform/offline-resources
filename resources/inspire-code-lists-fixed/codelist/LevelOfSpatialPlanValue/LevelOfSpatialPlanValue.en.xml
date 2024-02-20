@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue</latestversion>
+   <label xml:lang="en">Level Of Spatial Plan</label>
+   <definition xml:lang="en">Territorial hierarchy of plan.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/plu">
+      <label xml:lang="en">Planned Land Use</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/lu">
+      <label xml:lang="en">Land use</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue/infraLocal">
+         <language>en</language>
+         <created>2015-08-18 17:36 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue/infraLocal:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue/infraLocal</latestversion>
+         <label xml:lang="en">infra-local</label>
+         <definition xml:lang="en">A plan that covers only part of a municipality.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue">
+            <label xml:lang="en">Level Of Spatial Plan</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/plu">
+            <label xml:lang="en">Planned Land Use</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/lu">
+            <label xml:lang="en">Land use</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue/local">
+         <language>en</language>
+         <created>2015-08-18 17:36 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue/local:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue/local</latestversion>
+         <label xml:lang="en">local</label>
+         <definition xml:lang="en">Plan at municipal level, corresponding to the lower level of administration equivalent to LAU2 as laid down in Annex III to Regulation (EC) No 1059/2003 of the European Parliament and of the Council .</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue">
+            <label xml:lang="en">Level Of Spatial Plan</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/plu">
+            <label xml:lang="en">Planned Land Use</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/lu">
+            <label xml:lang="en">Land use</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue/supraLocal">
+         <language>en</language>
+         <created>2015-08-18 17:36 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue/supraLocal:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue/supraLocal</latestversion>
+         <label xml:lang="en">supra-local</label>
+         <definition xml:lang="en">A plan that overlaps several municipalities (entirely or partially).</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue">
+            <label xml:lang="en">Level Of Spatial Plan</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/plu">
+            <label xml:lang="en">Planned Land Use</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/lu">
+            <label xml:lang="en">Land use</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue/infraRegional">
+         <language>en</language>
+         <created>2015-08-18 17:36 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue/infraRegional:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue/infraRegional</latestversion>
+         <label xml:lang="en">infra-regional</label>
+         <definition xml:lang="en">A plan that overlaps several infra-administrative units in one administrative region.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue">
+            <label xml:lang="en">Level Of Spatial Plan</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/plu">
+            <label xml:lang="en">Planned Land Use</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/lu">
+            <label xml:lang="en">Land use</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue/regional">
+         <language>en</language>
+         <created>2015-08-18 17:36 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue/regional:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue/regional</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue/regional:1</version>
+         </previousversions>
+         <label xml:lang="en">regional</label>
+         <definition xml:lang="en">Plan at regional level (equivalent to NUTS2 of EUROSTAT nomenclature of statistical units as established in Regulation (EC) No 1059/2003).</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue">
+            <label xml:lang="en">Level Of Spatial Plan</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/plu">
+            <label xml:lang="en">Planned Land Use</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/lu">
+            <label xml:lang="en">Land use</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue/supraRegional">
+         <language>en</language>
+         <created>2015-08-18 17:36 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue/supraRegional:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue/supraRegional</latestversion>
+         <label xml:lang="en">supra-regional</label>
+         <definition xml:lang="en">A plan that overlaps several administrative regions.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue">
+            <label xml:lang="en">Level Of Spatial Plan</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/plu">
+            <label xml:lang="en">Planned Land Use</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/lu">
+            <label xml:lang="en">Land use</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue/national">
+         <language>en</language>
+         <created>2015-08-18 17:36 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue/national:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue/national</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue/national:1</version>
+         </previousversions>
+         <label xml:lang="en">national</label>
+         <definition xml:lang="en">Plan at Member State level.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue">
+            <label xml:lang="en">Level Of Spatial Plan</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/plu">
+            <label xml:lang="en">Planned Land Use</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/lu">
+            <label xml:lang="en">Land use</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue/other">
+         <language>en</language>
+         <created>2015-08-18 17:36 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue/other:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue/other</latestversion>
+         <label xml:lang="en">other</label>
+         <definition xml:lang="en">Other level of spatial plan.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue">
+            <label xml:lang="en">Level Of Spatial Plan</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/plu">
+            <label xml:lang="en">Planned Land Use</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/lu">
+            <label xml:lang="en">Land use</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

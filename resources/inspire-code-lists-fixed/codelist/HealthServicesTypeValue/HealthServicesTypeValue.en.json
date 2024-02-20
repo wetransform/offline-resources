@@ -1,0 +1,931 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Health Services Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Hospital bed",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Human Health",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "definition" : {
+          "text" : "Total hospital beds are all hospital beds which are regularly maintained and staffed and immediately available for the care of admitted patients. Hospital beds provide information on health care capacities, i.e. on the maximum number of patients who can be treated by hospitals.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hh"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/hospitalBed",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/hospitalBed",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/hospitalBed:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Health Services Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Physician",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Human Health",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "definition" : {
+          "text" : "Physicians (medical doctors) as defined by ISCO 88 (code 2221) apply preventive and curative measures, improve or develop concepts, theories and operational methods and conduct research in the area of medicine and health care (http://epp.eurostat.ec.europa.eu/tgm/table.do?\\ntab=table&init=1&language=en&pcode=tps00044&plugin=1).",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hh"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/physician",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/physician",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/physician:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/physician:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Health Services Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Health care expenditure",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Human Health",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "definition" : {
+          "text" : "Health care expenditure data provide information on expenditure in the functionally defined area of health distinct by provider category (e.g. hospitals, general practitioners), function category (e.g. services of curative care, rehabilitative care, clinical laboratory, patient transport, prescribed medicines) and financing agent (e.g. social security, private insurance company, household).",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hh"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/healthCareExpenditure",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/healthCareExpenditure",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/healthCareExpenditure:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Health Services Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Curative hospital bed",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Human Health",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "definition" : {
+          "text" : "Curative care (or acute care) beds in hospitals are beds that are available for curative care. These beds are a subgroup of total hospital beds; both occupied and unoccupied beds are covered.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hh"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/curativeHospitalBed",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/curativeHospitalBed",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/curativeHospitalBed:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Health Services Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Average length of stay",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Human Health",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "definition" : {
+          "text" : "Average length of stay (ALOS) is computed by dividing the number of hospital days (or bed-days or in-patient days) from the date of admission in an in-patient institution (date of discharge minus date of admission) by the number of discharges (including deaths) during the year.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hh"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/averageLengthOfStay",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/averageLengthOfStay",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/averageLengthOfStay:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Health Services Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Psychiatric care bed",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Human Health",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "definition" : {
+          "text" : "Psychiatric care beds in hospitals are beds accommodating patients with mental health problems. These beds are a subgroup of total hospital beds; both occupied and unoccupied beds are covered.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hh"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/psychiatricCareBed",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/psychiatricCareBed",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/psychiatricCareBed:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Health Services Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Discharge",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Human Health",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "definition" : {
+          "text" : "The total number of in-patient discharges (excluding day cases) with the above diagnosis for a given gender and age group.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hh"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/discharge",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/discharge",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/discharge:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Health Services Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Bed days",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Human Health",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "definition" : {
+          "text" : "The total number of bed-days used by in-patients (excluding day cases) with the above diagnosis for given gender and age group.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hh"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/bedDays",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/bedDays",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/bedDays:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Health Services Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Day cases",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Human Health",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "definition" : {
+          "text" : "The total number of day case discharges with the above diagnosis for a given gender and age group.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hh"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/dayCases",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/dayCases",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/dayCases:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Health Services Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Practising physicians",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Human Health",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "definition" : {
+          "text" : "Practising physicians as defined by ISCO 88 (code 2221) provide services directly to patients(http://epp.eurostat.ec.europa.eu/tgm/table.do?\\ntab=table&init=1&language=en&pcode=tps00044&plugin=1).",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hh"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/practisingPhysician",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/practisingPhysician",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/practisingPhysician:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/practisingPhysician:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Health Services Type",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "any",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Empty code list",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "hh",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Human Health",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+    },
+    "definition" : {
+      "text" : "Type of health care indicator.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "hh",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/hh"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

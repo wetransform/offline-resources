@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/LayerTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/LayerTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/LayerTypeValue</latestversion>
+   <label xml:lang="en">Layer Type</label>
+   <definition xml:lang="en">A classification of a layer according to the concept that fits the purpose.</definition>
+   <description xml:lang="en">EXAMPLE Topsoil: meaning the upper part of the natural soil that is generally dark coloured and has a higher content of organic matter and nutrients when compared to the (mineral ) horizons below excluding the humus layer.</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+      <label xml:lang="en">Soil</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/so">
+      <label xml:lang="en">Soil</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/LayerTypeValue/depthInterval">
+         <language>en</language>
+         <created>2015-08-18 17:37 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/LayerTypeValue/depthInterval:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/LayerTypeValue/depthInterval</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/LayerTypeValue/depthInterval:1</version>
+         </previousversions>
+         <label xml:lang="en">depth interval</label>
+         <definition xml:lang="en">Fixed depth range where soil is described and/or samples are taken.</definition>
+         <description xml:lang="en">They are often used in soil monitoring, sampling of contaminated sites and in modelling, and include:  • upper and lower limits of a soil horizon, or of a functional set of horizons • depth increments (also called fixed depths), that are often used for sampling, e.g. 0-30cm, 30-60cm, and so on, • a single depth range in which a soil sample is taken and for which the analytical result is valid, and • soil slicing, that is, profile segmentation according to a specified vector, for instance, either regularly spaced intervals (1cm), or a user-defined vector of segment boundaries (i.e. 0-10, 10-25, 25-50, 50-100). Slicing is used in modelling to generate continuous depth functions for soil properties.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/LayerTypeValue">
+            <label xml:lang="en">Layer Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/LayerTypeValue/geogenic">
+         <language>en</language>
+         <created>2015-08-18 17:37 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/LayerTypeValue/geogenic:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/LayerTypeValue/geogenic</latestversion>
+         <label xml:lang="en">geogenic</label>
+         <definition xml:lang="en">Domain of the soil profile composed of material resulting from the same, non-pedogenic process, e.g. sedimentation, that might display an unconformity to possible over- or underlying adjacent domains.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/LayerTypeValue">
+            <label xml:lang="en">Layer Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/LayerTypeValue/subSoil">
+         <language>en</language>
+         <created>2015-08-18 17:37 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/LayerTypeValue/subSoil:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/LayerTypeValue/subSoil</latestversion>
+         <label xml:lang="en">subsoil</label>
+         <definition xml:lang="en">Natural soil material below the topsoil and overlying the unweathered parent material.</definition>
+         <description xml:lang="en">SOURCE ISO 11074 NOTE The subsoil can be: (i) a grouping of one to several horizons underlying the horizons with recent humus accumulation from humifying biomass or (ii) a domain of a soil with a specific vertical extension starting well below the soil surface (e.g. 15-75 cm).</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/LayerTypeValue">
+            <label xml:lang="en">Layer Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/LayerTypeValue/topSoil">
+         <language>en</language>
+         <created>2015-08-18 17:37 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/LayerTypeValue/topSoil:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/LayerTypeValue/topSoil</latestversion>
+         <label xml:lang="en">topsoil</label>
+         <definition xml:lang="en">Upper part of a natural soil that is generally dark coloured and has a higher content of organic matter and nutrients when compared to the (mineral) horizons below excluding the humus layer.</definition>
+         <description xml:lang="en">NOTE 1 For arable lands, topsoil refers to the ploughed soil depth; for grasslands, it is the soil layer with high root content. NOTE 2 The topsoil can be: (i) a grouping of one to several A horizons or (ii) a domain of a soil with a specific vertical extension starting from the surface (e.g. 0-15 cm). NOTE 3 In most soil description guidelines, the topsoil is composed of all A horizons occurring in a soil profile.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/LayerTypeValue">
+            <label xml:lang="en">Layer Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

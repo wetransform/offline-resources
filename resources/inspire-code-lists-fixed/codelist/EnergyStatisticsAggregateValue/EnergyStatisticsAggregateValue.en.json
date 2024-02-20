@@ -1,0 +1,98 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Technical (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+    },
+    "created" : "2015-08-18 17:19 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-technical",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+    },
+    "description" : {
+      "text" : "This codelist itself is an empty placeholder and should be based on the EU regulation on Energy Statistics.\\nEXAMPLE indigenous production of natural gas.",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Energy statistics aggregate value",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "any",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Empty code list",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "er-s",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/er-s"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Energy Statistics",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/er-s"
+    },
+    "definition" : {
+      "text" : "A codelist of aggregates that the statistical data are representing.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "er",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/er"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/EnergyStatisticsAggregateValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/EnergyStatisticsAggregateValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/EnergyStatisticsAggregateValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

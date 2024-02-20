@@ -1,0 +1,278 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "codelist" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "created" : "2015-08-18 17:19 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Role of a Related Party",
+          "lang" : "en"
+        },
+        "extensibility" : {
+          "label" : {
+            "text" : "none",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+        },
+        "extensibility item" : {
+          "label" : {
+            "text" : "Not extensible",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "base2",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/base2"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeList",
+            "lang" : "en"
+          },
+          "id" : "CodeList"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Base Types 2",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/base2"
+        },
+        "definition" : {
+          "text" : "Classification of related party roles.",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/RelatedPartyRoleValue",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/RelatedPartyRoleValue",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/RelatedPartyRoleValue:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "Party Role",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/PartyRoleValue"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "codelist" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "created" : "2015-08-18 17:19 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Role Code",
+          "lang" : "en"
+        },
+        "extensibility" : {
+          "label" : {
+            "text" : "none",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+        },
+        "extensibility item" : {
+          "label" : {
+            "text" : "Not extensible",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "base2",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/base2"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeList",
+            "lang" : "en"
+          },
+          "id" : "CodeList"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Base Types 2",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/base2"
+        },
+        "definition" : {
+          "text" : "Functions performed by a responsible party, as specified in EN ISO 19115:2005/AC:2008.",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/CI_RoleCode",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/CI_RoleCode",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/CI_RoleCode:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "Party Role",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/PartyRoleValue"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:19 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Party Role",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "open",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Extensible with values at any level",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "base2",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/base2"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Base Types 2",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/base2"
+    },
+    "definition" : {
+      "text" : "Roles of parties related to or responsible for a resource.",
+      "lang" : "en"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/PartyRoleValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/PartyRoleValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/PartyRoleValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

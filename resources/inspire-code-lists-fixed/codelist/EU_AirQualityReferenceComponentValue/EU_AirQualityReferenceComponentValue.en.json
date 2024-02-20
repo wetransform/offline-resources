@@ -1,0 +1,103 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "EU Air Quality Reference Component",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "any",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Empty code list",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "ac-mf",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/ac-mf"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Atmospheric Conditions and Meteorological Geographical Features",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/ac-mf"
+    },
+    "definition" : {
+      "text" : "Definitions of phenomena regarding air quality in the context of reporting under Union legislation.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "mf",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/mf"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/EU_AirQualityReferenceComponentValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/EU_AirQualityReferenceComponentValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/EU_AirQualityReferenceComponentValue:1",
+    "parents" : [ {
+      "parent" : {
+        "label" : {
+          "text" : "Phenomenon Type",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/PhenomenonTypeValue"
+      }
+    } ],
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

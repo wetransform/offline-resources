@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue">
+   <language>en</language>
+   <created>2015-08-18 17:19 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue</latestversion>
+   <label xml:lang="en">investigation trigger value</label>
+   <definition xml:lang="en">Trigger to have a site investigated or to investigate it in the future.</definition>
+   <description xml:lang="en">On the basis of recognised problems (confirmed compliants, encountered high concentrations of hazardous materials, etc.) or expected problems (inventory of potentially polluted sites).</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+      <label xml:lang="en">Soil</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/so">
+      <label xml:lang="en">Soil</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+      <label xml:lang="en">Technical (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/siteIntroducedAfterInventory">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/siteIntroducedAfterInventory:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/siteIntroducedAfterInventory</latestversion>
+         <label xml:lang="en">Site Introduced AfterInventory</label>
+         <definition xml:lang="en">introduced in current data system, based on lists made up on basis of experience with resulting soil pollution</definition>
+         <description xml:lang="en">inventory: making a list of sites with one or more activities with high soil polluting potential, assessing  experinces with processes, waste and emission control; probably introduced only after check on  periods and volumes of chemicals used, but before soil site investigation</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue">
+            <label xml:lang="en">investigation trigger value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/siteIntroducedAfterCivilComplaints">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/siteIntroducedAfterCivilComplaints:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/siteIntroducedAfterCivilComplaints</latestversion>
+         <label xml:lang="en">Site Introduced After Confirmed Civil Complaints</label>
+         <definition xml:lang="en">introduced in current data system, based on civil complaints that are considered justified to take action</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue">
+            <label xml:lang="en">investigation trigger value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/siteIntroducedAfterEpidemiology">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/siteIntroducedAfterEpidemiology:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/siteIntroducedAfterEpidemiology</latestversion>
+         <label xml:lang="en">Site Introduced After Epidemiology</label>
+         <definition xml:lang="en">introduced in the current data system based on suspicion of health effects,</definition>
+         <description xml:lang="en">e.g. based on epidemiology of carcinogenic effects</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue">
+            <label xml:lang="en">investigation trigger value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/siteIntroducedAfterSoilInvestigation">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/siteIntroducedAfterSoilInvestigation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/siteIntroducedAfterSoilInvestigation</latestversion>
+         <label xml:lang="en">Site Introduced After Soil Investigation</label>
+         <definition xml:lang="en">introduced in current data system on the basis of soil  investigations</definition>
+         <description xml:lang="en">e.g. based on suspicions and/or experience before formal inventory of sites or based on investigations for some other reason (e.g. land development, civil works, building, archeology, agricultural fertility)</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue">
+            <label xml:lang="en">investigation trigger value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/siteIntroducedAfterCalamity">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/siteIntroducedAfterCalamity:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/siteIntroducedAfterCalamity</latestversion>
+         <label xml:lang="en">Site Introduced After Calamity</label>
+         <definition xml:lang="en">intrioduced in the current data sytem based on soil and groundwater polluting consequences of a calamity or resulting from actions taken or expected dispersion in the resulting situation</definition>
+         <description xml:lang="en">e.g. transport accidents, leaking, spills, fire</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue">
+            <label xml:lang="en">investigation trigger value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/notSurveyed">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/notSurveyed:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/notSurveyed</latestversion>
+         <label xml:lang="en">not surveyed</label>
+         <definition xml:lang="en">site introduced in current data system but no soil investigation</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue">
+            <label xml:lang="en">investigation trigger value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/underPreliminaryInvestigation">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/underPreliminaryInvestigation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/underPreliminaryInvestigation</latestversion>
+         <label xml:lang="en">under preliminary investigation</label>
+         <definition xml:lang="en">preliminary investigation started, no formal decision that a main site investigation is not necessary or a main site investigation has not yet started</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue">
+            <label xml:lang="en">investigation trigger value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/underMainInvestigation">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/underMainInvestigation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/underMainInvestigation</latestversion>
+         <label xml:lang="en">under main investigation</label>
+         <definition xml:lang="en">main site investigation started but no formal decision was taken that the site is contaminated above threshold values</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue">
+            <label xml:lang="en">investigation trigger value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/foundNotContaminated">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/foundNotContaminated:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/foundNotContaminated</latestversion>
+         <label xml:lang="en">found not contaminated</label>
+         <definition xml:lang="en">decision based of main site investigation in agreement of applicable juridical standards and decisions of local authorities</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue">
+            <label xml:lang="en">investigation trigger value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/foundContaminated">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/foundContaminated:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/foundContaminated</latestversion>
+         <label xml:lang="en">found contaminated</label>
+         <definition xml:lang="en">decision based of main site investigation in agreement of applicable juridical standards and decisions of local authorities</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue">
+            <label xml:lang="en">investigation trigger value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

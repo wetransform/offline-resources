@@ -1,0 +1,593 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Hydro Node Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue"
+        },
+        "created" : "2015-08-18 17:41 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "boundary",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-n",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-n"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-n"
+        },
+        "definition" : {
+          "text" : "Node used to connect different networks.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/boundary",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/boundary",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/boundary:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Hydro Node Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue"
+        },
+        "created" : "2015-08-18 17:41 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "flow constriction",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-n",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-n"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-n"
+        },
+        "definition" : {
+          "text" : "A network node unrelated to the network topology per se, but associated with a hydrographic point of interest or facility, or a man-made object, that affects the network flow.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/flowConstriction",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/flowConstriction",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/flowConstriction:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Hydro Node Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue"
+        },
+        "created" : "2015-08-18 17:41 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "flow regulation",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-n",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-n"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-n"
+        },
+        "definition" : {
+          "text" : "A network node unrelated to the network topology per se, but associated with a hydrographic point of interest or facility, or a man-made object, that regulates the network flow.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/flowRegulation",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/flowRegulation",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/flowRegulation:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Hydro Node Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue"
+        },
+        "created" : "2015-08-18 17:41 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "junction",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-n",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-n"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-n"
+        },
+        "definition" : {
+          "text" : "Node where three or more links connect.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/junction",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/junction",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/junction:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Hydro Node Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue"
+        },
+        "created" : "2015-08-18 17:41 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "outlet",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-n",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-n"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-n"
+        },
+        "definition" : {
+          "text" : "Ending node of a series of interconnected links.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/outlet",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/outlet",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/outlet:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Hydro Node Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue"
+        },
+        "created" : "2015-08-18 17:41 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "source",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-n",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-n"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-n"
+        },
+        "definition" : {
+          "text" : "Starting node of a series of interconnected links.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/source",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/source",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/source:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Hydro Node Category",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "none",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Not extensible",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "hy-n",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-n"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Hydro - Network",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/hy-n"
+    },
+    "definition" : {
+      "text" : "Defines categories for different types of hydrographic network nodes.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "hy",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/hy"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

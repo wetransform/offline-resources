@@ -1,0 +1,110 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "created" : "2015-08-18 17:18 PM CEST",
+    "document" : {
+      "label" : {
+        "text" : "BODC",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/document/BODC"
+    },
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "BODC P01 Parameter Usage",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "any",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Empty code list",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "of",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/of"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Oceanographic Geographical Features",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/of"
+    },
+    "definition" : {
+      "text" : "Definitions of phenomena observed in oceanography.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "of",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/of"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/BODC_P01ParameterUsageValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/BODC_P01ParameterUsageValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/BODC_P01ParameterUsageValue:1",
+    "parents" : [ {
+      "parent" : {
+        "label" : {
+          "text" : "Phenomenon Type",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/PhenomenonTypeValue"
+      }
+    } ],
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

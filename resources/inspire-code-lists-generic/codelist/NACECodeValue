@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/NACECodeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/NACECodeValue:3</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/NACECodeValue</latestversion>
+   <previousversions>
+      <version>http://inspire.ec.europa.eu/codelist/NACECodeValue:2</version>
+      <version>http://inspire.ec.europa.eu/codelist/NACECodeValue:1</version>
+   </previousversions>
+   <label xml:lang="en">NACE Code</label>
+   <definition xml:lang="en">Classification of economic activities according to Eurostat NACE, as specified in Regulation (EC) No 1893/2006 of the European Parliament and of the Council and narrower values defined by data providers.</definition>
+   <parents>
+      <parent id="http://inspire.ec.europa.eu/codelist/ClassificationItemTypeValue">
+         <label xml:lang="en">Classification Item Type</label>
+      </parent>
+   </parents>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+      <label xml:lang="en">Population Distribution - Demography</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/pd">
+      <label xml:lang="en">Population distribution — demography</label>
+   </theme>
+   <document id="http://inspire.ec.europa.eu/document/Nace">
+      <label xml:lang="en">Economic activities according to Eurostat NACE Classification values, as specified in Regulation (EC) No 1893/2006 of the European Parliament and of the Council</label>
+   </document>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register></codelist>

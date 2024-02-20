@@ -1,0 +1,440 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Technical (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+    },
+    "containeditems" : [ {
+      "codelist" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "created" : "2015-08-18 17:19 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "E-PRTR classification has a hierarchical structure funded on different levels embedded in the activity code. The activity code is accompanied by the activity denomination.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "E-PRTR code value",
+          "lang" : "en"
+        },
+        "extensibility" : {
+          "label" : {
+            "text" : "any",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+        },
+        "extensibility item" : {
+          "label" : {
+            "text" : "Empty code list",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "pf",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/pf"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeList",
+            "lang" : "en"
+          },
+          "id" : "CodeList"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Production and Industrial Facilities",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/pf"
+        },
+        "definition" : {
+          "text" : "The E-PRTRCodeValue code list hosts a family of reference values for the attribute activityCode in the Activity class. The list hosts the classification for the activities according to the E-PRTR register.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "pf",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/pf"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/E-PRTRCodeValue",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/E-PRTRCodeValue",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/E-PRTRCodeValue:4",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/E-PRTRCodeValue:3"
+        }, {
+          "version" : "http://inspire.ec.europa.eu/codelist/E-PRTRCodeValue:2"
+        }, {
+          "version" : "http://inspire.ec.europa.eu/codelist/E-PRTRCodeValue:1"
+        } ],
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "activity code value",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/ActivityCodeValue"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "codelist" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "created" : "2015-08-18 17:19 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "IPPC classification has a hierarchical structure funded on different levels embedded in the activity code. The activity code is accompanied by the activity denomination.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "IPPC code value",
+          "lang" : "en"
+        },
+        "extensibility" : {
+          "label" : {
+            "text" : "open",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+        },
+        "extensibility item" : {
+          "label" : {
+            "text" : "Extensible with values at any level",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "pf",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/pf"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeList",
+            "lang" : "en"
+          },
+          "id" : "CodeList"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Production and Industrial Facilities",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/pf"
+        },
+        "definition" : {
+          "text" : "The IPPCCodeValue code list hosts a family of reference values for the attribute activityCode in the Activity class. The list hosts the classification for the activities according to the Council Regulation 96/61/EC.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "pf",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/pf"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/IPPCCodeValue",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/IPPCCodeValue",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/IPPCCodeValue:3",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/IPPCCodeValue:2"
+        }, {
+          "version" : "http://inspire.ec.europa.eu/codelist/IPPCCodeValue:1"
+        } ],
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "activity code value",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/ActivityCodeValue"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "codelist" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "created" : "2015-08-18 17:18 PM CEST",
+        "document" : {
+          "label" : {
+            "text" : "Nace",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/document/Nace"
+        },
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "NACE Code",
+          "lang" : "en"
+        },
+        "extensibility" : {
+          "label" : {
+            "text" : "none",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+        },
+        "extensibility item" : {
+          "label" : {
+            "text" : "Not extensible",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "pd",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/pd"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeList",
+            "lang" : "en"
+          },
+          "id" : "CodeList"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Population Distribution - Demography",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/pd"
+        },
+        "definition" : {
+          "text" : "Classification of economic activities according to Eurostat NACE, as specified in Regulation (EC) No 1893/2006 of the European Parliament and of the Council and narrower values defined by data providers.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "pd",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/pd"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NACECodeValue",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NACECodeValue",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NACECodeValue:3",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/NACECodeValue:2"
+        }, {
+          "version" : "http://inspire.ec.europa.eu/codelist/NACECodeValue:1"
+        } ],
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "Classification Item Type",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/ClassificationItemTypeValue"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:19 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-technical",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "activity code value",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "open",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Extensible with values at any level",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "pf",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/pf"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Production and Industrial Facilities",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/pf"
+    },
+    "definition" : {
+      "text" : "The ActivityCodeValue code list hosts all the potential reference values for the attribute activityCode in the Activity class.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "pf",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/pf"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/ActivityCodeValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/ActivityCodeValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/ActivityCodeValue:4",
+    "historyversion" : [ {
+      "version" : "http://inspire.ec.europa.eu/codelist/ActivityCodeValue:3"
+    }, {
+      "version" : "http://inspire.ec.europa.eu/codelist/ActivityCodeValue:2"
+    }, {
+      "version" : "http://inspire.ec.europa.eu/codelist/ActivityCodeValue:1"
+    } ],
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

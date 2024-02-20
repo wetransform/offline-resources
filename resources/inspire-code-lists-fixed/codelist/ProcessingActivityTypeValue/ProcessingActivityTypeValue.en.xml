@@ -1,0 +1,1457 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue</latestversion>
+   <label xml:lang="en">Processing Activity Type</label>
+   <definition xml:lang="en">Values indicating the type of processing carried out during a mining activity.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+      <label xml:lang="en">Mineral Resources</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/mr">
+      <label xml:lang="en">Mineral resources</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/physicalTreatment">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/physicalTreatment:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/physicalTreatment</latestversion>
+         <label xml:lang="en">physical treatment</label>
+         <definition xml:lang="en">Sorting process using physical separation methods. physicalChemicalTreatment</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/physicalChemicalTreatment">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/physicalChemicalTreatment:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/physicalChemicalTreatment</latestversion>
+         <label xml:lang="en">physical chemical treatment</label>
+         <definition xml:lang="en">Sorting process combining physical and chemical separation methods.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/chemicalTreatment">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/chemicalTreatment:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/chemicalTreatment</latestversion>
+         <label xml:lang="en">chemical treatment</label>
+         <definition xml:lang="en">Sorting process using chemical separation methods.unknownTreatment</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/unknownTreatment">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/unknownTreatment:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/unknownTreatment</latestversion>
+         <label xml:lang="en">unknown treatment</label>
+         <definition xml:lang="en">Sorting process - treatment is unknown.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/sorting">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/sorting:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/sorting</latestversion>
+         <label xml:lang="en">sorting</label>
+         <definition xml:lang="en">Processes that operate on particulate material to concentrate a desired component and separate it from waste material.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/physicalTreatment">
+               <label xml:lang="en">physical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/manualSorting">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/manualSorting:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/manualSorting</latestversion>
+         <label xml:lang="en">Manual sorting (handpicking)</label>
+         <definition xml:lang="en">Sorting a coarse material into two or more classes on the basis of physical characteristics: appearance, colour, conductivity, fluorescence, etc., manually.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/physicalTreatment">
+               <label xml:lang="en">physical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/automaticSorting">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/automaticSorting:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/automaticSorting</latestversion>
+         <label xml:lang="en">Automatic sorting</label>
+         <definition xml:lang="en">Sorting a coarse material into two or more classes on the basis of physical characteristics: appearance, colour, conductivity, fluorescence, etc. This process may take place automatically by machines.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/physicalTreatment">
+               <label xml:lang="en">physical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/gravimetricSorting">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/gravimetricSorting:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/gravimetricSorting</latestversion>
+         <label xml:lang="en">Gravimetric methods (density, shape)</label>
+         <definition xml:lang="en">Process in which the valuable particles are separated from the gangue by virtue of the difference between their specific volumes. This causes their settling rates within a medium - air or water - to be different. This process is therefore affected by particle size.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/physicalTreatment">
+               <label xml:lang="en">physical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/stratificationJig">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/stratificationJig:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/stratificationJig</latestversion>
+         <label xml:lang="en">Stratification (jig)</label>
+         <definition xml:lang="en">Jig: Gravity separation concentrator in which the pulp is subjected to an alternating vertical motion that is imparted: (1) either by an alternating liquid stream moved by a piston, a diaphragm, or any other device, through a fixed perforated plate. There are two compartments: one housing the piston, the diaphragm, or the compressed air, and the other where the actual concentration takes place; (2) or by altering vertical or inclined motion of the grate on which the feed is resting (e.g. Hancock jig).</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/physicalTreatment">
+               <label xml:lang="en">physical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/sluiceConcentration">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/sluiceConcentration:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/sluiceConcentration</latestversion>
+         <label xml:lang="en">sluice concentration</label>
+         <definition xml:lang="en">Sluice: Gravity concentration units consisting of a slanting trough fitted with riffles or with moquette to trap the denser particles. Cone classifier: Hydraulic classifier consisting of pyramidal hopper with bottom apex. Spiral concentrator: Concentration device consisting of a spiral-shaped trough, along which the pulp flows. The finer and lighter particles are carried towards the outer edge, whereas the denser particles move towards the helix axis, where they are removed.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/physicalTreatment">
+               <label xml:lang="en">physical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/gravitySeparationTable">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/gravitySeparationTable:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/gravitySeparationTable</latestversion>
+         <label xml:lang="en">gravity separation table</label>
+         <definition xml:lang="en">Gravity concentration consisting of an inclined desk fitted with riffles. Its shaking promotes the segregation of different dense particles and keeps them moving across the deck in different angles down to the discharge end. A transverse water stream helps to separate the particles.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/physicalTreatment">
+               <label xml:lang="en">physical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/centrifugalGravitySeparation">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/centrifugalGravitySeparation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/centrifugalGravitySeparation</latestversion>
+         <label xml:lang="en">centrifugal gravity separation</label>
+         <definition xml:lang="en">Classifying or thickening machine in which centrifugal force is of the essence: it causes the particles in the pulp movement against the sides of a bowl or basket.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/physicalTreatment">
+               <label xml:lang="en">physical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/heavyMediumSeparation">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/heavyMediumSeparation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/heavyMediumSeparation</latestversion>
+         <label xml:lang="en">heavy medium separation</label>
+         <definition xml:lang="en">Concentration process based on the ability of  denser particles to float to the surface and lighter particles to sink to the bottom of a medium when the specific gravity of the medium is between those of the denser and lighter particles.. The medium may be a dense liquid, a solution, or a finely ground material in suspension in water (heavy media). The process may static. It takes place in a drum or a tank. It may be dynamic. It is then effected in a cyclone. The lighter product is sometimes referred to as float, the heavier as sink. This is a gravity separation process.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/physicalTreatment">
+               <label xml:lang="en">physical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/magneticElecromagneticSeparation">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/magneticElecromagneticSeparation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/magneticElecromagneticSeparation</latestversion>
+         <label xml:lang="en">magnetic  elecromagnetic separation</label>
+         <definition xml:lang="en">Separation process based on the difference in magnetic susceptibility between minerals. The intensity may be low, medium or high. Sometimes a high-gradient magnetic field is used. The magnetic field may be produced either by a series of permanent magnets or by electromagnets. The magnetic field is used either to deviate the magnetic particles from their course, or to lift the magnetic particles.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/physicalTreatment">
+               <label xml:lang="en">physical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/electrostaticSeparation">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/electrostaticSeparation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/electrostaticSeparation</latestversion>
+         <label xml:lang="en">Electrostatic separation</label>
+         <definition xml:lang="en">Separation process based on the difference in electrical conductivity between the various minerals.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/physicalTreatment">
+               <label xml:lang="en">physical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/eddyCurrentSeparator">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/eddyCurrentSeparator:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/eddyCurrentSeparator</latestversion>
+         <label xml:lang="en">eddy current separator</label>
+         <definition xml:lang="en">Eddy (or Foucault) currents: The principle is that an electric charge is induced into a conductor by changes in magnetic flux cutting through it. Such changes in magnetic flux can be achieved by rotating permanent magnets past an electrical conductor. The effect of such currents is to induce a secondary magnetic field around the non-ferrous particle. This field reacts with the magnetic field of the rotor, resulting in a combined driving and repelling force which literally ejects the conducted particle from the stream of mixed materials. This repulsion force in combination with the product belt speed and the optimization of the product splitter plate provides the means for an effective separation.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/physicalTreatment">
+               <label xml:lang="en">physical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/liquidSolidSeparation">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/liquidSolidSeparation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/liquidSolidSeparation</latestversion>
+         <label xml:lang="en">Liquid-solid separation</label>
+         <definition xml:lang="en">Includes: Thickening: Process in which a portion of the liquid of a pulp is removed to thicken the latter. Mostly achieved by decantation, but sometimes by filtration or cycloning. Decantation (clarification, dewatering): (1) Spontaneous separation by gravity of a solid phase in suspension within a liquid (settling), or of non-miscible liquids. (2) When solids are settling out they always retain some trapped liquid. But, as the settled phase has a higher solids percentage than the initial pulp, the end result is a thickening. Filtration: Process of separating solid particles in suspension in a fluid by forcing the latter to pass through some porous material (fabric, diatom layer, ...) that retains the solid particles.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/physicalTreatment">
+               <label xml:lang="en">physical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/comminution">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/comminution:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/comminution</latestversion>
+         <label xml:lang="en">Comminution</label>
+         <definition xml:lang="en">Breaking solid particles to reduce their sizes; general term encompassing crushing and grinding (there is no clearcut boundary between these processes). Synonymous with fragmentation.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/physicalTreatment">
+               <label xml:lang="en">physical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/particleSizing">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/particleSizing:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/particleSizing</latestversion>
+         <label xml:lang="en">Particle sizing</label>
+         <definition xml:lang="en">Classification: separation of the pieces of a fragmented material into several classes, according to a particular criterion: size, density, equivalence, shape, etc. It is used more specifically with size separation. Screening/sieving: sizing by means of screens or sieves: particle with a size larger than the screen or sieve opening are said to form the oversize fraction, the others form the undersize fraction.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/physicalTreatment">
+               <label xml:lang="en">physical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/flotation">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/flotation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/flotation</latestversion>
+         <label xml:lang="en">Flotation</label>
+         <definition xml:lang="en">Process in which particles are separated according to their tendency to adhere more or less to air bubbles to form a mineralized froth: this feature is linked to the natural or designed hydrophobic property of the particle surface.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/physicalChemicalTreatment">
+               <label xml:lang="en">physical chemical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/agglomeration">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/agglomeration:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/agglomeration</latestversion>
+         <label xml:lang="en">Agglomeration</label>
+         <definition xml:lang="en">Agglomeration: process designed to bind together finely ground particles. The result is an agglomerate or a sinter. Pelletization: process designed to produce spherical agglomerates of a few mm diameter, called pellets, through a rotating device (balling drum, balling disc) after the addition of some binding material (swelling clay, lime, cement, etc.) and water.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/physicalChemicalTreatment">
+               <label xml:lang="en">physical chemical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/coagulation">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/coagulation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/coagulation</latestversion>
+         <label xml:lang="en">Coagulation</label>
+         <definition xml:lang="en">In a dispersed system, particles of all species can be aggregated into larger structures by several mechanisms. Aggregation, based on reducing inter-particle repulsion forces, is known as coagulation and the aggregates are called coagula. If coagulation is induced by a polymer-bridging action, the process is called flocculation and the aggregates are called flocs. When aggregation is achieved as a result of the action of an immersible bridging liquid, such as oil, the process is called agglomeration and the aggregates are referred to as agglomerates. The mechanisms include both those in coagulation (i.e. action of electrolytes) and bridging flocculation by either inorganic polymers or by precipitating metal hydroxides. The latter is known as sweep flocculation.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/physicalChemicalTreatment">
+               <label xml:lang="en">physical chemical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/flocculation">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/flocculation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/flocculation</latestversion>
+         <label xml:lang="en">Flocculation</label>
+         <definition xml:lang="en">Flocculation is the coagulation between particles induced by the bridging action of long-chain organic polymers.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/physicalChemicalTreatment">
+               <label xml:lang="en">physical chemical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/hydrometallurgy">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/hydrometallurgy:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/hydrometallurgy</latestversion>
+         <label xml:lang="en">Hydrometallurgy</label>
+         <definition xml:lang="en">Hydrometallurgy is part of the field of extractive metallurgy involving the use of aqueous chemistry for the recovery of metals from ores, concentrates, and recycled or residual materials. Hydrometallurgy is typically divided into three general areas: leaching, solution concentration and purification, and metal recovery.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/chemicalTreatment">
+               <label xml:lang="en">chemical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/leaching">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/leaching:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/leaching</latestversion>
+         <label xml:lang="en">Leaching</label>
+         <definition xml:lang="en">Action of chemical reagents on a material resulting in the dissolution of some of its elements.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/chemicalTreatment">
+               <label xml:lang="en">chemical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/solventExtraction">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/solventExtraction:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/solventExtraction</latestversion>
+         <label xml:lang="en">Solvent extraction</label>
+         <definition xml:lang="en">Extraction with a solvent. This may be achieved on: (1) the soluble part of a solid matter (solid/liquid extraction), (2) the elements within a liquid phase (liquid/liquid extraction).</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/chemicalTreatment">
+               <label xml:lang="en">chemical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/cementation">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/cementation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/cementation</latestversion>
+         <label xml:lang="en">Cementation</label>
+         <definition xml:lang="en">In metallurgy, cementation is a process in which ions are reduced to zero valence at a solid metallic interface</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/chemicalTreatment">
+               <label xml:lang="en">chemical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/electrolysis">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/electrolysis:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/electrolysis</latestversion>
+         <label xml:lang="en">Electrolysis</label>
+         <definition xml:lang="en">Electrolysis: Electrowinning and electrorefining respectively involve the recovery and purification of metals using electrodeposition of metals at the cathode, and either metal dissolution or a competing oxidation reaction at the anode.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/chemicalTreatment">
+               <label xml:lang="en">chemical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/adsorption">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/adsorption:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/adsorption</latestversion>
+         <label xml:lang="en">Adsorption</label>
+         <definition xml:lang="en">Taking up of ions, molecules or colloids on the surface of a material.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/chemicalTreatment">
+               <label xml:lang="en">chemical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/distillation">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/distillation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/distillation</latestversion>
+         <label xml:lang="en">Distillation</label>
+         <definition xml:lang="en">Distillation is a method of separating mixtures based on differences in volatilities of components in a boiling liquid mixture. Distillation is a unit operation, or a physical separation process, and not a chemical reaction.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/chemicalTreatment">
+               <label xml:lang="en">chemical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/crystallization">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/crystallization:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/crystallization</latestversion>
+         <label xml:lang="en">Crystallization</label>
+         <definition xml:lang="en">Crystallization is the (natural or artificial) process of formation of solid crystals precipitating from a solution, melt or more rarely deposited directly from a gas. Crystallization is also a chemical solid-liquid separation technique, in which mass transfer of a solute from the liquid solution to a pure solid crystalline phase occurs. In chemical engineering crystallization occurs in a crystallizer. Crystallization is therefore an aspect of precipitation, obtained through a variation of the solubility conditions of the solute in the solvent, as compared to precipitation due to chemical reaction.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/chemicalTreatment">
+               <label xml:lang="en">chemical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/precipitation">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/precipitation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/precipitation</latestversion>
+         <label xml:lang="en">Precipitation</label>
+         <definition xml:lang="en">Precipitation in hydrometallurgy involves the chemical precipitation of either metals and their compounds or of the contaminants from aqueous solutions. Precipitation will proceed when, through reagent addition, evaporation, pH change or temperature manipulation, any given species exceeds its limit of solubility. In order to improve efficiency in downstream processes, seeding to initiate crystallization is often used.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/chemicalTreatment">
+               <label xml:lang="en">chemical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/evaporation">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/evaporation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/evaporation</latestversion>
+         <label xml:lang="en">Evaporation</label>
+         <definition xml:lang="en">Drying is thermal removal of liquid moisture (not chemically bound) from a material. Drying is usually accomplished by contacting the moist solids with hot combustion gases generated by burning fossil fuels. In some cases, heat for drying can be provided by hot air or inert gas that has been indirectly heated. The amount of heat required for a given drying operation corresponds to the heat required to vaporize the liquid moisture, the heat required to raise the temperature of the products (dry solids and water vapor) to the final drying temperature, and heat required to offset radiant heat losses. Usually the drying temperature is set at a nominal value above the boiling point of water, often about 120°C. In special cases, such as in the drying of certain water-soluble salts, higher drying temperatures are required. In salt drying, the feed moisture is saturated with dissolved salts, which alters the boiling point and requires higher drying temperatures. Drying of moist solids is carried out in several types of industrial dryers, including rotary dryers, fluidized bed dryers, and flash dryers. Another type of drying, called spray drying, is carried out when the material to be dried is completely dissolved in aqueous solution. The solution is sprayed (usually through a specially designed nozzle) into a heated chamber and as the water is evaporated, solids crystallize. The water vapor is exhausted from the dryer, and dry solids are collected, usually in a conical section of the dryer. Solid material produced from a spray dryer often has special particle size and shape characteristics, which may be controlled by the concentration of dissolved material in the solution, and the design of the atomizing spray nozzle.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/chemicalTreatment">
+               <label xml:lang="en">chemical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/pyrometallurgy">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/pyrometallurgy:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/pyrometallurgy</latestversion>
+         <label xml:lang="en">Pyrometallurgy</label>
+         <definition xml:lang="en">Pyrometallurgy is a branch of extractive metallurgy. It consists of the thermal treatment of minerals and metallurgical ores and concentrates to bring about physical and chemical transformations in the materials to enable recovery of valuable metals. Pyrometallurgical treatment may produce saleable products such as pure metals, or intermediate compounds or alloys, suitable as feed for further processing. Examples of elements extracted by pyrometallurgical processes include the oxides of less reactive elements like Fe, Cu, Zn, Chromium, Tin, Manganese.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/chemicalTreatment">
+               <label xml:lang="en">chemical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/roasting">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/roasting:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/roasting</latestversion>
+         <label xml:lang="en">Roasting</label>
+         <definition xml:lang="en">Roasting is a step in the processing of certain ores. More specifically, roasting is a metallurgical process involving gas–solid reactions at elevated temperatures with the goal of purifying the metal component(s). Roasting consists of thermal gas–solid reactions, which can include oxidation, reduction, chlorination, sulfation, and pyrohydrolysis. In roasting, the ore or ore concentrate is treated with very hot air.” http://en.wikipedia.org/wiki/Roasting_(metallurgy)</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/chemicalTreatment">
+               <label xml:lang="en">chemical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/smelting">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/smelting:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/smelting</latestversion>
+         <label xml:lang="en">Smelting</label>
+         <definition xml:lang="en">Smelting is a form of extractive metallurgy; its main use is to produce a metal from its ore. Smelting involves thermal reactions in which at least one product is a molten phase. Metal oxides can then be smelted by heating with coke or charcoal (forms of carbon), a reducing agent that liberates the oxygen as carbon dioxide leaving a refined mineral. Carbonate ores are also smelted with charcoal, but are sometimes need to be calcined first. Other materials may need to be added as flux, aiding the melting of the oxide ores and assisting in the formation of a slag, as the flux reacts with impurities, such as silicon compounds. Smelting usually takes place at a temperature above the melting point of the metal, but processes vary considerably according to the ore involved and other matters.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/chemicalTreatment">
+               <label xml:lang="en">chemical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/burning">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/burning:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/burning</latestversion>
+         <label xml:lang="en">Burning</label>
+         <definition xml:lang="en">The utilization of coal-oil agglomerates in the recovery of gold is based on the natural hydrophobicity/oleophilicity of gold, a property which according to the consensus of most surface chemistry experts is brought about by the ease by which gold surface becomes contaminated, though is possible to recover gold by agglomerating them with oil, the amount of gold in the ore is usually small that there is insufficient gold particles to form agglomerates. Thus, the need to use other hydrophobic materials (e.g. coal) to either form agglomerates together with gold or act as a carrier of gold particles. Agglomerates are prepared in a previous step and then added to the ore pulp in a second step. The gold particles, being oilfilic, penetrate into the agglomerates. In a continuous operation the agglomerates would be maintained in contacting tanks until they reach a pre-determined gold content. The tailings are discarded by means of a screen situated at the upper part of the tanks. The recovery of gold from agglomerates is obtained in a later step by burning the agglomerates and then separating the gold from the ashes.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/chemicalTreatment">
+               <label xml:lang="en">chemical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/calcining">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/calcining:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/calcining</latestversion>
+         <label xml:lang="en">Calcining</label>
+         <definition xml:lang="en">A more general definition is “Calcination (also referred to as calcining) is a thermal treatment process in presence of air applied to ores and other solid materials to bring about a thermal decomposition, phase transition, or removal of a volatile fraction. The calcination process normally takes place at temperatures below the melting point of the product materials. Calcination is to be distinguished from roasting, in which more complex gas–solid reactions take place between the furnace atmosphere and the solids.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/chemicalTreatment">
+               <label xml:lang="en">chemical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/incineration">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/incineration:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/incineration</latestversion>
+         <label xml:lang="en">Incineration</label>
+         <definition xml:lang="en">A method used for drying and reducing sludge volume and weight. Since incineration requires auxiliary fuel to obtain and maintain high temperature and to evaporate the water contained in the incoming sludge, concentration techniques should be applied before incineration. Sludge incineration is a two-step process involving drying and combustion after a preceding dewatering process, such as filters, drying beds, or centrifuges.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue">
+            <label xml:lang="en">Processing Activity Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/chemicalTreatment">
+               <label xml:lang="en">chemical treatment</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

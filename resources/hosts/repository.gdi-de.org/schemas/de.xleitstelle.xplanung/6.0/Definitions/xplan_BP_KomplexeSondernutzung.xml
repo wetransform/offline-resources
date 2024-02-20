@@ -1,0 +1,290 @@
+﻿<!--Erzeugt mit KIT (www.kit.edu) UmlToXmlTransformation-Software, Erstellungsdatum: 31.10.2022 09:24:45-->
+<TypeDefinition xmlns="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ../xsd/ShapeChangeDefinitions.xsd" gml:id="xplan_BP_KomplexeSondernutzung">
+  <gml:description>Spezifikation einer Sondernutzung</gml:description>
+  <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_KomplexeSondernutzung</gml:identifier>
+  <gml:name>xplan:BP_KomplexeSondernutzung</gml:name>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_KomplexeSondernutzung_allgemein">
+      <gml:description>Allgemeine Festlegung der Sondernutzung</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_KomplexeSondernutzung:attribute:allgemein</gml:identifier>
+      <gml:name>xplan:allgemein</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_KomplexeSondernutzung_allgemein_XP_Sondernutzungen_1000">
+          <gml:description>Wochenendhausgebiet</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_KomplexeSondernutzung:allgemein:XP_Sondernutzungen:1000</gml:identifier>
+          <gml:name>Wochenendhausgebiet</gml:name>
+          <gml:name codeSpace="lesbarerName">Wochenendhausgebiet</gml:name>
+          <gml:name codeSpace="kuerzel">WHG</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_KomplexeSondernutzung_allgemein_XP_Sondernutzungen_1100">
+          <gml:description>Ferienhausgebiet</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_KomplexeSondernutzung:allgemein:XP_Sondernutzungen:1100</gml:identifier>
+          <gml:name>Ferienhausgebiet</gml:name>
+          <gml:name codeSpace="lesbarerName">Ferienhausgebiet</gml:name>
+          <gml:name codeSpace="kuerzel">FHG</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_KomplexeSondernutzung_allgemein_XP_Sondernutzungen_1200">
+          <gml:description>Campingplatzgebiet</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_KomplexeSondernutzung:allgemein:XP_Sondernutzungen:1200</gml:identifier>
+          <gml:name>Campingplatzgebiet</gml:name>
+          <gml:name codeSpace="lesbarerName">Campingplatzgebiet</gml:name>
+          <gml:name codeSpace="kuerzel">CPG</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_KomplexeSondernutzung_allgemein_XP_Sondernutzungen_1300">
+          <gml:description>Kurgebiet</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_KomplexeSondernutzung:allgemein:XP_Sondernutzungen:1300</gml:identifier>
+          <gml:name>Kurgebiet</gml:name>
+          <gml:name codeSpace="lesbarerName">Kurgebiet</gml:name>
+          <gml:name codeSpace="kuerzel">Kur</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_KomplexeSondernutzung_allgemein_XP_Sondernutzungen_1400">
+          <gml:description>Sonstiges Sondergebiet für Erholung</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_KomplexeSondernutzung:allgemein:XP_Sondernutzungen:1400</gml:identifier>
+          <gml:name>SonstSondergebietErholung</gml:name>
+          <gml:name codeSpace="lesbarerName">Sonstiges Sondergebiet Erholung</gml:name>
+          <gml:name codeSpace="kuerzel">SSE</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_KomplexeSondernutzung_allgemein_XP_Sondernutzungen_1500">
+          <gml:description>Einzelhandelsgebiet</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_KomplexeSondernutzung:allgemein:XP_Sondernutzungen:1500</gml:identifier>
+          <gml:name>Einzelhandelsgebiet</gml:name>
+          <gml:name codeSpace="lesbarerName">Einzelhandelsgebiet</gml:name>
+          <gml:name codeSpace="kuerzel">EHG</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_KomplexeSondernutzung_allgemein_XP_Sondernutzungen_1600">
+          <gml:description>Gebiet für großflächigen Einzelhandel</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_KomplexeSondernutzung:allgemein:XP_Sondernutzungen:1600</gml:identifier>
+          <gml:name>GrossflaechigerEinzelhandel</gml:name>
+          <gml:name codeSpace="lesbarerName">Großflächiger Einzelhandel</gml:name>
+          <gml:name codeSpace="kuerzel">GEH</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_KomplexeSondernutzung_allgemein_XP_Sondernutzungen_16000">
+          <gml:description>Ladengebiet</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_KomplexeSondernutzung:allgemein:XP_Sondernutzungen:16000</gml:identifier>
+          <gml:name>Ladengebiet</gml:name>
+          <gml:name codeSpace="lesbarerName">Ladengebiet</gml:name>
+          <gml:name codeSpace="kuerzel">LG</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_KomplexeSondernutzung_allgemein_XP_Sondernutzungen_16001">
+          <gml:description>Einkaufszentrum</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_KomplexeSondernutzung:allgemein:XP_Sondernutzungen:16001</gml:identifier>
+          <gml:name>Einkaufszentrum</gml:name>
+          <gml:name codeSpace="lesbarerName">Einkaufszentrum</gml:name>
+          <gml:name codeSpace="kuerzel">EKZ</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_KomplexeSondernutzung_allgemein_XP_Sondernutzungen_16002">
+          <gml:description>Sonstiges Gebiet für großflächigen Einzelhandel</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_KomplexeSondernutzung:allgemein:XP_Sondernutzungen:16002</gml:identifier>
+          <gml:name>SonstGrossflEinzelhandel</gml:name>
+          <gml:name codeSpace="lesbarerName">Sonstiger großflächiger Einzelhandel</gml:name>
+          <gml:name codeSpace="kuerzel">SGEH</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_KomplexeSondernutzung_allgemein_XP_Sondernutzungen_1650">
+          <gml:description>Großhandelsgebiet</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_KomplexeSondernutzung:allgemein:XP_Sondernutzungen:1650</gml:identifier>
+          <gml:name>SondergebietGrosshandel</gml:name>
+          <gml:name codeSpace="lesbarerName">Sondergebiet Großhandel</gml:name>
+          <gml:name codeSpace="kuerzel">SGH</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_KomplexeSondernutzung_allgemein_XP_Sondernutzungen_1700">
+          <gml:description>Verkehrsübungsplatz</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_KomplexeSondernutzung:allgemein:XP_Sondernutzungen:1700</gml:identifier>
+          <gml:name>Verkehrsuebungsplatz</gml:name>
+          <gml:name codeSpace="lesbarerName">Verkehrsübungsplatz</gml:name>
+          <gml:name codeSpace="kuerzel">VÜP</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_KomplexeSondernutzung_allgemein_XP_Sondernutzungen_1800">
+          <gml:description>Hafengebiet</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_KomplexeSondernutzung:allgemein:XP_Sondernutzungen:1800</gml:identifier>
+          <gml:name>Hafengebiet</gml:name>
+          <gml:name codeSpace="lesbarerName">Hafengebiet</gml:name>
+          <gml:name codeSpace="kuerzel">Hafen</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_KomplexeSondernutzung_allgemein_XP_Sondernutzungen_1900">
+          <gml:description>Sondergebiet für Erneuerbare Energien</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_KomplexeSondernutzung:allgemein:XP_Sondernutzungen:1900</gml:identifier>
+          <gml:name>SondergebietErneuerbareEnergie</gml:name>
+          <gml:name codeSpace="lesbarerName">Sondergebiet Erneuerbare Energie</gml:name>
+          <gml:name codeSpace="kuerzel">EE</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_KomplexeSondernutzung_allgemein_XP_Sondernutzungen_2000">
+          <gml:description>Militärisches Sondergebiet</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_KomplexeSondernutzung:allgemein:XP_Sondernutzungen:2000</gml:identifier>
+          <gml:name>SondergebietMilitaer</gml:name>
+          <gml:name codeSpace="lesbarerName">Sondergebiet Militär</gml:name>
+          <gml:name codeSpace="kuerzel">Militär</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_KomplexeSondernutzung_allgemein_XP_Sondernutzungen_2100">
+          <gml:description>Sondergebiet Landwirtschaft</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_KomplexeSondernutzung:allgemein:XP_Sondernutzungen:2100</gml:identifier>
+          <gml:name>SondergebietLandwirtschaft</gml:name>
+          <gml:name codeSpace="lesbarerName">Sondergebiet Landwirtschaft</gml:name>
+          <gml:name codeSpace="kuerzel">LW</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_KomplexeSondernutzung_allgemein_XP_Sondernutzungen_2200">
+          <gml:description>Sondergebiet Sport</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_KomplexeSondernutzung:allgemein:XP_Sondernutzungen:2200</gml:identifier>
+          <gml:name>SondergebietSport</gml:name>
+          <gml:name codeSpace="lesbarerName">Sondergebiet Sport</gml:name>
+          <gml:name codeSpace="kuerzel">Sport</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_KomplexeSondernutzung_allgemein_XP_Sondernutzungen_2300">
+          <gml:description>Sondergebiet für Gesundheit und Soziales</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_KomplexeSondernutzung:allgemein:XP_Sondernutzungen:2300</gml:identifier>
+          <gml:name>SondergebietGesundheitSoziales</gml:name>
+          <gml:name codeSpace="lesbarerName">Sondergebiet Gesundheit und Soziales</gml:name>
+          <gml:name codeSpace="kuerzel">GS</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_KomplexeSondernutzung_allgemein_XP_Sondernutzungen_23000">
+          <gml:description>Klinikgebiet</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_KomplexeSondernutzung:allgemein:XP_Sondernutzungen:23000</gml:identifier>
+          <gml:name>Klinikgebiet</gml:name>
+          <gml:name codeSpace="lesbarerName">Klinikgebiet</gml:name>
+          <gml:name codeSpace="kuerzel">Klinik</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_KomplexeSondernutzung_allgemein_XP_Sondernutzungen_2400">
+          <gml:description>Golfplatz</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_KomplexeSondernutzung:allgemein:XP_Sondernutzungen:2400</gml:identifier>
+          <gml:name>Golfplatz</gml:name>
+          <gml:name codeSpace="lesbarerName">Golfplatz</gml:name>
+          <gml:name codeSpace="kuerzel">Golf</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_KomplexeSondernutzung_allgemein_XP_Sondernutzungen_2500">
+          <gml:description>Sondergebiet für Kultur</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_KomplexeSondernutzung:allgemein:XP_Sondernutzungen:2500</gml:identifier>
+          <gml:name>SondergebietKultur</gml:name>
+          <gml:name codeSpace="lesbarerName">Sondergebiet Kultur</gml:name>
+          <gml:name codeSpace="kuerzel">Kultur</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_KomplexeSondernutzung_allgemein_XP_Sondernutzungen_2600">
+          <gml:description>Sondergebiet Tourismus</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_KomplexeSondernutzung:allgemein:XP_Sondernutzungen:2600</gml:identifier>
+          <gml:name>SondergebietTourismus</gml:name>
+          <gml:name codeSpace="lesbarerName">Sondergebiet Tourismus</gml:name>
+          <gml:name codeSpace="kuerzel">Tour</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_KomplexeSondernutzung_allgemein_XP_Sondernutzungen_2700">
+          <gml:description>Sondergebiet für Büros und Verwaltung</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_KomplexeSondernutzung:allgemein:XP_Sondernutzungen:2700</gml:identifier>
+          <gml:name>SondergebietBueroUndVerwaltung</gml:name>
+          <gml:name codeSpace="lesbarerName">Sondergebiet Büro und Verwaltung</gml:name>
+          <gml:name codeSpace="kuerzel">BV</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_KomplexeSondernutzung_allgemein_XP_Sondernutzungen_2720">
+          <gml:description>Sondergebiet für Einrichtungen der Justiz</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_KomplexeSondernutzung:allgemein:XP_Sondernutzungen:2720</gml:identifier>
+          <gml:name>SondergebietJustiz</gml:name>
+          <gml:name codeSpace="lesbarerName">Sondergebiet Justiz</gml:name>
+          <gml:name codeSpace="kuerzel">Justiz</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_KomplexeSondernutzung_allgemein_XP_Sondernutzungen_2800">
+          <gml:description>Sondergebiet Hochschule</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_KomplexeSondernutzung:allgemein:XP_Sondernutzungen:2800</gml:identifier>
+          <gml:name>SondergebietHochschuleForschung</gml:name>
+          <gml:name codeSpace="lesbarerName">Sondergebiet Hochschule und Forschung</gml:name>
+          <gml:name codeSpace="kuerzel">HSF</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_KomplexeSondernutzung_allgemein_XP_Sondernutzungen_2900">
+          <gml:description>Sondergebiet für Messe</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_KomplexeSondernutzung:allgemein:XP_Sondernutzungen:2900</gml:identifier>
+          <gml:name>SondergebietMesse</gml:name>
+          <gml:name codeSpace="lesbarerName">Sondergebiet Messe</gml:name>
+          <gml:name codeSpace="kuerzel">Messe</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_KomplexeSondernutzung_allgemein_XP_Sondernutzungen_9999">
+          <gml:description>Sonstiges Sondergebiet</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_KomplexeSondernutzung:allgemein:XP_Sondernutzungen:9999</gml:identifier>
+          <gml:name>SondergebietAndereNutzungen</gml:name>
+          <gml:name codeSpace="lesbarerName">Sondergebiet andere Nutzungen</gml:name>
+          <gml:name codeSpace="kuerzel">AN</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>1</def:cardinality>
+      <def:valueTypeName>XP_Sondernutzungen</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_KomplexeSondernutzung_detail">
+      <gml:description>&amp;#220;ber eine Codeliste definierte Sondernutzung, die die allgemeine Sondernutzung n&amp;#228;her detailliert.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_KomplexeSondernutzung:attribute:detail</gml:identifier>
+      <gml:name>xplan:detail</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeName>BP_DetailSondernutzung</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_KomplexeSondernutzung_nutzungText">
+      <gml:description>Textliche Spezifikation der Sondernutzung.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_KomplexeSondernutzung:attribute:nutzungText</gml:identifier>
+      <gml:name>xplan:nutzungText</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::CharacterString" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_KomplexeSondernutzung_aufschrift">
+      <gml:description>Aufschrift</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_KomplexeSondernutzung:attribute:aufschrift</gml:identifier>
+      <gml:name>xplan:aufschrift</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::CharacterString" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <def:classification>featureType</def:classification>
+</TypeDefinition>

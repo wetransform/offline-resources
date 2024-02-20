@@ -1,0 +1,102 @@
+﻿<!--Erzeugt mit KIT (www.kit.edu) UmlToXmlTransformation-Software, Erstellungsdatum: 31.10.2022 09:25:51-->
+<TypeDefinition xmlns="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ../xsd/ShapeChangeDefinitions.xsd" gml:id="xplan_LP_KlimaKomplex">
+  <gml:description>Komplexes Attribut mit Angaben in Bezug auf Planungsgegenstand Klima, an die sich das Ziel, das Erfordernis oder die Ma&amp;#223;nahme richtet..
+
+</gml:description>
+  <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_KlimaKomplex</gml:identifier>
+  <gml:name>xplan:LP_KlimaKomplex</gml:name>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_KlimaKomplex_klimaArt">
+      <gml:description>Art des Planungsgegenstand f&amp;#252;r Klima, an die sich das Ziel, das Erfordernis oder die Ma&amp;#223;nahme richtet.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_KlimaKomplex:attribute:klimaArt</gml:identifier>
+      <gml:name>xplan:klimaArt</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_KlimaKomplex_klimaArt_LP_KlimaArt_1000">
+          <gml:description>Bioklimatische Funktion</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_KlimaKomplex:klimaArt:LP_KlimaArt:1000</gml:identifier>
+          <gml:name>BioklimatischeFunktion</gml:name>
+          <gml:name codeSpace="lesbarerName">Bioklimatische Funktion</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_KlimaKomplex_klimaArt_LP_KlimaArt_2000">
+          <gml:description>Luftleitbahn</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_KlimaKomplex:klimaArt:LP_KlimaArt:2000</gml:identifier>
+          <gml:name>Luftleitbahn</gml:name>
+          <gml:name codeSpace="lesbarerName">Luftleitbahn</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_KlimaKomplex_klimaArt_LP_KlimaArt_3100">
+          <gml:description>Frischluftbahn</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_KlimaKomplex:klimaArt:LP_KlimaArt:3100</gml:identifier>
+          <gml:name>Frischluftbahn</gml:name>
+          <gml:name codeSpace="lesbarerName">Frischluftbahn</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_KlimaKomplex_klimaArt_LP_KlimaArt_3200">
+          <gml:description>Frischluftentstehungsgebiet</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_KlimaKomplex:klimaArt:LP_KlimaArt:3200</gml:identifier>
+          <gml:name>Frischluftentstehungsgebiet</gml:name>
+          <gml:name codeSpace="lesbarerName">Frischluftentstehungsgebiet</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_KlimaKomplex_klimaArt_LP_KlimaArt_4100">
+          <gml:description>Kaltluftbahn</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_KlimaKomplex:klimaArt:LP_KlimaArt:4100</gml:identifier>
+          <gml:name>Kaltluftbahn</gml:name>
+          <gml:name codeSpace="lesbarerName">Kaltluftbahn</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_KlimaKomplex_klimaArt_LP_KlimaArt_4200">
+          <gml:description>Kaltluftentstehungsgebiet</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_KlimaKomplex:klimaArt:LP_KlimaArt:4200</gml:identifier>
+          <gml:name>Kaltluftentstehungsgebiet</gml:name>
+          <gml:name codeSpace="lesbarerName">Kaltluftentstehungsgebiet</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_KlimaKomplex_klimaArt_LP_KlimaArt_5000">
+          <gml:description>Stadtklima</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_KlimaKomplex:klimaArt:LP_KlimaArt:5000</gml:identifier>
+          <gml:name>Stadtklima</gml:name>
+          <gml:name codeSpace="lesbarerName">Stadtklima</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_KlimaKomplex_klimaArt_LP_KlimaArt_6000">
+          <gml:description>Treibhausgas-Senken (Klimaschutzfl&amp;#228;chen)</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_KlimaKomplex:klimaArt:LP_KlimaArt:6000</gml:identifier>
+          <gml:name>THGSenkenKlimaschutzflaechen</gml:name>
+          <gml:name codeSpace="lesbarerName">THG-Senken Klimaschutzflächen</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_KlimaKomplex_klimaArt_LP_KlimaArt_9999">
+          <gml:description>Sonstiger Planungsgegenstand Schutzgut Klima (siehe klimaText)</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_KlimaKomplex:klimaArt:LP_KlimaArt:9999</gml:identifier>
+          <gml:name>Sonstiges</gml:name>
+          <gml:name codeSpace="lesbarerName">Sonstiges</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>1</def:cardinality>
+      <def:valueTypeName>LP_KlimaArt</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_KlimaKomplex_klimaText">
+      <gml:description>Erl&amp;#228;uterung zu Sonstiger Planungsgegenstand Schutzgut Klima oder erg&amp;#228;nzende Information zu ausgew&amp;#228;hlten Planungsgegenst&amp;#228;nden.
+</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_KlimaKomplex:attribute:klimaText</gml:identifier>
+      <gml:name>xplan:klimaText</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::CharacterString" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <def:classification>featureType</def:classification>
+</TypeDefinition>

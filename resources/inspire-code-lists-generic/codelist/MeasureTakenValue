@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/MeasureTakenValue">
+   <language>en</language>
+   <created>2015-08-18 17:19 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/MeasureTakenValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/MeasureTakenValue</latestversion>
+   <label xml:lang="en">measure taken value</label>
+   <definition xml:lang="en">Type of measure taken to manage pollution.</definition>
+   <description xml:lang="en">e.g. cleaning, isolation, change land use</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+      <label xml:lang="en">Soil</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/so">
+      <label xml:lang="en">Soil</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+      <label xml:lang="en">Technical (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/MeasureTakenValue/temporarySafetyMeasures">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MeasureTakenValue/temporarySafetyMeasures:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MeasureTakenValue/temporarySafetyMeasures</latestversion>
+         <label xml:lang="en">temporary safety measures</label>
+         <definition xml:lang="en">measures taken to defy risks when definitive measures are not completed</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MeasureTakenValue">
+            <label xml:lang="en">measure taken value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MeasureTakenValue/blockingPathToRiskReceptors">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MeasureTakenValue/blockingPathToRiskReceptors:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MeasureTakenValue/blockingPathToRiskReceptors</latestversion>
+         <label xml:lang="en">blocking path to risk receptors</label>
+         <definition xml:lang="en">measures in which hazardous materials are and remain present but human contact and exposure is prevented</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MeasureTakenValue">
+            <label xml:lang="en">measure taken value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MeasureTakenValue/blockingDispersion">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MeasureTakenValue/blockingDispersion:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MeasureTakenValue/blockingDispersion</latestversion>
+         <label xml:lang="en">blocking dispersion</label>
+         <definition xml:lang="en">measures in which hazardous materials are and remain present but dispersion with groundwater, runoff water, storm water, sewers, surface water, wind, excavation and transport   is prevented</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MeasureTakenValue">
+            <label xml:lang="en">measure taken value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MeasureTakenValue/cleaningOfMainPollutionSources">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MeasureTakenValue/cleaningOfMainPollutionSources:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MeasureTakenValue/cleaningOfMainPollutionSources</latestversion>
+         <label xml:lang="en">cleaning of main pollution sources</label>
+         <definition xml:lang="en">removing soil and waste bodies with high concentrations and mobility</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MeasureTakenValue">
+            <label xml:lang="en">measure taken value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MeasureTakenValue/siteCleaningUpToLevelFitForCurrentLandUse">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MeasureTakenValue/siteCleaningUpToLevelFitForCurrentLandUse:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MeasureTakenValue/siteCleaningUpToLevelFitForCurrentLandUse</latestversion>
+         <label xml:lang="en">site cleaning up to level fit for current land use</label>
+         <definition xml:lang="en">measures to relieve risks in the actual existing situation; the presence and volume of exposure routes are highly dependent on the land use (as well as on more situational parameters as soil types, climate, elevation, slopes, water management, land cover, number of inhabitants, etc.)</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MeasureTakenValue">
+            <label xml:lang="en">measure taken value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MeasureTakenValue/siteCleaningUpToLevelFitForPlannedLandUse">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MeasureTakenValue/siteCleaningUpToLevelFitForPlannedLandUse:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MeasureTakenValue/siteCleaningUpToLevelFitForPlannedLandUse</latestversion>
+         <label xml:lang="en">site cleaning up to level fit for planned land use</label>
+         <definition xml:lang="en">measures with to intention to make the land fit for a new planned land use (as part of land development); often stumilating soil pollution management</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MeasureTakenValue">
+            <label xml:lang="en">measure taken value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MeasureTakenValue/groundwaterCleaning">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MeasureTakenValue/groundwaterCleaning:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MeasureTakenValue/groundwaterCleaning</latestversion>
+         <label xml:lang="en">groundwater cleaning</label>
+         <definition xml:lang="en">pump and treat or in situ treatment e.g. by stimulation of microbial actions</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MeasureTakenValue">
+            <label xml:lang="en">measure taken value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MeasureTakenValue/surfaceWaterAndSedimentCleaning">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MeasureTakenValue/surfaceWaterAndSedimentCleaning:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MeasureTakenValue/surfaceWaterAndSedimentCleaning</latestversion>
+         <label xml:lang="en">surface water and sediment cleaning</label>
+         <definition xml:lang="en">cleaning of water area on the site, generally also polluted by run off water and polluted groundwater seepage into surface waters</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MeasureTakenValue">
+            <label xml:lang="en">measure taken value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MeasureTakenValue/aftercareMonitoringAndProcedureForActionsIfNeeded">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MeasureTakenValue/aftercareMonitoringAndProcedureForActionsIfNeeded:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MeasureTakenValue/aftercareMonitoringAndProcedureForActionsIfNeeded</latestversion>
+         <label xml:lang="en">aftercare monitoring and procedure for actions if needed</label>
+         <definition xml:lang="en">monitoring of dispersion by groundwater, of time lagged health effects, as check on unexpected mobility of stabilized and/or isolated remaining pollutants</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MeasureTakenValue">
+            <label xml:lang="en">measure taken value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MeasureTakenValue/aftercareMaintenanceOfProvisions">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MeasureTakenValue/aftercareMaintenanceOfProvisions:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MeasureTakenValue/aftercareMaintenanceOfProvisions</latestversion>
+         <label xml:lang="en">aftercare maintenance of provisions</label>
+         <definition xml:lang="en">plan of action for control and maintenance</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MeasureTakenValue">
+            <label xml:lang="en">measure taken value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

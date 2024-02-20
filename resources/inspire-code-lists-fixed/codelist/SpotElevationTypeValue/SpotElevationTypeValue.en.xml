@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue</latestversion>
+   <label xml:lang="en">Spot Elevation Type</label>
+   <definition xml:lang="en">Possible values for spot elevation points that describe a singularity of the surface.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/narrower">
+      <label xml:lang="en">Extensible with narrower values</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/el-vec">
+      <label xml:lang="en">Elevation - Vector Elements</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/el">
+      <label xml:lang="en">Elevation</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/depression">
+         <language>en</language>
+         <created>2015-08-18 17:29 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/depression:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/depression</latestversion>
+         <label xml:lang="en">depression</label>
+         <definition xml:lang="en">Point that represents a part of the relief of the land surface or water body's floor surface that is lower in elevation when compared to its surrounding points.</definition>
+         <description xml:lang="en">EXAMPLE Trough or basin.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue">
+            <label xml:lang="en">Spot Elevation Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/el-vec">
+            <label xml:lang="en">Elevation - Vector Elements</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/el">
+            <label xml:lang="en">Elevation</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/formSpot">
+         <language>en</language>
+         <created>2015-08-18 17:29 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/formSpot:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/formSpot</latestversion>
+         <label xml:lang="en">form spot</label>
+         <definition xml:lang="en">A supplementary spot height, estimated or interpolated from surrounding heights, in areas where few contour lines or other height information exist.</definition>
+         <description xml:lang="en">NOTE 1 Used to control the creation of  DEMs.\n\nNOTE 2 This value is only applicable to spot heights, not to spot depths.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue">
+            <label xml:lang="en">Spot Elevation Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/el-vec">
+            <label xml:lang="en">Elevation - Vector Elements</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/el">
+            <label xml:lang="en">Elevation</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/generic">
+         <language>en</language>
+         <created>2015-08-18 17:29 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/generic:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/generic</latestversion>
+         <label xml:lang="en">generic</label>
+         <definition xml:lang="en">Spot elevation spatial object not fulfilling the description of any of the other values in the current code list.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue">
+            <label xml:lang="en">Spot Elevation Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/el-vec">
+            <label xml:lang="en">Elevation - Vector Elements</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/el">
+            <label xml:lang="en">Elevation</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/pass">
+         <language>en</language>
+         <created>2015-08-18 17:29 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/pass:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/pass</latestversion>
+         <label xml:lang="en">pass</label>
+         <definition xml:lang="en">Lower point of a depression within a ridge alignment, generally opened along the crest line, which allow passing from one slope of the surface to another.</definition>
+         <description xml:lang="en">NOTE A pass is a point of double curvature, one in the direction of the crest line and another in the direction of the thalwegs born in this point (i.e. with two maximum curvatures - concave and convex, respectively).</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue">
+            <label xml:lang="en">Spot Elevation Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/el-vec">
+            <label xml:lang="en">Elevation - Vector Elements</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/el">
+            <label xml:lang="en">Elevation</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/summit">
+         <language>en</language>
+         <created>2015-08-18 17:29 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/summit:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/summit</latestversion>
+         <label xml:lang="en">summit</label>
+         <definition xml:lang="en">Highest point of a prominence in the relief of a land surface or a water body's floor surface.</definition>
+         <description xml:lang="en">EXAMPLE The top of a hill or a mountain.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue">
+            <label xml:lang="en">Spot Elevation Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/el-vec">
+            <label xml:lang="en">Elevation - Vector Elements</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/el">
+            <label xml:lang="en">Elevation</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

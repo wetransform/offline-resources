@@ -1,0 +1,427 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Disease Measure Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Incidence",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Human Health",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "definition" : {
+          "text" : "the number of new cases of a condition, symptom, death, or injury that develop during a specific time period, such as a year. The number is often expressed as a percentage of a population. (ref.: http://www.nlm.nih.gov/medlineplus/ency/article/002387.htm)",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hh"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue/incidence",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue/incidence",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue/incidence:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Disease Measure Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Prevalence",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Human Health",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "definition" : {
+          "text" : "The proportion of individuals in a population having a disease. Prevalence is a statistical concept referring to the number of cases of a disease that are present in a particular population at a given time.\\n(ref.: http://www.medterms.com/script/main/art.asp?articlekey=11697) .",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hh"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue/prevalence",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue/prevalence",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue/prevalence:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Disease Measure Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Mortality",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Human Health",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "definition" : {
+          "text" : "Data on death; often expressed as mortality (death) rate, which is an estimate of the proportion of a population that dies during a specified period. Mortality (death) statistics usually show numbers of death ad/or rates by age, sex, cause, and sometimes other variables. Different types of mortality (death) rates are available, for example infant mortality rate (the number of children dying under a year of age divided by the number of live births that year).\\nRef.: Porta M (Ed.). A Dictionary of Epidemiology. IEA, 2008. Oxford University Press.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hh"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue/mortality",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue/mortality",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue/mortality:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Disease Measure Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Outbreak",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Human Health",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "definition" : {
+          "text" : "An epidemic limited to localized increase in the incidence of a disease; e.g. in a village, town, or closed institution.\\nRef.: Porta M (Ed.). A Dictionary of Epidemiology. IEA, 2008. Oxford University Press.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hh"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue/outbreak",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue/outbreak",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue/outbreak:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Disease Measure Type",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "any",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Empty code list",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "hh",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Human Health",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+    },
+    "definition" : {
+      "text" : "Different ways how data on diseases and related health problems in a population can be reported.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "hh",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/hh"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

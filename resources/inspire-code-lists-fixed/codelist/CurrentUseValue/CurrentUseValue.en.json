@@ -1,0 +1,1282 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Current Use",
+          "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue"
+        },
+        "created" : "2015-08-18 17:28 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "residential",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "bu-base",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Building Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "definition" : {
+          "text" : "The building (or building component) is used for residential purpose.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "bu",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/bu"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/residential",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/residential",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/residential:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Current Use",
+          "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue"
+        },
+        "created" : "2015-08-18 17:28 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "NOTE: This value includes detached houses such as bungalows, villas, chalets, forest lodges, farmhouses, country houses, summer houses, weekend houses and semi-detached or terraced houses, with each dwelling having its own roof and its own entrance directly from ground surface.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "individual residence",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "bu-base",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Building Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "definition" : {
+          "text" : "The building (or building component) hosts only one dwelling.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "bu",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/bu"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/individualResidence",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/individualResidence",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/individualResidence:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "residential",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/residential"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Current Use",
+          "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue"
+        },
+        "created" : "2015-08-18 17:28 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "collective residence",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "bu-base",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Building Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "definition" : {
+          "text" : "The building (or building component) hosts more than one dwelling.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "bu",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/bu"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/collectiveResidence",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/collectiveResidence",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/collectiveResidence:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "residential",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/residential"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Current Use",
+          "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue"
+        },
+        "created" : "2015-08-18 17:28 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "NOTE: This class includes detached houses, semi-detached or terraced houses, with two dwellings.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "two dwellings",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "bu-base",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Building Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "definition" : {
+          "text" : "The building (or building component) hosts two dwellings.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "bu",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/bu"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/twoDwellings",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/twoDwellings",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/twoDwellings:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "collective residence",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/collectiveResidence"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Current Use",
+          "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue"
+        },
+        "created" : "2015-08-18 17:28 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "NOTE: This class includes flat blocks, apartment houses, with three or more dwellings but excludes residence for communities.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "more than two dwellings",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "bu-base",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Building Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "definition" : {
+          "text" : "The building (or building component) hosts at least 3 dwellings.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "bu",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/bu"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/moreThanTwoDwelling",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/moreThanTwoDwelling",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/moreThanTwoDwelling:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "collective residence",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/collectiveResidence"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Current Use",
+          "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue"
+        },
+        "created" : "2015-08-18 17:28 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "This class includes residential buildings for communities, including residences and service residences for the elderly, students, children and other social groups.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "residence for communities",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "bu-base",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Building Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "definition" : {
+          "text" : "The building (or building component) hosts a residence for communities.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "bu",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/bu"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/residenceForCommunities",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/residenceForCommunities",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/residenceForCommunities:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "residential",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/residential"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Current Use",
+          "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue"
+        },
+        "created" : "2015-08-18 17:28 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "agriculture",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "bu-base",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Building Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "definition" : {
+          "text" : "The building (or building component) is used for agricultural activities.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "bu",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/bu"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/agriculture",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/agriculture",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/agriculture:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Current Use",
+          "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue"
+        },
+        "created" : "2015-08-18 17:28 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "industrial",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "bu-base",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Building Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "definition" : {
+          "text" : "The building (or building component) is used for secondary sector activities (industrial).",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "bu",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/bu"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/industrial",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/industrial",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/industrial:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Current Use",
+          "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue"
+        },
+        "created" : "2015-08-18 17:28 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "NOTE: This value includes both ternary sector (commercial activities) and quaternary sector (non-commercial, charity sector).",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "commerce and services",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "bu-base",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Building Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "definition" : {
+          "text" : "The building (or building component) is used for any service activities. This value addresses the buildings and building components dedicated to tertiary sector activities (commercial and services).",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "bu",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/bu"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/commerceAndServices",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/commerceAndServices",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/commerceAndServices:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Current Use",
+          "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue"
+        },
+        "created" : "2015-08-18 17:28 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "office",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "bu-base",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Building Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "definition" : {
+          "text" : "The building (or building component) hosts offices.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "bu",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/bu"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/office",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/office",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/office:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "commerce and services",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/commerceAndServices"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Current Use",
+          "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue"
+        },
+        "created" : "2015-08-18 17:28 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "EXAMPLE: Shops, supermarkets, hotels, restaurants.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "trade",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "bu-base",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Building Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "definition" : {
+          "text" : "The building (or building component) hosts trade activities.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "bu",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/bu"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/trade",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/trade",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/trade:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "commerce and services",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/commerceAndServices"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Current Use",
+          "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue"
+        },
+        "created" : "2015-08-18 17:28 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Public services are often ruled by public governments or on behalf of them.\\nEXAMPLES: Schools, hospitals, governmental buildings, prisons, rescue stations, transport station.\\nNOTE: in case of a building being both office and public service (e.g. a city hall), the building should be classified preferably as public service.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "public services",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "bu-base",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Building Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "definition" : {
+          "text" : "The building (or building component) hosts public services. Public services are tertiary services provided for the benefit of the citizens.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "bu",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/bu"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/publicServices",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/publicServices",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/publicServices:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "commerce and services",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/commerceAndServices"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Current Use",
+          "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue"
+        },
+        "created" : "2015-08-18 17:28 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "EXAMPLES : A summer house or garage (ancillary use) in the garden of a dwelling (residential use).",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "ancillary",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "bu-base",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Building Base",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+        },
+        "definition" : {
+          "text" : "A building (or building component) of small size that is used only in connection with another larger building (or building component) and generally does not inherit the same function and characteristics as the building (or building component) it is linked to.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "bu",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/bu"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/ancillary",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/ancillary",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue/ancillary:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "description" : {
+      "text" : "SOURCE: This code list is partly based on and adapted from the Eurostat classification of types of constructions (for the classification of residential buildings).\\nNOTE: the values of this code list apply to buildings or building components where building components may be a building part (in core profiles) or a building unit (in extended profiles)",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Current Use",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "narrower",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/narrower"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Extensible with narrower values",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/narrower"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "bu-base",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Building Base",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/bu-base"
+    },
+    "definition" : {
+      "text" : "Values indicating the current use.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "bu",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/bu"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/CurrentUseValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

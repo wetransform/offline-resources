@@ -1,0 +1,84 @@
+﻿<!--Erzeugt mit KIT (www.kit.edu) UmlToXmlTransformation-Software, Erstellungsdatum: 31.10.2022 09:26:04-->
+<TypeDefinition xmlns="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ../xsd/ShapeChangeDefinitions.xsd" gml:id="xplan_SO_Wasserwirtschaft">
+  <gml:description>Flächen für die Wasserwirtschaft, sowie Flächen für Hochwasserschutzanlagen und für die Regelung des Wasserabflusses (§9 Abs. 1 Nr. 16a und 16b BauGB, §5 Abs. 2 Nr. 7 BauGB).</gml:description>
+  <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_Wasserwirtschaft</gml:identifier>
+  <gml:name>xplan:SO_Wasserwirtschaft</gml:name>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_SO_Wasserwirtschaft_artDerFestlegung">
+      <gml:description>Klassifizierung der Festlegung</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_Wasserwirtschaft:attribute:artDerFestlegung</gml:identifier>
+      <gml:name>xplan:artDerFestlegung</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_Wasserwirtschaft_artDerFestlegung_SO_KlassifizWasserwirtschaft_1000">
+          <gml:description>Hochwasser-Rückhaltebecken</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_Wasserwirtschaft:artDerFestlegung:SO_KlassifizWasserwirtschaft:1000</gml:identifier>
+          <gml:name>HochwasserRueckhaltebecken</gml:name>
+          <gml:name codeSpace="lesbarerName">Hochwasser-Rückhaltebecken</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_Wasserwirtschaft_artDerFestlegung_SO_KlassifizWasserwirtschaft_1100">
+          <gml:description>Überschwemmungsgefährdetes Gebiet nach §31c des vor dem 1.10.2010 gültigen WHG</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_Wasserwirtschaft:artDerFestlegung:SO_KlassifizWasserwirtschaft:1100</gml:identifier>
+          <gml:name>Ueberschwemmgebiet</gml:name>
+          <gml:name codeSpace="lesbarerName">Überschwemmungsgebiet</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_Wasserwirtschaft_artDerFestlegung_SO_KlassifizWasserwirtschaft_1200">
+          <gml:description>Versickerungsfläche</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_Wasserwirtschaft:artDerFestlegung:SO_KlassifizWasserwirtschaft:1200</gml:identifier>
+          <gml:name>Versickerungsflaeche</gml:name>
+          <gml:name codeSpace="lesbarerName">Versickerungsfläche</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_Wasserwirtschaft_artDerFestlegung_SO_KlassifizWasserwirtschaft_1300">
+          <gml:description>Entwässerungsgraben</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_Wasserwirtschaft:artDerFestlegung:SO_KlassifizWasserwirtschaft:1300</gml:identifier>
+          <gml:name>Entwaesserungsgraben</gml:name>
+          <gml:name codeSpace="lesbarerName">Entwässerungsgraben</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_Wasserwirtschaft_artDerFestlegung_SO_KlassifizWasserwirtschaft_1400">
+          <gml:description>Deich</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_Wasserwirtschaft:artDerFestlegung:SO_KlassifizWasserwirtschaft:1400</gml:identifier>
+          <gml:name>Deich</gml:name>
+          <gml:name codeSpace="lesbarerName">Deich</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_Wasserwirtschaft_artDerFestlegung_SO_KlassifizWasserwirtschaft_1500">
+          <gml:description>Regen-Rückhaltebecken</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_Wasserwirtschaft:artDerFestlegung:SO_KlassifizWasserwirtschaft:1500</gml:identifier>
+          <gml:name>RegenRueckhaltebecken</gml:name>
+          <gml:name codeSpace="lesbarerName">Regen-Rückhaltebecken</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_Wasserwirtschaft_artDerFestlegung_SO_KlassifizWasserwirtschaft_9999">
+          <gml:description>Sonstige Wasserwirtschaftsfläche, sofern keiner der anderen Codes zutreffend ist.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_Wasserwirtschaft:artDerFestlegung:SO_KlassifizWasserwirtschaft:9999</gml:identifier>
+          <gml:name>Sonstiges</gml:name>
+          <gml:name codeSpace="lesbarerName">Sonstiges</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>SO_KlassifizWasserwirtschaft</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_SO_Wasserwirtschaft_detailArtDerFestlegung">
+      <gml:description>Über eine Codeliste definierte detailliertere rechtliche Klassifizierung der Festlegung.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_Wasserwirtschaft:attribute:detailArtDerFestlegung</gml:identifier>
+      <gml:name>xplan:detailArtDerFestlegung</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>SO_DetailKlassifizWasserwirtschaft</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <def:classification>featureType</def:classification>
+  <def:supertypeRef xlink:href="urn:xplan:element:xplan:SO_Geometrieobjekt" />
+</TypeDefinition>

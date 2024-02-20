@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/VariableValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/VariableValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/VariableValue</latestversion>
+   <label xml:lang="en">Variable</label>
+   <definition xml:lang="en">Code values for variable names.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/any">
+      <label xml:lang="en">Empty code list</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+      <label xml:lang="en">Population Distribution - Demography</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/pd">
+      <label xml:lang="en">Population distribution — demography</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/VariableValue/births">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VariableValue/births:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VariableValue/births</latestversion>
+         <label xml:lang="en">births</label>
+         <definition xml:lang="en">The number of births.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VariableValue">
+            <label xml:lang="en">Variable</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VariableValue/income">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VariableValue/income:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VariableValue/income</latestversion>
+         <label xml:lang="en">income</label>
+         <definition xml:lang="en">The income.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VariableValue">
+            <label xml:lang="en">Variable</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VariableValue/populationAtResidencePlace">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VariableValue/populationAtResidencePlace:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VariableValue/populationAtResidencePlace</latestversion>
+         <label xml:lang="en">population at residence place</label>
+         <definition xml:lang="en">The number of people measured in the place where they sleep.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VariableValue">
+            <label xml:lang="en">Variable</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VariableValue/populationAtWorkPlace">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VariableValue/populationAtWorkPlace:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VariableValue/populationAtWorkPlace</latestversion>
+         <label xml:lang="en">population at work place</label>
+         <definition xml:lang="en">The number of people measured in the place they where they work.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VariableValue">
+            <label xml:lang="en">Variable</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VariableValue/unemployedPopulation">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VariableValue/unemployedPopulation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VariableValue/unemployedPopulation</latestversion>
+         <label xml:lang="en">unemployed population</label>
+         <definition xml:lang="en">The unemployed population.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VariableValue">
+            <label xml:lang="en">Variable</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VariableValue/employedPopulation">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VariableValue/employedPopulation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VariableValue/employedPopulation</latestversion>
+         <label xml:lang="en">employed population</label>
+         <definition xml:lang="en">The employed population.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VariableValue">
+            <label xml:lang="en">Variable</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pd">
+            <label xml:lang="en">Population Distribution - Demography</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pd">
+            <label xml:lang="en">Population distribution — demography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

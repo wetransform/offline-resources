@@ -1,0 +1,217 @@
+﻿<!--Erzeugt mit KIT (www.kit.edu) UmlToXmlTransformation-Software, Erstellungsdatum: 31.10.2022 09:24:34-->
+<TypeDefinition xmlns="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ../xsd/ShapeChangeDefinitions.xsd" gml:id="xplan_XP_TextAbschnitt">
+  <gml:description>Ein Abschnitt der textlich formulierten Inhalte  des Plans.</gml:description>
+  <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:XP_TextAbschnitt</gml:identifier>
+  <gml:name>xplan:XP_TextAbschnitt</gml:name>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_XP_TextAbschnitt_schluessel">
+      <gml:description>Schlüssel zur Referenzierung des Abschnitts.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:XP_TextAbschnitt:attribute:schluessel</gml:identifier>
+      <gml:name>xplan:schluessel</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::CharacterString" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_XP_TextAbschnitt_gesetzlicheGrundlage">
+      <gml:description>Gesetzliche Grundlage des Text-Abschnittes</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:XP_TextAbschnitt:attribute:gesetzlicheGrundlage</gml:identifier>
+      <gml:name>xplan:gesetzlicheGrundlage</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::CharacterString" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_XP_TextAbschnitt_text">
+      <gml:description>Inhalt eines Abschnitts der textlichen Planinhalte</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:XP_TextAbschnitt:attribute:text</gml:identifier>
+      <gml:name>xplan:text</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::CharacterString" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_XP_TextAbschnitt_refText">
+      <gml:description>Referenz auf ein externes Dokument das den zugeh&amp;#246;rigen Textabschnitt enth&amp;#228;lt.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:XP_TextAbschnitt:attribute:refText</gml:identifier>
+      <gml:name>xplan:refText</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:XP_ExterneReferenz" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_XP_TextAbschnitt_rechtscharakter">
+      <gml:description>Rechtscharakter des textlich formulierten Planinhalts</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:XP_TextAbschnitt:attribute:rechtscharakter</gml:identifier>
+      <gml:name>xplan:rechtscharakter</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_XP_TextAbschnitt_rechtscharakter_XP_Rechtscharakter_1000">
+          <gml:description>Festsetzung in einem Bebauungsplan</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:XP_TextAbschnitt:rechtscharakter:XP_Rechtscharakter:1000</gml:identifier>
+          <gml:name>FestsetzungBPlan</gml:name>
+          <gml:name codeSpace="lesbarerName">Festsetzung BPlan</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_XP_TextAbschnitt_rechtscharakter_XP_Rechtscharakter_2000">
+          <gml:description>Nachrichtliche Übernahme aus anderen Planwerken.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:XP_TextAbschnitt:rechtscharakter:XP_Rechtscharakter:2000</gml:identifier>
+          <gml:name>NachrichtlicheUebernahme</gml:name>
+          <gml:name codeSpace="lesbarerName">Nachrichtliche Übernahme</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_XP_TextAbschnitt_rechtscharakter_XP_Rechtscharakter_3000">
+          <gml:description>Darstellung im Flächennutzungsplan</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:XP_TextAbschnitt:rechtscharakter:XP_Rechtscharakter:3000</gml:identifier>
+          <gml:name>DarstellungFPlan</gml:name>
+          <gml:name codeSpace="lesbarerName">Darstellung FPlan</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_XP_TextAbschnitt_rechtscharakter_XP_Rechtscharakter_4000">
+          <gml:description>Ziel der Raumordnung. Verbindliche räumliche und sachliche Festlegung zur Entwicklung, Ordnung und Sicherung des Raumes.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:XP_TextAbschnitt:rechtscharakter:XP_Rechtscharakter:4000</gml:identifier>
+          <gml:name>ZielDerRaumordnung</gml:name>
+          <gml:name codeSpace="lesbarerName">Ziel der Raumordnung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_XP_TextAbschnitt_rechtscharakter_XP_Rechtscharakter_4100">
+          <gml:description>Grundsätze der Raumordnung sind nach §3 Abs. Aussagen zur Entwicklung, Ordnung und Sicherung des Raums als Vorgaben für nachfolgende Abwägungs- oder Ermessensentscheidungen. Grundsätze der Raumordnung können durch Gesetz oder Festlegungen in einem Raumordnungsplan (§7 Abs. 1 und 2, ROG) aufgestellt werden.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:XP_TextAbschnitt:rechtscharakter:XP_Rechtscharakter:4100</gml:identifier>
+          <gml:name>GrundsatzDerRaumordnung</gml:name>
+          <gml:name codeSpace="lesbarerName">Grundsatz der Raumordnung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_XP_TextAbschnitt_rechtscharakter_XP_Rechtscharakter_4200">
+          <gml:description>Nachrichtliche Übernahme Ziel der Raumordnung.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:XP_TextAbschnitt:rechtscharakter:XP_Rechtscharakter:4200</gml:identifier>
+          <gml:name>NachrichtlicheUebernahmeZiel</gml:name>
+          <gml:name codeSpace="lesbarerName">Nachrichtliche Übernahme Ziel</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_XP_TextAbschnitt_rechtscharakter_XP_Rechtscharakter_4300">
+          <gml:description>Nachrichtliche Übernahme Grundsatz der Raumordnung.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:XP_TextAbschnitt:rechtscharakter:XP_Rechtscharakter:4300</gml:identifier>
+          <gml:name>NachrichtlicheUebernahmeGrundsatz</gml:name>
+          <gml:name codeSpace="lesbarerName">Nachrichtliche Übernahme Grundsatz</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_XP_TextAbschnitt_rechtscharakter_XP_Rechtscharakter_4400">
+          <gml:description>Nur Informationsgehalt im Raumordnungsplan.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:XP_TextAbschnitt:rechtscharakter:XP_Rechtscharakter:4400</gml:identifier>
+          <gml:name>NurInformationsgehaltRPlan</gml:name>
+          <gml:name codeSpace="lesbarerName">Nur Informationsgehalt RPlan</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_XP_TextAbschnitt_rechtscharakter_XP_Rechtscharakter_4500">
+          <gml:description>Textlich formuliertes Ziel der Raumordnung.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:XP_TextAbschnitt:rechtscharakter:XP_Rechtscharakter:4500</gml:identifier>
+          <gml:name>TextlichesZielRaumordnung</gml:name>
+          <gml:name codeSpace="lesbarerName">Textliches Ziel Raumordnung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_XP_TextAbschnitt_rechtscharakter_XP_Rechtscharakter_4600">
+          <gml:description>Ziel und Grundsatz der Raumordnung.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:XP_TextAbschnitt:rechtscharakter:XP_Rechtscharakter:4600</gml:identifier>
+          <gml:name>ZielUndGrundsatzRaumordnung</gml:name>
+          <gml:name codeSpace="lesbarerName">Ziel und Grundsatz Raumordnung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_XP_TextAbschnitt_rechtscharakter_XP_Rechtscharakter_4700">
+          <gml:description>Vorschlag für die Raumordnung</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:XP_TextAbschnitt:rechtscharakter:XP_Rechtscharakter:4700</gml:identifier>
+          <gml:name>VorschlagRaumordnung</gml:name>
+          <gml:name codeSpace="lesbarerName">Vorschlag Raumordnung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_XP_TextAbschnitt_rechtscharakter_XP_Rechtscharakter_5000">
+          <gml:description>Festsetzung im Landschaftsplan bzw. Grünordnungsplan, der als eigenständige Satzung beschlossen wird (z.B. in NRW und den Stadtstaaten).</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:XP_TextAbschnitt:rechtscharakter:XP_Rechtscharakter:5000</gml:identifier>
+          <gml:name>FestsetzungImLP</gml:name>
+          <gml:name codeSpace="lesbarerName">Festsetzung im LP</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_XP_TextAbschnitt_rechtscharakter_XP_Rechtscharakter_5100">
+          <gml:description>Geplante Festsetzung im Landschaftsplan bzw. Grünordnungsplan, der als eigenständige Satzung beschlossen wird (z.B. in NRW und den Stadtstaaten)</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:XP_TextAbschnitt:rechtscharakter:XP_Rechtscharakter:5100</gml:identifier>
+          <gml:name>GeplanteFestsetzungImLP</gml:name>
+          <gml:name codeSpace="lesbarerName">Geplante Festsetzung im LP</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_XP_TextAbschnitt_rechtscharakter_XP_Rechtscharakter_5200">
+          <gml:description>Darstellungen und Kennzeichnungen im Landschaftsplan</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:XP_TextAbschnitt:rechtscharakter:XP_Rechtscharakter:5200</gml:identifier>
+          <gml:name>DarstellungKennzeichnungImLP</gml:name>
+          <gml:name codeSpace="lesbarerName">Darstellung oder Kennzeichnung im LP</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_XP_TextAbschnitt_rechtscharakter_XP_Rechtscharakter_5300">
+          <gml:description>Die Inhalte der Landschaftsplanung sind in allen Planungen und Verwaltungsverfahren zu berücksichtigen, deren Entscheidungen sich auf Natur und Landschaft auswirken können. (§ 9 Abs. 5 i.V. Abs. 1 BNatSchG).</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:XP_TextAbschnitt:rechtscharakter:XP_Rechtscharakter:5300</gml:identifier>
+          <gml:name>LandschaftsplanungsInhaltZurBeruecksichtigung</gml:name>
+          <gml:name codeSpace="lesbarerName">Landschaftsplanungs-Inhalt zur Berücksichtigung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_XP_TextAbschnitt_rechtscharakter_XP_Rechtscharakter_6000">
+          <gml:description>Hinweis nach BauGB</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:XP_TextAbschnitt:rechtscharakter:XP_Rechtscharakter:6000</gml:identifier>
+          <gml:name>Hinweis</gml:name>
+          <gml:name codeSpace="lesbarerName">Hinweis</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_XP_TextAbschnitt_rechtscharakter_XP_Rechtscharakter_7000">
+          <gml:description>Kennzeichnung von Fl&amp;#228;chen nach &amp;#167;9 Absatz 5 BauGB. Kennzeichnungen sind keine rechtsverbindlichen Festsetzungen, sondern Hinweise auf Besonderheiten (insbesondere der Baugrundverh&amp;#228;ltnisse), deren Kenntnis f&amp;#252;r das Verst&amp;#228;ndnis des Bebauungsplans und seiner Festsetzungen wie auch f&amp;#252;r die Vorbereitung und Genehmigung von Vorhaben notwendig sind.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:XP_TextAbschnitt:rechtscharakter:XP_Rechtscharakter:7000</gml:identifier>
+          <gml:name>Kennzeichnung</gml:name>
+          <gml:name codeSpace="lesbarerName">Kennzeichnung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_XP_TextAbschnitt_rechtscharakter_XP_Rechtscharakter_8000">
+          <gml:description>Vermerk nach § 5 BauGB</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:XP_TextAbschnitt:rechtscharakter:XP_Rechtscharakter:8000</gml:identifier>
+          <gml:name>Vermerk</gml:name>
+          <gml:name codeSpace="lesbarerName">Vermerk</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_XP_TextAbschnitt_rechtscharakter_XP_Rechtscharakter_9998">
+          <gml:description>Unbekannter Rechtscharakter</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:XP_TextAbschnitt:rechtscharakter:XP_Rechtscharakter:9998</gml:identifier>
+          <gml:name>Unbekannt</gml:name>
+          <gml:name codeSpace="lesbarerName">Unbekannt</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_XP_TextAbschnitt_rechtscharakter_XP_Rechtscharakter_9999">
+          <gml:description>Sonstiger Rechtscharakter</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:XP_TextAbschnitt:rechtscharakter:XP_Rechtscharakter:9999</gml:identifier>
+          <gml:name>Sonstiges</gml:name>
+          <gml:name codeSpace="lesbarerName">Sonstiges</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>1</def:cardinality>
+      <def:valueTypeName>XP_Rechtscharakter</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <def:classification>featureType</def:classification>
+</TypeDefinition>

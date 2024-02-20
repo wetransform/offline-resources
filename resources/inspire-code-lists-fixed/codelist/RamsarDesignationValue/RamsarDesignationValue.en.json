@@ -1,0 +1,187 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Ramsar Designation",
+          "id" : "http://inspire.ec.europa.eu/codelist/RamsarDesignationValue"
+        },
+        "created" : "2015-08-18 17:43 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "ramsar",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ps",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ps"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Protected Sites Simple",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ps"
+        },
+        "definition" : {
+          "text" : "The Protected Site is designated under the Ramsar Convention.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ps",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ps"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/RamsarDesignationValue/ramsar",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/RamsarDesignationValue/ramsar",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/RamsarDesignationValue/ramsar:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Ramsar Designation",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "none",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Not extensible",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "ps",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/ps"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Protected Sites Simple",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/ps"
+    },
+    "definition" : {
+      "text" : "A code list for the Convention on Wetlands of International Importance (Ramsar Convention) designation scheme.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "ps",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/ps"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/RamsarDesignationValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/RamsarDesignationValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/RamsarDesignationValue:1",
+    "parents" : [ {
+      "parent" : {
+        "label" : {
+          "text" : "Designation",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/DesignationValue"
+      }
+    } ],
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

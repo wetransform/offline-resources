@@ -1,0 +1,3692 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 17:33 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "metallic minerals",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Mineral occurrences including any type of metallic mineral.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/metallicMinerals",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/metallicMinerals",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/metallicMinerals:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 17:33 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "precious metals",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Mineral occurrences including Silver; Gold; Platinoids in general.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/preciousMetals",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/preciousMetals",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/preciousMetals:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "metallic minerals",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/metallicMinerals"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 17:33 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "base metals",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Mineral occurrences including Aluminium; Copper; Lead; Lead + Zinc; Tin; Zinc",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/baseMetals",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/baseMetals",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/baseMetals:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "metallic minerals",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/metallicMinerals"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 17:33 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "iron and ferro-alloy metals",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Mineral occurrences including Cobalt; Chromium; Iron; Manganese; Molybdenum; Niobium; Nickel; Vanadium; Tungsten.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/ironFerroalloyMetals",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/ironFerroalloyMetals",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/ironFerroalloyMetals:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "metallic minerals",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/metallicMinerals"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 17:33 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "speciality and rare metals",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Mineral occurrences including Beryllium; Bismuth; Cadmium; Germanium, Gallium; Hafnium; Mercury; Indium; Lithium; Rubidium, Cesium; Rhenium; Rare Earths (undifferentiated); Antimony; Selenium; Tantalum; Tellurium; Titanium (ilmenite, rutile); Zirconium (zircon, baddeleyite).",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/specialityAndRareMetals",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/specialityAndRareMetals",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/specialityAndRareMetals:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "metallic minerals",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/metallicMinerals"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 17:33 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "non-metallic minerals",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Mineral occurrences including any type of non-metallic mineral.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMinerals",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMinerals",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMinerals:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 17:33 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "building raw material",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Mineral occurrences including Aggregate; Dimension & ornamental stones (granite, gabbro, travertine,etc.); Gypsum, anhydrite; Cement limestone; Limestone for lime; Marble.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/buildingRawMaterial",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/buildingRawMaterial",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/buildingRawMaterial:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "non-metallic minerals",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMinerals"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 17:33 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "ceramic and refractory",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Mineral occurrences including common clays (brick, tile); White-firing clays (refractory and ceramic clays); Dolomite; Feldspar, nepheline; Kaolin; Andalusite group (andalusite, kyanite, sillimanite).",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/ceramicAndRefractory",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/ceramicAndRefractory",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/ceramicAndRefractory:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/ceramicAndRefractory:1"
+        } ],
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "non-metallic minerals",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMinerals"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 17:33 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "chemical minerals",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Mineral occurrences including Borates; Barite; Fluorite; Magnesium (magnesite); Sodium sulphate; Sodium carbonate (trona); Pyrite; Sulphur; Rock salt; Strontium; Zeolites.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/chemicalMinerals",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/chemicalMinerals",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/chemicalMinerals:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "non-metallic minerals",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMinerals"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 17:33 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "energy cover minerals",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Mineral occurrences including Bituminous sandstone/limestone, oil shale; Coal; Lignite; Peat; Thorium; Uranium.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/energyCoverMinerals",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/energyCoverMinerals",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/energyCoverMinerals:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "non-metallic minerals",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMinerals"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 17:33 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "fertilizer",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Mineral occurrences including Phosphate; Potash (sylvite, carnalite).",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/fertilizer",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/fertilizer",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/fertilizer:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "non-metallic minerals",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMinerals"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 17:33 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "precious and semi-precious stones",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Mineral occurrences including Diamond (industrial and gemstone); Emerald; Ruby, Sapphire, Corundum (gemstone); Beryls, quartz, tourmalines, garnets, topaz, peridot, zircon, etc. (gemstones).",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/preciousAndSemiPreciousStones",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/preciousAndSemiPreciousStones",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/preciousAndSemiPreciousStones:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "non-metallic minerals",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMinerals"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 17:33 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "speciality and other industrialRocks and minerals",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Mineral occurrences including Abrasives: garnet, staurolite, corundum; Asbestos (antophyllite, chrysotile, crocidolite); Attapulgite, sepiolite (clay); Bentonite (clay); Limestone, calcite (filler); Diatomite (kieselguhr); Graphite; Mica; Perlite; Quartz (massive / block for ferrosilicon); Quartz, optical & piezoelectrical use; Silica sand; Talc, pyrophyllite; Vermiculite; Wollastonite.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/specialityAndOtherIndustrialMinerals",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/specialityAndOtherIndustrialMinerals",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/specialityAndOtherIndustrialMinerals:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "non-metallic minerals",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMinerals"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 17:33 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "recycled waste",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Mineral occurrences including metals or minerals coming from mining waste treatment.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/recycledWaste",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/recycledWaste",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/recycledWaste:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 18:12 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Non-metallic minerals (with more dedicated end uses)",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Non-metallic minerals (with more dedicated end uses)",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMineralsWithMoreDedicatedEndUses",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMineralsWithMoreDedicatedEndUses",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMineralsWithMoreDedicatedEndUses:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 18:12 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Chemical",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Borates; Barite; Fluorite; Magnesium (magnesite); Sodium sulphate; Sodium carbonate (trona); Pyrite; Sulphur; Rock salt; Strontium; Zeolites",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/chemical",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/chemical",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/chemical:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "non-metallic minerals",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMinerals"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 18:12 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Energy",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Bituminous sandstone/limestone, oil shale; Coal; Lignite; Peat; Thorium; Uranium",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/energy",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/energy",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/energy:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "non-metallic minerals",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMinerals"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 18:12 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Speciality and other industrialRocks and minerals",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Abrasives: garnet, staurolite, corundum; Asbestos (antophyllite, chrysotile, crocidolite); Attapulgite, sepiolite (clay); Bentonite (clay); Limestone, calcite (filler); Diatomite (kieselguhr);  Graphite; Mica; Perlite; Quartz (massive / block for ferrosilicon); Quartz, optical & piezoelectrical use; Silica sand; Talc, pyrophyllite; Vermiculite; Wollastonite",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/specialityAndOtherIndustrialRocksAndMinerals",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/specialityAndOtherIndustrialRocksAndMinerals",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/specialityAndOtherIndustrialRocksAndMinerals:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "non-metallic minerals",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMinerals"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 18:12 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "metal industry",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Metal ore directly used to produce metals and minerals used in their processing",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/metalIndustry",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/metalIndustry",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/metalIndustry:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 18:12 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "construction",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Material used in the construction industry. Includes aggregate, dimension & ornamental stones (granite, gabbro, travertine, etc.), gypsum, anhydrite, cement limestone, limestone for lime, marble, sand and gravel.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/construction",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/construction",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/construction:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 18:12 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "construction aggregates",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Any of several hard, inert materials, such as sand, gravel, slag, or crushed stone, used for mixing with a cementing or bituminous material to form concrete or asphalt or used alone, as in railroad ballast or graded fill. Excludes materials for cement making and plaster making.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/constructionAggregates",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/constructionAggregates",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/constructionAggregates:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "construction",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/construction"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 18:12 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "cement-making material",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Material directly used in the manufacture of cement or mortar.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/cementMakingMaterial",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/cementMakingMaterial",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/cementMakingMaterial:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "construction",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/construction"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 18:12 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "plaster and plaster board",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Material directly used in the manufacture of a plaster or plasterboard.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/plasterAndPlasterBoard",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/plasterAndPlasterBoard",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/plasterAndPlasterBoard:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "construction",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/construction"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 18:12 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "structural clay products",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Material used as a raw material for the manufacture of structural clay products, i.e. Bricks, pipes and tiles.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/structuralClayProducts",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/structuralClayProducts",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/structuralClayProducts:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "construction",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/construction"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 18:12 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "building and dimension stone",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Natural Stone used in a block, flag or slate form for construction or decorative purposes, or artifacts, e.g. millstones.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/buildingAndDimensionStone",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/buildingAndDimensionStone",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/buildingAndDimensionStone:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "construction",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/construction"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 18:12 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "engineering clay",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Clay or shale with particular properties, used for a civil engineering purpose other than as a fill, e.g. liner for landfill, flood defence",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/engineeringClay",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/engineeringClay",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/engineeringClay:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "construction",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/construction"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 18:12 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "industrialMinerals",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Material used in the manufacture of a product by an industrial process, or in the treatment of a product",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/industrialMinerals",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/industrialMinerals",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/industrialMinerals:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 18:12 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "industrial product treatment",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Material directly used in the treatment or enhancement of an industrial product, i.e. paper coatings.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/industrialProductTreatment",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/industrialProductTreatment",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/industrialProductTreatment:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "industrialMinerals",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/industrialMinerals"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 18:12 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "foundry minerals",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Material used as a part of the process in the manufacture of a metallic product.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/foundryMinerals",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/foundryMinerals",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/foundryMinerals:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "industrialMinerals",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/industrialMinerals"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 18:12 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "abrasive minerals",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Naturally occurring abrasives.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/abrasiveMinerals",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/abrasiveMinerals",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/abrasiveMinerals:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "industrialMinerals",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/industrialMinerals"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 18:12 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "glass manufacturing minerals",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "General use in the glass making industry, including fluxes.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/glassManufacturingMinerals",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/glassManufacturingMinerals",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/glassManufacturingMinerals:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "industrialMinerals",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/industrialMinerals"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 18:12 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "drilling minerals",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Material has potential for use in borehole drilling processes, e.g. as a mud weight or viscosity additive.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/drillingMinerals",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/drillingMinerals",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/drillingMinerals:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "industrialMinerals",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/industrialMinerals"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 18:12 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "energy minerals",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Raw materials in the energy industry. Includes oil, gas, bituminous sandstone and limestone, oil shale, coal, lignite, peat, thorium, uranium.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/energyMinerals",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/energyMinerals",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/energyMinerals:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 18:12 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "fossil fuel use",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Material has potential for energy production through burning",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/fossilFuelUse",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/fossilFuelUse",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/fossilFuelUse:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "energy minerals",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/energyMinerals"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 18:12 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "nuclear energy source",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Material has potential for energy production through use in nuclear reactor",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nuclearEnergySource",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nuclearEnergySource",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nuclearEnergySource:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "energy minerals",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/energyMinerals"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 18:12 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "mineral specimens",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Resource end use is for sale to collectors and for education",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/mineralSpecimens",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/mineralSpecimens",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/mineralSpecimens:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 18:12 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "agriculture",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Material used for agricultural or horticultural purposes as a fertiliser, soil conditioner or improver.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/agriculture",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/agriculture",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/agriculture:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 18:12 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "agricultural lime",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Direct application of chalk, limestone or dolomite for soil conditioning",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/agriculturaLime",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/agriculturaLime",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/agriculturaLime:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "agriculture",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/agriculture"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 18:12 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "horticultural",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Horticultural uses e.g. sand for top dressing, peat",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/horticultural",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/horticultural",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/horticultural:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "agriculture",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/agriculture"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Enduse Potential",
+          "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue"
+        },
+        "created" : "2015-08-18 18:12 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "landscaping",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Soil and aggregates used for landscaping",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/landscaping",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/landscaping",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/landscaping:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "agriculture",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/agriculture"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "description" : {
+      "text" : "<font color=\"#211d1e\">EXAMPLE: </font>for energy, fertilizer, building raw material etc.\\n<font color=\"#211d1e\">\\n</font>",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Enduse Potential",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "open",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Extensible with values at any level",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "mr-core",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Mineral Resources",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+    },
+    "definition" : {
+      "text" : "Values indicating the end-use potential of the mineral.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "mr",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/mr"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/EndusePotentialValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

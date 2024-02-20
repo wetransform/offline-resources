@@ -1,0 +1,389 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/InstallationPartValue">
+   <language>en</language>
+   <created>2015-08-18 17:19 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/InstallationPartValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/InstallationPartValue</latestversion>
+   <label xml:lang="en">Installation Part Value</label>
+   <definition xml:lang="en">Describes the type of the installation part, according to a code list.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/af">
+      <label xml:lang="en">Agricultural and Aquaculture Facilities Model</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/af">
+      <label xml:lang="en">Agricultural and aquaculture facilities</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+      <label xml:lang="en">Technical (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/InstallationPartValue/equipmentForRenewableEnergy">
+         <language>en</language>
+         <created>2015-08-18 17:46 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/InstallationPartValue/equipmentForRenewableEnergy:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/InstallationPartValue/equipmentForRenewableEnergy</latestversion>
+         <label xml:lang="en">equipment For Renewable Energy</label>
+         <definition xml:lang="en">Equipment to produce  renewable energy</definition>
+         <description xml:lang="en">biogas, windmill,  hydropower installation</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/InstallationPartValue">
+            <label xml:lang="en">Installation Part Value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/af">
+            <label xml:lang="en">Agricultural and Aquaculture Facilities Model</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/af">
+            <label xml:lang="en">Agricultural and aquaculture facilities</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/InstallationPartValue/heatingInstallation">
+         <language>en</language>
+         <created>2015-08-18 17:47 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/InstallationPartValue/heatingInstallation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/InstallationPartValue/heatingInstallation</latestversion>
+         <label xml:lang="en">heating Installation</label>
+         <definition xml:lang="en">Installation for heating up an building  or Construction</definition>
+         <description xml:lang="en">Installation for warming a greenhoude</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/InstallationPartValue">
+            <label xml:lang="en">Installation Part Value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/af">
+            <label xml:lang="en">Agricultural and Aquaculture Facilities Model</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/af">
+            <label xml:lang="en">Agricultural and aquaculture facilities</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/InstallationPartValue/waterPump">
+         <language>en</language>
+         <created>2015-08-18 17:47 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/InstallationPartValue/waterPump:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/InstallationPartValue/waterPump</latestversion>
+         <label xml:lang="en">water Pump</label>
+         <definition xml:lang="en">A technical device to move  water</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/InstallationPartValue">
+            <label xml:lang="en">Installation Part Value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/af">
+            <label xml:lang="en">Agricultural and Aquaculture Facilities Model</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/af">
+            <label xml:lang="en">Agricultural and aquaculture facilities</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/InstallationPartValue/watersource">
+         <language>en</language>
+         <created>2015-08-18 17:47 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/InstallationPartValue/watersource:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/InstallationPartValue/watersource</latestversion>
+         <label xml:lang="en">watersource</label>
+         <definition xml:lang="en">A natural feature or a technical device  that  delivers water</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/InstallationPartValue">
+            <label xml:lang="en">Installation Part Value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/af">
+            <label xml:lang="en">Agricultural and Aquaculture Facilities Model</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/af">
+            <label xml:lang="en">Agricultural and aquaculture facilities</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/InstallationPartValue/watersourceGroundwaterWell">
+         <language>en</language>
+         <created>2015-08-18 17:47 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/InstallationPartValue/watersourceGroundwaterWell:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/InstallationPartValue/watersourceGroundwaterWell</latestversion>
+         <label xml:lang="en">watersource Groundwater Well</label>
+         <definition xml:lang="en">A natural  or artifical  well that delivers water out of the groundwater aquifer.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/InstallationPartValue">
+            <label xml:lang="en">Installation Part Value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/af">
+            <label xml:lang="en">Agricultural and Aquaculture Facilities Model</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/af">
+            <label xml:lang="en">Agricultural and aquaculture facilities</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/InstallationPartValue/watersourceSurfaceWaterInlet">
+         <language>en</language>
+         <created>2015-08-18 17:47 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/InstallationPartValue/watersourceSurfaceWaterInlet:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/InstallationPartValue/watersourceSurfaceWaterInlet</latestversion>
+         <label xml:lang="en">watersource Surface Water Inlet</label>
+         <definition xml:lang="en">A technicval device  that delivers water out of a  surface water system  into a local watersystem</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/InstallationPartValue">
+            <label xml:lang="en">Installation Part Value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/af">
+            <label xml:lang="en">Agricultural and Aquaculture Facilities Model</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/af">
+            <label xml:lang="en">Agricultural and aquaculture facilities</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/InstallationPartValue/watersourceCommonWaterSupplyNetworkTap">
+         <language>en</language>
+         <created>2015-08-18 17:47 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/InstallationPartValue/watersourceCommonWaterSupplyNetworkTap:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/InstallationPartValue/watersourceCommonWaterSupplyNetworkTap</latestversion>
+         <label xml:lang="en">watersource Common Water Supply Network Tap</label>
+         <definition xml:lang="en">A technicval device  that delivers water out of  a water pipe system  into a local watersystem</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/InstallationPartValue">
+            <label xml:lang="en">Installation Part Value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/af">
+            <label xml:lang="en">Agricultural and Aquaculture Facilities Model</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/af">
+            <label xml:lang="en">Agricultural and aquaculture facilities</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/InstallationPartValue/pump">
+         <language>en</language>
+         <created>2015-08-18 17:47 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/InstallationPartValue/pump:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/InstallationPartValue/pump</latestversion>
+         <label xml:lang="en">pump</label>
+         <definition xml:lang="en">A technical device to to move liquids, gases or slurries</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/InstallationPartValue">
+            <label xml:lang="en">Installation Part Value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/af">
+            <label xml:lang="en">Agricultural and Aquaculture Facilities Model</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/af">
+            <label xml:lang="en">Agricultural and aquaculture facilities</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/InstallationPartValue/animalTreatmentUnit">
+         <language>en</language>
+         <created>2015-08-18 17:47 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/InstallationPartValue/animalTreatmentUnit:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/InstallationPartValue/animalTreatmentUnit</latestversion>
+         <label xml:lang="en">animal Treatment Unit</label>
+         <definition xml:lang="en">A technical device or system of devices  in which animals  can be collected  and be treated</definition>
+         <description xml:lang="en">A cattle dip,  a clow  or hoof treatmentbox</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/InstallationPartValue">
+            <label xml:lang="en">Installation Part Value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/af">
+            <label xml:lang="en">Agricultural and Aquaculture Facilities Model</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/af">
+            <label xml:lang="en">Agricultural and aquaculture facilities</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/InstallationPartValue/packingAndProcessingUnit">
+         <language>en</language>
+         <created>2015-08-18 17:47 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/InstallationPartValue/packingAndProcessingUnit:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/InstallationPartValue/packingAndProcessingUnit</latestversion>
+         <label xml:lang="en">packing And Processing Unit</label>
+         <definition xml:lang="en">An installation  for packing and processing  products</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/InstallationPartValue">
+            <label xml:lang="en">Installation Part Value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/af">
+            <label xml:lang="en">Agricultural and Aquaculture Facilities Model</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/af">
+            <label xml:lang="en">Agricultural and aquaculture facilities</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/InstallationPartValue/others">
+         <language>en</language>
+         <created>2015-08-18 17:47 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/InstallationPartValue/others:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/InstallationPartValue/others</latestversion>
+         <label xml:lang="en">others</label>
+         <definition xml:lang="en">Any other value not equal to one of the above listed values</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/InstallationPartValue">
+            <label xml:lang="en">Installation Part Value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/af">
+            <label xml:lang="en">Agricultural and Aquaculture Facilities Model</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/af">
+            <label xml:lang="en">Agricultural and aquaculture facilities</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

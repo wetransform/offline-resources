@@ -1,0 +1,71 @@
+﻿<!--Erzeugt mit KIT (www.kit.edu) UmlToXmlTransformation-Software, Erstellungsdatum: 31.10.2022 09:25:52-->
+<TypeDefinition xmlns="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ../xsd/ShapeChangeDefinitions.xsd" gml:id="xplan_LP_LuftKomplex">
+  <gml:description>Komplexes Attribut mit Angaben in Bezug auf Planungsgegenstand Luft, an die sich das Ziel, das Erfordernis oder die Ma&amp;#223;nahme richtet..
+
+</gml:description>
+  <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_LuftKomplex</gml:identifier>
+  <gml:name>xplan:LP_LuftKomplex</gml:name>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_LuftKomplex_luftArt">
+      <gml:description>Art des Planungsgegenstand f&amp;#252;r Luft, an die sich das Ziel, das Erfordernis oder die Ma&amp;#223;nahme richtet.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_LuftKomplex:attribute:luftArt</gml:identifier>
+      <gml:name>xplan:luftArt</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_LuftKomplex_luftArt_LP_LuftArt_1000">
+          <gml:description>Geruchsbelastung</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_LuftKomplex:luftArt:LP_LuftArt:1000</gml:identifier>
+          <gml:name>Geruchsbelastung</gml:name>
+          <gml:name codeSpace="lesbarerName">Geruchsbelastung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_LuftKomplex_luftArt_LP_LuftArt_2000">
+          <gml:description>L&amp;#228;rmbelastung</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_LuftKomplex:luftArt:LP_LuftArt:2000</gml:identifier>
+          <gml:name>Laermbelastung</gml:name>
+          <gml:name codeSpace="lesbarerName">Lärmbelastung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_LuftKomplex_luftArt_LP_LuftArt_3000">
+          <gml:description>lufthygienische Funktion / Stoffliche Belastung</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_LuftKomplex:luftArt:LP_LuftArt:3000</gml:identifier>
+          <gml:name>lufthygienischeFktStofflBelastung</gml:name>
+          <gml:name codeSpace="lesbarerName">Lufthygienische Fkt., Stoffl. Belastung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_LuftKomplex_luftArt_LP_LuftArt_4000">
+          <gml:description>Staubbelastung</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_LuftKomplex:luftArt:LP_LuftArt:4000</gml:identifier>
+          <gml:name>Staubbelastung</gml:name>
+          <gml:name codeSpace="lesbarerName">Staubbelastung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_LuftKomplex_luftArt_LP_LuftArt_9999">
+          <gml:description>Sonstiger Planungsgegenstand Schutzgut Luft (siehe luftText)
+</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_LuftKomplex:luftArt:LP_LuftArt:9999</gml:identifier>
+          <gml:name>Sonstiges</gml:name>
+          <gml:name codeSpace="lesbarerName">Sonstiges</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>1</def:cardinality>
+      <def:valueTypeName>LP_LuftArt</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_LuftKomplex_luftText">
+      <gml:description>Erl&amp;#228;uterung zu Sonstiger Planungsgegenstand Schutzgut Luft oder erg&amp;#228;nzende Information zu anderem ausgew&amp;#228;hltem Planungsgegenstand Luft.
+</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_LuftKomplex:attribute:luftText</gml:identifier>
+      <gml:name>xplan:luftText</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::CharacterString" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <def:classification>featureType</def:classification>
+</TypeDefinition>

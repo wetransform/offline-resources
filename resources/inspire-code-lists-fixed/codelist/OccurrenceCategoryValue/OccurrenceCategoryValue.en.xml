@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/OccurrenceCategoryValue">
+   <language>en</language>
+   <created>2015-08-18 17:19 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/OccurrenceCategoryValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/OccurrenceCategoryValue</latestversion>
+   <label xml:lang="en">Occurrence Category</label>
+   <definition xml:lang="en">The species population density in the SpeciesDistributionUnit.</definition>
+   <description xml:lang="en">A species population density in classes (common, rare, very rare or present) in an individual SpeciesDistributionUnit.</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sd">
+      <label xml:lang="en">Species Distribution</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/sd">
+      <label xml:lang="en">Species distribution</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/OccurrenceCategoryValue/common">
+         <language>en</language>
+         <created>2015-08-18 17:37 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/OccurrenceCategoryValue/common:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/OccurrenceCategoryValue/common</latestversion>
+         <label xml:lang="en">Common</label>
+         <definition xml:lang="en">The species is regarded as common in the SpeciesDistributionUnit by the data provider.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/OccurrenceCategoryValue">
+            <label xml:lang="en">Occurrence Category</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sd">
+            <label xml:lang="en">Species Distribution</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sd">
+            <label xml:lang="en">Species distribution</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/OccurrenceCategoryValue/rare">
+         <language>en</language>
+         <created>2015-08-18 17:37 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/OccurrenceCategoryValue/rare:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/OccurrenceCategoryValue/rare</latestversion>
+         <label xml:lang="en">Rare</label>
+         <definition xml:lang="en">The species is regarded as rare in the SpeciesDistributionUnit by the data provider.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/OccurrenceCategoryValue">
+            <label xml:lang="en">Occurrence Category</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sd">
+            <label xml:lang="en">Species Distribution</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sd">
+            <label xml:lang="en">Species distribution</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/OccurrenceCategoryValue/veryRare">
+         <language>en</language>
+         <created>2015-08-18 17:37 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/OccurrenceCategoryValue/veryRare:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/OccurrenceCategoryValue/veryRare</latestversion>
+         <label xml:lang="en">Very rare</label>
+         <definition xml:lang="en">The species is regarded as very rare in the SpeciesDistributionUnit by the data provider.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/OccurrenceCategoryValue">
+            <label xml:lang="en">Occurrence Category</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sd">
+            <label xml:lang="en">Species Distribution</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sd">
+            <label xml:lang="en">Species distribution</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/OccurrenceCategoryValue/present">
+         <language>en</language>
+         <created>2015-08-18 17:37 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/OccurrenceCategoryValue/present:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/OccurrenceCategoryValue/present</latestversion>
+         <label xml:lang="en">Present</label>
+         <definition xml:lang="en">The species is present in the SpeciesDistributionUnit.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/OccurrenceCategoryValue">
+            <label xml:lang="en">Occurrence Category</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sd">
+            <label xml:lang="en">Species Distribution</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sd">
+            <label xml:lang="en">Species distribution</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/OccurrenceCategoryValue/absent">
+         <language>en</language>
+         <created>2015-08-18 17:37 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/OccurrenceCategoryValue/absent:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/OccurrenceCategoryValue/absent</latestversion>
+         <label xml:lang="en">Absent</label>
+         <definition xml:lang="en">The species has been searched for but not found in the SpeciesDistributionUnit.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/OccurrenceCategoryValue">
+            <label xml:lang="en">Occurrence Category</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sd">
+            <label xml:lang="en">Species Distribution</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sd">
+            <label xml:lang="en">Species distribution</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

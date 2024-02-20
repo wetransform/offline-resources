@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/ShoreTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/ShoreTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/ShoreTypeValue</latestversion>
+   <label xml:lang="en">Shore Type</label>
+   <definition xml:lang="en">Categories of shore area composition.</definition>
+   <description xml:lang="en">SOURCE [Codelist items based on DFDD].</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hy-p">
+      <label xml:lang="en">Hydro - Physical Waters</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/hy">
+      <label xml:lang="en">Hydrography</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/ShoreTypeValue/boulders">
+         <language>en</language>
+         <created>2015-08-18 17:41 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ShoreTypeValue/boulders:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ShoreTypeValue/boulders</latestversion>
+         <label xml:lang="en">boulders</label>
+         <definition xml:lang="en">Large water- or weather-worn stones.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ShoreTypeValue">
+            <label xml:lang="en">Shore Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hy-p">
+            <label xml:lang="en">Hydro - Physical Waters</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hy">
+            <label xml:lang="en">Hydrography</label>
+         </theme>
+         <referencelink id="http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf">
+            <label xml:lang="en">http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">DGIWG Feature Data Dictionary (DFDD) Version 2007-1</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ShoreTypeValue/clay">
+         <language>en</language>
+         <created>2015-08-18 17:41 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ShoreTypeValue/clay:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ShoreTypeValue/clay</latestversion>
+         <label xml:lang="en">clay</label>
+         <definition xml:lang="en">A stiff tenacious fine-grained earth consisting mainly of hydrated aluminosilicates, which become more plastic when water is added and can be moulded and dried.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ShoreTypeValue">
+            <label xml:lang="en">Shore Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hy-p">
+            <label xml:lang="en">Hydro - Physical Waters</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hy">
+            <label xml:lang="en">Hydrography</label>
+         </theme>
+         <referencelink id="http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf">
+            <label xml:lang="en">http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">DGIWG Feature Data Dictionary (DFDD) Version 2007-1</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ShoreTypeValue/gravel">
+         <language>en</language>
+         <created>2015-08-18 17:41 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ShoreTypeValue/gravel:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ShoreTypeValue/gravel</latestversion>
+         <label xml:lang="en">gravel</label>
+         <definition xml:lang="en">Small water-worn or pounded stones.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ShoreTypeValue">
+            <label xml:lang="en">Shore Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hy-p">
+            <label xml:lang="en">Hydro - Physical Waters</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hy">
+            <label xml:lang="en">Hydrography</label>
+         </theme>
+         <referencelink id="http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf">
+            <label xml:lang="en">http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">DGIWG Feature Data Dictionary (DFDD) Version 2007-1</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ShoreTypeValue/mud">
+         <language>en</language>
+         <created>2015-08-18 17:41 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ShoreTypeValue/mud:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ShoreTypeValue/mud</latestversion>
+         <label xml:lang="en">mud</label>
+         <definition xml:lang="en">Soft wet soil, sand, dust, and/or other earthy matter.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ShoreTypeValue">
+            <label xml:lang="en">Shore Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hy-p">
+            <label xml:lang="en">Hydro - Physical Waters</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hy">
+            <label xml:lang="en">Hydrography</label>
+         </theme>
+         <referencelink id="http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf">
+            <label xml:lang="en">http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">DGIWG Feature Data Dictionary (DFDD) Version 2007-1</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ShoreTypeValue/rock">
+         <language>en</language>
+         <created>2015-08-18 17:41 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ShoreTypeValue/rock:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ShoreTypeValue/rock</latestversion>
+         <label xml:lang="en">rock</label>
+         <definition xml:lang="en">Stones of any size.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ShoreTypeValue">
+            <label xml:lang="en">Shore Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hy-p">
+            <label xml:lang="en">Hydro - Physical Waters</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hy">
+            <label xml:lang="en">Hydrography</label>
+         </theme>
+         <referencelink id="http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf">
+            <label xml:lang="en">http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">DGIWG Feature Data Dictionary (DFDD) Version 2007-1</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ShoreTypeValue/sand">
+         <language>en</language>
+         <created>2015-08-18 17:41 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ShoreTypeValue/sand:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ShoreTypeValue/sand</latestversion>
+         <label xml:lang="en">sand</label>
+         <definition xml:lang="en">Granular material consisting of small eroded fragments of (mainly siliceous) rocks, finer than gravel and larger than a coarse silt grain.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ShoreTypeValue">
+            <label xml:lang="en">Shore Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hy-p">
+            <label xml:lang="en">Hydro - Physical Waters</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hy">
+            <label xml:lang="en">Hydrography</label>
+         </theme>
+         <referencelink id="http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf">
+            <label xml:lang="en">http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">DGIWG Feature Data Dictionary (DFDD) Version 2007-1</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ShoreTypeValue/shingle">
+         <language>en</language>
+         <created>2015-08-18 17:41 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ShoreTypeValue/shingle:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ShoreTypeValue/shingle</latestversion>
+         <label xml:lang="en">shingle</label>
+         <definition xml:lang="en">Small, loose, rounded water-worn pebbles, especially as accumulated on a seashore.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ShoreTypeValue">
+            <label xml:lang="en">Shore Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hy-p">
+            <label xml:lang="en">Hydro - Physical Waters</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hy">
+            <label xml:lang="en">Hydrography</label>
+         </theme>
+         <referencelink id="http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf">
+            <label xml:lang="en">http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">DGIWG Feature Data Dictionary (DFDD) Version 2007-1</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ShoreTypeValue/stone">
+         <language>en</language>
+         <created>2015-08-18 17:41 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ShoreTypeValue/stone:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ShoreTypeValue/stone</latestversion>
+         <label xml:lang="en">stone</label>
+         <definition xml:lang="en">Pieces of rock or mineral substance (other than metal) of definite form and size, usually artificially shaped, and used for some special purpose.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ShoreTypeValue">
+            <label xml:lang="en">Shore Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hy-p">
+            <label xml:lang="en">Hydro - Physical Waters</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hy">
+            <label xml:lang="en">Hydrography</label>
+         </theme>
+         <referencelink id="http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf">
+            <label xml:lang="en">http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">DGIWG Feature Data Dictionary (DFDD) Version 2007-1</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

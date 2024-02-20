@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/RegionClassificationValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/RegionClassificationValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/RegionClassificationValue</latestversion>
+   <label xml:lang="en">Region Classification</label>
+   <definition xml:lang="en">Codes used to define the various bio-geographical regions.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/br">
+      <label xml:lang="en">Bio-geographical Regions</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/br">
+      <label xml:lang="en">Bio-geographical regions</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <codelist id="http://inspire.ec.europa.eu/codelist/EnvironmentalStratificationClassificationValue">
+         <language>en</language>
+         <created>2015-08-18 17:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EnvironmentalStratificationClassificationValue:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EnvironmentalStratificationClassificationValue</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/EnvironmentalStratificationClassificationValue:1</version>
+         </previousversions>
+         <label xml:lang="en">Environmental Stratification Classification</label>
+         <definition xml:lang="en">Codes for climatic stratification of the Environment of Europe.</definition>
+         <description xml:lang="en">Based on environmental variables (climate, geomorphology, oceanicity and northing) using a Principal component analysis and ISODATA clustering routine. The Environmental Stratification of Europe (EnS) consists of 84 Strata, which have been aggregated to 13 Environmental Zones with a spatial resolution of 1 km^2.\n\nNOTE This stratification is after Metzger et al. 2005.</description>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/RegionClassificationValue">
+               <label xml:lang="en">Region Classification</label>
+            </parent>
+         </parents>
+         <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+            <label xml:lang="en">Extensible with values at any level</label>
+         </extensibility>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/br">
+            <label xml:lang="en">Bio-geographical Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/br">
+            <label xml:lang="en">Bio-geographical regions</label>
+         </theme>
+         <document id="http://inspire.ec.europa.eu/document/EEZS">
+            <label xml:lang="en">Descriptions of the European, Environmental Zones and Strata, Wageningen, 2012.</label>
+         </document>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeList">
+            <label xml:lang="en">CodeList</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </codelist>
+      <codelist id="http://inspire.ec.europa.eu/codelist/NaturalVegetationClassificationValue">
+         <language>en</language>
+         <created>2015-08-18 17:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalVegetationClassificationValue:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalVegetationClassificationValue</latestversion>
+         <label xml:lang="en">Natural Vegetation Classification</label>
+         <definition xml:lang="en">Codes for the natural vegetation classification, as specified in the main formations in Bohn, U., Gollub, G., and Hettwer, C., Map of the natural vegetation of Europe: scale 1:2,500,000, Part 2: Legend, Bundesamt für Naturschutz (German Federal Agency for Nature conservation), Bonn, 2000.</definition>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/RegionClassificationValue">
+               <label xml:lang="en">Region Classification</label>
+            </parent>
+         </parents>
+         <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+            <label xml:lang="en">Extensible with values at any level</label>
+         </extensibility>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/br">
+            <label xml:lang="en">Bio-geographical Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/br">
+            <label xml:lang="en">Bio-geographical regions</label>
+         </theme>
+         <document id="http://inspire.ec.europa.eu/document/FLORAEU">
+            <label xml:lang="en">Map of the natural vegetation of Europe: scale 1:2,500,000, Part 2: Legend, Bundesamt für Naturschutz (German Federal Agency for Nature conservation), Bonn, 2000.</label>
+         </document>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeList">
+            <label xml:lang="en">CodeList</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </codelist>
+      <codelist id="http://inspire.ec.europa.eu/codelist/MarineStrategyFrameworkDirectiveClassificationValue">
+         <language>en</language>
+         <created>2015-08-18 17:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MarineStrategyFrameworkDirectiveClassificationValue:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MarineStrategyFrameworkDirectiveClassificationValue</latestversion>
+         <label xml:lang="en">Marine Strategy Framework Directive Classification</label>
+         <definition xml:lang="en">Codes for the Marine Stategy Framework Directive classification, as listed in Article 4 of Directive 2008/56/EC.</definition>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/RegionClassificationValue">
+               <label xml:lang="en">Region Classification</label>
+            </parent>
+         </parents>
+         <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+            <label xml:lang="en">Extensible with values at any level</label>
+         </extensibility>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/br">
+            <label xml:lang="en">Bio-geographical Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/br">
+            <label xml:lang="en">Bio-geographical regions</label>
+         </theme>
+         <document id="http://inspire.ec.europa.eu/document/EC562008">
+            <label xml:lang="en">DIRECTIVE 2008/56/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 17 June 2008</label>
+         </document>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeList">
+            <label xml:lang="en">CodeList</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </codelist>
+      <codelist id="http://inspire.ec.europa.eu/codelist/Natura2000AndEmeraldBio-geographicalRegionClassificationValue">
+         <language>en</language>
+         <created>2015-08-18 17:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/Natura2000AndEmeraldBio-geographicalRegionClassificationValue:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/Natura2000AndEmeraldBio-geographicalRegionClassificationValue</latestversion>
+         <label xml:lang="en">Natura 2000 And Emerald Bio-geographical Region Classification</label>
+         <definition xml:lang="en">Codes for the classification of bio-geographical regions, as specified in the Code List for Bio-geographical Regions, Europe 2011, published on the web site of the European Environment Agency.</definition>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/RegionClassificationValue">
+               <label xml:lang="en">Region Classification</label>
+            </parent>
+         </parents>
+         <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+            <label xml:lang="en">Extensible with values at any level</label>
+         </extensibility>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/br">
+            <label xml:lang="en">Bio-geographical Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/br">
+            <label xml:lang="en">Bio-geographical regions</label>
+         </theme>
+         <document id="http://inspire.ec.europa.eu/document/BGR">
+            <label xml:lang="en">Codes for the classification of bio-geographical regions, as specified in the Code List for Bio-geographical Regions, Europe 2011, published on the web site of the European Environment Agency.</label>
+         </document>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeList">
+            <label xml:lang="en">CodeList</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </codelist>
+   </containeditems></codelist>

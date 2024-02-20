@@ -1,0 +1,1468 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue</latestversion>
+   <label xml:lang="en">Enduse Potential</label>
+   <definition xml:lang="en">Values indicating the end-use potential of the mineral.</definition>
+   <description xml:lang="en">&lt;font color="#211d1e">EXAMPLE: &lt;/font>for energy, fertilizer, building raw material etc.\n&lt;font color="#211d1e">\n&lt;/font></description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+      <label xml:lang="en">Mineral Resources</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/mr">
+      <label xml:lang="en">Mineral resources</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/metallicMinerals">
+         <language>en</language>
+         <created>2015-08-18 17:33 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/metallicMinerals:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/metallicMinerals</latestversion>
+         <label xml:lang="en">metallic minerals</label>
+         <definition xml:lang="en">Mineral occurrences including any type of metallic mineral.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/preciousMetals">
+         <language>en</language>
+         <created>2015-08-18 17:33 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/preciousMetals:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/preciousMetals</latestversion>
+         <label xml:lang="en">precious metals</label>
+         <definition xml:lang="en">Mineral occurrences including Silver; Gold; Platinoids in general.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/metallicMinerals">
+               <label xml:lang="en">metallic minerals</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/baseMetals">
+         <language>en</language>
+         <created>2015-08-18 17:33 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/baseMetals:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/baseMetals</latestversion>
+         <label xml:lang="en">base metals</label>
+         <definition xml:lang="en">Mineral occurrences including Aluminium; Copper; Lead; Lead + Zinc; Tin; Zinc</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/metallicMinerals">
+               <label xml:lang="en">metallic minerals</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/ironFerroalloyMetals">
+         <language>en</language>
+         <created>2015-08-18 17:33 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/ironFerroalloyMetals:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/ironFerroalloyMetals</latestversion>
+         <label xml:lang="en">iron and ferro-alloy metals</label>
+         <definition xml:lang="en">Mineral occurrences including Cobalt; Chromium; Iron; Manganese; Molybdenum; Niobium; Nickel; Vanadium; Tungsten.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/metallicMinerals">
+               <label xml:lang="en">metallic minerals</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/specialityAndRareMetals">
+         <language>en</language>
+         <created>2015-08-18 17:33 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/specialityAndRareMetals:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/specialityAndRareMetals</latestversion>
+         <label xml:lang="en">speciality and rare metals</label>
+         <definition xml:lang="en">Mineral occurrences including Beryllium; Bismuth; Cadmium; Germanium, Gallium; Hafnium; Mercury; Indium; Lithium; Rubidium, Cesium; Rhenium; Rare Earths (undifferentiated); Antimony; Selenium; Tantalum; Tellurium; Titanium (ilmenite, rutile); Zirconium (zircon, baddeleyite).</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/metallicMinerals">
+               <label xml:lang="en">metallic minerals</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMinerals">
+         <language>en</language>
+         <created>2015-08-18 17:33 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMinerals:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMinerals</latestversion>
+         <label xml:lang="en">non-metallic minerals</label>
+         <definition xml:lang="en">Mineral occurrences including any type of non-metallic mineral.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/buildingRawMaterial">
+         <language>en</language>
+         <created>2015-08-18 17:33 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/buildingRawMaterial:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/buildingRawMaterial</latestversion>
+         <label xml:lang="en">building raw material</label>
+         <definition xml:lang="en">Mineral occurrences including Aggregate; Dimension &amp; ornamental stones (granite, gabbro, travertine,etc.); Gypsum, anhydrite; Cement limestone; Limestone for lime; Marble.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMinerals">
+               <label xml:lang="en">non-metallic minerals</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/ceramicAndRefractory">
+         <language>en</language>
+         <created>2015-08-18 17:33 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/ceramicAndRefractory:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/ceramicAndRefractory</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/ceramicAndRefractory:1</version>
+         </previousversions>
+         <label xml:lang="en">ceramic and refractory</label>
+         <definition xml:lang="en">Mineral occurrences including common clays (brick, tile); White-firing clays (refractory and ceramic clays); Dolomite; Feldspar, nepheline; Kaolin; Andalusite group (andalusite, kyanite, sillimanite).</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMinerals">
+               <label xml:lang="en">non-metallic minerals</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/chemicalMinerals">
+         <language>en</language>
+         <created>2015-08-18 17:33 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/chemicalMinerals:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/chemicalMinerals</latestversion>
+         <label xml:lang="en">chemical minerals</label>
+         <definition xml:lang="en">Mineral occurrences including Borates; Barite; Fluorite; Magnesium (magnesite); Sodium sulphate; Sodium carbonate (trona); Pyrite; Sulphur; Rock salt; Strontium; Zeolites.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMinerals">
+               <label xml:lang="en">non-metallic minerals</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/energyCoverMinerals">
+         <language>en</language>
+         <created>2015-08-18 17:33 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/energyCoverMinerals:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/energyCoverMinerals</latestversion>
+         <label xml:lang="en">energy cover minerals</label>
+         <definition xml:lang="en">Mineral occurrences including Bituminous sandstone/limestone, oil shale; Coal; Lignite; Peat; Thorium; Uranium.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMinerals">
+               <label xml:lang="en">non-metallic minerals</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/fertilizer">
+         <language>en</language>
+         <created>2015-08-18 17:33 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/fertilizer:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/fertilizer</latestversion>
+         <label xml:lang="en">fertilizer</label>
+         <definition xml:lang="en">Mineral occurrences including Phosphate; Potash (sylvite, carnalite).</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMinerals">
+               <label xml:lang="en">non-metallic minerals</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/preciousAndSemiPreciousStones">
+         <language>en</language>
+         <created>2015-08-18 17:33 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/preciousAndSemiPreciousStones:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/preciousAndSemiPreciousStones</latestversion>
+         <label xml:lang="en">precious and semi-precious stones</label>
+         <definition xml:lang="en">Mineral occurrences including Diamond (industrial and gemstone); Emerald; Ruby, Sapphire, Corundum (gemstone); Beryls, quartz, tourmalines, garnets, topaz, peridot, zircon, etc. (gemstones).</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMinerals">
+               <label xml:lang="en">non-metallic minerals</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/specialityAndOtherIndustrialMinerals">
+         <language>en</language>
+         <created>2015-08-18 17:33 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/specialityAndOtherIndustrialMinerals:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/specialityAndOtherIndustrialMinerals</latestversion>
+         <label xml:lang="en">speciality and other industrialRocks and minerals</label>
+         <definition xml:lang="en">Mineral occurrences including Abrasives: garnet, staurolite, corundum; Asbestos (antophyllite, chrysotile, crocidolite); Attapulgite, sepiolite (clay); Bentonite (clay); Limestone, calcite (filler); Diatomite (kieselguhr); Graphite; Mica; Perlite; Quartz (massive / block for ferrosilicon); Quartz, optical &amp; piezoelectrical use; Silica sand; Talc, pyrophyllite; Vermiculite; Wollastonite.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMinerals">
+               <label xml:lang="en">non-metallic minerals</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/recycledWaste">
+         <language>en</language>
+         <created>2015-08-18 17:33 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/recycledWaste:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/recycledWaste</latestversion>
+         <label xml:lang="en">recycled waste</label>
+         <definition xml:lang="en">Mineral occurrences including metals or minerals coming from mining waste treatment.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMineralsWithMoreDedicatedEndUses">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMineralsWithMoreDedicatedEndUses:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMineralsWithMoreDedicatedEndUses</latestversion>
+         <label xml:lang="en">Non-metallic minerals (with more dedicated end uses)</label>
+         <definition xml:lang="en">Non-metallic minerals (with more dedicated end uses)</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/chemical">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/chemical:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/chemical</latestversion>
+         <label xml:lang="en">Chemical</label>
+         <definition xml:lang="en">Borates; Barite; Fluorite; Magnesium (magnesite); Sodium sulphate; Sodium carbonate (trona); Pyrite; Sulphur; Rock salt; Strontium; Zeolites</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMinerals">
+               <label xml:lang="en">non-metallic minerals</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/energy">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/energy:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/energy</latestversion>
+         <label xml:lang="en">Energy</label>
+         <definition xml:lang="en">Bituminous sandstone/limestone, oil shale; Coal; Lignite; Peat; Thorium; Uranium</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMinerals">
+               <label xml:lang="en">non-metallic minerals</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/specialityAndOtherIndustrialRocksAndMinerals">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/specialityAndOtherIndustrialRocksAndMinerals:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/specialityAndOtherIndustrialRocksAndMinerals</latestversion>
+         <label xml:lang="en">Speciality and other industrialRocks and minerals</label>
+         <definition xml:lang="en">Abrasives: garnet, staurolite, corundum; Asbestos (antophyllite, chrysotile, crocidolite); Attapulgite, sepiolite (clay); Bentonite (clay); Limestone, calcite (filler); Diatomite (kieselguhr);  Graphite; Mica; Perlite; Quartz (massive / block for ferrosilicon); Quartz, optical &amp; piezoelectrical use; Silica sand; Talc, pyrophyllite; Vermiculite; Wollastonite</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nonMetallicMinerals">
+               <label xml:lang="en">non-metallic minerals</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/metalIndustry">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/metalIndustry:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/metalIndustry</latestversion>
+         <label xml:lang="en">metal industry</label>
+         <definition xml:lang="en">Metal ore directly used to produce metals and minerals used in their processing</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/construction">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/construction:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/construction</latestversion>
+         <label xml:lang="en">construction</label>
+         <definition xml:lang="en">Material used in the construction industry. Includes aggregate, dimension &amp; ornamental stones (granite, gabbro, travertine, etc.), gypsum, anhydrite, cement limestone, limestone for lime, marble, sand and gravel.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/constructionAggregates">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/constructionAggregates:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/constructionAggregates</latestversion>
+         <label xml:lang="en">construction aggregates</label>
+         <definition xml:lang="en">Any of several hard, inert materials, such as sand, gravel, slag, or crushed stone, used for mixing with a cementing or bituminous material to form concrete or asphalt or used alone, as in railroad ballast or graded fill. Excludes materials for cement making and plaster making.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/construction">
+               <label xml:lang="en">construction</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/cementMakingMaterial">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/cementMakingMaterial:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/cementMakingMaterial</latestversion>
+         <label xml:lang="en">cement-making material</label>
+         <definition xml:lang="en">Material directly used in the manufacture of cement or mortar.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/construction">
+               <label xml:lang="en">construction</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/plasterAndPlasterBoard">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/plasterAndPlasterBoard:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/plasterAndPlasterBoard</latestversion>
+         <label xml:lang="en">plaster and plaster board</label>
+         <definition xml:lang="en">Material directly used in the manufacture of a plaster or plasterboard.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/construction">
+               <label xml:lang="en">construction</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/structuralClayProducts">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/structuralClayProducts:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/structuralClayProducts</latestversion>
+         <label xml:lang="en">structural clay products</label>
+         <definition xml:lang="en">Material used as a raw material for the manufacture of structural clay products, i.e. Bricks, pipes and tiles.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/construction">
+               <label xml:lang="en">construction</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/buildingAndDimensionStone">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/buildingAndDimensionStone:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/buildingAndDimensionStone</latestversion>
+         <label xml:lang="en">building and dimension stone</label>
+         <definition xml:lang="en">Natural Stone used in a block, flag or slate form for construction or decorative purposes, or artifacts, e.g. millstones.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/construction">
+               <label xml:lang="en">construction</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/engineeringClay">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/engineeringClay:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/engineeringClay</latestversion>
+         <label xml:lang="en">engineering clay</label>
+         <definition xml:lang="en">Clay or shale with particular properties, used for a civil engineering purpose other than as a fill, e.g. liner for landfill, flood defence</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/construction">
+               <label xml:lang="en">construction</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/industrialMinerals">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/industrialMinerals:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/industrialMinerals</latestversion>
+         <label xml:lang="en">industrialMinerals</label>
+         <definition xml:lang="en">Material used in the manufacture of a product by an industrial process, or in the treatment of a product</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/industrialProductTreatment">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/industrialProductTreatment:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/industrialProductTreatment</latestversion>
+         <label xml:lang="en">industrial product treatment</label>
+         <definition xml:lang="en">Material directly used in the treatment or enhancement of an industrial product, i.e. paper coatings.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/industrialMinerals">
+               <label xml:lang="en">industrialMinerals</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/foundryMinerals">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/foundryMinerals:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/foundryMinerals</latestversion>
+         <label xml:lang="en">foundry minerals</label>
+         <definition xml:lang="en">Material used as a part of the process in the manufacture of a metallic product.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/industrialMinerals">
+               <label xml:lang="en">industrialMinerals</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/abrasiveMinerals">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/abrasiveMinerals:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/abrasiveMinerals</latestversion>
+         <label xml:lang="en">abrasive minerals</label>
+         <definition xml:lang="en">Naturally occurring abrasives.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/industrialMinerals">
+               <label xml:lang="en">industrialMinerals</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/glassManufacturingMinerals">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/glassManufacturingMinerals:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/glassManufacturingMinerals</latestversion>
+         <label xml:lang="en">glass manufacturing minerals</label>
+         <definition xml:lang="en">General use in the glass making industry, including fluxes.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/industrialMinerals">
+               <label xml:lang="en">industrialMinerals</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/drillingMinerals">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/drillingMinerals:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/drillingMinerals</latestversion>
+         <label xml:lang="en">drilling minerals</label>
+         <definition xml:lang="en">Material has potential for use in borehole drilling processes, e.g. as a mud weight or viscosity additive.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/industrialMinerals">
+               <label xml:lang="en">industrialMinerals</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/energyMinerals">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/energyMinerals:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/energyMinerals</latestversion>
+         <label xml:lang="en">energy minerals</label>
+         <definition xml:lang="en">Raw materials in the energy industry. Includes oil, gas, bituminous sandstone and limestone, oil shale, coal, lignite, peat, thorium, uranium.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/fossilFuelUse">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/fossilFuelUse:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/fossilFuelUse</latestversion>
+         <label xml:lang="en">fossil fuel use</label>
+         <definition xml:lang="en">Material has potential for energy production through burning</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/energyMinerals">
+               <label xml:lang="en">energy minerals</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nuclearEnergySource">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nuclearEnergySource:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/nuclearEnergySource</latestversion>
+         <label xml:lang="en">nuclear energy source</label>
+         <definition xml:lang="en">Material has potential for energy production through use in nuclear reactor</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/energyMinerals">
+               <label xml:lang="en">energy minerals</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/mineralSpecimens">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/mineralSpecimens:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/mineralSpecimens</latestversion>
+         <label xml:lang="en">mineral specimens</label>
+         <definition xml:lang="en">Resource end use is for sale to collectors and for education</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/agriculture">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/agriculture:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/agriculture</latestversion>
+         <label xml:lang="en">agriculture</label>
+         <definition xml:lang="en">Material used for agricultural or horticultural purposes as a fertiliser, soil conditioner or improver.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/agriculturaLime">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/agriculturaLime:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/agriculturaLime</latestversion>
+         <label xml:lang="en">agricultural lime</label>
+         <definition xml:lang="en">Direct application of chalk, limestone or dolomite for soil conditioning</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/agriculture">
+               <label xml:lang="en">agriculture</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/horticultural">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/horticultural:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/horticultural</latestversion>
+         <label xml:lang="en">horticultural</label>
+         <definition xml:lang="en">Horticultural uses e.g. sand for top dressing, peat</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/agriculture">
+               <label xml:lang="en">agriculture</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/landscaping">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/landscaping:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EndusePotentialValue/landscaping</latestversion>
+         <label xml:lang="en">landscaping</label>
+         <definition xml:lang="en">Soil and aggregates used for landscaping</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue">
+            <label xml:lang="en">Enduse Potential</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/EndusePotentialValue/agriculture">
+               <label xml:lang="en">agriculture</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

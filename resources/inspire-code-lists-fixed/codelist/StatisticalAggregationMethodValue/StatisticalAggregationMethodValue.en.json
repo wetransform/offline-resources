@@ -1,0 +1,593 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Statistical Aggregation Method",
+          "id" : "http://inspire.ec.europa.eu/codelist/StatisticalAggregationMethodValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "mean",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Human Health",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "definition" : {
+          "text" : "The mean.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hh"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/StatisticalAggregationMethodValue/mean",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/StatisticalAggregationMethodValue/mean",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/StatisticalAggregationMethodValue/mean:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Statistical Aggregation Method",
+          "id" : "http://inspire.ec.europa.eu/codelist/StatisticalAggregationMethodValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "sum",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Human Health",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "definition" : {
+          "text" : "The sum.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hh"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/StatisticalAggregationMethodValue/sum",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/StatisticalAggregationMethodValue/sum",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/StatisticalAggregationMethodValue/sum:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Statistical Aggregation Method",
+          "id" : "http://inspire.ec.europa.eu/codelist/StatisticalAggregationMethodValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "maximum",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Human Health",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "definition" : {
+          "text" : "The maximum.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hh"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/StatisticalAggregationMethodValue/maximum",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/StatisticalAggregationMethodValue/maximum",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/StatisticalAggregationMethodValue/maximum:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Statistical Aggregation Method",
+          "id" : "http://inspire.ec.europa.eu/codelist/StatisticalAggregationMethodValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "minimum",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Human Health",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "definition" : {
+          "text" : "The minimum.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hh"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/StatisticalAggregationMethodValue/minimum",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/StatisticalAggregationMethodValue/minimum",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/StatisticalAggregationMethodValue/minimum:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Statistical Aggregation Method",
+          "id" : "http://inspire.ec.europa.eu/codelist/StatisticalAggregationMethodValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "median",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Human Health",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "definition" : {
+          "text" : "The median.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hh"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/StatisticalAggregationMethodValue/median",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/StatisticalAggregationMethodValue/median",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/StatisticalAggregationMethodValue/median:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Statistical Aggregation Method",
+          "id" : "http://inspire.ec.europa.eu/codelist/StatisticalAggregationMethodValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "standard Deviation",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Human Health",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+        },
+        "definition" : {
+          "text" : "The standard deviation.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hh",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hh"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/StatisticalAggregationMethodValue/standardDeviation",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/StatisticalAggregationMethodValue/standardDeviation",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/StatisticalAggregationMethodValue/standardDeviation:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Statistical Aggregation Method",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "any",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Empty code list",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "hh",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Human Health",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+    },
+    "definition" : {
+      "text" : "The types of statistical methods used to aggregate raw measurement data on the statistical unit.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "hh",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/hh"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/StatisticalAggregationMethodValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/StatisticalAggregationMethodValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/StatisticalAggregationMethodValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

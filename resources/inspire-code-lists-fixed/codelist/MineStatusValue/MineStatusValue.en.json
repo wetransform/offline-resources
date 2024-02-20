@@ -1,0 +1,1264 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Mine Status",
+          "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue"
+        },
+        "created" : "2015-08-18 17:34 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "operating",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "A mine is operating.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/operating",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/operating",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/operating:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Mine Status",
+          "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue"
+        },
+        "created" : "2015-08-18 17:34 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "operating continuously",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "A mine is operating continuously.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/operatingContinuously",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/operatingContinuously",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/operatingContinuously:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "operating",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/operating"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Mine Status",
+          "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue"
+        },
+        "created" : "2015-08-18 17:34 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "operating intermittently",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "A mine is operating intermittently.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/operatingIntermittently",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/operatingIntermittently",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/operatingIntermittently:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "operating",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/operating"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Mine Status",
+          "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue"
+        },
+        "created" : "2015-08-18 17:34 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "not operating",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "A mine is not operating.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/notOperating",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/notOperating",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/notOperating:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Mine Status",
+          "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue"
+        },
+        "created" : "2015-08-18 17:34 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "closed",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "A mine can be closed for technical, economical or technico-economical reasons.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/closed",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/closed",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/closed:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "not operating",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/notOperating"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Mine Status",
+          "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue"
+        },
+        "created" : "2015-08-18 17:34 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "abandoned",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "A mine is abandoned.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/abandoned",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/abandoned",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/abandoned:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "not operating",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/notOperating"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Mine Status",
+          "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue"
+        },
+        "created" : "2015-08-18 17:34 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "care and maintenance",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "A mine is under care and maintenance.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/careAndMaintenance",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/careAndMaintenance",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/careAndMaintenance:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "not operating",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/notOperating"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Mine Status",
+          "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue"
+        },
+        "created" : "2015-08-18 17:34 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "retention",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "A mine can be kept unexploited until the price of contained commodity(ies) makes it economical.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/retention",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/retention",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/retention:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "not operating",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/notOperating"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Mine Status",
+          "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue"
+        },
+        "created" : "2015-08-18 17:34 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "historic",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "An 'old' mine which has been exploited before 1900.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/historic",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/historic",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/historic:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "not operating",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/notOperating"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Mine Status",
+          "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue"
+        },
+        "created" : "2015-08-18 17:34 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "under development",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Under development.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/underDevelopment",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/underDevelopment",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/underDevelopment:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Mine Status",
+          "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue"
+        },
+        "created" : "2015-08-18 17:34 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "under construction",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Under construction.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/construction",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/construction",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/construction:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "under development",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/underDevelopment"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Mine Status",
+          "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue"
+        },
+        "created" : "2015-08-18 17:34 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "pending approval",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "A mine waiting for the exploitation authorization, generally given by a State Mining Engineering Department.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/pendingApproval",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/pendingApproval",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/pendingApproval:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "under development",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/underDevelopment"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Mine Status",
+          "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue"
+        },
+        "created" : "2015-08-18 17:34 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "feasibility",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Technical economic study aimed at assessing the possibility to launching a mine venture.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/feasibility",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/feasibility",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/feasibility:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "under development",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue/underDevelopment"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Mine Status",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "open",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Extensible with values at any level",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "mr-core",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Mineral Resources",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+    },
+    "definition" : {
+      "text" : "Values indicating the operational status of the mine.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "mr",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/mr"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/MineStatusValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/MineStatusValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/MineStatusValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}
