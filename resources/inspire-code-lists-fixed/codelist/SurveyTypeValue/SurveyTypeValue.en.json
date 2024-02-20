@@ -1,0 +1,1684 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Survey Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "A 2D seismic survey may include one or more seismic lines. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "airborne geophysical survey",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge_gp",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geophysics",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "definition" : {
+          "text" : "Campaign of airborne geophysical measurements.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/airborneGeophysicalSurvey",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/airborneGeophysicalSurvey",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/airborneGeophysicalSurvey:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Survey Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "A 3D seismic survey may include one or more 3D seismic measurements. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "ground gravity survey",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge_gp",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geophysics",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "definition" : {
+          "text" : "Campaign of ground gravity measurements.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/groundGravitySurvey",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/groundGravitySurvey",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/groundGravitySurvey:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Survey Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "A borehole logging survey may include one or more borehole logging measurements. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "ground magnetic survey",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge_gp",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geophysics",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "definition" : {
+          "text" : "Campaign of ground magnetic measurements.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/groundMagneticSurvey",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/groundMagneticSurvey",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/groundMagneticSurvey:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Survey Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "A 1D resistivity survey may include any number of VES stations. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "3D resistivity survey",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge_gp",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geophysics",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "definition" : {
+          "text" : "Campaign of 3D Multielectrode DC measurements.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/3DResistivitySurvey",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/3DResistivitySurvey",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/3DResistivitySurvey:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Survey Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "A 2D resistivity survey may include one or more multielectrode DC profiles. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "seismological survey",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge_gp",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geophysics",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "definition" : {
+          "text" : "Campaign of seismological measurements.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/seismologicalSurvey",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/seismologicalSurvey",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/seismologicalSurvey:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Survey Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "A time domain EM survey may include any number of TDEM soundings. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "2D seismic survey",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge_gp",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geophysics",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "definition" : {
+          "text" : "Campaign of 2D seismic measurements",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/2DSeismicSurvey",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/2DSeismicSurvey",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/2DSeismicSurvey:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Survey Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "A frequency domain EM survey may include any number of FDEM soundings. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "3D seismic survey",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge_gp",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geophysics",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "definition" : {
+          "text" : "Campaign of 3D seismic measurements",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/3DSeismicSurvey",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/3DSeismicSurvey",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/3DSeismicSurvey:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Survey Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "A magnetotelluric survey may include any number of MT soundings. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "borehole logging survey",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge_gp",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geophysics",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "definition" : {
+          "text" : "Campaign of borehole logging measurements",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/boreholeLoggingSurvey",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/boreholeLoggingSurvey",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/boreholeLoggingSurvey:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Survey Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "A georadar survey may include one or more georadar profiles. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "1D resistivity survey",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge_gp",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geophysics",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "definition" : {
+          "text" : "Campaign of Vertical Electric Sounding measurements",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/1DResistivitySurvey",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/1DResistivitySurvey",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/1DResistivitySurvey:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Survey Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "A CPT survey may include any number of CPT soundings. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "2D resistivity survey",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge_gp",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geophysics",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "definition" : {
+          "text" : "Campaign of 2D Multielectrode DC measurements",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/2DResistivitySurvey",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/2DResistivitySurvey",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/2DResistivitySurvey:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Survey Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "A VSP survey may include any number of vertical seismic profiles. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "time-domain EM survey",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge_gp",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geophysics",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "definition" : {
+          "text" : "Campaign of Time domain EM sounding measurements",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/timeDomainEMSurvey",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/timeDomainEMSurvey",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/timeDomainEMSurvey:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Survey Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "A sonar survey may include any number of individual sonar measurements. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "frequency domain EM Survey",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge_gp",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geophysics",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "definition" : {
+          "text" : "Campaign of FrequencyDomain EM sounding measurements",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/frequencyDomainEMSurvey",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/frequencyDomainEMSurvey",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/frequencyDomainEMSurvey:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Survey Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "A magnetotelluric survey may include any number of MT soundings. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "magnetotelluric survey",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge_gp",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geophysics",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "definition" : {
+          "text" : "Campaign of magnetotelluric sounding measurements",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/magnetotelluricSurvey",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/magnetotelluricSurvey",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/magnetotelluricSurvey:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Survey Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "A georadar survey may include one or more georadar profiles. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "georadar survey",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge_gp",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geophysics",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "definition" : {
+          "text" : "Campaign of geoRadar measurements",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/geoRadarSurvey",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/geoRadarSurvey",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/geoRadarSurvey:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Survey Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "A CPT survey may include any number of CPT soundings. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "CPT survey",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge_gp",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geophysics",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "definition" : {
+          "text" : "Campaign of Cone penetration test sounding measurements",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/CPTSurvey",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/CPTSurvey",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/CPTSurvey:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Survey Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "successors" : [ {
+          "successor" : {
+            "label" : {
+              "text" : "VSP survey",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/VSPSurvey"
+          }
+        } ],
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "A VSP survey may include any number of vertical seismic profiles. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "VSP surevey",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge_gp",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geophysics",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "definition" : {
+          "text" : "Campaign of Vertical Seismic Profiling measurements",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/VSPSurevey",
+        "issued" : "2015-10-20 13:34 PM CEST",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/VSPSurevey",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/VSPSurevey:1",
+        "status" : {
+          "label" : {
+            "text" : "Invalid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/invalid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Survey Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
+        },
+        "created" : "2015-08-18 18:06 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "A sonar survey may include any number of individual sonar measurements. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "sonar survey",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge_gp",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geophysics",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "definition" : {
+          "text" : "Campaign of sonar mapping measurements",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/sonarSurvey",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/sonarSurvey",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/sonarSurvey:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "predecessors" : [ {
+          "predecessor" : {
+            "label" : {
+              "text" : "VSP surevey",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/VSPSurevey"
+          }
+        } ],
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Survey Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
+        },
+        "created" : "2015-10-20 13:34 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "A VSP survey may include any number of vertical seismic profiles. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "VSP survey",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge_gp",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geophysics",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "definition" : {
+          "text" : "Campaign of Vertical Seismic Profiling measurements",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/VSPSurvey",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/VSPSurvey",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/VSPSurvey:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "description" : {
+      "text" : "An initial set of values are provided in the Implementation Rules. The codelist is expected to be extended by the geophysical community. Recommendations can be found in the Technical Guidence.",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Survey Type",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "open",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Extensible with values at any level",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "ge_gp",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Geophysics",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+    },
+    "definition" : {
+      "text" : "A type of geophysical survey or data set.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "ge",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/ge"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

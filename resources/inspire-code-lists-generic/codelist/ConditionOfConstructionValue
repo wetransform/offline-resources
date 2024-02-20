@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/ConditionOfConstructionValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/ConditionOfConstructionValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/ConditionOfConstructionValue</latestversion>
+   <label xml:lang="en">Condition Of Construction</label>
+   <definition xml:lang="en">Values indicating the condition of a construction.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+      <label xml:lang="en">Building Base</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/bu">
+      <label xml:lang="en">Buildings</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/ConditionOfConstructionValue/declined">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ConditionOfConstructionValue/declined:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ConditionOfConstructionValue/declined</latestversion>
+         <label xml:lang="en">declined</label>
+         <definition xml:lang="en">The construction cannot be used under normal conditions, though its main elements (walls, roof) are still present.</definition>
+         <description xml:lang="en">EXAMPLE: A house whose windows have been for a long time broken or walled up (even if occupied by squatters).</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ConditionOfConstructionValue">
+            <label xml:lang="en">Condition Of Construction</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ConditionOfConstructionValue/demolished">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ConditionOfConstructionValue/demolished:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ConditionOfConstructionValue/demolished</latestversion>
+         <label xml:lang="en">demolished</label>
+         <definition xml:lang="en">The construction has been demolished. There are no more visible remains.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ConditionOfConstructionValue">
+            <label xml:lang="en">Condition Of Construction</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ConditionOfConstructionValue/functional">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ConditionOfConstructionValue/functional:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ConditionOfConstructionValue/functional</latestversion>
+         <label xml:lang="en">functional</label>
+         <definition xml:lang="en">The construction is functional.</definition>
+         <description xml:lang="en">NOTE: The construction may be used under normal conditions for its current use value(s).</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ConditionOfConstructionValue">
+            <label xml:lang="en">Condition Of Construction</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ConditionOfConstructionValue/projected">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ConditionOfConstructionValue/projected:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ConditionOfConstructionValue/projected</latestversion>
+         <label xml:lang="en">projected</label>
+         <definition xml:lang="en">The construction is being designed. Construction has not yet started.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ConditionOfConstructionValue">
+            <label xml:lang="en">Condition Of Construction</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ConditionOfConstructionValue/ruin">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ConditionOfConstructionValue/ruin:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ConditionOfConstructionValue/ruin</latestversion>
+         <label xml:lang="en">ruin</label>
+         <definition xml:lang="en">The construction has been partly demolished and some main elements (roof, walls) have been destroyed. There are some visible remains of the construction.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ConditionOfConstructionValue">
+            <label xml:lang="en">Condition Of Construction</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ConditionOfConstructionValue/underConstruction">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ConditionOfConstructionValue/underConstruction:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ConditionOfConstructionValue/underConstruction</latestversion>
+         <label xml:lang="en">under construction</label>
+         <definition xml:lang="en">The construction is under construction and not yet functional. This applies only to the initial construction of the construction and not to maintenance work.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ConditionOfConstructionValue">
+            <label xml:lang="en">Condition Of Construction</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

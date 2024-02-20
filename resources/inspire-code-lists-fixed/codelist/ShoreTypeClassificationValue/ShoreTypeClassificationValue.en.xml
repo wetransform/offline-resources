@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue</latestversion>
+   <label xml:lang="en">Shore Type Classification</label>
+   <definition xml:lang="en">Types of shore segments.</definition>
+   <description xml:lang="en">The allowed values for this code list comprise any values defined by data providers.</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/any">
+      <label xml:lang="en">Empty code list</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sr">
+      <label xml:lang="en">Sea Regions</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/sr">
+      <label xml:lang="en">Sea regions</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue/estuaryRiverMouth">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue/estuaryRiverMouth:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue/estuaryRiverMouth</latestversion>
+         <label xml:lang="en">estuary</label>
+         <definition xml:lang="en">Shore type is estuary/river mouth</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue">
+            <label xml:lang="en">Shore Type Classification</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sr">
+            <label xml:lang="en">Sea Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sr">
+            <label xml:lang="en">Sea regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue/rock">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue/rock:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue/rock</latestversion>
+         <label xml:lang="en">rock</label>
+         <definition xml:lang="en">Shore type is rock</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue">
+            <label xml:lang="en">Shore Type Classification</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sr">
+            <label xml:lang="en">Sea Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sr">
+            <label xml:lang="en">Sea regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue/sand">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue/sand:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue/sand</latestversion>
+         <label xml:lang="en">sand</label>
+         <definition xml:lang="en">Shore type is sand</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue">
+            <label xml:lang="en">Shore Type Classification</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sr">
+            <label xml:lang="en">Sea Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sr">
+            <label xml:lang="en">Sea regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue/tidalMarsh">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue/tidalMarsh:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue/tidalMarsh</latestversion>
+         <label xml:lang="en">tidal marsh</label>
+         <definition xml:lang="en">Shore type is tidal marsh</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue">
+            <label xml:lang="en">Shore Type Classification</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sr">
+            <label xml:lang="en">Sea Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sr">
+            <label xml:lang="en">Sea regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue/narrowVegetisedShore">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue/narrowVegetisedShore:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue/narrowVegetisedShore</latestversion>
+         <label xml:lang="en">narrow vegetised shore</label>
+         <definition xml:lang="en">Shore type is narrow vegetisedshore</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue">
+            <label xml:lang="en">Shore Type Classification</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sr">
+            <label xml:lang="en">Sea Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sr">
+            <label xml:lang="en">Sea regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue/artificialCoastline">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue/artificialCoastline:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue/artificialCoastline</latestversion>
+         <label xml:lang="en">artificial coastline</label>
+         <definition xml:lang="en">Shore type is artifical</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue">
+            <label xml:lang="en">Shore Type Classification</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sr">
+            <label xml:lang="en">Sea Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sr">
+            <label xml:lang="en">Sea regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue/harbourLimits">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue/harbourLimits:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue/harbourLimits</latestversion>
+         <label xml:lang="en">harbour limits</label>
+         <definition xml:lang="en">Shore type is harbour limits</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue">
+            <label xml:lang="en">Shore Type Classification</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sr">
+            <label xml:lang="en">Sea Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sr">
+            <label xml:lang="en">Sea regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue/gravel">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue/gravel:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue/gravel</latestversion>
+         <label xml:lang="en">gravel</label>
+         <definition xml:lang="en">Shore type is gravel</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue">
+            <label xml:lang="en">Shore Type Classification</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sr">
+            <label xml:lang="en">Sea Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sr">
+            <label xml:lang="en">Sea regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue/mud">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue/mud:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue/mud</latestversion>
+         <label xml:lang="en">mud</label>
+         <definition xml:lang="en">Shore type is mud</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue">
+            <label xml:lang="en">Shore Type Classification</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sr">
+            <label xml:lang="en">Sea Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sr">
+            <label xml:lang="en">Sea regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

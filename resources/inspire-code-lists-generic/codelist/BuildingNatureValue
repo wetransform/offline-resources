@@ -1,0 +1,696 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue</latestversion>
+   <label xml:lang="en">Building Nature</label>
+   <definition xml:lang="en">Values indicating the nature of a building.</definition>
+   <description xml:lang="en">NOTE 1 : This code list does not aim to be exhaustive as the attribute buildingNature addresses only noticeable buildings.\nNOTE 2: The values included in this code list address mainly (but not only) two international use cases: air flights where buildings may be obstacles and marine navigation where buildings may be landmarks.\nNOTE 3: This code list should only be applied for buildings, even if it may be applicable to other constructions (for example, not all dams are buildings).</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+      <label xml:lang="en">Building Base</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/bu">
+      <label xml:lang="en">Buildings</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue/arch">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/arch:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/arch</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/arch:1</version>
+         </previousversions>
+         <label xml:lang="en">arch</label>
+         <definition xml:lang="en">A man-made structure in the form of an arch.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue">
+            <label xml:lang="en">Building Nature</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue/bunker">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/bunker:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/bunker</latestversion>
+         <label xml:lang="en">bunker</label>
+         <definition xml:lang="en">A facility, partly underground, intended for or used by the military either for location of command/control centers or for troop encampment.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue">
+            <label xml:lang="en">Building Nature</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue/canopy">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/canopy:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/canopy</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/canopy:1</version>
+         </previousversions>
+         <label xml:lang="en">canopy</label>
+         <definition xml:lang="en">An overhead roof providing shelter to things below. Canopies may be free standing frameworks over which a covering is attached or may be linked or suspended to the outside of a building.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue">
+            <label xml:lang="en">Building Nature</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue/caveBuilding">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/caveBuilding:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/caveBuilding</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/caveBuilding:1</version>
+         </previousversions>
+         <label xml:lang="en">cave building</label>
+         <definition xml:lang="en">A space hosting human or economic activity which is usually enclosed within rock with the addition of man-made exterior walls and which may contain structures comparable to the interior structures of freestanding buildings.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue">
+            <label xml:lang="en">Building Nature</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue/chapel">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/chapel:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/chapel</latestversion>
+         <label xml:lang="en">chapel</label>
+         <definition xml:lang="en">A Christian place of worship, usually smaller than a church.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue">
+            <label xml:lang="en">Building Nature</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue/castle">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/castle:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/castle</latestversion>
+         <label xml:lang="en">castle</label>
+         <definition xml:lang="en">A large ornate or fortified building usually constructed for the purpose of a private residence or security.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue">
+            <label xml:lang="en">Building Nature</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue/church">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/church:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/church</latestversion>
+         <label xml:lang="en">church</label>
+         <definition xml:lang="en">Building or structure whose primary aim is to facilitate the religious practice of a Christian community.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue">
+            <label xml:lang="en">Building Nature</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue/dam">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/dam:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/dam</latestversion>
+         <label xml:lang="en">dam</label>
+         <definition xml:lang="en">A permanent barrier across a watercourse used to impound water or to control its flow.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue">
+            <label xml:lang="en">Building Nature</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue/greenhouse">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/greenhouse:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/greenhouse</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/greenhouse:1</version>
+         </previousversions>
+         <label xml:lang="en">greenhouse</label>
+         <definition xml:lang="en">A building that is often constructed primarily of transparent material (for example: glass), in which temperature and humidity can be controlled for the cultivation and/or protection of plants.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue">
+            <label xml:lang="en">Building Nature</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue/lighthouse">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/lighthouse:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/lighthouse</latestversion>
+         <label xml:lang="en">lighthouse</label>
+         <definition xml:lang="en">A tower designed to emit light from a system of lamps and lenses.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue">
+            <label xml:lang="en">Building Nature</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue/mosque">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/mosque:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/mosque</latestversion>
+         <label xml:lang="en">mosque</label>
+         <definition xml:lang="en">Building or structure whose primary aim is to facilitate the religious practice of a Muslim community.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue">
+            <label xml:lang="en">Building Nature</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue/shed">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/shed:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/shed</latestversion>
+         <label xml:lang="en">shed</label>
+         <definition xml:lang="en">A building of light construction, which usually has one or more open sides, that is typically used for storage.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue">
+            <label xml:lang="en">Building Nature</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue/silo">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/silo:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/silo</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/silo:1</version>
+         </previousversions>
+         <label xml:lang="en">silo</label>
+         <definition xml:lang="en">A large storage structure, generally cylindrical, used for storing loose materials.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue">
+            <label xml:lang="en">Building Nature</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue/stadium">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/stadium:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/stadium</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/stadium:1</version>
+         </previousversions>
+         <label xml:lang="en">stadium</label>
+         <definition xml:lang="en">A place or venue for sports, concerts or other events and consists of a field or stage either partly or completely surrounded by a structure designed to allow spectators to stand or sit and view the event.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue">
+            <label xml:lang="en">Building Nature</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue/storageTank">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/storageTank:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/storageTank</latestversion>
+         <label xml:lang="en">storage tank</label>
+         <definition xml:lang="en">A container usually for holding liquids and compressed gases.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue">
+            <label xml:lang="en">Building Nature</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue/synagogue">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/synagogue:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/synagogue</latestversion>
+         <label xml:lang="en">synagogue</label>
+         <definition xml:lang="en">Building or structure whose primary aim is to facilitate the religious practice of a Jewish or Samaritan community.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue">
+            <label xml:lang="en">Building Nature</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue/temple">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/temple:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/temple</latestversion>
+         <label xml:lang="en">temple</label>
+         <definition xml:lang="en">Building or structure whose primary aim is to facilitate religious practices.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue">
+            <label xml:lang="en">Building Nature</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue/tower">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/tower:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/tower</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/tower:1</version>
+         </previousversions>
+         <label xml:lang="en">tower</label>
+         <definition xml:lang="en">A relatively tall, narrow structure that may either stand alone or may form part of another structure.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue">
+            <label xml:lang="en">Building Nature</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue/windmill">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/windmill:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/windmill</latestversion>
+         <label xml:lang="en">windmill</label>
+         <definition xml:lang="en">A building which converts the energy of the wind into rotational motion by means of adjustable sails or blades.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue">
+            <label xml:lang="en">Building Nature</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue/windTurbine">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/windTurbine:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/BuildingNatureValue/windTurbine</latestversion>
+         <label xml:lang="en">wind turbine</label>
+         <definition xml:lang="en">A tower and associated equipment that generates electrical power from wind.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/BuildingNatureValue">
+            <label xml:lang="en">Building Nature</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

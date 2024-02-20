@@ -1,0 +1,483 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/SeaBedCoverValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue</latestversion>
+   <label xml:lang="en">Sea Bed Cover</label>
+   <definition xml:lang="en">Types of cover found on sea beds.</definition>
+   <description xml:lang="en">The allowed values for this code list comprise any values defined by data providers.\n\n-- Governance --\nMay be extended by member states</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/any">
+      <label xml:lang="en">Empty code list</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sr">
+      <label xml:lang="en">Sea Regions</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/sr">
+      <label xml:lang="en">Sea regions</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/sand">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/sand:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/sand</latestversion>
+         <label xml:lang="en">sand</label>
+         <definition xml:lang="en">area of sand</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SeaBedCoverValue">
+            <label xml:lang="en">Sea Bed Cover</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sr">
+            <label xml:lang="en">Sea Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sr">
+            <label xml:lang="en">Sea regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/mud">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/mud:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/mud</latestversion>
+         <label xml:lang="en">mud</label>
+         <definition xml:lang="en">area of mud</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SeaBedCoverValue">
+            <label xml:lang="en">Sea Bed Cover</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sr">
+            <label xml:lang="en">Sea Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sr">
+            <label xml:lang="en">Sea regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/clay">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/clay:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/clay</latestversion>
+         <label xml:lang="en">clay</label>
+         <definition xml:lang="en">area of clay</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SeaBedCoverValue">
+            <label xml:lang="en">Sea Bed Cover</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sr">
+            <label xml:lang="en">Sea Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sr">
+            <label xml:lang="en">Sea regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/silt">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/silt:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/silt</latestversion>
+         <label xml:lang="en">silt</label>
+         <definition xml:lang="en">area of silt</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SeaBedCoverValue">
+            <label xml:lang="en">Sea Bed Cover</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sr">
+            <label xml:lang="en">Sea Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sr">
+            <label xml:lang="en">Sea regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/stones">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/stones:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/stones</latestversion>
+         <label xml:lang="en">stones</label>
+         <definition xml:lang="en">area of stones</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SeaBedCoverValue">
+            <label xml:lang="en">Sea Bed Cover</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sr">
+            <label xml:lang="en">Sea Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sr">
+            <label xml:lang="en">Sea regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/gravel">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/gravel:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/gravel</latestversion>
+         <label xml:lang="en">gravel</label>
+         <definition xml:lang="en">area of gravel</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SeaBedCoverValue">
+            <label xml:lang="en">Sea Bed Cover</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sr">
+            <label xml:lang="en">Sea Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sr">
+            <label xml:lang="en">Sea regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/pebbles">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/pebbles:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/pebbles</latestversion>
+         <label xml:lang="en">pebbles</label>
+         <definition xml:lang="en">area of pebbles</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SeaBedCoverValue">
+            <label xml:lang="en">Sea Bed Cover</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sr">
+            <label xml:lang="en">Sea Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sr">
+            <label xml:lang="en">Sea regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/cobbles">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/cobbles:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/cobbles</latestversion>
+         <label xml:lang="en">cobbles</label>
+         <definition xml:lang="en">area of cobbles</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SeaBedCoverValue">
+            <label xml:lang="en">Sea Bed Cover</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sr">
+            <label xml:lang="en">Sea Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sr">
+            <label xml:lang="en">Sea regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/rock">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/rock:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/rock</latestversion>
+         <label xml:lang="en">rock</label>
+         <definition xml:lang="en">area of rock</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SeaBedCoverValue">
+            <label xml:lang="en">Sea Bed Cover</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sr">
+            <label xml:lang="en">Sea Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sr">
+            <label xml:lang="en">Sea regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/coral">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/coral:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/coral</latestversion>
+         <label xml:lang="en">coral</label>
+         <definition xml:lang="en">area of coral</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SeaBedCoverValue">
+            <label xml:lang="en">Sea Bed Cover</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sr">
+            <label xml:lang="en">Sea Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sr">
+            <label xml:lang="en">Sea regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/shells">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/shells:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/shells</latestversion>
+         <label xml:lang="en">shells</label>
+         <definition xml:lang="en">area of shells</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SeaBedCoverValue">
+            <label xml:lang="en">Sea Bed Cover</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sr">
+            <label xml:lang="en">Sea Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sr">
+            <label xml:lang="en">Sea regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/weed">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/weed:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/weed</latestversion>
+         <label xml:lang="en">weed</label>
+         <definition xml:lang="en">area of weed, including kelp</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SeaBedCoverValue">
+            <label xml:lang="en">Sea Bed Cover</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sr">
+            <label xml:lang="en">Sea Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sr">
+            <label xml:lang="en">Sea regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/sandWaves">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/sandWaves:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/sandWaves</latestversion>
+         <label xml:lang="en">sand waves</label>
+         <definition xml:lang="en">area with sand waves (mobile bottom)</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SeaBedCoverValue">
+            <label xml:lang="en">Sea Bed Cover</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sr">
+            <label xml:lang="en">Sea Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sr">
+            <label xml:lang="en">Sea regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/freshwaterSprings">
+         <language>en</language>
+         <created>2015-08-18 18:20 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/freshwaterSprings:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/freshwaterSprings</latestversion>
+         <label xml:lang="en">freshwater springs</label>
+         <definition xml:lang="en">area with freshwater springs in seabed</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SeaBedCoverValue">
+            <label xml:lang="en">Sea Bed Cover</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sr">
+            <label xml:lang="en">Sea Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sr">
+            <label xml:lang="en">Sea regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

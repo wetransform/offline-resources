@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue</latestversion>
+   <label xml:lang="en">Form Of Waterway Node</label>
+   <definition xml:lang="en">Function of a Waterway Node in the water transport network.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-w">
+      <label xml:lang="en">Water Transport Network</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/tn">
+      <label xml:lang="en">Transport networks</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue/junctionFork">
+         <language>en</language>
+         <created>2015-08-18 17:46 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue/junctionFork:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue/junctionFork</latestversion>
+         <label xml:lang="en">junction fork</label>
+         <definition xml:lang="en">Infrastructure elements where one vessel traffic flow crosses another vessel traffic flow or points where vessel traffic flows divide or come together.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue">
+            <label xml:lang="en">Form Of Waterway Node</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-w">
+            <label xml:lang="en">Water Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue/lockComplex">
+         <language>en</language>
+         <created>2015-08-18 17:46 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue/lockComplex:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue/lockComplex</latestversion>
+         <label xml:lang="en">lock complex</label>
+         <definition xml:lang="en">Lock or group of locks, intended for raising and lowering boats between stretches of water of different levels on river and canal waterways.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue">
+            <label xml:lang="en">Form Of Waterway Node</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-w">
+            <label xml:lang="en">Water Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue/movableBridge">
+         <language>en</language>
+         <created>2015-08-18 17:46 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue/movableBridge:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue/movableBridge</latestversion>
+         <label xml:lang="en">movable bridge</label>
+         <definition xml:lang="en">Bridge that can be raised or turned to allow the passage of ships.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue">
+            <label xml:lang="en">Form Of Waterway Node</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-w">
+            <label xml:lang="en">Water Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue/shipLift">
+         <language>en</language>
+         <created>2015-08-18 17:46 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue/shipLift:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue/shipLift</latestversion>
+         <label xml:lang="en">ship lift</label>
+         <definition xml:lang="en">A machine for transporting boats between water bodies at two different elevations, which is used as an alternative to the canal locks.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue">
+            <label xml:lang="en">Form Of Waterway Node</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-w">
+            <label xml:lang="en">Water Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue/waterTerminal">
+         <language>en</language>
+         <created>2015-08-18 17:46 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue/waterTerminal:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue/waterTerminal</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue/waterTerminal:1</version>
+         </previousversions>
+         <label xml:lang="en">water terminal</label>
+         <definition xml:lang="en">The location where goods are transhipped.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue">
+            <label xml:lang="en">Form Of Waterway Node</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-w">
+            <label xml:lang="en">Water Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue/turningBasin">
+         <language>en</language>
+         <created>2015-08-18 17:46 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue/turningBasin:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue/turningBasin</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue/turningBasin:1</version>
+         </previousversions>
+         <label xml:lang="en">turning basin</label>
+         <definition xml:lang="en">A place where a canal or narrow waterway is widened to allow boats to turn around.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue">
+            <label xml:lang="en">Form Of Waterway Node</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-w">
+            <label xml:lang="en">Water Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

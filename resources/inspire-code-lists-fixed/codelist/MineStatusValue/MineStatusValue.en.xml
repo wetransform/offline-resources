@@ -1,0 +1,500 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/MineStatusValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/MineStatusValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/MineStatusValue</latestversion>
+   <label xml:lang="en">Mine Status</label>
+   <definition xml:lang="en">Values indicating the operational status of the mine.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+      <label xml:lang="en">Mineral Resources</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/mr">
+      <label xml:lang="en">Mineral resources</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/MineStatusValue/operating">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineStatusValue/operating:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineStatusValue/operating</latestversion>
+         <label xml:lang="en">operating</label>
+         <definition xml:lang="en">A mine is operating.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineStatusValue">
+            <label xml:lang="en">Mine Status</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineStatusValue/operatingContinuously">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineStatusValue/operatingContinuously:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineStatusValue/operatingContinuously</latestversion>
+         <label xml:lang="en">operating continuously</label>
+         <definition xml:lang="en">A mine is operating continuously.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineStatusValue">
+            <label xml:lang="en">Mine Status</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/MineStatusValue/operating">
+               <label xml:lang="en">operating</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineStatusValue/operatingIntermittently">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineStatusValue/operatingIntermittently:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineStatusValue/operatingIntermittently</latestversion>
+         <label xml:lang="en">operating intermittently</label>
+         <definition xml:lang="en">A mine is operating intermittently.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineStatusValue">
+            <label xml:lang="en">Mine Status</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/MineStatusValue/operating">
+               <label xml:lang="en">operating</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineStatusValue/notOperating">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineStatusValue/notOperating:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineStatusValue/notOperating</latestversion>
+         <label xml:lang="en">not operating</label>
+         <definition xml:lang="en">A mine is not operating.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineStatusValue">
+            <label xml:lang="en">Mine Status</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineStatusValue/closed">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineStatusValue/closed:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineStatusValue/closed</latestversion>
+         <label xml:lang="en">closed</label>
+         <definition xml:lang="en">A mine can be closed for technical, economical or technico-economical reasons.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineStatusValue">
+            <label xml:lang="en">Mine Status</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/MineStatusValue/notOperating">
+               <label xml:lang="en">not operating</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineStatusValue/abandoned">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineStatusValue/abandoned:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineStatusValue/abandoned</latestversion>
+         <label xml:lang="en">abandoned</label>
+         <definition xml:lang="en">A mine is abandoned.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineStatusValue">
+            <label xml:lang="en">Mine Status</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/MineStatusValue/notOperating">
+               <label xml:lang="en">not operating</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineStatusValue/careAndMaintenance">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineStatusValue/careAndMaintenance:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineStatusValue/careAndMaintenance</latestversion>
+         <label xml:lang="en">care and maintenance</label>
+         <definition xml:lang="en">A mine is under care and maintenance.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineStatusValue">
+            <label xml:lang="en">Mine Status</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/MineStatusValue/notOperating">
+               <label xml:lang="en">not operating</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineStatusValue/retention">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineStatusValue/retention:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineStatusValue/retention</latestversion>
+         <label xml:lang="en">retention</label>
+         <definition xml:lang="en">A mine can be kept unexploited until the price of contained commodity(ies) makes it economical.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineStatusValue">
+            <label xml:lang="en">Mine Status</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/MineStatusValue/notOperating">
+               <label xml:lang="en">not operating</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineStatusValue/historic">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineStatusValue/historic:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineStatusValue/historic</latestversion>
+         <label xml:lang="en">historic</label>
+         <definition xml:lang="en">An 'old' mine which has been exploited before 1900.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineStatusValue">
+            <label xml:lang="en">Mine Status</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/MineStatusValue/notOperating">
+               <label xml:lang="en">not operating</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineStatusValue/underDevelopment">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineStatusValue/underDevelopment:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineStatusValue/underDevelopment</latestversion>
+         <label xml:lang="en">under development</label>
+         <definition xml:lang="en">Under development.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineStatusValue">
+            <label xml:lang="en">Mine Status</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineStatusValue/construction">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineStatusValue/construction:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineStatusValue/construction</latestversion>
+         <label xml:lang="en">under construction</label>
+         <definition xml:lang="en">Under construction.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineStatusValue">
+            <label xml:lang="en">Mine Status</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/MineStatusValue/underDevelopment">
+               <label xml:lang="en">under development</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineStatusValue/pendingApproval">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineStatusValue/pendingApproval:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineStatusValue/pendingApproval</latestversion>
+         <label xml:lang="en">pending approval</label>
+         <definition xml:lang="en">A mine waiting for the exploitation authorization, generally given by a State Mining Engineering Department.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineStatusValue">
+            <label xml:lang="en">Mine Status</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/MineStatusValue/underDevelopment">
+               <label xml:lang="en">under development</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineStatusValue/feasibility">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineStatusValue/feasibility:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineStatusValue/feasibility</latestversion>
+         <label xml:lang="en">feasibility</label>
+         <definition xml:lang="en">Technical economic study aimed at assessing the possibility to launching a mine venture.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineStatusValue">
+            <label xml:lang="en">Mine Status</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/MineStatusValue/underDevelopment">
+               <label xml:lang="en">under development</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

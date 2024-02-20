@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/WeatherConditionValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/WeatherConditionValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/WeatherConditionValue</latestversion>
+   <label xml:lang="en">Weather Condition</label>
+   <definition xml:lang="en">Values to indicate weather conditions that affect speed limits.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+      <label xml:lang="en">Road Transport Network</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/tn">
+      <label xml:lang="en">Transport networks</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/WeatherConditionValue/fog">
+         <language>en</language>
+         <created>2015-08-18 17:46 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WeatherConditionValue/fog:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WeatherConditionValue/fog</latestversion>
+         <label xml:lang="en">fog</label>
+         <definition xml:lang="en">Speed applies when fog is present.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WeatherConditionValue">
+            <label xml:lang="en">Weather Condition</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WeatherConditionValue/ice">
+         <language>en</language>
+         <created>2015-08-18 17:46 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WeatherConditionValue/ice:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WeatherConditionValue/ice</latestversion>
+         <label xml:lang="en">ice</label>
+         <definition xml:lang="en">Speed applies when ice is present.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WeatherConditionValue">
+            <label xml:lang="en">Weather Condition</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WeatherConditionValue/rain">
+         <language>en</language>
+         <created>2015-08-18 17:46 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WeatherConditionValue/rain:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WeatherConditionValue/rain</latestversion>
+         <label xml:lang="en">rain</label>
+         <definition xml:lang="en">Speed applies when rain is present.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WeatherConditionValue">
+            <label xml:lang="en">Weather Condition</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WeatherConditionValue/smog">
+         <language>en</language>
+         <created>2015-08-18 17:46 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WeatherConditionValue/smog:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WeatherConditionValue/smog</latestversion>
+         <label xml:lang="en">smog</label>
+         <definition xml:lang="en">Speed applies when a certain amount of smog is present.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WeatherConditionValue">
+            <label xml:lang="en">Weather Condition</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WeatherConditionValue/snow">
+         <language>en</language>
+         <created>2015-08-18 17:46 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WeatherConditionValue/snow:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WeatherConditionValue/snow</latestversion>
+         <label xml:lang="en">snow</label>
+         <definition xml:lang="en">Speed applies when snow is present.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WeatherConditionValue">
+            <label xml:lang="en">Weather Condition</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

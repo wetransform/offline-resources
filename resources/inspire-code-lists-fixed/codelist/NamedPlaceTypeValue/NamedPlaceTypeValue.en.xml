@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue</latestversion>
+   <label xml:lang="en">Named Place Type</label>
+   <definition xml:lang="en">The type of a named place.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/gn">
+      <label xml:lang="en">Geographical Names</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/gn">
+      <label xml:lang="en">Geographical names</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/administrativeUnit">
+         <language>en</language>
+         <created>2015-08-18 17:41 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/administrativeUnit:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/administrativeUnit</latestversion>
+         <label xml:lang="en">administrative unit</label>
+         <definition xml:lang="en">Units of administration, dividing areas where Member States have and/or exercise jurisdictional rights, for local, regional and national governance, separated by administrative boundaries.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue">
+            <label xml:lang="en">Named Place Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/gn">
+            <label xml:lang="en">Geographical Names</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/gn">
+            <label xml:lang="en">Geographical names</label>
+         </theme>
+         <referencelink id="http://unstats.un.org/unsd/geoinfo/UNGEGN/docs/pubs/UNGEGN%20tech%20ref%20manual_m87_combined.pdf">
+            <label xml:lang="en">http://unstats.un.org/unsd/geoinfo/UNGEGN/docs/pubs/UNGEGN%20tech%20ref%20manual_m87_combined.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">Values adapted from [UNGEGN Manual 2007] Technical reference manual for the standardization of geographical names, United Nations Group of Experts on Geographical Names, 2007, ISBN: 92-1-161500-5</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/building">
+         <language>en</language>
+         <created>2015-08-18 17:41 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/building:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/building</latestversion>
+         <label xml:lang="en">building</label>
+         <definition xml:lang="en">Geographical location of buildings.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue">
+            <label xml:lang="en">Named Place Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/gn">
+            <label xml:lang="en">Geographical Names</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/gn">
+            <label xml:lang="en">Geographical names</label>
+         </theme>
+         <referencelink id="http://unstats.un.org/unsd/geoinfo/UNGEGN/docs/pubs/UNGEGN%20tech%20ref%20manual_m87_combined.pdf">
+            <label xml:lang="en">http://unstats.un.org/unsd/geoinfo/UNGEGN/docs/pubs/UNGEGN%20tech%20ref%20manual_m87_combined.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">Values adapted from [UNGEGN Manual 2007] Technical reference manual for the standardization of geographical names, United Nations Group of Experts on Geographical Names, 2007, ISBN: 92-1-161500-6</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/hydrography">
+         <language>en</language>
+         <created>2015-08-18 17:41 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/hydrography:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/hydrography</latestversion>
+         <label xml:lang="en">hydrography</label>
+         <definition xml:lang="en">Hydrographic elements, including marine areas and all other water bodies and items related to them, including river basins and sub-basins.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue">
+            <label xml:lang="en">Named Place Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/gn">
+            <label xml:lang="en">Geographical Names</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/gn">
+            <label xml:lang="en">Geographical names</label>
+         </theme>
+         <referencelink id="http://unstats.un.org/unsd/geoinfo/UNGEGN/docs/pubs/UNGEGN%20tech%20ref%20manual_m87_combined.pdf">
+            <label xml:lang="en">http://unstats.un.org/unsd/geoinfo/UNGEGN/docs/pubs/UNGEGN%20tech%20ref%20manual_m87_combined.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">Values adapted from [UNGEGN Manual 2007] Technical reference manual for the standardization of geographical names, United Nations Group of Experts on Geographical Names, 2007, ISBN: 92-1-161500-7</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/landcover">
+         <language>en</language>
+         <created>2015-08-18 17:41 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/landcover:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/landcover</latestversion>
+         <label xml:lang="en">landcover</label>
+         <definition xml:lang="en">Physical and biological cover of the earth's surface including artificial surfaces, agricultural areas, forests, (semi-)natural areas, wetlands.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue">
+            <label xml:lang="en">Named Place Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/gn">
+            <label xml:lang="en">Geographical Names</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/gn">
+            <label xml:lang="en">Geographical names</label>
+         </theme>
+         <referencelink id="http://unstats.un.org/unsd/geoinfo/UNGEGN/docs/pubs/UNGEGN%20tech%20ref%20manual_m87_combined.pdf">
+            <label xml:lang="en">http://unstats.un.org/unsd/geoinfo/UNGEGN/docs/pubs/UNGEGN%20tech%20ref%20manual_m87_combined.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">Values adapted from [UNGEGN Manual 2007] Technical reference manual for the standardization of geographical names, United Nations Group of Experts on Geographical Names, 2007, ISBN: 92-1-161500-8</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/landform">
+         <language>en</language>
+         <created>2015-08-18 17:41 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/landform:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/landform</latestversion>
+         <label xml:lang="en">landform</label>
+         <definition xml:lang="en">Geomorphologic terrain feature.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue">
+            <label xml:lang="en">Named Place Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/gn">
+            <label xml:lang="en">Geographical Names</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/gn">
+            <label xml:lang="en">Geographical names</label>
+         </theme>
+         <referencelink id="http://unstats.un.org/unsd/geoinfo/UNGEGN/docs/pubs/UNGEGN%20tech%20ref%20manual_m87_combined.pdf">
+            <label xml:lang="en">http://unstats.un.org/unsd/geoinfo/UNGEGN/docs/pubs/UNGEGN%20tech%20ref%20manual_m87_combined.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">Values adapted from [UNGEGN Manual 2007] Technical reference manual for the standardization of geographical names, United Nations Group of Experts on Geographical Names, 2007, ISBN: 92-1-161500-9</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/other">
+         <language>en</language>
+         <created>2015-08-18 17:41 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/other:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/other</latestversion>
+         <label xml:lang="en">other</label>
+         <definition xml:lang="en">A spatial object not included in the other types of the code list.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue">
+            <label xml:lang="en">Named Place Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/gn">
+            <label xml:lang="en">Geographical Names</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/gn">
+            <label xml:lang="en">Geographical names</label>
+         </theme>
+         <referencelink id="http://unstats.un.org/unsd/geoinfo/UNGEGN/docs/pubs/UNGEGN%20tech%20ref%20manual_m87_combined.pdf">
+            <label xml:lang="en">http://unstats.un.org/unsd/geoinfo/UNGEGN/docs/pubs/UNGEGN%20tech%20ref%20manual_m87_combined.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">Values adapted from [UNGEGN Manual 2007] Technical reference manual for the standardization of geographical names, United Nations Group of Experts on Geographical Names, 2007, ISBN: 92-1-161500-10</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/populatedPlace">
+         <language>en</language>
+         <created>2015-08-18 17:41 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/populatedPlace:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/populatedPlace</latestversion>
+         <label xml:lang="en">populated place</label>
+         <definition xml:lang="en">A place inhabited by people.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue">
+            <label xml:lang="en">Named Place Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/gn">
+            <label xml:lang="en">Geographical Names</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/gn">
+            <label xml:lang="en">Geographical names</label>
+         </theme>
+         <referencelink id="http://unstats.un.org/unsd/geoinfo/UNGEGN/docs/pubs/UNGEGN%20tech%20ref%20manual_m87_combined.pdf">
+            <label xml:lang="en">http://unstats.un.org/unsd/geoinfo/UNGEGN/docs/pubs/UNGEGN%20tech%20ref%20manual_m87_combined.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">Values adapted from [UNGEGN Manual 2007] Technical reference manual for the standardization of geographical names, United Nations Group of Experts on Geographical Names, 2007, ISBN: 92-1-161500-11</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/protectedSite">
+         <language>en</language>
+         <created>2015-08-18 17:41 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/protectedSite:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/protectedSite</latestversion>
+         <label xml:lang="en">protected site</label>
+         <definition xml:lang="en">Area designated or managed within a framework of international, Community and Member States' legislation to achieve specific conservation objectives.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue">
+            <label xml:lang="en">Named Place Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/gn">
+            <label xml:lang="en">Geographical Names</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/gn">
+            <label xml:lang="en">Geographical names</label>
+         </theme>
+         <referencelink id="http://unstats.un.org/unsd/geoinfo/UNGEGN/docs/pubs/UNGEGN%20tech%20ref%20manual_m87_combined.pdf">
+            <label xml:lang="en">http://unstats.un.org/unsd/geoinfo/UNGEGN/docs/pubs/UNGEGN%20tech%20ref%20manual_m87_combined.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">Values adapted from [UNGEGN Manual 2007] Technical reference manual for the standardization of geographical names, United Nations Group of Experts on Geographical Names, 2007, ISBN: 92-1-161500-12</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/transportNetwork">
+         <language>en</language>
+         <created>2015-08-18 17:41 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/transportNetwork:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/transportNetwork</latestversion>
+         <label xml:lang="en">transport network</label>
+         <definition xml:lang="en">Road, rail, air, water and cable transport networks and related infrastructure. Includes links between different networks.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue">
+            <label xml:lang="en">Named Place Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/gn">
+            <label xml:lang="en">Geographical Names</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/gn">
+            <label xml:lang="en">Geographical names</label>
+         </theme>
+         <referencelink id="http://unstats.un.org/unsd/geoinfo/UNGEGN/docs/pubs/UNGEGN%20tech%20ref%20manual_m87_combined.pdf">
+            <label xml:lang="en">http://unstats.un.org/unsd/geoinfo/UNGEGN/docs/pubs/UNGEGN%20tech%20ref%20manual_m87_combined.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">Values adapted from [UNGEGN Manual 2007] Technical reference manual for the standardization of geographical names, United Nations Group of Experts on Geographical Names, 2007, ISBN: 92-1-161500-13</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

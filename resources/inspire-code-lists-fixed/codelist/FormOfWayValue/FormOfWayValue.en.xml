@@ -1,0 +1,575 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/FormOfWayValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue</latestversion>
+   <label xml:lang="en">Form Of Way</label>
+   <definition xml:lang="en">Classification based on the physical properties of the road link.</definition>
+   <description xml:lang="en">SOURCE Based on [Euroroads].</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+      <label xml:lang="en">Road Transport Network</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/tn">
+      <label xml:lang="en">Transport networks</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/FormOfWayValue/bicycleRoad">
+         <language>en</language>
+         <created>2015-08-18 17:44 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/bicycleRoad:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/bicycleRoad</latestversion>
+         <label xml:lang="en">bicycle road</label>
+         <definition xml:lang="en">Road where bicycles are the only vehicles allowed.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FormOfWayValue">
+            <label xml:lang="en">Form Of Way</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FormOfWayValue/dualCarriageway">
+         <language>en</language>
+         <created>2015-08-18 17:44 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/dualCarriageway:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/dualCarriageway</latestversion>
+         <label xml:lang="en">dual carriageway</label>
+         <definition xml:lang="en">Road with physically separated carriageways regardless of the number of lanes, which is not a motorway or a freeway.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FormOfWayValue">
+            <label xml:lang="en">Form Of Way</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FormOfWayValue/enclosedTrafficArea">
+         <language>en</language>
+         <created>2015-08-18 17:44 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/enclosedTrafficArea:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/enclosedTrafficArea</latestversion>
+         <label xml:lang="en">enclosed traffic area</label>
+         <definition xml:lang="en">Area with no internal structure of legally defined driving directions. At least two roads are connected to the area.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FormOfWayValue">
+            <label xml:lang="en">Form Of Way</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FormOfWayValue/entranceOrExitCarPark">
+         <language>en</language>
+         <created>2015-08-18 17:44 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/entranceOrExitCarPark:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/entranceOrExitCarPark</latestversion>
+         <label xml:lang="en">entrance or exit car park</label>
+         <definition xml:lang="en">Road specially designed to enter or to leave a parking area.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FormOfWayValue">
+            <label xml:lang="en">Form Of Way</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FormOfWayValue/entranceOrExitService">
+         <language>en</language>
+         <created>2015-08-18 17:44 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/entranceOrExitService:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/entranceOrExitService</latestversion>
+         <label xml:lang="en">entrance or exit service</label>
+         <definition xml:lang="en">Road used only to enter or to leave a service.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FormOfWayValue">
+            <label xml:lang="en">Form Of Way</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FormOfWayValue/freeway">
+         <language>en</language>
+         <created>2015-08-18 17:44 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/freeway:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/freeway</latestversion>
+         <label xml:lang="en">freeway</label>
+         <definition xml:lang="en">Road having no single level crossings with other roads.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FormOfWayValue">
+            <label xml:lang="en">Form Of Way</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FormOfWayValue/motorway">
+         <language>en</language>
+         <created>2015-08-18 17:44 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/motorway:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/motorway</latestversion>
+         <label xml:lang="en">motorway</label>
+         <definition xml:lang="en">Road to which regulations will normally apply with regards to entry and use. It has two or more mostly physically separated carriageways and no single level-crossings.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FormOfWayValue">
+            <label xml:lang="en">Form Of Way</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FormOfWayValue/pedestrianZone">
+         <language>en</language>
+         <created>2015-08-18 17:44 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/pedestrianZone:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/pedestrianZone</latestversion>
+         <label xml:lang="en">pedestrian zone</label>
+         <definition xml:lang="en">Area with a road network which is especially designed for use by pedestrians.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FormOfWayValue">
+            <label xml:lang="en">Form Of Way</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FormOfWayValue/roundabout">
+         <language>en</language>
+         <created>2015-08-18 17:44 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/roundabout:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/roundabout</latestversion>
+         <label xml:lang="en">roundabout</label>
+         <definition xml:lang="en">Road which forms a ring on which traffic travelling in only one direction is allowed.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FormOfWayValue">
+            <label xml:lang="en">Form Of Way</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FormOfWayValue/serviceRoad">
+         <language>en</language>
+         <created>2015-08-18 17:44 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/serviceRoad:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/serviceRoad</latestversion>
+         <label xml:lang="en">service road</label>
+         <definition xml:lang="en">Road running parallel to, and designed to connect, a road with a relatively high connectivity function with roads with a lower connectivity function.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FormOfWayValue">
+            <label xml:lang="en">Form Of Way</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FormOfWayValue/singleCarriageway">
+         <language>en</language>
+         <created>2015-08-18 17:44 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/singleCarriageway:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/singleCarriageway</latestversion>
+         <label xml:lang="en">single carriageway</label>
+         <definition xml:lang="en">Road where the traffic is not separated by any physical object.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FormOfWayValue">
+            <label xml:lang="en">Form Of Way</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FormOfWayValue/slipRoad">
+         <language>en</language>
+         <created>2015-08-18 17:44 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/slipRoad:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/slipRoad</latestversion>
+         <label xml:lang="en">slip road</label>
+         <definition xml:lang="en">Road especially designed to enter or exit another road.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FormOfWayValue">
+            <label xml:lang="en">Form Of Way</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FormOfWayValue/tractorRoad">
+         <language>en</language>
+         <created>2015-08-18 17:44 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/tractorRoad:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/tractorRoad</latestversion>
+         <label xml:lang="en">tractor road</label>
+         <definition xml:lang="en">Arranged road only usable for a tractor (farm vehicle or forest machine) or terrain vehicle (a vehicle with higher ground clearance, big wheels and 4 wheel drive).</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FormOfWayValue">
+            <label xml:lang="en">Form Of Way</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FormOfWayValue/trafficSquare">
+         <language>en</language>
+         <created>2015-08-18 17:44 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/trafficSquare:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/trafficSquare</latestversion>
+         <label xml:lang="en">traffic square</label>
+         <definition xml:lang="en">Area (partly) enclosed by roads which is used for non-traffic purposes and which is not a roundabout.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FormOfWayValue">
+            <label xml:lang="en">Form Of Way</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FormOfWayValue/walkway">
+         <language>en</language>
+         <created>2015-08-18 17:44 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/walkway:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FormOfWayValue/walkway</latestversion>
+         <label xml:lang="en">walkway</label>
+         <definition xml:lang="en">Road reserved for pedestrian use and closed for regular vehicular use by a physically barrier.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FormOfWayValue">
+            <label xml:lang="en">Form Of Way</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

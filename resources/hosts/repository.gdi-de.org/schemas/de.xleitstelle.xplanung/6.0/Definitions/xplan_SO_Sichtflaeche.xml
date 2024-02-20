@@ -1,0 +1,144 @@
+﻿<!--Erzeugt mit KIT (www.kit.edu) UmlToXmlTransformation-Software, Erstellungsdatum: 31.10.2022 09:26:06-->
+<TypeDefinition xmlns="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ../xsd/ShapeChangeDefinitions.xsd" gml:id="xplan_SO_Sichtflaeche">
+  <gml:description>Flächenhafte Festlegung einer Sichtfläche bzw. eines Sichtdreiecks</gml:description>
+  <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_Sichtflaeche</gml:identifier>
+  <gml:name>xplan:SO_Sichtflaeche</gml:name>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_SO_Sichtflaeche_art">
+      <gml:description>Klassifikation der Einmündung einer untergeordneten auf eine übergeordnete Straße gemäß den "Richtlinien für die Anlage von Stadtstraßen" (TAST 06)</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_Sichtflaeche:attribute:art</gml:identifier>
+      <gml:name>xplan:art</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_Sichtflaeche_art_SO_SichtflaecheArt_1000">
+          <gml:description>Haltesichtweite</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_Sichtflaeche:art:SO_SichtflaecheArt:1000</gml:identifier>
+          <gml:name>Haltesichtweite</gml:name>
+          <gml:name codeSpace="lesbarerName">Haltesichtweite</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_Sichtflaeche_art_SO_SichtflaecheArt_2000">
+          <gml:description>Anfahrsichtfeld</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_Sichtflaeche:art:SO_SichtflaecheArt:2000</gml:identifier>
+          <gml:name>Anfahrsichtfeld</gml:name>
+          <gml:name codeSpace="lesbarerName">Anfahrsichtfeld</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_Sichtflaeche_art_SO_SichtflaecheArt_3000">
+          <gml:description>Annäherungssichtfeld</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_Sichtflaeche:art:SO_SichtflaecheArt:3000</gml:identifier>
+          <gml:name>Annaeherungssichtfeld</gml:name>
+          <gml:name codeSpace="lesbarerName">Annäherungssichtfeld</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_Sichtflaeche_art_SO_SichtflaecheArt_4000">
+          <gml:description>Sichtfeld an Überquerungsstellen</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_Sichtflaeche:art:SO_SichtflaecheArt:4000</gml:identifier>
+          <gml:name>Ueberquerung</gml:name>
+          <gml:name codeSpace="lesbarerName">Überquerung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_Sichtflaeche_art_SO_SichtflaecheArt_9999">
+          <gml:description>Sonstige Sichtfläche</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_Sichtflaeche:art:SO_SichtflaecheArt:9999</gml:identifier>
+          <gml:name>SonstigeSichtflaeche</gml:name>
+          <gml:name codeSpace="lesbarerName">Sonstige Sichtfläche</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>SO_SichtflaecheArt</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_SO_Sichtflaeche_knotenpunkt">
+      <gml:description>Klassifikation des Knotenpunktes, dem die Sichtfläche zugeordnet ist</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_Sichtflaeche:attribute:knotenpunkt</gml:identifier>
+      <gml:name>xplan:knotenpunkt</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_Sichtflaeche_knotenpunkt_SO_SichtflaecheKnotenpunktTypen_1000">
+          <gml:description>Knotenpunkt Anliegerstraße - Anliegerweg</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_Sichtflaeche:knotenpunkt:SO_SichtflaecheKnotenpunktTypen:1000</gml:identifier>
+          <gml:name>AnlgStr-AnlgWeg</gml:name>
+          <gml:name codeSpace="lesbarerName">Anliegerstraße - Anliegerweg</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_Sichtflaeche_knotenpunkt_SO_SichtflaecheKnotenpunktTypen_2000">
+          <gml:description>Knotenpunkt Anliegerstraße - Anliegerstraße</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_Sichtflaeche:knotenpunkt:SO_SichtflaecheKnotenpunktTypen:2000</gml:identifier>
+          <gml:name>AnlgStr-AnlgStr</gml:name>
+          <gml:name codeSpace="lesbarerName">Anliegerstraße - Anliegerstraße</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_Sichtflaeche_knotenpunkt_SO_SichtflaecheKnotenpunktTypen_3000">
+          <gml:description>Knotenpunkt Sammelstraße - Anliegerstraße</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_Sichtflaeche:knotenpunkt:SO_SichtflaecheKnotenpunktTypen:3000</gml:identifier>
+          <gml:name>SammelStr-AnlgStr</gml:name>
+          <gml:name codeSpace="lesbarerName">Sammelstraße - Anliegerstraße</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_Sichtflaeche_knotenpunkt_SO_SichtflaecheKnotenpunktTypen_4000">
+          <gml:description>Knotenpunkt mit einer Haupt-Sammelstraße</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_Sichtflaeche:knotenpunkt:SO_SichtflaecheKnotenpunktTypen:4000</gml:identifier>
+          <gml:name>HauptSammelStr</gml:name>
+          <gml:name codeSpace="lesbarerName">Haupt-Sammelstraße</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_Sichtflaeche_knotenpunkt_SO_SichtflaecheKnotenpunktTypen_5000">
+          <gml:description>Knotenpunkt mit einer angebaute Hauptverkehrsstraße (Bebauung parallel zur Straße ist vorhanden)</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_Sichtflaeche:knotenpunkt:SO_SichtflaecheKnotenpunktTypen:5000</gml:identifier>
+          <gml:name>HauptVerkStrAngeb</gml:name>
+          <gml:name codeSpace="lesbarerName">Angebaute Hauptverkehrsstraße</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_Sichtflaeche_knotenpunkt_SO_SichtflaecheKnotenpunktTypen_6000">
+          <gml:description>Knotenpunkt mit einer nicht angebaute Hauptverkehrsstraße (Keine Bebauung parallel zur Straße )</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_Sichtflaeche:knotenpunkt:SO_SichtflaecheKnotenpunktTypen:6000</gml:identifier>
+          <gml:name>HauptVerkStrNichtAngeb</gml:name>
+          <gml:name codeSpace="lesbarerName">Nicht angebaute Hauptverkehrsstraße</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_Sichtflaeche_knotenpunkt_SO_SichtflaecheKnotenpunktTypen_9999">
+          <gml:description>Sonstiger Knotenpunkt</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_Sichtflaeche:knotenpunkt:SO_SichtflaecheKnotenpunktTypen:9999</gml:identifier>
+          <gml:name>SonstigerKnotenpunkt</gml:name>
+          <gml:name codeSpace="lesbarerName">Sonstiger Knotenpunkt</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>SO_SichtflaecheKnotenpunktTypen</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_SO_Sichtflaeche_geschwindigkeit">
+      <gml:description>Zulässige Geschwindigkeit in der übergeordneten Straße, im km/h</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_Sichtflaeche:attribute:geschwindigkeit</gml:identifier>
+      <gml:name>xplan:geschwindigkeit</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::Measure" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_SO_Sichtflaeche_schenkellaenge">
+      <gml:description>Schenkellänge des Sichtdreiecks gemäß RAST 06</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_Sichtflaeche:attribute:schenkellaenge</gml:identifier>
+      <gml:name>xplan:schenkellaenge</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::Length" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <def:classification>featureType</def:classification>
+  <def:supertypeRef xlink:href="urn:xplan:element:xplan:SO_Flaechenobjekt" />
+</TypeDefinition>

@@ -1,0 +1,642 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue</latestversion>
+   <label xml:lang="en">Elevation Reference</label>
+   <definition xml:lang="en">List of possible elements considered to capture a vertical geometry.</definition>
+   <description xml:lang="en">NOTE: The values of this code list are used to describe the reference of elevation both where elevation has been captured as attribute or as Z coordinate.</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+      <label xml:lang="en">Building Base</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/bu">
+      <label xml:lang="en">Buildings</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/aboveGroundEnvelope">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/aboveGroundEnvelope:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/aboveGroundEnvelope</latestversion>
+         <label xml:lang="en">above ground envelope</label>
+         <definition xml:lang="en">The elevation has been captured at the level of the maximum extent of the above ground envelope of the construction.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue">
+            <label xml:lang="en">Elevation Reference</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/bottomOfConstruction">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/bottomOfConstruction:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/bottomOfConstruction</latestversion>
+         <label xml:lang="en">bottom of construction</label>
+         <definition xml:lang="en">The elevation has been captured at the bottom of the usable part of the construction.</definition>
+         <description xml:lang="en">NOTE: The bottom of usable part of  a building is generally its lowest underground floor.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue">
+            <label xml:lang="en">Elevation Reference</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/entrancePoint">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/entrancePoint:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/entrancePoint</latestversion>
+         <label xml:lang="en">entrance point</label>
+         <definition xml:lang="en">The elevation has been captured at the entrance of the construction, generally the bottom of entrance door.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue">
+            <label xml:lang="en">Elevation Reference</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/generalEave">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/generalEave:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/generalEave</latestversion>
+         <label xml:lang="en">general eave</label>
+         <definition xml:lang="en">The elevation has been captured at eave level, anywhere between the lowest and the highest eave levels of the construction.</definition>
+         <description xml:lang="en">NOTE: in case of a roof having a symetry axis, values generalEave, lowestEave and highestEave are equivalent.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue">
+            <label xml:lang="en">Elevation Reference</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/generalGround">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/generalGround:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/generalGround</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/generalGround:1</version>
+         </previousversions>
+         <label xml:lang="en">general ground</label>
+         <definition xml:lang="en">The elevation has been captured at ground level, anywhere between the lowest and the highest ground points of the construction.</definition>
+         <description xml:lang="en">NOTE: In case of buildings located on flat areas, values generalGround, lowestgroundPoint and highestgroundPoint are equivalent.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue">
+            <label xml:lang="en">Elevation Reference</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/generalRoof">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/generalRoof:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/generalRoof</latestversion>
+         <label xml:lang="en">general roof</label>
+         <definition xml:lang="en">The elevation has been captured at roof level, anywhere between the lowest edge roof level and the top of the construction.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue">
+            <label xml:lang="en">Elevation Reference</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/generalRoofEdge">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/generalRoofEdge:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/generalRoofEdge</latestversion>
+         <label xml:lang="en">general roof edge</label>
+         <definition xml:lang="en">The elevation has been captured at roof edge level, anywhere between the lowest and the highest roof edges of the construction.</definition>
+         <description xml:lang="en">NOTE: in case of a roof having a symetry axis, values generalRoofEdge, lowestRoofEdge and highestRoofEdge are equivalent.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue">
+            <label xml:lang="en">Elevation Reference</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/highestEave">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/highestEave:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/highestEave</latestversion>
+         <label xml:lang="en">highest eave</label>
+         <definition xml:lang="en">The elevation has been captured at the highest eave level of the construction.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue">
+            <label xml:lang="en">Elevation Reference</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/higheseu-technicalroundPoint">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <issued>2015-08-24 10:48 AM CEST</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/higheseu-technicalroundPoint:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/higheseu-technicalroundPoint</latestversion>
+         <label xml:lang="en">higheseu-technicalround point</label>
+         <definition xml:lang="en">The elevation has been captured at the highest ground point of the construction.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue">
+            <label xml:lang="en">Elevation Reference</label>
+         </codelist>
+         <successors>
+            <successor id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/highestgroundPoint">
+               <label xml:lang="en">highestground point</label>
+            </successor>
+         </successors>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/invalid">
+            <label xml:lang="en">Invalid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/highestPoint">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/highestPoint:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/highestPoint</latestversion>
+         <label xml:lang="en">highest point</label>
+         <definition xml:lang="en">The elevation has been captured at the highest point of the construction, including the installations, such as chimneys and antennas.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue">
+            <label xml:lang="en">Elevation Reference</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/highestRoofEdge">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/highestRoofEdge:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/highestRoofEdge</latestversion>
+         <label xml:lang="en">highest roof edge</label>
+         <definition xml:lang="en">The elevation has been captured at the highest roof edge level of the construction.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue">
+            <label xml:lang="en">Elevation Reference</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/lowestEave">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/lowestEave:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/lowestEave</latestversion>
+         <label xml:lang="en">lowest eave</label>
+         <definition xml:lang="en">The elevation has been captured at the lowest eave level of the construction.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue">
+            <label xml:lang="en">Elevation Reference</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/lowestFloorAboveGround">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/lowestFloorAboveGround:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/lowestFloorAboveGround</latestversion>
+         <label xml:lang="en">lowest floor above ground</label>
+         <definition xml:lang="en">The elevation has been captured at the level of the lowest floor above ground.</definition>
+         <description xml:lang="en">This value is of interest for over-hanging buildings or for buildings on pilotis.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue">
+            <label xml:lang="en">Elevation Reference</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/loweseu-technicalroundPoint">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <issued>2015-08-24 10:48 AM CEST</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/loweseu-technicalroundPoint:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/loweseu-technicalroundPoint</latestversion>
+         <label xml:lang="en">lowest ground point</label>
+         <definition xml:lang="en">The elevation has been captured at the lowest ground point level of the construction.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue">
+            <label xml:lang="en">Elevation Reference</label>
+         </codelist>
+         <successors>
+            <successor id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/lowestgroundPoint">
+               <label xml:lang="en">lowest ground point</label>
+            </successor>
+         </successors>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/invalid">
+            <label xml:lang="en">Invalid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/lowestRoofEdge">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/lowestRoofEdge:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/lowestRoofEdge</latestversion>
+         <label xml:lang="en">lowest roof edge</label>
+         <definition xml:lang="en">The elevation has been captured at the lowest roof edge level of the construction.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue">
+            <label xml:lang="en">Elevation Reference</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/topOfConstruction">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/topOfConstruction:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/topOfConstruction</latestversion>
+         <label xml:lang="en">top of construction</label>
+         <definition xml:lang="en">The elevation has been captured at the top level of the construction.</definition>
+         <description xml:lang="en">NOTE: for buildings, it is generally top of the roof.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue">
+            <label xml:lang="en">Elevation Reference</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/highestgroundPoint">
+         <language>en</language>
+         <created>2015-08-20 14:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/highestgroundPoint:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/highestgroundPoint</latestversion>
+         <label xml:lang="en">highestground point</label>
+         <definition xml:lang="en">The elevation has been captured at the highest ground point of the construction.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue">
+            <label xml:lang="en">Elevation Reference</label>
+         </codelist>
+         <predecessors>
+            <predecessor id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/higheseu-technicalroundPoint">
+               <label xml:lang="en">higheseu-technicalround point</label>
+            </predecessor>
+         </predecessors>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/lowestgroundPoint">
+         <language>en</language>
+         <created>2015-08-20 14:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/lowestgroundPoint:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/lowestgroundPoint</latestversion>
+         <label xml:lang="en">lowest ground point</label>
+         <definition xml:lang="en">The elevation has been captured at the lowest ground point level of the construction.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue">
+            <label xml:lang="en">Elevation Reference</label>
+         </codelist>
+         <predecessors>
+            <predecessor id="http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/loweseu-technicalroundPoint">
+               <label xml:lang="en">lowest ground point</label>
+            </predecessor>
+         </predecessors>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/ConnectionTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:19 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/ConnectionTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/ConnectionTypeValue</latestversion>
+   <label xml:lang="en">Connection Type</label>
+   <definition xml:lang="en">Types of connections between different networks.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/net">
+      <label xml:lang="en">Network</label>
+   </applicationschema>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/ConnectionTypeValue/crossBorderConnected">
+         <language>en</language>
+         <created>2015-08-18 17:42 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ConnectionTypeValue/crossBorderConnected:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ConnectionTypeValue/crossBorderConnected</latestversion>
+         <label xml:lang="en">cross border connected</label>
+         <definition xml:lang="en">Connection between two network elements in different networks of the same type, but in adjacent areas. The referenced network elements represent the different, but spatially connected real-world phenomena.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ConnectionTypeValue">
+            <label xml:lang="en">Connection Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/net">
+            <label xml:lang="en">Network</label>
+         </applicationschema>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ConnectionTypeValue/crossBorderIdentical">
+         <language>en</language>
+         <created>2015-08-18 17:42 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ConnectionTypeValue/crossBorderIdentical:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ConnectionTypeValue/crossBorderIdentical</latestversion>
+         <label xml:lang="en">cross border identical</label>
+         <definition xml:lang="en">Connection between two network elements in different networks of the same type, but in adjacent areas. The referenced network elements represent the same real-world phenomena.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ConnectionTypeValue">
+            <label xml:lang="en">Connection Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/net">
+            <label xml:lang="en">Network</label>
+         </applicationschema>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ConnectionTypeValue/intermodal">
+         <language>en</language>
+         <created>2015-08-18 17:42 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ConnectionTypeValue/intermodal:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ConnectionTypeValue/intermodal</latestversion>
+         <label xml:lang="en">intermodal</label>
+         <definition xml:lang="en">Connection between two network elements in different transport networks that use a different transport mode. The connection represents a possibility for the transported media (people, goods, etc) to change from one transport mode to another.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ConnectionTypeValue">
+            <label xml:lang="en">Connection Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/net">
+            <label xml:lang="en">Network</label>
+         </applicationschema>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

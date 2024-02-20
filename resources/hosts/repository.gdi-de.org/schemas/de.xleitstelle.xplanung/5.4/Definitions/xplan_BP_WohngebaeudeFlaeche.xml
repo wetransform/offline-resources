@@ -1,0 +1,1058 @@
+﻿<!--Erzeugt mit KIT (www.kit.edu) UmlToXmlTransformation-Software, Erstellungsdatum: 23.06.2021 10:57:42-->
+<TypeDefinition xmlns="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ../xsd/ShapeChangeDefinitions.xsd" gml:id="xplan_BP_WohngebaeudeFlaeche">
+  <gml:description>Fläche für die Errichtung von Wohngebäuden in einem Bebauungsplan zur Wohnraumversorgung gemäß §9 Absatz 2d BauGB.
+Das Maß der baulichen Nutzung sowie Festsetzungen zur Bauweise oder Grenzbebauung können innerhalb einer &lt;i&gt;BP_WohngebaeudeFlaeche &lt;/i&gt;unterschiedlich sein (&lt;i&gt;BP_UeberbaubareGrundstueckeFlaeche&lt;/i&gt;). Dabei sollte die gleichzeitige Belegung &lt;b&gt;desselben Attributs &lt;/b&gt;in &lt;i&gt;BP_WohngebaeudeFlaeche &lt;/i&gt;und einem überlagernden Objekt &lt;i&gt;BP_UeberbaubareGrunsdstuecksFlaeche &lt;/i&gt;&lt;b&gt;verzichtet werden&lt;/b&gt;.  Ab Version 6.0 wird dies evtl. durch eine Konformitätsregel erzwungen.</gml:description>
+  <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche</gml:identifier>
+  <gml:name>xplan:BP_WohngebaeudeFlaeche</gml:name>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_dachgestaltung">
+      <gml:description>Parameter zur Einschränkung der zulässigen Dachformen.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:dachgestaltung</gml:identifier>
+      <gml:name>xplan:dachgestaltung</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:BP_Dachgestaltung" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_DNmin">
+      <gml:description>Minimal zulässige Dachneigung bei einer Bereichsangabe.
+
+Dies Attribut ist veraltet und wird in Version 6.0 wegfallen. Es sollte stattdessen der Datentyp BP_Dachgestaltung (Attribut dachgestaltung) verwendet werden.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:DNmin</gml:identifier>
+      <gml:name>xplan:DNmin</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Angle</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_DNmax">
+      <gml:description>Maxmal zulässige Dachneigung bei einer Bereichsangabe.
+
+Dies Attribut ist veraltet und wird in Version 6.0 wegfallen. Es sollte stattdessen der Datentyp BP_Dachgestaltung (Attribut dachgestaltung) verwendet werden.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:DNmax</gml:identifier>
+      <gml:name>xplan:DNmax</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Angle</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_DN">
+      <gml:description>Maximal zulässige Dachneigung.
+
+Dies Attribut ist veraltet und wird in Version 6.0 wegfallen. Es sollte stattdessen der Datentyp BP_Dachgestaltung (Attribut dachgestaltung) verwendet werden.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:DN</gml:identifier>
+      <gml:name>xplan:DN</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Angle</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_DNZwingend">
+      <gml:description>Zwingend vorgeschriebene Dachneigung.
+
+Dies Attribut ist veraltet und wird in Version 6.0 wegfallen. Es sollte stattdessen der Datentyp BP_Dachgestaltung (Attribut dachgestaltung) verwendet werden.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:DNZwingend</gml:identifier>
+      <gml:name>xplan:DNZwingend</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Angle</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_FR">
+      <gml:description>Vorgeschriebene Firstrichtung</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:FR</gml:identifier>
+      <gml:name>xplan:FR</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Angle</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_dachform">
+      <gml:description>Erlaubte Dachformen.
+
+Dies Attribut ist veraltet und wird in Version 6.0 wegfallen. Es sollte stattdessen der Datentyp BP_Dachgestaltung (Attribut dachgestaltung) verwendet werden.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:dachform</gml:identifier>
+      <gml:name>xplan:dachform</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_dachform_BP_Dachform_1000">
+          <gml:description>Flachdach
+Empfohlene Abkürzung: &lt;b&gt;FD&lt;/b&gt;</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:dachform:BP_Dachform:1000</gml:identifier>
+          <gml:name>Flachdach</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_dachform_BP_Dachform_2100">
+          <gml:description>Pultdach
+Empfohlene Abkürzung: &lt;b&gt;PD&lt;/b&gt;</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:dachform:BP_Dachform:2100</gml:identifier>
+          <gml:name>Pultdach</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_dachform_BP_Dachform_2200">
+          <gml:description>Versetztes Pultdach
+Empfohlene Abkürzung: &lt;b&gt;VPD&lt;/b&gt;</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:dachform:BP_Dachform:2200</gml:identifier>
+          <gml:name>VersetztesPultdach</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_dachform_BP_Dachform_3000">
+          <gml:description>Kein Flachdach
+Empfohlene Abkürzung: &lt;b&gt;GD&lt;/b&gt;</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:dachform:BP_Dachform:3000</gml:identifier>
+          <gml:name>GeneigtesDach</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_dachform_BP_Dachform_3100">
+          <gml:description>Satteldach
+Empfohlene Abkürzung: &lt;b&gt;SD&lt;/b&gt;</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:dachform:BP_Dachform:3100</gml:identifier>
+          <gml:name>Satteldach</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_dachform_BP_Dachform_3200">
+          <gml:description>Walmdach
+Empfohlene Abkürzung: &lt;b&gt;WD&lt;/b&gt;</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:dachform:BP_Dachform:3200</gml:identifier>
+          <gml:name>Walmdach</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_dachform_BP_Dachform_3300">
+          <gml:description>Krüppelwalmdach
+Empfohlene Abkürzung: &lt;b&gt;KWD&lt;/b&gt;</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:dachform:BP_Dachform:3300</gml:identifier>
+          <gml:name>Krueppelwalmdach</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_dachform_BP_Dachform_3400">
+          <gml:description>Mansardendach
+Empfohlene Abkürzung: &lt;b&gt;MD&lt;/b&gt;</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:dachform:BP_Dachform:3400</gml:identifier>
+          <gml:name>Mansarddach</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_dachform_BP_Dachform_3500">
+          <gml:description>Zeltdach
+Empfohlene Abkürzung: &lt;b&gt;ZD&lt;/b&gt;</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:dachform:BP_Dachform:3500</gml:identifier>
+          <gml:name>Zeltdach</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_dachform_BP_Dachform_3600">
+          <gml:description>Kegeldach
+Empfohlene Abkürzung: &lt;b&gt;KeD&lt;/b&gt;</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:dachform:BP_Dachform:3600</gml:identifier>
+          <gml:name>Kegeldach</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_dachform_BP_Dachform_3700">
+          <gml:description>Kuppeldach
+Empfohlene Abkürzung: &lt;b&gt;KuD&lt;/b&gt;</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:dachform:BP_Dachform:3700</gml:identifier>
+          <gml:name>Kuppeldach</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_dachform_BP_Dachform_3800">
+          <gml:description>Sheddach
+Empfohlene Abkürzung: &lt;b&gt;ShD&lt;/b&gt;</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:dachform:BP_Dachform:3800</gml:identifier>
+          <gml:name>Sheddach</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_dachform_BP_Dachform_3900">
+          <gml:description>Bogendach
+Empfohlene Abkürzung: BD</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:dachform:BP_Dachform:3900</gml:identifier>
+          <gml:name>Bogendach</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_dachform_BP_Dachform_4000">
+          <gml:description>Turmdach
+Empfohlene Abkürzung: TuD</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:dachform:BP_Dachform:4000</gml:identifier>
+          <gml:name>Turmdach</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_dachform_BP_Dachform_4100">
+          <gml:description>Tonnendach
+Empfohlene Abkürzung: ToD</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:dachform:BP_Dachform:4100</gml:identifier>
+          <gml:name>Tonnendach</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_dachform_BP_Dachform_5000">
+          <gml:description>Gemischte Dachform
+Empfohlene Abkürzung: &lt;b&gt;GDF&lt;/b&gt;</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:dachform:BP_Dachform:5000</gml:identifier>
+          <gml:name>Mischform</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_dachform_BP_Dachform_9999">
+          <gml:description>Sonstige Dachform
+Empfohlene Abkürzung: SDF</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:dachform:BP_Dachform:9999</gml:identifier>
+          <gml:name>Sonstiges</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeName>BP_Dachform</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_detaillierteDachform">
+      <gml:description>Über eine Codeliste definiertere detailliertere Dachform.
+Der an einer bestimmten Listenposition aufgeführte Wert von "&lt;i&gt;detaillierteDachform&lt;/i&gt;" bezieht sich auf den an gleicher Position stehenden Attributwert von dachform.
+
+Dies Attribut ist veraltet und wird in Version 6.0 wegfallen. Es sollte stattdessen der Datentyp BP_Dachgestaltung (Attribut dachgestaltung) verwendet werden.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:detaillierteDachform</gml:identifier>
+      <gml:name>xplan:detaillierteDachform</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeName>BP_DetailDachform</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_abweichungText">
+      <gml:description>Texliche Beschreibung der abweichenden Bauweise.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:association-role:abweichungText</gml:identifier>
+      <gml:name>xplan:abweichungText</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:BP_TextAbschnitt" />
+      <def:type>associationRole</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_MaxZahlWohnungen">
+      <gml:description>Höchstzulässige Zahl der Wohnungen in Wohngebäuden</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:MaxZahlWohnungen</gml:identifier>
+      <gml:name>xplan:MaxZahlWohnungen</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Integer</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_MinGRWohneinheit">
+      <gml:description>Minimale Größe eines Grundstücks pro Wohneinheit</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:MinGRWohneinheit</gml:identifier>
+      <gml:name>xplan:MinGRWohneinheit</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Area</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_Fmin">
+      <gml:description>Mindestmaß für die Größe (Fläche) eines Baugrundstücks.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:Fmin</gml:identifier>
+      <gml:name>xplan:Fmin</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Area</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_Fmax">
+      <gml:description>Höchstmaß für die Größe (Fläche) eines Baugrundstücks.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:Fmax</gml:identifier>
+      <gml:name>xplan:Fmax</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Area</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_Bmin">
+      <gml:description>Minimale Breite von Baugrundstücken</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:Bmin</gml:identifier>
+      <gml:name>xplan:Bmin</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Length</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_Bmax">
+      <gml:description>Maximale Breite von Baugrundstücken.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:Bmax</gml:identifier>
+      <gml:name>xplan:Bmax</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Length</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_Tmin">
+      <gml:description>Minimale Tiefe von Baugrundstücken.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:Tmin</gml:identifier>
+      <gml:name>xplan:Tmin</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Length</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_Tmax">
+      <gml:description>Maximale Tiefe von Baugrundstücken.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:Tmax</gml:identifier>
+      <gml:name>xplan:Tmax</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Length</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_GFZmin">
+      <gml:description>Minimal zulässige Geschossflächenzahl .</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:GFZmin</gml:identifier>
+      <gml:name>xplan:GFZmin</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Decimal</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_GFZmax">
+      <gml:description>Maximal zulässige Geschossflächenzahl bei einer Bereichsangabe. Das Attribut GFZmin muss ebenfalls belegt sein.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:GFZmax</gml:identifier>
+      <gml:name>xplan:GFZmax</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Decimal</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_GFZ">
+      <gml:description>Maximal zulässige Geschossflächenzahl.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:GFZ</gml:identifier>
+      <gml:name>xplan:GFZ</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Decimal</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_GFZ_Ausn">
+      <gml:description>Maximal zulässige Geschossflächenzahl als Ausnahme.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:GFZ_Ausn</gml:identifier>
+      <gml:name>xplan:GFZ_Ausn</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Decimal</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_GFmin">
+      <gml:description>Minimal zulässige Geschossfläche</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:GFmin</gml:identifier>
+      <gml:name>xplan:GFmin</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Area</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_GFmax">
+      <gml:description>Maximal zulässige Geschossfläche bei einer Bereichsabgabe. Das Attribut GFmin muss ebenfalls belegt sein.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:GFmax</gml:identifier>
+      <gml:name>xplan:GFmax</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Area</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_GF">
+      <gml:description>Maximal zulässige Geschossfläche.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:GF</gml:identifier>
+      <gml:name>xplan:GF</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Area</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_GF_Ausn">
+      <gml:description>Ausnahmsweise maximal zulässige Geschossfläche.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:GF_Ausn</gml:identifier>
+      <gml:name>xplan:GF_Ausn</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Area</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_BMZ">
+      <gml:description>Maximal zulässige Baumassenzahl.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:BMZ</gml:identifier>
+      <gml:name>xplan:BMZ</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Decimal</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_BMZ_Ausn">
+      <gml:description>Ausnahmsweise maximal zulässige Baumassenzahl.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:BMZ_Ausn</gml:identifier>
+      <gml:name>xplan:BMZ_Ausn</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Decimal</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_BM">
+      <gml:description>Maximal zulässige Baumasse.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:BM</gml:identifier>
+      <gml:name>xplan:BM</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Volume</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_BM_Ausn">
+      <gml:description>Ausnahmsweise maximal zulässige Baumasse.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:BM_Ausn</gml:identifier>
+      <gml:name>xplan:BM_Ausn</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Volume</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_GRZmin">
+      <gml:description>Minimal zulässige Grundflächenzahl.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:GRZmin</gml:identifier>
+      <gml:name>xplan:GRZmin</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Decimal</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_GRZmax">
+      <gml:description>Maximal zulässige Grundflächenzahl bei einer Bereichsangabe.  Das Attribut GRZmin muss ebenfalls spezifiziert werden.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:GRZmax</gml:identifier>
+      <gml:name>xplan:GRZmax</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Decimal</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_GRZ">
+      <gml:description>Maximal zulässige Grundflächenzahl</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:GRZ</gml:identifier>
+      <gml:name>xplan:GRZ</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Decimal</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_GRZ_Ausn">
+      <gml:description>Ausnahmsweise maximal zulässige Grundflächenzahl.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:GRZ_Ausn</gml:identifier>
+      <gml:name>xplan:GRZ_Ausn</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Decimal</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_GRmin">
+      <gml:description>Minimal zulässige Grundfläche.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:GRmin</gml:identifier>
+      <gml:name>xplan:GRmin</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Area</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_GRmax">
+      <gml:description>Maximal zulässige Grundfläche bei einer Bereichsangabe. Das Attribut GRmin muss ebenfalls spezifiziert werden.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:GRmax</gml:identifier>
+      <gml:name>xplan:GRmax</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Area</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_GR">
+      <gml:description>Maximal zulässige Grundfläche.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:GR</gml:identifier>
+      <gml:name>xplan:GR</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Area</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_GR_Ausn">
+      <gml:description>Ausnahmsweise maximal zulässige Grundfläche.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:GR_Ausn</gml:identifier>
+      <gml:name>xplan:GR_Ausn</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Area</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_Zmin">
+      <gml:description>Minimal zulässige Zahl der oberirdischen Vollgeschosse.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:Zmin</gml:identifier>
+      <gml:name>xplan:Zmin</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Integer</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_Zmax">
+      <gml:description>Maximal zulässige Zahl der oberirdischen Vollgeschosse bei einer Bereichsangabe. Das Attribut Zmin muss ebenfalls belegt sein.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:Zmax</gml:identifier>
+      <gml:name>xplan:Zmax</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Integer</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_Zzwingend">
+      <gml:description>Zwingend vorgeschriebene Zahl der oberirdischen Vollgeschosse.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:Zzwingend</gml:identifier>
+      <gml:name>xplan:Zzwingend</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Integer</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_Z">
+      <gml:description>Maximalzahl der oberirdischen Vollgeschosse.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:Z</gml:identifier>
+      <gml:name>xplan:Z</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Integer</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_Z_Ausn">
+      <gml:description>Ausnahmsweise maximal zulässige Zahl der oberirdischen Vollgeschosse.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:Z_Ausn</gml:identifier>
+      <gml:name>xplan:Z_Ausn</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Integer</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_Z_Staffel">
+      <gml:description>Maximalzahl von oberirdischen zurückgesetzten Vollgeschossen als Staffelgeschoss..</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:Z_Staffel</gml:identifier>
+      <gml:name>xplan:Z_Staffel</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Integer</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_Z_Dach">
+      <gml:description>Maximalzahl der zusätzlich erlaubten Dachgeschosse, die gleichzeitig Vollgeschosse sind.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:Z_Dach</gml:identifier>
+      <gml:name>xplan:Z_Dach</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Integer</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_ZUmin">
+      <gml:description>Minimal zulässige Zahl der unterirdischen Geschosse.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:ZUmin</gml:identifier>
+      <gml:name>xplan:ZUmin</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Integer</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_ZUmax">
+      <gml:description>Maximal zulässige Zahl der unterirdischen Geschosse bei einer Bereichsangabe. Das Attribut ZUmin muss ebenfalls belegt sein.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:ZUmax</gml:identifier>
+      <gml:name>xplan:ZUmax</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Integer</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_ZUzwingend">
+      <gml:description>Zwingend vorgeschriebene Zahl der unterirdischen Geschosse.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:ZUzwingend</gml:identifier>
+      <gml:name>xplan:ZUzwingend</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Integer</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_ZU">
+      <gml:description>Maximal zulässige Zahl der unterirdischen Geschosse.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:ZU</gml:identifier>
+      <gml:name>xplan:ZU</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Integer</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_ZU_Ausn">
+      <gml:description>Ausnahmsweise maximal zulässige Zahl der unterirdischen Geschosse.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:ZU_Ausn</gml:identifier>
+      <gml:name>xplan:ZU_Ausn</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Integer</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_wohnnutzungEGStrasse">
+      <gml:description>Festsetzung nach §6a Abs. (4) Nr. 1 BauNVO: Für urbane Gebiete oder Teile solcher Gebiete kann festgesetzt werden, dass in Gebäuden 
+im Erdgeschoss an der Straßenseite eine Wohnnutzung nicht oder nur ausnahmsweise zulässig ist.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:wohnnutzungEGStrasse</gml:identifier>
+      <gml:name>xplan:wohnnutzungEGStrasse</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_wohnnutzungEGStrasse_BP_Zulaessigkeit_1000">
+          <gml:description>Generelle Zulässigkeit</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:wohnnutzungEGStrasse:BP_Zulaessigkeit:1000</gml:identifier>
+          <gml:name>Zulaessig</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_wohnnutzungEGStrasse_BP_Zulaessigkeit_2000">
+          <gml:description>Generelle Nicht-Zulässigkeit.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:wohnnutzungEGStrasse:BP_Zulaessigkeit:2000</gml:identifier>
+          <gml:name>NichtZulaessig</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_wohnnutzungEGStrasse_BP_Zulaessigkeit_3000">
+          <gml:description>Ausnahmsweise Zulässigkeit</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:wohnnutzungEGStrasse:BP_Zulaessigkeit:3000</gml:identifier>
+          <gml:name>AusnahmsweiseZulaessig</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>BP_Zulaessigkeit</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_ZWohn">
+      <gml:description>Festsetzung nach §4a Abs. (4) Nr. 1 bzw. nach  §6a Abs. (4) Nr. 2 BauNVO: Für besondere Wohngebiete und  urbane Gebiete oder Teile solcher Gebiete kann festgesetzt werden, dass in Gebäuden oberhalb eines im Bebauungsplan bestimmten Geschosses nur Wohnungen zulässig sind.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:ZWohn</gml:identifier>
+      <gml:name>xplan:ZWohn</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Integer</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_GFAntWohnen">
+      <gml:description>Festsetzung nach §4a Abs. (4) Nr. 2 bzw. §6a Abs. (4) Nr. 3 BauNVO: Für besondere Wohngebiete und urbane Gebiete oder Teile solcher Gebiete kann festgesetzt werden, dass 
+in Gebäuden ein im Bebauungsplan bestimmter Anteil der zulässigen 
+Geschossfläche für Wohnungen zu verwenden ist.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:GFAntWohnen</gml:identifier>
+      <gml:name>xplan:GFAntWohnen</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Scale</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_GFWohnen">
+      <gml:description>Festsetzung nach §4a Abs. (4) Nr. 2 bzw. §6a Abs. (4) Nr. 3 BauNVO: Für besondere Wohngebiete und urbane Gebiete oder Teile solcher Gebiete kann festgesetzt werden, dass 
+in Gebäuden eine im Bebauungsplan bestimmte Größe der Geschossfläche für Wohnungen zu verwenden ist.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:GFWohnen</gml:identifier>
+      <gml:name>xplan:GFWohnen</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Area</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_GFAntGewerbe">
+      <gml:description>Festsetzung nach §6a Abs. (4) Nr. 4 BauNVO: Für urbane Gebiete oder Teile solcher Gebiete kann festgesetzt werden, dass 
+in Gebäuden ein im Bebauungsplan bestimmter Anteil der zulässigen 
+Geschossfläche für gewerbliche Nutzungen zu verwenden ist.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:GFAntGewerbe</gml:identifier>
+      <gml:name>xplan:GFAntGewerbe</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Scale</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_GFGewerbe">
+      <gml:description>Festsetzung nach §6a Abs. (4) Nr. 4 BauNVO: Für urbane Gebiete oder Teile solcher Gebiete kann festgesetzt werden, dass 
+in Gebäuden eine im Bebauungsplan bestimmte Größe der Geschossfläche für gewerbliche Nutzungen zu verwenden ist.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:GFGewerbe</gml:identifier>
+      <gml:name>xplan:GFGewerbe</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Area</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_VF">
+      <gml:description>Festsetzung der maximal zulässigen Verkaufsfläche in einem Sondergebiet</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:VF</gml:identifier>
+      <gml:name>xplan:VF</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Area</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_typ">
+      <gml:description>Festlegung der zu errichtenden Gebäude gemäß  §9 Absatz 2d Nr. 1 - 3 BauGB</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:typ</gml:identifier>
+      <gml:name>xplan:typ</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_typ_BP_TypWohngebaeudeFlaeche_1000">
+          <gml:description>Flächen, auf denen Wohngebäude errichtet werden dürfen</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:typ:BP_TypWohngebaeudeFlaeche:1000</gml:identifier>
+          <gml:name>WohnGebaeude</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_typ_BP_TypWohngebaeudeFlaeche_2000">
+          <gml:description>Flächen, auf denen nur Gebäude errichtet werden dürfen, bei denen einzelne oder alle Wohnungen die baulichen Voraussetzungen für eine Förderung mit Mitteln der sozialen Wohnraumförderung erfüllen</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:typ:BP_TypWohngebaeudeFlaeche:2000</gml:identifier>
+          <gml:name>GebaeudeFoerderung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_typ_BP_TypWohngebaeudeFlaeche_3000">
+          <gml:description>Flächen, auf denen nur Gebäude errichtet werden dürfen, bei denen sich ein Vorhabenträger hinsichtlich einzelner oder aller Wohnungen in einem städtebaulichen Vertrag verpflichtet, zum Zeitpunkt des Vertragsschlusses geltende Förderbedingungen der sozialen Wohnraumförderung, insbesondere die Mietpreisbindung, einzuhalten und die Einhaltung dieser Verpflichtung in geeigneter Weise sichergestellt wird</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:typ:BP_TypWohngebaeudeFlaeche:3000</gml:identifier>
+          <gml:name>GebaeudeStaedtebaulicherVertrag</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>1</def:cardinality>
+      <def:valueTypeName>BP_TypWohngebaeudeFlaeche</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_abweichungBauNVO">
+      <gml:description>Art der zulässigen Abweichung von der BauNVO.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:abweichungBauNVO</gml:identifier>
+      <gml:name>xplan:abweichungBauNVO</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_abweichungBauNVO_XP_AbweichungBauNVOTypen_1000">
+          <gml:description>Einschränkung einer generell erlaubten Nutzung.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:abweichungBauNVO:XP_AbweichungBauNVOTypen:1000</gml:identifier>
+          <gml:name>EinschraenkungNutzung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_abweichungBauNVO_XP_AbweichungBauNVOTypen_2000">
+          <gml:description>Ausschluss einer generell erlaubten Nutzung.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:abweichungBauNVO:XP_AbweichungBauNVOTypen:2000</gml:identifier>
+          <gml:name>AusschlussNutzung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_abweichungBauNVO_XP_AbweichungBauNVOTypen_3000">
+          <gml:description>Eine nur ausnahmsweise zulässige Nutzung wird generell zulässig.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:abweichungBauNVO:XP_AbweichungBauNVOTypen:3000</gml:identifier>
+          <gml:name>AusweitungNutzung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_abweichungBauNVO_XP_AbweichungBauNVOTypen_9999">
+          <gml:description>Sonstige Abweichung.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:abweichungBauNVO:XP_AbweichungBauNVOTypen:9999</gml:identifier>
+          <gml:name>SonstAbweichung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>XP_AbweichungBauNVOTypen</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_bauweise">
+      <gml:description>Festsetzung der Bauweise  ( §9 Absatz 2d  BauGB).</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:bauweise</gml:identifier>
+      <gml:name>xplan:bauweise</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_bauweise_BP_Bauweise_1000">
+          <gml:description>Offene Bauweise</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:bauweise:BP_Bauweise:1000</gml:identifier>
+          <gml:name>OffeneBauweise</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_bauweise_BP_Bauweise_2000">
+          <gml:description>Geschlossene Bauweise</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:bauweise:BP_Bauweise:2000</gml:identifier>
+          <gml:name>GeschlosseneBauweise</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_bauweise_BP_Bauweise_3000">
+          <gml:description>Abweichende Bauweise</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:bauweise:BP_Bauweise:3000</gml:identifier>
+          <gml:name>AbweichendeBauweise</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>BP_Bauweise</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_abweichendeBauweise">
+      <gml:description>Nähere Bezeichnung einer "Abweichenden Bauweise" ("&lt;i&gt;bauweise" == 3000&lt;/i&gt;).</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:abweichendeBauweise</gml:identifier>
+      <gml:name>xplan:abweichendeBauweise</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>BP_AbweichendeBauweise</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_vertikaleDifferenzierung">
+      <gml:description>Gibt an, ob eine vertikale Differenzierung der Gebäude vorgeschrieben ist.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:vertikaleDifferenzierung</gml:identifier>
+      <gml:name>xplan:vertikaleDifferenzierung</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="_BP_WohngebaeudeFlaeche_vertikaleDifferenzierung_Boolean_1">
+          <gml:identifier codeSpace="urn:">urn:xplan:enum::BP_WohngebaeudeFlaeche:vertikaleDifferenzierung:Boolean:1</gml:identifier>
+          <gml:name>TRUE</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="_BP_WohngebaeudeFlaeche_vertikaleDifferenzierung_Boolean_0">
+          <gml:identifier codeSpace="urn:">urn:xplan:enum::BP_WohngebaeudeFlaeche:vertikaleDifferenzierung:Boolean:0</gml:identifier>
+          <gml:name>FALSE</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Boolean</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_bebauungsArt">
+      <gml:description>Detaillierte Festsetzung der Bauweise (§9, Abs. 1, Nr. 2d BauGB).</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:bebauungsArt</gml:identifier>
+      <gml:name>xplan:bebauungsArt</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_bebauungsArt_BP_BebauungsArt_1000">
+          <gml:description>Nur Einzelhäuser zulässig.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:bebauungsArt:BP_BebauungsArt:1000</gml:identifier>
+          <gml:name>Einzelhaeuser</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_bebauungsArt_BP_BebauungsArt_2000">
+          <gml:description>Nur Doppelhäuser zulässig.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:bebauungsArt:BP_BebauungsArt:2000</gml:identifier>
+          <gml:name>Doppelhaeuser</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_bebauungsArt_BP_BebauungsArt_3000">
+          <gml:description>Nur Hausgruppen zulässig.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:bebauungsArt:BP_BebauungsArt:3000</gml:identifier>
+          <gml:name>Hausgruppen</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_bebauungsArt_BP_BebauungsArt_4000">
+          <gml:description>Nur Einzel- oder Doppelhäuser zulässig.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:bebauungsArt:BP_BebauungsArt:4000</gml:identifier>
+          <gml:name>EinzelDoppelhaeuser</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_bebauungsArt_BP_BebauungsArt_5000">
+          <gml:description>Nur Einzelhäuser oder Hausgruppen zulässig.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:bebauungsArt:BP_BebauungsArt:5000</gml:identifier>
+          <gml:name>EinzelhaeuserHausgruppen</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_bebauungsArt_BP_BebauungsArt_6000">
+          <gml:description>Nur Doppelhäuser oder Hausgruppen zulässig.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:bebauungsArt:BP_BebauungsArt:6000</gml:identifier>
+          <gml:name>DoppelhaeuserHausgruppen</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_bebauungsArt_BP_BebauungsArt_7000">
+          <gml:description>Nur Reihenhäuser zulässig.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:bebauungsArt:BP_BebauungsArt:7000</gml:identifier>
+          <gml:name>Reihenhaeuser</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_bebauungsArt_BP_BebauungsArt_8000">
+          <gml:description>Es sind Einzelhäuser, Doppelhäuser und Hausgruppen zulässig.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:bebauungsArt:BP_BebauungsArt:8000</gml:identifier>
+          <gml:name>EinzelhaeuserDoppelhaeuserHausgruppen</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>BP_BebauungsArt</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_bebauungVordereGrenze">
+      <gml:description>Festsetzung der Bebauung der vorderen Grundstücksgrenze (§9, Abs. 1, Nr. 2d BauGB).</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:bebauungVordereGrenze</gml:identifier>
+      <gml:name>xplan:bebauungVordereGrenze</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_bebauungVordereGrenze_BP_GrenzBebauung_1000">
+          <gml:description>Eine Bebauung der Grenze ist verboten.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:bebauungVordereGrenze:BP_GrenzBebauung:1000</gml:identifier>
+          <gml:name>Verboten</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_bebauungVordereGrenze_BP_GrenzBebauung_2000">
+          <gml:description>Eine Bebauung der Grenze ist erlaubt.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:bebauungVordereGrenze:BP_GrenzBebauung:2000</gml:identifier>
+          <gml:name>Erlaubt</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_bebauungVordereGrenze_BP_GrenzBebauung_3000">
+          <gml:description>Eine Bebauung der Grenze ist vorgeschrieben.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:bebauungVordereGrenze:BP_GrenzBebauung:3000</gml:identifier>
+          <gml:name>Erzwungen</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>BP_GrenzBebauung</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_bebauungRueckwaertigeGrenze">
+      <gml:description>Festsetzung der Bebauung der rückwärtigen Grundstücksgrenze (§9, Abs. 1, Nr. 2d BauGB).</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:bebauungRueckwaertigeGrenze</gml:identifier>
+      <gml:name>xplan:bebauungRueckwaertigeGrenze</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_bebauungRueckwaertigeGrenze_BP_GrenzBebauung_1000">
+          <gml:description>Eine Bebauung der Grenze ist verboten.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:bebauungRueckwaertigeGrenze:BP_GrenzBebauung:1000</gml:identifier>
+          <gml:name>Verboten</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_bebauungRueckwaertigeGrenze_BP_GrenzBebauung_2000">
+          <gml:description>Eine Bebauung der Grenze ist erlaubt.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:bebauungRueckwaertigeGrenze:BP_GrenzBebauung:2000</gml:identifier>
+          <gml:name>Erlaubt</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_bebauungRueckwaertigeGrenze_BP_GrenzBebauung_3000">
+          <gml:description>Eine Bebauung der Grenze ist vorgeschrieben.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:bebauungRueckwaertigeGrenze:BP_GrenzBebauung:3000</gml:identifier>
+          <gml:name>Erzwungen</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>BP_GrenzBebauung</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_bebauungSeitlicheGrenze">
+      <gml:description>Festsetzung der Bebauung der seitlichen Grundstücksgrenze (§9, Abs. 1, Nr. 2d BauGB).</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:bebauungSeitlicheGrenze</gml:identifier>
+      <gml:name>xplan:bebauungSeitlicheGrenze</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_bebauungSeitlicheGrenze_BP_GrenzBebauung_1000">
+          <gml:description>Eine Bebauung der Grenze ist verboten.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:bebauungSeitlicheGrenze:BP_GrenzBebauung:1000</gml:identifier>
+          <gml:name>Verboten</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_bebauungSeitlicheGrenze_BP_GrenzBebauung_2000">
+          <gml:description>Eine Bebauung der Grenze ist erlaubt.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:bebauungSeitlicheGrenze:BP_GrenzBebauung:2000</gml:identifier>
+          <gml:name>Erlaubt</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_bebauungSeitlicheGrenze_BP_GrenzBebauung_3000">
+          <gml:description>Eine Bebauung der Grenze ist vorgeschrieben.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:BP_WohngebaeudeFlaeche:bebauungSeitlicheGrenze:BP_GrenzBebauung:3000</gml:identifier>
+          <gml:name>Erzwungen</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>BP_GrenzBebauung</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_refGebaeudequerschnitt">
+      <gml:description>Referenz auf ein Dokument mit vorgeschriebenen Gebäudequerschnitten.
+</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:refGebaeudequerschnitt</gml:identifier>
+      <gml:name>xplan:refGebaeudequerschnitt</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:XP_ExterneReferenz" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_BP_WohngebaeudeFlaeche_zugunstenVon">
+      <gml:description>Angabe des Begünstigten einer Ausweisung.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:BP_WohngebaeudeFlaeche:attribute:zugunstenVon</gml:identifier>
+      <gml:name>xplan:zugunstenVon</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::CharacterString" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <def:classification>featureType</def:classification>
+  <def:supertypeRef xlink:href="urn:xplan:element:xplan:BP_Flaechenschlussobjekt" />
+</TypeDefinition>

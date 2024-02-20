@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/SpecificAppurtenanceTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:19 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/SpecificAppurtenanceTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/SpecificAppurtenanceTypeValue</latestversion>
+   <label xml:lang="en">Specific Appurtenance Type</label>
+   <definition xml:lang="en">Domain-specific classification of appurtenances.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/any">
+      <label xml:lang="en">Empty code list</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-common">
+      <label xml:lang="en">Common Utility Network Elements</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/us">
+      <label xml:lang="en">Utility and governmental services</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <codelist id="http://inspire.ec.europa.eu/codelist/ElectricityAppurtenanceTypeValue">
+         <language>en</language>
+         <created>2015-08-18 17:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ElectricityAppurtenanceTypeValue:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ElectricityAppurtenanceTypeValue</latestversion>
+         <label xml:lang="en">Electricity Appurtenance Type</label>
+         <definition xml:lang="en">Classification of electricity appurtenances.</definition>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/SpecificAppurtenanceTypeValue">
+               <label xml:lang="en">Specific Appurtenance Type</label>
+            </parent>
+         </parents>
+         <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+            <label xml:lang="en">Extensible with values at any level</label>
+         </extensibility>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-el">
+            <label xml:lang="en">Electricity Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeList">
+            <label xml:lang="en">CodeList</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </codelist>
+      <codelist id="http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue">
+         <language>en</language>
+         <created>2015-08-18 17:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue</latestversion>
+         <label xml:lang="en">Oil, Gas and Chemicals Appurtenance Type</label>
+         <definition xml:lang="en">Classification of oil, gas, chemicals appurtenances.</definition>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/SpecificAppurtenanceTypeValue">
+               <label xml:lang="en">Specific Appurtenance Type</label>
+            </parent>
+         </parents>
+         <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+            <label xml:lang="en">Extensible with values at any level</label>
+         </extensibility>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-ogc">
+            <label xml:lang="en">Oil-Gas-Chemicals Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeList">
+            <label xml:lang="en">CodeList</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </codelist>
+      <codelist id="http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue">
+         <language>en</language>
+         <created>2015-08-18 17:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue</latestversion>
+         <label xml:lang="en">Oil, Gas and Chemicals Product Type</label>
+         <definition xml:lang="en">Classification of oil, gas and chemicals products.</definition>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/SpecificAppurtenanceTypeValue">
+               <label xml:lang="en">Specific Appurtenance Type</label>
+            </parent>
+         </parents>
+         <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/any">
+            <label xml:lang="en">Empty code list</label>
+         </extensibility>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-ogc">
+            <label xml:lang="en">Oil-Gas-Chemicals Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeList">
+            <label xml:lang="en">CodeList</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </codelist>
+      <codelist id="http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue">
+         <language>en</language>
+         <created>2015-08-18 17:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue</latestversion>
+         <label xml:lang="en">Sewer Appurtenance Type</label>
+         <definition xml:lang="en">Classification of sewer appurtenances.</definition>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/SpecificAppurtenanceTypeValue">
+               <label xml:lang="en">Specific Appurtenance Type</label>
+            </parent>
+         </parents>
+         <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+            <label xml:lang="en">Extensible with values at any level</label>
+         </extensibility>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-sw">
+            <label xml:lang="en">Sewer Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeList">
+            <label xml:lang="en">CodeList</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </codelist>
+      <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+         <language>en</language>
+         <created>2015-08-18 17:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue</latestversion>
+         <label xml:lang="en">Water Appurtenance Type</label>
+         <definition xml:lang="en">Classification of water appurtenances.</definition>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/SpecificAppurtenanceTypeValue">
+               <label xml:lang="en">Specific Appurtenance Type</label>
+            </parent>
+         </parents>
+         <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+            <label xml:lang="en">Extensible with values at any level</label>
+         </extensibility>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeList">
+            <label xml:lang="en">CodeList</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </codelist>
+      <codelist id="http://inspire.ec.europa.eu/codelist/ThermalAppurtenanceTypeValue">
+         <language>en</language>
+         <created>2015-08-18 17:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ThermalAppurtenanceTypeValue:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ThermalAppurtenanceTypeValue</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/ThermalAppurtenanceTypeValue:1</version>
+         </previousversions>
+         <label xml:lang="en">Thermal Appurtenance Type</label>
+         <definition xml:lang="en">Classification of thermal appurtenances.</definition>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/SpecificAppurtenanceTypeValue">
+               <label xml:lang="en">Specific Appurtenance Type</label>
+            </parent>
+         </parents>
+         <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/any">
+            <label xml:lang="en">Empty code list</label>
+         </extensibility>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-th">
+            <label xml:lang="en">Thermal Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeList">
+            <label xml:lang="en">CodeList</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </codelist>
+   </containeditems></codelist>

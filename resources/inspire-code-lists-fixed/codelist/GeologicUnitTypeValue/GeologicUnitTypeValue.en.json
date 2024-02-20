@@ -1,0 +1,1944 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Geologic Unit Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue"
+        },
+        "created" : "2015-08-18 17:30 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/geologic_unit",
+            "lang" : "en"
+          },
+          "id" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/geologic_unit"
+        },
+        "label" : {
+          "text" : "geologic unit",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "referencesource" : {
+          "text" : "CGI Controlled Vocabulary",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Type of geologic unit that is unknown, unspecified, irrelevant, or some type not included in the vocabulary.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geologicUnit",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geologicUnit",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geologicUnit:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Geologic Unit Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue"
+        },
+        "created" : "2015-08-18 17:30 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/allostratigraphic_unit",
+            "lang" : "en"
+          },
+          "id" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/allostratigraphic_unit"
+        },
+        "label" : {
+          "text" : "allostratigraphic unit",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "referencesource" : {
+          "text" : "CGI Controlled Vocabulary",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Geologic unit defined by bounding surfaces. Not necessarily stratified.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/allostratigraphicUnit",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/allostratigraphicUnit",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/allostratigraphicUnit:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "geologic unit",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geologicUnit"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Geologic Unit Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue"
+        },
+        "created" : "2015-08-18 17:30 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/alteration_unit",
+            "lang" : "en"
+          },
+          "id" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/alteration_unit"
+        },
+        "label" : {
+          "text" : "alteration unit",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "referencesource" : {
+          "text" : "CGI Controlled Vocabulary",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Geologic unit defined by alteration process.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/alterationUnit",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/alterationUnit",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/alterationUnit:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "geologic unit",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geologicUnit"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Geologic Unit Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue"
+        },
+        "created" : "2015-08-18 17:30 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/biostratigraphic_unit",
+            "lang" : "en"
+          },
+          "id" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/biostratigraphic_unit"
+        },
+        "label" : {
+          "text" : "biostratigraphic unit",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "referencesource" : {
+          "text" : "CGI Controlled Vocabulary",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Geologic unit defined based on fossil content.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/biostratigraphicUnit",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/biostratigraphicUnit",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/biostratigraphicUnit:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "geologic unit",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geologicUnit"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Geologic Unit Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue"
+        },
+        "created" : "2015-08-18 17:30 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "chronostratigraphic unit",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "referencelink" : {
+          "text" : "ttp://resource.geosciml.org/classifier/cgi/geologicunittype/chronostratigraphic_unit",
+          "lang" : "en"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "referencesource" : {
+          "text" : "CGI Controlled Vocabulary",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Geologic unit that includes all rocks formed during a specific interval of geologic time",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/chronostratigraphicUnit",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/chronostratigraphicUnit",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/chronostratigraphicUnit:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "geologic unit",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geologicUnit"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Geologic Unit Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue"
+        },
+        "created" : "2015-08-18 17:30 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/geophysical_unit",
+            "lang" : "en"
+          },
+          "id" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/geophysical_unit"
+        },
+        "label" : {
+          "text" : "geophysical unit",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "referencesource" : {
+          "text" : "CGI Controlled Vocabulary",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Geologic unit defined by its geophysical characteristics.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geophysicalUnit",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geophysicalUnit",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geophysicalUnit:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "geologic unit",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geologicUnit"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Geologic Unit Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue"
+        },
+        "created" : "2015-08-18 17:30 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/magnetostratigraphic_unit",
+            "lang" : "en"
+          },
+          "id" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/magnetostratigraphic_unit"
+        },
+        "label" : {
+          "text" : "magnetostratigraphic unit",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "referencesource" : {
+          "text" : "CGI Controlled Vocabulary",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Geologic unit defined by magnetic characteristics.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/magnetostratigraphicUnit",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/magnetostratigraphicUnit",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/magnetostratigraphicUnit:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "geophysical unit",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geophysicalUnit"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Geologic Unit Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue"
+        },
+        "created" : "2015-08-18 17:30 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/lithogenetic_unit",
+            "lang" : "en"
+          },
+          "id" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/lithogenetic_unit"
+        },
+        "label" : {
+          "text" : "lithogenetic unit",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "referencesource" : {
+          "text" : "CGI Controlled Vocabulary",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Geologic unit defined by genesis. The genesis is manifested by material properties, but the material is not the defining property.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithogeneticUnit",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithogeneticUnit",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithogeneticUnit:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "geologic unit",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geologicUnit"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Geologic Unit Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue"
+        },
+        "created" : "2015-08-18 17:30 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/artificial_ground",
+            "lang" : "en"
+          },
+          "id" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/artificial_ground"
+        },
+        "label" : {
+          "text" : "artificial ground",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "referencesource" : {
+          "text" : "CGI Controlled Vocabulary",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Geologic unit defined by genesis involving direct human action to deposit or modify material.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/artificialGround",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/artificialGround",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/artificialGround:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/artificialGround:1"
+        } ],
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "lithogenetic unit",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithogeneticUnit"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Geologic Unit Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue"
+        },
+        "created" : "2015-08-18 17:30 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/excavation_unit",
+            "lang" : "en"
+          },
+          "id" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/excavation_unit"
+        },
+        "label" : {
+          "text" : "excavation unit",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "referencesource" : {
+          "text" : "CGI Controlled Vocabulary",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Geologic unit defined by human-made genesis involving excavation.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/excavationUnit",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/excavationUnit",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/excavationUnit:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/excavationUnit:1"
+        } ],
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "lithogenetic unit",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithogeneticUnit"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Geologic Unit Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue"
+        },
+        "created" : "2015-08-18 17:30 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/mass_movement_unit",
+            "lang" : "en"
+          },
+          "id" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/mass_movement_unit"
+        },
+        "label" : {
+          "text" : "mass movement unit",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "referencesource" : {
+          "text" : "CGI Controlled Vocabulary",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Geologic unit produced by gravity driven, down-slope displacement of material, and characterized by the type of movement giving rise to the deposit, and by how the individual movement types present in the deposit are related in time and space.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/massMovementUnit",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/massMovementUnit",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/massMovementUnit:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "lithogenetic unit",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithogeneticUnit"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Geologic Unit Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue"
+        },
+        "created" : "2015-08-18 17:30 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/lithologic_unit",
+            "lang" : "en"
+          },
+          "id" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/lithologic_unit"
+        },
+        "label" : {
+          "text" : "lithologic unit",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "referencesource" : {
+          "text" : "CGI Controlled Vocabulary",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Geologic unit defined by lithology independent of relationships to other units.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithologicUnit",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithologicUnit",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithologicUnit:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "geologic unit",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geologicUnit"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Geologic Unit Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue"
+        },
+        "created" : "2015-08-18 17:30 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/lithostratigraphic_unit",
+            "lang" : "en"
+          },
+          "id" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/lithostratigraphic_unit"
+        },
+        "label" : {
+          "text" : "lithostratigraphic unit",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "referencesource" : {
+          "text" : "CGI Controlled Vocabulary",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Geologic unit defined on the basis of observable and distinctive lithologic properties or combination of lithologic properties and stratigraphic relationships.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithostratigraphicUnit",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithostratigraphicUnit",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithostratigraphicUnit:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "geologic unit",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geologicUnit"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Geologic Unit Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue"
+        },
+        "created" : "2015-08-18 17:30 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/lithodemic_unit",
+            "lang" : "en"
+          },
+          "id" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/lithodemic_unit"
+        },
+        "label" : {
+          "text" : "lithodemic unit",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "referencesource" : {
+          "text" : "CGI Controlled Vocabulary",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Lithostratigraphic unit that lacks stratification",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithodemicUnit",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithodemicUnit",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithodemicUnit:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "lithostratigraphic unit",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithostratigraphicUnit"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Geologic Unit Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue"
+        },
+        "created" : "2015-08-18 17:30 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/lithotectonic_unit",
+            "lang" : "en"
+          },
+          "id" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/lithotectonic_unit"
+        },
+        "label" : {
+          "text" : "lithotectonic unit",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "referencesource" : {
+          "text" : "CGI Controlled Vocabulary",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Geologic unit defined on basis of structural or deformation features, mutual relations, origin or historical evolution. Contained material may be igneous, sedimentary, or metamorphic.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithotectonicUnit",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithotectonicUnit",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithotectonicUnit:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "geologic unit",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geologicUnit"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Geologic Unit Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue"
+        },
+        "created" : "2015-08-18 17:30 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "deformation unit",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "referencelink" : {
+          "text" : "ttp://resource.geosciml.org/classifier/cgi/geologicunittype/deformation_unit",
+          "lang" : "en"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "referencesource" : {
+          "text" : "CGI Controlled Vocabulary",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Lithotectonic unit defined by deformation style or characteristic geologic structure observable in outcrop.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/deformationUnit",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/deformationUnit",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/deformationUnit:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "lithotectonic unit",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithotectonicUnit"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Geologic Unit Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue"
+        },
+        "created" : "2015-08-18 17:30 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/pedostratigraphic_unit",
+            "lang" : "en"
+          },
+          "id" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/pedostratigraphic_unit"
+        },
+        "label" : {
+          "text" : "pedostratigraphic unit",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "referencesource" : {
+          "text" : "CGI Controlled Vocabulary",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Geologic unit that represents a single pedologic horizon in a sequence of strata (consolidated or non-consolidated).",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/pedostratigraphicUnit",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/pedostratigraphicUnit",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/pedostratigraphicUnit:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "geologic unit",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geologicUnit"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Geologic Unit Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue"
+        },
+        "created" : "2015-08-18 17:30 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/polarity_chronostratigraphic_unit",
+            "lang" : "en"
+          },
+          "id" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/polarity_chronostratigraphic_unit"
+        },
+        "label" : {
+          "text" : "polarity chronostratigraphic unit",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "referencesource" : {
+          "text" : "CGI Controlled Vocabulary",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Geologic unit defined by primary magnetic-polarity record imposed when the rock was deposited or crystallized during a specific interval of geologic time.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/polarityChronostratigraphicUnit",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/polarityChronostratigraphicUnit",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/polarityChronostratigraphicUnit:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "geologic unit",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geologicUnit"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "description" : {
+      "text" : "EXAMPLE: GeologicUnit, AllostratigraphicUnit etc",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Geologic Unit Type",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "open",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Extensible with values at any level",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "ge",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Geology",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+    },
+    "definition" : {
+      "text" : "Terms describing the type of geologic unit.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "ge",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/ge"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

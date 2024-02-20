@@ -1,0 +1,110 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "created" : "2015-08-18 17:19 PM CEST",
+    "document" : {
+      "label" : {
+        "text" : "EUNISSpec",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/document/EUNISSpec"
+    },
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "EUNIS Species Code",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "none",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Not extensible",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "sd",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/sd"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Species Distribution",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/sd"
+    },
+    "definition" : {
+      "text" : "Reference lists containing the EUNIS species identifiers, as specified in EUNIS Biodiversity database published on the web site of the European Environment Agency.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "sd",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/sd"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/EunisSpeciesCodeValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/EunisSpeciesCodeValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/EunisSpeciesCodeValue:1",
+    "parents" : [ {
+      "parent" : {
+        "label" : {
+          "text" : "Reference Species Code",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ReferenceSpeciesCodeValue"
+      }
+    } ],
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

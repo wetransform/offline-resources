@@ -1,0 +1,2838 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Some of the processes here included are clearly addressed as geological in the scientific literature, such as volcanic hazards or earthquake hazards, whereas other processes cannot be understood without geological and hydrological input, such as certain types of landslides (that can be triggered and mobilised by water), or floods (highly dependent on soil infiltration properties, topography, water table fluctuations), etc.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "geological / hydrological",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "Processes that have a geological (geosphere) or hydrological (hydrosphere) nature (or origin).",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/geologicalHydrological",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/geologicalHydrological",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/geologicalHydrological:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Tsunamis can be triggered by earthquakes, landslide, volcanic explosions, meteorites, etc. Even though it is a certain type of flood it is usually considered as a separated process.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "tsunami",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "Long wave disruption in a large water body reaching emerged land.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/tsunami",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/tsunami",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/tsunami:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "geological / hydrological",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/geologicalHydrological"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Process directly linked to volcanic eruptions are expected to be included in this category, such as lahars, jökulhaups, ash fall, volcanic explosions, freatic explosions, etc.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "volcanic",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "An opening, or rupture, in the Earth's crust that allows hot magma, ash and gases to escape.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/volcanic",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/volcanic",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/volcanic:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "geological / hydrological",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/geologicalHydrological"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Liquefaction, ground shaking and other effects directly caused by seismic waves should also be included in this category. Processes that might be triggered by other processes might fit best in other classes.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "earthquake",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "Earthquake hazards involve the propagation of elastic waves at or near the surface after the release of tectonic stress or other natural sources, such as volcanic explosions or meteorite impacts.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/earthquake",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/earthquake",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/earthquake:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "geological / hydrological",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/geologicalHydrological"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Subsidence and collapse can be associated with carbonate rocks in karstic areas, but it can occur in other regions such as loessic soils or compressible soils.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "subsidence and collapse",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "Subsidence and collapse involve mainly vertical downwards ground movement of the surface of the Earth due to different processes of rock or soil weathering or rock compaction to a point where the rock structure cannot bear its own load (collapse) or causing relatively slow downwards movements (subsidence).",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/subsidenceAndCollapse",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/subsidenceAndCollapse",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/subsidenceAndCollapse:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "geological / hydrological",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/geologicalHydrological"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Some common terms used for describing different types of landslides include but are not restricted to slides, rock fall, debris flow.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "landslide",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "Processes of downhill slope movements of soil, rock, and organicMaterials related to different types of ground failure.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/landslide",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/landslide",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/landslide:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "geological / hydrological",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/geologicalHydrological"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Snow avalanches usually incorporate materials swept along the path of the snow avalanche, such as trees, rocks, etc. Avalanche formation is the result of a complex interaction between terrain, snow pack and meteorological conditions",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "snow avalanche",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "A snow mass with typically a volume greater than 100 m3 and a minimum length of 50 meters that slides rapidly downhill.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/snowAvalanche",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/snowAvalanche",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/snowAvalanche:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "geological / hydrological",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/geologicalHydrological"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Floods can be of many types (flash floods, river overflow, tidal floods), and can have many triggers (precipitation, natural water reservoir dam failure, river channel obstruction, etc). Tsunamis and a storm surges are usually considered as a different natural hazard.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "flood",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "Processes of inundation of usually dry (emerged) land, or temporary covering by water of land not normally covered by water.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/flood",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/flood",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/flood:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "geological / hydrological",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/geologicalHydrological"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Asbestos, natural radioactivity or gas emanation are some examples of hazards within this category",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "toxic or radioactive",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "Processes related to the nature of substances that might pose a threat to human health.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/toxicOrRadioactive",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/toxicOrRadioactive",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/toxicOrRadioactive:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/toxicOrRadioactive:1"
+        } ],
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "geological / hydrological",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/geologicalHydrological"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "meteorological / climatological",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "Processes that have a meteorological (atmospheric) or climatic (changes in the long-run of environmental variables) nature (or origin).",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/meteorologicalClimatological",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/meteorologicalClimatological",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/meteorologicalClimatological:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Drought should not be confused with aridity, which is a long-term average feature of a dry climate. Likewise, drought should not be confused with water scarcity, which reflects conditions of long-term imbalances between water availability and demands. Droughts can affect both high and low rainfall areas of Europe and can develop over short periods of weeks and months or much longer periods of several seasons, years and even decades.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "drought",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "Sustained and extensive occurrence of below-average water availability, caused by climate variability.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/drought",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/drought",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/drought:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "meteorological / climatological",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/meteorologicalClimatological"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Heat waves or cold waves.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "extreme temperature",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "An abnormal temperature rise or decrease lasting longer than usual temperature rise or drop.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/extremeTemperature",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/extremeTemperature",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/extremeTemperature:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "meteorological / climatological",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/meteorologicalClimatological"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "tornados, hurricanes and strong winds",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "Violent (high speed) winds.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/tornadosAndHurricanesStrongWinds",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/tornadosAndHurricanesStrongWinds",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/tornadosAndHurricanesStrongWinds:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "meteorological / climatological",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/meteorologicalClimatological"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "lightning",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "Discharge of atmospheric electricity.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/lightning",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/lightning",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/lightning:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "meteorological / climatological",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/meteorologicalClimatological"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Although a storm surge is a kind of flood, it is usually considered as a separated class.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "storm surge",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "Water pushed from the sea onto the land caused by an atmospheric disruption such as a hurricane or a rapid change in atmospheric pressure.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/stormSurge",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/stormSurge",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/stormSurge:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "meteorological / climatological",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/meteorologicalClimatological"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "fires",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "This category includes all types of processes that involve the occurrence and spreading of fire.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/fires",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/fires",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/fires:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Forest fire means fire which breaks out and spreads on forest and other wooded land or which breaks out on other land and spreads to forest and other wooded land. The definition of forest fire excludes prescribed or controlled burning, usually with the aim of reducing or eliminating the quantity of accumulated fuel on the ground (Regulation EC 2152/2003 - Forest Focus). Wildland Fire: Any fire occurring on wildland regardless of ignition sources, damages or benefits (FAO,  2011, Wildland Fire Management Terminology, FAO, updated September 2010).",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "forest fires or wild fires",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "Fire occurrence and spreading on vegetated land.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/forestFireWildfire",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/forestFireWildfire",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/forestFireWildfire:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "fires",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/fires"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "underground fires",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "Fire spreading below the surface, typically occurring in peat rich soils.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/undergroundFires",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/undergroundFires",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/undergroundFires:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "fires",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/fires"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "biological",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "Processes that are directly linked to living organisms or products produced by living organisms.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/biological",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/biological",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/biological:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/biological:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "infestation",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "Abnormal population increase of living organisms.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/infestation",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/infestation",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/infestation:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "biological",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/biological"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "epidemic",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "An outbreak of a disease that spreads rapidly among individuals in an area or population.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/epidemic",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/epidemic",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/epidemic:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "allergens",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "Biological products or substances (such as pollen) that might cause allergy over a large number of people.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/allergens",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/allergens",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/allergens:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/allergens:1"
+        } ],
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "biological",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/biological"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "cosmic",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "Processes from outer space.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/cosmic",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/cosmic",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/cosmic:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "meteorite impact",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "Solid materials from outer space reaching the Earth.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/meteoriteImpact",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/meteoriteImpact",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/meteoriteImpact:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "cosmic",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/cosmic"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "magnetic disruption",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "Disturbances of the magnetic field of the Earth.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/magneticDisruption",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/magneticDisruption",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/magneticDisruption:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "cosmic",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/cosmic"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 17:35 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "solar and cosmic radiations",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "Radiation from outer space (UV, gamma ray, etc).",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/solarAndCosmicRadiation",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/solarAndCosmicRadiation",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/solarAndCosmicRadiation:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "cosmic",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/cosmic"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 18:13 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "Sand dune movements, soil erosion, maelstroms, iceberg movements  among other processes can be included here.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "other geological / hydrological hazard",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "Any process not already addressed within other geological or hydrological categories",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/otherGeologicalHydrological",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/otherGeologicalHydrological",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/otherGeologicalHydrological:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 18:13 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "Natural desertification can be included in this category.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "other meteorological / climatological hazard",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "Any process not already addressed within other meteorological / Climatological categories",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/otherMeteorologicalClimatological",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/otherMeteorologicalClimatological",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/otherMeteorologicalClimatological:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 18:13 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "Prions and other toxic substances produced by (or within) living organisms can be included here.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "other biological hazards",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "Other biological hazards not already addressed within other biological categories",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/otherBiological",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/otherBiological",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/otherBiological:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Natural Hazard Category",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue"
+        },
+        "created" : "2015-08-18 18:13 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "other cosmic hazard",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "nz-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Natural Risk Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+        },
+        "definition" : {
+          "text" : "Other cosmic hazards not already addressed within other cosmic categories",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "nz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/nz"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/otherCosmic",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/otherCosmic",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/otherCosmic:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Natural Hazard Category",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "narrower",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/narrower"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Extensible with narrower values",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/narrower"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "nz-core",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Natural Risk Zones",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+    },
+    "definition" : {
+      "text" : "A generic classification of types of natural hazards.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "nz",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/nz"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

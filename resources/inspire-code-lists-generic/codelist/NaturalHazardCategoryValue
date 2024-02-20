@@ -1,0 +1,1119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue</latestversion>
+   <label xml:lang="en">Natural Hazard Category</label>
+   <definition xml:lang="en">A generic classification of types of natural hazards.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/narrower">
+      <label xml:lang="en">Extensible with narrower values</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+      <label xml:lang="en">Natural Risk Zones</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/nz">
+      <label xml:lang="en">Natural risk zones</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/geologicalHydrological">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/geologicalHydrological:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/geologicalHydrological</latestversion>
+         <label xml:lang="en">geological / hydrological</label>
+         <definition xml:lang="en">Processes that have a geological (geosphere) or hydrological (hydrosphere) nature (or origin).</definition>
+         <description xml:lang="en">Some of the processes here included are clearly addressed as geological in the scientific literature, such as volcanic hazards or earthquake hazards, whereas other processes cannot be understood without geological and hydrological input, such as certain types of landslides (that can be triggered and mobilised by water), or floods (highly dependent on soil infiltration properties, topography, water table fluctuations), etc.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/tsunami">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/tsunami:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/tsunami</latestversion>
+         <label xml:lang="en">tsunami</label>
+         <definition xml:lang="en">Long wave disruption in a large water body reaching emerged land.</definition>
+         <description xml:lang="en">Tsunamis can be triggered by earthquakes, landslide, volcanic explosions, meteorites, etc. Even though it is a certain type of flood it is usually considered as a separated process.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/geologicalHydrological">
+               <label xml:lang="en">geological / hydrological</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/volcanic">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/volcanic:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/volcanic</latestversion>
+         <label xml:lang="en">volcanic</label>
+         <definition xml:lang="en">An opening, or rupture, in the Earth's crust that allows hot magma, ash and gases to escape.</definition>
+         <description xml:lang="en">Process directly linked to volcanic eruptions are expected to be included in this category, such as lahars, jökulhaups, ash fall, volcanic explosions, freatic explosions, etc.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/geologicalHydrological">
+               <label xml:lang="en">geological / hydrological</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/earthquake">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/earthquake:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/earthquake</latestversion>
+         <label xml:lang="en">earthquake</label>
+         <definition xml:lang="en">Earthquake hazards involve the propagation of elastic waves at or near the surface after the release of tectonic stress or other natural sources, such as volcanic explosions or meteorite impacts.</definition>
+         <description xml:lang="en">Liquefaction, ground shaking and other effects directly caused by seismic waves should also be included in this category. Processes that might be triggered by other processes might fit best in other classes.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/geologicalHydrological">
+               <label xml:lang="en">geological / hydrological</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/subsidenceAndCollapse">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/subsidenceAndCollapse:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/subsidenceAndCollapse</latestversion>
+         <label xml:lang="en">subsidence and collapse</label>
+         <definition xml:lang="en">Subsidence and collapse involve mainly vertical downwards ground movement of the surface of the Earth due to different processes of rock or soil weathering or rock compaction to a point where the rock structure cannot bear its own load (collapse) or causing relatively slow downwards movements (subsidence).</definition>
+         <description xml:lang="en">Subsidence and collapse can be associated with carbonate rocks in karstic areas, but it can occur in other regions such as loessic soils or compressible soils.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/geologicalHydrological">
+               <label xml:lang="en">geological / hydrological</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/landslide">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/landslide:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/landslide</latestversion>
+         <label xml:lang="en">landslide</label>
+         <definition xml:lang="en">Processes of downhill slope movements of soil, rock, and organicMaterials related to different types of ground failure.</definition>
+         <description xml:lang="en">Some common terms used for describing different types of landslides include but are not restricted to slides, rock fall, debris flow.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/geologicalHydrological">
+               <label xml:lang="en">geological / hydrological</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/snowAvalanche">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/snowAvalanche:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/snowAvalanche</latestversion>
+         <label xml:lang="en">snow avalanche</label>
+         <definition xml:lang="en">A snow mass with typically a volume greater than 100 m3 and a minimum length of 50 meters that slides rapidly downhill.</definition>
+         <description xml:lang="en">Snow avalanches usually incorporate materials swept along the path of the snow avalanche, such as trees, rocks, etc. Avalanche formation is the result of a complex interaction between terrain, snow pack and meteorological conditions</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/geologicalHydrological">
+               <label xml:lang="en">geological / hydrological</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/flood">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/flood:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/flood</latestversion>
+         <label xml:lang="en">flood</label>
+         <definition xml:lang="en">Processes of inundation of usually dry (emerged) land, or temporary covering by water of land not normally covered by water.</definition>
+         <description xml:lang="en">Floods can be of many types (flash floods, river overflow, tidal floods), and can have many triggers (precipitation, natural water reservoir dam failure, river channel obstruction, etc). Tsunamis and a storm surges are usually considered as a different natural hazard.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/geologicalHydrological">
+               <label xml:lang="en">geological / hydrological</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/toxicOrRadioactive">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/toxicOrRadioactive:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/toxicOrRadioactive</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/toxicOrRadioactive:1</version>
+         </previousversions>
+         <label xml:lang="en">toxic or radioactive</label>
+         <definition xml:lang="en">Processes related to the nature of substances that might pose a threat to human health.</definition>
+         <description xml:lang="en">Asbestos, natural radioactivity or gas emanation are some examples of hazards within this category</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/geologicalHydrological">
+               <label xml:lang="en">geological / hydrological</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/meteorologicalClimatological">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/meteorologicalClimatological:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/meteorologicalClimatological</latestversion>
+         <label xml:lang="en">meteorological / climatological</label>
+         <definition xml:lang="en">Processes that have a meteorological (atmospheric) or climatic (changes in the long-run of environmental variables) nature (or origin).</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/drought">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/drought:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/drought</latestversion>
+         <label xml:lang="en">drought</label>
+         <definition xml:lang="en">Sustained and extensive occurrence of below-average water availability, caused by climate variability.</definition>
+         <description xml:lang="en">Drought should not be confused with aridity, which is a long-term average feature of a dry climate. Likewise, drought should not be confused with water scarcity, which reflects conditions of long-term imbalances between water availability and demands. Droughts can affect both high and low rainfall areas of Europe and can develop over short periods of weeks and months or much longer periods of several seasons, years and even decades.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/meteorologicalClimatological">
+               <label xml:lang="en">meteorological / climatological</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/extremeTemperature">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/extremeTemperature:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/extremeTemperature</latestversion>
+         <label xml:lang="en">extreme temperature</label>
+         <definition xml:lang="en">An abnormal temperature rise or decrease lasting longer than usual temperature rise or drop.</definition>
+         <description xml:lang="en">Heat waves or cold waves.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/meteorologicalClimatological">
+               <label xml:lang="en">meteorological / climatological</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/tornadosAndHurricanesStrongWinds">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/tornadosAndHurricanesStrongWinds:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/tornadosAndHurricanesStrongWinds</latestversion>
+         <label xml:lang="en">tornados, hurricanes and strong winds</label>
+         <definition xml:lang="en">Violent (high speed) winds.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/meteorologicalClimatological">
+               <label xml:lang="en">meteorological / climatological</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/lightning">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/lightning:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/lightning</latestversion>
+         <label xml:lang="en">lightning</label>
+         <definition xml:lang="en">Discharge of atmospheric electricity.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/meteorologicalClimatological">
+               <label xml:lang="en">meteorological / climatological</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/stormSurge">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/stormSurge:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/stormSurge</latestversion>
+         <label xml:lang="en">storm surge</label>
+         <definition xml:lang="en">Water pushed from the sea onto the land caused by an atmospheric disruption such as a hurricane or a rapid change in atmospheric pressure.</definition>
+         <description xml:lang="en">Although a storm surge is a kind of flood, it is usually considered as a separated class.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/meteorologicalClimatological">
+               <label xml:lang="en">meteorological / climatological</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/fires">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/fires:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/fires</latestversion>
+         <label xml:lang="en">fires</label>
+         <definition xml:lang="en">This category includes all types of processes that involve the occurrence and spreading of fire.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/forestFireWildfire">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/forestFireWildfire:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/forestFireWildfire</latestversion>
+         <label xml:lang="en">forest fires or wild fires</label>
+         <definition xml:lang="en">Fire occurrence and spreading on vegetated land.</definition>
+         <description xml:lang="en">Forest fire means fire which breaks out and spreads on forest and other wooded land or which breaks out on other land and spreads to forest and other wooded land. The definition of forest fire excludes prescribed or controlled burning, usually with the aim of reducing or eliminating the quantity of accumulated fuel on the ground (Regulation EC 2152/2003 - Forest Focus). Wildland Fire: Any fire occurring on wildland regardless of ignition sources, damages or benefits (FAO,  2011, Wildland Fire Management Terminology, FAO, updated September 2010).</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/fires">
+               <label xml:lang="en">fires</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/undergroundFires">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/undergroundFires:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/undergroundFires</latestversion>
+         <label xml:lang="en">underground fires</label>
+         <definition xml:lang="en">Fire spreading below the surface, typically occurring in peat rich soils.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/fires">
+               <label xml:lang="en">fires</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/biological">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/biological:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/biological</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/biological:1</version>
+         </previousversions>
+         <label xml:lang="en">biological</label>
+         <definition xml:lang="en">Processes that are directly linked to living organisms or products produced by living organisms.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/infestation">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/infestation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/infestation</latestversion>
+         <label xml:lang="en">infestation</label>
+         <definition xml:lang="en">Abnormal population increase of living organisms.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/biological">
+               <label xml:lang="en">biological</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/epidemic">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/epidemic:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/epidemic</latestversion>
+         <label xml:lang="en">epidemic</label>
+         <definition xml:lang="en">An outbreak of a disease that spreads rapidly among individuals in an area or population.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/allergens">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/allergens:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/allergens</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/allergens:1</version>
+         </previousversions>
+         <label xml:lang="en">allergens</label>
+         <definition xml:lang="en">Biological products or substances (such as pollen) that might cause allergy over a large number of people.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/biological">
+               <label xml:lang="en">biological</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/cosmic">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/cosmic:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/cosmic</latestversion>
+         <label xml:lang="en">cosmic</label>
+         <definition xml:lang="en">Processes from outer space.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/meteoriteImpact">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/meteoriteImpact:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/meteoriteImpact</latestversion>
+         <label xml:lang="en">meteorite impact</label>
+         <definition xml:lang="en">Solid materials from outer space reaching the Earth.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/cosmic">
+               <label xml:lang="en">cosmic</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/magneticDisruption">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/magneticDisruption:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/magneticDisruption</latestversion>
+         <label xml:lang="en">magnetic disruption</label>
+         <definition xml:lang="en">Disturbances of the magnetic field of the Earth.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/cosmic">
+               <label xml:lang="en">cosmic</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/solarAndCosmicRadiation">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/solarAndCosmicRadiation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/solarAndCosmicRadiation</latestversion>
+         <label xml:lang="en">solar and cosmic radiations</label>
+         <definition xml:lang="en">Radiation from outer space (UV, gamma ray, etc).</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/cosmic">
+               <label xml:lang="en">cosmic</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/otherGeologicalHydrological">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/otherGeologicalHydrological:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/otherGeologicalHydrological</latestversion>
+         <label xml:lang="en">other geological / hydrological hazard</label>
+         <definition xml:lang="en">Any process not already addressed within other geological or hydrological categories</definition>
+         <description xml:lang="en">Sand dune movements, soil erosion, maelstroms, iceberg movements  among other processes can be included here.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/otherMeteorologicalClimatological">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/otherMeteorologicalClimatological:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/otherMeteorologicalClimatological</latestversion>
+         <label xml:lang="en">other meteorological / climatological hazard</label>
+         <definition xml:lang="en">Any process not already addressed within other meteorological / Climatological categories</definition>
+         <description xml:lang="en">Natural desertification can be included in this category.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/otherBiological">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/otherBiological:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/otherBiological</latestversion>
+         <label xml:lang="en">other biological hazards</label>
+         <definition xml:lang="en">Other biological hazards not already addressed within other biological categories</definition>
+         <description xml:lang="en">Prions and other toxic substances produced by (or within) living organisms can be included here.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/otherCosmic">
+         <language>en</language>
+         <created>2015-08-18 18:13 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/otherCosmic:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/otherCosmic</latestversion>
+         <label xml:lang="en">other cosmic hazard</label>
+         <definition xml:lang="en">Other cosmic hazards not already addressed within other cosmic categories</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue">
+            <label xml:lang="en">Natural Hazard Category</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

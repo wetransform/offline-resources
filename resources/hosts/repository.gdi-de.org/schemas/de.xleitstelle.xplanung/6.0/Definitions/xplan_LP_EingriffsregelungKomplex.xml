@@ -1,0 +1,67 @@
+﻿<!--Erzeugt mit KIT (www.kit.edu) UmlToXmlTransformation-Software, Erstellungsdatum: 31.10.2022 09:25:49-->
+<TypeDefinition xmlns="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ../xsd/ShapeChangeDefinitions.xsd" gml:id="xplan_LP_EingriffsregelungKomplex">
+  <gml:description>Datentyp mit Angaben für eine komplexe Eingriffsregelung</gml:description>
+  <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_EingriffsregelungKomplex</gml:identifier>
+  <gml:name>xplan:LP_EingriffsregelungKomplex</gml:name>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_EingriffsregelungKomplex_eRFlaechenArt">
+      <gml:description>Differenzierung der Planungsaussagen mit Bezug zur Eingriffsregelung und der Bewältigung von Eingriffsfolgen.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_EingriffsregelungKomplex:attribute:eRFlaechenArt</gml:identifier>
+      <gml:name>xplan:eRFlaechenArt</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_EingriffsregelungKomplex_eRFlaechenArt_LP_ERFlaechenArt_1000">
+          <gml:description>Potenzielle Fl&amp;#228;che f&amp;#252;r Kompensation (nach &amp;#167;9 Abs. 3 Ziffer 4 lit. c BNatSchG)</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_EingriffsregelungKomplex:eRFlaechenArt:LP_ERFlaechenArt:1000</gml:identifier>
+          <gml:name>PotenzielleFlaecheKompensation</gml:name>
+          <gml:name codeSpace="lesbarerName">Potenzielle Fläche Kompensation</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_EingriffsregelungKomplex_eRFlaechenArt_LP_ERFlaechenArt_2000">
+          <gml:description>Fl&amp;#228;chenpool</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_EingriffsregelungKomplex:eRFlaechenArt:LP_ERFlaechenArt:2000</gml:identifier>
+          <gml:name>Flaechenpool</gml:name>
+          <gml:name codeSpace="lesbarerName">Flächenpool</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_EingriffsregelungKomplex_eRFlaechenArt_LP_ERFlaechenArt_3000">
+          <gml:description>Kompensation (Einzelfl&amp;#228;che)</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_EingriffsregelungKomplex:eRFlaechenArt:LP_ERFlaechenArt:3000</gml:identifier>
+          <gml:name>KompensationEinzelflaeche</gml:name>
+          <gml:name codeSpace="lesbarerName">Kompensation Einzelfläche</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_EingriffsregelungKomplex_eRFlaechenArt_LP_ERFlaechenArt_4000">
+          <gml:description>Kompensationsverzeichnis</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_EingriffsregelungKomplex:eRFlaechenArt:LP_ERFlaechenArt:4000</gml:identifier>
+          <gml:name>Kompensationsverzeichnis</gml:name>
+          <gml:name codeSpace="lesbarerName">Kompensationsverzeichnis</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_EingriffsregelungKomplex_eRFlaechenArt_LP_ERFlaechenArt_9999">
+          <gml:description>Sonstiger Typ von Kompensationsfl&amp;#228;chen/-Ma&amp;#223;nahmen, siehe &lt;i&gt;ERFlaechenArtText&lt;/i&gt;.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_EingriffsregelungKomplex:eRFlaechenArt:LP_ERFlaechenArt:9999</gml:identifier>
+          <gml:name>Sonstiges</gml:name>
+          <gml:name codeSpace="lesbarerName">Sonstiges</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>1</def:cardinality>
+      <def:valueTypeName>LP_ERFlaechenArt</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_EingriffsregelungKomplex_eRFlaechenArtText">
+      <gml:description>Textliche Differenzierung der Planungsaussagen mit Bezug zur Eingriffsregelung und der Bewältigung von Eingriffsfolgen, wenn &lt;i&gt;ERFlaechenArt &lt;/i&gt;= 9999.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_EingriffsregelungKomplex:attribute:eRFlaechenArtText</gml:identifier>
+      <gml:name>xplan:eRFlaechenArtText</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>CharacterString</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <def:classification>featureType</def:classification>
+</TypeDefinition>

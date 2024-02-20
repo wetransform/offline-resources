@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/BreakLineTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/BreakLineTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/BreakLineTypeValue</latestversion>
+   <label xml:lang="en">Breakline Type</label>
+   <definition xml:lang="en">List of possible type values for break lines based on the physical characteristics of the break line [in the elevation surface].</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/narrower">
+      <label xml:lang="en">Extensible with narrower values</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/el-vec">
+      <label xml:lang="en">Elevation - Vector Elements</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/el">
+      <label xml:lang="en">Elevation</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/BreakLineTypeValue/bottomOfSlope">
+         <language>en</language>
+         <created>2015-08-18 17:29 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/BreakLineTypeValue/bottomOfSlope:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/BreakLineTypeValue/bottomOfSlope</latestversion>
+         <label xml:lang="en">bottom of slope</label>
+         <definition xml:lang="en">Break line representing the lower boundary of an area having a constant slope in the terrain surface, typically varying approximately between 2° and 40°.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/BreakLineTypeValue">
+            <label xml:lang="en">Breakline Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/el-vec">
+            <label xml:lang="en">Elevation - Vector Elements</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/el">
+            <label xml:lang="en">Elevation</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/BreakLineTypeValue/changeInSlope">
+         <language>en</language>
+         <created>2015-08-18 17:29 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/BreakLineTypeValue/changeInSlope:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/BreakLineTypeValue/changeInSlope</latestversion>
+         <label xml:lang="en">change in slope</label>
+         <definition xml:lang="en">Break line representing a collection of adjoining points where the terrain has an abrupt change in slope.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/BreakLineTypeValue">
+            <label xml:lang="en">Breakline Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/el-vec">
+            <label xml:lang="en">Elevation - Vector Elements</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/el">
+            <label xml:lang="en">Elevation</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/BreakLineTypeValue/flatAreaBoundary">
+         <language>en</language>
+         <created>2015-08-18 17:29 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/BreakLineTypeValue/flatAreaBoundary:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/BreakLineTypeValue/flatAreaBoundary</latestversion>
+         <label xml:lang="en">flat area boundary</label>
+         <definition xml:lang="en">Break line that delimits an isolated part of the territory where the elevation model has to be constrained at the same elevation value.</definition>
+         <description xml:lang="en">NOTE The boundary of a flat area shall be closed.\nEXAMPLE Boundary of an inland water body (e.g. lake).</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/BreakLineTypeValue">
+            <label xml:lang="en">Breakline Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/el-vec">
+            <label xml:lang="en">Elevation - Vector Elements</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/el">
+            <label xml:lang="en">Elevation</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/BreakLineTypeValue/formLine">
+         <language>en</language>
+         <created>2015-08-18 17:29 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/BreakLineTypeValue/formLine:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/BreakLineTypeValue/formLine</latestversion>
+         <label xml:lang="en">form line</label>
+         <definition xml:lang="en">Break line representing a local direction in which the elevation surface being described takes the greatest slope.</definition>
+         <description xml:lang="en">NOTE 1 Form lines are always perpendicular to contour lines describing the same elevation surface.\nNOTE 2 This special case of break line is often used to describe troughs and ridges of the terrain surface.\nEXAMPLE Ridge line, thalweg.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/BreakLineTypeValue">
+            <label xml:lang="en">Breakline Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/el-vec">
+            <label xml:lang="en">Elevation - Vector Elements</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/el">
+            <label xml:lang="en">Elevation</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/BreakLineTypeValue/topOfSlope">
+         <language>en</language>
+         <created>2015-08-18 17:29 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/BreakLineTypeValue/topOfSlope:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/BreakLineTypeValue/topOfSlope</latestversion>
+         <label xml:lang="en">top of slope</label>
+         <definition xml:lang="en">Break line representing the upper boundary of an area having a constant slope in the terrain surface, typically varying approximately between 2° and 40°.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/BreakLineTypeValue">
+            <label xml:lang="en">Breakline Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/el-vec">
+            <label xml:lang="en">Elevation - Vector Elements</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/el">
+            <label xml:lang="en">Elevation</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

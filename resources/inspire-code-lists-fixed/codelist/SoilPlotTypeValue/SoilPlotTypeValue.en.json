@@ -1,0 +1,366 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Soil Plot Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue"
+        },
+        "created" : "2015-08-18 17:37 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "NOTE 1 generally, it is a vertical penetra-tion. NOTE 2 boring and bore are syno-nyms. SOURCE adapted from ISO 11074",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "borehole",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Soil",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "definition" : {
+          "text" : "Penetration into the sub-surface with removal of soil/rock material by using, for instance, a hollow tube-shaped tool, in order to carry out profile descriptions, sampling and/or field tests.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/so"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue/borehole",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue/borehole",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue/borehole:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Soil Plot Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue"
+        },
+        "created" : "2015-08-18 17:37 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "EXAMPLE Location from the LUCAS survey SOURCE adopted from ISO/DIS 28258",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "sample",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Soil",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "definition" : {
+          "text" : "Exacavation where soil material is removed as a soil sample without doing any soil profile description.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/so"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue/sample",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue/sample",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue/sample:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue/sample:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Soil Plot Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue"
+        },
+        "created" : "2015-08-18 17:37 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "NOTE synonyms: test pit, trench, soil pit SOURCE adapted from ISO 11074",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "trial pit",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Soil",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "definition" : {
+          "text" : "Excavation or other exposition of the soil prepared to carry out profile descriptions, sampling and/or field tests.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/so"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue/trialPit",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue/trialPit",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue/trialPit:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue/trialPit:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "description" : {
+      "text" : "NOTE Trial pits, boreholes or samples can be seen as types of soil plots.",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Soil Plot Type",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "none",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Not extensible",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "so",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Soil",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+    },
+    "definition" : {
+      "text" : "A code list of terms specifying on what kind of plot the observation of the soil is made.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "so",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/so"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

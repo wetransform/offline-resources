@@ -1,0 +1,928 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Mineral Occurrence Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue"
+        },
+        "created" : "2015-08-18 17:34 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "mineral deposit",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "A mass of naturally occurring mineral material, e.g. metal ores or non-metallic minerals, usually of economic value, without regard to mode of origin. Accumulations of coal and petroleum may or may not be included.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/mineralDeposit",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/mineralDeposit",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/mineralDeposit:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/mineralDeposit:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Mineral Occurrence Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue"
+        },
+        "created" : "2015-08-18 17:34 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "ore deposit",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "The naturally occurring material from which a mineral or minerals of economic value can be extracted at a reasonable profit.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/oreDeposit",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/oreDeposit",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/oreDeposit:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Mineral Occurrence Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue"
+        },
+        "created" : "2015-08-18 17:34 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "occurrence",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Any ore or economic mineral in any concentration found in bedrock or as float.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/occurrence",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/occurrence",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/occurrence:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Mineral Occurrence Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue"
+        },
+        "created" : "2015-08-18 17:34 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "prospect",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "An area that is a potential site of mineral deposits, based on preliminary exploration, previous exploration. A geologic or geophysical anomaly, especially one recommended for additional exploration.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/prospect",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/prospect",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/prospect:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Mineral Occurrence Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue"
+        },
+        "created" : "2015-08-18 17:34 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "province",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Geologic provinces classified by mineral resources.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/province",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/province",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/province:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Mineral Occurrence Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue"
+        },
+        "created" : "2015-08-18 17:34 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "district",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "Geologic districts classified by mineral resources.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/district",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/district",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/district:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Mineral Occurrence Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue"
+        },
+        "created" : "2015-08-18 17:34 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "field",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "A region or area that possesses or is characterized by a particular mineral resource.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/field",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/field",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/field:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Mineral Occurrence Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue"
+        },
+        "created" : "2015-08-18 17:34 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "lode",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "A mineral deposit consisting of a zone of veins, veinlets, disseminations, or planar breccias.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/lode",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/lode",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/lode:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Mineral Occurrence Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue"
+        },
+        "created" : "2015-08-18 18:12 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "mineralized zone",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "A coherent zone of mineralized material within a mineral deposit.  This may correspond to a lode, or vein, or orebody, or any similar subdivision of a larger mineral deposit.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/mineralizedZone",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/mineralizedZone",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/mineralizedZone:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Mineral Occurrence Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue"
+        },
+        "created" : "2015-08-18 18:12 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "project",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "mr-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Mineral Resources",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+        },
+        "definition" : {
+          "text" : "An informal grouping of mineral deposits that is commonly used by mining or exploration companies in reporting exploration results, resources/reserves, and production figures.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "mr",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/mr"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/project",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/project",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/project:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Mineral Occurrence Type",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "any",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Empty code list",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "mr-core",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Mineral Resources",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/mr-core"
+    },
+    "definition" : {
+      "text" : "The type of mineral occurrence.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "mr",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/mr"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

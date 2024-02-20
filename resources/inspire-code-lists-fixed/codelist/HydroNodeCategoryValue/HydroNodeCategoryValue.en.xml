@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue</latestversion>
+   <label xml:lang="en">Hydro Node Category</label>
+   <definition xml:lang="en">Defines categories for different types of hydrographic network nodes.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hy-n">
+      <label xml:lang="en">Hydro - Network</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/hy">
+      <label xml:lang="en">Hydrography</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/boundary">
+         <language>en</language>
+         <created>2015-08-18 17:41 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/boundary:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/boundary</latestversion>
+         <label xml:lang="en">boundary</label>
+         <definition xml:lang="en">Node used to connect different networks.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue">
+            <label xml:lang="en">Hydro Node Category</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hy-n">
+            <label xml:lang="en">Hydro - Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hy">
+            <label xml:lang="en">Hydrography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/flowConstriction">
+         <language>en</language>
+         <created>2015-08-18 17:41 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/flowConstriction:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/flowConstriction</latestversion>
+         <label xml:lang="en">flow constriction</label>
+         <definition xml:lang="en">A network node unrelated to the network topology per se, but associated with a hydrographic point of interest or facility, or a man-made object, that affects the network flow.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue">
+            <label xml:lang="en">Hydro Node Category</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hy-n">
+            <label xml:lang="en">Hydro - Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hy">
+            <label xml:lang="en">Hydrography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/flowRegulation">
+         <language>en</language>
+         <created>2015-08-18 17:41 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/flowRegulation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/flowRegulation</latestversion>
+         <label xml:lang="en">flow regulation</label>
+         <definition xml:lang="en">A network node unrelated to the network topology per se, but associated with a hydrographic point of interest or facility, or a man-made object, that regulates the network flow.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue">
+            <label xml:lang="en">Hydro Node Category</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hy-n">
+            <label xml:lang="en">Hydro - Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hy">
+            <label xml:lang="en">Hydrography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/junction">
+         <language>en</language>
+         <created>2015-08-18 17:41 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/junction:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/junction</latestversion>
+         <label xml:lang="en">junction</label>
+         <definition xml:lang="en">Node where three or more links connect.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue">
+            <label xml:lang="en">Hydro Node Category</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hy-n">
+            <label xml:lang="en">Hydro - Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hy">
+            <label xml:lang="en">Hydrography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/outlet">
+         <language>en</language>
+         <created>2015-08-18 17:41 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/outlet:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/outlet</latestversion>
+         <label xml:lang="en">outlet</label>
+         <definition xml:lang="en">Ending node of a series of interconnected links.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue">
+            <label xml:lang="en">Hydro Node Category</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hy-n">
+            <label xml:lang="en">Hydro - Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hy">
+            <label xml:lang="en">Hydrography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/source">
+         <language>en</language>
+         <created>2015-08-18 17:41 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/source:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/source</latestversion>
+         <label xml:lang="en">source</label>
+         <definition xml:lang="en">Starting node of a series of interconnected links.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue">
+            <label xml:lang="en">Hydro Node Category</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hy-n">
+            <label xml:lang="en">Hydro - Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hy">
+            <label xml:lang="en">Hydrography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

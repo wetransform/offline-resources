@@ -1,0 +1,446 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Statistics Measurement Method",
+          "id" : "http://inspire.ec.europa.eu/codelist/StatisticsMeasurementMethodValue"
+        },
+        "created" : "2015-08-18 17:36 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "EXAMPLE: The number of persons.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "count",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "pd",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/pd"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Population Distribution - Demography",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/pd"
+        },
+        "definition" : {
+          "text" : "A simple count.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "pd",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/pd"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/StatisticsMeasurementMethodValue/count",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/StatisticsMeasurementMethodValue/count",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/StatisticsMeasurementMethodValue/count:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Statistics Measurement Method",
+          "id" : "http://inspire.ec.europa.eu/codelist/StatisticsMeasurementMethodValue"
+        },
+        "created" : "2015-08-18 17:36 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "EXAMPLE: The mean number of cars per dwelling.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "relative count",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "pd",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/pd"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Population Distribution - Demography",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/pd"
+        },
+        "definition" : {
+          "text" : "A ratio combining two different kinds of statistical population.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "pd",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/pd"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/StatisticsMeasurementMethodValue/relativeCount",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/StatisticsMeasurementMethodValue/relativeCount",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/StatisticsMeasurementMethodValue/relativeCount:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Statistics Measurement Method",
+          "id" : "http://inspire.ec.europa.eu/codelist/StatisticsMeasurementMethodValue"
+        },
+        "created" : "2015-08-18 17:36 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "EXAMPLE 1: The percentage of unemployed people.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "percentage",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "pd",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/pd"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Population Distribution - Demography",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/pd"
+        },
+        "definition" : {
+          "text" : "A proportion expressed as a ratio whose denominator is 100.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "pd",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/pd"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/StatisticsMeasurementMethodValue/percentage",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/StatisticsMeasurementMethodValue/percentage",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/StatisticsMeasurementMethodValue/percentage:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/StatisticsMeasurementMethodValue/percentage:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Statistics Measurement Method",
+          "id" : "http://inspire.ec.europa.eu/codelist/StatisticsMeasurementMethodValue"
+        },
+        "created" : "2015-08-18 17:36 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "EXAMPLE 2: The population growth rate.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "median",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "pd",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/pd"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Population Distribution - Demography",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/pd"
+        },
+        "definition" : {
+          "text" : "The median.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "pd",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/pd"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/StatisticsMeasurementMethodValue/median",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/StatisticsMeasurementMethodValue/median",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/StatisticsMeasurementMethodValue/median:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Statistics Measurement Method",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "open",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Extensible with values at any level",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "pd",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/pd"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Population Distribution - Demography",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/pd"
+    },
+    "definition" : {
+      "text" : "Code values for statistics measurement method.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "pd",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/pd"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/StatisticsMeasurementMethodValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/StatisticsMeasurementMethodValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/StatisticsMeasurementMethodValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

@@ -1,0 +1,606 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/ICDValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/ICDValue:2</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/ICDValue</latestversion>
+   <previousversions>
+      <version>http://inspire.ec.europa.eu/codelist/ICDValue:1</version>
+   </previousversions>
+   <label xml:lang="en">International classification of diseases</label>
+   <definition xml:lang="en">Disease as defined in the International Classification of Diseases, 10th revision.</definition>
+   <description xml:lang="en">Due to the large number of code values that belong to this external code list, only a small set of values are provided as examples as a means to show the encoding to be followed.</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+      <label xml:lang="en">Human Health</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/hh">
+      <label xml:lang="en">Human health and safety</label>
+   </theme>
+   <document id="http://inspire.ec.europa.eu/document/SCDWHO">
+      <label xml:lang="en">10th Revision of the International Statistical Classification of Diseases and Related Health Problems</label>
+   </document>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/ICDValue/I">
+         <language>en</language>
+         <created>2018-12-17 11:01 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ICDValue/I:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ICDValue/I</latestversion>
+         <label xml:lang="en">Certain infectious and parasitic diseases</label>
+         <description xml:lang="en">This includes: diseases generally recognized as communicable or transmissible.This excludes: carrier or suspected carrier of infectious disease Z22.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ICDValue">
+            <label xml:lang="en">International classification of diseases</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ICDValue/A00-A09">
+         <language>en</language>
+         <created>2018-12-17 11:01 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ICDValue/A00-A09:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ICDValue/A00-A09</latestversion>
+         <label xml:lang="en">Intestinal infectious diseases</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ICDValue">
+            <label xml:lang="en">International classification of diseases</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ICDValue/A00">
+         <language>en</language>
+         <created>2018-12-17 11:01 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ICDValue/A00:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ICDValue/A00</latestversion>
+         <label xml:lang="en">Cholera</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ICDValue">
+            <label xml:lang="en">International classification of diseases</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ICDValue/A00.0">
+         <language>en</language>
+         <created>2018-12-17 11:01 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ICDValue/A00.0:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ICDValue/A00.0</latestversion>
+         <label xml:lang="en">Cholera due to Vibrio cholerae 01, biovar cholerae</label>
+         <description xml:lang="en">This includes: Classical cholera.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ICDValue">
+            <label xml:lang="en">International classification of diseases</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ICDValue/A00.1">
+         <language>en</language>
+         <created>2018-12-17 11:01 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ICDValue/A00.1:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ICDValue/A00.1</latestversion>
+         <label xml:lang="en">Cholera due to Vibrio cholerae 01, biovar eltor</label>
+         <description xml:lang="en">This includes: Cholera eltor.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ICDValue">
+            <label xml:lang="en">International classification of diseases</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ICDValue/A00.9">
+         <language>en</language>
+         <created>2018-12-17 11:01 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ICDValue/A00.9:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ICDValue/A00.9</latestversion>
+         <label xml:lang="en">Cholera, unspecified</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ICDValue">
+            <label xml:lang="en">International classification of diseases</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ICDValue/A01">
+         <language>en</language>
+         <created>2018-12-17 11:01 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ICDValue/A01:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ICDValue/A01</latestversion>
+         <label xml:lang="en">Typhoid and paratyphoid fevers</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ICDValue">
+            <label xml:lang="en">International classification of diseases</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ICDValue/A01.0">
+         <language>en</language>
+         <created>2018-12-17 11:01 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ICDValue/A01.0:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ICDValue/A01.0</latestversion>
+         <label xml:lang="en">Typhoid fever</label>
+         <description xml:lang="en">This includes: Infection due to Salmonella typhi.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ICDValue">
+            <label xml:lang="en">International classification of diseases</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ICDValue/A01.1">
+         <language>en</language>
+         <created>2018-12-17 11:01 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ICDValue/A01.1:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ICDValue/A01.1</latestversion>
+         <label xml:lang="en">Paratyphoid fever A</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ICDValue">
+            <label xml:lang="en">International classification of diseases</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ICDValue/A01.2">
+         <language>en</language>
+         <created>2018-12-17 11:01 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ICDValue/A01.2:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ICDValue/A01.2</latestversion>
+         <label xml:lang="en">Paratyphoid fever B</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ICDValue">
+            <label xml:lang="en">International classification of diseases</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ICDValue/A01.3">
+         <language>en</language>
+         <created>2018-12-17 11:01 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ICDValue/A01.3:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ICDValue/A01.3</latestversion>
+         <label xml:lang="en">Paratyphoid fever C</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ICDValue">
+            <label xml:lang="en">International classification of diseases</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ICDValue/A01.4">
+         <language>en</language>
+         <created>2018-12-17 11:01 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ICDValue/A01.4:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ICDValue/A01.4</latestversion>
+         <label xml:lang="en">Paratyphoid fever, unspecified</label>
+         <description xml:lang="en">This includes: Infection due to Salmonella paratyphi NOS.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ICDValue">
+            <label xml:lang="en">International classification of diseases</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ICDValue/A02">
+         <language>en</language>
+         <created>2018-12-17 11:01 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ICDValue/A02:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ICDValue/A02</latestversion>
+         <label xml:lang="en">Other salmonella infections</label>
+         <description xml:lang="en">This includes: infection or foodborne intoxication due to any Salmonella species other than S. typhi and S. paratyphi.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ICDValue">
+            <label xml:lang="en">International classification of diseases</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ICDValue/A02.0">
+         <language>en</language>
+         <created>2018-12-17 11:01 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ICDValue/A02.0:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ICDValue/A02.0</latestversion>
+         <label xml:lang="en">Salmonella enteritis</label>
+         <description xml:lang="en">This includes: Salmonellosis.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ICDValue">
+            <label xml:lang="en">International classification of diseases</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ICDValue/A02.1">
+         <language>en</language>
+         <created>2018-12-17 11:01 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ICDValue/A02.1:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ICDValue/A02.1</latestversion>
+         <label xml:lang="en">Salmonella sepsis</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ICDValue">
+            <label xml:lang="en">International classification of diseases</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ICDValue/A02.2">
+         <language>en</language>
+         <created>2018-12-17 11:01 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ICDValue/A02.2:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ICDValue/A02.2</latestversion>
+         <label xml:lang="en">Localized salmonella infections</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ICDValue">
+            <label xml:lang="en">International classification of diseases</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ICDValue/A02.8">
+         <language>en</language>
+         <created>2018-12-17 11:01 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ICDValue/A02.8:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ICDValue/A02.8</latestversion>
+         <label xml:lang="en">Other specified salmonella infections</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ICDValue">
+            <label xml:lang="en">International classification of diseases</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ICDValue/A02.9">
+         <language>en</language>
+         <created>2018-12-17 11:01 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ICDValue/A02.9:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ICDValue/A02.9</latestversion>
+         <label xml:lang="en">Salmonella infection, unspecified</label>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ICDValue">
+            <label xml:lang="en">International classification of diseases</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

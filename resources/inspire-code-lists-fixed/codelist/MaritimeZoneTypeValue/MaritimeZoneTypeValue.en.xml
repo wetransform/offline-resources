@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/MaritimeZoneTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/MaritimeZoneTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/MaritimeZoneTypeValue</latestversion>
+   <label xml:lang="en">Maritime Zone Type</label>
+   <definition xml:lang="en">Type of martime zone.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mu">
+      <label xml:lang="en">Maritime Units</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/au">
+      <label xml:lang="en">Administrative units</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/MaritimeZoneTypeValue/internalWaters">
+         <language>en</language>
+         <created>2015-08-18 17:33 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MaritimeZoneTypeValue/internalWaters:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MaritimeZoneTypeValue/internalWaters</latestversion>
+         <label xml:lang="en">Internal Waters</label>
+         <definition xml:lang="en">The waters on the landward side of the baselines of the territorial sea of the coastal State.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MaritimeZoneTypeValue">
+            <label xml:lang="en">Maritime Zone Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mu">
+            <label xml:lang="en">Maritime Units</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/au">
+            <label xml:lang="en">Administrative units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MaritimeZoneTypeValue/territorialSea">
+         <language>en</language>
+         <created>2015-08-18 17:33 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MaritimeZoneTypeValue/territorialSea:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MaritimeZoneTypeValue/territorialSea</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/MaritimeZoneTypeValue/territorialSea:1</version>
+         </previousversions>
+         <label xml:lang="en">Territorial Sea</label>
+         <definition xml:lang="en">A belt of sea of a defined breadth not exceeding 12 nautical miles measured from the baselines determined in accordance to the United Nations Convention of Law on the Sea.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MaritimeZoneTypeValue">
+            <label xml:lang="en">Maritime Zone Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mu">
+            <label xml:lang="en">Maritime Units</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/au">
+            <label xml:lang="en">Administrative units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MaritimeZoneTypeValue/contiguousZone">
+         <language>en</language>
+         <created>2015-08-18 17:33 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MaritimeZoneTypeValue/contiguousZone:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MaritimeZoneTypeValue/contiguousZone</latestversion>
+         <label xml:lang="en">Contiguous Zone</label>
+         <definition xml:lang="en">A zone contiguous to a territorial sea of a coastal State, which may not extend beyond 24 nautical miles from the baselines from which the breadth of the territorial sea is measured.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MaritimeZoneTypeValue">
+            <label xml:lang="en">Maritime Zone Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mu">
+            <label xml:lang="en">Maritime Units</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/au">
+            <label xml:lang="en">Administrative units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MaritimeZoneTypeValue/exclusiveEconomicZone">
+         <language>en</language>
+         <created>2015-08-18 17:33 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MaritimeZoneTypeValue/exclusiveEconomicZone:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MaritimeZoneTypeValue/exclusiveEconomicZone</latestversion>
+         <label xml:lang="en">Exclusive Economic Zone</label>
+         <definition xml:lang="en">An area beyond and adjacent to the territorial sea of a coastal State, subject to the specific legal regime under which the rights and jurisdiction of the coastal State and the rights and freedoms of other States are governed by the relevant provisions of the United Nations Convention on Law of the Sea.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MaritimeZoneTypeValue">
+            <label xml:lang="en">Maritime Zone Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mu">
+            <label xml:lang="en">Maritime Units</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/au">
+            <label xml:lang="en">Administrative units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MaritimeZoneTypeValue/continentalShelf">
+         <language>en</language>
+         <created>2015-08-18 17:33 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MaritimeZoneTypeValue/continentalShelf:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MaritimeZoneTypeValue/continentalShelf</latestversion>
+         <label xml:lang="en">Continental Shelf</label>
+         <definition xml:lang="en">A maritime zone beyond and adjacent to the a territorial sea of a coastal State whose outer boundary is determined in accordance with Article 76 of the United Nations Convention on the Law of the Sea.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MaritimeZoneTypeValue">
+            <label xml:lang="en">Maritime Zone Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mu">
+            <label xml:lang="en">Maritime Units</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/au">
+            <label xml:lang="en">Administrative units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

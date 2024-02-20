@@ -1,0 +1,123 @@
+﻿<!--Erzeugt mit KIT (www.kit.edu) UmlToXmlTransformation-Software, Erstellungsdatum: 31.10.2022 09:25:22-->
+<TypeDefinition xmlns="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ../xsd/ShapeChangeDefinitions.xsd" gml:id="xplan_FP_Kennzeichnung">
+  <gml:description>Kennzeichnung gemäß §5 Abs. 3 BauGB.</gml:description>
+  <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:FP_Kennzeichnung</gml:identifier>
+  <gml:name>xplan:FP_Kennzeichnung</gml:name>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_FP_Kennzeichnung_zweckbestimmung">
+      <gml:description>Zweckbestimmung der Kennzeichnung.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:FP_Kennzeichnung:attribute:zweckbestimmung</gml:identifier>
+      <gml:name>xplan:zweckbestimmung</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_FP_Kennzeichnung_zweckbestimmung_XP_ZweckbestimmungKennzeichnung_1000">
+          <gml:description>Fl&amp;#228;chen, bei deren Bebauung besondere bauliche Sicherungsmanahmen gegen Naturgewalten erforderlich sind (&amp;#167;5 Abs. 3 Nr. 1 und &amp;#167;9 Abs.5 Nr.1 BauGB ).</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:FP_Kennzeichnung:zweckbestimmung:XP_ZweckbestimmungKennzeichnung:1000</gml:identifier>
+          <gml:name>Naturgewalten</gml:name>
+          <gml:name codeSpace="lesbarerName">Naturgewalten</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_FP_Kennzeichnung_zweckbestimmung_XP_ZweckbestimmungKennzeichnung_2000">
+          <gml:description>Fl&amp;#228;chen, die f&amp;#252;r den Abbau von Mineralien bestimmt sind (&amp;#167;5 Abs. 3 Nr. 2 und &amp;#167;9 Abs. 5 Nr. 2 BauGB).</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:FP_Kennzeichnung:zweckbestimmung:XP_ZweckbestimmungKennzeichnung:2000</gml:identifier>
+          <gml:name>Abbauflaeche</gml:name>
+          <gml:name codeSpace="lesbarerName">Abbaufläche</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_FP_Kennzeichnung_zweckbestimmung_XP_ZweckbestimmungKennzeichnung_3000">
+          <gml:description>Fl&amp;#228;chen, bei deren Bebauung besondere bauliche Sicherungsmanahmen gegen &amp;#228;u&amp;#223;ere Einwirkungen erforderlich sind (&amp;#167;5 Abs. 3 Nr. 1 und &amp;#167;9 Abs. 5 Nr. 1  BauGB ).</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:FP_Kennzeichnung:zweckbestimmung:XP_ZweckbestimmungKennzeichnung:3000</gml:identifier>
+          <gml:name>AeussereEinwirkungen</gml:name>
+          <gml:name codeSpace="lesbarerName">Äußere Einwirkungen</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_FP_Kennzeichnung_zweckbestimmung_XP_ZweckbestimmungKennzeichnung_4000">
+          <gml:description>F&amp;#252;r bauliche Nutzung vorgesehene Fl&amp;#228;chen, deren B&amp;#246;den erheblich mit umweltgef&amp;#228;hrdenden Stoffen belastet sind (&amp;#167;5 Abs. 3 Nr. 3 und &amp;#167;9 Abs. 5 Nr. 3 BauGB).</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:FP_Kennzeichnung:zweckbestimmung:XP_ZweckbestimmungKennzeichnung:4000</gml:identifier>
+          <gml:name>SchadstoffBelastBoden</gml:name>
+          <gml:name codeSpace="lesbarerName">Schadstoffbelasteter Boden</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_FP_Kennzeichnung_zweckbestimmung_XP_ZweckbestimmungKennzeichnung_5000">
+          <gml:description>Für bauliche Nutzung vorgesehene Flächen, die erheblicher Lärmbelastung ausgesetzt sind.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:FP_Kennzeichnung:zweckbestimmung:XP_ZweckbestimmungKennzeichnung:5000</gml:identifier>
+          <gml:name>LaermBelastung</gml:name>
+          <gml:name codeSpace="lesbarerName">Lärmbelastung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_FP_Kennzeichnung_zweckbestimmung_XP_ZweckbestimmungKennzeichnung_6000">
+          <gml:description>Flächen, unter denen der Bergbau umgeht  (§5, Abs. 3, Nr. 2 und §9, Abs. 5, Nr. 2. BauGB).</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:FP_Kennzeichnung:zweckbestimmung:XP_ZweckbestimmungKennzeichnung:6000</gml:identifier>
+          <gml:name>Bergbau</gml:name>
+          <gml:name codeSpace="lesbarerName">Bergbau</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_FP_Kennzeichnung_zweckbestimmung_XP_ZweckbestimmungKennzeichnung_7000">
+          <gml:description>F&amp;#252;r Bodenordnungsmanahmen vorgesehene Gebiete, 
+z.B. Gebiete f&amp;#252;r Umlegungen oder Flurbereinigung</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:FP_Kennzeichnung:zweckbestimmung:XP_ZweckbestimmungKennzeichnung:7000</gml:identifier>
+          <gml:name>Bodenordnung</gml:name>
+          <gml:name codeSpace="lesbarerName">Bodenordnung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_FP_Kennzeichnung_zweckbestimmung_XP_ZweckbestimmungKennzeichnung_8000">
+          <gml:description>Räumlich besonders gekennzeichnetes Vorhabengebiets, das kleiner als der Geltungsbereich ist, innerhalb eines vorhabenbezogenen BPlans.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:FP_Kennzeichnung:zweckbestimmung:XP_ZweckbestimmungKennzeichnung:8000</gml:identifier>
+          <gml:name>Vorhabensgebiet</gml:name>
+          <gml:name codeSpace="lesbarerName">Vorhabensgebiet</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_FP_Kennzeichnung_zweckbestimmung_XP_ZweckbestimmungKennzeichnung_9999">
+          <gml:description>Kennzeichnung nach anderen gesetzlichen Vorschriften.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:FP_Kennzeichnung:zweckbestimmung:XP_ZweckbestimmungKennzeichnung:9999</gml:identifier>
+          <gml:name>AndereGesetzlVorschriften</gml:name>
+          <gml:name codeSpace="lesbarerName">Andere gesetzliche Vorschriften</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeName>XP_ZweckbestimmungKennzeichnung</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_FP_Kennzeichnung_istVerdachtsflaeche">
+      <gml:description>Legt fest, ob eine Altlast-Verdachtsfläche vorliegt</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:FP_Kennzeichnung:attribute:istVerdachtsflaeche</gml:identifier>
+      <gml:name>xplan:istVerdachtsflaeche</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="_FP_Kennzeichnung_istVerdachtsflaeche_Boolean_1">
+          <gml:identifier codeSpace="urn:">urn:xplan:enum::FP_Kennzeichnung:istVerdachtsflaeche:Boolean:1</gml:identifier>
+          <gml:name>TRUE</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="_FP_Kennzeichnung_istVerdachtsflaeche_Boolean_0">
+          <gml:identifier codeSpace="urn:">urn:xplan:enum::FP_Kennzeichnung:istVerdachtsflaeche:Boolean:0</gml:identifier>
+          <gml:name>FALSE</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Boolean</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_FP_Kennzeichnung_nummer">
+      <gml:description>Nummer in einem Altlastkataster</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:FP_Kennzeichnung:attribute:nummer</gml:identifier>
+      <gml:name>xplan:nummer</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::CharacterString" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <def:classification>featureType</def:classification>
+  <def:supertypeRef xlink:href="urn:xplan:element:xplan:FP_Geometrieobjekt" />
+</TypeDefinition>

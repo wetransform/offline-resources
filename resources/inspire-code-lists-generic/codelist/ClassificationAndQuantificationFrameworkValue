@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue</latestversion>
+   <label xml:lang="en">Classification and Quantification Framework</label>
+   <definition xml:lang="en">Values for the most widely used classification schemes to classify and quantify energy resources.</definition>
+   <description xml:lang="en">NOTE Most of the listed classification frameworks only focus on fossil fuels.</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+      <label xml:lang="en">Energy Resources Base</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/er">
+      <label xml:lang="en">Energy resources</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/NPD">
+         <language>en</language>
+         <created>2015-08-18 17:50 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/NPD:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/NPD</latestversion>
+         <label xml:lang="en">Norwegian Petroleum Directorate classification (NPD-2001)</label>
+         <definition xml:lang="en">Norwegian Petroleum Directorate classification (NPD-2001)</definition>
+         <description xml:lang="en">The Norwegian Petroleum Directorate classification (NPD-2001) is based on the SPE/WPC/AAPG 2000 classification but expanded to utilize categories that differentiate projects based on their commerciality, that is, their maturity towards full producing status.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue">
+            <label xml:lang="en">Classification and Quantification Framework</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+            <label xml:lang="en">Energy Resources Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/PERC">
+         <language>en</language>
+         <created>2015-08-18 17:50 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/PERC:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/PERC</latestversion>
+         <label xml:lang="en">Pan-European Code for Reporting of Exploration Results, Mineral Resources and Reserves (PERC).</label>
+         <definition xml:lang="en">Pan-European Code for Reporting of Exploration Results, Mineral Resources and Reserves (PERC).</definition>
+         <description xml:lang="en">The PERC Code for Reporting of Exploration Results, Mineral Resources and Mineral Reserves sets out minimum standards, recommendations and guidelines for Public Reporting of Exploration Results, Mineral Resources and Mineral Reserves in the United Kingdom, Ireland and Europe. The Code has been adopted by the Institute of Materials, Minerals and Mining (IoM3), the Geological Society of London (GSL), the European Federation of Geologists (EFG) and the Institute of Geologists of Ireland (IGI), and is therefore binding on their individual members.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue">
+            <label xml:lang="en">Classification and Quantification Framework</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+            <label xml:lang="en">Energy Resources Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/RF">
+         <language>en</language>
+         <created>2015-08-18 17:50 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/RF:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/RF</latestversion>
+         <label xml:lang="en">Russian reserve guidelines.</label>
+         <definition xml:lang="en">Russian reserve guidelines.</definition>
+         <description xml:lang="en">Russian reserve guidelines are in a state of transition from the system utilized within Soviet state companies to a new system more closely aligned with the needs of private industry.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue">
+            <label xml:lang="en">Classification and Quantification Framework</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+            <label xml:lang="en">Energy Resources Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/SPE-WPC-AAPG-PRMS">
+         <language>en</language>
+         <created>2015-08-18 17:50 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/SPE-WPC-AAPG-PRMS:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/SPE-WPC-AAPG-PRMS</latestversion>
+         <label xml:lang="en">Petroleum Resources Management System</label>
+         <definition xml:lang="en">Petroleum Resources Management System</definition>
+         <description xml:lang="en">In 2000, the Society of Petroleum Engineers (SPE) jointly with the World Petroleum Council (WPC) and the American Association of Petroleum Geologists (AAPG) published a Reserve and Resource Classification to address the requirement for an international standard. The underlying Reserves Definitions were unchanged from those published by the SPE/WPC in 1997. Additionally, in 2001 the SPE/WPC/AAPG jointly published Guidelines for the Evaluation of Petroleum Reserves and Resources as clarifications for the application of the 2001 and 1997 documents. Further clarification was provided in the Glossary of 2005, in particular by the definition of the term commercial, and thereby reserves.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue">
+            <label xml:lang="en">Classification and Quantification Framework</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+            <label xml:lang="en">Energy Resources Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/UNFC1997">
+         <language>en</language>
+         <created>2015-08-18 17:50 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/UNFC1997:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/UNFC1997</latestversion>
+         <label xml:lang="en">United Nations Framework Classification (1997).</label>
+         <definition xml:lang="en">United Nations Framework Classification (1997).</definition>
+         <description xml:lang="en">The classification is based on three key attributes:\n• Economic (E)\n• Field Project Sta-tus/Feasibility (F)\n• Geological (G)</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue">
+            <label xml:lang="en">Classification and Quantification Framework</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+            <label xml:lang="en">Energy Resources Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/UNFC2004">
+         <language>en</language>
+         <created>2015-08-18 17:50 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/UNFC2004:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/UNFC2004</latestversion>
+         <label xml:lang="en">United Nations Framework Classification (2004).</label>
+         <definition xml:lang="en">United Nations Framework Classification (2004).</definition>
+         <description xml:lang="en">The classification is based on three key attributes:\n• Economic (E)\n• Field Project Sta-tus/Feasibility (F)\n• Geological (G)</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue">
+            <label xml:lang="en">Classification and Quantification Framework</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+            <label xml:lang="en">Energy Resources Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/UNFC2009">
+         <language>en</language>
+         <created>2015-08-18 17:50 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/UNFC2009:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/UNFC2009</latestversion>
+         <label xml:lang="en">United Nations Framework Classification (2009).</label>
+         <definition xml:lang="en">United Nations Framework Classification (2009).</definition>
+         <description xml:lang="en">The classification is based on three key attributes:\n• Economic (E)\n• Field Project Sta-tus/Feasibility (F)\n• Geological (G)</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue">
+            <label xml:lang="en">Classification and Quantification Framework</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+            <label xml:lang="en">Energy Resources Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/USGS">
+         <language>en</language>
+         <created>2015-08-18 17:50 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/USGS:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/USGS</latestversion>
+         <label xml:lang="en">United States Geological Survey</label>
+         <definition xml:lang="en">United States Geological Survey</definition>
+         <description xml:lang="en">The USGS classifi-cation is based on two parameters whereby resources are classified by feasibility of eco-nomic recovery and degree of geologic certainty.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue">
+            <label xml:lang="en">Classification and Quantification Framework</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+            <label xml:lang="en">Energy Resources Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

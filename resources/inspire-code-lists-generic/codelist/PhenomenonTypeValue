@@ -1,0 +1,335 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/PhenomenonTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:19 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/PhenomenonTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/PhenomenonTypeValue</latestversion>
+   <label xml:lang="en">Phenomenon Type</label>
+   <definition xml:lang="en">A code list of phenomena (e.g. temperature, wind speed).</definition>
+   <description xml:lang="en">A code list of phenomena. This code list itself is an empty placeholder and should be extended and specified for any thematic domain.</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/omop">
+      <label xml:lang="en">Observable Properties</label>
+   </applicationschema>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <codelist id="http://inspire.ec.europa.eu/codelist/CFStandardNamesValue">
+         <language>en</language>
+         <created>2015-08-18 17:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CFStandardNamesValue:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CFStandardNamesValue</latestversion>
+         <label xml:lang="en">Climate and Forecast Standard Names</label>
+         <definition xml:lang="en">Definitions of phenomena observed in meteorology and oceanography.</definition>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/PhenomenonTypeValue">
+               <label xml:lang="en">Phenomenon Type</label>
+            </parent>
+         </parents>
+         <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+            <label xml:lang="en">Not extensible</label>
+         </extensibility>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/base2">
+            <label xml:lang="en">Base Types 2</label>
+         </applicationschema>
+         <document id="http://inspire.ec.europa.eu/document/CFSNames">
+            <label xml:lang="en">British Oceanographic Data Centre (BODC) Climate and Forecast Standard Names</label>
+         </document>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeList">
+            <label xml:lang="en">CodeList</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </codelist>
+      <codelist id="http://inspire.ec.europa.eu/codelist/GRIB_CodeTable4_2Value">
+         <language>en</language>
+         <created>2015-08-18 17:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GRIB_CodeTable4_2Value:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GRIB_CodeTable4_2Value</latestversion>
+         <label xml:lang="en">WMO GRIB Code and Flags Table 4.2</label>
+         <definition xml:lang="en">Definitions of phenomena observed in meteorology.</definition>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/PhenomenonTypeValue">
+               <label xml:lang="en">Phenomenon Type</label>
+            </parent>
+         </parents>
+         <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/any">
+            <label xml:lang="en">Empty code list</label>
+         </extensibility>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ac-mf">
+            <label xml:lang="en">Atmospheric Conditions and Meteorological Geographical Features</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ac">
+            <label xml:lang="en">Atmospheric conditions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeList">
+            <label xml:lang="en">CodeList</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </codelist>
+      <codelist id="http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue">
+         <language>en</language>
+         <created>2015-08-18 17:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue</latestversion>
+         <label xml:lang="en">Soil Profile Parameter Name</label>
+         <definition xml:lang="en">Properties that can be observed to characterize the soil profile.</definition>
+         <description xml:lang="en">Basically these parameters can be divided in several major groups like:\n&lt;ul>\n&lt;li>Chemical parameters&lt;/li>\n&lt;li>Physical parameters&lt;/li>\n&lt;li>Biological parameters&lt;/li>\n&lt;/ul></description>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/PhenomenonTypeValue">
+               <label xml:lang="en">Phenomenon Type</label>
+            </parent>
+         </parents>
+         <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/narrower">
+            <label xml:lang="en">Extensible with narrower values</label>
+         </extensibility>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeList">
+            <label xml:lang="en">CodeList</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </codelist>
+      <codelist id="http://inspire.ec.europa.eu/codelist/SoilDerivedObjectParameterNameValue">
+         <language>en</language>
+         <created>2015-08-18 17:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SoilDerivedObjectParameterNameValue:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SoilDerivedObjectParameterNameValue</latestversion>
+         <label xml:lang="en">Soil Derived Object Parameter Name</label>
+         <definition xml:lang="en">Soil-related properties that can be derived from soil and other data.</definition>
+         <description xml:lang="en">Basically these parameters can be divided in several major groups like:\n&lt;ul>\n&lt;li>Chemical parameters&lt;/li>\n&lt;li>Physical parameters&lt;/li>\n&lt;li>Biological parameters&lt;/li>\n&lt;/ul></description>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/PhenomenonTypeValue">
+               <label xml:lang="en">Phenomenon Type</label>
+            </parent>
+         </parents>
+         <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/narrower">
+            <label xml:lang="en">Extensible with narrower values</label>
+         </extensibility>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeList">
+            <label xml:lang="en">CodeList</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </codelist>
+      <codelist id="http://inspire.ec.europa.eu/codelist/BODC_P01ParameterUsageValue">
+         <language>en</language>
+         <created>2015-08-18 17:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/BODC_P01ParameterUsageValue:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/BODC_P01ParameterUsageValue</latestversion>
+         <label xml:lang="en">BODC P01 Parameter Usage</label>
+         <definition xml:lang="en">Definitions of phenomena observed in oceanography.</definition>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/PhenomenonTypeValue">
+               <label xml:lang="en">Phenomenon Type</label>
+            </parent>
+         </parents>
+         <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/any">
+            <label xml:lang="en">Empty code list</label>
+         </extensibility>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/of">
+            <label xml:lang="en">Oceanographic Geographical Features</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/of">
+            <label xml:lang="en">Oceanographic geographical features</label>
+         </theme>
+         <document id="http://inspire.ec.europa.eu/document/BODC">
+            <label xml:lang="en">British Oceanographic Data Centre (BODC)</label>
+         </document>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeList">
+            <label xml:lang="en">CodeList</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </codelist>
+      <codelist id="http://inspire.ec.europa.eu/codelist/EU_AirQualityReferenceComponentValue">
+         <language>en</language>
+         <created>2015-08-18 17:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EU_AirQualityReferenceComponentValue:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EU_AirQualityReferenceComponentValue</latestversion>
+         <label xml:lang="en">EU Air Quality Reference Component</label>
+         <definition xml:lang="en">Definitions of phenomena regarding air quality in the context of reporting under Union legislation.</definition>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/PhenomenonTypeValue">
+               <label xml:lang="en">Phenomenon Type</label>
+            </parent>
+         </parents>
+         <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/any">
+            <label xml:lang="en">Empty code list</label>
+         </extensibility>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ac-mf">
+            <label xml:lang="en">Atmospheric Conditions and Meteorological Geographical Features</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ac">
+            <label xml:lang="en">Atmospheric conditions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeList">
+            <label xml:lang="en">CodeList</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </codelist>
+      <codelist id="http://inspire.ec.europa.eu/codelist/ProfileElementParameterNameValue">
+         <language>en</language>
+         <created>2015-08-18 17:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProfileElementParameterNameValue:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProfileElementParameterNameValue</latestversion>
+         <label xml:lang="en">Profile Element Parameter Name</label>
+         <definition xml:lang="en">Properties that can be observed to characterize the profile element.</definition>
+         <description xml:lang="en">Basically these parameters can be divided in several major groups like:\n&lt;ul>\n&lt;li>Chemical parameters&lt;/li>\n&lt;li>Physical parameters&lt;/li>\n&lt;li>Biological parameters&lt;/li>\n&lt;/ul></description>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/PhenomenonTypeValue">
+               <label xml:lang="en">Phenomenon Type</label>
+            </parent>
+         </parents>
+         <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/narrower">
+            <label xml:lang="en">Extensible with narrower values</label>
+         </extensibility>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeList">
+            <label xml:lang="en">CodeList</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </codelist>
+      <codelist id="http://inspire.ec.europa.eu/codelist/SoilSiteParameterNameValue">
+         <language>en</language>
+         <created>2015-08-18 17:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SoilSiteParameterNameValue:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SoilSiteParameterNameValue</latestversion>
+         <label xml:lang="en">Soil Site Parameter Name</label>
+         <definition xml:lang="en">Properties that can be observed to characterize the soil site.</definition>
+         <description xml:lang="en">Basically these parameters can be divided in several major groups like:\n\n&lt;ul>\n&lt;li>Chemical parameters&lt;/li>\n&lt;li>Physical parameters&lt;/li>\n&lt;li>Biological parameters&lt;/li>\n&lt;/ul></description>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/PhenomenonTypeValue">
+               <label xml:lang="en">Phenomenon Type</label>
+            </parent>
+         </parents>
+         <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/narrower">
+            <label xml:lang="en">Extensible with narrower values</label>
+         </extensibility>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeList">
+            <label xml:lang="en">CodeList</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </codelist>
+   </containeditems></codelist>

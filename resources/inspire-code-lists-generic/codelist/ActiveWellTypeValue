@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue</latestversion>
+   <label xml:lang="en">Active Well Type</label>
+   <definition xml:lang="en">Types of active wells.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+      <label xml:lang="en">Hydrogeology</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/ge">
+      <label xml:lang="en">Geology</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/exploitation">
+         <language>en</language>
+         <created>2015-08-18 17:32 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/exploitation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/exploitation</latestversion>
+         <label xml:lang="en">exploitation</label>
+         <definition xml:lang="en">The extraction of groundwater from an aquifer for various purposes (domestic, industrial, water supply intake and other)</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue">
+            <label xml:lang="en">Active Well Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/recharge">
+         <language>en</language>
+         <created>2015-08-18 17:32 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/recharge:3</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/recharge</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/recharge:1</version>
+            <version>http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/recharge:2</version>
+         </previousversions>
+         <label xml:lang="en">recharge</label>
+         <definition xml:lang="en">a) Aquifer Recharge Wells: Used to recharge depleted aquifers by injecting water from a variety of sources such as lakes, streams, domestic wastewater treatment plants, other aquifers, etc. &lt;br/> b) Saline Water Intrusion Barrier Wells: Used to inject water into fresh water aquifers to prevent intrusion of salt water into fresh water aquifers. &lt;br/> c) Subsidence Control Wells: Used to inject fluids into a non-oil or gasproducing zone to reduce or eliminate subsidence associated with overdraft of fresh water.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue">
+            <label xml:lang="en">Active Well Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/dewatering">
+         <language>en</language>
+         <created>2015-08-18 17:32 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/dewatering:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/dewatering</latestversion>
+         <label xml:lang="en">dewatering</label>
+         <definition xml:lang="en">The removal of water from solid material or soil from an aquifer for the purpose of lowering the water table, e.g. during the site development phase of a major construction project due to a high water table. Usually involves the use of "dewatering" pumps.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue">
+            <label xml:lang="en">Active Well Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/decontamination">
+         <language>en</language>
+         <created>2015-08-18 17:32 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/decontamination:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/decontamination</latestversion>
+         <label xml:lang="en">decontamination</label>
+         <definition xml:lang="en">Well used in remediation schemes that reduce the pollution in an aquifer.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue">
+            <label xml:lang="en">Active Well Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/disposal">
+         <language>en</language>
+         <created>2015-08-18 17:32 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/disposal:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/disposal</latestversion>
+         <label xml:lang="en">disposal</label>
+         <definition xml:lang="en">A well, often a depleted oil or gas well, into which waste fluids can be injected for disposal. Disposal wells typically are subject to regulatory requirements to avoid the contamination of freshwater aquifers.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue">
+            <label xml:lang="en">Active Well Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/waterExploratory">
+         <language>en</language>
+         <created>2015-08-18 17:32 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/waterExploratory:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/waterExploratory</latestversion>
+         <label xml:lang="en">water exploratory</label>
+         <definition xml:lang="en">A well drilled to search for new groundwater.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue">
+            <label xml:lang="en">Active Well Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/thermal">
+         <language>en</language>
+         <created>2015-08-18 17:32 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/thermal:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/thermal</latestversion>
+         <label xml:lang="en">thermal</label>
+         <definition xml:lang="en">A well used to extract thermal supply water for various thermal purposes (e.g. balneology).</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue">
+            <label xml:lang="en">Active Well Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/observation">
+         <language>en</language>
+         <created>2015-08-18 17:32 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/observation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/observation</latestversion>
+         <label xml:lang="en">observation</label>
+         <definition xml:lang="en">A well used for observation purposes.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue">
+            <label xml:lang="en">Active Well Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/waterSupply">
+         <language>en</language>
+         <created>2015-08-18 18:07 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/waterSupply:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/waterSupply</latestversion>
+         <label xml:lang="en">water supply</label>
+         <definition xml:lang="en">Well used to supply water for various usages.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue">
+            <label xml:lang="en">Active Well Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/withdrawal">
+         <language>en</language>
+         <created>2015-08-18 18:07 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/withdrawal:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/withdrawal</latestversion>
+         <label xml:lang="en">withdrawal</label>
+         <definition xml:lang="en">A well used to remove water from aquifers.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue">
+            <label xml:lang="en">Active Well Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/other">
+         <language>en</language>
+         <created>2015-08-18 18:07 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/other:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/other</latestversion>
+         <label xml:lang="en">Other</label>
+         <definition xml:lang="en">Any other usage of a well.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue">
+            <label xml:lang="en">Active Well Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

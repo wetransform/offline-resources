@@ -1,0 +1,114 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "created" : "2015-08-18 17:19 PM CEST",
+    "document" : {
+      "label" : {
+        "text" : "Natura2000",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/document/Natura2000"
+    },
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "description" : {
+      "text" : "In nature directives harmonized species names are given identifiers and the species names are to be connected by using these identifiers.",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Nature Directives Code",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "none",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Not extensible",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "sd",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/sd"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Species Distribution",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/sd"
+    },
+    "definition" : {
+      "text" : "Reference lists containing nature directives species identifiers, as specified in the Reference Portal for Natura 2000 as defined in Commission Implementing Decision 2011/484/EU.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "sd",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/sd"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/NatureDirectivesCodeValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/NatureDirectivesCodeValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/NatureDirectivesCodeValue:1",
+    "parents" : [ {
+      "parent" : {
+        "label" : {
+          "text" : "Reference Species Code",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ReferenceSpeciesCodeValue"
+      }
+    } ],
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

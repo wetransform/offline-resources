@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/GeometryMethodValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/GeometryMethodValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/GeometryMethodValue</latestversion>
+   <label xml:lang="en">Geometry Method</label>
+   <definition xml:lang="en">Description of how and by whom this geographic position of the address was created or derived.</definition>
+   <description xml:lang="en">NOTE Information on what type of spatial feature the geographic position of the address was created or derived from, is represented by the GeometrySpecificationValue.</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ad">
+      <label xml:lang="en">Addresses</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/ad">
+      <label xml:lang="en">Addresses</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/GeometryMethodValue/byAdministrator">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeometryMethodValue/byAdministrator:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeometryMethodValue/byAdministrator</latestversion>
+         <label xml:lang="en">by administrator</label>
+         <definition xml:lang="en">Decided and recorded manually by the official body responsible for address allocation or by the dataset custodian.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeometryMethodValue">
+            <label xml:lang="en">Geometry Method</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ad">
+            <label xml:lang="en">Addresses</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ad">
+            <label xml:lang="en">Addresses</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeometryMethodValue/byOtherParty">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeometryMethodValue/byOtherParty:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeometryMethodValue/byOtherParty</latestversion>
+         <label xml:lang="en">by other party</label>
+         <definition xml:lang="en">Decided and recorded manually by another party.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeometryMethodValue">
+            <label xml:lang="en">Geometry Method</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ad">
+            <label xml:lang="en">Addresses</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ad">
+            <label xml:lang="en">Addresses</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeometryMethodValue/fromFeature">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeometryMethodValue/fromFeature:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeometryMethodValue/fromFeature</latestversion>
+         <label xml:lang="en">from feature</label>
+         <definition xml:lang="en">Derived automatically from another INSPIRE spatial object which is related to the address or address component.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeometryMethodValue">
+            <label xml:lang="en">Geometry Method</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ad">
+            <label xml:lang="en">Addresses</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ad">
+            <label xml:lang="en">Addresses</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

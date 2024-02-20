@@ -1,0 +1,360 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Technical (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "risk assessment stage value",
+          "id" : "http://inspire.ec.europa.eu/codelist/RiskAssessmentStageValue"
+        },
+        "created" : "2015-08-18 18:21 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "After the decision that a site is polluted (in the main site investigation) the risk and dispersion assessment starts with identification of exposure paths and receptors at risk.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "identification pollution paths and receptors",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Soil",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "definition" : {
+          "text" : "First step of the risk and dispersion assessment of a polluted site",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/so"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/RiskAssessmentStageValue/identificationPollutionPathsAndReceptors",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/RiskAssessmentStageValue/identificationPollutionPathsAndReceptors",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/RiskAssessmentStageValue/identificationPollutionPathsAndReceptors:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "risk assessment stage value",
+          "id" : "http://inspire.ec.europa.eu/codelist/RiskAssessmentStageValue"
+        },
+        "created" : "2015-08-18 18:21 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "Calculation with risk assessment models and measurements of exposure levels and volumes followed by comparison with toxicologically based acute, chronic and carcinogenic effect levels.In parallel with dispersion asessment.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "risk level assessment",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Soil",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "definition" : {
+          "text" : "Procedure to assess the risk of the pollutant found to be present, to support the decision te take measures on a polluted site",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/so"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/RiskAssessmentStageValue/riskLevelAssessment",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/RiskAssessmentStageValue/riskLevelAssessment",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/RiskAssessmentStageValue/riskLevelAssessment:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "risk assessment stage value",
+          "id" : "http://inspire.ec.europa.eu/codelist/RiskAssessmentStageValue"
+        },
+        "created" : "2015-08-18 18:21 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "Calculation with dispersion assessment models and measurements of dispersion and resulting concentratiosn and affected volumes areas in the receiving media. Followed by comparison with quality measures in those media.   In parallel with exposure asessment.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "pollution dispersion assessment",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Soil",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "definition" : {
+          "text" : "Procedure to assess thedispersion level of the pollutant found to be present, to support the decision te take measures on a polluted site",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/so"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/RiskAssessmentStageValue/pollutionDispersionAssessment",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/RiskAssessmentStageValue/pollutionDispersionAssessment",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/RiskAssessmentStageValue/pollutionDispersionAssessment:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:19 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-technical",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+    },
+    "description" : {
+      "text" : "Recognition of risk receptors and exposure routes, up to full assessment of levels of risk and dispersion.",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "risk assessment stage value",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "open",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Extensible with values at any level",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "so",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Soil",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+    },
+    "definition" : {
+      "text" : "Status risk assessment.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "so",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/so"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/RiskAssessmentStageValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/RiskAssessmentStageValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/RiskAssessmentStageValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

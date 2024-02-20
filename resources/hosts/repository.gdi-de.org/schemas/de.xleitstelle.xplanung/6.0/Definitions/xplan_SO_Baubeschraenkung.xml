@@ -1,0 +1,114 @@
+﻿<!--Erzeugt mit KIT (www.kit.edu) UmlToXmlTransformation-Software, Erstellungsdatum: 31.10.2022 09:25:58-->
+<TypeDefinition xmlns="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ../xsd/ShapeChangeDefinitions.xsd" gml:id="xplan_SO_Baubeschraenkung">
+  <gml:description>Bereich, in denen Verbote oder Beschr&amp;#228;nkungen f&amp;#252;r die Errichtung baulicher Anlagen bestehen</gml:description>
+  <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_Baubeschraenkung</gml:identifier>
+  <gml:name>xplan:SO_Baubeschraenkung</gml:name>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_SO_Baubeschraenkung_artDerFestlegung">
+      <gml:description>Klassifizierung des Bauverbots bzw. der Baubeschränkung</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_Baubeschraenkung:attribute:artDerFestlegung</gml:identifier>
+      <gml:name>xplan:artDerFestlegung</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_Baubeschraenkung_artDerFestlegung_SO_KlassifizBaubeschraenkung_1000">
+          <gml:description>Bereich, in denen keine baulichen Anlagen errichtet werden dürfen</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_Baubeschraenkung:artDerFestlegung:SO_KlassifizBaubeschraenkung:1000</gml:identifier>
+          <gml:name>Bauverbotszone</gml:name>
+          <gml:name codeSpace="lesbarerName">Bauverbotszone</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_Baubeschraenkung_artDerFestlegung_SO_KlassifizBaubeschraenkung_2000">
+          <gml:description>Bereich, in denen Bau-Beschränkungen bestehen.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_Baubeschraenkung:artDerFestlegung:SO_KlassifizBaubeschraenkung:2000</gml:identifier>
+          <gml:name>Baubeschraenkungszone</gml:name>
+          <gml:name codeSpace="lesbarerName">Baubeschränkungszone</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_Baubeschraenkung_artDerFestlegung_SO_KlassifizBaubeschraenkung_3000">
+          <gml:description>Bereich um Wälder, Moore und Heiden, in dem aus Brandschutzgründen keinen baulichen Anlagen errichtet werden dürfen.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_Baubeschraenkung:artDerFestlegung:SO_KlassifizBaubeschraenkung:3000</gml:identifier>
+          <gml:name>Waldabstand</gml:name>
+          <gml:name codeSpace="lesbarerName">Waldabstand</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_Baubeschraenkung_artDerFestlegung_SO_KlassifizBaubeschraenkung_9999">
+          <gml:description>Bereich mit sonstigen Baubeschränkungen.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_Baubeschraenkung:artDerFestlegung:SO_KlassifizBaubeschraenkung:9999</gml:identifier>
+          <gml:name>SonstigeBeschraenkung</gml:name>
+          <gml:name codeSpace="lesbarerName">Sonstige Beschränkung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>SO_KlassifizBaubeschraenkung</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_SO_Baubeschraenkung_detailArtDerFestlegung">
+      <gml:description>Detaillierte Klassifizierung des Bauverbots bzw. der Baubeschränkung über eine Codeliste</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_Baubeschraenkung:attribute:detailArtDerFestlegung</gml:identifier>
+      <gml:name>xplan:detailArtDerFestlegung</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>SO_DetailKlassifizBaubeschraenkung</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_SO_Baubeschraenkung_rechtlicheGrundlage">
+      <gml:description>Rechtliche Grundlage des Bauverbots bzw. der Baubeschränkung</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_Baubeschraenkung:attribute:rechtlicheGrundlage</gml:identifier>
+      <gml:name>xplan:rechtlicheGrundlage</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_Baubeschraenkung_rechtlicheGrundlage_SO_RechtlicheGrundlageBaubeschraenkung_1000">
+          <gml:description>Luftverkehrsrecht</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_Baubeschraenkung:rechtlicheGrundlage:SO_RechtlicheGrundlageBaubeschraenkung:1000</gml:identifier>
+          <gml:name>Luftverkehrsrecht</gml:name>
+          <gml:name codeSpace="lesbarerName">Luftverkehrsrecht</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_Baubeschraenkung_rechtlicheGrundlage_SO_RechtlicheGrundlageBaubeschraenkung_2000">
+          <gml:description>Strassenverkehrsrecht</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_Baubeschraenkung:rechtlicheGrundlage:SO_RechtlicheGrundlageBaubeschraenkung:2000</gml:identifier>
+          <gml:name>Strassenverkehrsrecht</gml:name>
+          <gml:name codeSpace="lesbarerName">Straßenverkehrsrecht</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_Baubeschraenkung_rechtlicheGrundlage_SO_RechtlicheGrundlageBaubeschraenkung_9999">
+          <gml:description>Sonstige Rechtsverordnung</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_Baubeschraenkung:rechtlicheGrundlage:SO_RechtlicheGrundlageBaubeschraenkung:9999</gml:identifier>
+          <gml:name>SonstigesRecht</gml:name>
+          <gml:name codeSpace="lesbarerName">Sonstiges Recht</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>SO_RechtlicheGrundlageBaubeschraenkung</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_SO_Baubeschraenkung_name">
+      <gml:description>Informelle bezeichnung der Festlegung</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_Baubeschraenkung:attribute:name</gml:identifier>
+      <gml:name>xplan:name</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::CharacterString" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_SO_Baubeschraenkung_nummer">
+      <gml:description>Amtliche Bezeichnung / Kennziffer der Festlegung</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_Baubeschraenkung:attribute:nummer</gml:identifier>
+      <gml:name>xplan:nummer</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::CharacterString" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <def:classification>featureType</def:classification>
+  <def:supertypeRef xlink:href="urn:xplan:element:xplan:SO_Geometrieobjekt" />
+</TypeDefinition>

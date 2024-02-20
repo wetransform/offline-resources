@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/MappingFrameValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/MappingFrameValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/MappingFrameValue</latestversion>
+   <label xml:lang="en">Mapping Frame</label>
+   <definition xml:lang="en">Terms indicating the surface on which the MappedFeature is projected.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+      <label xml:lang="en">Geology</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/ge">
+      <label xml:lang="en">Geology</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/MappingFrameValue/baseOfQuaternary">
+         <language>en</language>
+         <created>2015-08-18 17:31 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MappingFrameValue/baseOfQuaternary:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MappingFrameValue/baseOfQuaternary</latestversion>
+         <label xml:lang="en">base of quaternary</label>
+         <definition xml:lang="en">Base of the predominantely unconsolidated sedimentary material of Quaternary age.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MappingFrameValue">
+            <label xml:lang="en">Mapping Frame</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MappingFrameValue/surfaceGeology">
+         <language>en</language>
+         <created>2015-08-18 17:31 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MappingFrameValue/surfaceGeology:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MappingFrameValue/surfaceGeology</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/MappingFrameValue/surfaceGeology:1</version>
+         </previousversions>
+         <label xml:lang="en">surface geology</label>
+         <definition xml:lang="en">Bedrock and superficial deposits that would be visible if the overlying soil was removed or are exposed at the topographic surface.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MappingFrameValue">
+            <label xml:lang="en">Mapping Frame</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MappingFrameValue/topOfBasement">
+         <language>en</language>
+         <created>2015-08-18 17:31 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MappingFrameValue/topOfBasement:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MappingFrameValue/topOfBasement</latestversion>
+         <label xml:lang="en">top of basement</label>
+         <definition xml:lang="en">The surface in the crust of the Earth below sedimentary or volcanic deposits, or tectonically transported rock unit.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MappingFrameValue">
+            <label xml:lang="en">Mapping Frame</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MappingFrameValue/topOfBedrock">
+         <language>en</language>
+         <created>2015-08-18 17:31 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MappingFrameValue/topOfBedrock:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MappingFrameValue/topOfBedrock</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/MappingFrameValue/topOfBedrock:1</version>
+         </previousversions>
+         <label xml:lang="en">top of bedrock</label>
+         <definition xml:lang="en">Top surface of the usually solid rock that may either be exposed at the topographic surface or covered by other unconsolidated deposits.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MappingFrameValue">
+            <label xml:lang="en">Mapping Frame</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

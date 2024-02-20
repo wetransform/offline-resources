@@ -1,0 +1,3375 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "natural geomorphologic feature",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "A geomorphologic feature produced by the natural dynamics.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/naturalGeomorphologicFeature",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/naturalGeomorphologicFeature",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/naturalGeomorphologicFeature:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Drainage pattern is related to the local geologic materials and structure, the geomorphologic features, and the geomorphic history of an area. Drainage pattern types include annular drainage pattern, centripetal drainage pattern, dendritic drainage pattern, deranged drainage pattern, integrated drainage pattern, karst drainage pattern, lack of drainage pattern, parallel drainage pattern, radial drainage pattern, rectangular drainage pattern, thermokarst drainage pattern and trellis drainage pattern.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "drainage pattern",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "The configuration or arrangement of stream courses in an area, including gullies or first-order channelized flow areas, higher order tributaries, and main streams.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/drainagePattern",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/drainagePattern",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/drainagePattern:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/drainagePattern:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "constructional feature",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "Site of a landform that owes its origin, form, position, or general character to depositional (aggradational) processes, such as the accumulation of sediment",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/constructionalFeature",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/constructionalFeature",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/constructionalFeature:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "destructional feature",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "Site of a landform that owes its origin, form, position, or general character to the removal of material by erosion and weathering (degradation) processes resulting from the wearing-down or away of the land surface.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/destructionalFeature",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/destructionalFeature",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/destructionalFeature:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "A degradation feature is sometimes related to the process of transportation; and sometimes the term is used synonimously with denudation feature, or used to signify the results of denudation.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "degradation feature",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "A geomorphologic feature resulting from the wearing down or away, and the general lowering or reduction, of the Earth's surface by natural processes of weathering and erosion, and which may infer the processes of transportation of sediment.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/degradationFeature",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/degradationFeature",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/degradationFeature:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Relic features include the surface landforms, geomorphologic surfaces, and paleosols that have never been buried and yet are predominantly products of past environments. Erosion remnant landforms, or topographic features that remain or are left satnding above the general land surface after erosion has reduced the surrounding areas, as for instance monadnock, butte, mesa or stack, are examples of relic features.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "relic",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "A landform that has survived decay or disintegration, or one that has been left behind after the disappearance of the greater part of its substance such as a remnant island.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/relic",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/relic",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/relic:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Surfaces, landscapes or geomorphologic features (i.e a mountain,a peneplain or a fault scarp) that have been restored by exhumation to their previous status in the existing relief are also named resurrected features.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "exhumed feature",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "Formerly buried landforms, geomorphologic surfaces, or paleosols that have been re-exposed by erosion of the covering mantle.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/exhumedFeature",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/exhumedFeature",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/exhumedFeature:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/exhumedFeature:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "buried feature",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "Landforms, geomorphologic surfaces, or paleosols covered by younger sediments.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/buriedFeature",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/buriedFeature",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/buriedFeature:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "A pediment has typically developed by subaerial agents (including running water) in an arid or semiarid region and is underlain by bedrock (occasionally by older alluvial deposits) that may be bare but are more often partly mantled with a thin discontinuous veneer of alluvium derived from the upland masses and transit across the surface. Examples include rock pediment, pedisediment, intermontane basin piedmont and terrace pediment.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "pediment",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "A gently sloping erosional surface developed at the foot of a receding hill or mountain slope, commonly with a slightly concave-upward profile, that cross-cuts rock or sediment strata that extend beneath adjacent uplands.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/pediment",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/pediment",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/pediment:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "erosional features",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "A land surface shaped by the action of erosion, especially by running water.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/erosional",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/erosional",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/erosional:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "A hill can occur as a single, isolated mass or in a group. A hill can be further specified based on the magnitude of local relief: low hill (30 – 90 m) or high hill (90 - 300 m). Informal distinctions between a hill and a mountain are often arbitrary and dependent on local convention.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "hill",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "A generic term for an elevated area of the land surface, rising at least 30 metres to as much as 300 metres above surrounding lowlands, usually with a nominal summit area relative to bounding slopes, a well-defined, rounded outline and slopes that generally exceed 15 percent.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/hill",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/hill",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/hill:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "interfluve",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "A geomorphologic component of hills consisting of the uppermost, comparatively level or gently sloped area of a hill; shoulders of back wearing hill slopes can narrow the upland or merge resulting in a strongly convex shape.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/interfluve",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/interfluve",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/interfluve:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/interfluve:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "crest",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "A geomorphologic component of hills consisting of the convex slopes (perpendicular to the contour) that form the narrow, roughly linear top area of a hill, ridge, or other upland where shoulders have converged to the extent that little or no summit remains; dominated by erosion, slope wash and mass movement processes and sediments",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/crest",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/crest",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/crest:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Head slopes are dominated by colluvium and slope wash sediments (e.g., slope alluvium); contour lines form concave curves. Slope complexity (downslope shape) can range from simple to complex. Head slopes are comparatively moister portions of hillslopes and tend to accumulate sediments (e.g., cumulic soil profiles) where they are not directly contributing materials to channel flow.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "head slope",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "A geomorphologic component of hills consisting of a laterally concave area of a hillside, especially at the head of a drainage way, resulting in converging overland water flow.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/headSlope",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/headSlope",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/headSlope:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Side slopes are dominated by colluvium and slope wash sediments. Slope complexity (downslope shape) can range from simple to complex. The slope bounding a drainageway and lying between the drainageway and the adjacent interfluve. It is generally linear along the slope width.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "side slope",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "A geomorphologic component of hills consisting of a laterally planar area of a hillside, resulting in predominantly parallel overland water flow. Contour lines generally form straight lines.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/sideSlope",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/sideSlope",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/sideSlope:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/sideSlope:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Nose slopes are dominated by colluvium and slope wash sediments (e.g., slope alluvium). Slope complexity (downslope shape) can range from simple to complex. Nose slopes are comparatively drier portions of hillslopes and tend to have thinner colluvial sediments and profiles.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "nose slope",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "A geomorphologic component of hills consisting of the projecting end (laterally convex area) of a hillside, resulting in predominantly divergent overland water flow; contour lines generally form convex curves.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/noseSlope",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/noseSlope",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/noseSlope:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/noseSlope:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "free face",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "A geomorphologic component of hills and mountains consisting of an outcrop of bare rock that sheds rock fragments and other sediments to, and commonly stands more steeply than the angle of repose of, the colluvial slope immediately below; most commonly found on shoulder and back slope positions, and can comprise part or all of a nose slope or side slope.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/freeFace",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/freeFace",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/freeFace:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "base slope",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "A geomorphologic component of hills consisting of the concave to linear slope (perpendicular to the contour) which, regardless of the lateral shape, is an area that forms an apron or wedge at the bottom of a hillside dominated by colluvial and slope wash processes and sediments",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/baseSlope",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/baseSlope",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/baseSlope:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/baseSlope:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "A mountain can occur as a single, isolated mass or in a group forming a chain or range. Mountains are primarily formed by tectonic activity and/or volcanic action and secondarily by differential erosion.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "mountain",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "A generic term for an elevated area of the land surface, rising more than 300 metres above surrounding lowlands, usually with a nominal summit area relative to bounding slopes and generally with steep sides (greater than 25 percent slope) with or without considerable bare-rock exposed.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/mountain",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/mountain",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/mountain:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "mountaintop",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "A geomorphologic component of mountains consisting of the uppermost, comparatively level or gently sloped area of mountains, characterized by relatively short, simple slopes composed of bare rock, residuum, or short-transport colluvial sediments.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/mountaintop",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/mountaintop",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/mountaintop:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "mountainslope",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "A part of a mountain between the summit and the foot.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/mountainslope",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/mountainslope",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/mountainslope:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "mountainflank",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "A geomorphologic component of mountains characterized by very long, complex back slopes with comparatively high slope gradients and composed of highly-diverse colluvial sediment mantles, rock outcrops or structural benches.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/mountainflank",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/mountainflank",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/mountainflank:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "mountainbase",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "A geomorphologic component of mountains consisting of the strongly to slightly concave colluvial apron or wedge at the bottom of mountain slopes.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/mountainbase",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/mountainbase",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/mountainbase:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "depression",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "Any relatively sunken part of the Earth's surface; especially a low-lying area surrounded by higher ground.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/depression",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/depression",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/depression:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "The geomorphic components of a simple, flat plain are the rise [a broad, slightly elevated area with comparatively greater gradients (e.g., 1-3% slopes], the talf [a comparatively level (e.g., 0-1% slopes), laterally extensive, non-fluvial area], and dip [a slight depression that is not a permanent water body nor part of an integrated drainage network].",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "plain",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "Any flat area, large or small, at a low elevation; specifically an extensive region of comparatively smooth and level or gently undulaing land, having few or no prominent surface irregularities but sometimes having a considerable slope, and usually at a low elevation with reference to surrounding areas.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/plain",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/plain",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/plain:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/plain:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Landscape-scale tectonic and structural geomorphologic features include mountain systems, mountain ranges, plateaux, batholiths, fault-block mountains or rift valleys. Landform-scale tectonic and structural geomorphologic features include the geomorphologic expressions of folds, faults or diapirs, and other landforms as mesas, cuestas, scarps and escarpments, faceted spurs, hogbacks or strike valleys.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "tectonic and structural features",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "Geomorphologic landscapes and landforms related to regional or local bedrock structures, or crustal movement; and geomorphologic landscapes and landforms related dominantly to water erosion but excluding perennial, channel flow (i.e. fluvial, glaciofluvial), or eolian erosion.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/tectonicStructural",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/tectonicStructural",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/tectonicStructural:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Landscape-scale volcanic geomorphologic features include volcanic and lava fields, lava plateaux or lava fields. Landform-scale, volcanic geomorphologic features include lava flows and related features (diverse types of scarps, levees, and lava flow surface features); lahars, calderas, the diverse types of cones and related rims, necks, domes, tubes, trenches, fissures and scarps. Volcanic geomorphologic features include also microfeatures as pressure ridges, tumuli, spatter cones or spiracles.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "volcanic features",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "Geomorphologic landscapes and landforms related to the deep seated (igneous) processes by which magma and associated gases rise through the crust and are extruded onto the earth's surface and into the atmosphere.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/volcanic",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/volcanic",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/volcanic:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/volcanic:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Examples of landscape-scale hydrothermal geomorphologic features are geyser basins. Landform-scale hydrothermal geomorphologic features include geysers, their cones and other geyser-related landforms. Examples of microfeature-scale hydrothermal features related to hot springs are for instance mud pots.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "hydrothermal features",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "Geomorphologic landscapes and landforms related to hydrothermal processes.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/hydrothermal",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/hydrothermal",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/hydrothermal:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Landscape-scale erosional geomorphologic features include  badlands, canyonlands, plains, and remnant features, as for example valley floor and eroded fan remnants. Landform-scale erosional geomorphologic features include inselbergs, monadnocks, knobs, knolls, stacks, buttes, cols, gaps, wind gaps or saddles.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "erosion surface",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "Geomorphologic landscapes and landforms related dominantly to water erosion but excluding perennial channel flow (i.e. fluvial, glaciofluvial) or eolian erosion.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/erosionSurface",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/erosionSurface",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/erosionSurface:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Examples of slope and gravitational features include landforms as colluvial aprons, scree slopes, talus cones, talus slopes, landslides, as falls (rockfall, debris fall or soil fall), topples (rock topple, debris topple, earth topple) and their related features (main and minor scarps, sag, toe), slides (rotational slide, rotational debris slide, rotational earth slide, rotational rock slide, toreva block, translational slide, translational debris slide, translational earth slide, translational rock slide, block glide), flows (debris flow, debris avalanche, earth flow, rockfall avalanche, mudflow, sand flow, block stream), the diverse types of creep, spreads (lateral spread, debris spread, earth spread, rock spread) and complex landslides. Include natural subsidence areas.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "slope and gravitational features",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "Geomorphologic landscapes and landforms related to slope environments; geomorphologic landscapes and landforms developed under the action of the gravitational force.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/slopeGravitational",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/slopeGravitational",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/slopeGravitational:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Landscape-scale, natural geomorphologic features related to periglacial and nival environments include the large-scale features occurring in permafrost areas (i.e. thermokarst). Landform-scale, natural geomorphologic features related to periglacial and nival environments include patterned grounds, some peat-related landforms (i.e. peat plateaux, muskegs and string bogs); mound-like landforms, as pingos; rock glaciers and diverse soliflucion features; and snow-related features, as for example snow fields, avalanche chutes and avalanche cones. Microfeature-scale, natural geomorphologic features related to periglacial and nival environments include the circles or poligons in patterned grounds (stripes, sorted and non-sorted circles, low center and high center polygons); hummock and mound-like microfeatures, as turf hummocks and palsen; and snow-related microfeatures, as for example snow hollows.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "nival, periglacial and permafrost features",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "Geomorphologic landscapes and landforms related to snow, non-glacial, cold climate environments; geomorphologic landscapes and landforms occurring in the vicinity of glaciers and ice sheets; geomorphologic landscapes and landforms related to ground, soil, or rock that remains at or below 0º C for at least two years.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/nivalPeriglacialPermafrost",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/nivalPeriglacialPermafrost",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/nivalPeriglacialPermafrost:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/nivalPeriglacialPermafrost:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Landscape-scale, natural geomorphologic features related to glacial, glaciofluvial, glaciolacustrine, glaciomarine and outwash environments include ice sheets and continental and alpine-type glaciers; fjords; ice-margin complexes; outwash plains and till plains; drumlin fields and glaciokarst areas. Landform-scale, natural geomorphologic features related to glacial, glaciofluvial, glaciolacustrine, glaciomarine and outwash environments include glacial cirques and their related features (aretes, cirque platform, cirque floor and cirque walls); glacial valleys and their related landforms (i.e. U-shaped valley; hanging valley; glacial-valley floor and glacial-valley wall features; nunatak); erratic blocks, diverse types of moraines (i.e. ground, lateral, medial and end moraines; hummocky moraines; terminal and desintegration moraines; esker and recessional moraines, and ice-pushed ridges) and relatd landforms, as kame and kettle; glacial drainage channels, tunnel valleys and ice-marginal streams; glacial, pro-glacial and tunnel-valley lakes and tarn; collapsed and reworked lacustrine features (i.e. collapsed lakeplains and collapsed ice floored or ice-walled lakebeds); and outwash plain-related landforms (head-of-outwash, outwash fans, outwash deltas, valley trains and outwash terraces; outwash plain collapse features and pitted outwash plain and terraces; fosse, drumlins, interdrumlins and drumlinoid riges; crag-and-tail and stoss-and-lee features), and other features as for example glacial potholes and swales, ice wedges, ice-wedge casts and ice-contact slopes, and roches moutonées, glacial flutes and glacial grooves.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "glacial, glaciofluvial, glaciolacustrine and glaciomarine features",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "Geomorphologic landscapes and landforms related to to glacial, glaciofluvial, glaciolacustrine and glaciomarine environments.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/glacial",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/glacial",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/glacial:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Landscape-scale, natural geomorphologic features related to eolian environments include desert pavement (reg) and gibber, deflation basins, sand plains, sand hills, dune fields and loess landscapes. Landform-scale features related to eolian environments include sand ramps and sand sheets; dune lakes, dune ponds, dune slacks and blowout depressions; diverse types of dunes (i.e. barchan dune, climbing dune, falling dune, parabolic dune, parna dune, longitudinal dune, seif dune, star dune, transverse dune, and stabilised and relict dunes) and related lanforms, as interdunes and foredunes; and loess-related landforms, as loess hills and loess bluffs. Minor features include dune features (windward slope, dune crest and slip face); small dunes, as shrub-coppice dunes and zibar; eolian ripples; yardang and yardang throughs; faceted stones and remnant features, as dune traces.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "eolian features",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "Geomorphologic landscapes and landforms related to wind-dominated environments.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/eolian",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/eolian",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/eolian:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Marine, Littoral and Coastal Wetlands features include landscape-scale geomorphologic features as for example islands and barrier-islands, penninsulas and capes; atolls; coastal plain complexes; shore, shoreline and shore-complexes; deltas and delta-plain complexes; tidal flats complexes; marine terraces, lowlands and beach complexes; and their respective relict geomorphologic features. Landform-scale geomorphpologic features include delta plain-related landforms (i.e. channel bifurcation and divergence; distributary channels and interdistributary flood basins) and deltaic submerged landforms (i.e. mouth bars); spits and tomboloes; strand plains; beaches and their related landforms (i.e. berm, beach ridge, swash zone, washover fans) and relict landforms (i.e. raised beaches); barrier beaches and their related landforms (i.e. back-barrier beach, barrier flat, back-barrier flat, barrier cove, tidal inlets; ebb and flood tidal deltas);chenier plains, mud flats, swamps, marshes (i.e. tidal or salt marshes) and related landforms (i.e tidal channel complexes and drainhead complexes); reefs; sea cliffs and headlands; wave-cut platforms, wave-cut terraces and their respective raised and submerged relicts; and shallow water subaquaeous landforms (i.e. submerged back-barrier beach, shoals and longshore bars). Other features are wave and current ripples, dune slacks, some potholes or vernal pools.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "marine, littoral and coastal wetlands features",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "Geomorphologic landscapes and landforms related to wave or tidal dynamics developed in marine, shallow marine, near-shore and littoral zone environments, and those related to vegetated and / or shallow wet areas",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/marineLittoralCoastalWetland",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/marineLittoralCoastalWetland",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/marineLittoralCoastalWetland:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/marineLittoralCoastalWetland:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Landscape-scale features include karst landscapes developed on carbonate or evaporitic rocks (i.e. cockpit karst, cone karst, kegel karst, sinkhole karst and tower karst) and landscapes developed on siliceous cristalline and metamorphic rocks (i.e. granite landscapes). Landform-scale, natural geomorphologic karstic and chemical weathering-related features include solution platforms, pavement karst, karst valleys or uvala (i.e. blind valleys, and interior valleys or polje), caves, sinkholes/dolines (i.e. solution sinkholes, collapse sinkholes, and cockpits), swallow holes, karst cones and towers, pinnacles, boulder piles, tors and chemical weathering yardangs. Other karst and chemical weathering features are for example karren, cutter, and solution pipes, chimneys, fisures and corridors. Tafoni and weathering pits, related to salt weathering, are common microfeatures developed on the exposed surfaces of siliceous clastic sedimentary rocks, and of siliceous cristalline and metamorphic rocks.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "karst and chemical weathering features",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "Geomorphologic landscapes and landforms dominated by mineral dissolution, and commonly, subsurface drainage.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/karstChemicalWeathering",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/karstChemicalWeathering",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/karstChemicalWeathering:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Landscape-scale, natural geomorphologic alluvial and fluvial features include alluvial plains, fan piedmonts, bajadas, river valleys, meander belts, canyonlands, and their respective remnants. Landform-scale, natural geomorphologic alluvial and fluvial features include V-shaped valleys and their related landforms (i.e.valley floor, valley  border surfaces, diverse types of terraces, including paleoterraces, strath terraces, and stream terraces, and their related scarps) ephemeral and intermittent stream channels; draw and ravines; braided streams and related bars; natural levees and crevasse splays; alluvial flats; alluvial cones, alluvial fans and related features (i.e. fan skirt, fan collar, inset fan, fanhead trench); fan aprons; canyons (i.e. box and slot canyons); flood plains and related features (i.e. overflow stream channels, flood-plain playas, flood-plain splays, flood-plain steps and  giant ripples); meanders and their related features (i.e. meander scars, meander scrolls, cutoffs, point bars, and ephemeral oxbow lakes); and their respective remnants. Other natural geomorphologic alluvial and fluvial features are bar-and-channels, grooves, gullies, diverse types of minor scarps, and current ripple marks.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "alluvial and fluvial features",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "Geomorphologic landscapes and landforms dominantly related to concentrated water flow (channel flow).",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/alluvialFluvial",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/alluvialFluvial",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/alluvialFluvial:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Landscape-scale, natural geomorphologic features related to lakes are lake plains, lacustrine shore complexes and relict features as pluvial lakes. Landform-scale, natural geomorphologic features related to lakes are the lacustrine backshore, including wetlands and related landforms (i.e. peat bogs and raised peat bogs); lacustrine beach plains; lacustrine beaches; lacustrine deltas and  lacustrine delta plains; playas and related features (i.e. flood-plain playa, playa floor, playa rim, playa slopes and playa steps); and relict lacustrine features, as relict lakebeds, lacustrine terraces and their related scarps, and reworked lake plains. Other features include playettes, lacustrine shorelines and lacustrine strandlines.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "lacustrine features",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "Geomorphologic landscapes and landforms related to inland permanent water bodies (lakes).",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/lacustrine",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/lacustrine",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/lacustrine:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Natural Geomorphologic Feature Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Geomorphologic impact features include meteorite craters and related features, as crater rim, crater slopes, crater bottom and ejecta-related landforms, and cometary impact features.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "impact features",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+        },
+        "definition" : {
+          "text" : "Geomorphologic landscapes and landforms related to the impact of extraterrestrial material on the Earth's surface.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/impact",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/impact",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/impact:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Natural Geomorphologic Feature Type",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "open",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Extensible with values at any level",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "ge",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/ge"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Geology",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/ge"
+    },
+    "definition" : {
+      "text" : "Terms describing the type of natural geomorphologic feature.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "ge",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/ge"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

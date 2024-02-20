@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/GeothermalPotentialValue">
+   <language>en</language>
+   <created>2015-08-18 17:19 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/GeothermalPotentialValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/GeothermalPotentialValue</latestversion>
+   <label xml:lang="en">Geothermal Potential</label>
+   <definition xml:lang="en">Types of potential geothermal energy.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/any">
+      <label xml:lang="en">Empty code list</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-c">
+      <label xml:lang="en">Energy Resources Coverage</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/er">
+      <label xml:lang="en">Energy resources</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+      <label xml:lang="en">Technical (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/GeothermalPotentialValue/geothermalGradient">
+         <language>en</language>
+         <created>2015-08-18 17:51 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeothermalPotentialValue/geothermalGradient:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeothermalPotentialValue/geothermalGradient</latestversion>
+         <label xml:lang="en">geothermal gradient</label>
+         <definition xml:lang="en">Geothermal gradient is the rate of increasing temperature with respect to increasing depth in the Earth's interior in °C/km.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeothermalPotentialValue">
+            <label xml:lang="en">Geothermal Potential</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-c">
+            <label xml:lang="en">Energy Resources Coverage</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeothermalPotentialValue/temperature">
+         <language>en</language>
+         <created>2015-08-18 17:51 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeothermalPotentialValue/temperature:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeothermalPotentialValue/temperature</latestversion>
+         <label xml:lang="en">temperature</label>
+         <definition xml:lang="en">Temperature measured in °C.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeothermalPotentialValue">
+            <label xml:lang="en">Geothermal Potential</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-c">
+            <label xml:lang="en">Energy Resources Coverage</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

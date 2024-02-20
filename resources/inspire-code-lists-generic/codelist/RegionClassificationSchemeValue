@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue</latestversion>
+   <label xml:lang="en">Region Classification Scheme</label>
+   <definition xml:lang="en">Codes defining the various bio-geographical regions.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/any">
+      <label xml:lang="en">Empty code list</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/br">
+      <label xml:lang="en">Bio-geographical Regions</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/br">
+      <label xml:lang="en">Bio-geographical regions</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue/environmentalStratification">
+         <language>en</language>
+         <created>2015-08-18 17:50 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue/environmentalStratification:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue/environmentalStratification</latestversion>
+         <label xml:lang="en">environmental stratification</label>
+         <definition xml:lang="en">A set of code lists to be used to define the Environmental Stratification.</definition>
+         <description xml:lang="en">See Metzger et al. 2005</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue">
+            <label xml:lang="en">Region Classification Scheme</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/br">
+            <label xml:lang="en">Bio-geographical Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/br">
+            <label xml:lang="en">Bio-geographical regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue/natura2000AndEmeraldBio-geographicalRegion">
+         <language>en</language>
+         <created>2015-08-18 17:50 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue/natura2000AndEmeraldBio-geographicalRegion:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue/natura2000AndEmeraldBio-geographicalRegion</latestversion>
+         <label xml:lang="en">natura 2000 and emerald bio-geographical region</label>
+         <definition xml:lang="en">A set of code lists to be used to define the Natura 2000 and Emerald network Biogeographical regions.</definition>
+         <description xml:lang="en">See Habitats Directive (1992)</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue">
+            <label xml:lang="en">Region Classification Scheme</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/br">
+            <label xml:lang="en">Bio-geographical Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/br">
+            <label xml:lang="en">Bio-geographical regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue/naturalVegetation">
+         <language>en</language>
+         <created>2015-08-18 17:50 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue/naturalVegetation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue/naturalVegetation</latestversion>
+         <label xml:lang="en">natural vegetation</label>
+         <definition xml:lang="en">A set of code lists to be used to define the natural vegetation.</definition>
+         <description xml:lang="en">See Bohn et al. (2000)</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue">
+            <label xml:lang="en">Region Classification Scheme</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/br">
+            <label xml:lang="en">Bio-geographical Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/br">
+            <label xml:lang="en">Bio-geographical regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue/marineStrategyFrameworkDirective">
+         <language>en</language>
+         <created>2015-08-18 17:50 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue/marineStrategyFrameworkDirective:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue/marineStrategyFrameworkDirective</latestversion>
+         <label xml:lang="en">marine strategy framework directive</label>
+         <definition xml:lang="en">A set of codes to be used for the Marine Stategy Framework Diretive region classification.</definition>
+         <description xml:lang="en">See Marine Strategy Framework Directive (2008)</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue">
+            <label xml:lang="en">Region Classification Scheme</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/br">
+            <label xml:lang="en">Bio-geographical Regions</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/br">
+            <label xml:lang="en">Bio-geographical regions</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

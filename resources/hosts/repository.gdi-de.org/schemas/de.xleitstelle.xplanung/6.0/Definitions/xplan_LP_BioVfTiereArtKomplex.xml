@@ -1,0 +1,401 @@
+﻿<!--Erzeugt mit KIT (www.kit.edu) UmlToXmlTransformation-Software, Erstellungsdatum: 31.10.2022 09:25:54-->
+<TypeDefinition xmlns="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ../xsd/ShapeChangeDefinitions.xsd" gml:id="xplan_LP_BioVfTiereArtKomplex">
+  <gml:description>Komplexes Attribut mit Angaben zum Planungsgegenstand Biologische Vielfalt / Tiere</gml:description>
+  <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BioVfTiereArtKomplex</gml:identifier>
+  <gml:name>xplan:LP_BioVfTiereArtKomplex</gml:name>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTierArtName">
+      <gml:description>Textliche Angabe zur Tierart; alternativ oder zus&amp;#228;tzlich auch &lt;i&gt;bioVfTierArtSystematik &lt;/i&gt;</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BioVfTiereArtKomplex:attribute:bioVfTierArtName</gml:identifier>
+      <gml:name>xplan:bioVfTierArtName</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::CharacterString" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik">
+      <gml:description>Gibt systematische Einordnung einer Tierart an
+</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BioVfTiereArtKomplex:attribute:bioVfTiereSystematik</gml:identifier>
+      <gml:name>xplan:bioVfTiereSystematik</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_1100">
+          <gml:description>Gro&amp;#223;s&amp;#228;uger</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:1100</gml:identifier>
+          <gml:name>GrossSaeuger</gml:name>
+          <gml:name codeSpace="lesbarerName">Großsäuger</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_1120">
+          <gml:description>Wolf</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:1120</gml:identifier>
+          <gml:name>Wolf</gml:name>
+          <gml:name codeSpace="lesbarerName">Wolf</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_1110">
+          <gml:description>Luchs</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:1110</gml:identifier>
+          <gml:name>Luchs</gml:name>
+          <gml:name codeSpace="lesbarerName">Luchs</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_1200">
+          <gml:description>Mittels&amp;#228;uger</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:1200</gml:identifier>
+          <gml:name>Mittelsaeuger</gml:name>
+          <gml:name codeSpace="lesbarerName">Mittelsäuger</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_1210">
+          <gml:description>Wildkatze</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:1210</gml:identifier>
+          <gml:name>Wildkatze</gml:name>
+          <gml:name codeSpace="lesbarerName">Wildkatze</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_1220">
+          <gml:description>Fischotter</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:1220</gml:identifier>
+          <gml:name>Fischotter</gml:name>
+          <gml:name codeSpace="lesbarerName">Fischotter</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_1230">
+          <gml:description>Biber</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:1230</gml:identifier>
+          <gml:name>Biber</gml:name>
+          <gml:name codeSpace="lesbarerName">Biber</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_1240">
+          <gml:description>Marder</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:1240</gml:identifier>
+          <gml:name>Marder</gml:name>
+          <gml:name codeSpace="lesbarerName">Marder</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_1300">
+          <gml:description>Kleins&amp;#228;uger</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:1300</gml:identifier>
+          <gml:name>Kleinsaeuger</gml:name>
+          <gml:name codeSpace="lesbarerName">Kleinsäuger</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_1310">
+          <gml:description>Kleins&amp;#228;uger, Nagetiere
+</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:1310</gml:identifier>
+          <gml:name>KleinsaeugerNagetiere</gml:name>
+          <gml:name codeSpace="lesbarerName">Kleinsäuger, Nagetiere</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_1311">
+          <gml:description>Feldhamster</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:1311</gml:identifier>
+          <gml:name>Feldhamster</gml:name>
+          <gml:name codeSpace="lesbarerName">Feldhamster</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_1312">
+          <gml:description>M&amp;#228;use</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:1312</gml:identifier>
+          <gml:name>Maeuse</gml:name>
+          <gml:name codeSpace="lesbarerName">Mäuse</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_1320">
+          <gml:description>Kleins&amp;#228;uger (Hasenartige)</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:1320</gml:identifier>
+          <gml:name>KleinsaeugerHasenartige</gml:name>
+          <gml:name codeSpace="lesbarerName">Kleinsäuger Hasenartige</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_1330">
+          <gml:description>Kleins&amp;#228;uger (Insektenfresser)</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:1330</gml:identifier>
+          <gml:name>KleinsaeugerInsektenfresser</gml:name>
+          <gml:name codeSpace="lesbarerName">Kleinsäuger Insektenfresser</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_1331">
+          <gml:description>Spitzm&amp;#228;use</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:1331</gml:identifier>
+          <gml:name>Spitzmaeuse</gml:name>
+          <gml:name codeSpace="lesbarerName">Spitzmäuse</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_1340">
+          <gml:description>Kleins&amp;#228;uger (Flederm&amp;#228;use)</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:1340</gml:identifier>
+          <gml:name>KleinsaeugerFledermaeuse</gml:name>
+          <gml:name codeSpace="lesbarerName">Kleinsäuger Fledermäuse</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_1400">
+          <gml:description>Meeress&amp;#228;uger</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:1400</gml:identifier>
+          <gml:name>Meeressaeuger</gml:name>
+          <gml:name codeSpace="lesbarerName">Meeressäuger</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_2100">
+          <gml:description>V&amp;#246;gel</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:2100</gml:identifier>
+          <gml:name>Voegel</gml:name>
+          <gml:name codeSpace="lesbarerName">Vögel</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_2110">
+          <gml:description>Zugv&amp;#246;gel</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:2110</gml:identifier>
+          <gml:name>ZugVoegel</gml:name>
+          <gml:name codeSpace="lesbarerName">Zugvögel</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_2120">
+          <gml:description>Brutv&amp;#246;gel</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:2120</gml:identifier>
+          <gml:name>BrutVoegel</gml:name>
+          <gml:name codeSpace="lesbarerName">Brutvögel</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_2200">
+          <gml:description>Reptilien</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:2200</gml:identifier>
+          <gml:name>Reptilien</gml:name>
+          <gml:name codeSpace="lesbarerName">Reptilien</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_2300">
+          <gml:description>Amphibien</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:2300</gml:identifier>
+          <gml:name>Amphibien</gml:name>
+          <gml:name codeSpace="lesbarerName">Amphibien</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_2400">
+          <gml:description>Fische</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:2400</gml:identifier>
+          <gml:name>Fische</gml:name>
+          <gml:name codeSpace="lesbarerName">Fische</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_3000">
+          <gml:description>Gliederfuesser</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:3000</gml:identifier>
+          <gml:name>Gliederfuesser</gml:name>
+          <gml:name codeSpace="lesbarerName">Gliederfüßer</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_3110">
+          <gml:description>Libellen</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:3110</gml:identifier>
+          <gml:name>Libellen</gml:name>
+          <gml:name codeSpace="lesbarerName">Libellen</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_3120">
+          <gml:description>Tagfalter</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:3120</gml:identifier>
+          <gml:name>Tagfalter</gml:name>
+          <gml:name codeSpace="lesbarerName">Tagfalter</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_3130">
+          <gml:description>K&amp;#228;fer</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:3130</gml:identifier>
+          <gml:name>Kaefer</gml:name>
+          <gml:name codeSpace="lesbarerName">Käfer</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_3140">
+          <gml:description>Heuschrecken</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:3140</gml:identifier>
+          <gml:name>Heuschrecken</gml:name>
+          <gml:name codeSpace="lesbarerName">Heuschrecken</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_3150">
+          <gml:description>Spinnen</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:3150</gml:identifier>
+          <gml:name>Spinnen</gml:name>
+          <gml:name codeSpace="lesbarerName">Spinnen</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_3200">
+          <gml:description>Krebstiere</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:3200</gml:identifier>
+          <gml:name>Krebstiere</gml:name>
+          <gml:name codeSpace="lesbarerName">Krebstiere</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_4100">
+          <gml:description>Mollusken</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:4100</gml:identifier>
+          <gml:name>Mollusken</gml:name>
+          <gml:name codeSpace="lesbarerName">Mollusken</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematik_LP_BioVfTiereArtSystematik_9999">
+          <gml:description>Sonstige (siehe &lt;i&gt;bioVfTiereSystematikText&lt;/i&gt;)</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:LP_BioVfTiereArtSystematik:9999</gml:identifier>
+          <gml:name>Sonstiges</gml:name>
+          <gml:name codeSpace="lesbarerName">Sonstiges</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>1</def:cardinality>
+      <def:valueTypeName>LP_BioVfTiereArtSystematik</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTiereSystematikText">
+      <gml:description>Textliche Erl&amp;#228;uterung zu sonstiger Tierartensystematik (bioVfTiereSystematik= 9999) oder erg&amp;#228;nzende Information zu ausgew&amp;#228;hlter Gruppe.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BioVfTiereArtKomplex:attribute:bioVfTiereSystematikText</gml:identifier>
+      <gml:name>xplan:bioVfTiereSystematikText</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::CharacterString" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTierArtRechtlicherSchutz">
+      <gml:description>Rechtliche Grundlage f&amp;#252;r den Schutz einer Tierart an.
+</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BioVfTiereArtKomplex:attribute:bioVfTierArtRechtlicherSchutz</gml:identifier>
+      <gml:name>xplan:bioVfTierArtRechtlicherSchutz</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTierArtRechtlicherSchutz_LP_BioVfTierArtRechtlicherSchutz_1000">
+          <gml:description>Art nach Anhang IV FFH-RL</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTierArtRechtlicherSchutz:LP_BioVfTierArtRechtlicherSchutz:1000</gml:identifier>
+          <gml:name>ArtAnhangIV_FFH_RL</gml:name>
+          <gml:name codeSpace="lesbarerName">Art Anhang IV  FFH RL</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTierArtRechtlicherSchutz_LP_BioVfTierArtRechtlicherSchutz_2000">
+          <gml:description>Art nach Anhang I/ Art. 4 Abs. 2 Vogelschutz-Richtlinie</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTierArtRechtlicherSchutz:LP_BioVfTierArtRechtlicherSchutz:2000</gml:identifier>
+          <gml:name>ArtAnhang_I_Art4_Abs2_VS_RL</gml:name>
+          <gml:name codeSpace="lesbarerName">Art Anhang I Art4 Abs2 VS RL</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTierArtRechtlicherSchutz_LP_BioVfTierArtRechtlicherSchutz_3000">
+          <gml:description>Art nach Anlage 1 BArtSchV</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTierArtRechtlicherSchutz:LP_BioVfTierArtRechtlicherSchutz:3000</gml:identifier>
+          <gml:name>ArtAnlage1_BArtSchV</gml:name>
+          <gml:name codeSpace="lesbarerName">Art Anlage 1 BArt Sch V</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTierArtRechtlicherSchutz_LP_BioVfTierArtRechtlicherSchutz_5000">
+          <gml:description>Verantwortungsart (gem. &amp;#167; 54 Abs. 1 Nr. 2 BNatSchG oder Landesnaturschutzgesetz)</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTierArtRechtlicherSchutz:LP_BioVfTierArtRechtlicherSchutz:5000</gml:identifier>
+          <gml:name>Verantwortungsart</gml:name>
+          <gml:name codeSpace="lesbarerName">Verantwortungsart</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTierArtRechtlicherSchutz_LP_BioVfTierArtRechtlicherSchutz_9999">
+          <gml:description>Sonstige rechtliche Grundlage (siehe &lt;i&gt;bioVfTierArtRechtlicherSchutzText&lt;/i&gt;)</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTierArtRechtlicherSchutz:LP_BioVfTierArtRechtlicherSchutz:9999</gml:identifier>
+          <gml:name>Sonstige</gml:name>
+          <gml:name codeSpace="lesbarerName">Sonstige</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeName>LP_BioVfTierArtRechtlicherSchutz</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTierArtRechtlicherSchutzText">
+      <gml:description>Textliche Erl&amp;#228;uterung zu sonstigem rechtlichen Schutz (bioVfTierArtRechtlicherSchutz = 9999) oder erg&amp;#228;nzende Information zu ausgew&amp;#228;hltem Rechtlichem Schutz.
+</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BioVfTiereArtKomplex:attribute:bioVfTierArtRechtlicherSchutzText</gml:identifier>
+      <gml:name>xplan:bioVfTierArtRechtlicherSchutzText</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::CharacterString" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTierArtHabitatanforderung">
+      <gml:description>Gibt besondere Habitatanforderungen einer Tierart an.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BioVfTiereArtKomplex:attribute:bioVfTierArtHabitatanforderung</gml:identifier>
+      <gml:name>xplan:bioVfTierArtHabitatanforderung</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTierArtHabitatanforderung_LP_BioVfTierArtHabitatanforderung_1000">
+          <gml:description>Art mit (sehr) gro&amp;#223;em Habitatsanforderungen</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTierArtHabitatanforderung:LP_BioVfTierArtHabitatanforderung:1000</gml:identifier>
+          <gml:name>GrosserHabitatsAnspruch</gml:name>
+          <gml:name codeSpace="lesbarerName">Großer Habitats-Anspruch</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTierArtHabitatanforderung_LP_BioVfTierArtHabitatanforderung_2000">
+          <gml:description>Geb&amp;#228;udebewohnende Art</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTierArtHabitatanforderung:LP_BioVfTierArtHabitatanforderung:2000</gml:identifier>
+          <gml:name>Gebaeudebewohnend</gml:name>
+          <gml:name codeSpace="lesbarerName">Gebäudebewohnend</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTierArtHabitatanforderung_LP_BioVfTierArtHabitatanforderung_9999">
+          <gml:description>Sonstige Habitatanforderungen (siehe &lt;i&gt;bioBioVfTierArtHabitatanforderungText&lt;/i&gt;)</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfTiereArtKomplex:bioVfTierArtHabitatanforderung:LP_BioVfTierArtHabitatanforderung:9999</gml:identifier>
+          <gml:name>Sonstige</gml:name>
+          <gml:name codeSpace="lesbarerName">Sonstige</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>LP_BioVfTierArtHabitatanforderung</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_BioVfTiereArtKomplex_bioVfTierArtHabitatanforderungText">
+      <gml:description>Erl&amp;#228;uterung zu Sonstige Habitatanforderungen oder erg&amp;#228;nzende Information zu ausgew&amp;#228;hlten Habitatanforderungen.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BioVfTiereArtKomplex:attribute:bioVfTierArtHabitatanforderungText</gml:identifier>
+      <gml:name>xplan:bioVfTierArtHabitatanforderungText</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::CharacterString" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <def:classification>featureType</def:classification>
+</TypeDefinition>

@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/ImportanceValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/ImportanceValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/ImportanceValue</latestversion>
+   <label xml:lang="en">Importance</label>
+   <definition xml:lang="en">Values indicating the importance of the commodity for the Earth Resource.</definition>
+   <description xml:lang="en">Such a ranking is based on a statistical study of a large set of deposits throughout the world to ensure that it is valid. It is made using histograms allowing for each commodity to define class boundaries and what is a very large, a large, a medium-sized etc deposit for this commodity.. This classification is based on the potential or endowment: reserves + resources.</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/any">
+      <label xml:lang="en">Empty code list</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+      <label xml:lang="en">Mineral Resources</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/mr">
+      <label xml:lang="en">Mineral resources</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/ImportanceValue/veryLargeDeposit">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ImportanceValue/veryLargeDeposit:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ImportanceValue/veryLargeDeposit</latestversion>
+         <label xml:lang="en">Very large deposit</label>
+         <definition xml:lang="en">Several commodities may be of interest inside a deposit. A deposit may be a very large deposit for one commodity (this commodity is the main one) and a different-sized  deposit for some other commodities. Such a ranking is based on a statistical study of a large set of deposits throughout the world to ensure that it is valid. It is made using histograms allowing for each commodity to define class boundaries. This classification is based on the potential or endowment: reserves + resources.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ImportanceValue">
+            <label xml:lang="en">Importance</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ImportanceValue/largeDeposit">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ImportanceValue/largeDeposit:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ImportanceValue/largeDeposit</latestversion>
+         <label xml:lang="en">Large deposit</label>
+         <definition xml:lang="en">Several commodities may be of interest inside a deposit. A deposit may be a large deposit for one commodity (this commodity is the main one) and a different-sized deposit for some other commodities. Such a ranking is based on a statistical study of a large set of deposits throughout the world to ensure that it is valid. It is made using histograms allowing for each commodity to define class boundaries. This classification is based on the potential or endowment: reserves + resources.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ImportanceValue">
+            <label xml:lang="en">Importance</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ImportanceValue/mediumSizedDeposit">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ImportanceValue/mediumSizedDeposit:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ImportanceValue/mediumSizedDeposit</latestversion>
+         <label xml:lang="en">Medium sized deposit</label>
+         <definition xml:lang="en">Several commodities may be of interest inside a deposit. A deposit may be a medium-sized deposit for one commodity (this commodity is the main one) and a different-sized deposit for some other commodities. Such a ranking is based on a statistical study of a large set of deposits throughout the world to ensure that it is valid. It is made using histograms allowing for each commodity to define class boundaries. This classification is based on the potential or endowment: reserves + resources.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ImportanceValue">
+            <label xml:lang="en">Importance</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ImportanceValue/smallDeposit">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ImportanceValue/smallDeposit:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ImportanceValue/smallDeposit</latestversion>
+         <label xml:lang="en">Small deposit</label>
+         <definition xml:lang="en">Several commodities may be of interest inside a deposit. A deposit may be a small deposit for one commodity (this commodity is the main one) and a different-sized deposit for some other commodities. Such a ranking is based on a statistical study of a large set of deposits throughout the world to ensure that it is valid. It is made using histograms allowing for each commodity to define class boundaries. This classification is based on the potential or endowment: reserves + resources.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ImportanceValue">
+            <label xml:lang="en">Importance</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ImportanceValue/occurrence">
+         <language>en</language>
+         <created>2015-08-18 18:12 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ImportanceValue/occurrence:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ImportanceValue/occurrence</latestversion>
+         <label xml:lang="en">Occurrence</label>
+         <definition xml:lang="en">Any ore or economic mineral in any concentration found in bedrock or as float; esp. a valuable mineral in sufficient concentration to suggest further exploration.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ImportanceValue">
+            <label xml:lang="en">Importance</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

@@ -1,0 +1,98 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Technical (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+    },
+    "created" : "2015-08-18 17:19 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-technical",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+    },
+    "description" : {
+      "text" : "The specialisedActivity is a codelist value that should be derived from thematic or Member State codelist. The specialisedActivity should be an relevant activity that has a narrower definition than the ControlledActivityType.Example:If the ControlledActivityType is \"plantAndAnimalHealth\" the specialisedActivity could be \"movement\" or more specifically \"animalMovement\" and \"humanMovement\" (if human movements into an out of a restricted zone apply as was the case with Foot and Mouth disease outbreak in the UK).",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Specialised Activity Type Code",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "any",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Empty code list",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "am",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/am"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Area Management Restriction and Regulation Zones",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/am"
+    },
+    "definition" : {
+      "text" : "Specific activity type defining the activity that is controlled in the zone.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "am",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/am"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/SpecialisedActivityTypeCode",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/SpecialisedActivityTypeCode",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/SpecialisedActivityTypeCode:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

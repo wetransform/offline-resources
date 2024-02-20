@@ -1,0 +1,499 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/CurrentUseValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/CurrentUseValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/CurrentUseValue</latestversion>
+   <label xml:lang="en">Current Use</label>
+   <definition xml:lang="en">Values indicating the current use.</definition>
+   <description xml:lang="en">SOURCE: This code list is partly based on and adapted from the Eurostat classification of types of constructions (for the classification of residential buildings).\nNOTE: the values of this code list apply to buildings or building components where building components may be a building part (in core profiles) or a building unit (in extended profiles)</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/narrower">
+      <label xml:lang="en">Extensible with narrower values</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+      <label xml:lang="en">Building Base</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/bu">
+      <label xml:lang="en">Buildings</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/CurrentUseValue/residential">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CurrentUseValue/residential:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CurrentUseValue/residential</latestversion>
+         <label xml:lang="en">residential</label>
+         <definition xml:lang="en">The building (or building component) is used for residential purpose.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CurrentUseValue">
+            <label xml:lang="en">Current Use</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CurrentUseValue/individualResidence">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CurrentUseValue/individualResidence:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CurrentUseValue/individualResidence</latestversion>
+         <label xml:lang="en">individual residence</label>
+         <definition xml:lang="en">The building (or building component) hosts only one dwelling.</definition>
+         <description xml:lang="en">NOTE: This value includes detached houses such as bungalows, villas, chalets, forest lodges, farmhouses, country houses, summer houses, weekend houses and semi-detached or terraced houses, with each dwelling having its own roof and its own entrance directly from ground surface.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CurrentUseValue">
+            <label xml:lang="en">Current Use</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/CurrentUseValue/residential">
+               <label xml:lang="en">residential</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CurrentUseValue/collectiveResidence">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CurrentUseValue/collectiveResidence:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CurrentUseValue/collectiveResidence</latestversion>
+         <label xml:lang="en">collective residence</label>
+         <definition xml:lang="en">The building (or building component) hosts more than one dwelling.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CurrentUseValue">
+            <label xml:lang="en">Current Use</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/CurrentUseValue/residential">
+               <label xml:lang="en">residential</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CurrentUseValue/twoDwellings">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CurrentUseValue/twoDwellings:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CurrentUseValue/twoDwellings</latestversion>
+         <label xml:lang="en">two dwellings</label>
+         <definition xml:lang="en">The building (or building component) hosts two dwellings.</definition>
+         <description xml:lang="en">NOTE: This class includes detached houses, semi-detached or terraced houses, with two dwellings.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CurrentUseValue">
+            <label xml:lang="en">Current Use</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/CurrentUseValue/collectiveResidence">
+               <label xml:lang="en">collective residence</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CurrentUseValue/moreThanTwoDwelling">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CurrentUseValue/moreThanTwoDwelling:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CurrentUseValue/moreThanTwoDwelling</latestversion>
+         <label xml:lang="en">more than two dwellings</label>
+         <definition xml:lang="en">The building (or building component) hosts at least 3 dwellings.</definition>
+         <description xml:lang="en">NOTE: This class includes flat blocks, apartment houses, with three or more dwellings but excludes residence for communities.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CurrentUseValue">
+            <label xml:lang="en">Current Use</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/CurrentUseValue/collectiveResidence">
+               <label xml:lang="en">collective residence</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CurrentUseValue/residenceForCommunities">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CurrentUseValue/residenceForCommunities:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CurrentUseValue/residenceForCommunities</latestversion>
+         <label xml:lang="en">residence for communities</label>
+         <definition xml:lang="en">The building (or building component) hosts a residence for communities.</definition>
+         <description xml:lang="en">This class includes residential buildings for communities, including residences and service residences for the elderly, students, children and other social groups.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CurrentUseValue">
+            <label xml:lang="en">Current Use</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/CurrentUseValue/residential">
+               <label xml:lang="en">residential</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CurrentUseValue/agriculture">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CurrentUseValue/agriculture:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CurrentUseValue/agriculture</latestversion>
+         <label xml:lang="en">agriculture</label>
+         <definition xml:lang="en">The building (or building component) is used for agricultural activities.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CurrentUseValue">
+            <label xml:lang="en">Current Use</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CurrentUseValue/industrial">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CurrentUseValue/industrial:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CurrentUseValue/industrial</latestversion>
+         <label xml:lang="en">industrial</label>
+         <definition xml:lang="en">The building (or building component) is used for secondary sector activities (industrial).</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CurrentUseValue">
+            <label xml:lang="en">Current Use</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CurrentUseValue/commerceAndServices">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CurrentUseValue/commerceAndServices:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CurrentUseValue/commerceAndServices</latestversion>
+         <label xml:lang="en">commerce and services</label>
+         <definition xml:lang="en">The building (or building component) is used for any service activities. This value addresses the buildings and building components dedicated to tertiary sector activities (commercial and services).</definition>
+         <description xml:lang="en">NOTE: This value includes both ternary sector (commercial activities) and quaternary sector (non-commercial, charity sector).</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CurrentUseValue">
+            <label xml:lang="en">Current Use</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CurrentUseValue/office">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CurrentUseValue/office:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CurrentUseValue/office</latestversion>
+         <label xml:lang="en">office</label>
+         <definition xml:lang="en">The building (or building component) hosts offices.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CurrentUseValue">
+            <label xml:lang="en">Current Use</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/CurrentUseValue/commerceAndServices">
+               <label xml:lang="en">commerce and services</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CurrentUseValue/trade">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CurrentUseValue/trade:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CurrentUseValue/trade</latestversion>
+         <label xml:lang="en">trade</label>
+         <definition xml:lang="en">The building (or building component) hosts trade activities.</definition>
+         <description xml:lang="en">EXAMPLE: Shops, supermarkets, hotels, restaurants.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CurrentUseValue">
+            <label xml:lang="en">Current Use</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/CurrentUseValue/commerceAndServices">
+               <label xml:lang="en">commerce and services</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CurrentUseValue/publicServices">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CurrentUseValue/publicServices:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CurrentUseValue/publicServices</latestversion>
+         <label xml:lang="en">public services</label>
+         <definition xml:lang="en">The building (or building component) hosts public services. Public services are tertiary services provided for the benefit of the citizens.</definition>
+         <description xml:lang="en">Public services are often ruled by public governments or on behalf of them.\nEXAMPLES: Schools, hospitals, governmental buildings, prisons, rescue stations, transport station.\nNOTE: in case of a building being both office and public service (e.g. a city hall), the building should be classified preferably as public service.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CurrentUseValue">
+            <label xml:lang="en">Current Use</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/CurrentUseValue/commerceAndServices">
+               <label xml:lang="en">commerce and services</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CurrentUseValue/ancillary">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CurrentUseValue/ancillary:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CurrentUseValue/ancillary</latestversion>
+         <label xml:lang="en">ancillary</label>
+         <definition xml:lang="en">A building (or building component) of small size that is used only in connection with another larger building (or building component) and generally does not inherit the same function and characteristics as the building (or building component) it is linked to.</definition>
+         <description xml:lang="en">EXAMPLES : A summer house or garage (ancillary use) in the garden of a dwelling (residential use).</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CurrentUseValue">
+            <label xml:lang="en">Current Use</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

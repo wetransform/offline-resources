@@ -1,0 +1,98 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "description" : {
+      "text" : "NOTE For each plan type name a level of spatial plan must be provided using the enumeration LevelOfSpatialPlanValue",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Plan Type Name",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "any",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Empty code list",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "plu",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/plu"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Planned Land Use",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/plu"
+    },
+    "definition" : {
+      "text" : "Types of plans as defined in the Member States. The allowed values for this code list comprise any values defined by data providers.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "lu",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/lu"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/PlanTypeNameValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/PlanTypeNameValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/PlanTypeNameValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

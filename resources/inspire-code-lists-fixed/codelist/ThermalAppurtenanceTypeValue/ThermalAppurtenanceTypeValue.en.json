@@ -1,0 +1,106 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "created" : "2015-08-18 17:19 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Thermal Appurtenance Type",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "any",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Empty code list",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "us-net-th",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/us-net-th"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Thermal Network",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/us-net-th"
+    },
+    "definition" : {
+      "text" : "Classification of thermal appurtenances.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "us",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/us"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/ThermalAppurtenanceTypeValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/ThermalAppurtenanceTypeValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/ThermalAppurtenanceTypeValue:2",
+    "historyversion" : [ {
+      "version" : "http://inspire.ec.europa.eu/codelist/ThermalAppurtenanceTypeValue:1"
+    } ],
+    "parents" : [ {
+      "parent" : {
+        "label" : {
+          "text" : "Specific Appurtenance Type",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SpecificAppurtenanceTypeValue"
+      }
+    } ],
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

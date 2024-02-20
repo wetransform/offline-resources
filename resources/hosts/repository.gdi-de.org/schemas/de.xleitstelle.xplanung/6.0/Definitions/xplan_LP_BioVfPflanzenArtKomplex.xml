@@ -1,0 +1,123 @@
+﻿<!--Erzeugt mit KIT (www.kit.edu) UmlToXmlTransformation-Software, Erstellungsdatum: 31.10.2022 09:25:54-->
+<TypeDefinition xmlns="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ../xsd/ShapeChangeDefinitions.xsd" gml:id="xplan_LP_BioVfPflanzenArtKomplex">
+  <gml:description>Komplexes Attribut mit Angaben zum Planungsgegenstand Biologische Vielfalt / Pflanzen</gml:description>
+  <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BioVfPflanzenArtKomplex</gml:identifier>
+  <gml:name>xplan:LP_BioVfPflanzenArtKomplex</gml:name>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_BioVfPflanzenArtKomplex_bioVfPflanzenArtName">
+      <gml:description>Textliche Angabe zur Pflanzen-Art, botanisch oder Trivialnamen</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BioVfPflanzenArtKomplex:attribute:bioVfPflanzenArtName</gml:identifier>
+      <gml:name>xplan:bioVfPflanzenArtName</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::CharacterString" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_BioVfPflanzenArtKomplex_bioVfPflanzenSystematik">
+      <gml:description>Gibt systematische Einordnung einer Pflanzenart an:</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BioVfPflanzenArtKomplex:attribute:bioVfPflanzenSystematik</gml:identifier>
+      <gml:name>xplan:bioVfPflanzenSystematik</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfPflanzenArtKomplex_bioVfPflanzenSystematik_LP_BioVfPflanzenArtSystematik_1000">
+          <gml:description>Gef&amp;#228;&amp;#223;pflanze</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfPflanzenArtKomplex:bioVfPflanzenSystematik:LP_BioVfPflanzenArtSystematik:1000</gml:identifier>
+          <gml:name>Gefaesspflanze</gml:name>
+          <gml:name codeSpace="lesbarerName">Gefäßpflanze</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfPflanzenArtKomplex_bioVfPflanzenSystematik_LP_BioVfPflanzenArtSystematik_2000">
+          <gml:description>Moose/Flechten</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfPflanzenArtKomplex:bioVfPflanzenSystematik:LP_BioVfPflanzenArtSystematik:2000</gml:identifier>
+          <gml:name>MooseFlechten</gml:name>
+          <gml:name codeSpace="lesbarerName">Moose und Flechten</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfPflanzenArtKomplex_bioVfPflanzenSystematik_LP_BioVfPflanzenArtSystematik_3000">
+          <gml:description>Pilze</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfPflanzenArtKomplex:bioVfPflanzenSystematik:LP_BioVfPflanzenArtSystematik:3000</gml:identifier>
+          <gml:name>Pilze</gml:name>
+          <gml:name codeSpace="lesbarerName">Pilze</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfPflanzenArtKomplex_bioVfPflanzenSystematik_LP_BioVfPflanzenArtSystematik_9999">
+          <gml:description>Sonstige Systematik (siehe &lt;i&gt;bioVfPflanzenSystematikText&lt;/i&gt;)</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfPflanzenArtKomplex:bioVfPflanzenSystematik:LP_BioVfPflanzenArtSystematik:9999</gml:identifier>
+          <gml:name>Sonstiges</gml:name>
+          <gml:name codeSpace="lesbarerName">Sonstiges</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>1</def:cardinality>
+      <def:valueTypeName>LP_BioVfPflanzenArtSystematik</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_BioVfPflanzenArtKomplex_bioVfPflanzenSystematikText">
+      <gml:description>Textliche Erl&amp;#228;uterung zu sonstiger PflanzenartenSystematik (wenn &lt;i&gt;bioVfPflanzenSystematik&lt;/i&gt;= 9999) oder erg&amp;#228;nzende Information zu einer anderen Systematischen Einordnung.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BioVfPflanzenArtKomplex:attribute:bioVfPflanzenSystematikText</gml:identifier>
+      <gml:name>xplan:bioVfPflanzenSystematikText</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::CharacterString" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_BioVfPflanzenArtKomplex_bioVfPflanzenRechtlicherSchutz">
+      <gml:description>Rechtliche Grundlage f&amp;#252;r den Schutz einer Pflanzenart an.
+</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BioVfPflanzenArtKomplex:attribute:bioVfPflanzenRechtlicherSchutz</gml:identifier>
+      <gml:name>xplan:bioVfPflanzenRechtlicherSchutz</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfPflanzenArtKomplex_bioVfPflanzenRechtlicherSchutz_LP_BioVfPflanzenArtRechtlicherSchutz_1000">
+          <gml:description>Art nach Anhang IV FFH-RL</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfPflanzenArtKomplex:bioVfPflanzenRechtlicherSchutz:LP_BioVfPflanzenArtRechtlicherSchutz:1000</gml:identifier>
+          <gml:name>AnhangIV_FFH_RL</gml:name>
+          <gml:name codeSpace="lesbarerName">Anhang IV FFH RL</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfPflanzenArtKomplex_bioVfPflanzenRechtlicherSchutz_LP_BioVfPflanzenArtRechtlicherSchutz_2000">
+          <gml:description>Art nach Anlage 1 BArtSchV</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfPflanzenArtKomplex:bioVfPflanzenRechtlicherSchutz:LP_BioVfPflanzenArtRechtlicherSchutz:2000</gml:identifier>
+          <gml:name>Anlage1_BArtSchV</gml:name>
+          <gml:name codeSpace="lesbarerName">Anlage 1 BArtSchV</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfPflanzenArtKomplex_bioVfPflanzenRechtlicherSchutz_LP_BioVfPflanzenArtRechtlicherSchutz_3000">
+          <gml:description>Verantwortungsart (gem. § 54 Abs. 1 Nr. 2 BNatSchG oder Landesnaturschutzgesetz)</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfPflanzenArtKomplex:bioVfPflanzenRechtlicherSchutz:LP_BioVfPflanzenArtRechtlicherSchutz:3000</gml:identifier>
+          <gml:name>Verantwortungsart</gml:name>
+          <gml:name codeSpace="lesbarerName">Verantwortungsart</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_BioVfPflanzenArtKomplex_bioVfPflanzenRechtlicherSchutz_LP_BioVfPflanzenArtRechtlicherSchutz_9999">
+          <gml:description>Sonstige rechtliche Grundlage (siehe &lt;i&gt;bioVfPflanzenRechtlicherSchutzText&lt;/i&gt;)</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_BioVfPflanzenArtKomplex:bioVfPflanzenRechtlicherSchutz:LP_BioVfPflanzenArtRechtlicherSchutz:9999</gml:identifier>
+          <gml:name>Sonstige</gml:name>
+          <gml:name codeSpace="lesbarerName">Sonstige</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeName>LP_BioVfPflanzenArtRechtlicherSchutz</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_BioVfPflanzenArtKomplex_bioVfPflanzenRechtlicherSchutzText">
+      <gml:description>Textliche Erl&amp;#228;uterung zu sonstigem Rechtlichen Schutz (bioVfPflanzenRechtlicherSchutz&lt;i&gt; &lt;/i&gt;= 9999) oder erg&amp;#228;nzende Information zu ausgew&amp;#228;hltem rechtlichem Schutz.
+</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BioVfPflanzenArtKomplex:attribute:bioVfPflanzenRechtlicherSchutzText</gml:identifier>
+      <gml:name>xplan:bioVfPflanzenRechtlicherSchutzText</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::CharacterString" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <def:classification>featureType</def:classification>
+</TypeDefinition>

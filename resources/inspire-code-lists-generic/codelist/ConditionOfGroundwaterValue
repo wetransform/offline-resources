@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/ConditionOfGroundwaterValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/ConditionOfGroundwaterValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/ConditionOfGroundwaterValue</latestversion>
+   <label xml:lang="en">Condition Of Groundwater</label>
+   <definition xml:lang="en">Values indicating the approximate degree of change which has taken place on the natural state of groundwater.</definition>
+   <description xml:lang="en">The groundwater in a GroundWaterFlowSystem is in a variable condition, dependent on external factors, among which are diverse human activities.</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+      <label xml:lang="en">Hydrogeology</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/ge">
+      <label xml:lang="en">Geology</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/ConditionOfGroundwaterValue/natural">
+         <language>en</language>
+         <created>2015-08-18 17:32 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ConditionOfGroundwaterValue/natural:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ConditionOfGroundwaterValue/natural</latestversion>
+         <label xml:lang="en">natural</label>
+         <definition xml:lang="en">Groundwater quantity or quality is dependent only on natural factors.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ConditionOfGroundwaterValue">
+            <label xml:lang="en">Condition Of Groundwater</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ConditionOfGroundwaterValue/lightlyModified">
+         <language>en</language>
+         <created>2015-08-18 17:32 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ConditionOfGroundwaterValue/lightlyModified:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ConditionOfGroundwaterValue/lightlyModified</latestversion>
+         <label xml:lang="en">lightly modified</label>
+         <definition xml:lang="en">Groundwater quantity or quality is dependent mostly on natural factors, but with some influence through human activity</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ConditionOfGroundwaterValue">
+            <label xml:lang="en">Condition Of Groundwater</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ConditionOfGroundwaterValue/modified">
+         <language>en</language>
+         <created>2015-08-18 17:32 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ConditionOfGroundwaterValue/modified:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ConditionOfGroundwaterValue/modified</latestversion>
+         <label xml:lang="en">modified</label>
+         <definition xml:lang="en">Groundwater quantity or quality is modified by human activity.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ConditionOfGroundwaterValue">
+            <label xml:lang="en">Condition Of Groundwater</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ConditionOfGroundwaterValue/stronglyModified">
+         <language>en</language>
+         <created>2015-08-18 17:32 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ConditionOfGroundwaterValue/stronglyModified:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ConditionOfGroundwaterValue/stronglyModified</latestversion>
+         <label xml:lang="en">strongly modified</label>
+         <definition xml:lang="en">Groundwater quantity or quality is modified by human activity and the values of a number of parameters exceed the drinking water standards.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ConditionOfGroundwaterValue">
+            <label xml:lang="en">Condition Of Groundwater</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ConditionOfGroundwaterValue/unknown">
+         <language>en</language>
+         <created>2015-08-18 17:32 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ConditionOfGroundwaterValue/unknown:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ConditionOfGroundwaterValue/unknown</latestversion>
+         <label xml:lang="en">unknown</label>
+         <definition xml:lang="en">The natural state of groundwater condition is unknown.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ConditionOfGroundwaterValue">
+            <label xml:lang="en">Condition Of Groundwater</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/NameStatusValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/NameStatusValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/NameStatusValue</latestversion>
+   <label xml:lang="en">Name Status</label>
+   <definition xml:lang="en">The status of a geographical name, that is the information enabling to discern which credit should be given to the name with respect to its standardisation and/or its topicality.</definition>
+   <description xml:lang="en">NOTE The precise definition of the values 'Official', 'Standardised', 'Historical' and 'Other' can only be decided by Member States according to their legislation and practice.</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/gn">
+      <label xml:lang="en">Geographical Names</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/gn">
+      <label xml:lang="en">Geographical names</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/NameStatusValue/historical">
+         <language>en</language>
+         <created>2015-08-18 17:41 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NameStatusValue/historical:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NameStatusValue/historical</latestversion>
+         <label xml:lang="en">historical</label>
+         <definition xml:lang="en">Historical name not in current use.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NameStatusValue">
+            <label xml:lang="en">Name Status</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/gn">
+            <label xml:lang="en">Geographical Names</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/gn">
+            <label xml:lang="en">Geographical names</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NameStatusValue/official">
+         <language>en</language>
+         <created>2015-08-18 17:41 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NameStatusValue/official:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NameStatusValue/official</latestversion>
+         <label xml:lang="en">official</label>
+         <definition xml:lang="en">Name in current use and officially approved or established by legislation.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NameStatusValue">
+            <label xml:lang="en">Name Status</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/gn">
+            <label xml:lang="en">Geographical Names</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/gn">
+            <label xml:lang="en">Geographical names</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NameStatusValue/other">
+         <language>en</language>
+         <created>2015-08-18 17:41 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NameStatusValue/other:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NameStatusValue/other</latestversion>
+         <label xml:lang="en">other</label>
+         <definition xml:lang="en">Current, but not official, nor approved name.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NameStatusValue">
+            <label xml:lang="en">Name Status</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/gn">
+            <label xml:lang="en">Geographical Names</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/gn">
+            <label xml:lang="en">Geographical names</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NameStatusValue/standardised">
+         <language>en</language>
+         <created>2015-08-18 17:41 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NameStatusValue/standardised:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NameStatusValue/standardised</latestversion>
+         <label xml:lang="en">standardised</label>
+         <definition xml:lang="en">Name in current use and accepted or recommended by a body assigned advisory function and/or power of decision in matters of toponymy.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NameStatusValue">
+            <label xml:lang="en">Name Status</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/gn">
+            <label xml:lang="en">Geographical Names</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/gn">
+            <label xml:lang="en">Geographical names</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue">
+   <language>en</language>
+   <created>2015-08-18 17:19 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue</latestversion>
+   <label xml:lang="en">General Counting Unit</label>
+   <definition xml:lang="en">The unit used to express a counted or estimated number indicating the abundance within a SpeciesAggregationUnit (e.g. occurrences or the population size).</definition>
+   <parents>
+      <parent id="http://inspire.ec.europa.eu/codelist/CountingUnitValue">
+         <label xml:lang="en">Counting Unit</label>
+      </parent>
+   </parents>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/any">
+      <label xml:lang="en">Empty code list</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sd">
+      <label xml:lang="en">Species Distribution</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/sd">
+      <label xml:lang="en">Species distribution</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue/colonies">
+         <language>en</language>
+         <created>2015-08-18 18:25 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue/colonies:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue/colonies</latestversion>
+         <label xml:lang="en">colonies</label>
+         <definition xml:lang="en">individual organisms of the same species living closely together, usually for mutual benefit</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue">
+            <label xml:lang="en">General Counting Unit</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sd">
+            <label xml:lang="en">Species Distribution</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sd">
+            <label xml:lang="en">Species distribution</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue/individuals">
+         <language>en</language>
+         <created>2015-08-18 18:25 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue/individuals:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue/individuals</latestversion>
+         <label xml:lang="en">individuals</label>
+         <definition xml:lang="en">single, genetically distinct member of a population</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue">
+            <label xml:lang="en">General Counting Unit</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sd">
+            <label xml:lang="en">Species Distribution</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sd">
+            <label xml:lang="en">Species distribution</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue/juvenile">
+         <language>en</language>
+         <created>2015-08-18 18:25 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue/juvenile:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue/juvenile</latestversion>
+         <label xml:lang="en">juvenile</label>
+         <definition xml:lang="en">not sexually mature individual</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue">
+            <label xml:lang="en">General Counting Unit</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sd">
+            <label xml:lang="en">Species Distribution</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sd">
+            <label xml:lang="en">Species distribution</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue/larvae">
+         <language>en</language>
+         <created>2015-08-18 18:25 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue/larvae:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue/larvae</latestversion>
+         <label xml:lang="en">larvae</label>
+         <definition xml:lang="en">a distinct juvenile form many animals undergo before metamorphosis into adults</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue">
+            <label xml:lang="en">General Counting Unit</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sd">
+            <label xml:lang="en">Species Distribution</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sd">
+            <label xml:lang="en">Species distribution</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue/pairs">
+         <language>en</language>
+         <created>2015-08-18 18:25 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue/pairs:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue/pairs</latestversion>
+         <label xml:lang="en">pairs</label>
+         <definition xml:lang="en">mated pairs</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue">
+            <label xml:lang="en">General Counting Unit</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sd">
+            <label xml:lang="en">Species Distribution</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sd">
+            <label xml:lang="en">Species distribution</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue/shoal">
+         <language>en</language>
+         <created>2015-08-18 18:25 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue/shoal:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue/shoal</latestversion>
+         <label xml:lang="en">shoal</label>
+         <definition xml:lang="en">A cluster of internal self-coordinated moving individuals, e.g. a fish flock.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue">
+            <label xml:lang="en">General Counting Unit</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sd">
+            <label xml:lang="en">Species Distribution</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sd">
+            <label xml:lang="en">Species distribution</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue/shoots">
+         <language>en</language>
+         <created>2015-08-18 18:25 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue/shoots:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue/shoots</latestversion>
+         <label xml:lang="en">shoots</label>
+         <definition xml:lang="en">Shoots are counted when it is not possible to distinguish individuals, e.g. due to clonal growth.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue">
+            <label xml:lang="en">General Counting Unit</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sd">
+            <label xml:lang="en">Species Distribution</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sd">
+            <label xml:lang="en">Species distribution</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue/tufts">
+         <language>en</language>
+         <created>2015-08-18 18:25 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue/tufts:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue/tufts</latestversion>
+         <label xml:lang="en">tufts</label>
+         <definition xml:lang="en">groups of plants of a single species growing so closely together that it is impossible to distinguish single indivduals without destroying the occurence</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue">
+            <label xml:lang="en">General Counting Unit</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sd">
+            <label xml:lang="en">Species Distribution</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/sd">
+            <label xml:lang="en">Species distribution</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

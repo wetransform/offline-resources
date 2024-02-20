@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/MediaTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/MediaTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/MediaTypeValue</latestversion>
+   <label xml:lang="en">Environmental Health Media Type</label>
+   <definition xml:lang="en">The media in which the concentration of a health component is measured.</definition>
+   <description xml:lang="en">EXAMPLE: Drinking water, indoor air, ambient air, etc.</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/any">
+      <label xml:lang="en">Empty code list</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+      <label xml:lang="en">Human Health</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/hh">
+      <label xml:lang="en">Human health and safety</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/MediaTypeValue/ambientAir">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MediaTypeValue/ambientAir:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MediaTypeValue/ambientAir</latestversion>
+         <label xml:lang="en">ambient Air</label>
+         <definition xml:lang="en">Ambient air.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MediaTypeValue">
+            <label xml:lang="en">Environmental Health Media Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MediaTypeValue/indoorAir">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MediaTypeValue/indoorAir:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MediaTypeValue/indoorAir</latestversion>
+         <label xml:lang="en">indoor Air</label>
+         <definition xml:lang="en">Indoor  air.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MediaTypeValue">
+            <label xml:lang="en">Environmental Health Media Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MediaTypeValue/drinkingWater">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MediaTypeValue/drinkingWater:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MediaTypeValue/drinkingWater</latestversion>
+         <label xml:lang="en">drinking Water</label>
+         <definition xml:lang="en">Drinking water.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MediaTypeValue">
+            <label xml:lang="en">Environmental Health Media Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MediaTypeValue/riverWater">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MediaTypeValue/riverWater:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MediaTypeValue/riverWater</latestversion>
+         <label xml:lang="en">river Water</label>
+         <definition xml:lang="en">River water.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MediaTypeValue">
+            <label xml:lang="en">Environmental Health Media Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MediaTypeValue/lakeWater">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MediaTypeValue/lakeWater:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MediaTypeValue/lakeWater</latestversion>
+         <label xml:lang="en">lake Water</label>
+         <definition xml:lang="en">Lake water.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MediaTypeValue">
+            <label xml:lang="en">Environmental Health Media Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MediaTypeValue/bathingWater">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MediaTypeValue/bathingWater:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MediaTypeValue/bathingWater</latestversion>
+         <label xml:lang="en">bathing Water</label>
+         <definition xml:lang="en">Bathing water.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MediaTypeValue">
+            <label xml:lang="en">Environmental Health Media Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MediaTypeValue/groundWater">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MediaTypeValue/groundWater:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MediaTypeValue/groundWater</latestversion>
+         <label xml:lang="en">ground Water</label>
+         <definition xml:lang="en">Ground water.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MediaTypeValue">
+            <label xml:lang="en">Environmental Health Media Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MediaTypeValue/soil">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MediaTypeValue/soil:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MediaTypeValue/soil</latestversion>
+         <label xml:lang="en">soil</label>
+         <definition xml:lang="en">Soil.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MediaTypeValue">
+            <label xml:lang="en">Environmental Health Media Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

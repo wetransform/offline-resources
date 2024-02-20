@@ -1,0 +1,870 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Airspace Area Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue"
+        },
+        "created" : "2015-08-18 17:39 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Airport Traffic Zone",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-a",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-a"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Air Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-a"
+        },
+        "definition" : {
+          "text" : "Airspace of defined dimensions established around an airport for the protection of airport traffic.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/ATZ",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/ATZ",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/ATZ:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/ATZ:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Airspace Area Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue"
+        },
+        "created" : "2015-08-18 17:39 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "control area",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-a",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-a"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Air Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-a"
+        },
+        "definition" : {
+          "text" : "A controlled airspace extending upwards from a specified limit above the earth.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/CTA",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/CTA",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/CTA:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/CTA:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Airspace Area Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue"
+        },
+        "created" : "2015-08-18 17:39 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "control zone",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-a",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-a"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Air Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-a"
+        },
+        "definition" : {
+          "text" : "A controlled airspace extending upwards from the surface of the earth to a specified upper limit.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/CTR",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/CTR",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/CTR:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/CTR:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Airspace Area Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue"
+        },
+        "created" : "2015-08-18 17:39 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Danger area",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-a",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-a"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Air Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-a"
+        },
+        "definition" : {
+          "text" : "Danger area. Airspace of defined dimensions within which activities dangerous to the flight of aircraft may exist at specified times.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/D",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/D",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/D:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/D:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Airspace Area Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue"
+        },
+        "created" : "2015-08-18 17:39 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Flight Information Region",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-a",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-a"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Air Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-a"
+        },
+        "definition" : {
+          "text" : "Airspace of defined dimensions within which flight information service and alerting service are provided. Might, for example, be used if service provided by more than one unit.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/FIR",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/FIR",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/FIR:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/FIR:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Airspace Area Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue"
+        },
+        "created" : "2015-08-18 17:39 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Prohibited area",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-a",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-a"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Air Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-a"
+        },
+        "definition" : {
+          "text" : "Prohibited area. Airspace of defined dimensions, above the land areas or territorial waters of a State, within which the flight of aircraft is prohibited.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/P",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/P",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/P:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/P:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Airspace Area Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue"
+        },
+        "created" : "2015-08-18 17:39 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Restricted area",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-a",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-a"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Air Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-a"
+        },
+        "definition" : {
+          "text" : "Restricted area. Airspace of defined dimensions, above the land areas or territorial waters of a State, within which the flight of aircraft is restricted in accordance with certain specified conditions.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/R",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/R",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/R:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/R:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Airspace Area Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue"
+        },
+        "created" : "2015-08-18 17:39 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "terminal control area",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-a",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-a"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Air Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-a"
+        },
+        "definition" : {
+          "text" : "Control area normally established at the confluence of ATS routes in the vicinity of one or more major aerodromes. Mainly used in Europe under the Flexible Use of Airspace concept.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/TMA",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/TMA",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/TMA:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Airspace Area Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue"
+        },
+        "created" : "2015-08-18 17:39 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "Upper flight Information Region",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-a",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-a"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Air Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-a"
+        },
+        "definition" : {
+          "text" : "An upper airspace of defined dimensions within which flight information service and alerting service are provided. Each state determines its definition for upper airspace.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/UIR",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/UIR",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/UIR:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/UIR:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "description" : {
+      "text" : "SOURCE [CodeAirspaceType - AIXM5.0].",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Airspace Area Type",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "none",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Not extensible",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "tn-a",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-a"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Air Transport Network",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/tn-a"
+    },
+    "definition" : {
+      "text" : "Recognised types of Airspace.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "tn",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/tn"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

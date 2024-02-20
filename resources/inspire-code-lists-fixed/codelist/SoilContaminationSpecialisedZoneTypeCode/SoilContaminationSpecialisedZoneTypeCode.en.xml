@@ -1,0 +1,398 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode">
+   <language>en</language>
+   <created>2015-08-18 17:19 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode</latestversion>
+   <label xml:lang="en">soil contamination specialised zone type code</label>
+   <definition xml:lang="en">Indicates restrictions on the site as a consequence of the current situation.</definition>
+   <description xml:lang="en">Imposed restrictions in land use</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+      <label xml:lang="en">Soil</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/so">
+      <label xml:lang="en">Soil</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+      <label xml:lang="en">Technical (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedHomeGardeningAndOrMonitoringOfProduce">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedHomeGardeningAndOrMonitoringOfProduce:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedHomeGardeningAndOrMonitoringOfProduce</latestversion>
+         <label xml:lang="en">restricted home gardening and or monitoring of produce</label>
+         <definition xml:lang="en">protection of local consumers living of crops grown non -commercially on the site</definition>
+         <description xml:lang="en">e.g. possible restrictions: no home gardening for consumption, limited consumption, only crops with little uptake, carefull washing of vegetables, adjusted fertiliser and calcium addition regime; monitoring: including declared limiting concentrtaions and set rules for action</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode">
+            <label xml:lang="en">soil contamination specialised zone type code</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedAgricultureAndOrMonitoringOfProduce">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedAgricultureAndOrMonitoringOfProduce:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedAgricultureAndOrMonitoringOfProduce</latestversion>
+         <label xml:lang="en">restricted agriculture and/or monitoring of produce</label>
+         <definition xml:lang="en">general food protection rules; care for additional monitoring when land is possibly contaminated</definition>
+         <description xml:lang="en">agricultural produce is for use elsewhere and follows commercial rules; possible content of chemicals with adverse effects will generally be regulated and maintained by the producing member state and according trade rules</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode">
+            <label xml:lang="en">soil contamination specialised zone type code</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/stormWaterAndSewerManagement">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/stormWaterAndSewerManagement:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/stormWaterAndSewerManagement</latestversion>
+         <label xml:lang="en">storm water and sewer management</label>
+         <definition xml:lang="en">structural works to minimise the dispersion or the effects of dispersion of contaminants, in sewers and dewatering regulation systems</definition>
+         <description xml:lang="en">storm water, run off to surface water and transport in sewer systems may be an additional route of dispersion and need care</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode">
+            <label xml:lang="en">soil contamination specialised zone type code</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/managementAndMonitoringOfSurfaceWatersInConnectionWithTheSite">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/managementAndMonitoringOfSurfaceWatersInConnectionWithTheSite:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/managementAndMonitoringOfSurfaceWatersInConnectionWithTheSite</latestversion>
+         <label xml:lang="en">management and monitoring of surface waters in connection with the site</label>
+         <definition xml:lang="en">structural works to minimise the dispersion or the effects of dispersion of contaminants by management of surface wates in contact with the site</definition>
+         <description xml:lang="en">soil is part of a soil- water system with both media generally in cliose contact; dispersion with surface water in close contact to the site or inclusion in underwater soil /surface water sediment is common</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode">
+            <label xml:lang="en">soil contamination specialised zone type code</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedOrLicensedUseOfGroundwaterWellsOnTheSite">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedOrLicensedUseOfGroundwaterWellsOnTheSite:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedOrLicensedUseOfGroundwaterWellsOnTheSite</latestversion>
+         <label xml:lang="en">restricted or licensed use of groundwater wells on the site</label>
+         <definition xml:lang="en">dependent of pollution level water from groundwater wells may have restricted use</definition>
+         <description xml:lang="en">e.g. not as untreated drinking water, not as irrigation water</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode">
+            <label xml:lang="en">soil contamination specialised zone type code</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedOrLicensedExcavationOrDiggingOnly">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedOrLicensedExcavationOrDiggingOnly:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedOrLicensedExcavationOrDiggingOnly</latestversion>
+         <label xml:lang="en">restricted or licensed excavation or digging only</label>
+         <definition xml:lang="en">excavation /digging permits from local authority</definition>
+         <description xml:lang="en">to avoid contact with pollution, to avoid dispersion from stabilised bodies of polluted soil or enclosed voltile substances</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode">
+            <label xml:lang="en">soil contamination specialised zone type code</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedOrLicensedTranportOfSoilAndOrWasteMaterialToAndFromSite">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedOrLicensedTranportOfSoilAndOrWasteMaterialToAndFromSite:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedOrLicensedTranportOfSoilAndOrWasteMaterialToAndFromSite</latestversion>
+         <label xml:lang="en">restricted or licensed tranport of soil and or waste material to and from site</label>
+         <definition xml:lang="en">permits for transport of soil and waste from local authority</definition>
+         <description xml:lang="en">to avoid dispersion of pollution with excavated soil to other areas</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode">
+            <label xml:lang="en">soil contamination specialised zone type code</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictionsOnBuilingActivities">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictionsOnBuilingActivities:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictionsOnBuilingActivities</latestversion>
+         <label xml:lang="en">restrictions on builing activities</label>
+         <definition xml:lang="en">according applicable rules for building permits</definition>
+         <description xml:lang="en">to avoid blocking cleaning possibilities and to avoid buildings with limited use or comercial values after finishing</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode">
+            <label xml:lang="en">soil contamination specialised zone type code</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictionsOnUseOfBuildingsAndFacilities">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictionsOnUseOfBuildingsAndFacilities:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictionsOnUseOfBuildingsAndFacilities</latestversion>
+         <label xml:lang="en">restrictions on use of buildings and facilities</label>
+         <definition xml:lang="en">according view of local health authorities</definition>
+         <description xml:lang="en">i.e. regarding indoor air quality</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode">
+            <label xml:lang="en">soil contamination specialised zone type code</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/coverManagement">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/coverManagement:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/coverManagement</latestversion>
+         <label xml:lang="en">cover management</label>
+         <definition xml:lang="en">if cover is applied to avoid contact with polluted soil this should be maneged</definition>
+         <description xml:lang="en">i.e.check on tears, punctures, deep rooting trees, taking up of water, escaping gasses</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode">
+            <label xml:lang="en">soil contamination specialised zone type code</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedOrLicensedEntranceOnly">
+         <language>en</language>
+         <created>2015-08-18 18:21 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedOrLicensedEntranceOnly:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/restrictedOrLicensedEntranceOnly</latestversion>
+         <label xml:lang="en">restricted or licensed entrance only</label>
+         <definition xml:lang="en">restricted or licensed entrance only</definition>
+         <description xml:lang="en">i.e. to avoid contact with pollution for innocent bypassers and playing children, to demand protection and safety measures for workers entering the area</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode">
+            <label xml:lang="en">soil contamination specialised zone type code</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

@@ -1,0 +1,1097 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+   <language>en</language>
+   <created>2015-08-18 17:19 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue:2</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue</latestversion>
+   <previousversions>
+      <version>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue:1</version>
+   </previousversions>
+   <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+   <definition xml:lang="en">list of possible reference soil groups (i.e. first level of classification of the World Reference Base for Soil Resources). The allowed values for this code list comprise only the values specified in ―World reference base for soil resources 2006, first update 2007.</definition>
+   <description xml:lang="en">Reference Soil Groups are distinguished by the presence (or absence) of specific diagnostic horizons, properties and/or materials. NOTE The WRB soil classification system comprises 32 different RSGs.</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+      <label xml:lang="en">Soil</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/so">
+      <label xml:lang="en">Soil</label>
+   </theme>
+   <document id="http://inspire.ec.europa.eu/document/WRBRef">
+      <label xml:lang="en">World reference base for soil resources 2006, first update 2007, World Soil Resources Reports No. 103, Food and Agriculture Organization of the United Nations, Rome, 2007  (p. 51-66)</label>
+   </document>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/acrisol">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/acrisol:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/acrisol</latestversion>
+         <label xml:lang="en">Acrisols</label>
+         <definition xml:lang="en">Soil having an argic horizon, CECclay &lt; 50%.</definition>
+         <description xml:lang="en">Soils with a clay-enriched subsoil with low base status and low-activity clay</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/albeluvisol">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/albeluvisol:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/albeluvisol</latestversion>
+         <label xml:lang="en">Albeluvisols</label>
+         <definition xml:lang="en">Soil having an argic horizon and albeluvic tonguin.</definition>
+         <description xml:lang="en">Soils with a clay-enriched subsoil with albeluvic tonguing</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/alisol">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/alisol:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/alisol</latestversion>
+         <label xml:lang="en">Alisols</label>
+         <definition xml:lang="en">Soil having an argic horizon with CECclay >24 and BS &lt; 50%.</definition>
+         <description xml:lang="en">Soils with a clay-enriched subsoil with low base status and high-activity clay</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/andosol">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/andosol:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/andosol</latestversion>
+         <label xml:lang="en">Andosols</label>
+         <definition xml:lang="en">Soil having an andic or vitric horizon.</definition>
+         <description xml:lang="en">Soils set by Fe/Al chemistry with allophanes or Al-humus complexes</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/anthrosol">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/anthrosol:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/anthrosol</latestversion>
+         <label xml:lang="en">Anthrosols</label>
+         <definition xml:lang="en">Soils profoundly modified through long-term human activities.</definition>
+         <description xml:lang="en">Soils with strong human influence and with long and intensive agricultural use</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/arenosol">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/arenosol:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/arenosol</latestversion>
+         <label xml:lang="en">Arenosols</label>
+         <definition xml:lang="en">Soil having a coarse texture up to >100 cm depth.</definition>
+         <description xml:lang="en">Relatively young sandy soils or sandy soils with little or no profile development</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/calcisol">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/calcisol:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/calcisol</latestversion>
+         <label xml:lang="en">Calcisols</label>
+         <definition xml:lang="en">Soil having a calcic or petrocalcic horizon.</definition>
+         <description xml:lang="en">Soil with accumulation of calcium carbonate and no accumulation of more soluble salts or non-saline substances</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/cambisol">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/cambisol:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/cambisol</latestversion>
+         <label xml:lang="en">Cambisols</label>
+         <definition xml:lang="en">Soil having a cambic horizon.</definition>
+         <description xml:lang="en">Moderately developed soils in relatively young soils or soils with little or no profile development</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/chernozem">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/chernozem:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/chernozem</latestversion>
+         <label xml:lang="en">Chernozems</label>
+         <definition xml:lang="en">Soil having a chernic or blackish mollic horizon.</definition>
+         <description xml:lang="en">Soils with accumulation of organic matter, high base status and black mollic horizon</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/cryosol">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/cryosol:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/cryosol</latestversion>
+         <label xml:lang="en">Cryosols</label>
+         <definition xml:lang="en">Soil having a cryic horizon.</definition>
+         <description xml:lang="en">Soils ice-affected by permafrost</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/durisol">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/durisol:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/durisol</latestversion>
+         <label xml:lang="en">Durisols</label>
+         <definition xml:lang="en">Soil having a duric or petroduric horizon.</definition>
+         <description xml:lang="en">Soils with accumulation of silica and no accumulation of more soluble salts or non-saline substances</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/ferralsol">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/ferralsol:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/ferralsol</latestversion>
+         <label xml:lang="en">Ferralsols</label>
+         <definition xml:lang="en">Soil having a ferralic horizon.</definition>
+         <description xml:lang="en">Soils set by Fe/Al chemistry with dominance of kaolinite and sesquioxides</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/fluvisol">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/fluvisol:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/fluvisol</latestversion>
+         <label xml:lang="en">Fluvisols</label>
+         <definition xml:lang="en">Soil having a fluvic materials.</definition>
+         <description xml:lang="en">Relatively young soils in floodplains or in tidal marshes</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/gleysol">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/gleysol:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/gleysol</latestversion>
+         <label xml:lang="en">Gleysols</label>
+         <definition xml:lang="en">Soil having a gleyic properties.</definition>
+         <description xml:lang="en">Groundwater affected soils</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/gypsisol">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/gypsisol:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/gypsisol</latestversion>
+         <label xml:lang="en">Gypsisols</label>
+         <definition xml:lang="en">Soil having a gypsic or petrogypsic horizon.</definition>
+         <description xml:lang="en">Soils with accumulation of gypsum and no accumulation of more soluble salts or non-saline substances</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/histosol">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/histosol:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/histosol</latestversion>
+         <label xml:lang="en">Histosols</label>
+         <definition xml:lang="en">Soil having organic matter >40 cm depth.</definition>
+         <description xml:lang="en">Soils with thick organic layers</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/kastanozem">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/kastanozem:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/kastanozem</latestversion>
+         <label xml:lang="en">Kastanozems</label>
+         <definition xml:lang="en">Soil having a brownish mollic horizon and secondary CaCO3.</definition>
+         <description xml:lang="en">Soils with accumulation of organic matter, high base status and brown mollic horizon</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/leptosol">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/leptosol:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/leptosol</latestversion>
+         <label xml:lang="en">Leptosols</label>
+         <definition xml:lang="en">Shallow soils, &lt;=25 cm deep</definition>
+         <description xml:lang="en">Shallow or extremely gravelly soils</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/lixisol">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/lixisol:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/lixisol</latestversion>
+         <label xml:lang="en">Lixisols</label>
+         <definition xml:lang="en">Soil having an argic horizon and CECclay &lt;24.</definition>
+         <description xml:lang="en">Soils with a clay-enriched subsoil with wigh base status and low-activity clay</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/luvisol">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/luvisol:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/luvisol</latestversion>
+         <label xml:lang="en">Luvisols</label>
+         <definition xml:lang="en">Soil having an argic horizon and CECclay >24.</definition>
+         <description xml:lang="en">Soils with a clay-enriched subsoil with wigh base status and high-activity clay</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/nitisol">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/nitisol:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/nitisol</latestversion>
+         <label xml:lang="en">Nitisols</label>
+         <definition xml:lang="en">Soil having a nitic horizon.</definition>
+         <description xml:lang="en">Soils set by Fe/Al chemistry with low-activity clay, P fixation and strongly structured.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/phaeozem">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/phaeozem:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/phaeozem</latestversion>
+         <label xml:lang="en">Phaeozems</label>
+         <definition xml:lang="en">Soil having a mollic horizon.</definition>
+         <description xml:lang="en">Soils with accumulation of organic matter, high base status, and any mollic horizon"</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/planosol">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/planosol:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/planosol</latestversion>
+         <label xml:lang="en">Planosols</label>
+         <definition xml:lang="en">Soil having reducing condition and pedogenetic abrupt textural change.</definition>
+         <description xml:lang="en">Soils with stagnating water and abrupt textural discontinuity</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/plinthosol">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/plinthosol:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/plinthosol</latestversion>
+         <label xml:lang="en">Plinthosols</label>
+         <definition xml:lang="en">Soil having plinthite or petroplinthite.</definition>
+         <description xml:lang="en">Soils set by Fe/Al chemistry with accumulation of Fe under hydromorphic conditions</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/podzol">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/podzol:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/podzol</latestversion>
+         <label xml:lang="en">Podzols</label>
+         <definition xml:lang="en">Soil having a spodic horizon.</definition>
+         <description xml:lang="en">Soils set by Fe/Al chemistry with cheluviation and chilluviation</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/regosol">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/regosol:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/regosol</latestversion>
+         <label xml:lang="en">Regosols</label>
+         <definition xml:lang="en">Soil without a diagnostic horizon</definition>
+         <description xml:lang="en">Relatively young soils with no significant profile development</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/solonchak">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/solonchak:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/solonchak</latestversion>
+         <label xml:lang="en">Solonchaks</label>
+         <definition xml:lang="en">Soil having a salic horizon.</definition>
+         <description xml:lang="en">Soils influenced by water salt enrichment upon evaporation</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/solonetz">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/solonetz:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/solonetz</latestversion>
+         <label xml:lang="en">Solonetzs</label>
+         <definition xml:lang="en">Soil having a natric horizon.</definition>
+         <description xml:lang="en">Alkaline soils with a natric horizon</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/stagnosol">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/stagnosol:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/stagnosol</latestversion>
+         <label xml:lang="en">Stagnosols</label>
+         <definition xml:lang="en">Soil having reducing condition.</definition>
+         <description xml:lang="en">Soils with stagnating water with moderate textural or structural discontinuity</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/technosol">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/technosol:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/technosol</latestversion>
+         <label xml:lang="en">Technosols</label>
+         <definition xml:lang="en">Soil having a human artefacts.</definition>
+         <description xml:lang="en">Soils with strong human influence containing many artefacts</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/umbrisol">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/umbrisol:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/umbrisol</latestversion>
+         <label xml:lang="en">Umbrisols</label>
+         <definition xml:lang="en">Soil having an umbric horizon.</definition>
+         <description xml:lang="en">Relatively young soils or soils with little or no profile development with an acidic dark topsoil</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/vertisol">
+         <language>en</language>
+         <created>2018-11-14 11:23 AM CET</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/vertisol:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue/vertisol</latestversion>
+         <label xml:lang="en">Vertisols</label>
+         <definition xml:lang="en">Soil having a vertic horizon.</definition>
+         <description xml:lang="en">Soils influenced by alternating wet-dry conditions and rich in swelling clays</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue">
+            <label xml:lang="en">WRB Reference Soil Group (RSG)</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

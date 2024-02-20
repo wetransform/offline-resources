@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/LinkDirectionValue">
+   <language>en</language>
+   <created>2015-08-18 17:19 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/LinkDirectionValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/LinkDirectionValue</latestversion>
+   <label xml:lang="en">Link Direction</label>
+   <definition xml:lang="en">List of values for directions relative to a link</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/net">
+      <label xml:lang="en">Network</label>
+   </applicationschema>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/LinkDirectionValue/bothDirections">
+         <language>en</language>
+         <created>2015-08-18 17:42 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/LinkDirectionValue/bothDirections:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/LinkDirectionValue/bothDirections</latestversion>
+         <label xml:lang="en">both directions</label>
+         <definition xml:lang="en">In both directions.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/LinkDirectionValue">
+            <label xml:lang="en">Link Direction</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/net">
+            <label xml:lang="en">Network</label>
+         </applicationschema>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/LinkDirectionValue/inDirection">
+         <language>en</language>
+         <created>2015-08-18 17:42 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/LinkDirectionValue/inDirection:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/LinkDirectionValue/inDirection</latestversion>
+         <label xml:lang="en">in direction</label>
+         <definition xml:lang="en">In direction of the link.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/LinkDirectionValue">
+            <label xml:lang="en">Link Direction</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/net">
+            <label xml:lang="en">Network</label>
+         </applicationschema>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/LinkDirectionValue/inOppositeDirection">
+         <language>en</language>
+         <created>2015-08-18 17:42 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/LinkDirectionValue/inOppositeDirection:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/LinkDirectionValue/inOppositeDirection</latestversion>
+         <label xml:lang="en">in opposite direction</label>
+         <definition xml:lang="en">In the opposite direction of the link.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/LinkDirectionValue">
+            <label xml:lang="en">Link Direction</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/net">
+            <label xml:lang="en">Network</label>
+         </applicationschema>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

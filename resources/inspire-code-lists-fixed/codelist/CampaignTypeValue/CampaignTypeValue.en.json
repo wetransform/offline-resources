@@ -1,0 +1,351 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Campaign Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/CampaignTypeValue"
+        },
+        "created" : "2015-08-18 17:31 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "measurement",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge_gp",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geophysics",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "definition" : {
+          "text" : "Field data acquisition campaign.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/CampaignTypeValue/measurement",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/CampaignTypeValue/measurement",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/CampaignTypeValue/measurement:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/CampaignTypeValue/measurement:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Campaign Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/CampaignTypeValue"
+        },
+        "created" : "2015-08-18 18:05 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "processing",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge_gp",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geophysics",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "definition" : {
+          "text" : "data processing campaign",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/CampaignTypeValue/processing",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/CampaignTypeValue/processing",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/CampaignTypeValue/processing:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Campaign Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/CampaignTypeValue"
+        },
+        "created" : "2015-08-18 18:05 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "interpretation",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge_gp",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Geophysics",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "definition" : {
+          "text" : "interpretation campaign",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/CampaignTypeValue/interpretation",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/CampaignTypeValue/interpretation",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/CampaignTypeValue/interpretation:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "description" : {
+      "text" : "An initial set of values are provided in the Implementation Rules. The codelist is expected to be extended by the geophysical community. Recommendations can be found in the Technical Guidence.",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Campaign Type",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "open",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Extensible with values at any level",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "ge_gp",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Geophysics",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+    },
+    "definition" : {
+      "text" : "A type of geophysical campaign.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "ge",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/ge"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/CampaignTypeValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/CampaignTypeValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/CampaignTypeValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

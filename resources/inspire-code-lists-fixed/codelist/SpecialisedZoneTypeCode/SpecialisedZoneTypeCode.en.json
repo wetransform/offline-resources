@@ -1,0 +1,98 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "description" : {
+      "text" : "For some ManagementRestrictionOrRegulationZones each zone may be further specialised. This is used to indicate that additional controls (activities or measures)may be in force depending on its specialised type.\\n\\nExample 1: Air Quality Management Zones - can be specialised as either:\\n<ul>\\n<li>agglomerations </li>\\n<li>nonAgglomeration</li>\\n</ul>\\n\\nExample 2: Animal Health Restriction Zones - can be specialised as either:\\n<ul>\\n<li>restrictionZone</li>\\n<li>protectionZone</li>\\n<li>controlZone</li>\\n<li>lowerRiskZone</li>\\n<li>surveillanceZone</li>\\n</ul>",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Specialised Zone Type Code",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "any",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Empty code list",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "am",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/am"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Area Management Restriction and Regulation Zones",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/am"
+    },
+    "definition" : {
+      "text" : "Additional classification value that defines the specialised type of zone.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "am",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/am"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/SpecialisedZoneTypeCode",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/SpecialisedZoneTypeCode",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/SpecialisedZoneTypeCode:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

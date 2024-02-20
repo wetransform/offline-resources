@@ -1,0 +1,97 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Technical (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+    },
+    "created" : "2015-08-18 17:19 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-technical",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "process item value",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "any",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Empty code list",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "pf",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/pf"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Production and Industrial Facilities",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/pf"
+    },
+    "definition" : {
+      "text" : "The ProcessItemValue code list hosts all the potential reference values for the attribute processItem in the ProcessInput or ProcessOutput classes.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "pf",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/pf"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/ProcessItemValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/ProcessItemValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/ProcessItemValue:2",
+    "historyversion" : [ {
+      "version" : "http://inspire.ec.europa.eu/codelist/ProcessItemValue:1"
+    } ],
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

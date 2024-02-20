@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/WaterSourceValue">
+   <language>en</language>
+   <created>2015-08-18 17:19 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/WaterSourceValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/WaterSourceValue</latestversion>
+   <label xml:lang="en">Water Source Value</label>
+   <definition xml:lang="en">The type of water source, according to Regulation (EC) No 1200/2009.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/af">
+      <label xml:lang="en">Agricultural and Aquaculture Facilities Model</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/af">
+      <label xml:lang="en">Agricultural and aquaculture facilities</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+      <label xml:lang="en">Technical (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterSourceValue/onFarmGroundWater">
+         <language>en</language>
+         <created>2015-08-18 17:50 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterSourceValue/onFarmGroundWater:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterSourceValue/onFarmGroundWater</latestversion>
+         <label xml:lang="en">on Farm Ground Water</label>
+         <definition xml:lang="en">on Farm Ground Water</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterSourceValue">
+            <label xml:lang="en">Water Source Value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/af">
+            <label xml:lang="en">Agricultural and Aquaculture Facilities Model</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/af">
+            <label xml:lang="en">Agricultural and aquaculture facilities</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterSourceValue/onFarmSurfaceWater">
+         <language>en</language>
+         <created>2015-08-18 17:50 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterSourceValue/onFarmSurfaceWater:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterSourceValue/onFarmSurfaceWater</latestversion>
+         <label xml:lang="en">on Farm Surface Water</label>
+         <definition xml:lang="en">on Farm Surface Water</definition>
+         <description xml:lang="en">(Ponds or dams)</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterSourceValue">
+            <label xml:lang="en">Water Source Value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/af">
+            <label xml:lang="en">Agricultural and Aquaculture Facilities Model</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/af">
+            <label xml:lang="en">Agricultural and aquaculture facilities</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterSourceValue/offFarmSurfaceWater">
+         <language>en</language>
+         <created>2015-08-18 17:50 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterSourceValue/offFarmSurfaceWater:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterSourceValue/offFarmSurfaceWater</latestversion>
+         <label xml:lang="en">off Farm Surface Water</label>
+         <definition xml:lang="en">off Farm Surface Water</definition>
+         <description xml:lang="en">from lakes, rivers or watercources.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterSourceValue">
+            <label xml:lang="en">Water Source Value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/af">
+            <label xml:lang="en">Agricultural and Aquaculture Facilities Model</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/af">
+            <label xml:lang="en">Agricultural and aquaculture facilities</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterSourceValue/offFarmWaterFromCommonWaterSupplyNetworks">
+         <language>en</language>
+         <created>2015-08-18 17:50 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterSourceValue/offFarmWaterFromCommonWaterSupplyNetworks:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterSourceValue/offFarmWaterFromCommonWaterSupplyNetworks</latestversion>
+         <label xml:lang="en">off Farm Water From Common Water Supply Networks</label>
+         <definition xml:lang="en">off Farm Water From Common Water Supply Networks</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterSourceValue">
+            <label xml:lang="en">Water Source Value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/af">
+            <label xml:lang="en">Agricultural and Aquaculture Facilities Model</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/af">
+            <label xml:lang="en">Agricultural and aquaculture facilities</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterSourceValue/otherSources">
+         <language>en</language>
+         <created>2015-08-18 17:50 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterSourceValue/otherSources:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterSourceValue/otherSources</latestversion>
+         <label xml:lang="en">other Sources</label>
+         <definition xml:lang="en">Any other value not equal to one of the above listed values</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterSourceValue">
+            <label xml:lang="en">Water Source Value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/af">
+            <label xml:lang="en">Agricultural and Aquaculture Facilities Model</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/af">
+            <label xml:lang="en">Agricultural and aquaculture facilities</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

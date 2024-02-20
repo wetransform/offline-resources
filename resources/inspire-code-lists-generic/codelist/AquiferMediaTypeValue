@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue</latestversion>
+   <label xml:lang="en">Aquifer Media Type</label>
+   <definition xml:lang="en">Values describing the characteristics of the aquifer medium.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+      <label xml:lang="en">Hydrogeology</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/ge">
+      <label xml:lang="en">Geology</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/fractured">
+         <language>en</language>
+         <created>2015-08-18 17:32 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/fractured:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/fractured</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/fractured:1</version>
+         </previousversions>
+         <label xml:lang="en">fractured</label>
+         <definition xml:lang="en">Fractured aquifers are rocks in which the groundwater moves through cracks, joints or fractures in otherwise solid rock</definition>
+         <description xml:lang="en">Examples of fractured aquifers include granite and basalt. Porous media such as sandstone may become so highly cemented or recrystallized that all of the original space is filled. In this case, the rock is no longer a porous medium. However, if it contains cracks it can still act as a fractured aquifer.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue">
+            <label xml:lang="en">Aquifer Media Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/porous">
+         <language>en</language>
+         <created>2015-08-18 17:32 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/porous:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/porous</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/porous:1</version>
+         </previousversions>
+         <label xml:lang="en">porous</label>
+         <definition xml:lang="en">Porous media are those aquifers consisting of aggregates of individual particles such as sand or gravel. and the groundwater flow occurs in and moves through the openings between the individual grains.</definition>
+         <description xml:lang="en">Porous media where the grains are not connected to each other are considered unconsolidated. If the grains are cemented together, such aquifers are called consolidated. Sandstones are examples of consolidated porous media.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue">
+            <label xml:lang="en">Aquifer Media Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/karstic">
+         <language>en</language>
+         <created>2015-08-18 17:32 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/karstic:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/karstic</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/karstic:1</version>
+         </previousversions>
+         <label xml:lang="en">karstic</label>
+         <definition xml:lang="en">Karstic aquifers are fractured aquifers where the cracks and fractures have been enlarged by solution, forming large channels or even caverns.</definition>
+         <description xml:lang="en">Limestone terrain where solution has been very active is termed karst.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue">
+            <label xml:lang="en">Aquifer Media Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/compound">
+         <language>en</language>
+         <created>2015-08-18 17:32 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/compound:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/compound</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/compound:1</version>
+         </previousversions>
+         <label xml:lang="en">compound</label>
+         <definition xml:lang="en">A combination of a porous, karstic and/or fractured aquifer</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue">
+            <label xml:lang="en">Aquifer Media Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/karsticAndFractured">
+         <language>en</language>
+         <created>2015-08-18 17:32 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/karsticAndFractured:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/karsticAndFractured</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/karsticAndFractured:1</version>
+         </previousversions>
+         <label xml:lang="en">karstic and fractured</label>
+         <definition xml:lang="en">A combination of both karstic and fractured aquifer</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue">
+            <label xml:lang="en">Aquifer Media Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/porousAndFractured">
+         <language>en</language>
+         <created>2015-08-18 17:32 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/porousAndFractured:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/porousAndFractured</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/porousAndFractured:1</version>
+         </previousversions>
+         <label xml:lang="en">porous and fractured</label>
+         <definition xml:lang="en">A combination of both porous and fractured aquifer</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue">
+            <label xml:lang="en">Aquifer Media Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/other">
+         <language>en</language>
+         <created>2015-08-18 18:07 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/other:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/other</latestversion>
+         <label xml:lang="en">other</label>
+         <definition xml:lang="en">Aquifer is other then fractured, porous or karstic.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue">
+            <label xml:lang="en">Aquifer Media Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

@@ -1,0 +1,443 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Region Classification Scheme",
+          "id" : "http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue"
+        },
+        "created" : "2015-08-18 17:50 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "See Metzger et al. 2005",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "environmental stratification",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "br",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/br"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Bio-geographical Regions",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/br"
+        },
+        "definition" : {
+          "text" : "A set of code lists to be used to define the Environmental Stratification.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "br",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/br"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue/environmentalStratification",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue/environmentalStratification",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue/environmentalStratification:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Region Classification Scheme",
+          "id" : "http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue"
+        },
+        "created" : "2015-08-18 17:50 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "See Habitats Directive (1992)",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "natura 2000 and emerald bio-geographical region",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "br",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/br"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Bio-geographical Regions",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/br"
+        },
+        "definition" : {
+          "text" : "A set of code lists to be used to define the Natura 2000 and Emerald network Biogeographical regions.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "br",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/br"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue/natura2000AndEmeraldBio-geographicalRegion",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue/natura2000AndEmeraldBio-geographicalRegion",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue/natura2000AndEmeraldBio-geographicalRegion:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Region Classification Scheme",
+          "id" : "http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue"
+        },
+        "created" : "2015-08-18 17:50 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "See Bohn et al. (2000)",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "natural vegetation",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "br",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/br"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Bio-geographical Regions",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/br"
+        },
+        "definition" : {
+          "text" : "A set of code lists to be used to define the natural vegetation.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "br",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/br"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue/naturalVegetation",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue/naturalVegetation",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue/naturalVegetation:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Region Classification Scheme",
+          "id" : "http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue"
+        },
+        "created" : "2015-08-18 17:50 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "See Marine Strategy Framework Directive (2008)",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "marine strategy framework directive",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "br",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/br"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Bio-geographical Regions",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/br"
+        },
+        "definition" : {
+          "text" : "A set of codes to be used for the Marine Stategy Framework Diretive region classification.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "br",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/br"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue/marineStrategyFrameworkDirective",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue/marineStrategyFrameworkDirective",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue/marineStrategyFrameworkDirective:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Region Classification Scheme",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "any",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Empty code list",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "br",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/br"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Bio-geographical Regions",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/br"
+    },
+    "definition" : {
+      "text" : "Codes defining the various bio-geographical regions.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "br",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/br"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

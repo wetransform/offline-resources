@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel</latestversion>
+   <label xml:lang="en">Administrative Hierarchy Level</label>
+   <definition xml:lang="en">Levels of administration in the national administrative hierarchy. This code list reflects the level in the hierarchical pyramid of the administrative structures, which is based on geometric aggregation of territories and does not necessarily describe the subordination between the related administrative authorities.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/au">
+      <label xml:lang="en">Administrative Units</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/au">
+      <label xml:lang="en">Administrative units</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/1stOrder">
+         <language>en</language>
+         <created>2015-08-18 17:46 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/1stOrder:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/1stOrder</latestversion>
+         <label xml:lang="en">1st order</label>
+         <definition xml:lang="en">Highest level in the national administrative hierarchy (country level).</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel">
+            <label xml:lang="en">Administrative Hierarchy Level</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/au">
+            <label xml:lang="en">Administrative Units</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/au">
+            <label xml:lang="en">Administrative units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/2ndOrder">
+         <language>en</language>
+         <created>2015-08-18 17:46 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/2ndOrder:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/2ndOrder</latestversion>
+         <label xml:lang="en">2nd order</label>
+         <definition xml:lang="en">2nd level in the national administrative hierarchy.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel">
+            <label xml:lang="en">Administrative Hierarchy Level</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/au">
+            <label xml:lang="en">Administrative Units</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/au">
+            <label xml:lang="en">Administrative units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/3rdOrder">
+         <language>en</language>
+         <created>2015-08-18 17:46 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/3rdOrder:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/3rdOrder</latestversion>
+         <label xml:lang="en">3rd order</label>
+         <definition xml:lang="en">3rd level in the national administrative hierarchy.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel">
+            <label xml:lang="en">Administrative Hierarchy Level</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/au">
+            <label xml:lang="en">Administrative Units</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/au">
+            <label xml:lang="en">Administrative units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder">
+         <language>en</language>
+         <created>2015-08-18 17:46 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder</latestversion>
+         <label xml:lang="en">4th order</label>
+         <definition xml:lang="en">4th level in the national administrative hierarchy.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel">
+            <label xml:lang="en">Administrative Hierarchy Level</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/au">
+            <label xml:lang="en">Administrative Units</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/au">
+            <label xml:lang="en">Administrative units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/5thOrder">
+         <language>en</language>
+         <created>2015-08-18 17:46 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/5thOrder:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/5thOrder</latestversion>
+         <label xml:lang="en">5th order</label>
+         <definition xml:lang="en">5th level in the national administrative hierarchy.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel">
+            <label xml:lang="en">Administrative Hierarchy Level</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/au">
+            <label xml:lang="en">Administrative Units</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/au">
+            <label xml:lang="en">Administrative units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/6thOrder">
+         <language>en</language>
+         <created>2015-08-18 17:46 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/6thOrder:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/6thOrder</latestversion>
+         <label xml:lang="en">6th order</label>
+         <definition xml:lang="en">6th level in the national administrative hierarchy.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel">
+            <label xml:lang="en">Administrative Hierarchy Level</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/au">
+            <label xml:lang="en">Administrative Units</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/au">
+            <label xml:lang="en">Administrative units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

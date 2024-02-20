@@ -1,0 +1,110 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "created" : "2015-08-18 17:18 PM CEST",
+    "document" : {
+      "label" : {
+        "text" : "MSFHabDir",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/document/MSFHabDir"
+    },
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Marine Strategy Framework Directive Code",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "none",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Not extensible",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "hb",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/hb"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Habitats and Biotopes",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/hb"
+    },
+    "definition" : {
+      "text" : "Classification of habitat types according to table 1 of Annex III to Directive 2008/56/EC.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "hb",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/hb"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/MarineStrategyFrameworkDirectiveCodeValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/MarineStrategyFrameworkDirectiveCodeValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/MarineStrategyFrameworkDirectiveCodeValue:1",
+    "parents" : [ {
+      "parent" : {
+        "label" : {
+          "text" : "Reference Habitat Type Code",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ReferenceHabitatTypeCodeValue"
+      }
+    } ],
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

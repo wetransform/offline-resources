@@ -1,0 +1,160 @@
+﻿<!--Erzeugt mit KIT (www.kit.edu) UmlToXmlTransformation-Software, Erstellungsdatum: 31.10.2022 09:25:56-->
+<TypeDefinition xmlns="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ../xsd/ShapeChangeDefinitions.xsd" gml:id="xplan_SO_Objekt">
+  <gml:description>Basisklasse für die Inhalte sonstiger raumbezogener Planwerke ,von Klassen zur Modellierung nachrichtlicher Übernahmen, sowie Planart-übergreifende Planinhalte.</gml:description>
+  <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_Objekt</gml:identifier>
+  <gml:name>xplan:SO_Objekt</gml:name>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_SO_Objekt_sonstRechtscharakter">
+      <gml:description>Klassifizierung des Rechtscharakters wenn das Attribut "&lt;i&gt;rechtscharakter" &lt;/i&gt;den Wert "Sonstiges" (9999)  hat.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_Objekt:attribute:sonstRechtscharakter</gml:identifier>
+      <gml:name>xplan:sonstRechtscharakter</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>SO_SonstRechtscharakter</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_SO_Objekt_vonGenehmigungAusgenommen">
+      <gml:description>Angabe, ob Teile des Flächennutzungsplans nach §6 Abs. 3 BauGB von der Genehmigung ausgenommen sind. Dies Attribut darf nur verwendet werden, wenn das Objekt Bestandteil eines &lt;b&gt;Flächennutzungsplans &lt;/b&gt;ist (&lt;i&gt;gehoertZuBereich &lt;/i&gt;zeogt auf ein &lt;i&gt;FP_Bereich &lt;/i&gt;Objekt).</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_Objekt:attribute:vonGenehmigungAusgenommen</gml:identifier>
+      <gml:name>xplan:vonGenehmigungAusgenommen</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="_SO_Objekt_vonGenehmigungAusgenommen_Boolean_1">
+          <gml:identifier codeSpace="urn:">urn:xplan:enum::SO_Objekt:vonGenehmigungAusgenommen:Boolean:1</gml:identifier>
+          <gml:name>TRUE</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="_SO_Objekt_vonGenehmigungAusgenommen_Boolean_0">
+          <gml:identifier codeSpace="urn:">urn:xplan:enum::SO_Objekt:vonGenehmigungAusgenommen:Boolean:0</gml:identifier>
+          <gml:name>FALSE</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>Boolean</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_SO_Objekt_wirdAusgeglichenDurchFPFlaeche">
+      <gml:description>Referenz auf eine Ausgleichsfläche im Flächennutzungsplan, die den Eingriff ausgleicht. Die Referenz darf nur verwendet werden, wenn das referierende Objekt Bestandteil eines Flächennutzungsplans ist (gehoertZuBereich zeigt auf ein FP_Bereich Objekt).</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_Objekt:association-role:wirdAusgeglichenDurchFPFlaeche</gml:identifier>
+      <gml:name>xplan:wirdAusgeglichenDurchFPFlaeche</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:FP_AusgleichsFlaeche" />
+      <def:type>associationRole</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_SO_Objekt_wirdAusgeglichenDurchFPSPE">
+      <gml:description>Referenz auf eine Schutz-,Pflege- oder Entwicklungsmaßnahme im Flächennutzungsplan, die den Eingriff ausgleicht.Die Referenz darf nur verwendet werden, wenn das referierende Objekt Bestandteil eines Flächennutzungsplans ist (gehoertZuBereich zeigt auf ein FP_Bereich Objekt).</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_Objekt:association-role:wirdAusgeglichenDurchFPSPE</gml:identifier>
+      <gml:name>xplan:wirdAusgeglichenDurchFPSPE</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:FP_SchutzPflegeEntwicklung" />
+      <def:type>associationRole</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_SO_Objekt_wirdAusgeglichenDurchBPFlaeche">
+      <gml:description>Referenz auf Ausgleichsfläche im Bebauungsplan, die einen Eingriff ausgleicht. Die Referenz darf nur verwendet werden, wenn das referierende Objekt Bestandteil eines Bebauungsplans ist (gehoertZuBereich zeigt auf ein BP_Bereich Objekt).</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_Objekt:association-role:wirdAusgeglichenDurchBPFlaeche</gml:identifier>
+      <gml:name>xplan:wirdAusgeglichenDurchBPFlaeche</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:BP_AusgleichsFlaeche" />
+      <def:type>associationRole</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_SO_Objekt_wirdAusgeglichenDurchBPABE">
+      <gml:description>Referenz auf eine Anpflanzungs-, Bindungs- oder Erhaltungsmaßnahme im Bebauungsplan, durch die ein Eingriff ausgeglichen wird. Die Referenz darf nur verwendet werden, wenn das referierende Objekt Bestandteil eines Bebauungsplans ist (gehoertZuBereich zeigt auf ein BP_Bereich Objekt).</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_Objekt:association-role:wirdAusgeglichenDurchBPABE</gml:identifier>
+      <gml:name>xplan:wirdAusgeglichenDurchBPABE</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:BP_AnpflanzungBindungErhaltung" />
+      <def:type>associationRole</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_SO_Objekt_wirdAusgeglichenDurchBPSPEMassnahme">
+      <gml:description>Referenz auf eine Schutz-, Pflege- oder Entwicklungsmaßnahme im Bebauungsplan, durch die ein Eingriff ausgeglichen wird. Die Referenz darf nur verwendet werden, wenn das referierende Objekt Bestandteil eines Bebauungsplans ist (gehoertZuBereich zeigt auf ein BP_Bereich Objekt).</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_Objekt:association-role:wirdAusgeglichenDurchBPSPEMassnahme</gml:identifier>
+      <gml:name>xplan:wirdAusgeglichenDurchBPSPEMassnahme</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:BP_SchutzPflegeEntwicklungsMassnahme" />
+      <def:type>associationRole</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_SO_Objekt_wirdAusgeglichenDurchBPSPEFlaeche">
+      <gml:description>Referenz auf eine Schutz-, Pflege- oder Entwicklungs-Fläche im Bebauungsplan, die den Eingriff ausgleicht. Die Referenz darf nur verwendet werden, wenn das referierende Objekt Bestandteil eines Bebauungsplans ist (gehoertZuBereich zeigt auf ein BP_Bereich Objekt).</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_Objekt:association-role:wirdAusgeglichenDurchBPSPEFlaeche</gml:identifier>
+      <gml:name>xplan:wirdAusgeglichenDurchBPSPEFlaeche</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:BP_SchutzPflegeEntwicklungsFlaeche" />
+      <def:type>associationRole</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_SO_Objekt_wirdAusgeglichenDurchBPMassnahme">
+      <gml:description>Verweis auf eine  Ausgleichsmaßnahme im Bebauungsplan, die einen vorgenommenen Eingriff ausgleicht. Die Referenz darf nur verwendet werden, wenn das referierende Objekt Bestandteil eines Bebauungsplans ist (gehoertZuBereich zeigt auf ein BP_Bereich Objekt).</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_Objekt:association-role:wirdAusgeglichenDurchBPMassnahme</gml:identifier>
+      <gml:name>xplan:wirdAusgeglichenDurchBPMassnahme</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:BP_AusgleichsMassnahme" />
+      <def:type>associationRole</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_SO_Objekt_laermkontingent">
+      <gml:description>Festsetzung eines Lärmemissionskontingent. Das Attribut darf nur verwendet werden, wenn das Objekt Bestandteil eines &lt;b&gt;Bebauungsplans &lt;/b&gt;ist.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_Objekt:attribute:laermkontingent</gml:identifier>
+      <gml:name>xplan:laermkontingent</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:BP_EmissionskontingentLaerm" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_SO_Objekt_laermkontingentGebiet">
+      <gml:description>Festsetzung von Lärmemissionskontingenten nach DIN 45691, die einzelnen Immissionsgebieten zugeordnet sind. Das Attribut darf nur verwendet werden, wenn das Objekt das Objekt Bestandteil eines &lt;b&gt;Bebauungsplans &lt;/b&gt;ist.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_Objekt:attribute:laermkontingentGebiet</gml:identifier>
+      <gml:name>xplan:laermkontingentGebiet</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:BP_EmissionskontingentLaermGebiet" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_SO_Objekt_zusatzkontingent">
+      <gml:description>Festsetzung von Zusatzkontingenten für die Lärmemission, die einzelnen Richtungssektoren zugeordnet sind. Die einzelnen Richtungssektoren werden parametrisch definiert. Die Relation darf nur verwendet werden, wenn das referierende Objekt Bestandteil eines Bebauungsplans ist.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_Objekt:association-role:zusatzkontingent</gml:identifier>
+      <gml:name>xplan:zusatzkontingent</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:BP_ZusatzkontingentLaerm" />
+      <def:type>associationRole</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_SO_Objekt_zusatzkontingentFlaeche">
+      <gml:description>Festsetzung von Zusatzkontingenten für die Lärmemission, die einzelnen Richtungssektoren zugeordnet sind. Die einzelnen Richtungssektoren werden durch explizite Flächen definiert.Die Relation darf nur verwendet werden, wenn das referierende Bestandteil eines Bebauungsplans ist.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_Objekt:association-role:zusatzkontingentFlaeche</gml:identifier>
+      <gml:name>xplan:zusatzkontingentFlaeche</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:BP_ZusatzkontingentLaermFlaeche" />
+      <def:type>associationRole</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_SO_Objekt_richtungssektorGrenze">
+      <gml:description>Zuordnung einer Richtungssektor-Grenze für die Festlegung zusätzlicher Lärmkontingente. Die Relation darf nur verwendet werden, wenn das referierende Objekt Bestandteil eines Bebauungsplans ist.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_Objekt:association-role:richtungssektorGrenze</gml:identifier>
+      <gml:name>xplan:richtungssektorGrenze</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:BP_RichtungssektorGrenze" />
+      <def:type>associationRole</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <def:classification>featureType</def:classification>
+  <def:supertypeRef xlink:href="urn:xplan:element:xplan:XP_Objekt" />
+</TypeDefinition>

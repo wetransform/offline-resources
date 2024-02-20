@@ -1,0 +1,1063 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:19 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue</latestversion>
+   <label xml:lang="en">Water Appurtenance Type</label>
+   <definition xml:lang="en">Classification of water appurtenances.</definition>
+   <parents>
+      <parent id="http://inspire.ec.europa.eu/codelist/SpecificAppurtenanceTypeValue">
+         <label xml:lang="en">Specific Appurtenance Type</label>
+      </parent>
+   </parents>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+      <label xml:lang="en">Water Network</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/us">
+      <label xml:lang="en">Utility and governmental services</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/waterNode">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/waterNode:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/waterNode</latestversion>
+         <label xml:lang="en">water network node</label>
+         <definition xml:lang="en">Node in a water network.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/anode">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/anode:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/anode</latestversion>
+         <label xml:lang="en">anode</label>
+         <definition xml:lang="en">Anode.</definition>
+         <description xml:lang="en">An anode is a feature (specifically, an electrical mechanism) that&amp;rsquo;s applied to system components for the prevention of rust, pitting, and the corrosion of metal surfaces that are in contact with water or soil. A low-voltage current is applied to the water or soil in contact with the metal, such that the electromotive force renders the metal component cathodic. Corrosion is concentrated on the anodes instead of on the associated (and protected) water system components. This type of corrosion may occur in copper, steel, stainless steel, cast iron, and ductile iron pipes.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/clearWell">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/clearWell:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/clearWell</latestversion>
+         <label xml:lang="en">clear well</label>
+         <definition xml:lang="en">Clear well.</definition>
+         <description xml:lang="en">A clear well is an enclosed tank that is associated with a treatment plant. Clear wells are used to store filtered water of sufficient capacity to prevent the need to vary the filtration rate with variations in demand. Clear wells are also used to provide chlorine contact time for disinfection. Pumps are used to move the water from the clear well to the treatment plant or to a distribution system.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/controlValve">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/controlValve:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/controlValve</latestversion>
+         <label xml:lang="en">control valve</label>
+         <definition xml:lang="en">Control valve.</definition>
+         <description xml:lang="en">Control valves represent set of valves that operate in special ways. There are three fundamental types of control valves: backflow control, air control, and altitude.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/fitting">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/fitting:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/fitting</latestversion>
+         <label xml:lang="en">fitting</label>
+         <definition xml:lang="en">Fitting.</definition>
+         <description xml:lang="en">The fitting represents the facility found at the joint between two lines where a transition of some sort must occur. The basic connecting devices between pipes; fittings are rarely used to control the flow of water through the network.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/hydrant">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/hydrant:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/hydrant</latestversion>
+         <label xml:lang="en">hydrant</label>
+         <definition xml:lang="en">Hydrant.</definition>
+         <description xml:lang="en">A hydrant enables fire fighters to attach fire hoses to the distribution network. Hydrants also have secondary uses that include flushing main lines and laterals, filling tank trucks, and providing a temporary water source for construction jobs.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/junction">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/junction:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/junction</latestversion>
+         <label xml:lang="en">junction</label>
+         <definition xml:lang="en">Junction.</definition>
+         <description xml:lang="en">The junction is a water network node where two or more pipes combine, or a point where water consumption is allocated and defined as demand.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/lateralPoint">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/lateralPoint:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/lateralPoint</latestversion>
+         <label xml:lang="en">lateral point</label>
+         <definition xml:lang="en">Lateral point.</definition>
+         <description xml:lang="en">A lateral point represents the location of the connection between the customer and the distribution system.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/meter">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/meter:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/meter</latestversion>
+         <label xml:lang="en">meter</label>
+         <definition xml:lang="en">Meter.</definition>
+         <description xml:lang="en">A meter is a facility that is used to measure water consumption (volume). Being a facility, a meter plays the role of a junction on the active network.  NOTE Meters are also much like hydrants as they also have an associated warehouse object, namely, a WarehouseMeter.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/pump">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/pump:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/pump</latestversion>
+         <label xml:lang="en">pump</label>
+         <definition xml:lang="en">Pump.</definition>
+         <description xml:lang="en">A pump is a piece of equipment that moves, compresses, or alters the pressure of a fluid, such as water or air, being conveyed through a natural or artificial channel.  NOTE Pump types include AxialFlow, Centrifugal, Jet, Reciprocating, Rotary, Screw, and Turbine.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/pumpStation">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/pumpStation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/pumpStation</latestversion>
+         <label xml:lang="en">pump station</label>
+         <definition xml:lang="en">Pump station.</definition>
+         <description xml:lang="en">A pump station is a facility for pumping water on the network to transport to another part of the network (lift pump).</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/samplingStation">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/samplingStation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/samplingStation</latestversion>
+         <label xml:lang="en">sampling station</label>
+         <definition xml:lang="en">Sampling station.</definition>
+         <description xml:lang="en">A sampling station is a facility that is used for collecting water samples. Sampling stations may be dedicated sampling devices, or they may be other devices of the system where a sample may be obtained.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/scadaSensor">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/scadaSensor:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/scadaSensor</latestversion>
+         <label xml:lang="en">scada sensor</label>
+         <definition xml:lang="en">SCADA sensor.</definition>
+         <description xml:lang="en">The SCADA sensor is a feature that&amp;rsquo;s used to remotely measure the status of network components as part of a supervisory control and data acquisition (SCADA) system. SCADA systems provide alarms, responses, data acquisition, and control for collection and distribution systems. Operators use the SCADA system to monitor and adjust processes and facilities.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/storageBasin">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/storageBasin:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/storageBasin</latestversion>
+         <label xml:lang="en">storage basin</label>
+         <definition xml:lang="en">Storage basin.</definition>
+         <description xml:lang="en">A storage basin represents artificially enclosed area of a river or harbor designed so that the water level remains unaffected by tidal changes.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/storageFacility">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/storageFacility:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/storageFacility</latestversion>
+         <label xml:lang="en">storage facility</label>
+         <definition xml:lang="en">Enclosed storage facility.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/surgeReliefTank">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/surgeReliefTank:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/surgeReliefTank</latestversion>
+         <label xml:lang="en">surge relief tank</label>
+         <definition xml:lang="en">Surge relief tank.</definition>
+         <description xml:lang="en">A surge relief tank is a piece of equipment used to absorb pressure increases in the water system. Surge relief tanks provide a buffer against throttling within the system by accepting water into a tank through a pressure valve.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/systemValve">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/systemValve:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/systemValve</latestversion>
+         <label xml:lang="en">system valve</label>
+         <definition xml:lang="en">System valve.</definition>
+         <description xml:lang="en">A system valve is a facility that is fitted to a pipeline or orifice in which the closure member is either rotated or moved transversely or longitudinally in the waterway so as to control or stop the flow. System valves are used to regulate pressure, isolate, throttle flow, prevent backflow, and relieve pressure. NOTE System valve types include Gate, Plug, Ball, Cone, and Butterfly. These specific types may be classified as isolation valves.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/thrustProtection">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/thrustProtection:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/thrustProtection</latestversion>
+         <label xml:lang="en">thrust protection</label>
+         <definition xml:lang="en">Thrust protection.</definition>
+         <description xml:lang="en">The thrust protection represents a type of line protector that&amp;rsquo;s used to prevent pipe movement. Thrust protection is commonly implemented as thrust blocks (masses of concrete material) that are placed at bends and around valve structures. NOTE The types of thrust protection include Anchor, Blocking, Deadman, and Kicker.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/treatmentPlant">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/treatmentPlant:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/treatmentPlant</latestversion>
+         <label xml:lang="en">treatment plant</label>
+         <definition xml:lang="en">Treatment plant.</definition>
+         <description xml:lang="en">Treatment plant.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/well">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/well:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/well</latestversion>
+         <label xml:lang="en">well</label>
+         <definition xml:lang="en">Production well.</definition>
+         <description xml:lang="en">Production well.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/pressureRelieveValve">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/pressureRelieveValve:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/pressureRelieveValve</latestversion>
+         <label xml:lang="en">pressure relieve valve</label>
+         <definition xml:lang="en">Pressure relieve valve.</definition>
+         <description xml:lang="en">pressure Relieve Valve</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/airRelieveValve">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/airRelieveValve:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/airRelieveValve</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/airRelieveValve:1</version>
+         </previousversions>
+         <label xml:lang="en">air relieve valve</label>
+         <definition xml:lang="en">Air relieve valve.</definition>
+         <description xml:lang="en">air Relieve Valve</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/checkValve">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/checkValve:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/checkValve</latestversion>
+         <label xml:lang="en">check valve</label>
+         <definition xml:lang="en">Check valve.</definition>
+         <description xml:lang="en">check Valve</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/waterExhaustPoint">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/waterExhaustPoint:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/waterExhaustPoint</latestversion>
+         <label xml:lang="en">water exhaust point</label>
+         <definition xml:lang="en">Water exhaust point.</definition>
+         <description xml:lang="en">water Exhaust Point</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/waterServicePoint">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/waterServicePoint:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/waterServicePoint</latestversion>
+         <label xml:lang="en">water service point</label>
+         <definition xml:lang="en">Water service point.</definition>
+         <description xml:lang="en">water Service Point</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/fountain">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/fountain:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/fountain</latestversion>
+         <label xml:lang="en">fountain</label>
+         <definition xml:lang="en">Fountain.</definition>
+         <description xml:lang="en">fountain</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/fireHydrant">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/fireHydrant:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/fireHydrant</latestversion>
+         <label xml:lang="en">fire hydrant</label>
+         <definition xml:lang="en">Fire hydrant.</definition>
+         <description xml:lang="en">fire Hydrant</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/pressureController">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/pressureController:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/pressureController</latestversion>
+         <label xml:lang="en">pressure controller</label>
+         <definition xml:lang="en">Pressure controller.</definition>
+         <description xml:lang="en">pressure Controller</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/vent">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/vent:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/vent</latestversion>
+         <label xml:lang="en">vent</label>
+         <definition xml:lang="en">Vent.</definition>
+         <description xml:lang="en">vent</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/recoilCheckValve">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/recoilCheckValve:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/recoilCheckValve</latestversion>
+         <label xml:lang="en">recoil check valve</label>
+         <definition xml:lang="en">Recoil check valve.</definition>
+         <description xml:lang="en">recoil Check Valve</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/waterDischargePoint">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/waterDischargePoint:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/waterDischargePoint</latestversion>
+         <label xml:lang="en">water discharge point</label>
+         <definition xml:lang="en">Water discharge point.</definition>
+         <description xml:lang="en">water Discharge Point</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue">
+            <label xml:lang="en">Water Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-wa">
+            <label xml:lang="en">Water Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

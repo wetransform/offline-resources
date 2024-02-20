@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue</latestversion>
+   <label xml:lang="en">Composition Part Role</label>
+   <definition xml:lang="en">Roles that a compositional part plays in a geologic unit.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+      <label xml:lang="en">Geology</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/ge">
+      <label xml:lang="en">Geology</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/onlyPart">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/onlyPart:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/onlyPart</latestversion>
+         <label xml:lang="en">only part</label>
+         <definition xml:lang="en">Entire described unit consists of a single part or constituent.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue">
+            <label xml:lang="en">Composition Part Role</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/only_part">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/only_part</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/partOf">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/partOf:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/partOf</latestversion>
+         <label xml:lang="en">part of</label>
+         <definition xml:lang="en">The geologic unit part role is not known in any greater detail.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue">
+            <label xml:lang="en">Composition Part Role</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/part_of">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/part_of</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/facies">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/facies:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/facies</latestversion>
+         <label xml:lang="en">facies</label>
+         <definition xml:lang="en">Represents a particular body of rock that is a lateral variant of a lithostratigraphic unit, or a variant of a lithodemic unit.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue">
+            <label xml:lang="en">Composition Part Role</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/partOf">
+               <label xml:lang="en">part of</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/facies">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/facies</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/inclusion">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/inclusion:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/inclusion</latestversion>
+         <label xml:lang="en">inclusion</label>
+         <definition xml:lang="en">Geologic unit constituent is present as masses with generally sharp boundaries enclosed within a matrix of some other material.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue">
+            <label xml:lang="en">Composition Part Role</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/partOf">
+               <label xml:lang="en">part of</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/inclusion">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/inclusion</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/lithosome">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/lithosome:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/lithosome</latestversion>
+         <label xml:lang="en">lithosome</label>
+         <definition xml:lang="en">A kind of rock body that has multiple occurrences in a single geologic unit. A mass of rock of uniform character, characterized by geometry, composition, and internal structure.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue">
+            <label xml:lang="en">Composition Part Role</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/partOf">
+               <label xml:lang="en">part of</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/lithosome">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/lithosome</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/stratigraphicPart">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/stratigraphicPart:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/stratigraphicPart</latestversion>
+         <label xml:lang="en">stratigraphic part</label>
+         <definition xml:lang="en">A geologic unit part that occupies a particular stratigraphic position within a geologic unit.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue">
+            <label xml:lang="en">Composition Part Role</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/partOf">
+               <label xml:lang="en">part of</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/stratigraphic_part">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/stratigraphic_part</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/unspecifiedPartRole">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/unspecifiedPartRole:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/unspecifiedPartRole</latestversion>
+         <label xml:lang="en">unspecified part role</label>
+         <definition xml:lang="en">Geologic unit part with unspecified role.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue">
+            <label xml:lang="en">Composition Part Role</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/partOf">
+               <label xml:lang="en">part of</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/unspecified_part_role">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/unspecified_part_role</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

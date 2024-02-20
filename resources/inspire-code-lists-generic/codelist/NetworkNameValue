@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/NetworkNameValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/NetworkNameValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/NetworkNameValue</latestversion>
+   <label xml:lang="en">Network Name</label>
+   <definition xml:lang="en">A name of geophysical network.</definition>
+   <description xml:lang="en">An initial set of values are provided in the Implementation Rules. The codelist is expected to be extended by the geophysical community. Recommendations can be found in the Technical Guidence.</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_gp">
+      <label xml:lang="en">Geophysics</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/ge">
+      <label xml:lang="en">Geology</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/NetworkNameValue/GSN">
+         <language>en</language>
+         <created>2015-08-18 17:31 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NetworkNameValue/GSN:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NetworkNameValue/GSN</latestversion>
+         <label xml:lang="en">GSN</label>
+         <definition xml:lang="en">Global Seismographic Network</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NetworkNameValue">
+            <label xml:lang="en">Network Name</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_gp">
+            <label xml:lang="en">Geophysics</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NetworkNameValue/IMS">
+         <language>en</language>
+         <created>2015-08-18 17:31 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NetworkNameValue/IMS:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NetworkNameValue/IMS</latestversion>
+         <label xml:lang="en">IMS</label>
+         <definition xml:lang="en">IMS Seismological network</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NetworkNameValue">
+            <label xml:lang="en">Network Name</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_gp">
+            <label xml:lang="en">Geophysics</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NetworkNameValue/INTERMAGNET">
+         <language>en</language>
+         <created>2015-08-18 17:31 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NetworkNameValue/INTERMAGNET:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NetworkNameValue/INTERMAGNET</latestversion>
+         <label xml:lang="en">INTERMAGNET</label>
+         <definition xml:lang="en">International Real-time Magnetic Observatory Network</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NetworkNameValue">
+            <label xml:lang="en">Network Name</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_gp">
+            <label xml:lang="en">Geophysics</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NetworkNameValue/UEGN">
+         <language>en</language>
+         <created>2015-08-18 17:31 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NetworkNameValue/UEGN:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NetworkNameValue/UEGN</latestversion>
+         <label xml:lang="en">UEGN</label>
+         <definition xml:lang="en">Unified European Gravity Network</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NetworkNameValue">
+            <label xml:lang="en">Network Name</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_gp">
+            <label xml:lang="en">Geophysics</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NetworkNameValue/WDC">
+         <language>en</language>
+         <created>2015-08-18 17:31 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NetworkNameValue/WDC:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NetworkNameValue/WDC</latestversion>
+         <label xml:lang="en">WDC</label>
+         <definition xml:lang="en">World Data Center</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NetworkNameValue">
+            <label xml:lang="en">Network Name</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_gp">
+            <label xml:lang="en">Geophysics</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/NetworkNameValue/other">
+         <language>en</language>
+         <created>2015-08-18 18:05 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NetworkNameValue/other:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NetworkNameValue/other</latestversion>
+         <label xml:lang="en">other</label>
+         <definition xml:lang="en">other network</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/NetworkNameValue">
+            <label xml:lang="en">Network Name</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_gp">
+            <label xml:lang="en">Geophysics</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

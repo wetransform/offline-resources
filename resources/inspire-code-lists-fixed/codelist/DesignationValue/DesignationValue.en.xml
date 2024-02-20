@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/DesignationValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/DesignationValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/DesignationValue</latestversion>
+   <label xml:lang="en">Designation</label>
+   <definition xml:lang="en">Abstract base type for code lists containing the classification and designation types under different schemes.</definition>
+   <description xml:lang="en">NOTE 1Some of these designation and classification lists are closed (for example, Natura2000), while some change regularly.\n\nNOTE 2 Typically, additional code lists will be created as sub-types of this type to represent designation or classification values within Member States, e.g.&lt;b> &lt;/b>natuurbeschermingsGebieden, rijksBeschermdeArcheologischeGebieden, nationaleParken, nationaleLandschappen etc. in the Netherlands.</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+      <label xml:lang="en">Protected Sites Simple</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/ps">
+      <label xml:lang="en">Protected sites</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <codelist id="http://inspire.ec.europa.eu/codelist/IUCNDesignationValue">
+         <language>en</language>
+         <created>2015-08-18 17:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/IUCNDesignationValue:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/IUCNDesignationValue</latestversion>
+         <label xml:lang="en">IUCN Designation</label>
+         <definition xml:lang="en">A code list for the International Union for the Conservation of Nature classification scheme.</definition>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/DesignationValue">
+               <label xml:lang="en">Designation</label>
+            </parent>
+         </parents>
+         <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+            <label xml:lang="en">Not extensible</label>
+         </extensibility>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+            <label xml:lang="en">Protected Sites Simple</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ps">
+            <label xml:lang="en">Protected sites</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeList">
+            <label xml:lang="en">CodeList</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </codelist>
+      <codelist id="http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue">
+         <language>en</language>
+         <created>2015-08-18 17:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue</latestversion>
+         <label xml:lang="en">National Monuments Record Designation</label>
+         <definition xml:lang="en">A code list for the National Monuments Record classification scheme.</definition>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/DesignationValue">
+               <label xml:lang="en">Designation</label>
+            </parent>
+         </parents>
+         <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+            <label xml:lang="en">Not extensible</label>
+         </extensibility>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+            <label xml:lang="en">Protected Sites Simple</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ps">
+            <label xml:lang="en">Protected sites</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeList">
+            <label xml:lang="en">CodeList</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </codelist>
+      <codelist id="http://inspire.ec.europa.eu/codelist/Natura2000DesignationValue">
+         <language>en</language>
+         <created>2015-08-18 17:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/Natura2000DesignationValue:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/Natura2000DesignationValue</latestversion>
+         <label xml:lang="en">Natura2000 Designation</label>
+         <definition xml:lang="en">A code list for the Natura2000 designation scheme, in accordance with Council Directive 92/43/EEC  (Habitats Directive).</definition>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/DesignationValue">
+               <label xml:lang="en">Designation</label>
+            </parent>
+         </parents>
+         <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+            <label xml:lang="en">Not extensible</label>
+         </extensibility>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+            <label xml:lang="en">Protected Sites Simple</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ps">
+            <label xml:lang="en">Protected sites</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeList">
+            <label xml:lang="en">CodeList</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </codelist>
+      <codelist id="http://inspire.ec.europa.eu/codelist/RamsarDesignationValue">
+         <language>en</language>
+         <created>2015-08-18 17:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RamsarDesignationValue:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RamsarDesignationValue</latestversion>
+         <label xml:lang="en">Ramsar Designation</label>
+         <definition xml:lang="en">A code list for the Convention on Wetlands of International Importance (Ramsar Convention) designation scheme.</definition>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/DesignationValue">
+               <label xml:lang="en">Designation</label>
+            </parent>
+         </parents>
+         <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+            <label xml:lang="en">Not extensible</label>
+         </extensibility>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+            <label xml:lang="en">Protected Sites Simple</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ps">
+            <label xml:lang="en">Protected sites</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeList">
+            <label xml:lang="en">CodeList</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </codelist>
+      <codelist id="http://inspire.ec.europa.eu/codelist/UNESCOManAndBiosphereProgrammeDesignationValue">
+         <language>en</language>
+         <created>2015-08-18 17:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/UNESCOManAndBiosphereProgrammeDesignationValue:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/UNESCOManAndBiosphereProgrammeDesignationValue</latestversion>
+         <label xml:lang="en">UNESCO Man And Biosphere Programme Designation</label>
+         <definition xml:lang="en">A code list for the Man and Biosphere Programme classification scheme.</definition>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/DesignationValue">
+               <label xml:lang="en">Designation</label>
+            </parent>
+         </parents>
+         <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+            <label xml:lang="en">Not extensible</label>
+         </extensibility>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+            <label xml:lang="en">Protected Sites Simple</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ps">
+            <label xml:lang="en">Protected sites</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeList">
+            <label xml:lang="en">CodeList</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </codelist>
+      <codelist id="http://inspire.ec.europa.eu/codelist/UNESCOWorldHeritageDesignationValue">
+         <language>en</language>
+         <created>2015-08-18 17:18 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/UNESCOWorldHeritageDesignationValue:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/UNESCOWorldHeritageDesignationValue</latestversion>
+         <label xml:lang="en">UNESCO World Heritage Designation</label>
+         <definition xml:lang="en">A code list for the World Heritage designation scheme.</definition>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/DesignationValue">
+               <label xml:lang="en">Designation</label>
+            </parent>
+         </parents>
+         <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+            <label xml:lang="en">Not extensible</label>
+         </extensibility>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+            <label xml:lang="en">Protected Sites Simple</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ps">
+            <label xml:lang="en">Protected sites</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeList">
+            <label xml:lang="en">CodeList</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </codelist>
+   </containeditems></codelist>

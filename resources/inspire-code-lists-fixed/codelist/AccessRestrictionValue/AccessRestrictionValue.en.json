@@ -1,0 +1,593 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Access Restriction",
+          "id" : "http://inspire.ec.europa.eu/codelist/AccessRestrictionValue"
+        },
+        "created" : "2015-08-18 17:40 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "forbidden legally",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Common Transport Elements",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn"
+        },
+        "definition" : {
+          "text" : "Access to the transport element is forbidden by law.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/AccessRestrictionValue/forbiddenLegally",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/AccessRestrictionValue/forbiddenLegally",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/AccessRestrictionValue/forbiddenLegally:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Access Restriction",
+          "id" : "http://inspire.ec.europa.eu/codelist/AccessRestrictionValue"
+        },
+        "created" : "2015-08-18 17:40 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "physically impossible",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Common Transport Elements",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn"
+        },
+        "definition" : {
+          "text" : "Access to the transport element is physically impossible due to the presence of barriers or other physical obstacles.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/AccessRestrictionValue/physicallyImpossible",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/AccessRestrictionValue/physicallyImpossible",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/AccessRestrictionValue/physicallyImpossible:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Access Restriction",
+          "id" : "http://inspire.ec.europa.eu/codelist/AccessRestrictionValue"
+        },
+        "created" : "2015-08-18 17:40 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "private",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Common Transport Elements",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn"
+        },
+        "definition" : {
+          "text" : "Access to the transport element is restricted because it is privately owned.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/AccessRestrictionValue/private",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/AccessRestrictionValue/private",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/AccessRestrictionValue/private:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Access Restriction",
+          "id" : "http://inspire.ec.europa.eu/codelist/AccessRestrictionValue"
+        },
+        "created" : "2015-08-18 17:40 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "public access",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Common Transport Elements",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn"
+        },
+        "definition" : {
+          "text" : "The transport element is open to public access.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/AccessRestrictionValue/publicAccess",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/AccessRestrictionValue/publicAccess",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/AccessRestrictionValue/publicAccess:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Access Restriction",
+          "id" : "http://inspire.ec.europa.eu/codelist/AccessRestrictionValue"
+        },
+        "created" : "2015-08-18 17:40 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "seasonal",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Common Transport Elements",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn"
+        },
+        "definition" : {
+          "text" : "Access to the transport element depends on the season.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/AccessRestrictionValue/seasonal",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/AccessRestrictionValue/seasonal",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/AccessRestrictionValue/seasonal:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Access Restriction",
+          "id" : "http://inspire.ec.europa.eu/codelist/AccessRestrictionValue"
+        },
+        "created" : "2015-08-18 17:40 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "toll",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Common Transport Elements",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn"
+        },
+        "definition" : {
+          "text" : "Access to the transport element is subject to toll.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/AccessRestrictionValue/toll",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/AccessRestrictionValue/toll",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/AccessRestrictionValue/toll:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Access Restriction",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "none",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Not extensible",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "tn",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/tn"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Common Transport Elements",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/tn"
+    },
+    "definition" : {
+      "text" : "Types of access restrictions for a transport element.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "tn",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/tn"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/AccessRestrictionValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/AccessRestrictionValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/AccessRestrictionValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

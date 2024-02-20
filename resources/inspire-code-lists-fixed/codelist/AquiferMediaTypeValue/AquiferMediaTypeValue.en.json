@@ -1,0 +1,706 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Aquifer Media Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue"
+        },
+        "created" : "2015-08-18 17:32 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Examples of fractured aquifers include granite and basalt. Porous media such as sandstone may become so highly cemented or recrystallized that all of the original space is filled. In this case, the rock is no longer a porous medium. However, if it contains cracks it can still act as a fractured aquifer.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "fractured",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge_hg",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_hg"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydrogeology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge_hg"
+        },
+        "definition" : {
+          "text" : "Fractured aquifers are rocks in which the groundwater moves through cracks, joints or fractures in otherwise solid rock",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/fractured",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/fractured",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/fractured:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/fractured:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Aquifer Media Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue"
+        },
+        "created" : "2015-08-18 17:32 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Porous media where the grains are not connected to each other are considered unconsolidated. If the grains are cemented together, such aquifers are called consolidated. Sandstones are examples of consolidated porous media.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "porous",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge_hg",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_hg"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydrogeology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge_hg"
+        },
+        "definition" : {
+          "text" : "Porous media are those aquifers consisting of aggregates of individual particles such as sand or gravel. and the groundwater flow occurs in and moves through the openings between the individual grains.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/porous",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/porous",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/porous:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/porous:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Aquifer Media Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue"
+        },
+        "created" : "2015-08-18 17:32 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "Limestone terrain where solution has been very active is termed karst.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "karstic",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge_hg",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_hg"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydrogeology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge_hg"
+        },
+        "definition" : {
+          "text" : "Karstic aquifers are fractured aquifers where the cracks and fractures have been enlarged by solution, forming large channels or even caverns.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/karstic",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/karstic",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/karstic:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/karstic:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Aquifer Media Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue"
+        },
+        "created" : "2015-08-18 17:32 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "compound",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge_hg",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_hg"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydrogeology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge_hg"
+        },
+        "definition" : {
+          "text" : "A combination of a porous, karstic and/or fractured aquifer",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/compound",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/compound",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/compound:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/compound:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Aquifer Media Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue"
+        },
+        "created" : "2015-08-18 17:32 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "karstic and fractured",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge_hg",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_hg"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydrogeology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge_hg"
+        },
+        "definition" : {
+          "text" : "A combination of both karstic and fractured aquifer",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/karsticAndFractured",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/karsticAndFractured",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/karsticAndFractured:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/karsticAndFractured:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Aquifer Media Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue"
+        },
+        "created" : "2015-08-18 17:32 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "porous and fractured",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge_hg",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_hg"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydrogeology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge_hg"
+        },
+        "definition" : {
+          "text" : "A combination of both porous and fractured aquifer",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/porousAndFractured",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/porousAndFractured",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/porousAndFractured:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/porousAndFractured:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Aquifer Media Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue"
+        },
+        "created" : "2015-08-18 18:07 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "other",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ge_hg",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_hg"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydrogeology",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ge_hg"
+        },
+        "definition" : {
+          "text" : "Aquifer is other then fractured, porous or karstic.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ge",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ge"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/other",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/other",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/other:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Aquifer Media Type",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "open",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Extensible with values at any level",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "ge_hg",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/ge_hg"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Hydrogeology",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/ge_hg"
+    },
+    "definition" : {
+      "text" : "Values describing the characteristics of the aquifer medium.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "ge",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/ge"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

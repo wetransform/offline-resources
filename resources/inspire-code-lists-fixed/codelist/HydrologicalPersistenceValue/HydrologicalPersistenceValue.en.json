@@ -1,0 +1,475 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Hydrological Persistence",
+          "id" : "http://inspire.ec.europa.eu/codelist/HydrologicalPersistenceValue"
+        },
+        "created" : "2015-08-18 17:41 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "dry",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Filled and/or flowing infrequently, generally only during and/or immediately after heavy precipitation.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/HydrologicalPersistenceValue/dry",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/HydrologicalPersistenceValue/dry",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/HydrologicalPersistenceValue/dry:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Hydrological Persistence",
+          "id" : "http://inspire.ec.europa.eu/codelist/HydrologicalPersistenceValue"
+        },
+        "created" : "2015-08-18 17:41 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "ephemeral",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Filled and/or flowing during and immediately after precipitation.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/HydrologicalPersistenceValue/ephemeral",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/HydrologicalPersistenceValue/ephemeral",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/HydrologicalPersistenceValue/ephemeral:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Hydrological Persistence",
+          "id" : "http://inspire.ec.europa.eu/codelist/HydrologicalPersistenceValue"
+        },
+        "created" : "2015-08-18 17:41 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "intermittent",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Filled and/or flowing for part of the year.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/HydrologicalPersistenceValue/intermittent",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/HydrologicalPersistenceValue/intermittent",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/HydrologicalPersistenceValue/intermittent:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Hydrological Persistence",
+          "id" : "http://inspire.ec.europa.eu/codelist/HydrologicalPersistenceValue"
+        },
+        "created" : "2015-08-18 17:41 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.gwg.nga.mil/documents/asfe/DFDD_2007-1.pdf"
+        },
+        "label" : {
+          "text" : "perennial",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "hy-p",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Hydro - Physical Waters",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+        },
+        "referencesource" : {
+          "text" : "DGIWG Feature Data Dictionary (DFDD) Version 2007-1",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Filled and/or flowing continuously throughout the year.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "hy",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/hy"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/HydrologicalPersistenceValue/perennial",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/HydrologicalPersistenceValue/perennial",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/HydrologicalPersistenceValue/perennial:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "description" : {
+      "text" : "SOURCE [Codelist values based on DFDD].",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Hydrological Persistence",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "none",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Not extensible",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "hy-p",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Hydro - Physical Waters",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/hy-p"
+    },
+    "definition" : {
+      "text" : "Categories of hydrological persistence of a body of water.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "hy",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/hy"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/HydrologicalPersistenceValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/HydrologicalPersistenceValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/HydrologicalPersistenceValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

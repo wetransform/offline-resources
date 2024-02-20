@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/CollectionTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/CollectionTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/CollectionTypeValue</latestversion>
+   <label xml:lang="en">Collection Type</label>
+   <definition xml:lang="en">Types of collections of geological and geophysical objects.</definition>
+   <description xml:lang="en">EXAMPLE: geological map, thematic map etc.</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+      <label xml:lang="en">Geology</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/ge">
+      <label xml:lang="en">Geology</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/CollectionTypeValue/boreholeCollection">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CollectionTypeValue/boreholeCollection:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CollectionTypeValue/boreholeCollection</latestversion>
+         <label xml:lang="en">borehole collection</label>
+         <definition xml:lang="en">Collection of boreholes</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CollectionTypeValue">
+            <label xml:lang="en">Collection Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CollectionTypeValue/geologicalModel">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CollectionTypeValue/geologicalModel:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CollectionTypeValue/geologicalModel</latestversion>
+         <label xml:lang="en">geological model</label>
+         <definition xml:lang="en">Collection of objects for a 3D geological spatial model</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CollectionTypeValue">
+            <label xml:lang="en">Collection Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CollectionTypeValue/geologicalMap">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CollectionTypeValue/geologicalMap:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CollectionTypeValue/geologicalMap</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/CollectionTypeValue/geologicalMap:1</version>
+         </previousversions>
+         <label xml:lang="en">geological map</label>
+         <definition xml:lang="en">Collection of features for a geological map which described geological units, structures geomorphologic features, etc.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CollectionTypeValue">
+            <label xml:lang="en">Collection Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CollectionTypeValue/geophysicalObjectCollection">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CollectionTypeValue/geophysicalObjectCollection:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CollectionTypeValue/geophysicalObjectCollection</latestversion>
+         <label xml:lang="en">geophysical object collection</label>
+         <definition xml:lang="en">Collection of geophysical objects</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CollectionTypeValue">
+            <label xml:lang="en">Collection Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

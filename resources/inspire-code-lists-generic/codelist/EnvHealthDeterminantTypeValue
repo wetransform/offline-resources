@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/EnvHealthDeterminantTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/EnvHealthDeterminantTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/EnvHealthDeterminantTypeValue</latestversion>
+   <label xml:lang="en">Environment Health Determinant Type</label>
+   <definition xml:lang="en">Type of environmental health determinant.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/any">
+      <label xml:lang="en">Empty code list</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+      <label xml:lang="en">Human Health</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/hh">
+      <label xml:lang="en">Human health and safety</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/EnvHealthDeterminantTypeValue/air">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EnvHealthDeterminantTypeValue/air:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EnvHealthDeterminantTypeValue/air</latestversion>
+         <label xml:lang="en">air</label>
+         <definition xml:lang="en">Environmental health determinant related to air.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EnvHealthDeterminantTypeValue">
+            <label xml:lang="en">Environment Health Determinant Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EnvHealthDeterminantTypeValue/indoorAir">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EnvHealthDeterminantTypeValue/indoorAir:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EnvHealthDeterminantTypeValue/indoorAir</latestversion>
+         <label xml:lang="en">indoor Air</label>
+         <definition xml:lang="en">Environmental health determinant related to indoor air.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EnvHealthDeterminantTypeValue">
+            <label xml:lang="en">Environment Health Determinant Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EnvHealthDeterminantTypeValue/water">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EnvHealthDeterminantTypeValue/water:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EnvHealthDeterminantTypeValue/water</latestversion>
+         <label xml:lang="en">water</label>
+         <definition xml:lang="en">Environmental health determinant related to water.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EnvHealthDeterminantTypeValue">
+            <label xml:lang="en">Environment Health Determinant Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EnvHealthDeterminantTypeValue/noise">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EnvHealthDeterminantTypeValue/noise:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EnvHealthDeterminantTypeValue/noise</latestversion>
+         <label xml:lang="en">noise</label>
+         <definition xml:lang="en">Environmental health determinant related to noise.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EnvHealthDeterminantTypeValue">
+            <label xml:lang="en">Environment Health Determinant Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EnvHealthDeterminantTypeValue/pollen">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EnvHealthDeterminantTypeValue/pollen:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EnvHealthDeterminantTypeValue/pollen</latestversion>
+         <label xml:lang="en">pollen</label>
+         <definition xml:lang="en">Environmental health determinant related to pollen.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EnvHealthDeterminantTypeValue">
+            <label xml:lang="en">Environment Health Determinant Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

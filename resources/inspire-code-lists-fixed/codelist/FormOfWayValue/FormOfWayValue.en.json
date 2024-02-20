@@ -1,0 +1,1509 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Form Of Way",
+          "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue"
+        },
+        "created" : "2015-08-18 17:44 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf"
+        },
+        "label" : {
+          "text" : "bicycle road",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-ro",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Road Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "referencesource" : {
+          "text" : "EUROROADS",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Road where bicycles are the only vehicles allowed.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/bicycleRoad",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/bicycleRoad",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/bicycleRoad:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Form Of Way",
+          "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue"
+        },
+        "created" : "2015-08-18 17:44 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf"
+        },
+        "label" : {
+          "text" : "dual carriageway",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-ro",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Road Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "referencesource" : {
+          "text" : "EUROROADS",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Road with physically separated carriageways regardless of the number of lanes, which is not a motorway or a freeway.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/dualCarriageway",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/dualCarriageway",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/dualCarriageway:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Form Of Way",
+          "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue"
+        },
+        "created" : "2015-08-18 17:44 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf"
+        },
+        "label" : {
+          "text" : "enclosed traffic area",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-ro",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Road Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "referencesource" : {
+          "text" : "EUROROADS",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Area with no internal structure of legally defined driving directions. At least two roads are connected to the area.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/enclosedTrafficArea",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/enclosedTrafficArea",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/enclosedTrafficArea:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Form Of Way",
+          "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue"
+        },
+        "created" : "2015-08-18 17:44 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf"
+        },
+        "label" : {
+          "text" : "entrance or exit car park",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-ro",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Road Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "referencesource" : {
+          "text" : "EUROROADS",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Road specially designed to enter or to leave a parking area.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/entranceOrExitCarPark",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/entranceOrExitCarPark",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/entranceOrExitCarPark:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Form Of Way",
+          "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue"
+        },
+        "created" : "2015-08-18 17:44 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf"
+        },
+        "label" : {
+          "text" : "entrance or exit service",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-ro",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Road Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "referencesource" : {
+          "text" : "EUROROADS",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Road used only to enter or to leave a service.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/entranceOrExitService",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/entranceOrExitService",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/entranceOrExitService:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Form Of Way",
+          "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue"
+        },
+        "created" : "2015-08-18 17:44 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf"
+        },
+        "label" : {
+          "text" : "freeway",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-ro",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Road Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "referencesource" : {
+          "text" : "EUROROADS",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Road having no single level crossings with other roads.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/freeway",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/freeway",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/freeway:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Form Of Way",
+          "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue"
+        },
+        "created" : "2015-08-18 17:44 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf"
+        },
+        "label" : {
+          "text" : "motorway",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-ro",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Road Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "referencesource" : {
+          "text" : "EUROROADS",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Road to which regulations will normally apply with regards to entry and use. It has two or more mostly physically separated carriageways and no single level-crossings.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/motorway",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/motorway",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/motorway:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Form Of Way",
+          "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue"
+        },
+        "created" : "2015-08-18 17:44 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf"
+        },
+        "label" : {
+          "text" : "pedestrian zone",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-ro",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Road Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "referencesource" : {
+          "text" : "EUROROADS",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Area with a road network which is especially designed for use by pedestrians.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/pedestrianZone",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/pedestrianZone",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/pedestrianZone:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Form Of Way",
+          "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue"
+        },
+        "created" : "2015-08-18 17:44 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf"
+        },
+        "label" : {
+          "text" : "roundabout",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-ro",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Road Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "referencesource" : {
+          "text" : "EUROROADS",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Road which forms a ring on which traffic travelling in only one direction is allowed.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/roundabout",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/roundabout",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/roundabout:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Form Of Way",
+          "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue"
+        },
+        "created" : "2015-08-18 17:44 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf"
+        },
+        "label" : {
+          "text" : "service road",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-ro",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Road Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "referencesource" : {
+          "text" : "EUROROADS",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Road running parallel to, and designed to connect, a road with a relatively high connectivity function with roads with a lower connectivity function.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/serviceRoad",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/serviceRoad",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/serviceRoad:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Form Of Way",
+          "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue"
+        },
+        "created" : "2015-08-18 17:44 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf"
+        },
+        "label" : {
+          "text" : "single carriageway",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-ro",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Road Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "referencesource" : {
+          "text" : "EUROROADS",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Road where the traffic is not separated by any physical object.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/singleCarriageway",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/singleCarriageway",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/singleCarriageway:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Form Of Way",
+          "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue"
+        },
+        "created" : "2015-08-18 17:44 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf"
+        },
+        "label" : {
+          "text" : "slip road",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-ro",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Road Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "referencesource" : {
+          "text" : "EUROROADS",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Road especially designed to enter or exit another road.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/slipRoad",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/slipRoad",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/slipRoad:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Form Of Way",
+          "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue"
+        },
+        "created" : "2015-08-18 17:44 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf"
+        },
+        "label" : {
+          "text" : "tractor road",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-ro",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Road Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "referencesource" : {
+          "text" : "EUROROADS",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Arranged road only usable for a tractor (farm vehicle or forest machine) or terrain vehicle (a vehicle with higher ground clearance, big wheels and 4 wheel drive).",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/tractorRoad",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/tractorRoad",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/tractorRoad:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Form Of Way",
+          "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue"
+        },
+        "created" : "2015-08-18 17:44 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf"
+        },
+        "label" : {
+          "text" : "traffic square",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-ro",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Road Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "referencesource" : {
+          "text" : "EUROROADS",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Area (partly) enclosed by roads which is used for non-traffic purposes and which is not a roundabout.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/trafficSquare",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/trafficSquare",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/trafficSquare:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Form Of Way",
+          "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue"
+        },
+        "created" : "2015-08-18 17:44 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf"
+        },
+        "label" : {
+          "text" : "walkway",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-ro",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Road Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "referencesource" : {
+          "text" : "EUROROADS",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Road reserved for pedestrian use and closed for regular vehicular use by a physically barrier.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/walkway",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/walkway",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue/walkway:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "description" : {
+      "text" : "SOURCE Based on [Euroroads].",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Form Of Way",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "none",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Not extensible",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "tn-ro",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Road Transport Network",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+    },
+    "definition" : {
+      "text" : "Classification based on the physical properties of the road link.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "tn",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/tn"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/FormOfWayValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

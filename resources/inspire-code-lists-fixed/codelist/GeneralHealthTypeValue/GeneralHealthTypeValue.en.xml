@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue</latestversion>
+   <label xml:lang="en">General Health Type</label>
+   <definition xml:lang="en">Type of health status indicator.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/any">
+      <label xml:lang="en">Empty code list</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+      <label xml:lang="en">Human Health</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/hh">
+      <label xml:lang="en">Human health and safety</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/measuredBMI">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/measuredBMI:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/measuredBMI</latestversion>
+         <label xml:lang="en">measured BMI</label>
+         <definition xml:lang="en">Measured Body mass index.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue">
+            <label xml:lang="en">General Health Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/selfPerceivedBMI">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/selfPerceivedBMI:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/selfPerceivedBMI</latestversion>
+         <label xml:lang="en">self perceived BMI</label>
+         <definition xml:lang="en">Self Perceived Body mass index.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue">
+            <label xml:lang="en">General Health Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/selfPerceivedHealth">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/selfPerceivedHealth:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/selfPerceivedHealth</latestversion>
+         <label xml:lang="en">self perceived health</label>
+         <definition xml:lang="en">The data on self-perceived health refer to the auto-evaluation of the general health state (i.e. any temporary health problem is not considered) by respondents using a scale from "very good" to "very bad".</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue">
+            <label xml:lang="en">General Health Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/smokers">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/smokers:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/smokers</latestversion>
+         <label xml:lang="en">smokers</label>
+         <definition xml:lang="en">smokers</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue">
+            <label xml:lang="en">General Health Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/longStandingIllness">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/longStandingIllness:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/longStandingIllness</latestversion>
+         <label xml:lang="en">long standing illness</label>
+         <definition xml:lang="en">The data on chronic (longstanding) illnesses or conditions refer to the self-declaration by the respondents of whether they have or have not a chronic (longstanding) illness or condition.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue">
+            <label xml:lang="en">General Health Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/selfPerceivedLimitationDailyActivity">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/selfPerceivedLimitationDailyActivity:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/selfPerceivedLimitationDailyActivity</latestversion>
+         <label xml:lang="en">self perceived limitation of daily activity</label>
+         <definition xml:lang="en">The data on limitation in activities due to health problems refer to the auto-evaluation by the respondents of the extent of which they are limited in activities people usually do because of health problems for at least the last 6 months (strongly limited, limited, not limited).</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue">
+            <label xml:lang="en">General Health Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

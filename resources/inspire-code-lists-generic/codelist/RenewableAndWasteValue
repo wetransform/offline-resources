@@ -1,0 +1,405 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue</latestversion>
+   <label xml:lang="en">Renewable and Waste</label>
+   <definition xml:lang="en">Types of renewable and waste resources.</definition>
+   <description xml:lang="en">NOTE Waste values have been included in this code list to simplify the code lists rather than to imply that only renewable waste is included.</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+      <label xml:lang="en">Energy Resources Base</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/er">
+      <label xml:lang="en">Energy resources</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/biogas">
+         <language>en</language>
+         <created>2015-08-18 17:29 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/biogas:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/biogas</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/biogas:1</version>
+         </previousversions>
+         <label xml:lang="en">biogas</label>
+         <definition xml:lang="en">A gas composed principally of methane and carbon dioxide produced by anaerobic digestion of biomass.</definition>
+         <description xml:lang="en">It does not include gases created by anaerobic digestion of biomass (e.g. municipal or sewage gas) nor gasworks gas.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue">
+            <label xml:lang="en">Renewable and Waste</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+            <label xml:lang="en">Energy Resources Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/geothermal">
+         <language>en</language>
+         <created>2015-08-18 17:29 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/geothermal:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/geothermal</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/geothermal:1</version>
+         </previousversions>
+         <label xml:lang="en">geothermal</label>
+         <definition xml:lang="en">Energy available as heat emitted from within the Earth's crust, usually in the form of hot water or steam. This energy production is the difference between the enthalpy of the fluid produced in the production borehole and that of the fluid eventually disposed of. It is exploited at suitable sites for electricity generation or directly as heat.</definition>
+         <description xml:lang="en">SOURCE Adapted from Energy Statistics Regulation EC 1099/2008 .</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue">
+            <label xml:lang="en">Renewable and Waste</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+            <label xml:lang="en">Energy Resources Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/hydro">
+         <language>en</language>
+         <created>2015-08-18 17:29 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/hydro:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/hydro</latestversion>
+         <label xml:lang="en">hydro power</label>
+         <definition xml:lang="en">Potential and kinetic energy of water converted into electricity in hydroelectric plants.</definition>
+         <description xml:lang="en">SOURCE Adapted from Energy Statistics Regulation EC 1099/2008 .</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue">
+            <label xml:lang="en">Renewable and Waste</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+            <label xml:lang="en">Energy Resources Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/industrialWaste">
+         <language>en</language>
+         <created>2015-08-18 17:29 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/industrialWaste:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/industrialWaste</latestversion>
+         <label xml:lang="en">industrial waste</label>
+         <definition xml:lang="en">Waste of industrial non-renewable origin (solids or liquids) combusted directly for the production of electricity and/or heat.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue">
+            <label xml:lang="en">Renewable and Waste</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+            <label xml:lang="en">Energy Resources Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/liquidBiofuels">
+         <language>en</language>
+         <created>2015-08-18 17:29 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/liquidBiofuels:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/liquidBiofuels</latestversion>
+         <label xml:lang="en">liquid biofuels</label>
+         <definition xml:lang="en">Liquid biofuels are biogasoline, bio-diesels or other biofuels directly used as fuel.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue">
+            <label xml:lang="en">Renewable and Waste</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+            <label xml:lang="en">Energy Resources Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/municipalSolidWaste">
+         <language>en</language>
+         <created>2015-08-18 17:29 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/municipalSolidWaste:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/municipalSolidWaste</latestversion>
+         <label xml:lang="en">municipal solid waste</label>
+         <definition xml:lang="en">Waste produced by households, industry, hospitals and the tertiary sector which contains biodegradable materials that are incinerated at specific installations.</definition>
+         <description xml:lang="en">SOURCE Adapted from Energy Statistics Regulation EC 1099/2008 .</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue">
+            <label xml:lang="en">Renewable and Waste</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+            <label xml:lang="en">Energy Resources Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/solarPhotovoltaic">
+         <language>en</language>
+         <created>2015-08-18 17:29 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/solarPhotovoltaic:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/solarPhotovoltaic</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/solarPhotovoltaic:1</version>
+         </previousversions>
+         <label xml:lang="en">solar photovoltaic</label>
+         <definition xml:lang="en">Sunlight converted into electricity by the use of solar cells usually made of semi-conducting material which, when exposed to light, will generate electricity.</definition>
+         <description xml:lang="en">SOURCE Adapted from Energy Statistics Regulation EC 1099/2008 .</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue">
+            <label xml:lang="en">Renewable and Waste</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+            <label xml:lang="en">Energy Resources Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/solarThermal">
+         <language>en</language>
+         <created>2015-08-18 17:29 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/solarThermal:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/solarThermal</latestversion>
+         <label xml:lang="en">solar thermal</label>
+         <definition xml:lang="en">Heat from solar radiationthat can consist ofsolar thermal-electric plants or</definition>
+         <description xml:lang="en">SOURCE Adapted from Energy Statistics Regulation EC 1099/2008 .</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue">
+            <label xml:lang="en">Renewable and Waste</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+            <label xml:lang="en">Energy Resources Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/solidBiomass">
+         <language>en</language>
+         <created>2015-08-18 17:29 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/solidBiomass:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/solidBiomass</latestversion>
+         <label xml:lang="en">solid biomass</label>
+         <definition xml:lang="en">Covers organic, non-fossil material of biological origin which may be used as fuel for heat production or electricity generation.</definition>
+         <description xml:lang="en">SOURCE Adapted from Energy Statistics Regulation EC 1099/2008 .</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue">
+            <label xml:lang="en">Renewable and Waste</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+            <label xml:lang="en">Energy Resources Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/tideWaveOcean">
+         <language>en</language>
+         <created>2015-08-18 17:29 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/tideWaveOcean:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/tideWaveOcean</latestversion>
+         <label xml:lang="en">tide, wave, ocean</label>
+         <definition xml:lang="en">Mechanical energy derived from tidal movement, wave motion or ocean current and exploited for electricity generation.</definition>
+         <description xml:lang="en">SOURCE Adapted from Energy Statistics Regulation EC 1099/2008 .</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue">
+            <label xml:lang="en">Renewable and Waste</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+            <label xml:lang="en">Energy Resources Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/wind">
+         <language>en</language>
+         <created>2015-08-18 17:29 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/wind:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/wind</latestversion>
+         <label xml:lang="en">wind</label>
+         <definition xml:lang="en">Kinetic energy of wind exploited for electricity generation in wind turbines.</definition>
+         <description xml:lang="en">SOURCE Adapted from Energy Statistics Regulation EC 1099/2008 .</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue">
+            <label xml:lang="en">Renewable and Waste</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-b">
+            <label xml:lang="en">Energy Resources Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

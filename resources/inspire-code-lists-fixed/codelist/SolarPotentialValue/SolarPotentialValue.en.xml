@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/SolarPotentialValue">
+   <language>en</language>
+   <created>2015-08-18 17:19 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/SolarPotentialValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/SolarPotentialValue</latestversion>
+   <label xml:lang="en">Solar Potential</label>
+   <definition xml:lang="en">Types of potential solar energy.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/any">
+      <label xml:lang="en">Empty code list</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-c">
+      <label xml:lang="en">Energy Resources Coverage</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/er">
+      <label xml:lang="en">Energy resources</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+      <label xml:lang="en">Technical (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/SolarPotentialValue/diffuseIrradiance">
+         <language>en</language>
+         <created>2015-08-18 17:51 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SolarPotentialValue/diffuseIrradiance:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SolarPotentialValue/diffuseIrradiance</latestversion>
+         <label xml:lang="en">diffuse irradiance</label>
+         <definition xml:lang="en">Part of solar power (instantaneous rate of radiant energy), falling on a surface on the Earth per unit time, which is scattered by air molecules or atmospheric particles such as aerosols or clouds [W.m-2].</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SolarPotentialValue">
+            <label xml:lang="en">Solar Potential</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-c">
+            <label xml:lang="en">Energy Resources Coverage</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SolarPotentialValue/diffuseIrradiation">
+         <language>en</language>
+         <created>2015-08-18 17:51 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SolarPotentialValue/diffuseIrradiation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SolarPotentialValue/diffuseIrradiation</latestversion>
+         <label xml:lang="en">diffuse irradiation</label>
+         <definition xml:lang="en">Amount of solar energy (integrated over a time), falling on a surface on the Earth, which is scattered by air molecules or atmospheric particles such as aerosols or clouds [Wh.m-2].</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SolarPotentialValue">
+            <label xml:lang="en">Solar Potential</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-c">
+            <label xml:lang="en">Energy Resources Coverage</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SolarPotentialValue/directNormalIrradiance">
+         <language>en</language>
+         <created>2015-08-18 17:51 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SolarPotentialValue/directNormalIrradiance:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SolarPotentialValue/directNormalIrradiance</latestversion>
+         <label xml:lang="en">direct normal irradiation</label>
+         <definition xml:lang="en">Part of solar power (instantaneous rate of radiant energy), falling on a surface perpendicular to the Sun's rays per unit time, which is not scattered or reflected by air molecules or atmospheric particles [Wh.m-2].</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SolarPotentialValue">
+            <label xml:lang="en">Solar Potential</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-c">
+            <label xml:lang="en">Energy Resources Coverage</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SolarPotentialValue/directNormalIrradiation">
+         <language>en</language>
+         <created>2015-08-18 17:51 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SolarPotentialValue/directNormalIrradiation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SolarPotentialValue/directNormalIrradiation</latestversion>
+         <label xml:lang="en">direct normal irradiation</label>
+         <definition xml:lang="en">Amount of solar energy (integrated over a time), falling on a surface perpendicular to sunrays, which is not scattered or reflected by air molecules or atmospheric particles [Wh.m-2].</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SolarPotentialValue">
+            <label xml:lang="en">Solar Potential</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-c">
+            <label xml:lang="en">Energy Resources Coverage</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SolarPotentialValue/globalHorizontalIrradiance">
+         <language>en</language>
+         <created>2015-08-18 17:51 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SolarPotentialValue/globalHorizontalIrradiance:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SolarPotentialValue/globalHorizontalIrradiance</latestversion>
+         <label xml:lang="en">global horizontal irradiance</label>
+         <definition xml:lang="en">Solar power (instantaneous rate of total radiant energy) attenuated by all constituents of the atmosphere and falling on a horizontal surface on the Earth per unit time. Global horizontal irradiance integrates direct, diffuse and reflected components of solar power [W.m-2].</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SolarPotentialValue">
+            <label xml:lang="en">Solar Potential</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-c">
+            <label xml:lang="en">Energy Resources Coverage</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SolarPotentialValue/globalHorizontalIrradiation">
+         <language>en</language>
+         <created>2015-08-18 17:51 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SolarPotentialValue/globalHorizontalIrradiation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SolarPotentialValue/globalHorizontalIrradiation</latestversion>
+         <label xml:lang="en">global horizontal irradiation</label>
+         <definition xml:lang="en">Amount of solar energy (integrated over a time) attenuated by all constituents of the atmosphere and falling on a horizontal surface on the Earth. Global horizontal irradiation integrates direct, diffuse and reflected components of solar energy [Wh.m-2].</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SolarPotentialValue">
+            <label xml:lang="en">Solar Potential</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/er-c">
+            <label xml:lang="en">Energy Resources Coverage</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/er">
+            <label xml:lang="en">Energy resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

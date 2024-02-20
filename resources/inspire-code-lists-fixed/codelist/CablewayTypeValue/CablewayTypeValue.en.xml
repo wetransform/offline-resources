@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/CablewayTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/CablewayTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/CablewayTypeValue</latestversion>
+   <label xml:lang="en">Cableway Type</label>
+   <definition xml:lang="en">The possible types of cableway transport.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-c">
+      <label xml:lang="en">Cable Transport Network</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/tn">
+      <label xml:lang="en">Transport networks</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/CablewayTypeValue/cabinCableCar">
+         <language>en</language>
+         <created>2015-08-18 17:40 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CablewayTypeValue/cabinCableCar:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CablewayTypeValue/cabinCableCar</latestversion>
+         <label xml:lang="en">cabin cable car</label>
+         <definition xml:lang="en">A cableway transport whose vehicles consist of a suspended cabin for carrying groups of people and/or goods inside it from one location to another.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CablewayTypeValue">
+            <label xml:lang="en">Cableway Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-c">
+            <label xml:lang="en">Cable Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CablewayTypeValue/chairLift">
+         <language>en</language>
+         <created>2015-08-18 17:40 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CablewayTypeValue/chairLift:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CablewayTypeValue/chairLift</latestversion>
+         <label xml:lang="en">chair lift</label>
+         <definition xml:lang="en">A cableway transport whose vehicles consist of suspended chairs for carrying individuals or groups of people from one location to another via a steel cable or rope which is looped around two points.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CablewayTypeValue">
+            <label xml:lang="en">Cableway Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-c">
+            <label xml:lang="en">Cable Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CablewayTypeValue/skiTow">
+         <language>en</language>
+         <created>2015-08-18 17:40 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CablewayTypeValue/skiTow:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CablewayTypeValue/skiTow</latestversion>
+         <label xml:lang="en">ski tow</label>
+         <definition xml:lang="en">A cableway transport for pulling skiers and snowboarders uphill.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CablewayTypeValue">
+            <label xml:lang="en">Cableway Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-c">
+            <label xml:lang="en">Cable Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

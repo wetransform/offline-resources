@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue</latestversion>
+   <label xml:lang="en">Disease Measure Type</label>
+   <definition xml:lang="en">Different ways how data on diseases and related health problems in a population can be reported.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/any">
+      <label xml:lang="en">Empty code list</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+      <label xml:lang="en">Human Health</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/hh">
+      <label xml:lang="en">Human health and safety</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue/incidence">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue/incidence:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue/incidence</latestversion>
+         <label xml:lang="en">Incidence</label>
+         <definition xml:lang="en">the number of new cases of a condition, symptom, death, or injury that develop during a specific time period, such as a year. The number is often expressed as a percentage of a population. (ref.: http://www.nlm.nih.gov/medlineplus/ency/article/002387.htm)</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue">
+            <label xml:lang="en">Disease Measure Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue/prevalence">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue/prevalence:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue/prevalence</latestversion>
+         <label xml:lang="en">Prevalence</label>
+         <definition xml:lang="en">The proportion of individuals in a population having a disease. Prevalence is a statistical concept referring to the number of cases of a disease that are present in a particular population at a given time.\n(ref.: http://www.medterms.com/script/main/art.asp?articlekey=11697) .</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue">
+            <label xml:lang="en">Disease Measure Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue/mortality">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue/mortality:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue/mortality</latestversion>
+         <label xml:lang="en">Mortality</label>
+         <definition xml:lang="en">Data on death; often expressed as mortality (death) rate, which is an estimate of the proportion of a population that dies during a specified period. Mortality (death) statistics usually show numbers of death ad/or rates by age, sex, cause, and sometimes other variables. Different types of mortality (death) rates are available, for example infant mortality rate (the number of children dying under a year of age divided by the number of live births that year).\nRef.: Porta M (Ed.). A Dictionary of Epidemiology. IEA, 2008. Oxford University Press.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue">
+            <label xml:lang="en">Disease Measure Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue/outbreak">
+         <language>en</language>
+         <created>2015-08-18 18:06 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue/outbreak:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue/outbreak</latestversion>
+         <label xml:lang="en">Outbreak</label>
+         <definition xml:lang="en">An epidemic limited to localized increase in the incidence of a disease; e.g. in a village, town, or closed institution.\nRef.: Porta M (Ed.). A Dictionary of Epidemiology. IEA, 2008. Oxford University Press.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue">
+            <label xml:lang="en">Disease Measure Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
+            <label xml:lang="en">Human Health</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hh">
+            <label xml:lang="en">Human health and safety</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

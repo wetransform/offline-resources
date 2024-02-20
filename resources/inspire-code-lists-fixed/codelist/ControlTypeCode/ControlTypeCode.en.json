@@ -1,0 +1,439 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Technical (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Control Type Code",
+          "id" : "http://inspire.ec.europa.eu/codelist/ControlTypeCode"
+        },
+        "created" : "2015-08-18 17:50 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "NOTE 1: To achieve or maintain good environmental status only a specific activity or activities may be allowed to be performed in the zone.\\nNOTE 2: If an activity is only allowed between a particular time period then this should be documented in the validTime attribute.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "permitted",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Area Management Restriction and Regulation Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "definition" : {
+          "text" : "The activity is allowed to be performed within the zone.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/am"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ControlTypeCode/permitted",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ControlTypeCode/permitted",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ControlTypeCode/permitted:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Control Type Code",
+          "id" : "http://inspire.ec.europa.eu/codelist/ControlTypeCode"
+        },
+        "created" : "2015-08-18 17:50 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "NOTE 1: To achieve or maintain good environmental status an activity may be restricted to mitigate the risk of environmental degradation.\\nNOTE 2: If an activity is restricted between a particular time period then this should be documented in the validTime attribute\\nEXAMPLE: Water abstraction: is restricted and controlled by licence where the operator may be limited to abstracting a specific amount of water per day.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "restricted",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Area Management Restriction and Regulation Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "definition" : {
+          "text" : "An activity is limited to only be performed within specific bounds.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/am"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ControlTypeCode/restricted",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ControlTypeCode/restricted",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ControlTypeCode/restricted:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Control Type Code",
+          "id" : "http://inspire.ec.europa.eu/codelist/ControlTypeCode"
+        },
+        "created" : "2015-08-18 17:50 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "description" : {
+          "text" : "NOTE 1: To achieve or maintain good environmental status specific activity or activities may not be allowed to be performed in the zone.\\nNOTE 2: If an activity is prohibited within a particular time period then this should be documented in the schedule.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "prohibited",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Area Management Restriction and Regulation Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "definition" : {
+          "text" : "An activity is not allowed to be performed within the zone.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/am"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ControlTypeCode/prohibited",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ControlTypeCode/prohibited",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ControlTypeCode/prohibited:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Control Type Code",
+          "id" : "http://inspire.ec.europa.eu/codelist/ControlTypeCode"
+        },
+        "created" : "2015-08-18 17:50 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "promoted",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Area Management Restriction and Regulation Zones",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/am"
+        },
+        "definition" : {
+          "text" : "An activity that is positively promoted or introduced within the zone to achieve good environmental status.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "am",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/am"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ControlTypeCode/promoted",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ControlTypeCode/promoted",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ControlTypeCode/promoted:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:19 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-technical",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Control Type Code",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "any",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Empty code list",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "am",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/am"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Area Management Restriction and Regulation Zones",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/am"
+    },
+    "definition" : {
+      "text" : "Types of control used to manage activities within the zone.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "am",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/am"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/ControlTypeCode",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/ControlTypeCode",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/ControlTypeCode:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

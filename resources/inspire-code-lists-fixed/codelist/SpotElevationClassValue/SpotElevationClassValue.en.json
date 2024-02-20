@@ -1,0 +1,105 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "created" : "2015-08-18 17:18 PM CEST",
+    "document" : {
+      "label" : {
+        "text" : "ASPRS",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/document/ASPRS"
+    },
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "description" : {
+      "text" : "NOTE These classes are proposed regardless of the adquisition method of the spot elevation. They correspond to the ASPRS Standard LIDAR Point Classes.",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Spot Elevation Classification",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "any",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Empty code list",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "el-vec",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/el-vec"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Elevation - Vector Elements",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/el-vec"
+    },
+    "definition" : {
+      "text" : "Possible classification values for spot elevations based on the LAS specification maintained by the American Society for Photogrammetry and Remote Sensing (ASPRS).",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "el",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/el"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/SpotElevationClassValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/SpotElevationClassValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/SpotElevationClassValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

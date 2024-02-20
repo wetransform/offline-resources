@@ -1,0 +1,423 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:19 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue</latestversion>
+   <label xml:lang="en">Oil, Gas and Chemicals Appurtenance Type</label>
+   <definition xml:lang="en">Classification of oil, gas, chemicals appurtenances.</definition>
+   <parents>
+      <parent id="http://inspire.ec.europa.eu/codelist/SpecificAppurtenanceTypeValue">
+         <label xml:lang="en">Specific Appurtenance Type</label>
+      </parent>
+   </parents>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-ogc">
+      <label xml:lang="en">Oil-Gas-Chemicals Network</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/us">
+      <label xml:lang="en">Utility and governmental services</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/pump">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/pump:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/pump</latestversion>
+         <label xml:lang="en">Pump</label>
+         <definition xml:lang="en">Pump</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue">
+            <label xml:lang="en">Oil, Gas and Chemicals Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-ogc">
+            <label xml:lang="en">Oil-Gas-Chemicals Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/gasStation">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/gasStation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/gasStation</latestversion>
+         <label xml:lang="en">Gas station</label>
+         <definition xml:lang="en">Gas station</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue">
+            <label xml:lang="en">Oil, Gas and Chemicals Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-ogc">
+            <label xml:lang="en">Oil-Gas-Chemicals Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/oilGasChemicalsNode">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/oilGasChemicalsNode:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/oilGasChemicalsNode</latestversion>
+         <label xml:lang="en">oil, gas and chemicals network node</label>
+         <definition xml:lang="en">Node in an oil, gas and chemicals network</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue">
+            <label xml:lang="en">Oil, Gas and Chemicals Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-ogc">
+            <label xml:lang="en">Oil-Gas-Chemicals Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/compression">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/compression:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/compression</latestversion>
+         <label xml:lang="en">Compression</label>
+         <definition xml:lang="en">Compression</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue">
+            <label xml:lang="en">Oil, Gas and Chemicals Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-ogc">
+            <label xml:lang="en">Oil-Gas-Chemicals Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/terminal">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/terminal:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/terminal</latestversion>
+         <label xml:lang="en">Terminal</label>
+         <definition xml:lang="en">Terminal</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue">
+            <label xml:lang="en">Oil, Gas and Chemicals Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-ogc">
+            <label xml:lang="en">Oil-Gas-Chemicals Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/deliveryPoint">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/deliveryPoint:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/deliveryPoint</latestversion>
+         <label xml:lang="en">Delivery point</label>
+         <definition xml:lang="en">Delivery point</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue">
+            <label xml:lang="en">Oil, Gas and Chemicals Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-ogc">
+            <label xml:lang="en">Oil-Gas-Chemicals Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/frontier">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/frontier:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/frontier</latestversion>
+         <label xml:lang="en">Frontier</label>
+         <definition xml:lang="en">Frontier</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue">
+            <label xml:lang="en">Oil, Gas and Chemicals Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-ogc">
+            <label xml:lang="en">Oil-Gas-Chemicals Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/productionRegion">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/productionRegion:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/productionRegion</latestversion>
+         <label xml:lang="en">Production region</label>
+         <definition xml:lang="en">Production Region</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue">
+            <label xml:lang="en">Oil, Gas and Chemicals Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-ogc">
+            <label xml:lang="en">Oil-Gas-Chemicals Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/plant">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/plant:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/plant</latestversion>
+         <label xml:lang="en">Plant</label>
+         <definition xml:lang="en">Plant</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue">
+            <label xml:lang="en">Oil, Gas and Chemicals Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-ogc">
+            <label xml:lang="en">Oil-Gas-Chemicals Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/pumpingStation">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/pumpingStation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/pumpingStation</latestversion>
+         <label xml:lang="en">Pumping station</label>
+         <definition xml:lang="en">Pumping Station</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue">
+            <label xml:lang="en">Oil, Gas and Chemicals Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-ogc">
+            <label xml:lang="en">Oil-Gas-Chemicals Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/storage">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/storage:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/storage</latestversion>
+         <label xml:lang="en">Storage</label>
+         <definition xml:lang="en">Storage</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue">
+            <label xml:lang="en">Oil, Gas and Chemicals Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-ogc">
+            <label xml:lang="en">Oil-Gas-Chemicals Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/marker">
+         <language>en</language>
+         <created>2015-08-18 17:35 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/marker:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/marker</latestversion>
+         <label xml:lang="en">Marker</label>
+         <definition xml:lang="en">Marker</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue">
+            <label xml:lang="en">Oil, Gas and Chemicals Appurtenance Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-net-ogc">
+            <label xml:lang="en">Oil-Gas-Chemicals Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

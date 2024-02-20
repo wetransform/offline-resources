@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/NatureDirectivesCodeValue">
+   <language>en</language>
+   <created>2015-08-18 17:19 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/NatureDirectivesCodeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/NatureDirectivesCodeValue</latestversion>
+   <label xml:lang="en">Nature Directives Code</label>
+   <definition xml:lang="en">Reference lists containing nature directives species identifiers, as specified in the Reference Portal for Natura 2000 as defined in Commission Implementing Decision 2011/484/EU.</definition>
+   <description xml:lang="en">In nature directives harmonized species names are given identifiers and the species names are to be connected by using these identifiers.</description>
+   <parents>
+      <parent id="http://inspire.ec.europa.eu/codelist/ReferenceSpeciesCodeValue">
+         <label xml:lang="en">Reference Species Code</label>
+      </parent>
+   </parents>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/sd">
+      <label xml:lang="en">Species Distribution</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/sd">
+      <label xml:lang="en">Species distribution</label>
+   </theme>
+   <document id="http://inspire.ec.europa.eu/document/Natura2000">
+      <label xml:lang="en">Reference Portal for Natura 2000 as defined in Commission Implementing Decision 2011/484/EU</label>
+   </document>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register></codelist>

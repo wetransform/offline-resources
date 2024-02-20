@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/LegislationLevelValue">
+   <language>en</language>
+   <created>2015-08-18 17:19 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/LegislationLevelValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/LegislationLevelValue</latestversion>
+   <label xml:lang="en">Legislation Level</label>
+   <definition xml:lang="en">The level at which a legal act or convention has been adopted.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/any">
+      <label xml:lang="en">Empty code list</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/base2">
+      <label xml:lang="en">Base Types 2</label>
+   </applicationschema>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/LegislationLevelValue/international">
+         <language>en</language>
+         <created>2016-03-31 16:39 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/LegislationLevelValue/international:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/LegislationLevelValue/international</latestversion>
+         <label xml:lang="en">international</label>
+         <definition xml:lang="en">An international legal act or convention.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/LegislationLevelValue">
+            <label xml:lang="en">Legislation Level</label>
+         </codelist>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/LegislationLevelValue/european">
+         <language>en</language>
+         <created>2016-03-31 16:39 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/LegislationLevelValue/european:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/LegislationLevelValue/european</latestversion>
+         <label xml:lang="en">european</label>
+         <definition xml:lang="en">A legal act of the European Union.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/LegislationLevelValue">
+            <label xml:lang="en">Legislation Level</label>
+         </codelist>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/LegislationLevelValue/national">
+         <language>en</language>
+         <created>2016-03-31 16:39 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/LegislationLevelValue/national:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/LegislationLevelValue/national</latestversion>
+         <label xml:lang="en">national</label>
+         <definition xml:lang="en">A legal act at national level.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/LegislationLevelValue">
+            <label xml:lang="en">Legislation Level</label>
+         </codelist>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/LegislationLevelValue/sub-national">
+         <language>en</language>
+         <created>2016-03-31 16:39 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/LegislationLevelValue/sub-national:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/LegislationLevelValue/sub-national</latestversion>
+         <label xml:lang="en">sub-national</label>
+         <definition xml:lang="en">A legal act at sub-national level.</definition>
+         <description xml:lang="en">NOTE The sub-national level encompasses both regional or local legislative instruments</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/LegislationLevelValue">
+            <label xml:lang="en">Legislation Level</label>
+         </codelist>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

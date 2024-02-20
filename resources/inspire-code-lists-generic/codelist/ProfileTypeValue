@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/ProfileTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/ProfileTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/ProfileTypeValue</latestversion>
+   <label xml:lang="en">Profile Type</label>
+   <definition xml:lang="en">Type of geophysical profile.</definition>
+   <description xml:lang="en">An initial set of values are provided in the Implementation Rules. The codelist is expected to be extended by the geophysical community. Recommendations can be found in the Technical Guidence.</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_gp">
+      <label xml:lang="en">Geophysics</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/ge">
+      <label xml:lang="en">Geology</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/ProfileTypeValue/boreholeLogging">
+         <language>en</language>
+         <created>2015-08-18 17:31 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProfileTypeValue/boreholeLogging:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProfileTypeValue/boreholeLogging</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/ProfileTypeValue/boreholeLogging:1</version>
+         </previousversions>
+         <label xml:lang="en">borehole logging</label>
+         <definition xml:lang="en">Geophysical measurement along the axis of a borehole carried out with a special logging device.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProfileTypeValue">
+            <label xml:lang="en">Profile Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_gp">
+            <label xml:lang="en">Geophysics</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProfileTypeValue/multielectrodeDCProfile">
+         <language>en</language>
+         <created>2015-08-18 17:31 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProfileTypeValue/multielectrodeDCProfile:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProfileTypeValue/multielectrodeDCProfile</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/ProfileTypeValue/multielectrodeDCProfile:1</version>
+         </previousversions>
+         <label xml:lang="en">multi-electrode dc profile</label>
+         <definition xml:lang="en">DC resistivity and/or chargability (IP) measurement carried out along a profile with a larger set of electrodes. Also known as 2D resistivity tomography.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProfileTypeValue">
+            <label xml:lang="en">Profile Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_gp">
+            <label xml:lang="en">Geophysics</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProfileTypeValue/seismicLine">
+         <language>en</language>
+         <created>2015-08-18 17:31 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProfileTypeValue/seismicLine:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProfileTypeValue/seismicLine</latestversion>
+         <label xml:lang="en">seismic line</label>
+         <definition xml:lang="en">Geophysical measurement used to record acoustic response of seismic sources along a line in order to define seismic properties in a cross section of the earth.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProfileTypeValue">
+            <label xml:lang="en">Profile Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_gp">
+            <label xml:lang="en">Geophysics</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProfileTypeValue/flightLine">
+         <language>en</language>
+         <created>2015-08-18 18:05 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProfileTypeValue/flightLine:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProfileTypeValue/flightLine</latestversion>
+         <label xml:lang="en">flight line</label>
+         <definition xml:lang="en">Geophysical measurement carried out from a flying platform along a line</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProfileTypeValue">
+            <label xml:lang="en">Profile Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_gp">
+            <label xml:lang="en">Geophysics</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProfileTypeValue/conePenetrationTest">
+         <language>en</language>
+         <created>2015-08-18 18:05 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProfileTypeValue/conePenetrationTest:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProfileTypeValue/conePenetrationTest</latestversion>
+         <label xml:lang="en">cone penetration test</label>
+         <definition xml:lang="en">Geotechnical and geophysical measurement carried out by pushing down an instrumented cone into the ground. Also known as CPT.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProfileTypeValue">
+            <label xml:lang="en">Profile Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_gp">
+            <label xml:lang="en">Geophysics</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProfileTypeValue/verticalSeismicProfile">
+         <language>en</language>
+         <created>2015-08-18 18:05 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProfileTypeValue/verticalSeismicProfile:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProfileTypeValue/verticalSeismicProfile</latestversion>
+         <label xml:lang="en">vertical seismic profile</label>
+         <definition xml:lang="en">Geophysical measurement used to record acoustic response of waves travelling between a borehole and the surface. Also known as VSP.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProfileTypeValue">
+            <label xml:lang="en">Profile Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_gp">
+            <label xml:lang="en">Geophysics</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProfileTypeValue/georadarProfile">
+         <language>en</language>
+         <created>2015-08-18 18:05 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProfileTypeValue/georadarProfile:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProfileTypeValue/georadarProfile</latestversion>
+         <label xml:lang="en">georadar profile</label>
+         <definition xml:lang="en">Geophysical measurement used to record electromagnetic response from a radar source along a profile in order to define EM properties in a cross section of the earth.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProfileTypeValue">
+            <label xml:lang="en">Profile Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_gp">
+            <label xml:lang="en">Geophysics</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

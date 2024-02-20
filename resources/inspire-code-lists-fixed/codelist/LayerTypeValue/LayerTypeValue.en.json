@@ -1,0 +1,446 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Layer Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/LayerTypeValue"
+        },
+        "created" : "2015-08-18 17:37 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "They are often used in soil monitoring, sampling of contaminated sites and in modelling, and include:  • upper and lower limits of a soil horizon, or of a functional set of horizons • depth increments (also called fixed depths), that are often used for sampling, e.g. 0-30cm, 30-60cm, and so on, • a single depth range in which a soil sample is taken and for which the analytical result is valid, and • soil slicing, that is, profile segmentation according to a specified vector, for instance, either regularly spaced intervals (1cm), or a user-defined vector of segment boundaries (i.e. 0-10, 10-25, 25-50, 50-100). Slicing is used in modelling to generate continuous depth functions for soil properties.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "depth interval",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Soil",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "definition" : {
+          "text" : "Fixed depth range where soil is described and/or samples are taken.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/so"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/LayerTypeValue/depthInterval",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/LayerTypeValue/depthInterval",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/LayerTypeValue/depthInterval:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/LayerTypeValue/depthInterval:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Layer Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/LayerTypeValue"
+        },
+        "created" : "2015-08-18 17:37 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "geogenic",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Soil",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "definition" : {
+          "text" : "Domain of the soil profile composed of material resulting from the same, non-pedogenic process, e.g. sedimentation, that might display an unconformity to possible over- or underlying adjacent domains.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/so"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/LayerTypeValue/geogenic",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/LayerTypeValue/geogenic",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/LayerTypeValue/geogenic:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Layer Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/LayerTypeValue"
+        },
+        "created" : "2015-08-18 17:37 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "SOURCE ISO 11074 NOTE The subsoil can be: (i) a grouping of one to several horizons underlying the horizons with recent humus accumulation from humifying biomass or (ii) a domain of a soil with a specific vertical extension starting well below the soil surface (e.g. 15-75 cm).",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "subsoil",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Soil",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "definition" : {
+          "text" : "Natural soil material below the topsoil and overlying the unweathered parent material.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/so"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/LayerTypeValue/subSoil",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/LayerTypeValue/subSoil",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/LayerTypeValue/subSoil:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Layer Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/LayerTypeValue"
+        },
+        "created" : "2015-08-18 17:37 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "NOTE 1 For arable lands, topsoil refers to the ploughed soil depth; for grasslands, it is the soil layer with high root content. NOTE 2 The topsoil can be: (i) a grouping of one to several A horizons or (ii) a domain of a soil with a specific vertical extension starting from the surface (e.g. 0-15 cm). NOTE 3 In most soil description guidelines, the topsoil is composed of all A horizons occurring in a soil profile.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "topsoil",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Soil",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "definition" : {
+          "text" : "Upper part of a natural soil that is generally dark coloured and has a higher content of organic matter and nutrients when compared to the (mineral) horizons below excluding the humus layer.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/so"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/LayerTypeValue/topSoil",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/LayerTypeValue/topSoil",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/LayerTypeValue/topSoil:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "description" : {
+      "text" : "EXAMPLE Topsoil: meaning the upper part of the natural soil that is generally dark coloured and has a higher content of organic matter and nutrients when compared to the (mineral ) horizons below excluding the humus layer.",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Layer Type",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "none",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Not extensible",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "so",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Soil",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+    },
+    "definition" : {
+      "text" : "A classification of a layer according to the concept that fits the purpose.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "so",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/so"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/LayerTypeValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/LayerTypeValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/LayerTypeValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

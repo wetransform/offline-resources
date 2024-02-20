@@ -1,0 +1,873 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/FaultTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue</latestversion>
+   <label xml:lang="en">Fault Type</label>
+   <definition xml:lang="en">Terms describing the type of shear displacement structure.</definition>
+   <description xml:lang="en">EXAMPLE: thrust fault, normal fault, wrench fault.</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+      <label xml:lang="en">Geology</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/ge">
+      <label xml:lang="en">Geology</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/fault">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/fault:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/fault</latestversion>
+         <label xml:lang="en">fault</label>
+         <definition xml:lang="en">A discrete surface, or zone of discrete surfaces, with some thickness, separating two rock masses across which one mass has slid past the other.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FaultTypeValue">
+            <label xml:lang="en">Fault Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/faulttype/fault">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/faulttype/fault</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/extractionFault">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/extractionFault:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/extractionFault</latestversion>
+         <label xml:lang="en">extraction fault</label>
+         <definition xml:lang="en">A fault whose two sides have approached each other substantially in the direction perpendicular to the fault.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FaultTypeValue">
+            <label xml:lang="en">Fault Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/fault">
+               <label xml:lang="en">fault</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/faulttype/extraction_fault">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/faulttype/extraction_fault</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/highAngleFault">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/highAngleFault:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/highAngleFault</latestversion>
+         <label xml:lang="en">high angle fault</label>
+         <definition xml:lang="en">Fault that dips at least 45 degrees over more than half of its recognized extent, for which slip or separation is not explicitly specified.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FaultTypeValue">
+            <label xml:lang="en">Fault Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/fault">
+               <label xml:lang="en">fault</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/faulttype/high_angle_fault">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/faulttype/high_angle_fault</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/lowAngleFault">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/lowAngleFault:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/lowAngleFault</latestversion>
+         <label xml:lang="en">low angle fault</label>
+         <definition xml:lang="en">Fault that dips less than 45 degrees over more than half of the recognized extent of the fault.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FaultTypeValue">
+            <label xml:lang="en">Fault Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/fault">
+               <label xml:lang="en">fault</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/faulttype/low_angle_fault">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/faulttype/low_angle_fault</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/obliqueSlipFault">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/obliqueSlipFault:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/obliqueSlipFault</latestversion>
+         <label xml:lang="en">oblique slip fault</label>
+         <definition xml:lang="en">Fault with slip vector that has ratio of strike-parallel to dip-parallel displacement between 10 to 1 and 1 to 10 at at least one location along the mapped trace of the fault.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FaultTypeValue">
+            <label xml:lang="en">Fault Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/fault">
+               <label xml:lang="en">fault</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/faulttype/oblique_slip_fault">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/faulttype/oblique_slip_fault</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/reverseFault">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/reverseFault:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/reverseFault</latestversion>
+         <label xml:lang="en">reverse fault</label>
+         <definition xml:lang="en">Fault with dip-parallel displacement component of slip vector more than 10 times the strike-parallel component of the slip vector at at least one location along the mapped trace of the fault, and the fault dips consistently in the same direction with the hanging wall displaced up relative to the footwall over at least half the mapped trace of the fault.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FaultTypeValue">
+            <label xml:lang="en">Fault Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/fault">
+               <label xml:lang="en">fault</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/faulttype/reverse_fault">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/faulttype/reverse_fault</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/scissorFault">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/scissorFault:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/scissorFault</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/FaultTypeValue/scissorFault:1</version>
+         </previousversions>
+         <label xml:lang="en">scissor fault</label>
+         <definition xml:lang="en">A fault on which there is increasing offset or separation along the strike from an initial point of no offset, with the opposite sense of offset in the opposite direction.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FaultTypeValue">
+            <label xml:lang="en">Fault Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/fault">
+               <label xml:lang="en">fault</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/faulttype/scissor_fault">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/faulttype/scissor_fault</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/strikeSlipFault">
+         <language>en</language>
+         <created>2015-08-18 17:30 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/strikeSlipFault:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/strikeSlipFault</latestversion>
+         <label xml:lang="en">strike slip fault</label>
+         <definition xml:lang="en">Fault with strike-parallel displacement component of slip vector more than 10 times the dip-parallel component of the slip vector at at least one location along the mapped trace of the fault.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FaultTypeValue">
+            <label xml:lang="en">Fault Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/fault">
+               <label xml:lang="en">fault</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <referencelink id="http://resource.geosciml.org/classifier/cgi/faulttype/strike_slip_fault">
+            <label xml:lang="en">http://resource.geosciml.org/classifier/cgi/faulttype/strike_slip_fault</label>
+         </referencelink>
+         <referencesource xml:lang="en">CGI Controlled Vocabulary</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/detachmentFault">
+         <language>en</language>
+         <created>2015-08-18 17:57 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/detachmentFault:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/detachmentFault</latestversion>
+         <label xml:lang="en">detachment fault</label>
+         <definition xml:lang="en">A regional-scale, large displacement, low-angle normal fault.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FaultTypeValue">
+            <label xml:lang="en">Fault Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/dextralStrikeSlipFault">
+         <language>en</language>
+         <created>2015-08-18 17:57 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/dextralStrikeSlipFault:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/dextralStrikeSlipFault</latestversion>
+         <label xml:lang="en">dextral strike slip fault</label>
+         <definition xml:lang="en">Fault with right-lateral strike-parallel displacement component of slip vector more than 10 times the dip-parallel component of the slip vector at at least one location along the fault, and right-lateral displacement over more than half the mapped trace of the fault.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FaultTypeValue">
+            <label xml:lang="en">Fault Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/highAngleReverse">
+         <language>en</language>
+         <created>2015-08-18 17:57 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/highAngleReverse:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/highAngleReverse</latestversion>
+         <label xml:lang="en">high angle reverse</label>
+         <definition xml:lang="en">Reverse fault that dips at least 45 degrees over more than half of its recognized extent, for which slip or separation is not explicitly specified.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FaultTypeValue">
+            <label xml:lang="en">Fault Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/highAngleNormalFault">
+         <language>en</language>
+         <created>2015-08-18 17:57 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/highAngleNormalFault:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/highAngleNormalFault</latestversion>
+         <label xml:lang="en">high-angle normal fault</label>
+         <definition xml:lang="en">Fault that dips at least 45 degrees over more than half of the recognized extent of the fault with the hanging wall displaced from a structurally higher position relative to footwall rocks.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FaultTypeValue">
+            <label xml:lang="en">Fault Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/horizontalFault">
+         <language>en</language>
+         <created>2015-08-18 17:57 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/horizontalFault:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/horizontalFault</latestversion>
+         <label xml:lang="en">horizontal fault</label>
+         <definition xml:lang="en">Fault that dips less than 10 degrees over more than half the recognized extent of the fault.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FaultTypeValue">
+            <label xml:lang="en">Fault Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/leftNormalFault">
+         <language>en</language>
+         <created>2015-08-18 17:57 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/leftNormalFault:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/leftNormalFault</latestversion>
+         <label xml:lang="en">left normal fault</label>
+         <definition xml:lang="en">High angle fault with slip vector that has ratio of strike-parallel to dip-parallel displacement between 10 to 1 and 1 to 10 at at least one location along the mapped trace, with left-lateral strike-parallel component and normal dip-parallel component over at least half the mapped trace of the fault.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FaultTypeValue">
+            <label xml:lang="en">Fault Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/leftReverseFault">
+         <language>en</language>
+         <created>2015-08-18 17:57 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/leftReverseFault:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/leftReverseFault</latestversion>
+         <label xml:lang="en">left reverse fault</label>
+         <definition xml:lang="en">High angle fault with slip vector that has ratio of strike-parallel to dip-parallel displacement between 10 to 1 and 1 to 10 at at least one location along the mapped trace, with left-lateral strike-parallel component and reverse dip-parallel component over at least half the mapped trace of the fault.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FaultTypeValue">
+            <label xml:lang="en">Fault Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/lowAngleNormalFault">
+         <language>en</language>
+         <created>2015-08-18 17:57 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/lowAngleNormalFault:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/lowAngleNormalFault</latestversion>
+         <label xml:lang="en">low-angle normal fault</label>
+         <definition xml:lang="en">Fault that dips less than 45 degrees over more than half of the recognized extent of the fault with the hanging wall displaced from a structurally higher position relative to footwall rocks.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FaultTypeValue">
+            <label xml:lang="en">Fault Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/mixedExtractionFault">
+         <language>en</language>
+         <created>2015-08-18 17:57 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/mixedExtractionFault:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/mixedExtractionFault</latestversion>
+         <label xml:lang="en">mixed extraction fault</label>
+         <definition xml:lang="en">An extraction fault with some displacement within the fault plane.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FaultTypeValue">
+            <label xml:lang="en">Fault Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/normalFault">
+         <language>en</language>
+         <created>2015-08-18 17:57 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/normalFault:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/normalFault</latestversion>
+         <label xml:lang="en">normal fault</label>
+         <definition xml:lang="en">Fault with dip-parallel displacement component of slip vector more than 10 times the strike-parallel component of the slip vector over more than half recognized extent of the fault, and for which the fault dips consistently in the same direction, and for which the hanging wall has been displaced down relative to the footwall.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FaultTypeValue">
+            <label xml:lang="en">Fault Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/pureExtractionFault">
+         <language>en</language>
+         <created>2015-08-18 17:57 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/pureExtractionFault:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/pureExtractionFault</latestversion>
+         <label xml:lang="en">pure extraction fault</label>
+         <definition xml:lang="en">An extraction fault with no discernible displacement within the fault plane.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FaultTypeValue">
+            <label xml:lang="en">Fault Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/rightNormalFault">
+         <language>en</language>
+         <created>2015-08-18 17:57 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/rightNormalFault:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/rightNormalFault</latestversion>
+         <label xml:lang="en">right normal fault</label>
+         <definition xml:lang="en">High angle fault with slip vector that has ratio of strike-parallel to dip-parallel displacement between 10 to 1 and 1 to 10 at at least one location along the mapped trace, with right-lateral strike-parallel component and normal dip-parallel component of slip over at least half the mapped trace of the fault</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FaultTypeValue">
+            <label xml:lang="en">Fault Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/rightReverseFault">
+         <language>en</language>
+         <created>2015-08-18 17:57 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/rightReverseFault:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/rightReverseFault</latestversion>
+         <label xml:lang="en">right reverse fault</label>
+         <definition xml:lang="en">High angle fault with slip vector that has ratio of strike-parallel to dip-parallel displacement between 10 to 1 and 1 to 10 at at least one location along the mapped trace, with a right-lateral strike-parallel component and reverse dip-parallel component of slip over at least half the mapped trace of the fault.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FaultTypeValue">
+            <label xml:lang="en">Fault Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/sinistralStrikeSlipFault">
+         <language>en</language>
+         <created>2015-08-18 17:57 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/sinistralStrikeSlipFault:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/sinistralStrikeSlipFault</latestversion>
+         <label xml:lang="en">sinistral strike slip fault</label>
+         <definition xml:lang="en">Fault with left-lateral strike-parallel displacement component of slip vector more than 10 times the dip-parallel component of the slip vector at at least one location along the fault, and left-lateral displacement over more than half the mapped trace of the fault.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FaultTypeValue">
+            <label xml:lang="en">Fault Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/thrustFault">
+         <language>en</language>
+         <created>2015-08-18 17:57 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/thrustFault:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/thrustFault</latestversion>
+         <label xml:lang="en">thrust fault</label>
+         <definition xml:lang="en">Fault that dips less than 45 degrees over more than half of the recognized extent of the fault, with a hanging wall displaced from a structurally deeper position relative to footwall rocks.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FaultTypeValue">
+            <label xml:lang="en">Fault Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FaultTypeValue/wrenchFault">
+         <language>en</language>
+         <created>2015-08-18 17:57 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/wrenchFault:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FaultTypeValue/wrenchFault</latestversion>
+         <label xml:lang="en">wrench fault</label>
+         <definition xml:lang="en">A strike slip fault in which the fault plane dips at least 45 degrees over more than half of the recognized extent of the fault.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FaultTypeValue">
+            <label xml:lang="en">Fault Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge">
+            <label xml:lang="en">Geology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

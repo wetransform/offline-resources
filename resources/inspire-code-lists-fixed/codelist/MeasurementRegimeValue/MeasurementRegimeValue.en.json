@@ -1,0 +1,427 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Measurement Regime",
+          "id" : "http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue"
+        },
+        "created" : "2015-08-18 17:51 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "continuous data collection",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ef",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ef"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Environmental Monitoring Facilities",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ef"
+        },
+        "definition" : {
+          "text" : "Data is collected on a continuous basis. there is usually no end date, as further data is collected",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ef",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ef"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/continuousDataCollection",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/continuousDataCollection",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/continuousDataCollection:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Measurement Regime",
+          "id" : "http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue"
+        },
+        "created" : "2015-08-18 17:51 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "demand driven data collection",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ef",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ef"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Environmental Monitoring Facilities",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ef"
+        },
+        "definition" : {
+          "text" : "Data is collected on demand.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ef",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ef"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/demandDrivenDataCollection",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/demandDrivenDataCollection",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/demandDrivenDataCollection:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Measurement Regime",
+          "id" : "http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue"
+        },
+        "created" : "2015-08-18 17:51 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "once-off data collection",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ef",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ef"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Environmental Monitoring Facilities",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ef"
+        },
+        "definition" : {
+          "text" : "Data is collected only once in this configuration. no further observations in this configuration can be expected",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ef",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ef"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/onceOffDataCollection",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/onceOffDataCollection",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/onceOffDataCollection:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Technical (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "codelist" : {
+          "label" : "Measurement Regime",
+          "id" : "http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue"
+        },
+        "created" : "2015-08-18 17:51 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-technical",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "periodic data collection",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "ef",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/ef"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Environmental Monitoring Facilities",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/ef"
+        },
+        "definition" : {
+          "text" : "Data is collected at regular intervals. No information is available at to the data collection interval.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "ef",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/ef"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/periodicDataCollection",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/periodicDataCollection",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/periodicDataCollection:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Measurement Regime",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "any",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Empty code list",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/any"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "ef",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/ef"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Environmental Monitoring Facilities",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/ef"
+    },
+    "definition" : {
+      "text" : "Categories for different types of the MeasurementRegime.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "ef",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/ef"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

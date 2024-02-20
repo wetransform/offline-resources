@@ -1,0 +1,526 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Spot Elevation Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue"
+        },
+        "created" : "2015-08-18 17:29 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "EXAMPLE Trough or basin.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "depression",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "el-vec",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/el-vec"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Elevation - Vector Elements",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/el-vec"
+        },
+        "definition" : {
+          "text" : "Point that represents a part of the relief of the land surface or water body's floor surface that is lower in elevation when compared to its surrounding points.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "el",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/el"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/depression",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/depression",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/depression:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Spot Elevation Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue"
+        },
+        "created" : "2015-08-18 17:29 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "NOTE 1 Used to control the creation of  DEMs.\\n\\nNOTE 2 This value is only applicable to spot heights, not to spot depths.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "form spot",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "el-vec",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/el-vec"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Elevation - Vector Elements",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/el-vec"
+        },
+        "definition" : {
+          "text" : "A supplementary spot height, estimated or interpolated from surrounding heights, in areas where few contour lines or other height information exist.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "el",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/el"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/formSpot",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/formSpot",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/formSpot:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Spot Elevation Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue"
+        },
+        "created" : "2015-08-18 17:29 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "generic",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "el-vec",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/el-vec"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Elevation - Vector Elements",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/el-vec"
+        },
+        "definition" : {
+          "text" : "Spot elevation spatial object not fulfilling the description of any of the other values in the current code list.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "el",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/el"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/generic",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/generic",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/generic:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Spot Elevation Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue"
+        },
+        "created" : "2015-08-18 17:29 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "NOTE A pass is a point of double curvature, one in the direction of the crest line and another in the direction of the thalwegs born in this point (i.e. with two maximum curvatures - concave and convex, respectively).",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "pass",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "el-vec",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/el-vec"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Elevation - Vector Elements",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/el-vec"
+        },
+        "definition" : {
+          "text" : "Lower point of a depression within a ridge alignment, generally opened along the crest line, which allow passing from one slope of the surface to another.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "el",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/el"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/pass",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/pass",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/pass:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Spot Elevation Type",
+          "id" : "http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue"
+        },
+        "created" : "2015-08-18 17:29 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "EXAMPLE The top of a hill or a mountain.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "summit",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "el-vec",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/el-vec"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Elevation - Vector Elements",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/el-vec"
+        },
+        "definition" : {
+          "text" : "Highest point of a prominence in the relief of a land surface or a water body's floor surface.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "el",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/el"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/summit",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/summit",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/summit:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Spot Elevation Type",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "narrower",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/narrower"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Extensible with narrower values",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/narrower"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "el-vec",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/el-vec"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Elevation - Vector Elements",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/el-vec"
+    },
+    "definition" : {
+      "text" : "Possible values for spot elevation points that describe a singularity of the surface.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "el",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/el"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/HeightStatusValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/HeightStatusValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/HeightStatusValue</latestversion>
+   <label xml:lang="en">Height Status</label>
+   <definition xml:lang="en">Values indicating the method used to capture a height.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+      <label xml:lang="en">Building Base</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/bu">
+      <label xml:lang="en">Buildings</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/HeightStatusValue/estimated">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/HeightStatusValue/estimated:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/HeightStatusValue/estimated</latestversion>
+         <label xml:lang="en">estimated</label>
+         <definition xml:lang="en">The height has been estimated and not measured.</definition>
+         <description xml:lang="en">EXAMPLE 1: Typically, the height has been estimated from the number of floors.\nEXAMPLE 2: In some cases, the height has been estimated by interpolation of a set of heights of adjacent buildings.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/HeightStatusValue">
+            <label xml:lang="en">Height Status</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/HeightStatusValue/measured">
+         <language>en</language>
+         <created>2015-08-18 17:28 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/HeightStatusValue/measured:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/HeightStatusValue/measured</latestversion>
+         <label xml:lang="en">measured</label>
+         <definition xml:lang="en">The height has been (directly or indirectly) measured.</definition>
+         <description xml:lang="en">EXAMPLE: typically, the elevation at ground level and at roof level has been measured by stereo-plotting or by field survey or by cross-referencing with DTM (Digital Terrain Model).</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/HeightStatusValue">
+            <label xml:lang="en">Height Status</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/bu-base">
+            <label xml:lang="en">Building Base</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/bu">
+            <label xml:lang="en">Buildings</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

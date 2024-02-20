@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue</latestversion>
+   <label xml:lang="en">Form Of Railway Node</label>
+   <definition xml:lang="en">The possible functions of a railway node within the railway network.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ra">
+      <label xml:lang="en">Railway Transport Network</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/tn">
+      <label xml:lang="en">Transport networks</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue/junction">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue/junction:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue/junction</latestversion>
+         <label xml:lang="en">junction</label>
+         <definition xml:lang="en">A railway node where the railway network has a mechanism consisting on a railroad track with two movable rails and the necessary connections, which let vehicles turn from one track to another.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue">
+            <label xml:lang="en">Form Of Railway Node</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ra">
+            <label xml:lang="en">Railway Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue/levelCrossing">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue/levelCrossing:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue/levelCrossing</latestversion>
+         <label xml:lang="en">level crossing</label>
+         <definition xml:lang="en">A railway node where the railway network is a crossed by a road at the same level.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue">
+            <label xml:lang="en">Form Of Railway Node</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ra">
+            <label xml:lang="en">Railway Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue/pseudoNode">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue/pseudoNode:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue/pseudoNode</latestversion>
+         <label xml:lang="en">pseudo node</label>
+         <definition xml:lang="en">A railway node which represents a point where one or more attributes of the railway links connected to it change their value, or a point necessary to describe the geometry of the network.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue">
+            <label xml:lang="en">Form Of Railway Node</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ra">
+            <label xml:lang="en">Railway Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue/railwayEnd">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue/railwayEnd:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue/railwayEnd</latestversion>
+         <label xml:lang="en">railway end</label>
+         <definition xml:lang="en">Only one railway link connects to the railway node. It signifies the end of a railway line.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue">
+            <label xml:lang="en">Form Of Railway Node</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ra">
+            <label xml:lang="en">Railway Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue/railwayStop">
+         <language>en</language>
+         <created>2015-08-18 17:43 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue/railwayStop:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue/railwayStop</latestversion>
+         <label xml:lang="en">railway stop</label>
+         <definition xml:lang="en">A place in the railway network where trains stop to load/unload cargo or to let passengers get on and off the train.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue">
+            <label xml:lang="en">Form Of Railway Node</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ra">
+            <label xml:lang="en">Railway Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

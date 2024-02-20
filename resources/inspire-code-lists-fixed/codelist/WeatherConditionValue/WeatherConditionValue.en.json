@@ -1,0 +1,565 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Weather Condition",
+          "id" : "http://inspire.ec.europa.eu/codelist/WeatherConditionValue"
+        },
+        "created" : "2015-08-18 17:46 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf"
+        },
+        "label" : {
+          "text" : "fog",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-ro",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Road Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "referencesource" : {
+          "text" : "EUROROADS",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Speed applies when fog is present.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WeatherConditionValue/fog",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WeatherConditionValue/fog",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WeatherConditionValue/fog:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Weather Condition",
+          "id" : "http://inspire.ec.europa.eu/codelist/WeatherConditionValue"
+        },
+        "created" : "2015-08-18 17:46 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf"
+        },
+        "label" : {
+          "text" : "ice",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-ro",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Road Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "referencesource" : {
+          "text" : "EUROROADS",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Speed applies when ice is present.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WeatherConditionValue/ice",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WeatherConditionValue/ice",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WeatherConditionValue/ice:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Weather Condition",
+          "id" : "http://inspire.ec.europa.eu/codelist/WeatherConditionValue"
+        },
+        "created" : "2015-08-18 17:46 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf"
+        },
+        "label" : {
+          "text" : "rain",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-ro",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Road Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "referencesource" : {
+          "text" : "EUROROADS",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Speed applies when rain is present.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WeatherConditionValue/rain",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WeatherConditionValue/rain",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WeatherConditionValue/rain:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Weather Condition",
+          "id" : "http://inspire.ec.europa.eu/codelist/WeatherConditionValue"
+        },
+        "created" : "2015-08-18 17:46 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf"
+        },
+        "label" : {
+          "text" : "smog",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-ro",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Road Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "referencesource" : {
+          "text" : "EUROROADS",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Speed applies when a certain amount of smog is present.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WeatherConditionValue/smog",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WeatherConditionValue/smog",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WeatherConditionValue/smog:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Weather Condition",
+          "id" : "http://inspire.ec.europa.eu/codelist/WeatherConditionValue"
+        },
+        "created" : "2015-08-18 17:46 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf",
+            "lang" : "en"
+          },
+          "id" : "http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf"
+        },
+        "label" : {
+          "text" : "snow",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-ro",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Road Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+        },
+        "referencesource" : {
+          "text" : "EUROROADS",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Speed applies when snow is present.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WeatherConditionValue/snow",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WeatherConditionValue/snow",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WeatherConditionValue/snow:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Weather Condition",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "none",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Not extensible",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "tn-ro",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Road Transport Network",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/tn-ro"
+    },
+    "definition" : {
+      "text" : "Values to indicate weather conditions that affect speed limits.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "tn",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/tn"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/WeatherConditionValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/WeatherConditionValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/WeatherConditionValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

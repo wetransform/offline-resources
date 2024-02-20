@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/GeometryTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:19 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/GeometryTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/GeometryTypeValue</latestversion>
+   <label xml:lang="en">Geometry Type</label>
+   <definition xml:lang="en">The code values for the geometry types.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/su-vector">
+      <label xml:lang="en">Statistical Units Vector</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/su">
+      <label xml:lang="en">Statistical units</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/GeometryTypeValue/referenceGeometry">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeometryTypeValue/referenceGeometry:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeometryTypeValue/referenceGeometry</latestversion>
+         <label xml:lang="en">reference geometry</label>
+         <definition xml:lang="en">The described geometry is the reference geometry.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeometryTypeValue">
+            <label xml:lang="en">Geometry Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/su-vector">
+            <label xml:lang="en">Statistical Units Vector</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/su">
+            <label xml:lang="en">Statistical units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeometryTypeValue/pointLabel">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeometryTypeValue/pointLabel:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeometryTypeValue/pointLabel</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/GeometryTypeValue/pointLabel:1</version>
+         </previousversions>
+         <label xml:lang="en">point label</label>
+         <definition xml:lang="en">The described geometry is a point geometry for labeling.</definition>
+         <description xml:lang="en">Of course, geometries having this type should be points.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeometryTypeValue">
+            <label xml:lang="en">Geometry Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/su-vector">
+            <label xml:lang="en">Statistical Units Vector</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/su">
+            <label xml:lang="en">Statistical units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeometryTypeValue/centerOfGravity">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeometryTypeValue/centerOfGravity:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeometryTypeValue/centerOfGravity</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/GeometryTypeValue/centerOfGravity:1</version>
+         </previousversions>
+         <label xml:lang="en">center of gravity</label>
+         <definition xml:lang="en">The described geometry is a point geometry located at the center of gravity of the unit.</definition>
+         <description xml:lang="en">Of course, geometries having this type should be points.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeometryTypeValue">
+            <label xml:lang="en">Geometry Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/su-vector">
+            <label xml:lang="en">Statistical Units Vector</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/su">
+            <label xml:lang="en">Statistical units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeometryTypeValue/generalisedGeometry">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeometryTypeValue/generalisedGeometry:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeometryTypeValue/generalisedGeometry</latestversion>
+         <label xml:lang="en">generalised geometry</label>
+         <definition xml:lang="en">A generalised geometry of the statistical unit.</definition>
+         <description xml:lang="en">Geometries having such a code must have a descriptor for generalised geometries.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeometryTypeValue">
+            <label xml:lang="en">Geometry Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/su-vector">
+            <label xml:lang="en">Statistical Units Vector</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/su">
+            <label xml:lang="en">Statistical units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/GeometryTypeValue/other">
+         <language>en</language>
+         <created>2015-08-18 17:38 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/GeometryTypeValue/other:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/GeometryTypeValue/other</latestversion>
+         <label xml:lang="en">other</label>
+         <definition xml:lang="en">Other kind of geometry type.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/GeometryTypeValue">
+            <label xml:lang="en">Geometry Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/su-vector">
+            <label xml:lang="en">Statistical Units Vector</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/su">
+            <label xml:lang="en">Statistical units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

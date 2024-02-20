@@ -1,0 +1,49 @@
+﻿<!--Erzeugt mit KIT (www.kit.edu) UmlToXmlTransformation-Software, Erstellungsdatum: 31.10.2022 09:25:54-->
+<TypeDefinition xmlns="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ../xsd/ShapeChangeDefinitions.xsd" gml:id="xplan_LP_BioVfBiotoptypKomplex">
+  <gml:description>Komplexes Attribut mit &lt;b&gt;mindestens &lt;/b&gt;einer Angabe des Biotoptypen. </gml:description>
+  <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BioVfBiotoptypKomplex</gml:identifier>
+  <gml:name>xplan:LP_BioVfBiotoptypKomplex</gml:name>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_BioVfBiotoptypKomplex_bioVfBiotoptyp_BKompV">
+      <gml:description>Biotoptypen-Katalog der Bundeskompensationsverordnung (Anlage 2 (zu &amp;#167; 5 Absatz 1 BKompV )
+</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BioVfBiotoptypKomplex:attribute:bioVfBiotoptyp_BKompV</gml:identifier>
+      <gml:name>xplan:bioVfBiotoptyp_BKompV</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>LP_BioVfBiotoptyp_BKompV</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_BioVfBiotoptypKomplex_bioVfBiotoptyp_LandesKS">
+      <gml:description>Biotoptyp gem. eines Landeskartierschl&amp;#252;ssels
+</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BioVfBiotoptypKomplex:attribute:bioVfBiotoptyp_LandesKS</gml:identifier>
+      <gml:name>xplan:bioVfBiotoptyp_LandesKS</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>LP_BioVfBiotoptyp_LandesKS</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_BioVfBiotoptypKomplex_bioVf_FFH_LRT">
+      <gml:description>FFH-Lebensraumtypen gem. Anhang I der Fauna Flora Habitatrichtlinie</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BioVfBiotoptypKomplex:attribute:bioVf_FFH_LRT</gml:identifier>
+      <gml:name>xplan:bioVf_FFH_LRT</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeName>LP_BioVf_FFH_LRT</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_BioVfBiotoptypKomplex_bioVfBiotoptyp_Text">
+      <gml:description>Textliche Angabe zum Biotoptypen; alternativ oder zus&amp;#228;tzlich zur Auswahl eines &amp;#252;ber Codelisten bereitgestellten Kartierschl&amp;#252;ssels von Bund, Land oder FFH-LRT.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BioVfBiotoptypKomplex:attribute:bioVfBiotoptyp_Text</gml:identifier>
+      <gml:name>xplan:bioVfBiotoptyp_Text</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::CharacterString" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <def:classification>featureType</def:classification>
+</TypeDefinition>

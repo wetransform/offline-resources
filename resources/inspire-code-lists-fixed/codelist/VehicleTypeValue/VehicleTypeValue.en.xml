@@ -1,0 +1,1078 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue</latestversion>
+   <label xml:lang="en">Vehicle Type</label>
+   <definition xml:lang="en">Possible types of vehicles.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+      <label xml:lang="en">Road Transport Network</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/tn">
+      <label xml:lang="en">Transport networks</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue/allVehicle">
+         <language>en</language>
+         <created>2015-08-18 17:45 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/allVehicle:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/allVehicle</latestversion>
+         <label xml:lang="en">all vehicle</label>
+         <definition xml:lang="en">Any vehicle, not including pedestrians.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+            <label xml:lang="en">Vehicle Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue/bicycle">
+         <language>en</language>
+         <created>2015-08-18 17:45 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/bicycle:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/bicycle</latestversion>
+         <label xml:lang="en">bicycle</label>
+         <definition xml:lang="en">A pedal-driven two-wheeled vehicle.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+            <label xml:lang="en">Vehicle Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue/carWithTrailer">
+         <language>en</language>
+         <created>2015-08-18 17:45 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/carWithTrailer:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/carWithTrailer</latestversion>
+         <label xml:lang="en">car with trailer</label>
+         <definition xml:lang="en">A passenger car with an attached trailer.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+            <label xml:lang="en">Vehicle Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue/deliveryTruck">
+         <language>en</language>
+         <created>2015-08-18 17:45 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/deliveryTruck:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/deliveryTruck</latestversion>
+         <label xml:lang="en">delivery truck</label>
+         <definition xml:lang="en">A truck vehicle of relatively small size, whose principal use is for delivery of goods and materials.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+            <label xml:lang="en">Vehicle Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue/emergencyVehicle">
+         <language>en</language>
+         <created>2015-08-18 17:45 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/emergencyVehicle:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/emergencyVehicle</latestversion>
+         <label xml:lang="en">emergency vehicle</label>
+         <definition xml:lang="en">A vehicle engaged in emergency response, including but not limited to police, ambulance and fire.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+            <label xml:lang="en">Vehicle Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue/employeeVehicle">
+         <language>en</language>
+         <created>2015-08-18 17:45 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/employeeVehicle:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/employeeVehicle</latestversion>
+         <label xml:lang="en">employee vehicle</label>
+         <definition xml:lang="en">A vehicle operated by an employee of an organization that is used according to that organization's procedures.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+            <label xml:lang="en">Vehicle Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue/facilityVehicle">
+         <language>en</language>
+         <created>2015-08-18 17:45 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/facilityVehicle:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/facilityVehicle</latestversion>
+         <label xml:lang="en">facility vehicle</label>
+         <definition xml:lang="en">A vehicle dedicated to a localized area within a private or restricted estate.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+            <label xml:lang="en">Vehicle Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue/farmVehicle">
+         <language>en</language>
+         <created>2015-08-18 17:45 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/farmVehicle:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/farmVehicle</latestversion>
+         <label xml:lang="en">farm vehicle</label>
+         <definition xml:lang="en">Vehicle commonly associated with farming activities.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+            <label xml:lang="en">Vehicle Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue/highOccupancyVehicle">
+         <language>en</language>
+         <created>2015-08-18 17:45 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/highOccupancyVehicle:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/highOccupancyVehicle</latestversion>
+         <label xml:lang="en">high occupancy vehicle</label>
+         <definition xml:lang="en">Vehicle populated with a number of occupants corresponding to (or exceeding) the specified minimum number of passengers.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+            <label xml:lang="en">Vehicle Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue/lightRail">
+         <language>en</language>
+         <created>2015-08-18 17:45 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/lightRail:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/lightRail</latestversion>
+         <label xml:lang="en">light rail</label>
+         <definition xml:lang="en">Train-like transport vehicle limited to a rail network within a limited area.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+            <label xml:lang="en">Vehicle Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue/mailVehicle">
+         <language>en</language>
+         <created>2015-08-18 17:45 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/mailVehicle:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/mailVehicle</latestversion>
+         <label xml:lang="en">mail vehicle</label>
+         <definition xml:lang="en">A vehicle that collects, carries or delivers mail.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+            <label xml:lang="en">Vehicle Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue/militaryVehicle">
+         <language>en</language>
+         <created>2015-08-18 17:45 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/militaryVehicle:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/militaryVehicle</latestversion>
+         <label xml:lang="en">military vehicle</label>
+         <definition xml:lang="en">Vehicle authorized by a military authority.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+            <label xml:lang="en">Vehicle Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue/moped">
+         <language>en</language>
+         <created>2015-08-18 17:45 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/moped:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/moped</latestversion>
+         <label xml:lang="en">moped</label>
+         <definition xml:lang="en">Two or three wheeled vehicle equipped with internal combustion engine, with size less than 50 cc and maximum speed that does not exceed 45 km/h (28mph).</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+            <label xml:lang="en">Vehicle Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue/motorcycle">
+         <language>en</language>
+         <created>2015-08-18 17:45 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/motorcycle:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/motorcycle</latestversion>
+         <label xml:lang="en">motorcycle</label>
+         <definition xml:lang="en">Two or three wheeled vehicle equipped with internal combustion engine, with size more than 50 cc and maximum speed that does exceed 45 km/h (28mph).</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+            <label xml:lang="en">Vehicle Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue/passengerCar">
+         <language>en</language>
+         <created>2015-08-18 17:45 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/passengerCar:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/passengerCar</latestversion>
+         <label xml:lang="en">passenger car</label>
+         <definition xml:lang="en">A small vehicle designed for private transport of people.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+            <label xml:lang="en">Vehicle Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue/pedestrian">
+         <language>en</language>
+         <created>2015-08-18 17:45 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/pedestrian:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/pedestrian</latestversion>
+         <label xml:lang="en">pedestrian</label>
+         <definition xml:lang="en">A person on foot.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+            <label xml:lang="en">Vehicle Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue/privateBus">
+         <language>en</language>
+         <created>2015-08-18 17:45 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/privateBus:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/privateBus</latestversion>
+         <label xml:lang="en">private bus</label>
+         <definition xml:lang="en">A vehicle designed for transport of large groups of people, privately owned or chartered.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+            <label xml:lang="en">Vehicle Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue/publicBus">
+         <language>en</language>
+         <created>2015-08-18 17:45 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/publicBus:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/publicBus</latestversion>
+         <label xml:lang="en">public bus</label>
+         <definition xml:lang="en">A vehicle designed for transport of large groups of people that is generally characterised by published routes and schedules.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+            <label xml:lang="en">Vehicle Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue/residentialVehicle">
+         <language>en</language>
+         <created>2015-08-18 17:45 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/residentialVehicle:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/residentialVehicle</latestversion>
+         <label xml:lang="en">residential vehicle</label>
+         <definition xml:lang="en">A vehicle whose owner is resident (or a guest) of particular street or town area.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+            <label xml:lang="en">Vehicle Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue/schoolBus">
+         <language>en</language>
+         <created>2015-08-18 17:45 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/schoolBus:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/schoolBus</latestversion>
+         <label xml:lang="en">school bus</label>
+         <definition xml:lang="en">Vehicle operated on behalf of a school to transport students.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+            <label xml:lang="en">Vehicle Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue/snowChainEquippedVehicle">
+         <language>en</language>
+         <created>2015-08-18 17:45 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/snowChainEquippedVehicle:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/snowChainEquippedVehicle</latestversion>
+         <label xml:lang="en">snow chain equipped vehicle</label>
+         <definition xml:lang="en">Any vehicle equipped with snow chains.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+            <label xml:lang="en">Vehicle Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue/tanker">
+         <language>en</language>
+         <created>2015-08-18 17:45 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/tanker:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/tanker</latestversion>
+         <label xml:lang="en">tanker</label>
+         <definition xml:lang="en">A truck with more than two axles used to transport liquid or gas loads in bulk.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+            <label xml:lang="en">Vehicle Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue/taxi">
+         <language>en</language>
+         <created>2015-08-18 17:45 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/taxi:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/taxi</latestversion>
+         <label xml:lang="en">taxi</label>
+         <definition xml:lang="en">A vehicle licensed for hire usually fitted with a meter.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+            <label xml:lang="en">Vehicle Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue/transportTruck">
+         <language>en</language>
+         <created>2015-08-18 17:45 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/transportTruck:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/transportTruck</latestversion>
+         <label xml:lang="en">transport truck</label>
+         <definition xml:lang="en">A truck vehicle for long range transport of goods.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+            <label xml:lang="en">Vehicle Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue/trolleyBus">
+         <language>en</language>
+         <created>2015-08-18 17:45 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/trolleyBus:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/trolleyBus</latestversion>
+         <label xml:lang="en">trolley bus</label>
+         <definition xml:lang="en">A bus-like mass transport vehicle hooked up to an electrical network for power supply.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+            <label xml:lang="en">Vehicle Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue/vehicleForDisabledPerson">
+         <language>en</language>
+         <created>2015-08-18 17:45 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/vehicleForDisabledPerson:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/vehicleForDisabledPerson</latestversion>
+         <label xml:lang="en">vehicle for disabled person</label>
+         <definition xml:lang="en">A vehicle with supporting identification that designates a vehicle for disabled persons.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+            <label xml:lang="en">Vehicle Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue/vehicleWithExplosiveLoad">
+         <language>en</language>
+         <created>2015-08-18 17:45 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/vehicleWithExplosiveLoad:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/vehicleWithExplosiveLoad</latestversion>
+         <label xml:lang="en">vehicle with explosive load</label>
+         <definition xml:lang="en">Vehicle transporting explosive cargo.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+            <label xml:lang="en">Vehicle Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue/vehicleWithOtherDangerousLoad">
+         <language>en</language>
+         <created>2015-08-18 17:45 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/vehicleWithOtherDangerousLoad:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/vehicleWithOtherDangerousLoad</latestversion>
+         <label xml:lang="en">vehicle with other dangerous load</label>
+         <definition xml:lang="en">Vehicle transporting dangerous cargo other than explosive or water-polluting loads.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+            <label xml:lang="en">Vehicle Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue/vehicleWithWaterPollutingLoad">
+         <language>en</language>
+         <created>2015-08-18 17:45 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/vehicleWithWaterPollutingLoad:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VehicleTypeValue/vehicleWithWaterPollutingLoad</latestversion>
+         <label xml:lang="en">vehicle with water polluting load</label>
+         <definition xml:lang="en">Vehicle transporting water-polluting cargo.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/VehicleTypeValue">
+            <label xml:lang="en">Vehicle Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink id="http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf">
+            <label xml:lang="en">http://www.euroroads.org/php/Reports/D6.12%20Terminology%20catalogue.pdf</label>
+         </referencelink>
+         <referencesource xml:lang="en">EUROROADS</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

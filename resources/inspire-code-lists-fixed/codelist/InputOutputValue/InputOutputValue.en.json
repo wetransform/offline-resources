@@ -1,0 +1,292 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "codelist" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "created" : "2015-08-18 17:19 PM CEST",
+        "document" : {
+          "label" : {
+            "text" : "StatProd",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/document/StatProd"
+        },
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "EU Product Classification",
+          "lang" : "en"
+        },
+        "extensibility" : {
+          "label" : {
+            "text" : "none",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+        },
+        "extensibility item" : {
+          "label" : {
+            "text" : "Not extensible",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "act-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/act-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeList",
+            "lang" : "en"
+          },
+          "id" : "CodeList"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Activity Complex",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/act-core"
+        },
+        "definition" : {
+          "text" : "Classification of Products by Economical Activity according to Regulation (EC) No 451/2008 of the European Parliament and of the Council.",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ProductCPAValue",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ProductCPAValue",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ProductCPAValue:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "Input Or Output",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/InputOutputValue"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "codelist" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "created" : "2015-08-18 17:19 PM CEST",
+        "document" : {
+          "label" : {
+            "text" : "WasteHaz",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/document/WasteHaz"
+        },
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "EU Waste Classification",
+          "lang" : "en"
+        },
+        "extensibility" : {
+          "label" : {
+            "text" : "none",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+        },
+        "extensibility item" : {
+          "label" : {
+            "text" : "Not extensible",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "act-core",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/act-core"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeList",
+            "lang" : "en"
+          },
+          "id" : "CodeList"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Activity Complex",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/act-core"
+        },
+        "definition" : {
+          "text" : "Classification of Wastes according to Decision 2000/532/EC",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WasteValue",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WasteValue",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WasteValue:1",
+        "parents" : [ {
+          "parent" : {
+            "label" : {
+              "text" : "Input Or Output",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/codelist/InputOutputValue"
+          }
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:19 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Input Or Output",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "open",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Extensible with values at any level",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "act-core",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/act-core"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Activity Complex",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/act-core"
+    },
+    "definition" : {
+      "text" : "Classification of inputs or outputs.",
+      "lang" : "en"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/InputOutputValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/InputOutputValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/InputOutputValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

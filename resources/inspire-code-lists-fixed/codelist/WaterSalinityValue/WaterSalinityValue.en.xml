@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/WaterSalinityValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/WaterSalinityValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/WaterSalinityValue</latestversion>
+   <label xml:lang="en">Water Salinity</label>
+   <definition xml:lang="en">A code list indicating salinity classes in water.</definition>
+   <description xml:lang="en">Salinity is the saltiness or dissolved salt content of a body of water. Generally, it is the concentration of mineral salts dissolved in water. Salinity may be expressed in terms of a concentration or as electrical conductivity. When describing salinity influenced by seawater salinity often refers to the concentration of chlorides in the water. See also total dissolved solids.</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+      <label xml:lang="en">Hydrogeology</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/ge">
+      <label xml:lang="en">Geology</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterSalinityValue/ultraFreshWater">
+         <language>en</language>
+         <created>2015-08-18 17:32 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterSalinityValue/ultraFreshWater:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterSalinityValue/ultraFreshWater</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/WaterSalinityValue/ultraFreshWater:1</version>
+         </previousversions>
+         <label xml:lang="en">ultra fresh water</label>
+         <definition xml:lang="en">Water with very low salinity. The salinity is equivalent or nearly equivalent to that of rainwater.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterSalinityValue">
+            <label xml:lang="en">Water Salinity</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterSalinityValue/freshWater">
+         <language>en</language>
+         <created>2015-08-18 17:32 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterSalinityValue/freshWater:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterSalinityValue/freshWater</latestversion>
+         <label xml:lang="en">fresh water</label>
+         <definition xml:lang="en">Freshwater refers to bodies of water such as ponds, lakes, rivers and streams containing low concentrations of dissolved salts.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterSalinityValue">
+            <label xml:lang="en">Water Salinity</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterSalinityValue/brackishWater">
+         <language>en</language>
+         <created>2015-08-18 17:32 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterSalinityValue/brackishWater:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterSalinityValue/brackishWater</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/WaterSalinityValue/brackishWater:1</version>
+         </previousversions>
+         <label xml:lang="en">brackish water</label>
+         <definition xml:lang="en">Brackish water is water that has more salinity than fresh water, but not as much as seawater. It may result from mixing of seawater with fresh water, as in estuaries, or it may occur in brackish fossil aquifers.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterSalinityValue">
+            <label xml:lang="en">Water Salinity</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterSalinityValue/salineWater">
+         <language>en</language>
+         <created>2015-08-18 17:32 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterSalinityValue/salineWater:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterSalinityValue/salineWater</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/WaterSalinityValue/salineWater:1</version>
+         </previousversions>
+         <label xml:lang="en">saline water</label>
+         <definition xml:lang="en">Saline water is water that contains a significant concentration of dissolved salts. Seawater has a salinity of roughly 35,000 ppm, equivalent to 35 g/L.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterSalinityValue">
+            <label xml:lang="en">Water Salinity</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterSalinityValue/brineWater">
+         <language>en</language>
+         <created>2015-08-18 17:32 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterSalinityValue/brineWater:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterSalinityValue/brineWater</latestversion>
+         <label xml:lang="en">brine water</label>
+         <definition xml:lang="en">Brine water is saturated or nearly saturated with salt.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterSalinityValue">
+            <label xml:lang="en">Water Salinity</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterSalinityValue/acratopegae">
+         <language>en</language>
+         <created>2015-08-18 18:07 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterSalinityValue/acratopegae:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterSalinityValue/acratopegae</latestversion>
+         <label xml:lang="en">acratopegae</label>
+         <definition xml:lang="en">From Ancient Greek akratos ( pure, unmixed) and PEGE ( source, fountain). Water with low mineral content or less than mineral water. Translated from : Du grec ancien akratos ( pur, sans melange ) et pege ( source, fontaine ). Qui a, en parlant d'une eau, une faible teneur en sels mineraux ou une teneur moindre que celle d'une eau minerale. http://fr.wiktionary.org/wiki/acratop%C3%A8ge</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterSalinityValue">
+            <label xml:lang="en">Water Salinity</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/WaterSalinityValue/saltWater">
+         <language>en</language>
+         <created>2015-08-18 18:07 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WaterSalinityValue/saltWater:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WaterSalinityValue/saltWater</latestversion>
+         <label xml:lang="en">salt water</label>
+         <definition xml:lang="en">Saline water is a general term for water that contains a significant concentration of dissolved salts (NaCl). The concentration is usually expressed in parts per million (ppm) of salt. The salinity concentration level used by United States Geological Survey classifies saline water in three categories. Slightly saline water contains around 1,000 to 3,000 ppm. Moderately saline water contains roughly 3,000 to 10,000 ppm. Highly saline water has around 10,000 to 35,000 ppm of salt. Seawater has a salinity of roughly 35,000 ppm, equivalent to 35 g/L. Technically, brackish water contains between 0.5 to 30 grams of salt per litre?more often expressed as 0.5 to 30 parts per thousand (ppt). Thus, brackish covers a range of salinity regimes and is not considered a precisely defined condition. http://en.wikipedia.org/wiki/Saline_water</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/WaterSalinityValue">
+            <label xml:lang="en">Water Salinity</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ge_hg">
+            <label xml:lang="en">Hydrogeology</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ge">
+            <label xml:lang="en">Geology</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

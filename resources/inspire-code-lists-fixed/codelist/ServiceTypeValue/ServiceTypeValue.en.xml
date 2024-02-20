@@ -1,0 +1,2100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+   <language>en</language>
+   <created>2015-08-18 17:19 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue</latestversion>
+   <label xml:lang="en">Service Type</label>
+   <definition xml:lang="en">Code list containing a classification of governmental services.</definition>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/narrower">
+      <label xml:lang="en">Extensible with narrower values</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+      <label xml:lang="en">Administrative and Social Governmental Services</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/us">
+      <label xml:lang="en">Utility and governmental services</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/publicAdministrationOffice">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/publicAdministrationOffice:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/publicAdministrationOffice</latestversion>
+         <label xml:lang="en">public administration office</label>
+         <definition xml:lang="en">Public administration offices (not further differentiated).</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/generalAdministrationOffice">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/generalAdministrationOffice:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/generalAdministrationOffice</latestversion>
+         <label xml:lang="en">general administration office</label>
+         <definition xml:lang="en">General administration offices, e.g. town halls.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/publicAdministrationOffice">
+               <label xml:lang="en">public administration office</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/specializedAdministrationOffice">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/specializedAdministrationOffice:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/specializedAdministrationOffice</latestversion>
+         <label xml:lang="en">specialized administration office</label>
+         <definition xml:lang="en">Specialized administration offices which can not be allocated to the following areas: social service, education, health, environmental protection, public order and safety (e. g. surveying administration).</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/publicAdministrationOffice">
+               <label xml:lang="en">public administration office</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/publicOrderAndSafety">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/publicOrderAndSafety:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/publicOrderAndSafety</latestversion>
+         <label xml:lang="en">public order and safety</label>
+         <definition xml:lang="en">Services concerned with public order and safety.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/administrationForPublicOrderAndSafety">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/administrationForPublicOrderAndSafety:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/administrationForPublicOrderAndSafety</latestversion>
+         <label xml:lang="en">administration for public order and safety</label>
+         <definition xml:lang="en">Administration offices concerned with public order and safety.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/publicOrderAndSafety">
+               <label xml:lang="en">public order and safety</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/policeService">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/policeService:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/policeService</latestversion>
+         <label xml:lang="en">police service</label>
+         <definition xml:lang="en">Services concerned with police affairs.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/publicOrderAndSafety">
+               <label xml:lang="en">public order and safety</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/fireProtectionService">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/fireProtectionService:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/fireProtectionService</latestversion>
+         <label xml:lang="en">fire-protection service</label>
+         <definition xml:lang="en">Services concerned with fire-prevention and fire-fighting affairs; operation of regular and auxiliary fire brigades and of other fire-prevention and fire-fighting services maintained by public authorities; operation or support of fire-prevention and fire-fighting training programmes.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/publicOrderAndSafety">
+               <label xml:lang="en">public order and safety</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/fireStation">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/fireStation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/fireStation</latestversion>
+         <label xml:lang="en">fire station</label>
+         <definition xml:lang="en">Services concerned with a station housing fire fighters, their equipment and vehicles.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/fireProtectionService">
+               <label xml:lang="en">fire-protection service</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/siren">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/siren:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/siren</latestversion>
+         <label xml:lang="en">siren</label>
+         <definition xml:lang="en">Stationary device, often electrically operated, for producing a penetrating sound for warning the public.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/fireProtectionService">
+               <label xml:lang="en">fire-protection service</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/hydrant">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/hydrant:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/hydrant</latestversion>
+         <label xml:lang="en">hydrant</label>
+         <definition xml:lang="en">Special water access points of water supply networks that are specifically designed and built to serve as on-site water sources for fire fighting and other emergency services.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/fireProtectionService">
+               <label xml:lang="en">fire-protection service</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/antiFireWaterProvision">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/antiFireWaterProvision:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/antiFireWaterProvision</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/antiFireWaterProvision:1</version>
+         </previousversions>
+         <label xml:lang="en">anti-fire water provision</label>
+         <definition xml:lang="en">Location, installation or designated area from where water for fire-fighting is provided.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/fireProtectionService">
+               <label xml:lang="en">fire-protection service</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/fireDetectionAndObservationSite">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/fireDetectionAndObservationSite:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/fireDetectionAndObservationSite</latestversion>
+         <label xml:lang="en">fire detection and observation site</label>
+         <definition xml:lang="en">Location, facility, construction or device for the detection and observation of fires.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/fireProtectionService">
+               <label xml:lang="en">fire-protection service</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/rescueService">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/rescueService:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/rescueService</latestversion>
+         <label xml:lang="en">rescue service</label>
+         <definition xml:lang="en">Services dedicated to the search-and-rescue of people, animals and goods in emergency situations.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/publicOrderAndSafety">
+               <label xml:lang="en">public order and safety</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/rescueStation">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/rescueStation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/rescueStation</latestversion>
+         <label xml:lang="en">rescue station</label>
+         <definition xml:lang="en">Services concerned with the housing of technical staff, equipment and auxiliary elements of land rescue teams.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/rescueService">
+               <label xml:lang="en">rescue service</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/rescueHelicopterLandingSite">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/rescueHelicopterLandingSite:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/rescueHelicopterLandingSite</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/rescueHelicopterLandingSite:1</version>
+         </previousversions>
+         <label xml:lang="en">Rescue helicopter landing site</label>
+         <definition xml:lang="en">A designated area from which rescue helicopters can take off and land.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/rescueService">
+               <label xml:lang="en">rescue service</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/marineRescueStation">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/marineRescueStation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/marineRescueStation</latestversion>
+         <label xml:lang="en">marine rescue station</label>
+         <definition xml:lang="en">Services on the coast providing buildings, mooring areas or piers to host marine rescue teams and their equipment, boats and other marine crafts.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/rescueService">
+               <label xml:lang="en">rescue service</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/civilProtectionSite">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/civilProtectionSite:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/civilProtectionSite</latestversion>
+         <label xml:lang="en">civil protection site</label>
+         <definition xml:lang="en">Site offering protection and shelter from disasters and emergency situations to the civilian population.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/publicOrderAndSafety">
+               <label xml:lang="en">public order and safety</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/emergencyCallPoint">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/emergencyCallPoint:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/emergencyCallPoint</latestversion>
+         <label xml:lang="en">emergency call point</label>
+         <definition xml:lang="en">Location of telephones in a box or on a post for the use of motorists in the event of an emergency situation.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/publicOrderAndSafety">
+               <label xml:lang="en">public order and safety</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/standaloneFirstAidEquipment">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/standaloneFirstAidEquipment:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/standaloneFirstAidEquipment</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/standaloneFirstAidEquipment:1</version>
+         </previousversions>
+         <label xml:lang="en">standalone First Aid equipment</label>
+         <definition xml:lang="en">First Aid element or set of elements or equipment made available to anyone who may need them, located in highly visible and accessible places.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/publicOrderAndSafety">
+               <label xml:lang="en">public order and safety</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/defence">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/defence:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/defence</latestversion>
+         <label xml:lang="en">defence</label>
+         <definition xml:lang="en">Services concerned with military defence.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/publicOrderAndSafety">
+               <label xml:lang="en">public order and safety</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/barrack">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/barrack:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/barrack</latestversion>
+         <label xml:lang="en">barrack</label>
+         <definition xml:lang="en">Services concerned with the provision of buildings used especially for lodging soldiers in garrison.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/defence">
+               <label xml:lang="en">defence</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/camp">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/camp:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/camp</latestversion>
+         <label xml:lang="en">camp</label>
+         <definition xml:lang="en">Place usually away from urban areas where tents or simple buildings (as cabins) are erected for shelter or for temporary residence or instruction of military forces.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/defence">
+               <label xml:lang="en">defence</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/environmentalProtection">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/environmentalProtection:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/environmentalProtection</latestversion>
+         <label xml:lang="en">environmental protection</label>
+         <definition xml:lang="en">Services concerned with the administration, supervision, inspection, operation or support of activities relating to the protection and conservation of the environment.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/administrationForEnvironmentalProtection">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/administrationForEnvironmentalProtection:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/administrationForEnvironmentalProtection</latestversion>
+         <label xml:lang="en">administration for environmental protection</label>
+         <definition xml:lang="en">Administration offices concerned with environmental protection.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/environmentalProtection">
+               <label xml:lang="en">environmental protection</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/environmentalEducationCentre">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/environmentalEducationCentre:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/environmentalEducationCentre</latestversion>
+         <label xml:lang="en">environmental education centre</label>
+         <definition xml:lang="en">Institution engaged in developing programs and material to increase awareness about the environment and sustainable development.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/environmentalProtection">
+               <label xml:lang="en">environmental protection</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/health">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/health:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/health</latestversion>
+         <label xml:lang="en">health</label>
+         <definition xml:lang="en">Services concerned with health issues.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/administrationForHealth">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/administrationForHealth:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/administrationForHealth</latestversion>
+         <label xml:lang="en">administration for health</label>
+         <definition xml:lang="en">This item comprises establishments primarily engaged in the regulation of activities of agencies that provide health care and overall administration of health policy.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/health">
+               <label xml:lang="en">health</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/medicalProductsAppliancesAndEquipment">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/medicalProductsAppliancesAndEquipment:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/medicalProductsAppliancesAndEquipment</latestversion>
+         <label xml:lang="en">medical products, appliances and equipment</label>
+         <definition xml:lang="en">Services concerned with medicaments, prostheses, medical appliances and equipment and other health-related products obtained by individuals or households, either with or without a prescription, usually from dispensing chemists, pharmacists or medical equipment suppliers. They are intended for consumption or use outside a health facility or institution.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/health">
+               <label xml:lang="en">health</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/outpatientService">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/outpatientService:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/outpatientService</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/outpatientService:1</version>
+         </previousversions>
+         <label xml:lang="en">outpatient service</label>
+         <definition xml:lang="en">Medical, dental and paramedical services delivered to outpatients by medical, dental and paramedical practitioners and auxiliaries. The services may be delivered at home, in individual or group consulting facilities, dispensaries or the outpatient clinics of hospitals and the like.\nOutpatient services include the medicaments, prostheses, medical appliances and equipment and other health-related products supplied directly to outpatients by medical, dental and paramedical practitioners and auxiliaries.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/health">
+               <label xml:lang="en">health</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/generalMedicalService">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/generalMedicalService:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/generalMedicalService</latestversion>
+         <label xml:lang="en">general medical service</label>
+         <definition xml:lang="en">General medical services delivered by general medical clinics and general medical practitioners.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/outpatientService">
+               <label xml:lang="en">outpatient service</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/specializedMedicalServices">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/specializedMedicalServices:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/specializedMedicalServices</latestversion>
+         <label xml:lang="en">specialized medical services</label>
+         <definition xml:lang="en">Specialized medical services delivered by specialized medical clinics and specialist medical practitioners. Specialized medical clinics and specialist medical practitioners differ from general medical clinics and general medical practitioners in that their services are limited to treatment of a particular condition, disease, medical procedure or class of patient.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/outpatientService">
+               <label xml:lang="en">outpatient service</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/paramedicalService">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/paramedicalService:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/paramedicalService</latestversion>
+         <label xml:lang="en">paramedical service</label>
+         <definition xml:lang="en">Provision of paramedical health services to outpatients;</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/outpatientService">
+               <label xml:lang="en">outpatient service</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/hospitalService">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/hospitalService:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/hospitalService</latestversion>
+         <label xml:lang="en">hospital service</label>
+         <definition xml:lang="en">Services concerned with hospitalization. Hospitalization is defined as occurring when a patient is accommodated in a hospital for the duration of the treatment. Hospital day-care and home-based hospital treatment are included, as are hospices for terminally ill persons.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/health">
+               <label xml:lang="en">health</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/generalHospital">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/generalHospital:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/generalHospital</latestversion>
+         <label xml:lang="en">general hospital</label>
+         <definition xml:lang="en">Hospital services that do not limit their services to a particular medical speciality.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/hospitalService">
+               <label xml:lang="en">hospital service</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/specializedHospital">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/specializedHospital:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/specializedHospital</latestversion>
+         <label xml:lang="en">specialized hospital</label>
+         <definition xml:lang="en">Hospital services that limit their services to a particular medical speciality.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/hospitalService">
+               <label xml:lang="en">hospital service</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/nursingAndConvalescentHomeService">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/nursingAndConvalescentHomeService:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/nursingAndConvalescentHomeService</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/nursingAndConvalescentHomeService:1</version>
+         </previousversions>
+         <label xml:lang="en">nursing and convalescent home service</label>
+         <definition xml:lang="en">In-patient services to persons recovering from surgery or a debilitating disease or condition that requires chiefly monitoring and administering of medicaments, physiotherapy and training to compensate for loss of function or rest.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/hospitalService">
+               <label xml:lang="en">hospital service</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/medicalAndDiagnosticLaboratory">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/medicalAndDiagnosticLaboratory:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/medicalAndDiagnosticLaboratory</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/medicalAndDiagnosticLaboratory:1</version>
+         </previousversions>
+         <label xml:lang="en">medical and diagnostic laboratory</label>
+         <definition xml:lang="en">This item comprises establishments primarily engaged in providing analytic or diagnostic services, including body fluid analysis and diagnostic imaging, generally to the medical profession or the patient on referral from a health practitioner.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/health">
+               <label xml:lang="en">health</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/education">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/education:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/education</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/education:1</version>
+         </previousversions>
+         <label xml:lang="en">education</label>
+         <definition xml:lang="en">Services concerned with educational affairs. These services include military schools and colleges where curricula resemble those of civilian institutions, police colleges offering general education in addition to police training.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/administrationForEducation">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/administrationForEducation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/administrationForEducation</latestversion>
+         <label xml:lang="en">administration for education</label>
+         <definition xml:lang="en">Administration offices concerned with educational matters.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/education">
+               <label xml:lang="en">education</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/earlyChildhoodEducation">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/earlyChildhoodEducation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/earlyChildhoodEducation</latestversion>
+         <label xml:lang="en">early childhood education</label>
+         <definition xml:lang="en">Services concerned with pre-primary education at ISCED-2011 (International Standard Classification of Education, 2011 revision) level 0.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/education">
+               <label xml:lang="en">education</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/primaryEducation">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/primaryEducation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/primaryEducation</latestversion>
+         <label xml:lang="en">primary education</label>
+         <definition xml:lang="en">Services concerned with primary education at ISCED-2011 (International Standard Classification of Education, 2011 revision) level 1.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/education">
+               <label xml:lang="en">education</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/lowerSecondaryEducation">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/lowerSecondaryEducation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/lowerSecondaryEducation</latestversion>
+         <label xml:lang="en">lower secondary education</label>
+         <definition xml:lang="en">Services concerned with lower secondary education at ISCED-2011 (International Standard Classification of Education, 2011 revision) level 2.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/education">
+               <label xml:lang="en">education</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/upperSecondaryEducation">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/upperSecondaryEducation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/upperSecondaryEducation</latestversion>
+         <label xml:lang="en">upper secondary education</label>
+         <definition xml:lang="en">Services concerned with upper secondary education at ISCED-2011 (International Standard Classification of Education, 2011 revision) level 3.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/education">
+               <label xml:lang="en">education</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/postSecondaryNonTertiaryEducation">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/postSecondaryNonTertiaryEducation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/postSecondaryNonTertiaryEducation</latestversion>
+         <label xml:lang="en">post-secondary non-tertiary education</label>
+         <definition xml:lang="en">Services concerned with post-secondary non-tertiary education at ISCED-2011 (International Standard Classification of Education, 2011 revision) level 4.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/education">
+               <label xml:lang="en">education</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/shortCycleTertiaryEducation">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/shortCycleTertiaryEducation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/shortCycleTertiaryEducation</latestversion>
+         <label xml:lang="en">short-cycle tertiary education</label>
+         <definition xml:lang="en">Services concerned with short-cycle tertiary education at ISCED-2011 (International Standard Classification of Education, 2011 revision) level 5.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/education">
+               <label xml:lang="en">education</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/bachelorOrEquivalentEducation">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/bachelorOrEquivalentEducation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/bachelorOrEquivalentEducation</latestversion>
+         <label xml:lang="en">bachelor or equivalent education</label>
+         <definition xml:lang="en">Services concerned with bachelor or equivalent education at ISCED-2011 (International Standard Classification of Education, 2011 revision) level 6.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/education">
+               <label xml:lang="en">education</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/masterOrEquivalentEducation">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/masterOrEquivalentEducation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/masterOrEquivalentEducation</latestversion>
+         <label xml:lang="en">master or equivalent education</label>
+         <definition xml:lang="en">Services concerned with master or equivalent education at ISCED-2011 (International Standard Classification of Education, 2011 revision) level 7.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/education">
+               <label xml:lang="en">education</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/doctoralOrEquivalentEducation">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/doctoralOrEquivalentEducation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/doctoralOrEquivalentEducation</latestversion>
+         <label xml:lang="en">doctoral or equivalent education</label>
+         <definition xml:lang="en">Services concerned with doctoral or equivalent education at ISCED-2011 (International Standard Classification of Education, 2011 revision) level 8.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/education">
+               <label xml:lang="en">education</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/educationNotElsewhereClassified">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/educationNotElsewhereClassified:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/educationNotElsewhereClassified</latestversion>
+         <label xml:lang="en">education not elsewhere classified</label>
+         <definition xml:lang="en">Services concerned with education not elsewhere classified in ISCED-2011 (International Standard Classification of Education, 2011 revision), referred to as ISCED-2011 level 9.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/education">
+               <label xml:lang="en">education</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/subsidiaryServicesToEducation">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/subsidiaryServicesToEducation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/subsidiaryServicesToEducation</latestversion>
+         <label xml:lang="en">subsidiary services to education</label>
+         <definition xml:lang="en">Subsidiary services to education, services concerned with transportation, food, lodging, medical and dental care and related subsidiary services chiefly for students regardless of level.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/education">
+               <label xml:lang="en">education</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/socialService">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/socialService:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/socialService</latestversion>
+         <label xml:lang="en">social service</label>
+         <definition xml:lang="en">Services concerned with social protection.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/administrationForSocialProtection">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/administrationForSocialProtection:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/administrationForSocialProtection</latestversion>
+         <label xml:lang="en">administration for social protection</label>
+         <definition xml:lang="en">Administration offices concerned with matters of social protection.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/socialService">
+               <label xml:lang="en">social service</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/specializedServiceOfSocialProtection">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/specializedServiceOfSocialProtection:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/specializedServiceOfSocialProtection</latestversion>
+         <label xml:lang="en">specialized service of social protection</label>
+         <definition xml:lang="en">Various specialized services concerned with transport, home-, day- and holiday-care for the disabled and people in need of care. Services specifically concerned with education and employment of people with disabilities.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/socialService">
+               <label xml:lang="en">social service</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/housing">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/housing:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/housing</latestversion>
+         <label xml:lang="en">housing</label>
+         <definition xml:lang="en">Services concerned with any home, residence, facility, or premises which provide temporary, interim or permanent housing to various groups of persons.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/socialService">
+               <label xml:lang="en">social service</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/childCareService">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/childCareService:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/childCareService</latestversion>
+         <label xml:lang="en">child care service</label>
+         <definition xml:lang="en">Services concerned with the day care of children.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/socialService">
+               <label xml:lang="en">social service</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/charityAndCounselling">
+         <language>en</language>
+         <created>2015-08-18 17:27 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/charityAndCounselling:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/charityAndCounselling</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/charityAndCounselling:1</version>
+         </previousversions>
+         <label xml:lang="en">charity and counselling</label>
+         <definition xml:lang="en">Institutions and services providing benefits in kind and/or counselling for the needy, e.g. people who are unemployed, the socially deprived, disaster victims, victims of assault and abuse, potential suicides, etc.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue">
+            <label xml:lang="en">Service Type</label>
+         </codelist>
+         <parents>
+            <parent id="http://inspire.ec.europa.eu/codelist/ServiceTypeValue/socialService">
+               <label xml:lang="en">social service</label>
+            </parent>
+         </parents>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/us-govserv">
+            <label xml:lang="en">Administrative and Social Governmental Services</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/us">
+            <label xml:lang="en">Utility and governmental services</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

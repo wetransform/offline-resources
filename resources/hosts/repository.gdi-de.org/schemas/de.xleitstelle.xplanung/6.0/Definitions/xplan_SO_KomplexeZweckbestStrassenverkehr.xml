@@ -1,0 +1,287 @@
+﻿<!--Erzeugt mit KIT (www.kit.edu) UmlToXmlTransformation-Software, Erstellungsdatum: 31.10.2022 09:26:00-->
+<TypeDefinition xmlns="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ../xsd/ShapeChangeDefinitions.xsd" gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr">
+  <gml:description>Spezifikation der Zweckbestimmung einer Fläche oder Anlage für den Strassenverkehr</gml:description>
+  <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_KomplexeZweckbestStrassenverkehr</gml:identifier>
+  <gml:name>xplan:SO_KomplexeZweckbestStrassenverkehr</gml:name>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein">
+      <gml:description>Allgemeine Zweckbestimmung der Fläche oder Anlage</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_KomplexeZweckbestStrassenverkehr:attribute:allgemein</gml:identifier>
+      <gml:name>xplan:allgemein</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_1000">
+          <gml:description>Autobahn oder autobahnähnliche Straße.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:1000</gml:identifier>
+          <gml:name>AutobahnUndAehnlich</gml:name>
+          <gml:name codeSpace="lesbarerName">Autobahn oder ähnlich</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_1200">
+          <gml:description>Sonstige örtliche oder überörtliche Hauptverkehrsstraße bzw. Weg.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:1200</gml:identifier>
+          <gml:name>Hauptverkehrsstrasse</gml:name>
+          <gml:name codeSpace="lesbarerName">Hauptverkehrsstraße</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_1400">
+          <gml:description>Sonstiger Verkehrsweg oder Anlage. Planinhalte nach § 5.3 PlanZV ("Überörtliche Wege und örtliche Hauptwege") werden ebenfalls auf diesen Enumerationswert abgebildet.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:1400</gml:identifier>
+          <gml:name>SonstigerVerkehrswegAnlage</gml:name>
+          <gml:name codeSpace="lesbarerName">Sonstiger Verkehrsweg oder Anlage</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_14000">
+          <gml:description>Bereich einer Verkehrsfläche, der der Verkehrsberuhigung in geschlossenen Ortschaften dient.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:14000</gml:identifier>
+          <gml:name>VerkehrsberuhigterBereich</gml:name>
+          <gml:name codeSpace="lesbarerName">Verkehrsberuhigter Bereich</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_14001">
+          <gml:description>Platz</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:14001</gml:identifier>
+          <gml:name>Platz</gml:name>
+          <gml:name codeSpace="lesbarerName">Platz</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_14002">
+          <gml:description>Fußgängerbereich</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:14002</gml:identifier>
+          <gml:name>Fussgaengerbereich</gml:name>
+          <gml:name codeSpace="lesbarerName">Fußgängerbereich</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_14003">
+          <gml:description>Rad- und Fußweg</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:14003</gml:identifier>
+          <gml:name>RadGehweg</gml:name>
+          <gml:name codeSpace="lesbarerName">Rad- und Gehweg</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_14004">
+          <gml:description>Radweg</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:14004</gml:identifier>
+          <gml:name>Radweg</gml:name>
+          <gml:name codeSpace="lesbarerName">Radweg</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_14005">
+          <gml:description>Fußweg</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:14005</gml:identifier>
+          <gml:name>Gehweg</gml:name>
+          <gml:name codeSpace="lesbarerName">Gehweg</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_14006">
+          <gml:description>Wanderweg</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:14006</gml:identifier>
+          <gml:name>Wanderweg</gml:name>
+          <gml:name codeSpace="lesbarerName">Wanderweg</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_14007">
+          <gml:description>Reit- und Kutschweg</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:14007</gml:identifier>
+          <gml:name>ReitKutschweg</gml:name>
+          <gml:name codeSpace="lesbarerName">Reit- und Kutschweg</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_14008">
+          <gml:description>Rastanlage</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:14008</gml:identifier>
+          <gml:name>Rastanlage</gml:name>
+          <gml:name codeSpace="lesbarerName">Rastanlage</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_14009">
+          <gml:description>Busbahnhof, auch zentraler Omnibusbahnhof (ZOB)</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:14009</gml:identifier>
+          <gml:name>Busbahnhof</gml:name>
+          <gml:name codeSpace="lesbarerName">Busbahnhof</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_140010">
+          <gml:description>Brückenbereich, hier: Überführender Verkehrsweg.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:140010</gml:identifier>
+          <gml:name>UeberfuehrenderVerkehrsweg</gml:name>
+          <gml:name codeSpace="lesbarerName">Überführender Verkehrsweg</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_140011">
+          <gml:description>Brückenbereich, hier: Unterführender Verkehrsweg.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:140011</gml:identifier>
+          <gml:name>UnterfuehrenderVerkehrsweg</gml:name>
+          <gml:name codeSpace="lesbarerName">Unterführender Verkehrsweg</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_140012">
+          <gml:description>Wege, die überwiegend land- und forstwirtschaftlichen Zwecken dienen und keine überörtliche Bedeutung haben</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:140012</gml:identifier>
+          <gml:name>Wirtschaftsweg</gml:name>
+          <gml:name codeSpace="lesbarerName">Wirtschaftsweg</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_140013">
+          <gml:description>Landwirtschaftlicher Verkehr</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:140013</gml:identifier>
+          <gml:name>LandwirtschaftlicherVerkehr</gml:name>
+          <gml:name codeSpace="lesbarerName">Landwirtschaftlicher Verkehr</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_14014">
+          <gml:description>Anschlussfläche</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:14014</gml:identifier>
+          <gml:name>Anschlussflaeche</gml:name>
+          <gml:name codeSpace="lesbarerName">Anschlussfläche</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_14015">
+          <gml:description>Verkehrsgrün</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:14015</gml:identifier>
+          <gml:name>Verkehrsgruen</gml:name>
+          <gml:name codeSpace="lesbarerName">Verkehrsgrün</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_1600">
+          <gml:description>Fläche oder Anlage für den ruhenden Verkehr</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:1600</gml:identifier>
+          <gml:name>RuhenderVerkehr</gml:name>
+          <gml:name codeSpace="lesbarerName">Ruhender Verkehr</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_16000">
+          <gml:description>Parkplatz, Parkfläche</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:16000</gml:identifier>
+          <gml:name>Parkplatz</gml:name>
+          <gml:name codeSpace="lesbarerName">Parkplatz</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_16001">
+          <gml:description>Abstellplatz für Fahräder</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:16001</gml:identifier>
+          <gml:name>FahrradAbstellplatz</gml:name>
+          <gml:name codeSpace="lesbarerName">Fahrrad-Abstellplatz</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_16002">
+          <gml:description>Park-and-Ride Anlagen sind Parkanlagen, die in der Nähe von Haltestellen des öffentlichen Nahverkehrs (ÖPNV) für Pkw, teilweise auch Motorräder und Busse, zur Verfügung gestellt werden.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:16002</gml:identifier>
+          <gml:name>P_RAnlage</gml:name>
+          <gml:name codeSpace="lesbarerName">P+R Anlage</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_16003">
+          <gml:description>Bike-and-Ride Anlagen sind Radabstellanlagen, die in der Nähe von Haltestellen des öffentlichen Nahverkehrs (ÖPNV) zur Verfügung gestellt werden.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:16003</gml:identifier>
+          <gml:name>B_RAnlage</gml:name>
+          <gml:name codeSpace="lesbarerName">B+R Anlage</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_16004">
+          <gml:description>Parkhaus</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:16004</gml:identifier>
+          <gml:name>Parkhaus</gml:name>
+          <gml:name codeSpace="lesbarerName">Parkhaus</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_16005">
+          <gml:description>Anlage für die organisierte gemeinschaftliche Nutzung von Automobilen.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:16005</gml:identifier>
+          <gml:name>CarSharing</gml:name>
+          <gml:name codeSpace="lesbarerName">Car Sharing</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_16006">
+          <gml:description>Anlage für die organisierte gemeinschaftliche Nutzung von Fahrrädern.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:16006</gml:identifier>
+          <gml:name>BikeSharing</gml:name>
+          <gml:name codeSpace="lesbarerName">Bike Sharing</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_3400">
+          <gml:description>Mischverkehrsfläche, oder „Shared Space“, „Begegnungszone“, ist eine Verkehrsfläche, auf der eine möglichst gemeinsame Nutzung des Straßenraumes und eine Gleichberechtigung aller Verkehrsteilnehmerinnen und Verkehrsteilnehmer angestrebt wird.</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:3400</gml:identifier>
+          <gml:name>Mischverkehrsflaeche</gml:name>
+          <gml:name codeSpace="lesbarerName">Mischverkehrsfläche</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_3500">
+          <gml:description>Flächen für Ladeinfrastruktur elektrisch betriebener Fahrzeuge .</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:3500</gml:identifier>
+          <gml:name>Ladestation</gml:name>
+          <gml:name codeSpace="lesbarerName">Ladestation</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_allgemein_SO_ZweckbestimmungStrassenverkehr_9999">
+          <gml:description>Sonstige Zweckbestimmung</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:SO_KomplexeZweckbestStrassenverkehr:allgemein:SO_ZweckbestimmungStrassenverkehr:9999</gml:identifier>
+          <gml:name>Sonstiges</gml:name>
+          <gml:name codeSpace="lesbarerName">Sonstiges</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>1</def:cardinality>
+      <def:valueTypeName>SO_ZweckbestimmungStrassenverkehr</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_detail">
+      <gml:description>ber eine Codeliste definierte Zweckbestimmungen, die die allgemeine Zweckbestimmung nher detaillieren.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_KomplexeZweckbestStrassenverkehr:attribute:detail</gml:identifier>
+      <gml:name>xplan:detail</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeName>SO_DetailZweckbestStrassenverkehr</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_textlicheErgaenzung">
+      <gml:description>Textliche Ergänzung der spezifizierten Zweckbestimmung(en)</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_KomplexeZweckbestStrassenverkehr:attribute:textlicheErgaenzung</gml:identifier>
+      <gml:name>xplan:textlicheErgaenzung</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::CharacterString" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_SO_KomplexeZweckbestStrassenverkehr_aufschrift">
+      <gml:description>Aufschrift</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:SO_KomplexeZweckbestStrassenverkehr:attribute:aufschrift</gml:identifier>
+      <gml:name>xplan:aufschrift</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::CharacterString" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <def:classification>featureType</def:classification>
+</TypeDefinition>

@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/EnergyClassificationValue">
+   <language>en</language>
+   <created>2015-08-18 17:19 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/EnergyClassificationValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/EnergyClassificationValue</latestversion>
+   <label xml:lang="en">energy classification value</label>
+   <definition xml:lang="en">The EnergyClassificationValue code list hosts the family of reference values for the "energy" item referred to the attribute processItem in the ProcessInput or ProcessOutput classes. Energy means power derived from physical or chemical resources able to provide light and heat to work machines.</definition>
+   <description xml:lang="en">The present classification has been derived from the Country factsheets which provide an overview of the most recent and pertinent annual energy related statistics in Europe, covering the European Union with its Member States. The content of this collection is based on a range of sources, including EUROSTAT, DG ECFIN, and EEA.</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pf">
+      <label xml:lang="en">Production and Industrial Facilities</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/pf">
+      <label xml:lang="en">Production and industrial facilities</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+      <label xml:lang="en">Technical (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/EnergyClassificationValue/solidFuels">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EnergyClassificationValue/solidFuels:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EnergyClassificationValue/solidFuels</latestversion>
+         <label xml:lang="en">solid fuels</label>
+         <definition xml:lang="en">solid fuel energy</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EnergyClassificationValue">
+            <label xml:lang="en">energy classification value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pf">
+            <label xml:lang="en">Production and Industrial Facilities</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pf">
+            <label xml:lang="en">Production and industrial facilities</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EnergyClassificationValue/petroleumProducts">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EnergyClassificationValue/petroleumProducts:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EnergyClassificationValue/petroleumProducts</latestversion>
+         <label xml:lang="en">petroleum products</label>
+         <definition xml:lang="en">energy from petroleum source</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EnergyClassificationValue">
+            <label xml:lang="en">energy classification value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pf">
+            <label xml:lang="en">Production and Industrial Facilities</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pf">
+            <label xml:lang="en">Production and industrial facilities</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EnergyClassificationValue/gases">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EnergyClassificationValue/gases:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EnergyClassificationValue/gases</latestversion>
+         <label xml:lang="en">gases</label>
+         <definition xml:lang="en">energy from gas source</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EnergyClassificationValue">
+            <label xml:lang="en">energy classification value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pf">
+            <label xml:lang="en">Production and Industrial Facilities</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pf">
+            <label xml:lang="en">Production and industrial facilities</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EnergyClassificationValue/electric">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EnergyClassificationValue/electric:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EnergyClassificationValue/electric</latestversion>
+         <label xml:lang="en">electric</label>
+         <definition xml:lang="en">energy from electricity source</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EnergyClassificationValue">
+            <label xml:lang="en">energy classification value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pf">
+            <label xml:lang="en">Production and Industrial Facilities</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pf">
+            <label xml:lang="en">Production and industrial facilities</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EnergyClassificationValue/nuclear">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EnergyClassificationValue/nuclear:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EnergyClassificationValue/nuclear</latestversion>
+         <label xml:lang="en">nuclear</label>
+         <definition xml:lang="en">energy from nuclear source</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EnergyClassificationValue">
+            <label xml:lang="en">energy classification value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pf">
+            <label xml:lang="en">Production and Industrial Facilities</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pf">
+            <label xml:lang="en">Production and industrial facilities</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/EnergyClassificationValue/renewables">
+         <language>en</language>
+         <created>2015-08-18 18:19 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/EnergyClassificationValue/renewables:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/EnergyClassificationValue/renewables</latestversion>
+         <label xml:lang="en">renewables</label>
+         <definition xml:lang="en">energy from renewable source</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/EnergyClassificationValue">
+            <label xml:lang="en">energy classification value</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/pf">
+            <label xml:lang="en">Production and Industrial Facilities</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/pf">
+            <label xml:lang="en">Production and industrial facilities</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

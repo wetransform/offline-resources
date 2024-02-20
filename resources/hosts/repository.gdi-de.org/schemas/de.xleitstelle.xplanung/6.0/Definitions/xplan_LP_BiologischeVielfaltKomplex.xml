@@ -1,0 +1,59 @@
+﻿<!--Erzeugt mit KIT (www.kit.edu) UmlToXmlTransformation-Software, Erstellungsdatum: 31.10.2022 09:25:53-->
+<TypeDefinition xmlns="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ../xsd/ShapeChangeDefinitions.xsd" gml:id="xplan_LP_BiologischeVielfaltKomplex">
+  <gml:description>Angaben zum Planungsgegenstand „Biologische Vielfalt“</gml:description>
+  <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BiologischeVielfaltKomplex</gml:identifier>
+  <gml:name>xplan:LP_BiologischeVielfaltKomplex</gml:name>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_BiologischeVielfaltKomplex_bioVielfaltTypus">
+      <gml:description>Zeigt an, auf welchen Bestandteil der Biologischen Vielfalt sich das Objekt bezieht
+</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BiologischeVielfaltKomplex:attribute:bioVielfaltTypus</gml:identifier>
+      <gml:name>xplan:bioVielfaltTypus</gml:name>
+      <def:cardinality>1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:LP_BiologischeVielfaltTypKomplex" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_BiologischeVielfaltKomplex_bioVfPflanzenArt">
+      <gml:description>Angaben zu Planzenarten als Bestandteil der biologischen Vielfalt.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BiologischeVielfaltKomplex:attribute:bioVfPflanzenArt</gml:identifier>
+      <gml:name>xplan:bioVfPflanzenArt</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:LP_BioVfPflanzenArtKomplex" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_BiologischeVielfaltKomplex_bioVfTierArt">
+      <gml:description>Angaben zu Tierarten als Bestandteil der biologischen Vielfalt.
+</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BiologischeVielfaltKomplex:attribute:bioVfTierArt</gml:identifier>
+      <gml:name>xplan:bioVfTierArt</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:LP_BioVfTiereArtKomplex" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_BiologischeVielfaltKomplex_bioVfArtFFHAnhangII">
+      <gml:description>Gibt an, ob Nachweise f&amp;#252;r Tier- und Pflanzenarten von gemeinschaftlichem Interesse kartiert wurden, f&amp;#252;r deren Erhaltung besondere Schutzgebiete ausgewiesen werden m&amp;#252;ssen (gem&amp;#228;&amp;#223; Anhang II der FFH-RL).</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BiologischeVielfaltKomplex:attribute:bioVfArtFFHAnhangII</gml:identifier>
+      <gml:name>xplan:bioVfArtFFHAnhangII</gml:name>
+      <def:cardinality>1</def:cardinality>
+      <def:valueTypeName>Boolean</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_BiologischeVielfaltKomplex_bioVfBiotoptyp">
+      <gml:description>Angaben zum Biotoptyp</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_BiologischeVielfaltKomplex:attribute:bioVfBiotoptyp</gml:identifier>
+      <gml:name>xplan:bioVfBiotoptyp</gml:name>
+      <def:cardinality>0..*</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element:xplan:LP_BioVfBiotoptypKomplex" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <def:classification>featureType</def:classification>
+</TypeDefinition>

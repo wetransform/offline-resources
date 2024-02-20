@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/MarineStrategyFrameworkDirectiveClassificationValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/MarineStrategyFrameworkDirectiveClassificationValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/MarineStrategyFrameworkDirectiveClassificationValue</latestversion>
+   <label xml:lang="en">Marine Strategy Framework Directive Classification</label>
+   <definition xml:lang="en">Codes for the Marine Stategy Framework Directive classification, as listed in Article 4 of Directive 2008/56/EC.</definition>
+   <parents>
+      <parent id="http://inspire.ec.europa.eu/codelist/RegionClassificationValue">
+         <label xml:lang="en">Region Classification</label>
+      </parent>
+   </parents>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/br">
+      <label xml:lang="en">Bio-geographical Regions</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/br">
+      <label xml:lang="en">Bio-geographical regions</label>
+   </theme>
+   <document id="http://inspire.ec.europa.eu/document/EC562008">
+      <label xml:lang="en">DIRECTIVE 2008/56/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 17 June 2008</label>
+   </document>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register></codelist>

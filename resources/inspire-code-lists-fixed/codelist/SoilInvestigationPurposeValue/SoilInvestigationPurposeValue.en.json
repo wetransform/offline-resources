@@ -1,0 +1,273 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Soil Investigation Purpose",
+          "id" : "http://inspire.ec.europa.eu/codelist/SoilInvestigationPurposeValue"
+        },
+        "created" : "2015-08-18 17:37 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "EXAMPLE Soil characterisation for soil mapping, which involves identifying different soil types.",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "general soil survey",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Soil",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "definition" : {
+          "text" : "Soil characterisation with unbiased selection of investigation location.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/so"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SoilInvestigationPurposeValue/generalSoilSurvey",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SoilInvestigationPurposeValue/generalSoilSurvey",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SoilInvestigationPurposeValue/generalSoilSurvey:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Soil Investigation Purpose",
+          "id" : "http://inspire.ec.europa.eu/codelist/SoilInvestigationPurposeValue"
+        },
+        "created" : "2015-08-18 17:37 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "EXAMPLE investigation on potentially contaminated location",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "specific soil survey",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Soil",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "definition" : {
+          "text" : "Investigation of soil properties at locations biased by a specific purpose.",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/so"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/SoilInvestigationPurposeValue/specificSoilSurvey",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/SoilInvestigationPurposeValue/specificSoilSurvey",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SoilInvestigationPurposeValue/specificSoilSurvey:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2015-08-18 17:18 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "description" : {
+      "text" : "For soil two main purposes are identified to carry out soil surveys. One is to classify the soil as a result of soil forming processes (generalSurvey) and the other one is to investigate soil for a specific reason (specificSurvey) like a possible contamination as a result of contaminating activities. This information gives the data user an idea about possible bias in the selection of the site and therefore representativeness of the data that were obtained for a special purpose.",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Soil Investigation Purpose",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "none",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Not extensible",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "so",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Soil",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+    },
+    "definition" : {
+      "text" : "A code list of possible values indicating the reasons for conducting a survey.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "so",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/so"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/SoilInvestigationPurposeValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/SoilInvestigationPurposeValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/SoilInvestigationPurposeValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

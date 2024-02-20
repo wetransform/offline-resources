@@ -1,0 +1,885 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue">
+   <language>en</language>
+   <created>2015-08-18 17:18 PM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue</latestversion>
+   <label xml:lang="en">Mineral Deposit Group</label>
+   <definition xml:lang="en">Values indicating the grouping of mineral deposits on the basis of their generic characteristics.</definition>
+   <description xml:lang="en">EXAMPLE: host rock, host structure, commodity, association with similar mineral processes e.g. porphyry.</description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
+      <label xml:lang="en">Extensible with values at any level</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+      <label xml:lang="en">Mineral Resources</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/mr">
+      <label xml:lang="en">Mineral resources</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/organic">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/organic:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/organic</latestversion>
+         <label xml:lang="en">organic</label>
+         <definition xml:lang="en">Organic deposits result from the concentration of organic matter on, or close to the surface, by sedimentation and early diagenesis.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue">
+            <label xml:lang="en">Mineral Deposit Group</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/residualOrSurficial">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/residualOrSurficial:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/residualOrSurficial</latestversion>
+         <label xml:lang="en">residual/surficial</label>
+         <definition xml:lang="en">Surficial processes are the physical and chemical phenomena which cause concentration of ore material within the regolith, generally by removal of chemical constituents by aqueous leaching. This includes laterite deposits and residual or eluvial deposits.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue">
+            <label xml:lang="en">Mineral Deposit Group</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/placer">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/placer:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/placer</latestversion>
+         <label xml:lang="en">placer</label>
+         <definition xml:lang="en">Placer deposits represent concentrations of heavy minerals of certain elements, particularly of Au, U, and PGE, by sedimentary processes.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue">
+            <label xml:lang="en">Mineral Deposit Group</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/continentalSedimentAndVolcanics">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/continentalSedimentAndVolcanics:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/continentalSedimentAndVolcanics</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/continentalSedimentAndVolcanics:1</version>
+         </previousversions>
+         <label xml:lang="en">continental sediments and volcanics</label>
+         <definition xml:lang="en">Mineral deposits associated with sediments or volcanic material on continental crust. They form where volcanic rocks and ash layers react with alkaline groundwater, and may also crystallize in post-depositional environments over periods ranging from thousands to millions of years in shallow marine basins.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue">
+            <label xml:lang="en">Mineral Deposit Group</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/sedimentHosted">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/sedimentHosted:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/sedimentHosted</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/sedimentHosted:1</version>
+         </previousversions>
+         <label xml:lang="en">sediment-hosted</label>
+         <definition xml:lang="en">Sediment-hosted deposits can be divided into two major subtypes. The first subtype is clastic-dominated lead-zinc ores, which are hosted in shale, sandstone, siltstone, or mixed clastic rocks, or occur as carbonate replacement, within a clastic-dominated sedimentary rock sequence. This subtype includes deposits that have been traditionally referred to as sedimentary exhalative (SEDEX) deposits. The second subtype of sediment-hosted Pb-Zn deposits is the Mississippi Valley-type that occurs in platform carbonate sequences, typically in passive-margin tectonic settings.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue">
+            <label xml:lang="en">Mineral Deposit Group</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/chemicalSediment">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/chemicalSediment:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/chemicalSediment</latestversion>
+         <label xml:lang="en">chemical sediment</label>
+         <definition xml:lang="en">Mineral deposits, mainly Fe or Mn, of sedimentary origin which originated as chemical precipitates from ancient ocean water. The process of accumulating these sedimentary deposits is controlled by the physicochemical properties inherent in iron and manganese.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue">
+            <label xml:lang="en">Mineral Deposit Group</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/marineVolcanicAssociation">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/marineVolcanicAssociation:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/marineVolcanicAssociation</latestversion>
+         <label xml:lang="en">marine volcanic association</label>
+         <definition xml:lang="en">Mineral deposits formed in a marine volcanic environment. Magmatic and hydrothermal fluids react with sea water for giving volcanogenic massive sulphides (VMS), which are at the origin stratiform deposits of Cu, Zn, Pb, Ag, Au.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue">
+            <label xml:lang="en">Mineral Deposit Group</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/epithermal">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/epithermal:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/epithermal</latestversion>
+         <label xml:lang="en">epithermal</label>
+         <definition xml:lang="en">Epithermal deposits occur largely in volcano-plutonic arcs associated with subduction zones, with ages similar to those of volcanism. The deposits form at shallow depth, less than 1 km, in the temperature range of 50°-200°C, are hosted mainly by volcanic rocks, and occur mainly as veins.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue">
+            <label xml:lang="en">Mineral Deposit Group</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/veinBrecciaStockwork">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/veinBrecciaStockwork:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/veinBrecciaStockwork</latestversion>
+         <label xml:lang="en">vein, breccia and stockwork</label>
+         <definition xml:lang="en">It is a systematic group with special occurrence of mineral deposits in a finite volume within a rock.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue">
+            <label xml:lang="en">Mineral Deposit Group</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/manto">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/manto:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/manto</latestversion>
+         <label xml:lang="en">manto</label>
+         <definition xml:lang="en">Manto ore deposits are defined by a strict stratigraphic control on their distribution, generally within a porous formation within a structural trap site. The source of ore within manto deposits is considered to be interformational, from a sedimentary source within an adjacent sedimentary basin, or from ore fluids driven off from intrusive rocks.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue">
+            <label xml:lang="en">Mineral Deposit Group</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/skarn">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/skarn:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/skarn</latestversion>
+         <label xml:lang="en">skarn</label>
+         <definition xml:lang="en">Mineral deposits formed by replacement of limestone by ore and calc-silicate minerals, usually adjacent to a felsic or granitic intrusive body.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue">
+            <label xml:lang="en">Mineral Deposit Group</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/porphyry">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/porphyry:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/porphyry</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/porphyry:1</version>
+         </previousversions>
+         <label xml:lang="en">porphyry</label>
+         <definition xml:lang="en">Porphyry deposits are intrusion-related, large tonnage low grade mineral deposits with metal assemblages that may include all or some of copper, molybdenum, gold and silver. The genesis of these deposits is related to the emplacement of intermediate to felsic, hypabyssal, generally porphyritic intrusions that are commonly formed at convergent plate margins.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue">
+            <label xml:lang="en">Mineral Deposit Group</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/ultramaficOrMafic">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/ultramaficOrMafic:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/ultramaficOrMafic</latestversion>
+         <label xml:lang="en">ultramafic / mafic</label>
+         <definition xml:lang="en">Mineral deposits related to mafic and ultramafic plutonism and resulting from magmatic processes such as fractional crystallisation. The main types of deposits are chromite and platinoids in ophiolitic peridotites, titanum within anorthosites, nickel, copper and platinoïds in ultramafic complexes.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue">
+            <label xml:lang="en">Mineral Deposit Group</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/carbonatite">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/carbonatite:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/carbonatite</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/carbonatite:1</version>
+         </previousversions>
+         <label xml:lang="en">carbonatites</label>
+         <definition xml:lang="en">Carbonatites are intrusive carbonate-mineral-rich igneous rocks, many of which contain distinctive abundances of apatite, magnetite, barite, and fluorite, that may contain economic or anomalous concentrations of rare earth elements, phosphorus, niobium, uranium, thorium, copper, iron, titanium, barium, fluorine, zirconium, and other rare or incompatible elements. They may also be sources of mica or vermiculite. Carbonatites may form central plugs within zoned alkalic intrusive complexes, or as dikes, sills, breccias, and veins.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue">
+            <label xml:lang="en">Mineral Deposit Group</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/pegmatite">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/pegmatite:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/pegmatite</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/pegmatite:1</version>
+         </previousversions>
+         <label xml:lang="en">pegmatite</label>
+         <definition xml:lang="en">Pegmatites tend to occur in the aureoles of granites in most cases, and are usually granitic in character, often closely matching the compositions of nearby granites. Pegmatites should thus represent exsolved granitic material which crystallises in the country rocks. However, an origin of pegmatite fluids by devolatilisation (dewatering) of metamorphic rocks is also envisaged. Pegmatites are coarse-grained rocks, mainly composed of quartz, feldspar and mica and are important because they often contain rare earth minerals and gemstones, such as aquamarine, tourmaline, topaz, fluorite, apatite and corundum, often along with tin and tungsten minerals, among others.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue">
+            <label xml:lang="en">Mineral Deposit Group</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/metamorphicHosted">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/metamorphicHosted:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/metamorphicHosted</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/metamorphicHosted:1</version>
+         </previousversions>
+         <label xml:lang="en">metamorphic-hosted</label>
+         <definition xml:lang="en">Mineral deposits associated to deep metamorphism, more than ten km, in a context in which carbonic and aqueous fluids may give birth to gold veins.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue">
+            <label xml:lang="en">Mineral Deposit Group</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/gemsOrSemipreciousStones">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/gemsOrSemipreciousStones:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/gemsOrSemipreciousStones</latestversion>
+         <label xml:lang="en">gems and semi-precious stones</label>
+         <definition xml:lang="en">A piece of mineral, which, in cut and polished form, is used to make jewelry or other adornments.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue">
+            <label xml:lang="en">Mineral Deposit Group</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/industrialRocks">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/industrialRocks:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/industrialRocks</latestversion>
+         <label xml:lang="en">industrialRocks</label>
+         <definition xml:lang="en">industrialMinerals are geological materials which are mined for their commercial value, which are not fuel minerals and are not sources of metallic minerals. They are used in their natural state or after beneficiation either as raw materials or as additives in a wide range of applications.</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue">
+            <label xml:lang="en">Mineral Deposit Group</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/felsicIntermediateIgneousRockRelated">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/felsicIntermediateIgneousRockRelated:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/felsicIntermediateIgneousRockRelated</latestversion>
+         <label xml:lang="en">felsic-intermediate igneous rock related</label>
+         <definition xml:lang="en">felsic-intermediate igneous rock related</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue">
+            <label xml:lang="en">Mineral Deposit Group</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/sedimentary">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/sedimentary:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/sedimentary</latestversion>
+         <label xml:lang="en">sedimentary</label>
+         <definition xml:lang="en">sedimentary</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue">
+            <label xml:lang="en">Mineral Deposit Group</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/contactMetamorphism">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/contactMetamorphism:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/contactMetamorphism</latestversion>
+         <label xml:lang="en">contact metamorphism</label>
+         <definition xml:lang="en">contact metamorphism</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue">
+            <label xml:lang="en">Mineral Deposit Group</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/metasomaticReplacementOrHydrothermalShearOrVein">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/metasomaticReplacementOrHydrothermalShearOrVein:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/metasomaticReplacementOrHydrothermalShearOrVein</latestversion>
+         <label xml:lang="en">metasomatic replacement or hydrothermal shear or vein</label>
+         <definition xml:lang="en">metasomatic replacement or hydrothermal shear or vein</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue">
+            <label xml:lang="en">Mineral Deposit Group</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/bulkRockMaterial">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/bulkRockMaterial:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/bulkRockMaterial</latestversion>
+         <label xml:lang="en">bulk rock material</label>
+         <definition xml:lang="en">bulk rock material</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue">
+            <label xml:lang="en">Mineral Deposit Group</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/energy">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/energy:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/energy</latestversion>
+         <label xml:lang="en">energy</label>
+         <definition xml:lang="en">energy</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue">
+            <label xml:lang="en">Mineral Deposit Group</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/alkalineIgneousRocks">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/alkalineIgneousRocks:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/alkalineIgneousRocks</latestversion>
+         <label xml:lang="en">Alkaline igneous rocks</label>
+         <definition xml:lang="en">Alkaline igneous rocks</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue">
+            <label xml:lang="en">Mineral Deposit Group</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/Other">
+         <language>en</language>
+         <created>2015-08-18 17:34 PM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/Other:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/Other</latestversion>
+         <label xml:lang="en">Other</label>
+         <definition xml:lang="en">Other</definition>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue">
+            <label xml:lang="en">Mineral Deposit Group</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/mr-core">
+            <label xml:lang="en">Mineral Resources</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/mr">
+            <label xml:lang="en">Mineral resources</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-technical">
+            <label xml:lang="en">Technical (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

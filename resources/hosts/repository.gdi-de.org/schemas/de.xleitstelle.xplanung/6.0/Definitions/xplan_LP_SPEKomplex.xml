@@ -1,0 +1,100 @@
+﻿<!--Erzeugt mit KIT (www.kit.edu) UmlToXmlTransformation-Software, Erstellungsdatum: 31.10.2022 09:25:53-->
+<TypeDefinition xmlns="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ../xsd/ShapeChangeDefinitions.xsd" gml:id="xplan_LP_SPEKomplex">
+  <gml:description>Angaben zur Differenzierung der Schutz-, Pflege und Entwicklungsziele von Naturschutz und Landschaftspflege.
+</gml:description>
+  <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_SPEKomplex</gml:identifier>
+  <gml:name>xplan:LP_SPEKomplex</gml:name>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_SPEKomplex_schutzPflegeEntwicklungTyp">
+      <gml:description>Differenzierung der Ziele, der Erfordernisse oder der Ma&amp;#223;nahmen von Naturschutz und Landschaftspflege.</gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_SPEKomplex:attribute:schutzPflegeEntwicklungTyp</gml:identifier>
+      <gml:name>xplan:schutzPflegeEntwicklungTyp</gml:name>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_SPEKomplex_schutzPflegeEntwicklungTyp_LP_SchutzPflegeEntwicklung_1100">
+          <gml:description>Schutz bzw. Erhalt von Natur und Landschaft</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_SPEKomplex:schutzPflegeEntwicklungTyp:LP_SchutzPflegeEntwicklung:1100</gml:identifier>
+          <gml:name>Schutz</gml:name>
+          <gml:name codeSpace="lesbarerName">Schutz</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_SPEKomplex_schutzPflegeEntwicklungTyp_LP_SchutzPflegeEntwicklung_1200">
+          <gml:description>Pflege von Natur und Landschaft</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_SPEKomplex:schutzPflegeEntwicklungTyp:LP_SchutzPflegeEntwicklung:1200</gml:identifier>
+          <gml:name>Pflege</gml:name>
+          <gml:name codeSpace="lesbarerName">Pflege</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_SPEKomplex_schutzPflegeEntwicklungTyp_LP_SchutzPflegeEntwicklung_2000">
+          <gml:description>Entwicklung von Natur und Landschaft</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_SPEKomplex:schutzPflegeEntwicklungTyp:LP_SchutzPflegeEntwicklung:2000</gml:identifier>
+          <gml:name>Entwicklung</gml:name>
+          <gml:name codeSpace="lesbarerName">Entwicklung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_SPEKomplex_schutzPflegeEntwicklungTyp_LP_SchutzPflegeEntwicklung_3000">
+          <gml:description>Anlage bzw. Schaffung von neuen Strukturen und Funktionen (z.B. Anlage einer Hecke) </gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_SPEKomplex:schutzPflegeEntwicklungTyp:LP_SchutzPflegeEntwicklung:3000</gml:identifier>
+          <gml:name>Anlage</gml:name>
+          <gml:name codeSpace="lesbarerName">Anlage</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_SPEKomplex_schutzPflegeEntwicklungTyp_LP_SchutzPflegeEntwicklung_3500">
+          <gml:description>Wiederherstellung von ehemals vorhandenen Strukturen und Funktionen</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_SPEKomplex:schutzPflegeEntwicklungTyp:LP_SchutzPflegeEntwicklung:3500</gml:identifier>
+          <gml:name>Wiederherstellung</gml:name>
+          <gml:name codeSpace="lesbarerName">Wiederherstellung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_SPEKomplex_schutzPflegeEntwicklungTyp_LP_SchutzPflegeEntwicklung_5100">
+          <gml:description>Vermeidung von Beeintr&amp;#228;chtigungen von Natur und Landschaft</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_SPEKomplex:schutzPflegeEntwicklungTyp:LP_SchutzPflegeEntwicklung:5100</gml:identifier>
+          <gml:name>Vermeidung</gml:name>
+          <gml:name codeSpace="lesbarerName">Vermeidung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_SPEKomplex_schutzPflegeEntwicklungTyp_LP_SchutzPflegeEntwicklung_5200">
+          <gml:description>Minderung von Beeintr&amp;#228;chtigungen von Natur und Landschaft</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_SPEKomplex:schutzPflegeEntwicklungTyp:LP_SchutzPflegeEntwicklung:5200</gml:identifier>
+          <gml:name>Minderung</gml:name>
+          <gml:name codeSpace="lesbarerName">Minderung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_SPEKomplex_schutzPflegeEntwicklungTyp_LP_SchutzPflegeEntwicklung_5300">
+          <gml:description>Beseitigung von Beeintr&amp;#228;chtigungen von Natur und Landschaft</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_SPEKomplex:schutzPflegeEntwicklungTyp:LP_SchutzPflegeEntwicklung:5300</gml:identifier>
+          <gml:name>Beseitigung</gml:name>
+          <gml:name codeSpace="lesbarerName">Beseitigung</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <gml:dictionaryEntry>
+        <ListedValueDefinition gml:id="xplan_LP_SPEKomplex_schutzPflegeEntwicklungTyp_LP_SchutzPflegeEntwicklung_9999">
+          <gml:description>Sonstiges Ziel (siehe &lt;i&gt;schutzPflegeEntwicklungText&lt;/i&gt;)</gml:description>
+          <gml:identifier codeSpace="urn:xplan">urn:xplan:enum:xplan:LP_SPEKomplex:schutzPflegeEntwicklungTyp:LP_SchutzPflegeEntwicklung:9999</gml:identifier>
+          <gml:name>Sonstiges</gml:name>
+          <gml:name codeSpace="lesbarerName">Sonstiges</gml:name>
+        </ListedValueDefinition>
+      </gml:dictionaryEntry>
+      <def:cardinality>1..*</def:cardinality>
+      <def:valueTypeName>LP_SchutzPflegeEntwicklung</def:valueTypeName>
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <gml:dictionaryEntry>
+    <def:PropertyDefinition gml:id="xplan_LP_SPEKomplex_schutzPflegeEntwicklungText">
+      <gml:description>Textfeld, Erl&amp;#228;uterung sonstigem Ziel Schutz, Pflege und Entwicklung oder erg&amp;#228;nzende Information zu ausgew&amp;#228;hlten Differenzierungen. </gml:description>
+      <gml:identifier codeSpace="urn:xplan">urn:xplan:element:xplan:LP_SPEKomplex:attribute:schutzPflegeEntwicklungText</gml:identifier>
+      <gml:name>xplan:schutzPflegeEntwicklungText</gml:name>
+      <def:cardinality>0..1</def:cardinality>
+      <def:valueTypeRef xlink:href="urn:xplan:element::CharacterString" />
+      <def:type>attribute</def:type>
+    </def:PropertyDefinition>
+  </gml:dictionaryEntry>
+  <def:classification>featureType</def:classification>
+</TypeDefinition>
