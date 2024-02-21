@@ -57,7 +57,10 @@ jobs:
         committer: wetransform Bot <admin@wetransform.to>
         branch: auto-update
         title: Update offline resources
-        body: Please review the changes to the resources. Merge to create updated artifacts.
+        body: |
+          Please review the changes to the resources. Merge to create updated artifacts.
+
+          To trigger the pull request check please manually close and reopen the pull request (see [here](https://github.com/peter-evans/create-pull-request/blob/main/docs/concepts-guidelines.md#workarounds-to-trigger-further-workflow-runs) for more information).
         base: master
         reviewers: |
           stempler
