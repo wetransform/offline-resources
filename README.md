@@ -14,7 +14,13 @@ The resources can be accessed as follows:
 - Maven artifacts are published to Artifactory
 - An update site including only the latest versions is published to S3 and available [here](http://build-artifacts.wetransform.to/p2/offline-resources/current)
 
- **Please note:** The update site always only contains the current versions of the offline resources. This is intentional to force an update to the latest versions. However Eclipse caches the content of an update site from a specific location, so for Eclipse to actually be able to load the current update site content you may need to delete the respective cache. You can find it in your Eclipse workspace folder in the subfolder `.metadata/.plugins/org.eclipse.pde.core/.p2/org.eclipse.equinox.p2.repository/cache`.
+ **Please note:**
+ 
+The update site always only contains the current versions of the offline resources. This is intentional to force an update to the latest versions. However Eclipse caches the content of an update site from a specific location, so for Eclipse to actually be able to load the current update site content you may need to invalidate the respective cache.
+
+*Option 1:* You can find and delete the cache folder in your Eclipse workspace in the subfolder `.metadata/.plugins/org.eclipse.pde.core/.p2/org.eclipse.equinox.p2.repository/cache`.
+
+*Option 2:* It seems to be possible to invalidate the cache via the UI (see [these instructions](https://stackoverflow.com/a/70291188/982265)).
 
 Resource JARs
 -------------
