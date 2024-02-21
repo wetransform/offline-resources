@@ -14,6 +14,8 @@ The resources can be accessed as follows:
 - Maven artifacts are published to Artifactory
 - An update site including only the latest versions is published to S3 and available [here](http://build-artifacts.wetransform.to/p2/offline-resources/current)
 
+ **Please note:** The update site always only contains the current versions of the offline resources. This is intentional to force an update to the latest versions. However Eclipse caches the content of an update site from a specific location, so for Eclipse to actually be able to load the current update site content you may need to delete the respective cache. You can find it in your Eclipse workspace folder in the subfolder `.metadata/.plugins/org.eclipse.pde.core/.p2/org.eclipse.equinox.p2.repository/cache`.
+
 Resource JARs
 -------------
 
@@ -43,10 +45,14 @@ The folder structure beneath must match the paths the resources are available at
 The task that creates the JARs adds these files to the folder `to/wetransform/offline-resources/hosts/<host-name>` and respective subfolders.
 This is used for example by kelvin in the respective [implementation for loading the offline resources](https://github.com/wetransform/kelvin/blob/master/deegree-core/deegree-core-commons/src/main/java/org/deegree/commons/offlineresources/OfflineResources.java)
 
+### Hale Studio specific resource JARs
+
+The repository includes the build for a number of resource JARs that are specifically intended to be used with hale studio.
+They are in part duplicates to the generic resource JARs, e.g. with OGC and INSPIRE schemas but use a different structure (files are not placed in subfolders) and add additional information.
+They can be recognized by the prefix `eu.esdihumboldt.util.resource` in the artifact name and the bundle symbolic name.
 
 TODOs / Improvements
 --------------------
 
-- produce JARs compatible to hale resources mechanism
-- add configuration for existing hale resource bundles currently built in hale-platform repository
+- in hale studio support resource JARs that add resources in subfolders to avoid potential clashes in the classloader when not using OSGi
 - allow suppressing the creation/publishing of `CURRENT-SNAPSHOT` versions in case old versions are built
