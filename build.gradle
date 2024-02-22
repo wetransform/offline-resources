@@ -337,9 +337,6 @@ class INSPIREDownloadTask extends DefaultTask {
       onlyIfModified true
     }
     File targetDir = project.file("${project.ext.hostsFolder}/$host")
-    // delete folder
-    targetDir.deleteDir()
-    targetDir.mkdirs()
 
     def md = new MetadataHelper(project, targetDir)
     md.cleanFolderKeepMetadata()
