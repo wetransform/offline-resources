@@ -346,7 +346,13 @@ class INSPIREDownloadTask extends DefaultTask {
 
     project.copy {
       // Exclude Zip files, 'governance' folder, and 'readme.md' file
-      exclude('**/*.zip', 'application-schemas-main/governance-release-process/**', 'application-schemas-main/README.md', 'application-schemas-main/.github/**')
+      exclude(
+        '**/*.zip',
+        'application-schemas-main/governance-release-process/**',
+        'application-schemas-main/README.md',
+        'application-schemas-main/.github/**',
+        '**/*.groovy' // Groovy scripts used for validation
+      )
 
       from project.zipTree(tmpSchemas)
       into temporaryDir
