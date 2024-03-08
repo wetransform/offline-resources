@@ -1,22 +1,16 @@
 <?xml version="1.0"?>
 <applicationSchemas>
-  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/ompr' name='Processes' theme='' themeId=''>
-    <schema version='2.0' url='https://inspire.ec.europa.eu/schemas/ompr/2.0/Processes.xsd' />
-    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/ompr/3.0/Processes.xsd' />
+  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/ac-mf' name='Atmospheric Conditions and Meteorological Geographical Features' theme='mf' themeId=''>
+    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/ac-mf/3.0/AtmosphericConditionsandMeteorologicalGeographicalFeatures.xsd' />
+    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/ac-mf/4.0/AtmosphericConditionsandMeteorologicalGeographicalFeatures.xsd' />
+  </applicationSchema>
+  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/act-core' name='Activity Complex' theme='' themeId=''>
+    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/act-core/3.0/ActivityComplex_Core.xsd' />
+    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/act-core/4.0/ActivityComplex_Core.xsd' />
   </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/ad' name='Addresses' theme='ad' themeId=''>
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/ad/3.0/Addresses.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/ad/4.0/Addresses.xsd' />
-  </applicationSchema>
-  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/au' name='Administrative Units' theme='au' themeId=''>
-    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/au/5.0/AdministrativeUnits.xsd' />
-    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/au/3.0/AdministrativeUnits.xsd' />
-    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/au/4.0/AdministrativeUnits.xsd' />
-  </applicationSchema>
-  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/mu' name='Maritime Units' theme='au' themeId=''>
-    <schema version='3.0rc3' url='https://inspire.ec.europa.eu/schemas/mu/3.0rc3/MaritimeUnits.xsd' />
-    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/mu/3.0/MaritimeUnits.xsd' />
-    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/mu/4.0/MaritimeUnits.xsd' />
   </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/af' name='Agricultural and Aquaculture Facilities Model' theme='af' themeId=''>
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/af/3.0/AgriculturalAndAquacultureFacilities.xsd' />
@@ -26,13 +20,27 @@
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/am/3.0/AreaManagementRestrictionRegulationZone.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/am/4.0/AreaManagementRestrictionRegulationZone.xsd' />
   </applicationSchema>
-  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/ac-mf' name='Atmospheric Conditions and Meteorological Geographical Features' theme='mf' themeId=''>
-    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/ac-mf/3.0/AtmosphericConditionsandMeteorologicalGeographicalFeatures.xsd' />
-    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/ac-mf/4.0/AtmosphericConditionsandMeteorologicalGeographicalFeatures.xsd' />
+  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/au' name='Administrative Units' theme='au' themeId=''>
+    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/au/3.0/AdministrativeUnits.xsd' />
+    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/au/4.0/AdministrativeUnits.xsd' />
+    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/au/5.0/AdministrativeUnits.xsd' />
+  </applicationSchema>
+  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/base' name='Base Types' theme='' themeId=''>
+    <schema version='3.2' url='https://inspire.ec.europa.eu/schemas/base/3.2/BaseTypes.xsd' />
+    <schema version='3.3' url='https://inspire.ec.europa.eu/schemas/base/3.3/BaseTypes.xsd' />
+    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/base/4.0/BaseTypes.xsd' />
+  </applicationSchema>
+  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/base2' name='Base Types 2' theme='' themeId=''>
+    <schema version='1.0' url='https://inspire.ec.europa.eu/schemas/base2/1.0/BaseTypes2.xsd' />
+    <schema version='2.0' url='https://inspire.ec.europa.eu/schemas/base2/2.0/BaseTypes2.xsd' />
   </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/br' name='Bio-geographical Regions' theme='br' themeId=''>
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/br/3.0/Bio-geographicalRegions.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/br/4.0/Bio-geographicalRegions.xsd' />
+  </applicationSchema>
+  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/bu-base' name='Building Base' theme='bu' themeId=''>
+    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/bu-base/3.0/BuildingsBase.xsd' />
+    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/bu-base/4.0/BuildingsBase.xsd' />
   </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/bu-core2d' name='Building 2D' theme='bu' themeId=''>
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/bu-core2d/3.0/BuildingsCore2D.xsd' />
@@ -42,33 +50,41 @@
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/bu-core3d/3.0/BuildingsCore3D.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/bu-core3d/4.0/BuildingsCore3D.xsd' />
   </applicationSchema>
-  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/bu-base' name='Building Base' theme='bu' themeId=''>
-    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/bu-base/3.0/BuildingsBase.xsd' />
-    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/bu-base/4.0/BuildingsBase.xsd' />
-  </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/cp' name='Cadastral Parcels' theme='cp' themeId=''>
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/cp/3.0/CadastralParcels.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/cp/4.0/CadastralParcels.xsd' />
   </applicationSchema>
+  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/cvbase' name='Coverages (Base)' theme='' themeId=''>
+    <schema version='1.0' url='https://inspire.ec.europa.eu/schemas/cvbase/1.0/CoverageBase.xsd' />
+    <schema version='2.0' url='https://inspire.ec.europa.eu/schemas/cvbase/2.0/CoverageBase.xsd' />
+  </applicationSchema>
+  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/ef' name='Environmental Monitoring Facilities' theme='ef' themeId=''>
+    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/ef/3.0/EnvironmentalMonitoringFacilities.xsd' />
+    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/ef/4.0/EnvironmentalMonitoringFacilities.xsd' />
+  </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/el-bas' name='Elevation - Base Types' theme='el' themeId=''>
-    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/el-bas/5.0/ElevationBaseTypes.xsd' />
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/el-bas/3.0/ElevationBaseTypes.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/el-bas/4.0/ElevationBaseTypes.xsd' />
+    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/el-bas/5.0/ElevationBaseTypes.xsd' />
   </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/el-cov' name='Elevation - Grid Coverage' theme='el' themeId=''>
-    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/el-cov/5.0/ElevationGridCoverage.xsd' />
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/el-cov/3.0/ElevationGridCoverage.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/el-cov/4.0/ElevationGridCoverage.xsd' />
+    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/el-cov/5.0/ElevationGridCoverage.xsd' />
   </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/el-tin' name='Elevation - TIN' theme='el' themeId=''>
-    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/el-tin/5.0/ElevationTin.xsd' />
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/el-tin/3.0/ElevationTin.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/el-tin/4.0/ElevationTin.xsd' />
+    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/el-tin/5.0/ElevationTin.xsd' />
   </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/el-vec' name='Elevation - Vector Elements' theme='el' themeId=''>
-    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/el-vec/5.0/ElevationVectorElements.xsd' />
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/el-vec/3.0/ElevationVectorElements.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/el-vec/4.0/ElevationVectorElements.xsd' />
+    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/el-vec/5.0/ElevationVectorElements.xsd' />
+  </applicationSchema>
+  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/elu' name='Existing Land Use' theme='lu' themeId=''>
+    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/elu/3.0/ExistingLandUse.xsd' />
+    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/elu/4.0/ExistingLandUse.xsd' />
   </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/er-b' name='Energy Resources Base' theme='er' themeId=''>
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/er-b/3.0/EnergyResourcesBase.xsd' />
@@ -78,52 +94,13 @@
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/er-c/3.0/EnergyResourcesCoverage.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/er-c/4.0/EnergyResourcesCoverage.xsd' />
   </applicationSchema>
+  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/er-s' name='Energy Statistics' theme='er' themeId='' />
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/er-v' name='Energy Resources Vector' theme='er' themeId=''>
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/er-v/3.0/EnergyResourcesVector.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/er-v/4.0/EnergyResourcesVector.xsd' />
   </applicationSchema>
-  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/ef' name='Environmental Monitoring Facilities' theme='ef' themeId=''>
-    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/ef/3.0/EnvironmentalMonitoringFacilities.xsd' />
-    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/ef/4.0/EnvironmentalMonitoringFacilities.xsd' />
-  </applicationSchema>
-  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/act-core' name='Activity Complex' theme='' themeId=''>
-    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/act-core/3.0/ActivityComplex_Core.xsd' />
-    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/act-core/4.0/ActivityComplex_Core.xsd' />
-  </applicationSchema>
-  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/base' name='Base Types' theme='' themeId=''>
-    <schema version='3.2' url='https://inspire.ec.europa.eu/schemas/base/3.2/BaseTypes.xsd' />
-    <schema version='3.3' url='https://inspire.ec.europa.eu/schemas/base/3.3/BaseTypes.xsd' />
-    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/base/4.0/BaseTypes.xsd' />
-  </applicationSchema>
-  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/base2' name='Base Types 2' theme='' themeId=''>
-    <schema version='2.0' url='https://inspire.ec.europa.eu/schemas/base2/2.0/BaseTypes2.xsd' />
-    <schema version='1.0' url='https://inspire.ec.europa.eu/schemas/base2/1.0/BaseTypes2.xsd' />
-  </applicationSchema>
-  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/cvbase' name='Coverages (Base)' theme='' themeId=''>
-    <schema version='2.0' url='https://inspire.ec.europa.eu/schemas/cvbase/2.0/CoverageBase.xsd' />
-    <schema version='1.0' url='https://inspire.ec.europa.eu/schemas/cvbase/1.0/CoverageBase.xsd' />
-  </applicationSchema>
-  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/gmlcov' name='Coverages (Domain and Range)' theme='' themeId='' />
-  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/net' name='Network' theme='' themeId=''>
-    <schema version='3.2' url='https://inspire.ec.europa.eu/schemas/net/3.2/Network.xsd' />
-    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/net/4.0/Network.xsd' />
-  </applicationSchema>
-  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/omop' name='Observable Properties' theme='' themeId=''>
-    <schema version='2.0' url='https://inspire.ec.europa.eu/schemas/omop/2.0/ObservableProperties.xsd' />
-    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/omop/3.0/ObservableProperties.xsd' />
-    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/omop/4.0/ObservableProperties.xsd' />
-  </applicationSchema>
-  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/omor' name='Observation References' theme='' themeId=''>
-    <schema version='2.0' url='https://inspire.ec.europa.eu/schemas/omor/2.0/ObservationReferences.xsd' />
-    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/omor/3.0/ObservationReferences.xsd' />
-  </applicationSchema>
-  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/omso' name='Specialised Observations' theme='' themeId=''>
-    <schema version='2.0' url='https://inspire.ec.europa.eu/schemas/omso/2.0/SpecialisedObservations.xsd' />
-    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/omso/3.0/SpecialisedObservations.xsd' />
-  </applicationSchema>
-  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/gn' name='Geographical Names' theme='gn' themeId=''>
-    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/gn/3.0/GeographicalNames.xsd' />
-    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/gn/4.0/GeographicalNames.xsd' />
+  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/gaz' name='Gazetteer' theme='' themeId=''>
+    <schema version='3.2' url='https://inspire.ec.europa.eu/schemas/gaz/3.2/Gazetteer.xsd' />
   </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/ge' name='Geology' theme='ge' themeId=''>
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/ge-core/3.0/GeologyCore.xsd' />
@@ -137,28 +114,38 @@
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/ge_hg/3.0/HydrogeologyCore.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/ge_hg/4.0/HydrogeologyCore.xsd' />
   </applicationSchema>
+  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/gelu' name='Gridded Land Use' theme='lu' themeId=''>
+    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/gelu/3.0/GriddedExistingLandUse.xsd' />
+    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/gelu/4.0/GriddedExistingLandUse.xsd' />
+  </applicationSchema>
+  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/gmlcov' name='Coverages (Domain and Range)' theme='' themeId='' />
+  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/gn' name='Geographical Names' theme='gn' themeId=''>
+    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/gn/3.0/GeographicalNames.xsd' />
+    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/gn/4.0/GeographicalNames.xsd' />
+  </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/hb' name='Habitats and Biotopes' theme='hb' themeId=''>
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/hb/3.0/HabitatsAndBiotopes.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/hb/4.0/HabitatsAndBiotopes.xsd' />
   </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/hh' name='Human Health' theme='hh' themeId=''>
-    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/hh/5.0/HumanHealth.xsd' />
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/hh/3.0/HumanHealth.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/hh/4.0/HumanHealth.xsd' />
+    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/hh/5.0/HumanHealth.xsd' />
   </applicationSchema>
+  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/hh-sa' name='Safety' theme='hh' themeId='' />
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/hy' name='Hydro - Base' theme='hy' themeId=''>
-    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/hy/5.0/HydroBase.xsd' />
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/hy/3.0/HydroBase.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/hy/4.0/HydroBase.xsd' />
+    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/hy/5.0/HydroBase.xsd' />
   </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/hy-n' name='Hydro - Network' theme='hy' themeId=''>
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/hy-n/3.0/HydroNetwork.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/hy-n/4.0/HydroNetwork.xsd' />
   </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/hy-p' name='Hydro - Physical Waters' theme='hy' themeId=''>
-    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/hy-p/5.0/HydroPhysicalWaters.xsd' />
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/hy-p/3.0/HydroPhysicalWaters.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/hy-p/4.0/HydroPhysicalWaters.xsd' />
+    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/hy-p/5.0/HydroPhysicalWaters.xsd' />
   </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/lcn' name='Land Cover Nomenclature' theme='lc' themeId=''>
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/lcn/3.0/LandCoverNomenclature.xsd' />
@@ -169,38 +156,31 @@
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/lcr/4.0/LandCoverRaster.xsd' />
   </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/lcv' name='Land Cover Vector' theme='lc' themeId=''>
-    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/lcv/5.0/LandCoverVector.xsd' />
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/lcv/3.0/LandCoverVector.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/lcv/4.0/LandCoverVector.xsd' />
-  </applicationSchema>
-  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/elu' name='Existing Land Use' theme='lu' themeId=''>
-    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/elu/3.0/ExistingLandUse.xsd' />
-    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/elu/4.0/ExistingLandUse.xsd' />
-  </applicationSchema>
-  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/gelu' name='Gridded Land Use' theme='lu' themeId=''>
-    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/gelu/3.0/GriddedExistingLandUse.xsd' />
-    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/gelu/4.0/GriddedExistingLandUse.xsd' />
+    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/lcv/5.0/LandCoverVector.xsd' />
   </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/lunom' name='Land Use Nomenclature' theme='lu' themeId=''>
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/lunom/3.0/LandUseNomenclature.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/lunom/4.0/LandUseNomenclature.xsd' />
   </applicationSchema>
-  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/plu' name='Planned Land Use' theme='lu' themeId=''>
-    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/plu/3.0/PlannedLandUse.xsd' />
-    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/plu/4.0/PlannedLandUse.xsd' />
-  </applicationSchema>
-  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/selu' name='Sampled Land Use' theme='lu' themeId=''>
-    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/selu/3.0/SampledExistingLandUse.xsd' />
-    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/selu/4.0/SampledExistingLandUse.xsd' />
-  </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/mr-core' name='Mineral Resources' theme='mr' themeId=''>
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/mr-core/3.0/MineralResourcesCore.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/mr-core/4.0/MineralResourcesCore.xsd' />
   </applicationSchema>
+  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/mu' name='Maritime Units' theme='au' themeId=''>
+    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/mu/3.0/MaritimeUnits.xsd' />
+    <schema version='3.0rc3' url='https://inspire.ec.europa.eu/schemas/mu/3.0rc3/MaritimeUnits.xsd' />
+    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/mu/4.0/MaritimeUnits.xsd' />
+  </applicationSchema>
+  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/net' name='Network' theme='' themeId=''>
+    <schema version='3.2' url='https://inspire.ec.europa.eu/schemas/net/3.2/Network.xsd' />
+    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/net/4.0/Network.xsd' />
+  </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/nz-core' name='Natural Risk Zones' theme='nz' themeId=''>
-    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/nz-core/5.0/NaturalRiskZonesCore.xsd' />
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/nz-core/3.0/NaturalRiskZonesCore.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/nz-core/4.0/NaturalRiskZonesCore.xsd' />
+    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/nz-core/5.0/NaturalRiskZonesCore.xsd' />
   </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/of' name='Oceanographic Geographical Features' theme='of' themeId=''>
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/of/3.0/OceanFeatures.xsd' />
@@ -210,6 +190,23 @@
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/oi/3.0/Orthoimagery.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/oi/4.0/Orthoimagery.xsd' />
   </applicationSchema>
+  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/omop' name='Observable Properties' theme='' themeId=''>
+    <schema version='2.0' url='https://inspire.ec.europa.eu/schemas/omop/2.0/ObservableProperties.xsd' />
+    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/omop/3.0/ObservableProperties.xsd' />
+    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/omop/4.0/ObservableProperties.xsd' />
+  </applicationSchema>
+  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/omor' name='Observation References' theme='' themeId=''>
+    <schema version='2.0' url='https://inspire.ec.europa.eu/schemas/omor/2.0/ObservationReferences.xsd' />
+    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/omor/3.0/ObservationReferences.xsd' />
+  </applicationSchema>
+  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/ompr' name='Processes' theme='' themeId=''>
+    <schema version='2.0' url='https://inspire.ec.europa.eu/schemas/ompr/2.0/Processes.xsd' />
+    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/ompr/3.0/Processes.xsd' />
+  </applicationSchema>
+  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/omso' name='Specialised Observations' theme='' themeId=''>
+    <schema version='2.0' url='https://inspire.ec.europa.eu/schemas/omso/2.0/SpecialisedObservations.xsd' />
+    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/omso/3.0/SpecialisedObservations.xsd' />
+  </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/pd' name='Population Distribution - Demography' theme='pd' themeId=''>
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/pd/3.0/PopulationDistributionDemography.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/pd/4.0/PopulationDistributionDemography.xsd' />
@@ -218,22 +215,30 @@
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/pf/3.0/ProductionAndIndustrialFacilities.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/pf/4.0/ProductionAndIndustrialFacilities.xsd' />
   </applicationSchema>
+  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/plu' name='Planned Land Use' theme='lu' themeId=''>
+    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/plu/3.0/PlannedLandUse.xsd' />
+    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/plu/4.0/PlannedLandUse.xsd' />
+  </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/ps' name='Protected Sites Simple' theme='ps' themeId=''>
-    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/ps/5.0/ProtectedSites.xsd' />
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/ps/3.0/ProtectedSites.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/ps/4.0/ProtectedSites.xsd' />
+    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/ps/5.0/ProtectedSites.xsd' />
   </applicationSchema>
-  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/sr' name='Sea Regions' theme='sr' themeId=''>
-    <schema version='0.0' url='https://inspire.ec.europa.eu/schemas/sr/0.0/SeaRegions.xsd' />
-    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/sr/4.0/SeaRegions.xsd' />
+  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/sd' name='Species Distribution' theme='sd' themeId=''>
+    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/sd/3.0/SpeciesDistribution.xsd' />
+    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/sd/4.0/SpeciesDistribution.xsd' />
+  </applicationSchema>
+  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/selu' name='Sampled Land Use' theme='lu' themeId=''>
+    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/selu/3.0/SampledExistingLandUse.xsd' />
+    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/selu/4.0/SampledExistingLandUse.xsd' />
   </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/so' name='Soil' theme='so' themeId=''>
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/so/3.0/Soil.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/so/4.0/Soil.xsd' />
   </applicationSchema>
-  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/sd' name='Species Distribution' theme='sd' themeId=''>
-    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/sd/3.0/SpeciesDistribution.xsd' />
-    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/sd/4.0/SpeciesDistribution.xsd' />
+  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/sr' name='Sea Regions' theme='sr' themeId=''>
+    <schema version='0.0' url='https://inspire.ec.europa.eu/schemas/sr/0.0/SeaRegions.xsd' />
+    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/sr/4.0/SeaRegions.xsd' />
   </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/su-core' name='Statistical Units Base' theme='su' themeId=''>
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/su-core/3.0/StatisticalUnitCore.xsd' />
@@ -247,6 +252,11 @@
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/su-vector/3.0/StatisticalUnitVector.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/su-vector/4.0/StatisticalUnitVector.xsd' />
   </applicationSchema>
+  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/tn' name='Common Transport Elements' theme='tn' themeId=''>
+    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/tn/3.0/CommonTransportElements.xsd' />
+    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/tn/4.0/CommonTransportElements.xsd' />
+    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/tn/5.0/CommonTransportElements.xsd' />
+  </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/tn-a' name='Air Transport Network' theme='tn' themeId=''>
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/tn-a/3.0/AirTransportNetwork.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/tn-a/4.0/AirTransportNetwork.xsd' />
@@ -255,68 +265,58 @@
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/tn-c/3.0/CableTransportNetwork.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/tn-c/4.0/CableTransportNetwork.xsd' />
   </applicationSchema>
-  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/tn' name='Common Transport Elements' theme='tn' themeId=''>
-    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/tn/5.0/CommonTransportElements.xsd' />
-    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/tn/3.0/CommonTransportElements.xsd' />
-    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/tn/4.0/CommonTransportElements.xsd' />
-  </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/tn-ra' name='Railway Transport Network' theme='tn' themeId=''>
-    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/tn-ra/5.0/RailwayTransportNetwork.xsd' />
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/tn-ra/3.0/RailwayTransportNetwork.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/tn-ra/4.0/RailwayTransportNetwork.xsd' />
+    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/tn-ra/5.0/RailwayTransportNetwork.xsd' />
   </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/tn-ro' name='Road Transport Network' theme='tn' themeId=''>
-    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/tn-ro/5.0/RoadTransportNetwork.xsd' />
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/tn-ro/3.0/RoadTransportNetwork.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/tn-ro/4.0/RoadTransportNetwork.xsd' />
+    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/tn-ro/5.0/RoadTransportNetwork.xsd' />
   </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/tn-w' name='Water Transport Network' theme='tn' themeId=''>
-    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/tn-w/5.0/WaterTransportNetwork.xsd' />
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/tn-w/3.0/WaterTransportNetwork.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/tn-w/4.0/WaterTransportNetwork.xsd' />
-  </applicationSchema>
-  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/us-govserv' name='Administrative and Social Governmental Services' theme='us' themeId=''>
-    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/us-govserv/5.0/GovernmentalServices.xsd' />
-    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/us-govserv/3.0/GovernmentalServices.xsd' />
-    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/us-govserv/4.0/GovernmentalServices.xsd' />
-  </applicationSchema>
-  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/us-net-common' name='Common Utility Network Elements' theme='us' themeId=''>
-    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/us-net-common/5.0/UtilityNetworksCommon.xsd' />
-    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/us-net-common/3.0/UtilityNetworksCommon.xsd' />
-    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/us-net-common/4.0/UtilityNetworksCommon.xsd' />
-  </applicationSchema>
-  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/us-net-el' name='Electricity Network' theme='us' themeId=''>
-    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/us-net-el/5.0/ElectricityNetwork.xsd' />
-    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/us-net-el/3.0/ElectricityNetwork.xsd' />
-    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/us-net-el/4.0/ElectricityNetwork.xsd' />
+    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/tn-w/5.0/WaterTransportNetwork.xsd' />
   </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/us-emf' name='Environmental Management Facilities' theme='us' themeId=''>
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/us-emf/3.0/EnvironmentalManagementFacilities.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/us-emf/4.0/EnvironmentalManagementFacilities.xsd' />
   </applicationSchema>
+  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/us-govserv' name='Administrative and Social Governmental Services' theme='us' themeId=''>
+    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/us-govserv/3.0/GovernmentalServices.xsd' />
+    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/us-govserv/4.0/GovernmentalServices.xsd' />
+    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/us-govserv/5.0/GovernmentalServices.xsd' />
+  </applicationSchema>
+  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/us-net-common' name='Common Utility Network Elements' theme='us' themeId=''>
+    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/us-net-common/3.0/UtilityNetworksCommon.xsd' />
+    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/us-net-common/4.0/UtilityNetworksCommon.xsd' />
+    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/us-net-common/5.0/UtilityNetworksCommon.xsd' />
+  </applicationSchema>
+  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/us-net-el' name='Electricity Network' theme='us' themeId=''>
+    <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/us-net-el/3.0/ElectricityNetwork.xsd' />
+    <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/us-net-el/4.0/ElectricityNetwork.xsd' />
+    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/us-net-el/5.0/ElectricityNetwork.xsd' />
+  </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/us-net-ogc' name='Oil-Gas-Chemicals Network' theme='us' themeId=''>
-    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/us-net-ogc/5.0/OilGasChemicalsNetwork.xsd' />
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/us-net-ogc/3.0/OilGasChemicalsNetwork.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/us-net-ogc/4.0/OilGasChemicalsNetwork.xsd' />
+    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/us-net-ogc/5.0/OilGasChemicalsNetwork.xsd' />
   </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/us-net-sw' name='Sewer Network' theme='us' themeId=''>
-    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/us-net-sw/5.0/SewerNetwork.xsd' />
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/us-net-sw/3.0/SewerNetwork.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/us-net-sw/4.0/SewerNetwork.xsd' />
+    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/us-net-sw/5.0/SewerNetwork.xsd' />
   </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/us-net-th' name='Thermal Network' theme='us' themeId=''>
-    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/us-net-th/5.0/ThermalNetwork.xsd' />
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/us-net-th/3.0/ThermalNetwork.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/us-net-th/4.0/ThermalNetwork.xsd' />
+    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/us-net-th/5.0/ThermalNetwork.xsd' />
   </applicationSchema>
   <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/us-net-wa' name='Water Network' theme='us' themeId=''>
-    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/us-net-wa/5.0/WaterNetwork.xsd' />
     <schema version='3.0' url='https://inspire.ec.europa.eu/schemas/us-net-wa/3.0/WaterNetwork.xsd' />
     <schema version='4.0' url='https://inspire.ec.europa.eu/schemas/us-net-wa/4.0/WaterNetwork.xsd' />
+    <schema version='5.0' url='https://inspire.ec.europa.eu/schemas/us-net-wa/5.0/WaterNetwork.xsd' />
   </applicationSchema>
-  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/gaz' name='Gazetteer' theme='' themeId=''>
-    <schema version='3.2' url='https://inspire.ec.europa.eu/schemas/gaz/3.2/Gazetteer.xsd' />
-  </applicationSchema>
-  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/hh-sa' name='Safety' theme='hh' themeId='' />
-  <applicationSchema id='http://inspire.ec.europa.eu/applicationschema/er-s' name='Energy Statistics' theme='er' themeId='' />
 </applicationSchemas>
