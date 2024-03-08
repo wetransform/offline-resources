@@ -4,10 +4,10 @@ on:
   pull_request:
     branches:
       - master
-  push:
-    branches:
-      # run checks also for renovate branches for auto-merge
-      # - 'renovate/**'
+  # push:
+  #   branches:
+  #     run checks also for renovate branches for auto-merge
+  #     - 'renovate/**'
 
 jobs:
   check-update:
