@@ -284,6 +284,9 @@ class INSPIREDownloadTask extends DefaultTask {
 
     def inspireShortIdRegex = '^http://inspire.ec.europa.eu/applicationschema/([^/]*)$'
 
+    // sort application schemas by ID to have a consistent representation
+    appSchemas = appSchemas.sort { it.id }
+
     target.withWriter {
       it << '<?xml version="1.0"?>\n'
       def xml = new groovy.xml.MarkupBuilder(it)
@@ -303,9 +306,12 @@ class INSPIREDownloadTask extends DefaultTask {
             folders.each { File folder ->
               File asDir = new File(folder, shortId)
               if (asDir.exists()) {
-                // find version subfolders
-                asDir.eachDir { File versionDir ->
-                  versionDir.eachFileMatch(~/.*\.xsd/) { File xsd ->
+                // find version subfolders and sort to have consistent represention
+                def versionDirs = asDir.listFiles().findAll { it.isDirectory() }.sort { it.name }
+                versionDirs.each { File versionDir ->
+                  // find XSD files and sort to have a consistent representation
+                  def xsdFiles = versionDir.listFiles().findAll { it.isFile() && it.name =~ ~/.*\.xsd/ }.sort { it.name }
+                  xsdFiles.each { File xsd ->
                     xml.schema(
                       version: versionDir.name,
                       url: "https://inspire.ec.europa.eu/${folder.name}/${asDir.name}/${versionDir.name}/${xsd.name}"
