@@ -34,7 +34,7 @@ jobs:
         java-version: 17
 
     - name: Setup Gradle
-      uses: gradle/actions/setup-gradle@v3
+      uses: gradle/actions/setup-gradle@417ae3ccd767c252f5661f1ace9f835f9654f2b5 # v3
 
     - name: Build jars and test
       run: |
@@ -67,7 +67,7 @@ jobs:
       run: ./gradlew updateSite # Note: requires jars and publishJarsToMavenLocal to have run before
 
     - name: Install AWS CLI
-      uses: unfor19/install-aws-cli-action@v1
+      uses: unfor19/install-aws-cli-action@e8b481e524a99f37fbd39fdc1dcb3341ab091367 # v1
       with:
         version: 1
 
@@ -81,7 +81,7 @@ jobs:
 
     - name: Notify slack on failure
       # https://github.com/marketplace/actions/slack-notify-build
-      uses: voxmedia/github-action-slack-notify-build@v1
+      uses: voxmedia/github-action-slack-notify-build@a16c99c8c65bf5de29482033b665fb8656ba99a0 # v1
       if: failure()
       env:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_NOTIFICATIONS_BOT_TOKEN }}
