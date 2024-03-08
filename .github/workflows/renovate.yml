@@ -35,8 +35,8 @@ env:
   # Run renovate in dry-run mode if executed in branches other than master - prevents versions in PRs/branches from being updated
   RENOVATE_DRY_RUN: "${{ inputs.dryRun || ( github.head_ref || github.ref_name ) != 'master' || false }}"
   # Renovate Automerge
-  RENOVATE_AUTOMERGE_TYPE: "branch"
-  RENOVATE_AUTOMERGE: "true"
+  # RENOVATE_AUTOMERGE_TYPE: "branch" # auto-merge without creating PR (requires checks to run on renovate branches)
+  # RENOVATE_AUTOMERGE: "true"
 
 permissions: read-all
 
