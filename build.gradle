@@ -15,7 +15,7 @@ buildscript {
     // for Config class
     classpath 'eu.esdihumboldt.hale:eu.esdihumboldt.util.config:4.0.0'
     // for XMLSchemaUpdater (depends on https://github.com/halestudio/hale/pull/731)
-    classpath 'eu.esdihumboldt.hale:eu.esdihumboldt.hale.common.core:4.0.0'
+    classpath 'eu.esdihumboldt.hale:eu.esdihumboldt.hale.common.core:5.1.0'
 
     classpath 'org.ajoberstar.grgit:grgit-core:4.1.1'
   }
