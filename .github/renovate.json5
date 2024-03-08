@@ -39,7 +39,7 @@
     },
   ],
   prBodyTemplate: "{{{table}}}{{{notes}}}{{{changelogs}}}",
-  rebaseWhen: "behind-base-branch",
+  rebaseWhen: "conflicted", // avoid too many PR builds for renovate changes; Note: may cause problems with automerge
   regexManagers: [
     {
       extractVersionTemplate: "{{#if extractVersion}}{{{extractVersion}}}{{else}}^v?(?<version>.+)${{/if}}",
