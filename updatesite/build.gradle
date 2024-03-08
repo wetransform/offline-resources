@@ -23,7 +23,7 @@ buildscript {
 }
 
 plugins {
-  id "org.standardout.bnd-platform" version "3.0.0"
+  id "org.standardout.bnd-platform" version "3.0.1"
 }
 
 def pubs = file(project.findProperty('publications') ?: file('build/jars'))
