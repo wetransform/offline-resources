@@ -378,7 +378,14 @@ class INSPIREDownloadTask extends DefaultTask {
 
     File applicationtempschemas = new File(temporaryDir, 'application-schemas-main')
     File tempRoot = new File(applicationtempschemas, 'tmp-schemas')
-    def versions = ['2021.1', '2021.2', '2022.1', '2022.2', '2023.1']
+    def versions = new File(applicationtempschemas, "schemas").listFiles().findAll { file ->
+      file.isDirectory() && file.name =~ /^[2-9][0-9]{3}\.\d+$/
+    }.collect { it.name }.sort()
+    println "Identified versions in 'schemas': ${versions.join(', ')}"
+    // safety check
+    assert versions.contains('2023.1')
+    assert versions[0] == '2021.1'
+
     // copy all versions in order
     versions.each { v ->
       project.copy {
