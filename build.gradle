@@ -388,24 +388,23 @@ class INSPIREDownloadTask extends DefaultTask {
       }
     }
 
+    // copy all files from main folder
     project.copy {
       from new File(applicationtempschemas, "schemas")
       into tempRoot
       include '**/*'
     }
 
-    File applicationTempSchemasfolder = new File(applicationtempschemas, 'schemas')
-    applicationTempSchemasfolder.deleteDir()
-    File applicationTempSchemasfolderNew = new File(applicationtempschemas, 'schemas')
-    tempRoot.renameTo(applicationTempSchemasfolderNew)
+    // delete schemas folder and move schemas aggregated in temp folder to its location
+    File schemasFolder = new File(applicationtempschemas, 'schemas')
+    schemasFolder.deleteDir()
+    tempRoot.renameTo(schemasFolder)
 
-    // List all files in the subfolder
-    def files = applicationtempschemas.listFiles()
-
-    // Copy each file to the parent folder
-    files.each { file ->
-      def destination = new File(targetDir, file.name)
-      file.renameTo(destination)
+    // copy files to target folder
+    project.copy {
+      from applicationtempschemas
+      into targetDir
+      include '**/*'
     }
 
     // create application schema index file (used by hale-studio specific bundle)
