@@ -79,6 +79,17 @@ jobs:
         rm updatesite/p2/*_version.json || true # delete old version files that had wrong file name
       shell: bash
 
+    - name: Verify that update site was downloaded
+      run: |
+        folder=upatesite/p2
+        if [ -z "$(ls -A "$folder")" ]; then
+            echo "Error: The folder $folder is empty. No existing update site was downloaded"
+            exit 1
+        else
+            echo "The folder $folder is not empty."
+        fi
+      shell: bash
+
     - name: Create update site and append to existing one
       env:
           # CI marker
@@ -90,7 +101,7 @@ jobs:
         AWS_ACCESS_KEY_ID: ${{ secrets.BUILD_ARCHIVE_ACCESS_KEY }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.BUILD_ARCHIVE_SECRET_KEY }}
       run: |
-        aws s3 sync updatesite/p2 s3://build-artifacts.wetransform.to/p2/offline-resources/site --acl public-read --region eu-central-1
+        aws s3 sync updatesite/p2 s3://build-artifacts.wetransform.to/p2/offline-resources/site --acl public-read --delete --region eu-central-1
       shell: bash
 
     - name: Notify slack on failure
