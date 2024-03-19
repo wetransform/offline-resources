@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<enumeration xmlns="http://inspire.ec.europa.eu/enumeration_register/Enumeration" xsi:schemaLocation="http://inspire.ec.europa.eu/enumeration_register/Enumeration http://inspire.ec.europa.eu/registry/schemas/2.0/Enumeration.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/enumeration/LegalStatusValue">
+   <language>en</language>
+   <created>2015-10-14 11:08 AM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/enumeration/LegalStatusValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/enumeration/LegalStatusValue</latestversion>
+   <label xml:lang="en">Legal status</label>
+   <definition xml:lang="en">Description of the legal status of administrative boundaries.</definition>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/au">
+      <label xml:lang="en">Administrative Units</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/au">
+      <label xml:lang="en">Administrative units</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="Enumeration">
+      <label xml:lang="en">Enumeration</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/enumeration">
+      <label xml:lang="en">INSPIRE enumeration register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/enumeration/LegalStatusValue/agreed">
+         <language>en</language>
+         <created>2015-10-14 11:08 AM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/LegalStatusValue/agreed:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/enumeration/LegalStatusValue/agreed</latestversion>
+         <label xml:lang="en">agreed</label>
+         <definition xml:lang="en">The edge-matched boundary has been agreed between neighbouring administrative units and is stable now</definition>
+         <enumeration id="http://inspire.ec.europa.eu/enumeration/LegalStatusValue">
+            <label xml:lang="en">Legal status</label>
+         </enumeration>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/au">
+            <label xml:lang="en">Administrative Units</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/au">
+            <label xml:lang="en">Administrative units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="EnumerationValue">
+            <label xml:lang="en">EnumerationValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/enumeration">
+            <label xml:lang="en">INSPIRE enumeration register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/enumeration/LegalStatusValue/notAgreed">
+         <language>en</language>
+         <created>2015-10-14 11:08 AM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/LegalStatusValue/notAgreed:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/enumeration/LegalStatusValue/notAgreed</latestversion>
+         <label xml:lang="en">notAgreed</label>
+         <definition xml:lang="en">The edge-matched boundary has not yet been agreed between neighbouring administrative units and could be changed</definition>
+         <enumeration id="http://inspire.ec.europa.eu/enumeration/LegalStatusValue">
+            <label xml:lang="en">Legal status</label>
+         </enumeration>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/au">
+            <label xml:lang="en">Administrative Units</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/au">
+            <label xml:lang="en">Administrative units</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="EnumerationValue">
+            <label xml:lang="en">EnumerationValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/enumeration">
+            <label xml:lang="en">INSPIRE enumeration register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></enumeration>

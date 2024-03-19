@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue">
+   <language>en</language>
+   <created>2024-03-19 18:40 PM CET</created>
+   <thisversion>http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue</latestversion>
+   <label xml:lang="en">Protection classification</label>
+   <definition xml:lang="en">The protected site classification based on the purpose of protection.</definition>
+   <description xml:lang="en"></description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+      <label xml:lang="en">Protected Sites Simple</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/ps">
+      <label xml:lang="en">Protected sites</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register></codelist>

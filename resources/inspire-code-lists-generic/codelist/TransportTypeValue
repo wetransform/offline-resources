@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<enumeration xmlns="http://inspire.ec.europa.eu/enumeration_register/Enumeration" xsi:schemaLocation="http://inspire.ec.europa.eu/enumeration_register/Enumeration http://inspire.ec.europa.eu/registry/schemas/2.0/Enumeration.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/enumeration/TransportTypeValue">
+   <language>en</language>
+   <created>2015-10-14 11:08 AM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/enumeration/TransportTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/enumeration/TransportTypeValue</latestversion>
+   <label xml:lang="en">Transport type</label>
+   <definition xml:lang="en">Possible types on transport networks.</definition>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn">
+      <label xml:lang="en">Common Transport Elements</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/tn">
+      <label xml:lang="en">Transport networks</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="Enumeration">
+      <label xml:lang="en">Enumeration</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/enumeration">
+      <label xml:lang="en">INSPIRE enumeration register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/enumeration/TransportTypeValue/air">
+         <language>en</language>
+         <created>2015-10-14 11:08 AM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/TransportTypeValue/air:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/enumeration/TransportTypeValue/air</latestversion>
+         <label xml:lang="en">air</label>
+         <definition xml:lang="en">The transport network consists of transport by air</definition>
+         <enumeration id="http://inspire.ec.europa.eu/enumeration/TransportTypeValue">
+            <label xml:lang="en">Transport type</label>
+         </enumeration>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn">
+            <label xml:lang="en">Common Transport Elements</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="EnumerationValue">
+            <label xml:lang="en">EnumerationValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/enumeration">
+            <label xml:lang="en">INSPIRE enumeration register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/enumeration/TransportTypeValue/cable">
+         <language>en</language>
+         <created>2015-10-14 11:08 AM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/TransportTypeValue/cable:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/enumeration/TransportTypeValue/cable</latestversion>
+         <label xml:lang="en">cable</label>
+         <definition xml:lang="en">The transport network consists of transport by cable</definition>
+         <enumeration id="http://inspire.ec.europa.eu/enumeration/TransportTypeValue">
+            <label xml:lang="en">Transport type</label>
+         </enumeration>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn">
+            <label xml:lang="en">Common Transport Elements</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="EnumerationValue">
+            <label xml:lang="en">EnumerationValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/enumeration">
+            <label xml:lang="en">INSPIRE enumeration register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/enumeration/TransportTypeValue/rail">
+         <language>en</language>
+         <created>2015-10-14 11:08 AM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/TransportTypeValue/rail:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/enumeration/TransportTypeValue/rail</latestversion>
+         <label xml:lang="en">rail</label>
+         <definition xml:lang="en">The transport network consists of transport by rail</definition>
+         <enumeration id="http://inspire.ec.europa.eu/enumeration/TransportTypeValue">
+            <label xml:lang="en">Transport type</label>
+         </enumeration>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn">
+            <label xml:lang="en">Common Transport Elements</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="EnumerationValue">
+            <label xml:lang="en">EnumerationValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/enumeration">
+            <label xml:lang="en">INSPIRE enumeration register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/enumeration/TransportTypeValue/road">
+         <language>en</language>
+         <created>2015-10-14 11:08 AM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/TransportTypeValue/road:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/enumeration/TransportTypeValue/road</latestversion>
+         <label xml:lang="en">road</label>
+         <definition xml:lang="en">The transport network consists of transport by road</definition>
+         <enumeration id="http://inspire.ec.europa.eu/enumeration/TransportTypeValue">
+            <label xml:lang="en">Transport type</label>
+         </enumeration>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn">
+            <label xml:lang="en">Common Transport Elements</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="EnumerationValue">
+            <label xml:lang="en">EnumerationValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/enumeration">
+            <label xml:lang="en">INSPIRE enumeration register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/enumeration/TransportTypeValue/water">
+         <language>en</language>
+         <created>2015-10-14 11:08 AM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/TransportTypeValue/water:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/enumeration/TransportTypeValue/water</latestversion>
+         <label xml:lang="en">water</label>
+         <definition xml:lang="en">The transport network consists of transport by water</definition>
+         <enumeration id="http://inspire.ec.europa.eu/enumeration/TransportTypeValue">
+            <label xml:lang="en">Transport type</label>
+         </enumeration>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn">
+            <label xml:lang="en">Common Transport Elements</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="EnumerationValue">
+            <label xml:lang="en">EnumerationValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/enumeration">
+            <label xml:lang="en">INSPIRE enumeration register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></enumeration>

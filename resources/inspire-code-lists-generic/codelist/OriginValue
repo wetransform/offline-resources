@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<enumeration xmlns="http://inspire.ec.europa.eu/enumeration_register/Enumeration" xsi:schemaLocation="http://inspire.ec.europa.eu/enumeration_register/Enumeration http://inspire.ec.europa.eu/registry/schemas/2.0/Enumeration.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/enumeration/OriginValue">
+   <language>en</language>
+   <created>2015-10-14 11:08 AM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/enumeration/OriginValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/enumeration/OriginValue</latestversion>
+   <label xml:lang="en">Origin</label>
+   <definition xml:lang="en">An enumeration type specifying a set of hydrographic ''origin'' categories (natural, man-made) for various hydrographic objects.</definition>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hy-p">
+      <label xml:lang="en">Hydro - Physical Waters</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/hy">
+      <label xml:lang="en">Hydrography</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="Enumeration">
+      <label xml:lang="en">Enumeration</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/enumeration">
+      <label xml:lang="en">INSPIRE enumeration register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/enumeration/OriginValue/natural">
+         <language>en</language>
+         <created>2015-10-14 11:08 AM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/OriginValue/natural:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/enumeration/OriginValue/natural</latestversion>
+         <label xml:lang="en">natural</label>
+         <definition xml:lang="en">An indication that a spatial object is natural</definition>
+         <enumeration id="http://inspire.ec.europa.eu/enumeration/OriginValue">
+            <label xml:lang="en">Origin</label>
+         </enumeration>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hy-p">
+            <label xml:lang="en">Hydro - Physical Waters</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hy">
+            <label xml:lang="en">Hydrography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="EnumerationValue">
+            <label xml:lang="en">EnumerationValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/enumeration">
+            <label xml:lang="en">INSPIRE enumeration register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/enumeration/OriginValue/manMade">
+         <language>en</language>
+         <created>2015-10-14 11:08 AM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/OriginValue/manMade:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/enumeration/OriginValue/manMade</latestversion>
+         <label xml:lang="en">manMade</label>
+         <definition xml:lang="en">An indication that a spatial object is man-made</definition>
+         <enumeration id="http://inspire.ec.europa.eu/enumeration/OriginValue">
+            <label xml:lang="en">Origin</label>
+         </enumeration>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hy-p">
+            <label xml:lang="en">Hydro - Physical Waters</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/hy">
+            <label xml:lang="en">Hydrography</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="EnumerationValue">
+            <label xml:lang="en">EnumerationValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/enumeration">
+            <label xml:lang="en">INSPIRE enumeration register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></enumeration>

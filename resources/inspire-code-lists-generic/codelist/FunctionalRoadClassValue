@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<enumeration xmlns="http://inspire.ec.europa.eu/enumeration_register/Enumeration" xsi:schemaLocation="http://inspire.ec.europa.eu/enumeration_register/Enumeration http://inspire.ec.europa.eu/registry/schemas/2.0/Enumeration.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue">
+   <language>en</language>
+   <created>2015-10-14 11:08 AM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue</latestversion>
+   <label xml:lang="en">Functional road class</label>
+   <definition xml:lang="en">Values for the functional road classification. This classification is based on the importance of the role that the road performs in the road network.</definition>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+      <label xml:lang="en">Road Transport Network</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/tn">
+      <label xml:lang="en">Transport networks</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="Enumeration">
+      <label xml:lang="en">Enumeration</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/enumeration">
+      <label xml:lang="en">INSPIRE enumeration register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/mainRoad">
+         <language>en</language>
+         <created>2015-10-14 11:08 AM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/mainRoad:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/mainRoad</latestversion>
+         <label xml:lang="en">mainRoad</label>
+         <definition xml:lang="en">The most important roads in a given network</definition>
+         <enumeration id="http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue">
+            <label xml:lang="en">Functional road class</label>
+         </enumeration>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="EnumerationValue">
+            <label xml:lang="en">EnumerationValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/enumeration">
+            <label xml:lang="en">INSPIRE enumeration register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/firstClass">
+         <language>en</language>
+         <created>2015-10-14 11:08 AM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/firstClass:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/firstClass</latestversion>
+         <label xml:lang="en">firstClass</label>
+         <definition xml:lang="en">The second most important roads in a given network</definition>
+         <enumeration id="http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue">
+            <label xml:lang="en">Functional road class</label>
+         </enumeration>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="EnumerationValue">
+            <label xml:lang="en">EnumerationValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/enumeration">
+            <label xml:lang="en">INSPIRE enumeration register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/secondClass">
+         <language>en</language>
+         <created>2015-10-14 11:08 AM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/secondClass:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/secondClass</latestversion>
+         <label xml:lang="en">secondClass</label>
+         <definition xml:lang="en">The third most important roads in a given network</definition>
+         <enumeration id="http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue">
+            <label xml:lang="en">Functional road class</label>
+         </enumeration>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="EnumerationValue">
+            <label xml:lang="en">EnumerationValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/enumeration">
+            <label xml:lang="en">INSPIRE enumeration register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/thirdClass">
+         <language>en</language>
+         <created>2015-10-14 11:08 AM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/thirdClass:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/thirdClass</latestversion>
+         <label xml:lang="en">thirdClass</label>
+         <definition xml:lang="en">The fourth most important roads in a given network</definition>
+         <enumeration id="http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue">
+            <label xml:lang="en">Functional road class</label>
+         </enumeration>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="EnumerationValue">
+            <label xml:lang="en">EnumerationValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/enumeration">
+            <label xml:lang="en">INSPIRE enumeration register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/fourthClass">
+         <language>en</language>
+         <created>2015-10-14 11:08 AM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/fourthClass:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/fourthClass</latestversion>
+         <label xml:lang="en">fourthClass</label>
+         <definition xml:lang="en">The fifth most important roads in a given network</definition>
+         <enumeration id="http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue">
+            <label xml:lang="en">Functional road class</label>
+         </enumeration>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="EnumerationValue">
+            <label xml:lang="en">EnumerationValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/enumeration">
+            <label xml:lang="en">INSPIRE enumeration register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/fifthClass">
+         <language>en</language>
+         <created>2015-10-14 11:08 AM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/fifthClass:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/fifthClass</latestversion>
+         <label xml:lang="en">fifthClass</label>
+         <definition xml:lang="en">The sixth most important roads in a given network</definition>
+         <enumeration id="http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue">
+            <label xml:lang="en">Functional road class</label>
+         </enumeration>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="EnumerationValue">
+            <label xml:lang="en">EnumerationValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/enumeration">
+            <label xml:lang="en">INSPIRE enumeration register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/sixthClass">
+         <language>en</language>
+         <created>2015-10-14 11:08 AM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/sixthClass:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/sixthClass</latestversion>
+         <label xml:lang="en">sixthClass</label>
+         <definition xml:lang="en">The seventh most important roads in a given network</definition>
+         <enumeration id="http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue">
+            <label xml:lang="en">Functional road class</label>
+         </enumeration>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="EnumerationValue">
+            <label xml:lang="en">EnumerationValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/enumeration">
+            <label xml:lang="en">INSPIRE enumeration register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/seventhClass">
+         <language>en</language>
+         <created>2015-10-14 11:08 AM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/seventhClass:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/seventhClass</latestversion>
+         <label xml:lang="en">seventhClass</label>
+         <definition xml:lang="en">The eighth most important roads in a given network</definition>
+         <enumeration id="http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue">
+            <label xml:lang="en">Functional road class</label>
+         </enumeration>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="EnumerationValue">
+            <label xml:lang="en">EnumerationValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/enumeration">
+            <label xml:lang="en">INSPIRE enumeration register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/eighthClass">
+         <language>en</language>
+         <created>2015-10-14 11:08 AM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/eighthClass:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/eighthClass</latestversion>
+         <label xml:lang="en">eighthClass</label>
+         <definition xml:lang="en">The ninth most important roads in a given network</definition>
+         <enumeration id="http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue">
+            <label xml:lang="en">Functional road class</label>
+         </enumeration>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="EnumerationValue">
+            <label xml:lang="en">EnumerationValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/enumeration">
+            <label xml:lang="en">INSPIRE enumeration register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/ninthClass">
+         <language>en</language>
+         <created>2015-10-14 11:08 AM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/ninthClass:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue/ninthClass</latestversion>
+         <label xml:lang="en">ninthClass</label>
+         <definition xml:lang="en">The least important roads in a given network</definition>
+         <enumeration id="http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue">
+            <label xml:lang="en">Functional road class</label>
+         </enumeration>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="EnumerationValue">
+            <label xml:lang="en">EnumerationValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/enumeration">
+            <label xml:lang="en">INSPIRE enumeration register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></enumeration>

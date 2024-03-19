@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<enumeration xmlns="http://inspire.ec.europa.eu/enumeration_register/Enumeration" xsi:schemaLocation="http://inspire.ec.europa.eu/enumeration_register/Enumeration http://inspire.ec.europa.eu/registry/schemas/2.0/Enumeration.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/enumeration/SurfaceTypeValue">
+   <language>en</language>
+   <created>2015-10-14 11:08 AM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/enumeration/SurfaceTypeValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/enumeration/SurfaceTypeValue</latestversion>
+   <label xml:lang="en">Surface type</label>
+   <definition xml:lang="en">Enumeration type which determines the elevation surface with regard to its relative adherence to the Earth''s bare surface.</definition>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/el-bas">
+      <label xml:lang="en">Elevation - Base Types</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/el">
+      <label xml:lang="en">Elevation</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="Enumeration">
+      <label xml:lang="en">Enumeration</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/enumeration">
+      <label xml:lang="en">INSPIRE enumeration register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/enumeration/SurfaceTypeValue/DTM">
+         <language>en</language>
+         <created>2015-10-14 11:08 AM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/SurfaceTypeValue/DTM:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/enumeration/SurfaceTypeValue/DTM</latestversion>
+         <label xml:lang="en">DTM</label>
+         <definition xml:lang="en">Digital terrain model</definition>
+         <enumeration id="http://inspire.ec.europa.eu/enumeration/SurfaceTypeValue">
+            <label xml:lang="en">Surface type</label>
+         </enumeration>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/el-bas">
+            <label xml:lang="en">Elevation - Base Types</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/el">
+            <label xml:lang="en">Elevation</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="EnumerationValue">
+            <label xml:lang="en">EnumerationValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/enumeration">
+            <label xml:lang="en">INSPIRE enumeration register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/enumeration/SurfaceTypeValue/DSM">
+         <language>en</language>
+         <created>2015-10-14 11:08 AM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/SurfaceTypeValue/DSM:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/enumeration/SurfaceTypeValue/DSM</latestversion>
+         <label xml:lang="en">DSM</label>
+         <definition xml:lang="en">Digital surface model</definition>
+         <enumeration id="http://inspire.ec.europa.eu/enumeration/SurfaceTypeValue">
+            <label xml:lang="en">Surface type</label>
+         </enumeration>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/el-bas">
+            <label xml:lang="en">Elevation - Base Types</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/el">
+            <label xml:lang="en">Elevation</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="EnumerationValue">
+            <label xml:lang="en">EnumerationValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/enumeration">
+            <label xml:lang="en">INSPIRE enumeration register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></enumeration>
