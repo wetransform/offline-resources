@@ -15,16 +15,27 @@ import org.osgi.framework.Version
 buildscript {
   repositories {
     mavenCentral()
+    maven {
+      url 'https://oss.sonatype.org/content/repositories/snapshots/'
+    }
   }
   dependencies {
+    classpath 'org.standardout:bnd-platform:3.1.0-SNAPSHOT'
+
     // for Version class
     classpath 'org.osgi:osgi.core:8.0.0'
   }
 }
 
+apply plugin: 'org.standardout.bnd-platform'
+
+/*
+ * Currently the SNAPSHOT versions needs to be used for support for appending
+ * to existing update sites and creating version files.
 plugins {
   id "org.standardout.bnd-platform" version "3.0.1"
 }
+*/
 
 def pubs = file(project.findProperty('publications') ?: file('build/jars'))
 def pubGroup = project.findProperty('groupId') ?: 'to.wetransform.offline-resources'
@@ -38,11 +49,20 @@ configurations.all {
   resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
 }
 
+def isCI = "true".equals(System.getenv("CI"))
+
 platform {
   featureId = 'to.wetransform.offlineresources.feature'
   featureName = 'Offline Resources'
 
   addBndPlatformManifestHeaders = true
+
+  // if in CI update existing update site in 'p2' folder
+  // otherwise use build folder to create update site
+  updateSiteDir = isCI ? file('p2') : new File(buildDir, 'updatesite')
+  appendUpdateSite = isCI
+  // create version files for use as Renovate data source
+  createFeatureVersionFiles = true
 
   // bundles
 
