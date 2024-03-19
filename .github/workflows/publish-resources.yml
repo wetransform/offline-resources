@@ -63,20 +63,33 @@ jobs:
         ORG_GRADLE_PROJECT_wetfArtifactoryUser: ${{ secrets.WETF_ARTIFACTORY_USER }}
         ORG_GRADLE_PROJECT_wetfArtifactoryPassword: ${{ secrets.WETF_ARTIFACTORY_PASSWORD }}
 
-    - name: Create update site
-      run: ./gradlew updateSite # Note: requires jars and publishJarsToMavenLocal to have run before
-
     - name: Install AWS CLI
       uses: unfor19/install-aws-cli-action@e8b481e524a99f37fbd39fdc1dcb3341ab091367 # v1.0.7
       with:
         version: 1
 
-    - name: Publish update site
+    - name: Download current update site
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.BUILD_ARCHIVE_ACCESS_KEY }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.BUILD_ARCHIVE_SECRET_KEY }}
       run: |
-        aws s3 sync updatesite/build/updatesite s3://build-artifacts.wetransform.to/p2/offline-resources/current --acl public-read --delete --region eu-central-1
+        rm -r updatesite/p2
+        mkdir updatesite/p2
+        aws s3 sync s3://build-artifacts.wetransform.to/p2/offline-resources/site updatesite/p2 --region eu-central-1
+      shell: bash
+
+    - name: Create update site and append to existing one
+      env:
+          # CI marker
+          CI: 'true'
+      run: ./gradlew updateSite # Note: requires jars and publishJarsToMavenLocal to have run before
+
+    - name: Publish combined update site
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.BUILD_ARCHIVE_ACCESS_KEY }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.BUILD_ARCHIVE_SECRET_KEY }}
+      run: |
+        aws s3 sync updatesite/build/updatesite s3://build-artifacts.wetransform.to/p2/offline-resources/site --acl public-read --region eu-central-1
       shell: bash
 
     - name: Notify slack on failure
