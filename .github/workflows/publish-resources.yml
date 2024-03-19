@@ -81,7 +81,7 @@ jobs:
 
     - name: Verify that update site was downloaded
       run: |
-        folder=upatesite/p2
+        folder=updatesite/p2
         if [ -z "$(ls -A "$folder")" ]; then
             echo "Error: The folder $folder is empty. No existing update site was downloaded"
             exit 1
