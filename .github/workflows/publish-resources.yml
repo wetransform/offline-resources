@@ -76,6 +76,7 @@ jobs:
         rm -r updatesite/p2 || true
         mkdir updatesite/p2
         aws s3 sync s3://build-artifacts.wetransform.to/p2/offline-resources/site updatesite/p2 --region eu-central-1
+        rm updatesite/p2/*_version.json || true # delete old version files that had wrong file name
       shell: bash
 
     - name: Create update site and append to existing one
