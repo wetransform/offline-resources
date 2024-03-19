@@ -1,0 +1,91 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "created" : "2024-03-19 18:40 PM CET",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "description" : {
+      "text" : "",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Comparison operator",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "none",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Not extensible",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "omop",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/omop"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Observable Properties",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/omop"
+    },
+    "definition" : {
+      "text" : "An enumeration of comparison operators (e.g. greater than)",
+      "lang" : "en"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

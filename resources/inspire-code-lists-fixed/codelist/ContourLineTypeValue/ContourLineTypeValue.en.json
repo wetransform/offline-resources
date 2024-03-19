@@ -1,0 +1,98 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "created" : "2024-03-19 18:40 PM CET",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "description" : {
+      "text" : "",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Contour line type",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "none",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Not extensible",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "el-vec",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/el-vec"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Elevation - Vector Elements",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/el-vec"
+    },
+    "definition" : {
+      "text" : "List of possible categories of contour lines based on the equidistance parameter of the data set.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "el",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/el"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

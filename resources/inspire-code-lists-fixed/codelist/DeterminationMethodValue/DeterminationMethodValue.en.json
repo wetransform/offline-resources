@@ -1,0 +1,84 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "created" : "2024-03-19 18:40 PM CET",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "description" : {
+      "text" : "",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "DeterminationMethodValue",
+      "lang" : "en"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "nz-core",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Natural Risk Zones",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/nz-core"
+    },
+    "definition" : {
+      "text" : "An enumeration to describe the method used to define the area of hazard or risk.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "nz",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/nz"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/DeterminationMethodValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/DeterminationMethodValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/DeterminationMethodValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

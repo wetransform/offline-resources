@@ -1,0 +1,98 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "created" : "2024-03-19 18:40 PM CET",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "description" : {
+      "text" : "",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "Min Max track",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "none",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Not extensible",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/none"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "tn-ra",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-ra"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Railway Transport Network",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/tn-ra"
+    },
+    "definition" : {
+      "text" : "Values to indicate whether number of tracks are counted as the maximum, minimum or average number.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "tn",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/tn"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/MinMaxTrackValue",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/MinMaxTrackValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/MinMaxTrackValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

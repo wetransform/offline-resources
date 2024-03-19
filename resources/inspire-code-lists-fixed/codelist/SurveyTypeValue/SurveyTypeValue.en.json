@@ -20,7 +20,7 @@
           "label" : "Survey Type",
           "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
         },
-        "created" : "2015-08-18 17:31 PM CEST",
+        "created" : "2024-01-26 13:35 PM CET",
         "governance-level" : {
           "label" : {
             "text" : "eu-legal",
@@ -29,7 +29,7 @@
           "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
         },
         "description" : {
-          "text" : "A 2D seismic survey may include one or more seismic lines. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "text" : "",
           "lang" : "en"
         },
         "language" : "en",
@@ -51,12 +51,20 @@
           },
           "id" : "CodeListValue"
         },
+        "referencelink" : {
+          "text" : "",
+          "lang" : "en"
+        },
         "application schema" : {
           "label" : {
             "text" : "Geophysics",
             "lang" : "en"
           },
           "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "referencesource" : {
+          "text" : "",
+          "lang" : "en"
         },
         "definition" : {
           "text" : "Campaign of airborne geophysical measurements.",
@@ -70,8 +78,12 @@
           "uri" : "http://inspire.ec.europa.eu/theme/ge"
         },
         "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/airborneGeophysicalSurvey",
+        "issued" : "2024-01-26 13:35 PM CET",
         "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/airborneGeophysicalSurvey",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/airborneGeophysicalSurvey:1",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/airborneGeophysicalSurvey:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/airborneGeophysicalSurvey:1"
+        } ],
         "status" : {
           "label" : {
             "text" : "Valid",
@@ -107,7 +119,7 @@
           "label" : "Survey Type",
           "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
         },
-        "created" : "2015-08-18 17:31 PM CEST",
+        "created" : "2024-01-26 13:35 PM CET",
         "governance-level" : {
           "label" : {
             "text" : "eu-legal",
@@ -116,7 +128,7 @@
           "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
         },
         "description" : {
-          "text" : "A 3D seismic survey may include one or more 3D seismic measurements. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "text" : "",
           "lang" : "en"
         },
         "language" : "en",
@@ -138,12 +150,20 @@
           },
           "id" : "CodeListValue"
         },
+        "referencelink" : {
+          "text" : "",
+          "lang" : "en"
+        },
         "application schema" : {
           "label" : {
             "text" : "Geophysics",
             "lang" : "en"
           },
           "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "referencesource" : {
+          "text" : "",
+          "lang" : "en"
         },
         "definition" : {
           "text" : "Campaign of ground gravity measurements.",
@@ -157,8 +177,12 @@
           "uri" : "http://inspire.ec.europa.eu/theme/ge"
         },
         "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/groundGravitySurvey",
+        "issued" : "2024-01-26 13:35 PM CET",
         "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/groundGravitySurvey",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/groundGravitySurvey:1",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/groundGravitySurvey:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/groundGravitySurvey:1"
+        } ],
         "status" : {
           "label" : {
             "text" : "Valid",
@@ -194,7 +218,7 @@
           "label" : "Survey Type",
           "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
         },
-        "created" : "2015-08-18 17:31 PM CEST",
+        "created" : "2024-01-26 13:35 PM CET",
         "governance-level" : {
           "label" : {
             "text" : "eu-legal",
@@ -203,7 +227,7 @@
           "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
         },
         "description" : {
-          "text" : "A borehole logging survey may include one or more borehole logging measurements. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "text" : "",
           "lang" : "en"
         },
         "language" : "en",
@@ -225,12 +249,20 @@
           },
           "id" : "CodeListValue"
         },
+        "referencelink" : {
+          "text" : "",
+          "lang" : "en"
+        },
         "application schema" : {
           "label" : {
             "text" : "Geophysics",
             "lang" : "en"
           },
           "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "referencesource" : {
+          "text" : "",
+          "lang" : "en"
         },
         "definition" : {
           "text" : "Campaign of ground magnetic measurements.",
@@ -244,8 +276,12 @@
           "uri" : "http://inspire.ec.europa.eu/theme/ge"
         },
         "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/groundMagneticSurvey",
+        "issued" : "2024-01-26 13:35 PM CET",
         "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/groundMagneticSurvey",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/groundMagneticSurvey:1",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/groundMagneticSurvey:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/groundMagneticSurvey:1"
+        } ],
         "status" : {
           "label" : {
             "text" : "Valid",
@@ -281,7 +317,7 @@
           "label" : "Survey Type",
           "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
         },
-        "created" : "2015-08-18 17:31 PM CEST",
+        "created" : "2024-01-26 13:35 PM CET",
         "governance-level" : {
           "label" : {
             "text" : "eu-legal",
@@ -290,7 +326,7 @@
           "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
         },
         "description" : {
-          "text" : "A 1D resistivity survey may include any number of VES stations. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "text" : "",
           "lang" : "en"
         },
         "language" : "en",
@@ -312,12 +348,20 @@
           },
           "id" : "CodeListValue"
         },
+        "referencelink" : {
+          "text" : "",
+          "lang" : "en"
+        },
         "application schema" : {
           "label" : {
             "text" : "Geophysics",
             "lang" : "en"
           },
           "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "referencesource" : {
+          "text" : "",
+          "lang" : "en"
         },
         "definition" : {
           "text" : "Campaign of 3D Multielectrode DC measurements.",
@@ -331,8 +375,12 @@
           "uri" : "http://inspire.ec.europa.eu/theme/ge"
         },
         "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/3DResistivitySurvey",
+        "issued" : "2024-01-26 13:35 PM CET",
         "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/3DResistivitySurvey",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/3DResistivitySurvey:1",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/3DResistivitySurvey:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/3DResistivitySurvey:1"
+        } ],
         "status" : {
           "label" : {
             "text" : "Valid",
@@ -368,7 +416,7 @@
           "label" : "Survey Type",
           "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
         },
-        "created" : "2015-08-18 17:31 PM CEST",
+        "created" : "2024-01-26 13:35 PM CET",
         "governance-level" : {
           "label" : {
             "text" : "eu-legal",
@@ -377,7 +425,7 @@
           "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
         },
         "description" : {
-          "text" : "A 2D resistivity survey may include one or more multielectrode DC profiles. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "text" : "",
           "lang" : "en"
         },
         "language" : "en",
@@ -399,12 +447,20 @@
           },
           "id" : "CodeListValue"
         },
+        "referencelink" : {
+          "text" : "",
+          "lang" : "en"
+        },
         "application schema" : {
           "label" : {
             "text" : "Geophysics",
             "lang" : "en"
           },
           "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "referencesource" : {
+          "text" : "",
+          "lang" : "en"
         },
         "definition" : {
           "text" : "Campaign of seismological measurements.",
@@ -418,8 +474,12 @@
           "uri" : "http://inspire.ec.europa.eu/theme/ge"
         },
         "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/seismologicalSurvey",
+        "issued" : "2024-01-26 13:35 PM CET",
         "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/seismologicalSurvey",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/seismologicalSurvey:1",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/seismologicalSurvey:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/seismologicalSurvey:1"
+        } ],
         "status" : {
           "label" : {
             "text" : "Valid",
@@ -455,7 +515,7 @@
           "label" : "Survey Type",
           "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
         },
-        "created" : "2015-08-18 18:06 PM CEST",
+        "created" : "2024-01-26 13:35 PM CET",
         "governance-level" : {
           "label" : {
             "text" : "eu-technical",
@@ -464,7 +524,7 @@
           "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
         },
         "description" : {
-          "text" : "A time domain EM survey may include any number of TDEM soundings. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "text" : "A 2D seismic survey may include one or more seismic lines. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
           "lang" : "en"
         },
         "language" : "en",
@@ -486,12 +546,20 @@
           },
           "id" : "CodeListValue"
         },
+        "referencelink" : {
+          "text" : "",
+          "lang" : "en"
+        },
         "application schema" : {
           "label" : {
             "text" : "Geophysics",
             "lang" : "en"
           },
           "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "referencesource" : {
+          "text" : "",
+          "lang" : "en"
         },
         "definition" : {
           "text" : "Campaign of 2D seismic measurements",
@@ -505,8 +573,12 @@
           "uri" : "http://inspire.ec.europa.eu/theme/ge"
         },
         "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/2DSeismicSurvey",
+        "issued" : "2024-01-26 13:35 PM CET",
         "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/2DSeismicSurvey",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/2DSeismicSurvey:1",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/2DSeismicSurvey:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/2DSeismicSurvey:1"
+        } ],
         "status" : {
           "label" : {
             "text" : "Valid",
@@ -542,7 +614,7 @@
           "label" : "Survey Type",
           "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
         },
-        "created" : "2015-08-18 18:06 PM CEST",
+        "created" : "2024-01-26 13:35 PM CET",
         "governance-level" : {
           "label" : {
             "text" : "eu-technical",
@@ -551,7 +623,7 @@
           "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
         },
         "description" : {
-          "text" : "A frequency domain EM survey may include any number of FDEM soundings. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "text" : "A 3D seismic survey may include one or more 3D seismic measurements. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
           "lang" : "en"
         },
         "language" : "en",
@@ -573,12 +645,20 @@
           },
           "id" : "CodeListValue"
         },
+        "referencelink" : {
+          "text" : "",
+          "lang" : "en"
+        },
         "application schema" : {
           "label" : {
             "text" : "Geophysics",
             "lang" : "en"
           },
           "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "referencesource" : {
+          "text" : "",
+          "lang" : "en"
         },
         "definition" : {
           "text" : "Campaign of 3D seismic measurements",
@@ -592,8 +672,12 @@
           "uri" : "http://inspire.ec.europa.eu/theme/ge"
         },
         "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/3DSeismicSurvey",
+        "issued" : "2024-01-26 13:35 PM CET",
         "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/3DSeismicSurvey",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/3DSeismicSurvey:1",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/3DSeismicSurvey:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/3DSeismicSurvey:1"
+        } ],
         "status" : {
           "label" : {
             "text" : "Valid",
@@ -629,7 +713,7 @@
           "label" : "Survey Type",
           "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
         },
-        "created" : "2015-08-18 18:06 PM CEST",
+        "created" : "2024-01-26 13:35 PM CET",
         "governance-level" : {
           "label" : {
             "text" : "eu-technical",
@@ -638,7 +722,7 @@
           "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
         },
         "description" : {
-          "text" : "A magnetotelluric survey may include any number of MT soundings. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "text" : "A borehole logging survey may include one or more borehole logging measurements. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
           "lang" : "en"
         },
         "language" : "en",
@@ -660,12 +744,20 @@
           },
           "id" : "CodeListValue"
         },
+        "referencelink" : {
+          "text" : "",
+          "lang" : "en"
+        },
         "application schema" : {
           "label" : {
             "text" : "Geophysics",
             "lang" : "en"
           },
           "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "referencesource" : {
+          "text" : "",
+          "lang" : "en"
         },
         "definition" : {
           "text" : "Campaign of borehole logging measurements",
@@ -679,8 +771,12 @@
           "uri" : "http://inspire.ec.europa.eu/theme/ge"
         },
         "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/boreholeLoggingSurvey",
+        "issued" : "2024-01-26 13:35 PM CET",
         "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/boreholeLoggingSurvey",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/boreholeLoggingSurvey:1",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/boreholeLoggingSurvey:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/boreholeLoggingSurvey:1"
+        } ],
         "status" : {
           "label" : {
             "text" : "Valid",
@@ -716,7 +812,7 @@
           "label" : "Survey Type",
           "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
         },
-        "created" : "2015-08-18 18:06 PM CEST",
+        "created" : "2024-01-26 13:30 PM CET",
         "governance-level" : {
           "label" : {
             "text" : "eu-technical",
@@ -725,7 +821,7 @@
           "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
         },
         "description" : {
-          "text" : "A georadar survey may include one or more georadar profiles. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "text" : "A 1D resistivity survey may include any number of VES stations. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
           "lang" : "en"
         },
         "language" : "en",
@@ -747,12 +843,20 @@
           },
           "id" : "CodeListValue"
         },
+        "referencelink" : {
+          "text" : "",
+          "lang" : "en"
+        },
         "application schema" : {
           "label" : {
             "text" : "Geophysics",
             "lang" : "en"
           },
           "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "referencesource" : {
+          "text" : "",
+          "lang" : "en"
         },
         "definition" : {
           "text" : "Campaign of Vertical Electric Sounding measurements",
@@ -766,8 +870,12 @@
           "uri" : "http://inspire.ec.europa.eu/theme/ge"
         },
         "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/1DResistivitySurvey",
+        "issued" : "2024-01-26 13:30 PM CET",
         "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/1DResistivitySurvey",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/1DResistivitySurvey:1",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/1DResistivitySurvey:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/1DResistivitySurvey:1"
+        } ],
         "status" : {
           "label" : {
             "text" : "Valid",
@@ -803,7 +911,7 @@
           "label" : "Survey Type",
           "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
         },
-        "created" : "2015-08-18 18:06 PM CEST",
+        "created" : "2024-01-26 13:30 PM CET",
         "governance-level" : {
           "label" : {
             "text" : "eu-technical",
@@ -812,7 +920,7 @@
           "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
         },
         "description" : {
-          "text" : "A CPT survey may include any number of CPT soundings. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "text" : "A 2D resistivity survey may include one or more multielectrode DC profiles. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
           "lang" : "en"
         },
         "language" : "en",
@@ -834,12 +942,20 @@
           },
           "id" : "CodeListValue"
         },
+        "referencelink" : {
+          "text" : "",
+          "lang" : "en"
+        },
         "application schema" : {
           "label" : {
             "text" : "Geophysics",
             "lang" : "en"
           },
           "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "referencesource" : {
+          "text" : "",
+          "lang" : "en"
         },
         "definition" : {
           "text" : "Campaign of 2D Multielectrode DC measurements",
@@ -853,8 +969,12 @@
           "uri" : "http://inspire.ec.europa.eu/theme/ge"
         },
         "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/2DResistivitySurvey",
+        "issued" : "2024-01-26 13:30 PM CET",
         "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/2DResistivitySurvey",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/2DResistivitySurvey:1",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/2DResistivitySurvey:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/2DResistivitySurvey:1"
+        } ],
         "status" : {
           "label" : {
             "text" : "Valid",
@@ -890,7 +1010,7 @@
           "label" : "Survey Type",
           "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
         },
-        "created" : "2015-08-18 18:06 PM CEST",
+        "created" : "2024-01-26 13:35 PM CET",
         "governance-level" : {
           "label" : {
             "text" : "eu-technical",
@@ -899,7 +1019,7 @@
           "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
         },
         "description" : {
-          "text" : "A VSP survey may include any number of vertical seismic profiles. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "text" : "A time domain EM survey may include any number of TDEM soundings. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
           "lang" : "en"
         },
         "language" : "en",
@@ -921,12 +1041,20 @@
           },
           "id" : "CodeListValue"
         },
+        "referencelink" : {
+          "text" : "",
+          "lang" : "en"
+        },
         "application schema" : {
           "label" : {
             "text" : "Geophysics",
             "lang" : "en"
           },
           "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "referencesource" : {
+          "text" : "",
+          "lang" : "en"
         },
         "definition" : {
           "text" : "Campaign of Time domain EM sounding measurements",
@@ -940,8 +1068,12 @@
           "uri" : "http://inspire.ec.europa.eu/theme/ge"
         },
         "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/timeDomainEMSurvey",
+        "issued" : "2024-01-26 13:35 PM CET",
         "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/timeDomainEMSurvey",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/timeDomainEMSurvey:1",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/timeDomainEMSurvey:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/timeDomainEMSurvey:1"
+        } ],
         "status" : {
           "label" : {
             "text" : "Valid",
@@ -977,7 +1109,7 @@
           "label" : "Survey Type",
           "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue"
         },
-        "created" : "2015-08-18 18:06 PM CEST",
+        "created" : "2024-01-26 13:35 PM CET",
         "governance-level" : {
           "label" : {
             "text" : "eu-technical",
@@ -986,7 +1118,7 @@
           "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-technical"
         },
         "description" : {
-          "text" : "A sonar survey may include any number of individual sonar measurements. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
+          "text" : "A frequency domain EM survey may include any number of FDEM soundings. Geometry is the overall bounding polygon and metadata also includes responsible parties.",
           "lang" : "en"
         },
         "language" : "en",
@@ -1008,12 +1140,20 @@
           },
           "id" : "CodeListValue"
         },
+        "referencelink" : {
+          "text" : "",
+          "lang" : "en"
+        },
         "application schema" : {
           "label" : {
             "text" : "Geophysics",
             "lang" : "en"
           },
           "id" : "http://inspire.ec.europa.eu/applicationschema/ge_gp"
+        },
+        "referencesource" : {
+          "text" : "",
+          "lang" : "en"
         },
         "definition" : {
           "text" : "Campaign of FrequencyDomain EM sounding measurements",
@@ -1027,8 +1167,12 @@
           "uri" : "http://inspire.ec.europa.eu/theme/ge"
         },
         "id" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/frequencyDomainEMSurvey",
+        "issued" : "2024-01-26 13:35 PM CET",
         "latestversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/frequencyDomainEMSurvey",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/frequencyDomainEMSurvey:1",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/frequencyDomainEMSurvey:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/frequencyDomainEMSurvey:1"
+        } ],
         "status" : {
           "label" : {
             "text" : "Valid",

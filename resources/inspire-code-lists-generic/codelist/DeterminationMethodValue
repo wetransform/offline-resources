@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<enumeration xmlns="http://inspire.ec.europa.eu/enumeration_register/Enumeration" xsi:schemaLocation="http://inspire.ec.europa.eu/enumeration_register/Enumeration http://inspire.ec.europa.eu/registry/schemas/2.0/Enumeration.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/enumeration/DeterminationMethodValue">
+   <language>en</language>
+   <created>2015-10-14 11:08 AM CEST</created>
+   <thisversion>http://inspire.ec.europa.eu/enumeration/DeterminationMethodValue:1</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/enumeration/DeterminationMethodValue</latestversion>
+   <label xml:lang="en">Determination method</label>
+   <definition xml:lang="en">An enumeration to describe the method used to define the area of hazard or risk.</definition>
+   <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+      <label xml:lang="en">Natural Risk Zones</label>
+   </applicationschema>
+   <theme id="http://inspire.ec.europa.eu/theme/nz">
+      <label xml:lang="en">Natural risk zones</label>
+   </theme>
+   <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+      <label xml:lang="en">Legal (EU)</label>
+   </governance-level>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
+   </status>
+   <itemclass uriname="Enumeration">
+      <label xml:lang="en">Enumeration</label>
+   </itemclass>
+   <register id="http://inspire.ec.europa.eu/enumeration">
+      <label xml:lang="en">INSPIRE enumeration register</label>
+      <registry id="http://inspire.ec.europa.eu/registry">
+         <label xml:lang="en">INSPIRE registry</label>
+      </registry>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/enumeration/DeterminationMethodValue/modelling">
+         <language>en</language>
+         <created>2015-10-14 11:08 AM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/DeterminationMethodValue/modelling:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/enumeration/DeterminationMethodValue/modelling</latestversion>
+         <label xml:lang="en">modelling</label>
+         <definition xml:lang="en">The area has been computed according to a model</definition>
+         <enumeration id="http://inspire.ec.europa.eu/enumeration/DeterminationMethodValue">
+            <label xml:lang="en">Determination method</label>
+         </enumeration>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="EnumerationValue">
+            <label xml:lang="en">EnumerationValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/enumeration">
+            <label xml:lang="en">INSPIRE enumeration register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/enumeration/DeterminationMethodValue/indirectDetermination">
+         <language>en</language>
+         <created>2015-10-14 11:08 AM CEST</created>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/DeterminationMethodValue/indirectDetermination:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/enumeration/DeterminationMethodValue/indirectDetermination</latestversion>
+         <label xml:lang="en">indirectDetermination</label>
+         <definition xml:lang="en">The area has been defined by interpretation of available data and/or information</definition>
+         <enumeration id="http://inspire.ec.europa.eu/enumeration/DeterminationMethodValue">
+            <label xml:lang="en">Determination method</label>
+         </enumeration>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/nz-core">
+            <label xml:lang="en">Natural Risk Zones</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/nz">
+            <label xml:lang="en">Natural risk zones</label>
+         </theme>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="EnumerationValue">
+            <label xml:lang="en">EnumerationValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/enumeration">
+            <label xml:lang="en">INSPIRE enumeration register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></enumeration>
