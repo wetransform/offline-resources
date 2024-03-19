@@ -73,7 +73,7 @@ jobs:
         AWS_ACCESS_KEY_ID: ${{ secrets.BUILD_ARCHIVE_ACCESS_KEY }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.BUILD_ARCHIVE_SECRET_KEY }}
       run: |
-        rm -r updatesite/p2
+        rm -r updatesite/p2 || true
         mkdir updatesite/p2
         aws s3 sync s3://build-artifacts.wetransform.to/p2/offline-resources/site updatesite/p2 --region eu-central-1
       shell: bash
