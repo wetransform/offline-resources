@@ -47,7 +47,6 @@ platform {
   // bundles
 
   def artifactVersions = [:] // map artifact name to release version
-  def currentArtifacts = new HashSet() // found CURRENT artifacts
 
   pubs.listFiles().each { File file ->
     if (file.name.endsWith('.jar')) {
@@ -58,12 +57,8 @@ platform {
       def jarVersion = parts[-1]
       name = parts[0..-2].join('_')
       boolean snapshot = jarVersion.endsWith('-SNAPSHOT')
-      boolean current = jarVersion.equals('CURRENT-SNAPSHOT')
 
-      if (current) {
-        currentArtifacts.add(name)
-      }
-      else if (!snapshot) {
+      if (!snapshot) {
         artifactVersions[name] = jarVersion
       }
     }
@@ -71,30 +66,26 @@ platform {
 
   def collectedVersions = []
 
-  currentArtifacts.each { name ->
-    def releaseVersion = artifactVersions[name]
+  artifactVersions.each { name, releaseVersion ->
+    def versionObj = Version.parseVersion(releaseVersion)
 
-    if (releaseVersion) {
-      def versionObj = Version.parseVersion(releaseVersion)
-
-      if (!versionObj) {
-        throw new IllegalStateException("Version $releaseVersion cannot be parsed as OSGi version")
-      }
-
-      // define bundle - Maven dependency points to latest version
-      bundle "${pubGroup}:${name}:CURRENT-SNAPSHOT", {
-        bnd {
-          // set release version as bundle version
-          version = releaseVersion
-          // only resources contained, don't export packages
-          instruction 'Export-Package', ''
-          instruction 'Private-Package', '*'
-        }
-      }
-
-      // collect versions to determine feature version
-      collectedVersions.add(versionObj)
+    if (!versionObj) {
+      throw new IllegalStateException("Version $releaseVersion cannot be parsed as OSGi version")
     }
+
+    // define bundle - Maven dependency points to latest version
+    bundle "${pubGroup}:${name}:${releaseVersion}", {
+      bnd {
+        // set release version as bundle version
+        version = releaseVersion
+        // only resources contained, don't export packages
+        instruction 'Export-Package', ''
+        instruction 'Private-Package', '*'
+      }
+    }
+
+    // collect versions to determine feature version
+    collectedVersions.add(versionObj)
 
   }
 
