@@ -25,6 +25,9 @@ buildscript {
     // for Version class
     classpath 'org.osgi:osgi.core:8.0.0'
   }
+  configurations.all {
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+  }
 }
 
 apply plugin: 'org.standardout.bnd-platform'
