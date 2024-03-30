@@ -7,7 +7,542 @@
       },
       "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
     },
-    "created" : "2024-03-19 18:40 PM CET",
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Comparison operator",
+          "id" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue"
+        },
+        "created" : "2024-03-22 12:52 PM CET",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "lessThanOrEqualTo",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "omop",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/omop"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "referencelink" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Observable Properties",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/omop"
+        },
+        "referencesource" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Less than or exactly equal to",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/lessThanOrEqualTo",
+        "issued" : "2024-03-21 14:28 PM CET",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/lessThanOrEqualTo",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/lessThanOrEqualTo:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Comparison operator",
+          "id" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue"
+        },
+        "created" : "2024-03-22 12:52 PM CET",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "equalTo",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "omop",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/omop"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "referencelink" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Observable Properties",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/omop"
+        },
+        "referencesource" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Exactly equal to",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/equalTo",
+        "issued" : "2024-03-21 14:28 PM CET",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/equalTo",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/equalTo:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Comparison operator",
+          "id" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue"
+        },
+        "created" : "2024-03-22 12:52 PM CET",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "lessThan",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "omop",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/omop"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "referencelink" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Observable Properties",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/omop"
+        },
+        "referencesource" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Less than",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/lessThan",
+        "issued" : "2024-03-21 14:28 PM CET",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/lessThan",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/lessThan:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Comparison operator",
+          "id" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue"
+        },
+        "created" : "2024-03-22 12:52 PM CET",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "greaterThan",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "omop",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/omop"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "referencelink" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Observable Properties",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/omop"
+        },
+        "referencesource" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Greater than",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/greaterThan",
+        "issued" : "2024-03-21 14:28 PM CET",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/greaterThan",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/greaterThan:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Comparison operator",
+          "id" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue"
+        },
+        "created" : "2024-03-22 12:52 PM CET",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "notEqualTo",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "omop",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/omop"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "referencelink" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Observable Properties",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/omop"
+        },
+        "referencesource" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Not exactly equal to",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/notEqualTo",
+        "issued" : "2024-03-21 14:28 PM CET",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/notEqualTo",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/notEqualTo:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Comparison operator",
+          "id" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue"
+        },
+        "created" : "2024-03-22 12:52 PM CET",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "greaterThanOrEqualTo",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "omop",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/omop"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "referencelink" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Observable Properties",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/omop"
+        },
+        "referencesource" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Greater than or exactly equal to",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/greaterThanOrEqualTo",
+        "issued" : "2024-03-21 14:28 PM CET",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/greaterThanOrEqualTo",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/greaterThanOrEqualTo:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2024-03-25 15:08 PM CET",
     "governance-level" : {
       "label" : {
         "text" : "eu-legal",
@@ -64,8 +599,12 @@
       "lang" : "en"
     },
     "id" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue",
+    "issued" : "2024-03-25 09:15 AM CET",
     "latestversion" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue",
-    "thisversion" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue:1",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue:2",
+    "historyversion" : [ {
+      "version" : "http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue:1"
+    } ],
     "status" : {
       "label" : {
         "text" : "Valid",

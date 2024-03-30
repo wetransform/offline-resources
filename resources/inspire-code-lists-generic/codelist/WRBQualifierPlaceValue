@@ -34,15 +34,15 @@
       </registry>
    </register>
    <containeditems>
-      <value id="http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue/prefix">
+      <value id="http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue/suffix">
          <language>en</language>
          <created>2023-03-17 12:01 PM CET</created>
          <issued>2023-03-16 15:02 PM CET</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue/prefix:1</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue/prefix</latestversion>
-         <label xml:lang="en">prefix</label>
-         <definition xml:lang="en">Prefix</definition>
-         <description xml:lang="en">The placement of the Qualifier is before the WRB reference soil group (RSG)</description>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue/suffix:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue/suffix</latestversion>
+         <label xml:lang="en">suffix</label>
+         <definition xml:lang="en">Suffix</definition>
+         <description xml:lang="en">The placement of the Qualifier is after the WRB reference soil group (RSG)</description>
          <codelist id="http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue">
             <label xml:lang="en">WRB Qualifier Place</label>
          </codelist>
@@ -72,15 +72,15 @@
             </registry>
          </register>
       </value>
-      <value id="http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue/suffix">
+      <value id="http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue/prefix">
          <language>en</language>
          <created>2023-03-17 12:01 PM CET</created>
          <issued>2023-03-16 15:02 PM CET</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue/suffix:1</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue/suffix</latestversion>
-         <label xml:lang="en">suffix</label>
-         <definition xml:lang="en">Suffix</definition>
-         <description xml:lang="en">The placement of the Qualifier is after the WRB reference soil group (RSG)</description>
+         <thisversion>http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue/prefix:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue/prefix</latestversion>
+         <label xml:lang="en">prefix</label>
+         <definition xml:lang="en">Prefix</definition>
+         <description xml:lang="en">The placement of the Qualifier is before the WRB reference soil group (RSG)</description>
          <codelist id="http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue">
             <label xml:lang="en">WRB Qualifier Place</label>
          </codelist>

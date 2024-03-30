@@ -1,9 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue">
    <language>en</language>
-   <created>2024-03-19 18:40 PM CET</created>
-   <thisversion>http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue:1</thisversion>
+   <created>2024-03-25 15:08 PM CET</created>
+   <issued>2024-03-25 09:32 AM CET</issued>
+   <thisversion>http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue:2</thisversion>
    <latestversion>http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue</latestversion>
+   <previousversions>
+      <version>http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue:1</version>
+   </previousversions>
    <label xml:lang="en">Track Gauge category</label>
    <definition xml:lang="en">The possible categories of railways concerning its nominal track gauge.</definition>
    <description xml:lang="en"></description>
@@ -30,4 +34,150 @@
       <registry id="http://inspire.ec.europa.eu/registry">
          <label xml:lang="en">INSPIRE registry</label>
       </registry>
-   </register></codelist>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/narrow">
+         <language>en</language>
+         <created>2024-03-22 12:52 PM CET</created>
+         <issued>2024-03-21 14:28 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/narrow:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/narrow</latestversion>
+         <label xml:lang="en">narrow</label>
+         <definition xml:lang="en">The nominal track gauge property is narrower than the standard one</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue">
+            <label xml:lang="en">Track Gauge category</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ra">
+            <label xml:lang="en">Railway Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/broad">
+         <language>en</language>
+         <created>2024-03-22 12:52 PM CET</created>
+         <issued>2024-03-21 14:28 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/broad:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/broad</latestversion>
+         <label xml:lang="en">broad</label>
+         <definition xml:lang="en">The nominal track gauge property is broader than the standard one</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue">
+            <label xml:lang="en">Track Gauge category</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ra">
+            <label xml:lang="en">Railway Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/standard">
+         <language>en</language>
+         <created>2024-03-22 12:52 PM CET</created>
+         <issued>2024-03-21 14:28 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/standard:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/standard</latestversion>
+         <label xml:lang="en">standard</label>
+         <definition xml:lang="en">The nominal track gauge property is equal to the European standard (1435 millimetres)</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue">
+            <label xml:lang="en">Track Gauge category</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ra">
+            <label xml:lang="en">Railway Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/notApplicable">
+         <language>en</language>
+         <created>2024-03-22 12:52 PM CET</created>
+         <issued>2024-03-21 14:28 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/notApplicable:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/notApplicable</latestversion>
+         <label xml:lang="en">notApplicable</label>
+         <definition xml:lang="en">The definition of a nominal track gauge property is not applicable to the type of railway transport</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue">
+            <label xml:lang="en">Track Gauge category</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ra">
+            <label xml:lang="en">Railway Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>

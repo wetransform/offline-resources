@@ -7,7 +7,296 @@
       },
       "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
     },
-    "created" : "2024-03-19 18:40 PM CET",
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Contour line type",
+          "id" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue"
+        },
+        "created" : "2024-03-22 12:52 PM CET",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "ordinary",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "el-vec",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/el-vec"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "referencelink" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Elevation - Vector Elements",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/el-vec"
+        },
+        "referencesource" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Contour at the equidistance parameter (corresponding to the normal contour vertical interval) associated with the nominal scale, and which is not a master contour",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "el",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/el"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/ordinary",
+        "issued" : "2024-03-21 14:28 PM CET",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/ordinary",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/ordinary:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Contour line type",
+          "id" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue"
+        },
+        "created" : "2024-03-22 12:52 PM CET",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "auxiliary",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "el-vec",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/el-vec"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "referencelink" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Elevation - Vector Elements",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/el-vec"
+        },
+        "referencesource" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "A supplementary contour – not corresponding to the normal contour vertical interval – estimated or interpolated from surrounding contours, used in areas where there is insufficient height information for elevation mapping purposes or to control the creation of a digital elevation model",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "el",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/el"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/auxiliary",
+        "issued" : "2024-03-21 14:28 PM CET",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/auxiliary",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/auxiliary:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Contour line type",
+          "id" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue"
+        },
+        "created" : "2024-03-22 12:52 PM CET",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "master",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "el-vec",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/el-vec"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "referencelink" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Elevation - Vector Elements",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/el-vec"
+        },
+        "referencesource" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Contour at a vertical distance which is multiple to the equidistance parameter (corresponding to a certain multiple of the normal contour vertical interval) associated with the nominal scale",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "el",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/el"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/master",
+        "issued" : "2024-03-21 14:28 PM CET",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/master",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/master:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2024-03-25 15:08 PM CET",
     "governance-level" : {
       "label" : {
         "text" : "eu-legal",
@@ -71,8 +360,12 @@
       "uri" : "http://inspire.ec.europa.eu/theme/el"
     },
     "id" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue",
+    "issued" : "2024-03-25 09:06 AM CET",
     "latestversion" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue",
-    "thisversion" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue:1",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue:2",
+    "historyversion" : [ {
+      "version" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue:1"
+    } ],
     "status" : {
       "label" : {
         "text" : "Valid",

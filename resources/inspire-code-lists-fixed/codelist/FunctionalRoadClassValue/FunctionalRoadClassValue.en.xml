@@ -1,9 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue">
    <language>en</language>
-   <created>2024-03-19 18:40 PM CET</created>
-   <thisversion>http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue:1</thisversion>
+   <created>2024-03-25 15:08 PM CET</created>
+   <issued>2024-03-25 09:50 AM CET</issued>
+   <thisversion>http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue:2</thisversion>
    <latestversion>http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue</latestversion>
+   <previousversions>
+      <version>http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue:1</version>
+   </previousversions>
    <label xml:lang="en">Functional road class</label>
    <definition xml:lang="en">Values for the functional road classification. This classification is based on the importance of the role that the road performs in the road network.</definition>
    <description xml:lang="en"></description>
@@ -30,4 +34,366 @@
       <registry id="http://inspire.ec.europa.eu/registry">
          <label xml:lang="en">INSPIRE registry</label>
       </registry>
-   </register></codelist>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/fourthClass">
+         <language>en</language>
+         <created>2024-03-22 12:52 PM CET</created>
+         <issued>2024-03-21 14:28 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/fourthClass:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/fourthClass</latestversion>
+         <label xml:lang="en">fourthClass</label>
+         <definition xml:lang="en">The fifth most important roads in a given network</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue">
+            <label xml:lang="en">Functional road class</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/thirdClass">
+         <language>en</language>
+         <created>2024-03-22 12:52 PM CET</created>
+         <issued>2024-03-21 14:28 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/thirdClass:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/thirdClass</latestversion>
+         <label xml:lang="en">thirdClass</label>
+         <definition xml:lang="en">The fourth most important roads in a given network</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue">
+            <label xml:lang="en">Functional road class</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/seventhClass">
+         <language>en</language>
+         <created>2024-03-22 12:52 PM CET</created>
+         <issued>2024-03-21 14:28 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/seventhClass:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/seventhClass</latestversion>
+         <label xml:lang="en">seventhClass</label>
+         <definition xml:lang="en">The eighth most important roads in a given network</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue">
+            <label xml:lang="en">Functional road class</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/eighthClass">
+         <language>en</language>
+         <created>2024-03-22 12:52 PM CET</created>
+         <issued>2024-03-21 14:28 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/eighthClass:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/eighthClass</latestversion>
+         <label xml:lang="en">eighthClass</label>
+         <definition xml:lang="en">The ninth most important roads in a given network</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue">
+            <label xml:lang="en">Functional road class</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/mainRoad">
+         <language>en</language>
+         <created>2024-03-22 12:52 PM CET</created>
+         <issued>2024-03-21 14:28 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/mainRoad:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/mainRoad</latestversion>
+         <label xml:lang="en">mainRoad</label>
+         <definition xml:lang="en">The most important roads in a given network</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue">
+            <label xml:lang="en">Functional road class</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/firstClass">
+         <language>en</language>
+         <created>2024-03-22 12:52 PM CET</created>
+         <issued>2024-03-21 14:28 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/firstClass:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/firstClass</latestversion>
+         <label xml:lang="en">firstClass</label>
+         <definition xml:lang="en">The second most important roads in a given network</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue">
+            <label xml:lang="en">Functional road class</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/ninthClass">
+         <language>en</language>
+         <created>2024-03-22 12:52 PM CET</created>
+         <issued>2024-03-21 14:28 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/ninthClass:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/ninthClass</latestversion>
+         <label xml:lang="en">ninthClass</label>
+         <definition xml:lang="en">The least important roads in a given network</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue">
+            <label xml:lang="en">Functional road class</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/secondClass">
+         <language>en</language>
+         <created>2024-03-22 12:52 PM CET</created>
+         <issued>2024-03-21 14:28 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/secondClass:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/secondClass</latestversion>
+         <label xml:lang="en">secondClass</label>
+         <definition xml:lang="en">The third most important roads in a given network</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue">
+            <label xml:lang="en">Functional road class</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/fifthClass">
+         <language>en</language>
+         <created>2024-03-22 12:52 PM CET</created>
+         <issued>2024-03-21 14:28 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/fifthClass:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/fifthClass</latestversion>
+         <label xml:lang="en">fifthClass</label>
+         <definition xml:lang="en">The sixth most important roads in a given network</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue">
+            <label xml:lang="en">Functional road class</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/sixthClass">
+         <language>en</language>
+         <created>2024-03-22 12:52 PM CET</created>
+         <issued>2024-03-21 14:28 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/sixthClass:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue/sixthClass</latestversion>
+         <label xml:lang="en">sixthClass</label>
+         <definition xml:lang="en">The seventh most important roads in a given network</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FunctionalRoadClassValue">
+            <label xml:lang="en">Functional road class</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>
