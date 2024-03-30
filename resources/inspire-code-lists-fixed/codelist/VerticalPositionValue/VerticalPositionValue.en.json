@@ -7,7 +7,275 @@
       },
       "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
     },
-    "created" : "2024-03-19 18:40 PM CET",
+    "containeditems" : [ {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Vertical position",
+          "id" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue"
+        },
+        "created" : "2024-03-22 12:52 PM CET",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "onGroundSurface",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "base",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/base"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "referencelink" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Base Types",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/base"
+        },
+        "referencesource" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The spatial object is on ground level",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue/onGroundSurface",
+        "issued" : "2024-03-21 14:28 PM CET",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue/onGroundSurface",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue/onGroundSurface:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Vertical position",
+          "id" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue"
+        },
+        "created" : "2024-03-22 12:52 PM CET",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "suspendedOrElevated",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "base",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/base"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "referencelink" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Base Types",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/base"
+        },
+        "referencesource" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The spatial object is suspended or elevated",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue/suspendedOrElevated",
+        "issued" : "2024-03-21 14:28 PM CET",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue/suspendedOrElevated",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue/suspendedOrElevated:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Vertical position",
+          "id" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue"
+        },
+        "created" : "2024-03-22 12:52 PM CET",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "underground",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "base",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/base"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "referencelink" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Base Types",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/base"
+        },
+        "referencesource" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The spatial object is underground",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue/underground",
+        "issued" : "2024-03-21 14:28 PM CET",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue/underground",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue/underground:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    } ],
+    "created" : "2024-03-25 15:08 PM CET",
     "governance-level" : {
       "label" : {
         "text" : "eu-legal",
@@ -64,8 +332,12 @@
       "lang" : "en"
     },
     "id" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue",
+    "issued" : "2024-03-25 09:21 AM CET",
     "latestversion" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue",
-    "thisversion" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue:1",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue:2",
+    "historyversion" : [ {
+      "version" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue:1"
+    } ],
     "status" : {
       "label" : {
         "text" : "Valid",

@@ -1,9 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/CEMTClassValue">
    <language>en</language>
-   <created>2024-03-19 18:40 PM CET</created>
-   <thisversion>http://inspire.ec.europa.eu/codelist/CEMTClassValue:1</thisversion>
+   <created>2024-03-25 15:08 PM CET</created>
+   <issued>2024-03-25 08:41 AM CET</issued>
+   <thisversion>http://inspire.ec.europa.eu/codelist/CEMTClassValue:2</thisversion>
    <latestversion>http://inspire.ec.europa.eu/codelist/CEMTClassValue</latestversion>
+   <previousversions>
+      <version>http://inspire.ec.europa.eu/codelist/CEMTClassValue:1</version>
+   </previousversions>
    <label xml:lang="en">CEMT class</label>
    <definition xml:lang="en">Inland waterway classification according to CEMT (European Conference of Ministers of Transport) Resolution No 92/2.</definition>
    <description xml:lang="en"></description>
@@ -30,4 +34,366 @@
       <registry id="http://inspire.ec.europa.eu/registry">
          <label xml:lang="en">INSPIRE registry</label>
       </registry>
-   </register></codelist>
+   </register>
+   <containeditems>
+      <value id="http://inspire.ec.europa.eu/codelist/CEMTClassValue/VII">
+         <language>en</language>
+         <created>2024-03-22 12:52 PM CET</created>
+         <issued>2024-03-21 14:28 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CEMTClassValue/VII:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CEMTClassValue/VII</latestversion>
+         <label xml:lang="en">VII</label>
+         <definition xml:lang="en">Inland waterway belonging to CEMT-class VII, defined by the European Conference of Ministers of Transport, Resolution No.92/2 - Table 1</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CEMTClassValue">
+            <label xml:lang="en">CEMT class</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-w">
+            <label xml:lang="en">Water Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CEMTClassValue/VIb">
+         <language>en</language>
+         <created>2024-03-22 12:52 PM CET</created>
+         <issued>2024-03-21 14:28 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CEMTClassValue/VIb:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CEMTClassValue/VIb</latestversion>
+         <label xml:lang="en">VIb</label>
+         <definition xml:lang="en">Inland waterway belonging to CEMT-class VIb, defined by the European Conference of Ministers of Transport, Resolution No.92/2 - Table 1</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CEMTClassValue">
+            <label xml:lang="en">CEMT class</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-w">
+            <label xml:lang="en">Water Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CEMTClassValue/I">
+         <language>en</language>
+         <created>2024-03-22 12:52 PM CET</created>
+         <issued>2024-03-21 14:28 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CEMTClassValue/I:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CEMTClassValue/I</latestversion>
+         <label xml:lang="en">I</label>
+         <definition xml:lang="en">Inland waterway belonging to CEMT-class I, defined by the European Conference of Ministers of Transport, Resolution No.92/2 - Table 1</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CEMTClassValue">
+            <label xml:lang="en">CEMT class</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-w">
+            <label xml:lang="en">Water Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CEMTClassValue/Vb">
+         <language>en</language>
+         <created>2024-03-22 12:52 PM CET</created>
+         <issued>2024-03-21 14:28 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CEMTClassValue/Vb:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CEMTClassValue/Vb</latestversion>
+         <label xml:lang="en">Vb</label>
+         <definition xml:lang="en">Inland waterway belonging to CEMT-class Vb, defined by the European Conference of Ministers of Transport, Resolution No.92/2 - Table 1</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CEMTClassValue">
+            <label xml:lang="en">CEMT class</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-w">
+            <label xml:lang="en">Water Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CEMTClassValue/VIc">
+         <language>en</language>
+         <created>2024-03-22 12:52 PM CET</created>
+         <issued>2024-03-21 14:28 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CEMTClassValue/VIc:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CEMTClassValue/VIc</latestversion>
+         <label xml:lang="en">VIc</label>
+         <definition xml:lang="en">Inland waterway belonging to CEMT-class VIc, defined by the European Conference of Ministers of Transport, Resolution No.92/2 - Table 1</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CEMTClassValue">
+            <label xml:lang="en">CEMT class</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-w">
+            <label xml:lang="en">Water Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CEMTClassValue/III">
+         <language>en</language>
+         <created>2024-03-22 12:52 PM CET</created>
+         <issued>2024-03-21 14:28 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CEMTClassValue/III:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CEMTClassValue/III</latestversion>
+         <label xml:lang="en">III</label>
+         <definition xml:lang="en">Inland waterway belonging to CEMT-class III, defined by the European Conference of Ministers of Transport, Resolution No.92/2 - Table 1</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CEMTClassValue">
+            <label xml:lang="en">CEMT class</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-w">
+            <label xml:lang="en">Water Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CEMTClassValue/II">
+         <language>en</language>
+         <created>2024-03-22 12:52 PM CET</created>
+         <issued>2024-03-21 14:28 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CEMTClassValue/II:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CEMTClassValue/II</latestversion>
+         <label xml:lang="en">II</label>
+         <definition xml:lang="en">Inland waterway belonging to CEMT-class II, defined by the European Conference of Ministers of Transport, Resolution No.92/2 - Table 1</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CEMTClassValue">
+            <label xml:lang="en">CEMT class</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-w">
+            <label xml:lang="en">Water Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CEMTClassValue/Va">
+         <language>en</language>
+         <created>2024-03-22 12:52 PM CET</created>
+         <issued>2024-03-21 14:28 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CEMTClassValue/Va:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CEMTClassValue/Va</latestversion>
+         <label xml:lang="en">Va</label>
+         <definition xml:lang="en">Inland waterway belonging to CEMT-class Va, defined by the European Conference of Ministers of Transport, Resolution No.92/2 - Table 1</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CEMTClassValue">
+            <label xml:lang="en">CEMT class</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-w">
+            <label xml:lang="en">Water Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CEMTClassValue/VIa">
+         <language>en</language>
+         <created>2024-03-22 12:52 PM CET</created>
+         <issued>2024-03-21 14:28 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CEMTClassValue/VIa:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CEMTClassValue/VIa</latestversion>
+         <label xml:lang="en">VIa</label>
+         <definition xml:lang="en">Inland waterway belonging to CEMT-class VIa, defined by the European Conference of Ministers of Transport, Resolution No.92/2 - Table 1</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CEMTClassValue">
+            <label xml:lang="en">CEMT class</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-w">
+            <label xml:lang="en">Water Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/CEMTClassValue/IV">
+         <language>en</language>
+         <created>2024-03-22 12:52 PM CET</created>
+         <issued>2024-03-21 14:28 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/CEMTClassValue/IV:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/CEMTClassValue/IV</latestversion>
+         <label xml:lang="en">IV</label>
+         <definition xml:lang="en">Inland waterway belonging to CEMT-class IV, defined by the European Conference of Ministers of Transport, Resolution No.92/2 - Table 1</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/CEMTClassValue">
+            <label xml:lang="en">CEMT class</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-w">
+            <label xml:lang="en">Water Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>
