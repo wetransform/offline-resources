@@ -33,14 +33,14 @@
       </registry>
    </register>
    <containeditems>
-      <value id="http://inspire.ec.europa.eu/codelist/VerticalPositionValue/onGroundSurface">
+      <value id="http://inspire.ec.europa.eu/codelist/VerticalPositionValue/underground">
          <language>en</language>
-         <created>2024-03-22 12:52 PM CET</created>
-         <issued>2024-03-21 14:28 PM CET</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/VerticalPositionValue/onGroundSurface:1</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/VerticalPositionValue/onGroundSurface</latestversion>
-         <label xml:lang="en">onGroundSurface</label>
-         <definition xml:lang="en">The spatial object is on ground level</definition>
+         <created>2024-04-02 10:07 AM CEST</created>
+         <issued>2024-03-26 14:31 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VerticalPositionValue/underground:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VerticalPositionValue/underground</latestversion>
+         <label xml:lang="en">underground</label>
+         <definition xml:lang="en">The spatial object is underground</definition>
          <description xml:lang="en"></description>
          <codelist id="http://inspire.ec.europa.eu/codelist/VerticalPositionValue">
             <label xml:lang="en">Vertical position</label>
@@ -68,10 +68,13 @@
       </value>
       <value id="http://inspire.ec.europa.eu/codelist/VerticalPositionValue/suspendedOrElevated">
          <language>en</language>
-         <created>2024-03-22 12:52 PM CET</created>
-         <issued>2024-03-21 14:28 PM CET</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/VerticalPositionValue/suspendedOrElevated:1</thisversion>
+         <created>2024-04-02 10:07 AM CEST</created>
+         <issued>2024-03-26 14:35 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VerticalPositionValue/suspendedOrElevated:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/codelist/VerticalPositionValue/suspendedOrElevated</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/VerticalPositionValue/suspendedOrElevated:1</version>
+         </previousversions>
          <label xml:lang="en">suspendedOrElevated</label>
          <definition xml:lang="en">The spatial object is suspended or elevated</definition>
          <description xml:lang="en"></description>
@@ -99,14 +102,17 @@
             </registry>
          </register>
       </value>
-      <value id="http://inspire.ec.europa.eu/codelist/VerticalPositionValue/underground">
+      <value id="http://inspire.ec.europa.eu/codelist/VerticalPositionValue/onGroundSurface">
          <language>en</language>
-         <created>2024-03-22 12:52 PM CET</created>
-         <issued>2024-03-21 14:28 PM CET</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/VerticalPositionValue/underground:1</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/VerticalPositionValue/underground</latestversion>
-         <label xml:lang="en">underground</label>
-         <definition xml:lang="en">The spatial object is underground</definition>
+         <created>2024-04-02 10:07 AM CEST</created>
+         <issued>2024-03-26 14:39 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/VerticalPositionValue/onGroundSurface:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/VerticalPositionValue/onGroundSurface</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/VerticalPositionValue/onGroundSurface:1</version>
+         </previousversions>
+         <label xml:lang="en">onGroundSurface</label>
+         <definition xml:lang="en">The spatial object is on ground level</definition>
          <description xml:lang="en"></description>
          <codelist id="http://inspire.ec.europa.eu/codelist/VerticalPositionValue">
             <label xml:lang="en">Vertical position</label>

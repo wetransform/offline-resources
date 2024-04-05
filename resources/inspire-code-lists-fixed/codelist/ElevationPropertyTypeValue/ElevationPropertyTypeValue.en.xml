@@ -36,14 +36,17 @@
       </registry>
    </register>
    <containeditems>
-      <value id="http://inspire.ec.europa.eu/codelist/ElevationPropertyTypeValue/height">
+      <value id="http://inspire.ec.europa.eu/codelist/ElevationPropertyTypeValue/depth">
          <language>en</language>
-         <created>2024-03-22 12:52 PM CET</created>
-         <issued>2024-03-21 14:28 PM CET</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/ElevationPropertyTypeValue/height:1</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/ElevationPropertyTypeValue/height</latestversion>
-         <label xml:lang="en">height</label>
-         <definition xml:lang="en">Elevation property measured along a plumb line in a direction opposite to Earth's gravity field (upwards)</definition>
+         <created>2024-04-02 10:06 AM CEST</created>
+         <issued>2024-03-26 11:30 AM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ElevationPropertyTypeValue/depth:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ElevationPropertyTypeValue/depth</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/ElevationPropertyTypeValue/depth:1</version>
+         </previousversions>
+         <label xml:lang="en">depth</label>
+         <definition xml:lang="en">Elevation property measured along a plumb line in a direction coincident to Earth's gravity field (downwards)</definition>
          <description xml:lang="en"></description>
          <codelist id="http://inspire.ec.europa.eu/codelist/ElevationPropertyTypeValue">
             <label xml:lang="en">Elevation property type</label>
@@ -72,14 +75,17 @@
             </registry>
          </register>
       </value>
-      <value id="http://inspire.ec.europa.eu/codelist/ElevationPropertyTypeValue/depth">
+      <value id="http://inspire.ec.europa.eu/codelist/ElevationPropertyTypeValue/height">
          <language>en</language>
-         <created>2024-03-22 12:52 PM CET</created>
-         <issued>2024-03-21 14:28 PM CET</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/ElevationPropertyTypeValue/depth:1</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/ElevationPropertyTypeValue/depth</latestversion>
-         <label xml:lang="en">depth</label>
-         <definition xml:lang="en">Elevation property measured along a plumb line in a direction coincident to Earth's gravity field (downwards)</definition>
+         <created>2024-04-02 10:06 AM CEST</created>
+         <issued>2024-03-26 11:25 AM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ElevationPropertyTypeValue/height:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ElevationPropertyTypeValue/height</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/ElevationPropertyTypeValue/height:1</version>
+         </previousversions>
+         <label xml:lang="en">height</label>
+         <definition xml:lang="en">Elevation property measured along a plumb line in a direction opposite to Earth's gravity field (upwards)</definition>
          <description xml:lang="en"></description>
          <codelist id="http://inspire.ec.europa.eu/codelist/ElevationPropertyTypeValue">
             <label xml:lang="en">Elevation property type</label>
