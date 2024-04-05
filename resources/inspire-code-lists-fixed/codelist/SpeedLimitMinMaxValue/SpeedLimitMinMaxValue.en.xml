@@ -36,50 +36,14 @@
       </registry>
    </register>
    <containeditems>
-      <value id="http://inspire.ec.europa.eu/codelist/SpeedLimitMinMaxValue/recommendedMinimum">
+      <value id="http://inspire.ec.europa.eu/codelist/SpeedLimitMinMaxValue/minimum">
          <language>en</language>
-         <created>2024-03-22 12:52 PM CET</created>
-         <issued>2024-03-21 14:28 PM CET</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/SpeedLimitMinMaxValue/recommendedMinimum:1</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/SpeedLimitMinMaxValue/recommendedMinimum</latestversion>
-         <label xml:lang="en">recommendedMinimum</label>
-         <definition xml:lang="en">Speed limit is a recommended minimum value</definition>
-         <description xml:lang="en"></description>
-         <codelist id="http://inspire.ec.europa.eu/codelist/SpeedLimitMinMaxValue">
-            <label xml:lang="en">Nature of speed limit</label>
-         </codelist>
-         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
-            <label xml:lang="en">Road Transport Network</label>
-         </applicationschema>
-         <theme id="http://inspire.ec.europa.eu/theme/tn">
-            <label xml:lang="en">Transport networks</label>
-         </theme>
-         <referencelink xml:lang="en"></referencelink>
-         <referencesource xml:lang="en"></referencesource>
-         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
-            <label xml:lang="en">Legal (EU)</label>
-         </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
-         </status>
-         <itemclass uriname="CodeListValue">
-            <label xml:lang="en">CodeListValue</label>
-         </itemclass>
-         <register id="http://inspire.ec.europa.eu/codelist">
-            <label xml:lang="en">INSPIRE code list register</label>
-            <registry id="http://inspire.ec.europa.eu/registry">
-               <label xml:lang="en">INSPIRE registry</label>
-            </registry>
-         </register>
-      </value>
-      <value id="http://inspire.ec.europa.eu/codelist/SpeedLimitMinMaxValue/recommendedMaximum">
-         <language>en</language>
-         <created>2024-03-22 12:52 PM CET</created>
-         <issued>2024-03-21 14:28 PM CET</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/SpeedLimitMinMaxValue/recommendedMaximum:1</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/SpeedLimitMinMaxValue/recommendedMaximum</latestversion>
-         <label xml:lang="en">recommendedMaximum</label>
-         <definition xml:lang="en">Speed limit is a recommended maximum value</definition>
+         <created>2024-04-02 10:07 AM CEST</created>
+         <issued>2024-03-26 13:27 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SpeedLimitMinMaxValue/minimum:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SpeedLimitMinMaxValue/minimum</latestversion>
+         <label xml:lang="en">minimum</label>
+         <definition xml:lang="en">Speed limit is a minimum value</definition>
          <description xml:lang="en"></description>
          <codelist id="http://inspire.ec.europa.eu/codelist/SpeedLimitMinMaxValue">
             <label xml:lang="en">Nature of speed limit</label>
@@ -110,9 +74,9 @@
       </value>
       <value id="http://inspire.ec.europa.eu/codelist/SpeedLimitMinMaxValue/maximum">
          <language>en</language>
-         <created>2024-03-22 12:52 PM CET</created>
-         <issued>2024-03-21 14:28 PM CET</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/SpeedLimitMinMaxValue/maximum:1</thisversion>
+         <created>2024-04-02 10:07 AM CEST</created>
+         <issued>2024-03-26 13:29 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SpeedLimitMinMaxValue/maximum:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/codelist/SpeedLimitMinMaxValue/maximum</latestversion>
          <label xml:lang="en">maximum</label>
          <definition xml:lang="en">Speed limit is a maximum value</definition>
@@ -144,14 +108,56 @@
             </registry>
          </register>
       </value>
-      <value id="http://inspire.ec.europa.eu/codelist/SpeedLimitMinMaxValue/minimum">
+      <value id="http://inspire.ec.europa.eu/codelist/SpeedLimitMinMaxValue/recommendedMaximum">
          <language>en</language>
-         <created>2024-03-22 12:52 PM CET</created>
-         <issued>2024-03-21 14:28 PM CET</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/SpeedLimitMinMaxValue/minimum:1</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/SpeedLimitMinMaxValue/minimum</latestversion>
-         <label xml:lang="en">minimum</label>
-         <definition xml:lang="en">Speed limit is a minimum value</definition>
+         <created>2024-04-02 10:07 AM CEST</created>
+         <issued>2024-03-26 13:33 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SpeedLimitMinMaxValue/recommendedMaximum:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SpeedLimitMinMaxValue/recommendedMaximum</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/SpeedLimitMinMaxValue/recommendedMaximum:1</version>
+         </previousversions>
+         <label xml:lang="en">recommendedMaximum</label>
+         <definition xml:lang="en">Speed limit is a recommended maximum value</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/SpeedLimitMinMaxValue">
+            <label xml:lang="en">Nature of speed limit</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/SpeedLimitMinMaxValue/recommendedMinimum">
+         <language>en</language>
+         <created>2024-04-02 10:07 AM CEST</created>
+         <issued>2024-03-26 13:35 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SpeedLimitMinMaxValue/recommendedMinimum:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SpeedLimitMinMaxValue/recommendedMinimum</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/SpeedLimitMinMaxValue/recommendedMinimum:1</version>
+         </previousversions>
+         <label xml:lang="en">recommendedMinimum</label>
+         <definition xml:lang="en">Speed limit is a recommended minimum value</definition>
          <description xml:lang="en"></description>
          <codelist id="http://inspire.ec.europa.eu/codelist/SpeedLimitMinMaxValue">
             <label xml:lang="en">Nature of speed limit</label>

@@ -33,14 +33,17 @@
       </registry>
    </register>
    <containeditems>
-      <value id="http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/indirectDetermination">
+      <value id="http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/modelling">
          <language>en</language>
-         <created>2024-03-22 12:52 PM CET</created>
-         <issued>2024-03-21 14:28 PM CET</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/indirectDetermination:1</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/indirectDetermination</latestversion>
-         <label xml:lang="en">indirectDetermination</label>
-         <definition xml:lang="en">The area has been defined by interpretation of available data and/or information</definition>
+         <created>2024-04-02 10:06 AM CEST</created>
+         <issued>2024-03-26 11:16 AM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/modelling:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/modelling</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/modelling:1</version>
+         </previousversions>
+         <label xml:lang="en">modelling</label>
+         <definition xml:lang="en">The area has been computed according to a model</definition>
          <description xml:lang="en"></description>
          <codelist id="http://inspire.ec.europa.eu/codelist/DeterminationMethodValue">
             <label xml:lang="en">DeterminationMethodValue</label>
@@ -69,14 +72,17 @@
             </registry>
          </register>
       </value>
-      <value id="http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/modelling">
+      <value id="http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/indirectDetermination">
          <language>en</language>
-         <created>2024-03-22 12:52 PM CET</created>
-         <issued>2024-03-21 14:28 PM CET</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/modelling:1</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/modelling</latestversion>
-         <label xml:lang="en">modelling</label>
-         <definition xml:lang="en">The area has been computed according to a model</definition>
+         <created>2024-04-02 10:06 AM CEST</created>
+         <issued>2024-03-26 11:20 AM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/indirectDetermination:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/indirectDetermination</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/indirectDetermination:1</version>
+         </previousversions>
+         <label xml:lang="en">indirectDetermination</label>
+         <definition xml:lang="en">The area has been defined by interpretation of available data and/or information</definition>
          <description xml:lang="en"></description>
          <codelist id="http://inspire.ec.europa.eu/codelist/DeterminationMethodValue">
             <label xml:lang="en">DeterminationMethodValue</label>

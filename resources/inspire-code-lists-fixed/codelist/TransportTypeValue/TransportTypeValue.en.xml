@@ -36,86 +36,17 @@
       </registry>
    </register>
    <containeditems>
-      <value id="http://inspire.ec.europa.eu/codelist/TransportTypeValue/road">
+      <value id="http://inspire.ec.europa.eu/codelist/TransportTypeValue/cable">
          <language>en</language>
-         <created>2024-03-22 12:52 PM CET</created>
-         <issued>2024-03-21 14:28 PM CET</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/TransportTypeValue/road:1</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/TransportTypeValue/road</latestversion>
-         <label xml:lang="en">road</label>
-         <definition xml:lang="en">The transport network consists of transport by road</definition>
-         <description xml:lang="en"></description>
-         <codelist id="http://inspire.ec.europa.eu/codelist/TransportTypeValue">
-            <label xml:lang="en">Transport type</label>
-         </codelist>
-         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn">
-            <label xml:lang="en">Common Transport Elements</label>
-         </applicationschema>
-         <theme id="http://inspire.ec.europa.eu/theme/tn">
-            <label xml:lang="en">Transport networks</label>
-         </theme>
-         <referencelink xml:lang="en"></referencelink>
-         <referencesource xml:lang="en"></referencesource>
-         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
-            <label xml:lang="en">Legal (EU)</label>
-         </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
-         </status>
-         <itemclass uriname="CodeListValue">
-            <label xml:lang="en">CodeListValue</label>
-         </itemclass>
-         <register id="http://inspire.ec.europa.eu/codelist">
-            <label xml:lang="en">INSPIRE code list register</label>
-            <registry id="http://inspire.ec.europa.eu/registry">
-               <label xml:lang="en">INSPIRE registry</label>
-            </registry>
-         </register>
-      </value>
-      <value id="http://inspire.ec.europa.eu/codelist/TransportTypeValue/air">
-         <language>en</language>
-         <created>2024-03-22 12:52 PM CET</created>
-         <issued>2024-03-21 14:28 PM CET</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/TransportTypeValue/air:1</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/TransportTypeValue/air</latestversion>
-         <label xml:lang="en">air</label>
-         <definition xml:lang="en">The transport network consists of transport by air</definition>
-         <description xml:lang="en"></description>
-         <codelist id="http://inspire.ec.europa.eu/codelist/TransportTypeValue">
-            <label xml:lang="en">Transport type</label>
-         </codelist>
-         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn">
-            <label xml:lang="en">Common Transport Elements</label>
-         </applicationschema>
-         <theme id="http://inspire.ec.europa.eu/theme/tn">
-            <label xml:lang="en">Transport networks</label>
-         </theme>
-         <referencelink xml:lang="en"></referencelink>
-         <referencesource xml:lang="en"></referencesource>
-         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
-            <label xml:lang="en">Legal (EU)</label>
-         </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
-         </status>
-         <itemclass uriname="CodeListValue">
-            <label xml:lang="en">CodeListValue</label>
-         </itemclass>
-         <register id="http://inspire.ec.europa.eu/codelist">
-            <label xml:lang="en">INSPIRE code list register</label>
-            <registry id="http://inspire.ec.europa.eu/registry">
-               <label xml:lang="en">INSPIRE registry</label>
-            </registry>
-         </register>
-      </value>
-      <value id="http://inspire.ec.europa.eu/codelist/TransportTypeValue/rail">
-         <language>en</language>
-         <created>2024-03-22 12:52 PM CET</created>
-         <issued>2024-03-21 14:28 PM CET</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/TransportTypeValue/rail:1</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/TransportTypeValue/rail</latestversion>
-         <label xml:lang="en">rail</label>
-         <definition xml:lang="en">The transport network consists of transport by rail</definition>
+         <created>2024-04-02 10:07 AM CEST</created>
+         <issued>2024-03-27 08:33 AM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/TransportTypeValue/cable:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/TransportTypeValue/cable</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/TransportTypeValue/cable:1</version>
+         </previousversions>
+         <label xml:lang="en">cable</label>
+         <definition xml:lang="en">The transport network consists of transport by cable</definition>
          <description xml:lang="en"></description>
          <codelist id="http://inspire.ec.europa.eu/codelist/TransportTypeValue">
             <label xml:lang="en">Transport type</label>
@@ -146,9 +77,9 @@
       </value>
       <value id="http://inspire.ec.europa.eu/codelist/TransportTypeValue/water">
          <language>en</language>
-         <created>2024-03-22 12:52 PM CET</created>
-         <issued>2024-03-21 14:28 PM CET</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/TransportTypeValue/water:1</thisversion>
+         <created>2024-04-02 10:07 AM CEST</created>
+         <issued>2024-03-27 08:36 AM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/TransportTypeValue/water:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/codelist/TransportTypeValue/water</latestversion>
          <label xml:lang="en">water</label>
          <definition xml:lang="en">The transport network consists of transport by water</definition>
@@ -180,14 +111,92 @@
             </registry>
          </register>
       </value>
-      <value id="http://inspire.ec.europa.eu/codelist/TransportTypeValue/cable">
+      <value id="http://inspire.ec.europa.eu/codelist/TransportTypeValue/rail">
          <language>en</language>
-         <created>2024-03-22 12:52 PM CET</created>
-         <issued>2024-03-21 14:28 PM CET</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/TransportTypeValue/cable:1</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/TransportTypeValue/cable</latestversion>
-         <label xml:lang="en">cable</label>
-         <definition xml:lang="en">The transport network consists of transport by cable</definition>
+         <created>2024-04-02 10:07 AM CEST</created>
+         <issued>2024-03-27 08:39 AM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/TransportTypeValue/rail:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/TransportTypeValue/rail</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/TransportTypeValue/rail:1</version>
+         </previousversions>
+         <label xml:lang="en">rail</label>
+         <definition xml:lang="en">The transport network consists of transport by rail</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/TransportTypeValue">
+            <label xml:lang="en">Transport type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn">
+            <label xml:lang="en">Common Transport Elements</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/TransportTypeValue/air">
+         <language>en</language>
+         <created>2024-04-02 10:07 AM CEST</created>
+         <issued>2024-03-27 08:47 AM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/TransportTypeValue/air:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/TransportTypeValue/air</latestversion>
+         <label xml:lang="en">air</label>
+         <definition xml:lang="en">The transport network consists of transport by air</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/TransportTypeValue">
+            <label xml:lang="en">Transport type</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn">
+            <label xml:lang="en">Common Transport Elements</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/TransportTypeValue/road">
+         <language>en</language>
+         <created>2024-04-02 10:07 AM CEST</created>
+         <issued>2024-03-27 08:49 AM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/TransportTypeValue/road:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/TransportTypeValue/road</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/TransportTypeValue/road:1</version>
+         </previousversions>
+         <label xml:lang="en">road</label>
+         <definition xml:lang="en">The transport network consists of transport by road</definition>
          <description xml:lang="en"></description>
          <codelist id="http://inspire.ec.europa.eu/codelist/TransportTypeValue">
             <label xml:lang="en">Transport type</label>
