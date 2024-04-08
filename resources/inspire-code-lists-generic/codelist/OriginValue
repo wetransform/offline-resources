@@ -1,9 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <enumeration xmlns="http://inspire.ec.europa.eu/enumeration_register/Enumeration" xsi:schemaLocation="http://inspire.ec.europa.eu/enumeration_register/Enumeration http://inspire.ec.europa.eu/registry/schemas/2.0/Enumeration.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/enumeration/OriginValue">
    <language>en</language>
-   <created>2015-10-14 11:08 AM CEST</created>
-   <thisversion>http://inspire.ec.europa.eu/enumeration/OriginValue:1</thisversion>
+   <created>2024-04-05 12:32 PM CEST</created>
+   <issued>2024-03-18 14:16 PM CET</issued>
+   <thisversion>http://inspire.ec.europa.eu/enumeration/OriginValue:2</thisversion>
    <latestversion>http://inspire.ec.europa.eu/enumeration/OriginValue</latestversion>
+   <previousversions>
+      <version>http://inspire.ec.europa.eu/enumeration/OriginValue:1</version>
+   </previousversions>
    <label xml:lang="en">Origin</label>
    <definition xml:lang="en">An enumeration type specifying a set of hydrographic ''origin'' categories (natural, man-made) for various hydrographic objects.</definition>
    <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hy-p">
@@ -15,8 +19,8 @@
    <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
       <label xml:lang="en">Legal (EU)</label>
    </governance-level>
-   <status id="http://inspire.ec.europa.eu/registry/status/valid">
-      <label xml:lang="en">Valid</label>
+   <status id="http://inspire.ec.europa.eu/registry/status/retired">
+      <label xml:lang="en">Retired</label>
    </status>
    <itemclass uriname="Enumeration">
       <label xml:lang="en">Enumeration</label>
@@ -30,9 +34,13 @@
    <containeditems>
       <value id="http://inspire.ec.europa.eu/enumeration/OriginValue/natural">
          <language>en</language>
-         <created>2015-10-14 11:08 AM CEST</created>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/OriginValue/natural:1</thisversion>
+         <created>2024-04-05 12:32 PM CEST</created>
+         <issued>2024-03-18 14:16 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/OriginValue/natural:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/enumeration/OriginValue/natural</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/enumeration/OriginValue/natural:1</version>
+         </previousversions>
          <label xml:lang="en">natural</label>
          <definition xml:lang="en">An indication that a spatial object is natural</definition>
          <enumeration id="http://inspire.ec.europa.eu/enumeration/OriginValue">
@@ -47,8 +55,8 @@
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/retired">
+            <label xml:lang="en">Retired</label>
          </status>
          <itemclass uriname="EnumerationValue">
             <label xml:lang="en">EnumerationValue</label>
@@ -62,9 +70,13 @@
       </value>
       <value id="http://inspire.ec.europa.eu/enumeration/OriginValue/manMade">
          <language>en</language>
-         <created>2015-10-14 11:08 AM CEST</created>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/OriginValue/manMade:1</thisversion>
+         <created>2024-04-05 12:32 PM CEST</created>
+         <issued>2024-03-18 14:16 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/OriginValue/manMade:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/enumeration/OriginValue/manMade</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/enumeration/OriginValue/manMade:1</version>
+         </previousversions>
          <label xml:lang="en">manMade</label>
          <definition xml:lang="en">An indication that a spatial object is man-made</definition>
          <enumeration id="http://inspire.ec.europa.eu/enumeration/OriginValue">
@@ -79,8 +91,8 @@
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/retired">
+            <label xml:lang="en">Retired</label>
          </status>
          <itemclass uriname="EnumerationValue">
             <label xml:lang="en">EnumerationValue</label>

@@ -1,9 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <enumeration xmlns="http://inspire.ec.europa.eu/enumeration_register/Enumeration" xsi:schemaLocation="http://inspire.ec.europa.eu/enumeration_register/Enumeration http://inspire.ec.europa.eu/registry/schemas/2.0/Enumeration.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/enumeration/CEMTClassValue">
    <language>en</language>
-   <created>2015-10-14 11:08 AM CEST</created>
-   <thisversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue:1</thisversion>
+   <created>2024-04-05 12:33 PM CEST</created>
+   <issued>2024-03-13 09:47 AM CET</issued>
+   <thisversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue:2</thisversion>
    <latestversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue</latestversion>
+   <previousversions>
+      <version>http://inspire.ec.europa.eu/enumeration/CEMTClassValue:1</version>
+   </previousversions>
    <label xml:lang="en">CEMT class</label>
    <definition xml:lang="en">Inland waterway classification according to CEMT (European Conference of Ministers of Transport) Resolution No 92/2.</definition>
    <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-w">
@@ -15,8 +19,8 @@
    <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
       <label xml:lang="en">Legal (EU)</label>
    </governance-level>
-   <status id="http://inspire.ec.europa.eu/registry/status/valid">
-      <label xml:lang="en">Valid</label>
+   <status id="http://inspire.ec.europa.eu/registry/status/retired">
+      <label xml:lang="en">Retired</label>
    </status>
    <itemclass uriname="Enumeration">
       <label xml:lang="en">Enumeration</label>
@@ -30,9 +34,13 @@
    <containeditems>
       <value id="http://inspire.ec.europa.eu/enumeration/CEMTClassValue/I">
          <language>en</language>
-         <created>2015-10-14 11:08 AM CEST</created>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/I:1</thisversion>
+         <created>2024-04-05 12:33 PM CEST</created>
+         <issued>2024-03-13 09:47 AM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/I:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/I</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/I:1</version>
+         </previousversions>
          <label xml:lang="en">I</label>
          <definition xml:lang="en">Inland waterway belonging to CEMT-class I, defined by the European Conference of Ministers of Transport, Resolution No.92/2 - Table 1</definition>
          <enumeration id="http://inspire.ec.europa.eu/enumeration/CEMTClassValue">
@@ -47,8 +55,8 @@
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/retired">
+            <label xml:lang="en">Retired</label>
          </status>
          <itemclass uriname="EnumerationValue">
             <label xml:lang="en">EnumerationValue</label>
@@ -62,9 +70,13 @@
       </value>
       <value id="http://inspire.ec.europa.eu/enumeration/CEMTClassValue/II">
          <language>en</language>
-         <created>2015-10-14 11:08 AM CEST</created>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/II:1</thisversion>
+         <created>2024-04-05 12:33 PM CEST</created>
+         <issued>2024-03-13 09:47 AM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/II:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/II</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/II:1</version>
+         </previousversions>
          <label xml:lang="en">II</label>
          <definition xml:lang="en">Inland waterway belonging to CEMT-class II, defined by the European Conference of Ministers of Transport, Resolution No.92/2 - Table 1</definition>
          <enumeration id="http://inspire.ec.europa.eu/enumeration/CEMTClassValue">
@@ -79,8 +91,8 @@
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/retired">
+            <label xml:lang="en">Retired</label>
          </status>
          <itemclass uriname="EnumerationValue">
             <label xml:lang="en">EnumerationValue</label>
@@ -94,9 +106,13 @@
       </value>
       <value id="http://inspire.ec.europa.eu/enumeration/CEMTClassValue/III">
          <language>en</language>
-         <created>2015-10-14 11:08 AM CEST</created>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/III:1</thisversion>
+         <created>2024-04-05 12:33 PM CEST</created>
+         <issued>2024-03-13 09:47 AM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/III:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/III</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/III:1</version>
+         </previousversions>
          <label xml:lang="en">III</label>
          <definition xml:lang="en">Inland waterway belonging to CEMT-class III, defined by the European Conference of Ministers of Transport, Resolution No.92/2 - Table 1</definition>
          <enumeration id="http://inspire.ec.europa.eu/enumeration/CEMTClassValue">
@@ -111,8 +127,8 @@
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/retired">
+            <label xml:lang="en">Retired</label>
          </status>
          <itemclass uriname="EnumerationValue">
             <label xml:lang="en">EnumerationValue</label>
@@ -126,9 +142,13 @@
       </value>
       <value id="http://inspire.ec.europa.eu/enumeration/CEMTClassValue/IV">
          <language>en</language>
-         <created>2015-10-14 11:08 AM CEST</created>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/IV:1</thisversion>
+         <created>2024-04-05 12:33 PM CEST</created>
+         <issued>2024-03-13 09:47 AM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/IV:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/IV</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/IV:1</version>
+         </previousversions>
          <label xml:lang="en">IV</label>
          <definition xml:lang="en">Inland waterway belonging to CEMT-class IV, defined by the European Conference of Ministers of Transport, Resolution No.92/2 - Table 1</definition>
          <enumeration id="http://inspire.ec.europa.eu/enumeration/CEMTClassValue">
@@ -143,8 +163,8 @@
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/retired">
+            <label xml:lang="en">Retired</label>
          </status>
          <itemclass uriname="EnumerationValue">
             <label xml:lang="en">EnumerationValue</label>
@@ -158,9 +178,13 @@
       </value>
       <value id="http://inspire.ec.europa.eu/enumeration/CEMTClassValue/Va">
          <language>en</language>
-         <created>2015-10-14 11:08 AM CEST</created>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/Va:1</thisversion>
+         <created>2024-04-05 12:33 PM CEST</created>
+         <issued>2024-03-13 09:47 AM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/Va:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/Va</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/Va:1</version>
+         </previousversions>
          <label xml:lang="en">Va</label>
          <definition xml:lang="en">Inland waterway belonging to CEMT-class Va, defined by the European Conference of Ministers of Transport, Resolution No.92/2 - Table 1</definition>
          <enumeration id="http://inspire.ec.europa.eu/enumeration/CEMTClassValue">
@@ -175,8 +199,8 @@
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/retired">
+            <label xml:lang="en">Retired</label>
          </status>
          <itemclass uriname="EnumerationValue">
             <label xml:lang="en">EnumerationValue</label>
@@ -190,9 +214,13 @@
       </value>
       <value id="http://inspire.ec.europa.eu/enumeration/CEMTClassValue/Vb">
          <language>en</language>
-         <created>2015-10-14 11:08 AM CEST</created>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/Vb:1</thisversion>
+         <created>2024-04-05 12:33 PM CEST</created>
+         <issued>2024-03-13 09:47 AM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/Vb:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/Vb</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/Vb:1</version>
+         </previousversions>
          <label xml:lang="en">Vb</label>
          <definition xml:lang="en">Inland waterway belonging to CEMT-class Vb, defined by the European Conference of Ministers of Transport, Resolution No.92/2 - Table 1</definition>
          <enumeration id="http://inspire.ec.europa.eu/enumeration/CEMTClassValue">
@@ -207,8 +235,8 @@
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/retired">
+            <label xml:lang="en">Retired</label>
          </status>
          <itemclass uriname="EnumerationValue">
             <label xml:lang="en">EnumerationValue</label>
@@ -222,9 +250,13 @@
       </value>
       <value id="http://inspire.ec.europa.eu/enumeration/CEMTClassValue/VIa">
          <language>en</language>
-         <created>2015-10-14 11:08 AM CEST</created>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/VIa:1</thisversion>
+         <created>2024-04-05 12:33 PM CEST</created>
+         <issued>2024-03-13 09:47 AM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/VIa:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/VIa</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/VIa:1</version>
+         </previousversions>
          <label xml:lang="en">VIa</label>
          <definition xml:lang="en">Inland waterway belonging to CEMT-class VIa, defined by the European Conference of Ministers of Transport, Resolution No.92/2 - Table 1</definition>
          <enumeration id="http://inspire.ec.europa.eu/enumeration/CEMTClassValue">
@@ -239,8 +271,8 @@
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/retired">
+            <label xml:lang="en">Retired</label>
          </status>
          <itemclass uriname="EnumerationValue">
             <label xml:lang="en">EnumerationValue</label>
@@ -254,9 +286,13 @@
       </value>
       <value id="http://inspire.ec.europa.eu/enumeration/CEMTClassValue/VIb">
          <language>en</language>
-         <created>2015-10-14 11:08 AM CEST</created>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/VIb:1</thisversion>
+         <created>2024-04-05 12:33 PM CEST</created>
+         <issued>2024-03-13 09:47 AM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/VIb:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/VIb</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/VIb:1</version>
+         </previousversions>
          <label xml:lang="en">VIb</label>
          <definition xml:lang="en">Inland waterway belonging to CEMT-class VIb, defined by the European Conference of Ministers of Transport, Resolution No.92/2 - Table 1</definition>
          <enumeration id="http://inspire.ec.europa.eu/enumeration/CEMTClassValue">
@@ -271,8 +307,8 @@
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/retired">
+            <label xml:lang="en">Retired</label>
          </status>
          <itemclass uriname="EnumerationValue">
             <label xml:lang="en">EnumerationValue</label>
@@ -286,9 +322,13 @@
       </value>
       <value id="http://inspire.ec.europa.eu/enumeration/CEMTClassValue/VIc">
          <language>en</language>
-         <created>2015-10-14 11:08 AM CEST</created>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/VIc:1</thisversion>
+         <created>2024-04-05 12:33 PM CEST</created>
+         <issued>2024-03-13 09:47 AM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/VIc:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/VIc</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/VIc:1</version>
+         </previousversions>
          <label xml:lang="en">VIc</label>
          <definition xml:lang="en">Inland waterway belonging to CEMT-class VIc, defined by the European Conference of Ministers of Transport, Resolution No.92/2 - Table 1</definition>
          <enumeration id="http://inspire.ec.europa.eu/enumeration/CEMTClassValue">
@@ -303,8 +343,8 @@
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/retired">
+            <label xml:lang="en">Retired</label>
          </status>
          <itemclass uriname="EnumerationValue">
             <label xml:lang="en">EnumerationValue</label>
@@ -318,9 +358,13 @@
       </value>
       <value id="http://inspire.ec.europa.eu/enumeration/CEMTClassValue/VII">
          <language>en</language>
-         <created>2015-10-14 11:08 AM CEST</created>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/VII:1</thisversion>
+         <created>2024-04-05 12:33 PM CEST</created>
+         <issued>2024-03-13 09:47 AM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/VII:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/VII</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/enumeration/CEMTClassValue/VII:1</version>
+         </previousversions>
          <label xml:lang="en">VII</label>
          <definition xml:lang="en">Inland waterway belonging to CEMT-class VII, defined by the European Conference of Ministers of Transport, Resolution No.92/2 - Table 1</definition>
          <enumeration id="http://inspire.ec.europa.eu/enumeration/CEMTClassValue">
@@ -335,8 +379,8 @@
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/retired">
+            <label xml:lang="en">Retired</label>
          </status>
          <itemclass uriname="EnumerationValue">
             <label xml:lang="en">EnumerationValue</label>

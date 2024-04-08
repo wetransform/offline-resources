@@ -1,9 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <enumeration xmlns="http://inspire.ec.europa.eu/enumeration_register/Enumeration" xsi:schemaLocation="http://inspire.ec.europa.eu/enumeration_register/Enumeration http://inspire.ec.europa.eu/registry/schemas/2.0/Enumeration.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/enumeration/ElevationPropertyTypeValue">
    <language>en</language>
-   <created>2015-10-14 11:08 AM CEST</created>
-   <thisversion>http://inspire.ec.europa.eu/enumeration/ElevationPropertyTypeValue:1</thisversion>
+   <created>2024-04-05 12:33 PM CEST</created>
+   <issued>2024-03-18 13:45 PM CET</issued>
+   <thisversion>http://inspire.ec.europa.eu/enumeration/ElevationPropertyTypeValue:2</thisversion>
    <latestversion>http://inspire.ec.europa.eu/enumeration/ElevationPropertyTypeValue</latestversion>
+   <previousversions>
+      <version>http://inspire.ec.europa.eu/enumeration/ElevationPropertyTypeValue:1</version>
+   </previousversions>
    <label xml:lang="en">Elevation property type</label>
    <definition xml:lang="en">Enumeration type which determines the elevation property which has been measured or calculated.</definition>
    <applicationschema id="http://inspire.ec.europa.eu/applicationschema/el-bas">
@@ -15,8 +19,8 @@
    <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
       <label xml:lang="en">Legal (EU)</label>
    </governance-level>
-   <status id="http://inspire.ec.europa.eu/registry/status/valid">
-      <label xml:lang="en">Valid</label>
+   <status id="http://inspire.ec.europa.eu/registry/status/retired">
+      <label xml:lang="en">Retired</label>
    </status>
    <itemclass uriname="Enumeration">
       <label xml:lang="en">Enumeration</label>
@@ -30,9 +34,13 @@
    <containeditems>
       <value id="http://inspire.ec.europa.eu/enumeration/ElevationPropertyTypeValue/height">
          <language>en</language>
-         <created>2015-10-14 11:08 AM CEST</created>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/ElevationPropertyTypeValue/height:1</thisversion>
+         <created>2024-04-05 12:33 PM CEST</created>
+         <issued>2024-03-18 13:45 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/ElevationPropertyTypeValue/height:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/enumeration/ElevationPropertyTypeValue/height</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/enumeration/ElevationPropertyTypeValue/height:1</version>
+         </previousversions>
          <label xml:lang="en">height</label>
          <definition xml:lang="en">Elevation property measured along a plumb line in a direction opposite to Earth's gravity field (upwards)</definition>
          <enumeration id="http://inspire.ec.europa.eu/enumeration/ElevationPropertyTypeValue">
@@ -47,8 +55,8 @@
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/retired">
+            <label xml:lang="en">Retired</label>
          </status>
          <itemclass uriname="EnumerationValue">
             <label xml:lang="en">EnumerationValue</label>
@@ -62,9 +70,13 @@
       </value>
       <value id="http://inspire.ec.europa.eu/enumeration/ElevationPropertyTypeValue/depth">
          <language>en</language>
-         <created>2015-10-14 11:08 AM CEST</created>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/ElevationPropertyTypeValue/depth:1</thisversion>
+         <created>2024-04-05 12:33 PM CEST</created>
+         <issued>2024-03-18 13:45 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/ElevationPropertyTypeValue/depth:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/enumeration/ElevationPropertyTypeValue/depth</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/enumeration/ElevationPropertyTypeValue/depth:1</version>
+         </previousversions>
          <label xml:lang="en">depth</label>
          <definition xml:lang="en">Elevation property measured along a plumb line in a direction coincident to Earth's gravity field (downwards)</definition>
          <enumeration id="http://inspire.ec.europa.eu/enumeration/ElevationPropertyTypeValue">
@@ -79,8 +91,8 @@
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/retired">
+            <label xml:lang="en">Retired</label>
          </status>
          <itemclass uriname="EnumerationValue">
             <label xml:lang="en">EnumerationValue</label>

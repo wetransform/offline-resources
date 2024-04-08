@@ -1,9 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <enumeration xmlns="http://inspire.ec.europa.eu/enumeration_register/Enumeration" xsi:schemaLocation="http://inspire.ec.europa.eu/enumeration_register/Enumeration http://inspire.ec.europa.eu/registry/schemas/2.0/Enumeration.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/enumeration/ContourLineTypeValue">
    <language>en</language>
-   <created>2015-10-14 11:08 AM CEST</created>
-   <thisversion>http://inspire.ec.europa.eu/enumeration/ContourLineTypeValue:1</thisversion>
+   <created>2024-04-05 12:33 PM CEST</created>
+   <issued>2024-03-18 13:26 PM CET</issued>
+   <thisversion>http://inspire.ec.europa.eu/enumeration/ContourLineTypeValue:2</thisversion>
    <latestversion>http://inspire.ec.europa.eu/enumeration/ContourLineTypeValue</latestversion>
+   <previousversions>
+      <version>http://inspire.ec.europa.eu/enumeration/ContourLineTypeValue:1</version>
+   </previousversions>
    <label xml:lang="en">Contour line type</label>
    <definition xml:lang="en">List of possible categories of contour lines based on the equidistance parameter of the data set.</definition>
    <applicationschema id="http://inspire.ec.europa.eu/applicationschema/el-vec">
@@ -15,8 +19,8 @@
    <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
       <label xml:lang="en">Legal (EU)</label>
    </governance-level>
-   <status id="http://inspire.ec.europa.eu/registry/status/valid">
-      <label xml:lang="en">Valid</label>
+   <status id="http://inspire.ec.europa.eu/registry/status/retired">
+      <label xml:lang="en">Retired</label>
    </status>
    <itemclass uriname="Enumeration">
       <label xml:lang="en">Enumeration</label>
@@ -30,9 +34,13 @@
    <containeditems>
       <value id="http://inspire.ec.europa.eu/enumeration/ContourLineTypeValue/master">
          <language>en</language>
-         <created>2015-10-14 11:08 AM CEST</created>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/ContourLineTypeValue/master:1</thisversion>
+         <created>2024-04-05 12:33 PM CEST</created>
+         <issued>2024-03-18 13:26 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/ContourLineTypeValue/master:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/enumeration/ContourLineTypeValue/master</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/enumeration/ContourLineTypeValue/master:1</version>
+         </previousversions>
          <label xml:lang="en">master</label>
          <definition xml:lang="en">Contour at a vertical distance which is multiple to the equidistance parameter (corresponding to a certain multiple of the normal contour vertical interval) associated with the nominal scale</definition>
          <enumeration id="http://inspire.ec.europa.eu/enumeration/ContourLineTypeValue">
@@ -47,8 +55,8 @@
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/retired">
+            <label xml:lang="en">Retired</label>
          </status>
          <itemclass uriname="EnumerationValue">
             <label xml:lang="en">EnumerationValue</label>
@@ -62,9 +70,13 @@
       </value>
       <value id="http://inspire.ec.europa.eu/enumeration/ContourLineTypeValue/ordinary">
          <language>en</language>
-         <created>2015-10-14 11:08 AM CEST</created>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/ContourLineTypeValue/ordinary:1</thisversion>
+         <created>2024-04-05 12:33 PM CEST</created>
+         <issued>2024-03-18 13:26 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/ContourLineTypeValue/ordinary:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/enumeration/ContourLineTypeValue/ordinary</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/enumeration/ContourLineTypeValue/ordinary:1</version>
+         </previousversions>
          <label xml:lang="en">ordinary</label>
          <definition xml:lang="en">Contour at the equidistance parameter (corresponding to the normal contour vertical interval) associated with the nominal scale, and which is not a master contour</definition>
          <enumeration id="http://inspire.ec.europa.eu/enumeration/ContourLineTypeValue">
@@ -79,8 +91,8 @@
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/retired">
+            <label xml:lang="en">Retired</label>
          </status>
          <itemclass uriname="EnumerationValue">
             <label xml:lang="en">EnumerationValue</label>
@@ -94,9 +106,13 @@
       </value>
       <value id="http://inspire.ec.europa.eu/enumeration/ContourLineTypeValue/auxiliary">
          <language>en</language>
-         <created>2015-10-14 11:08 AM CEST</created>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/ContourLineTypeValue/auxiliary:1</thisversion>
+         <created>2024-04-05 12:33 PM CEST</created>
+         <issued>2024-03-18 13:26 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/ContourLineTypeValue/auxiliary:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/enumeration/ContourLineTypeValue/auxiliary</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/enumeration/ContourLineTypeValue/auxiliary:1</version>
+         </previousversions>
          <label xml:lang="en">auxiliary</label>
          <definition xml:lang="en">A supplementary contour – not  corresponding to the normal contour vertical interval &amp;ndash; estimated or interpolated from surrounding contours, used in areas where there is insufficient height information for elevation mapping purposes or to control the creation of a digital elevation model</definition>
          <enumeration id="http://inspire.ec.europa.eu/enumeration/ContourLineTypeValue">
@@ -111,8 +127,8 @@
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/retired">
+            <label xml:lang="en">Retired</label>
          </status>
          <itemclass uriname="EnumerationValue">
             <label xml:lang="en">EnumerationValue</label>
