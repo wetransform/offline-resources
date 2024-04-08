@@ -1,9 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <enumeration xmlns="http://inspire.ec.europa.eu/enumeration_register/Enumeration" xsi:schemaLocation="http://inspire.ec.europa.eu/enumeration_register/Enumeration http://inspire.ec.europa.eu/registry/schemas/2.0/Enumeration.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/enumeration/VerticalPositionValue">
    <language>en</language>
-   <created>2015-10-14 11:08 AM CEST</created>
-   <thisversion>http://inspire.ec.europa.eu/enumeration/VerticalPositionValue:1</thisversion>
+   <created>2024-04-05 12:32 PM CEST</created>
+   <issued>2024-03-18 13:21 PM CET</issued>
+   <thisversion>http://inspire.ec.europa.eu/enumeration/VerticalPositionValue:2</thisversion>
    <latestversion>http://inspire.ec.europa.eu/enumeration/VerticalPositionValue</latestversion>
+   <previousversions>
+      <version>http://inspire.ec.europa.eu/enumeration/VerticalPositionValue:1</version>
+   </previousversions>
    <label xml:lang="en">Vertical position</label>
    <definition xml:lang="en">The relative vertical position of a spatial object.</definition>
    <applicationschema id="http://inspire.ec.europa.eu/applicationschema/base">
@@ -12,8 +16,8 @@
    <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
       <label xml:lang="en">Legal (EU)</label>
    </governance-level>
-   <status id="http://inspire.ec.europa.eu/registry/status/valid">
-      <label xml:lang="en">Valid</label>
+   <status id="http://inspire.ec.europa.eu/registry/status/retired">
+      <label xml:lang="en">Retired</label>
    </status>
    <itemclass uriname="Enumeration">
       <label xml:lang="en">Enumeration</label>
@@ -27,9 +31,13 @@
    <containeditems>
       <value id="http://inspire.ec.europa.eu/enumeration/VerticalPositionValue/onGroundSurface">
          <language>en</language>
-         <created>2015-10-14 11:08 AM CEST</created>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/VerticalPositionValue/onGroundSurface:1</thisversion>
+         <created>2024-04-05 12:32 PM CEST</created>
+         <issued>2024-03-18 13:21 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/VerticalPositionValue/onGroundSurface:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/enumeration/VerticalPositionValue/onGroundSurface</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/enumeration/VerticalPositionValue/onGroundSurface:1</version>
+         </previousversions>
          <label xml:lang="en">onGroundSurface</label>
          <definition xml:lang="en">The spatial object is on ground level</definition>
          <enumeration id="http://inspire.ec.europa.eu/enumeration/VerticalPositionValue">
@@ -41,8 +49,8 @@
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/retired">
+            <label xml:lang="en">Retired</label>
          </status>
          <itemclass uriname="EnumerationValue">
             <label xml:lang="en">EnumerationValue</label>
@@ -56,9 +64,13 @@
       </value>
       <value id="http://inspire.ec.europa.eu/enumeration/VerticalPositionValue/suspendedOrElevated">
          <language>en</language>
-         <created>2015-10-14 11:08 AM CEST</created>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/VerticalPositionValue/suspendedOrElevated:1</thisversion>
+         <created>2024-04-05 12:32 PM CEST</created>
+         <issued>2024-03-18 13:21 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/VerticalPositionValue/suspendedOrElevated:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/enumeration/VerticalPositionValue/suspendedOrElevated</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/enumeration/VerticalPositionValue/suspendedOrElevated:1</version>
+         </previousversions>
          <label xml:lang="en">suspendedOrElevated</label>
          <definition xml:lang="en">The spatial object is suspended or elevated</definition>
          <enumeration id="http://inspire.ec.europa.eu/enumeration/VerticalPositionValue">
@@ -70,8 +82,8 @@
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/retired">
+            <label xml:lang="en">Retired</label>
          </status>
          <itemclass uriname="EnumerationValue">
             <label xml:lang="en">EnumerationValue</label>
@@ -85,9 +97,13 @@
       </value>
       <value id="http://inspire.ec.europa.eu/enumeration/VerticalPositionValue/underground">
          <language>en</language>
-         <created>2015-10-14 11:08 AM CEST</created>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/VerticalPositionValue/underground:1</thisversion>
+         <created>2024-04-05 12:32 PM CEST</created>
+         <issued>2024-03-18 13:21 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/VerticalPositionValue/underground:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/enumeration/VerticalPositionValue/underground</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/enumeration/VerticalPositionValue/underground:1</version>
+         </previousversions>
          <label xml:lang="en">underground</label>
          <definition xml:lang="en">The spatial object is underground</definition>
          <enumeration id="http://inspire.ec.europa.eu/enumeration/VerticalPositionValue">
@@ -99,8 +115,8 @@
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/retired">
+            <label xml:lang="en">Retired</label>
          </status>
          <itemclass uriname="EnumerationValue">
             <label xml:lang="en">EnumerationValue</label>

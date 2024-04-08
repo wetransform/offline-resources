@@ -1,9 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <enumeration xmlns="http://inspire.ec.europa.eu/enumeration_register/Enumeration" xsi:schemaLocation="http://inspire.ec.europa.eu/enumeration_register/Enumeration http://inspire.ec.europa.eu/registry/schemas/2.0/Enumeration.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue">
    <language>en</language>
-   <created>2015-10-14 11:08 AM CEST</created>
-   <thisversion>http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue:1</thisversion>
+   <created>2024-04-05 12:32 PM CEST</created>
+   <issued>2024-03-18 14:02 PM CET</issued>
+   <thisversion>http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue:2</thisversion>
    <latestversion>http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue</latestversion>
+   <previousversions>
+      <version>http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue:1</version>
+   </previousversions>
    <label xml:lang="en">Nature of speed limit</label>
    <definition xml:lang="en">Possible values to indicate the nature of a speed limit.</definition>
    <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
@@ -15,8 +19,8 @@
    <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
       <label xml:lang="en">Legal (EU)</label>
    </governance-level>
-   <status id="http://inspire.ec.europa.eu/registry/status/valid">
-      <label xml:lang="en">Valid</label>
+   <status id="http://inspire.ec.europa.eu/registry/status/retired">
+      <label xml:lang="en">Retired</label>
    </status>
    <itemclass uriname="Enumeration">
       <label xml:lang="en">Enumeration</label>
@@ -30,9 +34,13 @@
    <containeditems>
       <value id="http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue/maximum">
          <language>en</language>
-         <created>2015-10-14 11:08 AM CEST</created>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue/maximum:1</thisversion>
+         <created>2024-04-05 12:32 PM CEST</created>
+         <issued>2024-03-18 14:02 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue/maximum:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue/maximum</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue/maximum:1</version>
+         </previousversions>
          <label xml:lang="en">maximum</label>
          <definition xml:lang="en">Speed limit is a maximum value</definition>
          <enumeration id="http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue">
@@ -47,8 +55,8 @@
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/retired">
+            <label xml:lang="en">Retired</label>
          </status>
          <itemclass uriname="EnumerationValue">
             <label xml:lang="en">EnumerationValue</label>
@@ -62,9 +70,13 @@
       </value>
       <value id="http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue/minimum">
          <language>en</language>
-         <created>2015-10-14 11:08 AM CEST</created>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue/minimum:1</thisversion>
+         <created>2024-04-05 12:32 PM CEST</created>
+         <issued>2024-03-18 14:02 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue/minimum:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue/minimum</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue/minimum:1</version>
+         </previousversions>
          <label xml:lang="en">minimum</label>
          <definition xml:lang="en">Speed limit is a minimum value</definition>
          <enumeration id="http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue">
@@ -79,8 +91,8 @@
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/retired">
+            <label xml:lang="en">Retired</label>
          </status>
          <itemclass uriname="EnumerationValue">
             <label xml:lang="en">EnumerationValue</label>
@@ -94,9 +106,13 @@
       </value>
       <value id="http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue/recommendedMaximum">
          <language>en</language>
-         <created>2015-10-14 11:08 AM CEST</created>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue/recommendedMaximum:1</thisversion>
+         <created>2024-04-05 12:32 PM CEST</created>
+         <issued>2024-03-18 14:02 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue/recommendedMaximum:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue/recommendedMaximum</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue/recommendedMaximum:1</version>
+         </previousversions>
          <label xml:lang="en">recommendedMaximum</label>
          <definition xml:lang="en">Speed limit is a recommended maximum value</definition>
          <enumeration id="http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue">
@@ -111,8 +127,8 @@
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/retired">
+            <label xml:lang="en">Retired</label>
          </status>
          <itemclass uriname="EnumerationValue">
             <label xml:lang="en">EnumerationValue</label>
@@ -126,9 +142,13 @@
       </value>
       <value id="http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue/recommendedMinimum">
          <language>en</language>
-         <created>2015-10-14 11:08 AM CEST</created>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue/recommendedMinimum:1</thisversion>
+         <created>2024-04-05 12:32 PM CEST</created>
+         <issued>2024-03-18 14:02 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue/recommendedMinimum:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue/recommendedMinimum</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue/recommendedMinimum:1</version>
+         </previousversions>
          <label xml:lang="en">recommendedMinimum</label>
          <definition xml:lang="en">Speed limit is a recommended minimum value</definition>
          <enumeration id="http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue">
@@ -143,8 +163,8 @@
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/retired">
+            <label xml:lang="en">Retired</label>
          </status>
          <itemclass uriname="EnumerationValue">
             <label xml:lang="en">EnumerationValue</label>

@@ -1,9 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <enumeration xmlns="http://inspire.ec.europa.eu/enumeration_register/Enumeration" xsi:schemaLocation="http://inspire.ec.europa.eu/enumeration_register/Enumeration http://inspire.ec.europa.eu/registry/schemas/2.0/Enumeration.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/enumeration/MinMaxTrackValue">
    <language>en</language>
-   <created>2015-10-14 11:08 AM CEST</created>
-   <thisversion>http://inspire.ec.europa.eu/enumeration/MinMaxTrackValue:1</thisversion>
+   <created>2024-04-05 12:33 PM CEST</created>
+   <issued>2024-03-18 14:10 PM CET</issued>
+   <thisversion>http://inspire.ec.europa.eu/enumeration/MinMaxTrackValue:2</thisversion>
    <latestversion>http://inspire.ec.europa.eu/enumeration/MinMaxTrackValue</latestversion>
+   <previousversions>
+      <version>http://inspire.ec.europa.eu/enumeration/MinMaxTrackValue:1</version>
+   </previousversions>
    <label xml:lang="en">Min Max track</label>
    <definition xml:lang="en">Values to indicate whether number of tracks are counted as the maximum, minimum or average number.</definition>
    <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ra">
@@ -15,8 +19,8 @@
    <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
       <label xml:lang="en">Legal (EU)</label>
    </governance-level>
-   <status id="http://inspire.ec.europa.eu/registry/status/valid">
-      <label xml:lang="en">Valid</label>
+   <status id="http://inspire.ec.europa.eu/registry/status/retired">
+      <label xml:lang="en">Retired</label>
    </status>
    <itemclass uriname="Enumeration">
       <label xml:lang="en">Enumeration</label>
@@ -30,9 +34,13 @@
    <containeditems>
       <value id="http://inspire.ec.europa.eu/enumeration/MinMaxTrackValue/average">
          <language>en</language>
-         <created>2015-10-14 11:08 AM CEST</created>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/MinMaxTrackValue/average:1</thisversion>
+         <created>2024-04-05 12:33 PM CEST</created>
+         <issued>2024-03-18 14:10 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/MinMaxTrackValue/average:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/enumeration/MinMaxTrackValue/average</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/enumeration/MinMaxTrackValue/average:1</version>
+         </previousversions>
          <label xml:lang="en">average</label>
          <definition xml:lang="en">The number of tracks is the average value for a given part of the railway network</definition>
          <enumeration id="http://inspire.ec.europa.eu/enumeration/MinMaxTrackValue">
@@ -47,8 +55,8 @@
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/retired">
+            <label xml:lang="en">Retired</label>
          </status>
          <itemclass uriname="EnumerationValue">
             <label xml:lang="en">EnumerationValue</label>
@@ -62,8 +70,9 @@
       </value>
       <value id="http://inspire.ec.europa.eu/enumeration/MinMaxTrackValue/maximum">
          <language>en</language>
-         <created>2015-10-14 11:08 AM CEST</created>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/MinMaxTrackValue/maximum:1</thisversion>
+         <created>2024-04-05 12:33 PM CEST</created>
+         <issued>2024-03-18 14:10 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/MinMaxTrackValue/maximum:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/enumeration/MinMaxTrackValue/maximum</latestversion>
          <label xml:lang="en">maximum</label>
          <definition xml:lang="en">The number of tracks is the maximum value for a given part of the railway network</definition>
@@ -79,8 +88,8 @@
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/retired">
+            <label xml:lang="en">Retired</label>
          </status>
          <itemclass uriname="EnumerationValue">
             <label xml:lang="en">EnumerationValue</label>
@@ -94,8 +103,9 @@
       </value>
       <value id="http://inspire.ec.europa.eu/enumeration/MinMaxTrackValue/minimum">
          <language>en</language>
-         <created>2015-10-14 11:08 AM CEST</created>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/MinMaxTrackValue/minimum:1</thisversion>
+         <created>2024-04-05 12:33 PM CEST</created>
+         <issued>2024-03-18 14:10 PM CET</issued>
+         <thisversion>http://inspire.ec.europa.eu/enumeration/MinMaxTrackValue/minimum:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/enumeration/MinMaxTrackValue/minimum</latestversion>
          <label xml:lang="en">minimum</label>
          <definition xml:lang="en">The number of tracks is the minimum value for a given part of the railway network</definition>
@@ -111,8 +121,8 @@
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/retired">
+            <label xml:lang="en">Retired</label>
          </status>
          <itemclass uriname="EnumerationValue">
             <label xml:lang="en">EnumerationValue</label>
