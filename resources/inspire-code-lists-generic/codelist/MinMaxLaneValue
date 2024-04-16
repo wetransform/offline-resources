@@ -1,15 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<enumeration xmlns="http://inspire.ec.europa.eu/enumeration_register/Enumeration" xsi:schemaLocation="http://inspire.ec.europa.eu/enumeration_register/Enumeration http://inspire.ec.europa.eu/registry/schemas/2.0/Enumeration.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/enumeration/MinMaxLaneValue">
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/MinMaxLaneValue">
    <language>en</language>
-   <created>2024-04-05 12:33 PM CEST</created>
-   <issued>2024-03-18 14:04 PM CET</issued>
-   <thisversion>http://inspire.ec.europa.eu/enumeration/MinMaxLaneValue:2</thisversion>
-   <latestversion>http://inspire.ec.europa.eu/enumeration/MinMaxLaneValue</latestversion>
+   <created>2024-03-25 15:08 PM CET</created>
+   <issued>2024-03-25 15:08 PM CET</issued>
+   <thisversion>http://inspire.ec.europa.eu/codelist/MinMaxLaneValue:2</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/MinMaxLaneValue</latestversion>
    <previousversions>
-      <version>http://inspire.ec.europa.eu/enumeration/MinMaxLaneValue:1</version>
+      <version>http://inspire.ec.europa.eu/codelist/MinMaxLaneValue:1</version>
    </previousversions>
    <label xml:lang="en">Minimum or maximum track number</label>
    <definition xml:lang="en">Values to indicate whether number of lanes are counted as the maximum, minimum or average number.</definition>
+   <description xml:lang="en"></description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
    <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
       <label xml:lang="en">Road Transport Network</label>
    </applicationschema>
@@ -19,119 +23,131 @@
    <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
       <label xml:lang="en">Legal (EU)</label>
    </governance-level>
-   <status id="http://inspire.ec.europa.eu/registry/status/retired">
-      <label xml:lang="en">Retired</label>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
    </status>
-   <itemclass uriname="Enumeration">
-      <label xml:lang="en">Enumeration</label>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
    </itemclass>
-   <register id="http://inspire.ec.europa.eu/enumeration">
-      <label xml:lang="en">INSPIRE enumeration register</label>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
       <registry id="http://inspire.ec.europa.eu/registry">
          <label xml:lang="en">INSPIRE registry</label>
       </registry>
    </register>
    <containeditems>
-      <value id="http://inspire.ec.europa.eu/enumeration/MinMaxLaneValue/maximum">
+      <value id="http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/minimum">
          <language>en</language>
-         <created>2024-04-05 12:33 PM CEST</created>
-         <issued>2024-03-18 14:04 PM CET</issued>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/MinMaxLaneValue/maximum:2</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/enumeration/MinMaxLaneValue/maximum</latestversion>
-         <label xml:lang="en">maximum</label>
-         <definition xml:lang="en">The number of lanes is the maximum value for a given part of the road network</definition>
-         <enumeration id="http://inspire.ec.europa.eu/enumeration/MinMaxLaneValue">
-            <label xml:lang="en">Minimum or maximum track number</label>
-         </enumeration>
-         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
-            <label xml:lang="en">Road Transport Network</label>
-         </applicationschema>
-         <theme id="http://inspire.ec.europa.eu/theme/tn">
-            <label xml:lang="en">Transport networks</label>
-         </theme>
-         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
-            <label xml:lang="en">Legal (EU)</label>
-         </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/retired">
-            <label xml:lang="en">Retired</label>
-         </status>
-         <itemclass uriname="EnumerationValue">
-            <label xml:lang="en">EnumerationValue</label>
-         </itemclass>
-         <register id="http://inspire.ec.europa.eu/enumeration">
-            <label xml:lang="en">INSPIRE enumeration register</label>
-            <registry id="http://inspire.ec.europa.eu/registry">
-               <label xml:lang="en">INSPIRE registry</label>
-            </registry>
-         </register>
-      </value>
-      <value id="http://inspire.ec.europa.eu/enumeration/MinMaxLaneValue/minimum">
-         <language>en</language>
-         <created>2024-04-05 12:33 PM CEST</created>
-         <issued>2024-03-18 14:04 PM CET</issued>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/MinMaxLaneValue/minimum:2</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/enumeration/MinMaxLaneValue/minimum</latestversion>
+         <created>2024-04-02 10:06 AM CEST</created>
+         <issued>2024-04-02 10:06 AM CEST</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/minimum:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/minimum</latestversion>
          <label xml:lang="en">minimum</label>
          <definition xml:lang="en">The number of lanes is the minimum value for a given part of the road network</definition>
-         <enumeration id="http://inspire.ec.europa.eu/enumeration/MinMaxLaneValue">
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MinMaxLaneValue">
             <label xml:lang="en">Minimum or maximum track number</label>
-         </enumeration>
+         </codelist>
          <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
             <label xml:lang="en">Road Transport Network</label>
          </applicationschema>
          <theme id="http://inspire.ec.europa.eu/theme/tn">
             <label xml:lang="en">Transport networks</label>
          </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/retired">
-            <label xml:lang="en">Retired</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
          </status>
-         <itemclass uriname="EnumerationValue">
-            <label xml:lang="en">EnumerationValue</label>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
          </itemclass>
-         <register id="http://inspire.ec.europa.eu/enumeration">
-            <label xml:lang="en">INSPIRE enumeration register</label>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
             <registry id="http://inspire.ec.europa.eu/registry">
                <label xml:lang="en">INSPIRE registry</label>
             </registry>
          </register>
       </value>
-      <value id="http://inspire.ec.europa.eu/enumeration/MinMaxLaneValue/average">
+      <value id="http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/average">
          <language>en</language>
-         <created>2024-04-05 12:33 PM CEST</created>
-         <issued>2024-03-18 14:04 PM CET</issued>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/MinMaxLaneValue/average:2</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/enumeration/MinMaxLaneValue/average</latestversion>
+         <created>2024-04-02 10:06 AM CEST</created>
+         <issued>2024-04-02 10:06 AM CEST</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/average:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/average</latestversion>
          <previousversions>
-            <version>http://inspire.ec.europa.eu/enumeration/MinMaxLaneValue/average:1</version>
+            <version>http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/average:1</version>
          </previousversions>
          <label xml:lang="en">average</label>
          <definition xml:lang="en">The number of lanes is the average value for a given part of the road network</definition>
-         <enumeration id="http://inspire.ec.europa.eu/enumeration/MinMaxLaneValue">
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MinMaxLaneValue">
             <label xml:lang="en">Minimum or maximum track number</label>
-         </enumeration>
+         </codelist>
          <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
             <label xml:lang="en">Road Transport Network</label>
          </applicationschema>
          <theme id="http://inspire.ec.europa.eu/theme/tn">
             <label xml:lang="en">Transport networks</label>
          </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/retired">
-            <label xml:lang="en">Retired</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
          </status>
-         <itemclass uriname="EnumerationValue">
-            <label xml:lang="en">EnumerationValue</label>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
          </itemclass>
-         <register id="http://inspire.ec.europa.eu/enumeration">
-            <label xml:lang="en">INSPIRE enumeration register</label>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
             <registry id="http://inspire.ec.europa.eu/registry">
                <label xml:lang="en">INSPIRE registry</label>
             </registry>
          </register>
       </value>
-   </containeditems></enumeration>
+      <value id="http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/maximum">
+         <language>en</language>
+         <created>2024-04-02 10:06 AM CEST</created>
+         <issued>2024-04-02 10:06 AM CEST</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/maximum:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/maximum</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/maximum:1</version>
+         </previousversions>
+         <label xml:lang="en">maximum</label>
+         <definition xml:lang="en">The number of lanes is the maximum value for a given part of the road network</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/MinMaxLaneValue">
+            <label xml:lang="en">Minimum or maximum track number</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/tn-ro">
+            <label xml:lang="en">Road Transport Network</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/tn">
+            <label xml:lang="en">Transport networks</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>
