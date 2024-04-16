@@ -1,15 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<enumeration xmlns="http://inspire.ec.europa.eu/enumeration_register/Enumeration" xsi:schemaLocation="http://inspire.ec.europa.eu/enumeration_register/Enumeration http://inspire.ec.europa.eu/registry/schemas/2.0/Enumeration.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue">
+<codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue">
    <language>en</language>
-   <created>2024-04-05 12:32 PM CEST</created>
-   <issued>2024-03-18 14:11 PM CET</issued>
-   <thisversion>http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue:2</thisversion>
-   <latestversion>http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue</latestversion>
+   <created>2024-03-25 15:08 PM CET</created>
+   <issued>2024-03-25 15:08 PM CET</issued>
+   <thisversion>http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue:2</thisversion>
+   <latestversion>http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue</latestversion>
    <previousversions>
-      <version>http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue:1</version>
+      <version>http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue:1</version>
    </previousversions>
    <label xml:lang="en">Protection classification</label>
    <definition xml:lang="en">The protected site classification based on the purpose of protection.</definition>
+   <description xml:lang="en"></description>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/none">
+      <label xml:lang="en">Not extensible</label>
+   </extensibility>
    <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
       <label xml:lang="en">Protected Sites Simple</label>
    </applicationschema>
@@ -19,269 +23,290 @@
    <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
       <label xml:lang="en">Legal (EU)</label>
    </governance-level>
-   <status id="http://inspire.ec.europa.eu/registry/status/retired">
-      <label xml:lang="en">Retired</label>
+   <status id="http://inspire.ec.europa.eu/registry/status/valid">
+      <label xml:lang="en">Valid</label>
    </status>
-   <itemclass uriname="Enumeration">
-      <label xml:lang="en">Enumeration</label>
+   <itemclass uriname="CodeList">
+      <label xml:lang="en">CodeList</label>
    </itemclass>
-   <register id="http://inspire.ec.europa.eu/enumeration">
-      <label xml:lang="en">INSPIRE enumeration register</label>
+   <register id="http://inspire.ec.europa.eu/codelist">
+      <label xml:lang="en">INSPIRE code list register</label>
       <registry id="http://inspire.ec.europa.eu/registry">
          <label xml:lang="en">INSPIRE registry</label>
       </registry>
    </register>
    <containeditems>
-      <value id="http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue/natureConservation">
+      <value id="http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue/cultural">
          <language>en</language>
-         <created>2024-04-05 12:32 PM CEST</created>
-         <issued>2024-03-18 14:11 PM CET</issued>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue/natureConservation:2</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue/natureConservation</latestversion>
+         <created>2024-04-02 10:07 AM CEST</created>
+         <issued>2024-04-02 10:07 AM CEST</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue/cultural:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue/cultural</latestversion>
          <previousversions>
-            <version>http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue/natureConservation:1</version>
-         </previousversions>
-         <label xml:lang="en">natureConservation</label>
-         <definition xml:lang="en">The Protected Site is protected for the maintenance of biological diversity</definition>
-         <enumeration id="http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue">
-            <label xml:lang="en">Protection classification</label>
-         </enumeration>
-         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
-            <label xml:lang="en">Protected Sites Simple</label>
-         </applicationschema>
-         <theme id="http://inspire.ec.europa.eu/theme/ps">
-            <label xml:lang="en">Protected sites</label>
-         </theme>
-         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
-            <label xml:lang="en">Legal (EU)</label>
-         </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/retired">
-            <label xml:lang="en">Retired</label>
-         </status>
-         <itemclass uriname="EnumerationValue">
-            <label xml:lang="en">EnumerationValue</label>
-         </itemclass>
-         <register id="http://inspire.ec.europa.eu/enumeration">
-            <label xml:lang="en">INSPIRE enumeration register</label>
-            <registry id="http://inspire.ec.europa.eu/registry">
-               <label xml:lang="en">INSPIRE registry</label>
-            </registry>
-         </register>
-      </value>
-      <value id="http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue/archaeological">
-         <language>en</language>
-         <created>2024-04-05 12:32 PM CEST</created>
-         <issued>2024-03-18 14:11 PM CET</issued>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue/archaeological:2</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue/archaeological</latestversion>
-         <previousversions>
-            <version>http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue/archaeological:1</version>
-         </previousversions>
-         <label xml:lang="en">archaeological</label>
-         <definition xml:lang="en">The Protected Site is protected for the maintenance of archaeological heritage</definition>
-         <enumeration id="http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue">
-            <label xml:lang="en">Protection classification</label>
-         </enumeration>
-         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
-            <label xml:lang="en">Protected Sites Simple</label>
-         </applicationschema>
-         <theme id="http://inspire.ec.europa.eu/theme/ps">
-            <label xml:lang="en">Protected sites</label>
-         </theme>
-         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
-            <label xml:lang="en">Legal (EU)</label>
-         </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/retired">
-            <label xml:lang="en">Retired</label>
-         </status>
-         <itemclass uriname="EnumerationValue">
-            <label xml:lang="en">EnumerationValue</label>
-         </itemclass>
-         <register id="http://inspire.ec.europa.eu/enumeration">
-            <label xml:lang="en">INSPIRE enumeration register</label>
-            <registry id="http://inspire.ec.europa.eu/registry">
-               <label xml:lang="en">INSPIRE registry</label>
-            </registry>
-         </register>
-      </value>
-      <value id="http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue/cultural">
-         <language>en</language>
-         <created>2024-04-05 12:32 PM CEST</created>
-         <issued>2024-03-18 14:11 PM CET</issued>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue/cultural:2</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue/cultural</latestversion>
-         <previousversions>
-            <version>http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue/cultural:1</version>
+            <version>http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue/cultural:1</version>
          </previousversions>
          <label xml:lang="en">cultural</label>
          <definition xml:lang="en">The Protected Site is protected for the maintenance of cultural heritage</definition>
-         <enumeration id="http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue">
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue">
             <label xml:lang="en">Protection classification</label>
-         </enumeration>
+         </codelist>
          <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
             <label xml:lang="en">Protected Sites Simple</label>
          </applicationschema>
          <theme id="http://inspire.ec.europa.eu/theme/ps">
             <label xml:lang="en">Protected sites</label>
          </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/retired">
-            <label xml:lang="en">Retired</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
          </status>
-         <itemclass uriname="EnumerationValue">
-            <label xml:lang="en">EnumerationValue</label>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
          </itemclass>
-         <register id="http://inspire.ec.europa.eu/enumeration">
-            <label xml:lang="en">INSPIRE enumeration register</label>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
             <registry id="http://inspire.ec.europa.eu/registry">
                <label xml:lang="en">INSPIRE registry</label>
             </registry>
          </register>
       </value>
-      <value id="http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue/ecological">
+      <value id="http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue/geological">
          <language>en</language>
-         <created>2024-04-05 12:32 PM CEST</created>
-         <issued>2024-03-18 14:11 PM CET</issued>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue/ecological:2</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue/ecological</latestversion>
+         <created>2024-04-02 10:07 AM CEST</created>
+         <issued>2024-04-02 10:07 AM CEST</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue/geological:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue/geological</latestversion>
          <previousversions>
-            <version>http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue/ecological:1</version>
-         </previousversions>
-         <label xml:lang="en">ecological</label>
-         <definition xml:lang="en">The Protected Site is protected for the maintenance of ecological stability</definition>
-         <enumeration id="http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue">
-            <label xml:lang="en">Protection classification</label>
-         </enumeration>
-         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
-            <label xml:lang="en">Protected Sites Simple</label>
-         </applicationschema>
-         <theme id="http://inspire.ec.europa.eu/theme/ps">
-            <label xml:lang="en">Protected sites</label>
-         </theme>
-         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
-            <label xml:lang="en">Legal (EU)</label>
-         </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/retired">
-            <label xml:lang="en">Retired</label>
-         </status>
-         <itemclass uriname="EnumerationValue">
-            <label xml:lang="en">EnumerationValue</label>
-         </itemclass>
-         <register id="http://inspire.ec.europa.eu/enumeration">
-            <label xml:lang="en">INSPIRE enumeration register</label>
-            <registry id="http://inspire.ec.europa.eu/registry">
-               <label xml:lang="en">INSPIRE registry</label>
-            </registry>
-         </register>
-      </value>
-      <value id="http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue/landscape">
-         <language>en</language>
-         <created>2024-04-05 12:32 PM CEST</created>
-         <issued>2024-03-18 14:11 PM CET</issued>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue/landscape:2</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue/landscape</latestversion>
-         <previousversions>
-            <version>http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue/landscape:1</version>
-         </previousversions>
-         <label xml:lang="en">landscape</label>
-         <definition xml:lang="en">The Protected Site is protected for the maintenance of landscape characteristics</definition>
-         <enumeration id="http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue">
-            <label xml:lang="en">Protection classification</label>
-         </enumeration>
-         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
-            <label xml:lang="en">Protected Sites Simple</label>
-         </applicationschema>
-         <theme id="http://inspire.ec.europa.eu/theme/ps">
-            <label xml:lang="en">Protected sites</label>
-         </theme>
-         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
-            <label xml:lang="en">Legal (EU)</label>
-         </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/retired">
-            <label xml:lang="en">Retired</label>
-         </status>
-         <itemclass uriname="EnumerationValue">
-            <label xml:lang="en">EnumerationValue</label>
-         </itemclass>
-         <register id="http://inspire.ec.europa.eu/enumeration">
-            <label xml:lang="en">INSPIRE enumeration register</label>
-            <registry id="http://inspire.ec.europa.eu/registry">
-               <label xml:lang="en">INSPIRE registry</label>
-            </registry>
-         </register>
-      </value>
-      <value id="http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue/environment">
-         <language>en</language>
-         <created>2024-04-05 12:32 PM CEST</created>
-         <issued>2024-03-18 14:11 PM CET</issued>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue/environment:2</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue/environment</latestversion>
-         <previousversions>
-            <version>http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue/environment:1</version>
-         </previousversions>
-         <label xml:lang="en">environment</label>
-         <definition xml:lang="en">The Protected Site is protected for the maintenance of environmental stability</definition>
-         <enumeration id="http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue">
-            <label xml:lang="en">Protection classification</label>
-         </enumeration>
-         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
-            <label xml:lang="en">Protected Sites Simple</label>
-         </applicationschema>
-         <theme id="http://inspire.ec.europa.eu/theme/ps">
-            <label xml:lang="en">Protected sites</label>
-         </theme>
-         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
-            <label xml:lang="en">Legal (EU)</label>
-         </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/retired">
-            <label xml:lang="en">Retired</label>
-         </status>
-         <itemclass uriname="EnumerationValue">
-            <label xml:lang="en">EnumerationValue</label>
-         </itemclass>
-         <register id="http://inspire.ec.europa.eu/enumeration">
-            <label xml:lang="en">INSPIRE enumeration register</label>
-            <registry id="http://inspire.ec.europa.eu/registry">
-               <label xml:lang="en">INSPIRE registry</label>
-            </registry>
-         </register>
-      </value>
-      <value id="http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue/geological">
-         <language>en</language>
-         <created>2024-04-05 12:32 PM CEST</created>
-         <issued>2024-03-18 14:11 PM CET</issued>
-         <thisversion>http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue/geological:2</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue/geological</latestversion>
-         <previousversions>
-            <version>http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue/geological:1</version>
+            <version>http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue/geological:1</version>
          </previousversions>
          <label xml:lang="en">geological</label>
          <definition xml:lang="en">The Protected Site is protected for the maintenance of geological characteristics</definition>
-         <enumeration id="http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue">
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue">
             <label xml:lang="en">Protection classification</label>
-         </enumeration>
+         </codelist>
          <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
             <label xml:lang="en">Protected Sites Simple</label>
          </applicationschema>
          <theme id="http://inspire.ec.europa.eu/theme/ps">
             <label xml:lang="en">Protected sites</label>
          </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
          <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
             <label xml:lang="en">Legal (EU)</label>
          </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/retired">
-            <label xml:lang="en">Retired</label>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
          </status>
-         <itemclass uriname="EnumerationValue">
-            <label xml:lang="en">EnumerationValue</label>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
          </itemclass>
-         <register id="http://inspire.ec.europa.eu/enumeration">
-            <label xml:lang="en">INSPIRE enumeration register</label>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
             <registry id="http://inspire.ec.europa.eu/registry">
                <label xml:lang="en">INSPIRE registry</label>
             </registry>
          </register>
       </value>
-   </containeditems></enumeration>
+      <value id="http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue/environment">
+         <language>en</language>
+         <created>2024-04-02 10:07 AM CEST</created>
+         <issued>2024-04-02 10:07 AM CEST</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue/environment:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue/environment</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue/environment:1</version>
+         </previousversions>
+         <label xml:lang="en">environment</label>
+         <definition xml:lang="en">The Protected Site is protected for the maintenance of environmental stability</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue">
+            <label xml:lang="en">Protection classification</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+            <label xml:lang="en">Protected Sites Simple</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ps">
+            <label xml:lang="en">Protected sites</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue/landscape">
+         <language>en</language>
+         <created>2024-04-02 10:07 AM CEST</created>
+         <issued>2024-04-02 10:07 AM CEST</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue/landscape:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue/landscape</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue/landscape:1</version>
+         </previousversions>
+         <label xml:lang="en">landscape</label>
+         <definition xml:lang="en">The Protected Site is protected for the maintenance of landscape characteristics</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue">
+            <label xml:lang="en">Protection classification</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+            <label xml:lang="en">Protected Sites Simple</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ps">
+            <label xml:lang="en">Protected sites</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue/natureConservation">
+         <language>en</language>
+         <created>2024-04-02 10:07 AM CEST</created>
+         <issued>2024-04-02 10:07 AM CEST</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue/natureConservation:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue/natureConservation</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue/natureConservation:1</version>
+         </previousversions>
+         <label xml:lang="en">natureConservation</label>
+         <definition xml:lang="en">The Protected Site is protected for the maintenance of biological diversity</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue">
+            <label xml:lang="en">Protection classification</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+            <label xml:lang="en">Protected Sites Simple</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ps">
+            <label xml:lang="en">Protected sites</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue/ecological">
+         <language>en</language>
+         <created>2024-04-02 10:07 AM CEST</created>
+         <issued>2024-04-02 10:07 AM CEST</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue/ecological:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue/ecological</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue/ecological:1</version>
+         </previousversions>
+         <label xml:lang="en">ecological</label>
+         <definition xml:lang="en">The Protected Site is protected for the maintenance of ecological stability</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue">
+            <label xml:lang="en">Protection classification</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+            <label xml:lang="en">Protected Sites Simple</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ps">
+            <label xml:lang="en">Protected sites</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue/archaeological">
+         <language>en</language>
+         <created>2024-04-02 10:07 AM CEST</created>
+         <issued>2024-04-02 10:07 AM CEST</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue/archaeological:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue/archaeological</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue/archaeological:1</version>
+         </previousversions>
+         <label xml:lang="en">archaeological</label>
+         <definition xml:lang="en">The Protected Site is protected for the maintenance of archaeological heritage</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ProtectionClassificationValue">
+            <label xml:lang="en">Protection classification</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/ps">
+            <label xml:lang="en">Protected Sites Simple</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/ps">
+            <label xml:lang="en">Protected sites</label>
+         </theme>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+   </containeditems></codelist>
