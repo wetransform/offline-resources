@@ -1,54 +1,8 @@
 {
   $schema: "https://docs.renovatebot.com/renovate-schema.json",
   extends: [
-    "config:recommended",
-    "helpers:pinGitHubActionDigestsToSemver",
-    "security:openssf-scorecard",
-    ":disableDependencyDashboard",
-    ":disableRateLimiting",
-    ":enableVulnerabilityAlertsWithLabel(security)",
+    "github>wetransform/renovate-config:self-hosted.json5",
+    "group:allNonMajor",
   ],
-  "git-submodules": {
-    enabled: true,
-  },
-  labels: [
-    "renovate",
-    "renovate/{{replace '.*/' '' depName}}",
-    "renovate/{{updateType}}",
-  ],
-  lockFileMaintenance: {
-    enabled: true,
-    schedule: ["before 6am on Sunday"],
-  },
-  packageRules: [
-    {
-      matchUpdateTypes: ["major"],
-      automerge: false,
-    },
-    {
-      description: "Ignore frequent renovate updates",
-      enabled: false,
-      matchPackageNames: ["renovatebot/github-action"],
-      matchUpdateTypes: ["patch"],
-    },
-    {
-      description: "Update renovatebot/github-action minor updates on Sundays",
-      matchPackageNames: ["renovatebot/github-action"],
-      matchUpdateTypes: ["minor"],
-      schedule: ["* * * * 0"],
-    },
-  ],
-  prBodyTemplate: "{{{table}}}{{{notes}}}{{{changelogs}}}",
   rebaseWhen: "conflicted", // avoid too many PR builds for renovate changes; Note: may cause problems with automerge
-  regexManagers: [
-    {
-      extractVersionTemplate: "{{#if extractVersion}}{{{extractVersion}}}{{else}}^v?(?<version>.+)${{/if}}",
-      fileMatch: ["\\.ya?ml$", "\\.md$", "^Dockerfile$", "^entrypoint\\.sh$"],
-      matchStrings: [
-        '# renovate: datasource=(?<datasource>.+?) depName=(?<depName>.+?)( versioning=(?<versioning>.+?))?( extractVersion=(?<extractVersion>.+?))?( registryUrl=(?<registryUrl>.+?))?\\s.*[=:]\\s*"?(?<currentValue>.+?)"?\\s',
-      ],
-      versioningTemplate: "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}",
-    },
-  ],
-  separateMinorPatch: true,
 }
