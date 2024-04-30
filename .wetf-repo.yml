@@ -4,3 +4,7 @@
 # Reference presets that should apply to this repository
 presets:
   - renovate
+
+# Additional required checks
+required_checks:
+  - check-update
