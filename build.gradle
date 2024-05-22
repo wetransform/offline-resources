@@ -706,22 +706,35 @@ def wfsExtVersions = [ '1.0', '2.0' ]
 def shapeChangeVersions = [ '1.0' ]
 // Map version number used in URLs to version number displayed to user
 def xplanungVersions = [
-  '4.0.2' :'4.0.2',
-  '4.1-Kernmodell' : '4.1',
-  '5.0' : '5.0.1',
-  '5.1' : '5.1.2',
-  '5.2' : '5.2.1',
-  '5.3' : '5.3',
-  '5.4' : '5.4',
-  '6.0' : '6.0'
+  '4.0.2',
+  '4.1-Kernmodell',
+  '5.0',
+  '5.1',
+  '5.2',
+  '5.3',
+  '5.4',
+  '6.0'
 ]
+
+def getXPlanungSchemaBaseUrl = { version ->
+  "https://repository.gdi-de.org/schemas/de.xleitstelle.xplanung/${version}/"
+}
+
+def getXPlanungSchemaUrl = { version ->
+  "${getXPlanungSchemaBaseUrl(version)}XPlanung-Operationen.xsd"
+}
+
+def determineDisplayVersion = { url, element ->
+  def xsd = new XmlSlurper().parse(url)
+  xsd."${element}"
+}
 
 task gdiRepositorySchemas(type: WgetHostIndexDownloadTask) {
   group 'Download'
   indexUrls = aaaVersions.collect { version -> "http://repository.gdi-de.org/schemas/adv/nas/${version}/" } +
     wfsExtVersions.collect { version -> "http://repository.gdi-de.org/schemas/adv/wfsext/${version}/" } +
     shapeChangeVersions.collect { version -> "http://repository.gdi-de.org/schemas/adv/sc/${version}/" } +
-    xplanungVersions.collect { urlVersion, displayVersion -> "https://repository.gdi-de.org/schemas/de.xleitstelle.xplanung/${urlVersion}/" }
+    xplanungVersions.collect { urlVersion -> getXPlanungSchemaBaseUrl(urlVersion) }
   fileExtensions = ['xml','xsd', 'txt']
 }
 tasks.downloads.dependsOn(gdiRepositorySchemas)
@@ -1216,16 +1229,16 @@ task gdiRepositorySchemasBundle(type: ResourceBundleTask) {
         }
       }
 
-      xplanungVersions.each { urlVersion, displayVersion ->
+      xplanungVersions.each { urlVersion ->
         xml.schema(
           category: 'de',
           description: "XPlanung GML Application Schema",
           icon: 'icons/xplanung.png',
           id: "de.xplanung.xplangml.${urlVersion.replace('.', '_')}",
           name: "XPlanGML",
-          version: "${displayVersion}"
+          version: determineDisplayVersion(getXPlanungSchemaUrl(urlVersion), '@version')
         ) {
-          xml.uri(value: "https://repository.gdi-de.org/schemas/de.xleitstelle.xplanung/${urlVersion}/XPlanung-Operationen.xsd")
+          xml.uri(value: getXPlanungSchemaUrl(urlVersion))
         }
       }
     }
