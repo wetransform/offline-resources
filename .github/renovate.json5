@@ -2,7 +2,6 @@
   $schema: "https://docs.renovatebot.com/renovate-schema.json",
   extends: [
     "github>wetransform/renovate-config:self-hosted.json5",
-    "group:allNonMajor",
   ],
   rebaseWhen: "conflicted", // avoid too many PR builds for renovate changes; Note: may cause problems with automerge
 }
