@@ -34,7 +34,7 @@
         },
         "language" : "en",
         "label" : {
-          "text" : "notApplicable",
+          "text" : "narrow",
           "lang" : "en"
         },
         "applicationschema" : {
@@ -67,7 +67,7 @@
           "lang" : "en"
         },
         "definition" : {
-          "text" : "The definition of a nominal track gauge property is not applicable to the type of railway transport",
+          "text" : "The nominal track gauge property is narrower than the standard one",
           "lang" : "en"
         },
         "theme" : {
@@ -77,111 +77,12 @@
           },
           "uri" : "http://inspire.ec.europa.eu/theme/tn"
         },
-        "id" : "http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/notApplicable",
+        "id" : "http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/narrow",
         "issued" : "2024-04-02 10:07 AM CEST",
-        "latestversion" : "http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/notApplicable",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/notApplicable:2",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/narrow",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/narrow:2",
         "historyversion" : [ {
-          "version" : "http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/notApplicable:1"
-        } ],
-        "status" : {
-          "label" : {
-            "text" : "Valid",
-            "lang" : "en"
-          },
-          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
-        },
-        "register" : {
-          "registry" : {
-            "label" : {
-              "text" : "INSPIRE registry",
-              "lang" : "en"
-            },
-            "id" : "http://inspire.ec.europa.eu/registry"
-          },
-          "label" : {
-            "text" : "INSPIRE code list register",
-            "lang" : "en"
-          },
-          "id" : "http://inspire.ec.europa.eu/codelist"
-        }
-      }
-    }, {
-      "value" : {
-        "governance level" : {
-          "label" : {
-            "text" : "Legal (EU)",
-            "lang" : "en"
-          },
-          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
-        },
-        "codelist" : {
-          "label" : "Track Gauge category",
-          "id" : "http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue"
-        },
-        "created" : "2024-04-02 10:07 AM CEST",
-        "governance-level" : {
-          "label" : {
-            "text" : "eu-legal",
-            "lang" : "en"
-          },
-          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
-        },
-        "description" : {
-          "text" : "",
-          "lang" : "en"
-        },
-        "language" : "en",
-        "label" : {
-          "text" : "standard",
-          "lang" : "en"
-        },
-        "applicationschema" : {
-          "label" : {
-            "text" : "tn-ra",
-            "lang" : "en"
-          },
-          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-ra"
-        },
-        "itemclass" : {
-          "label" : {
-            "text" : "CodeListValue",
-            "lang" : "en"
-          },
-          "id" : "CodeListValue"
-        },
-        "referencelink" : {
-          "text" : "",
-          "lang" : "en"
-        },
-        "application schema" : {
-          "label" : {
-            "text" : "Railway Transport Network",
-            "lang" : "en"
-          },
-          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-ra"
-        },
-        "referencesource" : {
-          "text" : "",
-          "lang" : "en"
-        },
-        "definition" : {
-          "text" : "The nominal track gauge property is equal to the European standard (1435 millimetres)",
-          "lang" : "en"
-        },
-        "theme" : {
-          "label" : {
-            "text" : "tn",
-            "lang" : "en"
-          },
-          "uri" : "http://inspire.ec.europa.eu/theme/tn"
-        },
-        "id" : "http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/standard",
-        "issued" : "2024-04-02 10:07 AM CEST",
-        "latestversion" : "http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/standard",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/standard:2",
-        "historyversion" : [ {
-          "version" : "http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/standard:1"
+          "version" : "http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/narrow:1"
         } ],
         "status" : {
           "label" : {
@@ -331,7 +232,7 @@
         },
         "language" : "en",
         "label" : {
-          "text" : "narrow",
+          "text" : "standard",
           "lang" : "en"
         },
         "applicationschema" : {
@@ -364,7 +265,7 @@
           "lang" : "en"
         },
         "definition" : {
-          "text" : "The nominal track gauge property is narrower than the standard one",
+          "text" : "The nominal track gauge property is equal to the European standard (1435 millimetres)",
           "lang" : "en"
         },
         "theme" : {
@@ -374,12 +275,111 @@
           },
           "uri" : "http://inspire.ec.europa.eu/theme/tn"
         },
-        "id" : "http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/narrow",
+        "id" : "http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/standard",
         "issued" : "2024-04-02 10:07 AM CEST",
-        "latestversion" : "http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/narrow",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/narrow:2",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/standard",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/standard:2",
         "historyversion" : [ {
-          "version" : "http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/narrow:1"
+          "version" : "http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/standard:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Track Gauge category",
+          "id" : "http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue"
+        },
+        "created" : "2024-04-02 10:07 AM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "notApplicable",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "tn-ra",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/tn-ra"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "referencelink" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Railway Transport Network",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/tn-ra"
+        },
+        "referencesource" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The definition of a nominal track gauge property is not applicable to the type of railway transport",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "tn",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/tn"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/notApplicable",
+        "issued" : "2024-04-02 10:07 AM CEST",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/notApplicable",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/notApplicable:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/TrackGaugeCategoryValue/notApplicable:1"
         } ],
         "status" : {
           "label" : {

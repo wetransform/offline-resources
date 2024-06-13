@@ -620,7 +620,7 @@
         }
       }
     } ],
-    "created" : "2015-08-18 17:18 PM CEST",
+    "created" : "2024-06-07 12:57 PM CEST",
     "governance-level" : {
       "label" : {
         "text" : "eu-legal",
@@ -673,7 +673,7 @@
       "id" : "http://inspire.ec.europa.eu/applicationschema/ps"
     },
     "definition" : {
-      "text" : "Abstract base type for code lists containing the classification and designation types under different schemes.",
+      "text" : "Classification and designation types under different schemes.",
       "lang" : "en"
     },
     "theme" : {
@@ -684,8 +684,12 @@
       "uri" : "http://inspire.ec.europa.eu/theme/ps"
     },
     "id" : "http://inspire.ec.europa.eu/codelist/DesignationValue",
+    "issued" : "2024-06-07 12:36 PM CEST",
     "latestversion" : "http://inspire.ec.europa.eu/codelist/DesignationValue",
-    "thisversion" : "http://inspire.ec.europa.eu/codelist/DesignationValue:1",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/DesignationValue:2",
+    "historyversion" : [ {
+      "version" : "http://inspire.ec.europa.eu/codelist/DesignationValue:1"
+    } ],
     "status" : {
       "label" : {
         "text" : "Valid",

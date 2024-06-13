@@ -33,125 +33,17 @@
       </registry>
    </register>
    <containeditems>
-      <value id="http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/greaterThanOrEqualTo">
+      <value id="http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/lessThanOrEqualTo">
          <language>en</language>
          <created>2024-04-02 10:07 AM CEST</created>
          <issued>2024-04-02 10:07 AM CEST</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/greaterThanOrEqualTo:2</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/greaterThanOrEqualTo</latestversion>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/lessThanOrEqualTo:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/lessThanOrEqualTo</latestversion>
          <previousversions>
-            <version>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/greaterThanOrEqualTo:1</version>
+            <version>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/lessThanOrEqualTo:1</version>
          </previousversions>
-         <label xml:lang="en">greaterThanOrEqualTo</label>
-         <definition xml:lang="en">Greater than or exactly equal to</definition>
-         <description xml:lang="en"></description>
-         <codelist id="http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue">
-            <label xml:lang="en">Comparison operator</label>
-         </codelist>
-         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/omop">
-            <label xml:lang="en">Observable Properties</label>
-         </applicationschema>
-         <referencelink xml:lang="en"></referencelink>
-         <referencesource xml:lang="en"></referencesource>
-         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
-            <label xml:lang="en">Legal (EU)</label>
-         </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
-         </status>
-         <itemclass uriname="CodeListValue">
-            <label xml:lang="en">CodeListValue</label>
-         </itemclass>
-         <register id="http://inspire.ec.europa.eu/codelist">
-            <label xml:lang="en">INSPIRE code list register</label>
-            <registry id="http://inspire.ec.europa.eu/registry">
-               <label xml:lang="en">INSPIRE registry</label>
-            </registry>
-         </register>
-      </value>
-      <value id="http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/notEqualTo">
-         <language>en</language>
-         <created>2024-04-02 10:07 AM CEST</created>
-         <issued>2024-04-02 10:07 AM CEST</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/notEqualTo:2</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/notEqualTo</latestversion>
-         <previousversions>
-            <version>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/notEqualTo:1</version>
-         </previousversions>
-         <label xml:lang="en">notEqualTo</label>
-         <definition xml:lang="en">Not exactly equal to</definition>
-         <description xml:lang="en"></description>
-         <codelist id="http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue">
-            <label xml:lang="en">Comparison operator</label>
-         </codelist>
-         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/omop">
-            <label xml:lang="en">Observable Properties</label>
-         </applicationschema>
-         <referencelink xml:lang="en"></referencelink>
-         <referencesource xml:lang="en"></referencesource>
-         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
-            <label xml:lang="en">Legal (EU)</label>
-         </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
-         </status>
-         <itemclass uriname="CodeListValue">
-            <label xml:lang="en">CodeListValue</label>
-         </itemclass>
-         <register id="http://inspire.ec.europa.eu/codelist">
-            <label xml:lang="en">INSPIRE code list register</label>
-            <registry id="http://inspire.ec.europa.eu/registry">
-               <label xml:lang="en">INSPIRE registry</label>
-            </registry>
-         </register>
-      </value>
-      <value id="http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/greaterThan">
-         <language>en</language>
-         <created>2024-04-02 10:07 AM CEST</created>
-         <issued>2024-04-02 10:07 AM CEST</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/greaterThan:2</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/greaterThan</latestversion>
-         <previousversions>
-            <version>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/greaterThan:1</version>
-         </previousversions>
-         <label xml:lang="en">greaterThan</label>
-         <definition xml:lang="en">Greater than</definition>
-         <description xml:lang="en"></description>
-         <codelist id="http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue">
-            <label xml:lang="en">Comparison operator</label>
-         </codelist>
-         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/omop">
-            <label xml:lang="en">Observable Properties</label>
-         </applicationschema>
-         <referencelink xml:lang="en"></referencelink>
-         <referencesource xml:lang="en"></referencesource>
-         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
-            <label xml:lang="en">Legal (EU)</label>
-         </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
-         </status>
-         <itemclass uriname="CodeListValue">
-            <label xml:lang="en">CodeListValue</label>
-         </itemclass>
-         <register id="http://inspire.ec.europa.eu/codelist">
-            <label xml:lang="en">INSPIRE code list register</label>
-            <registry id="http://inspire.ec.europa.eu/registry">
-               <label xml:lang="en">INSPIRE registry</label>
-            </registry>
-         </register>
-      </value>
-      <value id="http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/lessThan">
-         <language>en</language>
-         <created>2024-04-02 10:07 AM CEST</created>
-         <issued>2024-04-02 10:07 AM CEST</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/lessThan:2</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/lessThan</latestversion>
-         <previousversions>
-            <version>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/lessThan:1</version>
-         </previousversions>
-         <label xml:lang="en">lessThan</label>
-         <definition xml:lang="en">Less than</definition>
+         <label xml:lang="en">lessThanOrEqualTo</label>
+         <definition xml:lang="en">Less than or exactly equal to</definition>
          <description xml:lang="en"></description>
          <codelist id="http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue">
             <label xml:lang="en">Comparison operator</label>
@@ -213,17 +105,125 @@
             </registry>
          </register>
       </value>
-      <value id="http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/lessThanOrEqualTo">
+      <value id="http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/lessThan">
          <language>en</language>
          <created>2024-04-02 10:07 AM CEST</created>
          <issued>2024-04-02 10:07 AM CEST</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/lessThanOrEqualTo:2</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/lessThanOrEqualTo</latestversion>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/lessThan:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/lessThan</latestversion>
          <previousversions>
-            <version>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/lessThanOrEqualTo:1</version>
+            <version>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/lessThan:1</version>
          </previousversions>
-         <label xml:lang="en">lessThanOrEqualTo</label>
-         <definition xml:lang="en">Less than or exactly equal to</definition>
+         <label xml:lang="en">lessThan</label>
+         <definition xml:lang="en">Less than</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue">
+            <label xml:lang="en">Comparison operator</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/omop">
+            <label xml:lang="en">Observable Properties</label>
+         </applicationschema>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/greaterThan">
+         <language>en</language>
+         <created>2024-04-02 10:07 AM CEST</created>
+         <issued>2024-04-02 10:07 AM CEST</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/greaterThan:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/greaterThan</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/greaterThan:1</version>
+         </previousversions>
+         <label xml:lang="en">greaterThan</label>
+         <definition xml:lang="en">Greater than</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue">
+            <label xml:lang="en">Comparison operator</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/omop">
+            <label xml:lang="en">Observable Properties</label>
+         </applicationschema>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/notEqualTo">
+         <language>en</language>
+         <created>2024-04-02 10:07 AM CEST</created>
+         <issued>2024-04-02 10:07 AM CEST</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/notEqualTo:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/notEqualTo</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/notEqualTo:1</version>
+         </previousversions>
+         <label xml:lang="en">notEqualTo</label>
+         <definition xml:lang="en">Not exactly equal to</definition>
+         <description xml:lang="en"></description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue">
+            <label xml:lang="en">Comparison operator</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/omop">
+            <label xml:lang="en">Observable Properties</label>
+         </applicationschema>
+         <referencelink xml:lang="en"></referencelink>
+         <referencesource xml:lang="en"></referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/greaterThanOrEqualTo">
+         <language>en</language>
+         <created>2024-04-02 10:07 AM CEST</created>
+         <issued>2024-04-02 10:07 AM CEST</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/greaterThanOrEqualTo:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/greaterThanOrEqualTo</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue/greaterThanOrEqualTo:1</version>
+         </previousversions>
+         <label xml:lang="en">greaterThanOrEqualTo</label>
+         <definition xml:lang="en">Greater than or exactly equal to</definition>
          <description xml:lang="en"></description>
          <codelist id="http://inspire.ec.europa.eu/codelist/ComparisonOperatorValue">
             <label xml:lang="en">Comparison operator</label>

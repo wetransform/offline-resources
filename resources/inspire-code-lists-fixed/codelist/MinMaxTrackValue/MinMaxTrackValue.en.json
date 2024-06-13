@@ -34,7 +34,7 @@
         },
         "language" : "en",
         "label" : {
-          "text" : "maximum",
+          "text" : "average",
           "lang" : "en"
         },
         "applicationschema" : {
@@ -67,7 +67,7 @@
           "lang" : "en"
         },
         "definition" : {
-          "text" : "The number of tracks is the maximum value for a given part of the railway network",
+          "text" : "The number of tracks is the average value for a given part of the railway network",
           "lang" : "en"
         },
         "theme" : {
@@ -77,10 +77,13 @@
           },
           "uri" : "http://inspire.ec.europa.eu/theme/tn"
         },
-        "id" : "http://inspire.ec.europa.eu/codelist/MinMaxTrackValue/maximum",
+        "id" : "http://inspire.ec.europa.eu/codelist/MinMaxTrackValue/average",
         "issued" : "2024-04-02 10:06 AM CEST",
-        "latestversion" : "http://inspire.ec.europa.eu/codelist/MinMaxTrackValue/maximum",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/MinMaxTrackValue/maximum:2",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MinMaxTrackValue/average",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MinMaxTrackValue/average:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/MinMaxTrackValue/average:1"
+        } ],
         "status" : {
           "label" : {
             "text" : "Valid",
@@ -229,7 +232,7 @@
         },
         "language" : "en",
         "label" : {
-          "text" : "average",
+          "text" : "maximum",
           "lang" : "en"
         },
         "applicationschema" : {
@@ -262,7 +265,7 @@
           "lang" : "en"
         },
         "definition" : {
-          "text" : "The number of tracks is the average value for a given part of the railway network",
+          "text" : "The number of tracks is the maximum value for a given part of the railway network",
           "lang" : "en"
         },
         "theme" : {
@@ -272,13 +275,10 @@
           },
           "uri" : "http://inspire.ec.europa.eu/theme/tn"
         },
-        "id" : "http://inspire.ec.europa.eu/codelist/MinMaxTrackValue/average",
+        "id" : "http://inspire.ec.europa.eu/codelist/MinMaxTrackValue/maximum",
         "issued" : "2024-04-02 10:06 AM CEST",
-        "latestversion" : "http://inspire.ec.europa.eu/codelist/MinMaxTrackValue/average",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/MinMaxTrackValue/average:2",
-        "historyversion" : [ {
-          "version" : "http://inspire.ec.europa.eu/codelist/MinMaxTrackValue/average:1"
-        } ],
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MinMaxTrackValue/maximum",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MinMaxTrackValue/maximum:2",
         "status" : {
           "label" : {
             "text" : "Valid",
