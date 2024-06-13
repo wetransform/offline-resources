@@ -1,11 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/DesignationValue">
    <language>en</language>
-   <created>2015-08-18 17:18 PM CEST</created>
-   <thisversion>http://inspire.ec.europa.eu/codelist/DesignationValue:1</thisversion>
+   <created>2024-06-07 12:57 PM CEST</created>
+   <issued>2024-06-07 12:36 PM CEST</issued>
+   <thisversion>http://inspire.ec.europa.eu/codelist/DesignationValue:2</thisversion>
    <latestversion>http://inspire.ec.europa.eu/codelist/DesignationValue</latestversion>
+   <previousversions>
+      <version>http://inspire.ec.europa.eu/codelist/DesignationValue:1</version>
+   </previousversions>
    <label xml:lang="en">Designation</label>
-   <definition xml:lang="en">Abstract base type for code lists containing the classification and designation types under different schemes.</definition>
+   <definition xml:lang="en">Classification and designation types under different schemes.</definition>
    <description xml:lang="en">NOTE 1Some of these designation and classification lists are closed (for example, Natura2000), while some change regularly.\n\nNOTE 2 Typically, additional code lists will be created as sub-types of this type to represent designation or classification values within Member States, e.g.&lt;b> &lt;/b>natuurbeschermingsGebieden, rijksBeschermdeArcheologischeGebieden, nationaleParken, nationaleLandschappen etc. in the Netherlands.</description>
    <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
       <label xml:lang="en">Extensible with values at any level</label>

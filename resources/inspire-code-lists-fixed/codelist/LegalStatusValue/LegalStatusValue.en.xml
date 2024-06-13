@@ -36,17 +36,17 @@
       </registry>
    </register>
    <containeditems>
-      <value id="http://inspire.ec.europa.eu/codelist/LegalStatusValue/notAgreed">
+      <value id="http://inspire.ec.europa.eu/codelist/LegalStatusValue/agreed">
          <language>en</language>
          <created>2024-04-02 10:06 AM CEST</created>
          <issued>2024-04-02 10:06 AM CEST</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/LegalStatusValue/notAgreed:2</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/LegalStatusValue/notAgreed</latestversion>
+         <thisversion>http://inspire.ec.europa.eu/codelist/LegalStatusValue/agreed:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/LegalStatusValue/agreed</latestversion>
          <previousversions>
-            <version>http://inspire.ec.europa.eu/codelist/LegalStatusValue/notAgreed:1</version>
+            <version>http://inspire.ec.europa.eu/codelist/LegalStatusValue/agreed:1</version>
          </previousversions>
-         <label xml:lang="en">notAgreed</label>
-         <definition xml:lang="en">The edge-matched boundary has not yet been agreed between neighbouring administrative units and could be changed</definition>
+         <label xml:lang="en">agreed</label>
+         <definition xml:lang="en">The edge-matched boundary has been agreed between neighbouring administrative units and is stable now</definition>
          <description xml:lang="en"></description>
          <codelist id="http://inspire.ec.europa.eu/codelist/LegalStatusValue">
             <label xml:lang="en">Legal status</label>
@@ -75,17 +75,17 @@
             </registry>
          </register>
       </value>
-      <value id="http://inspire.ec.europa.eu/codelist/LegalStatusValue/agreed">
+      <value id="http://inspire.ec.europa.eu/codelist/LegalStatusValue/notAgreed">
          <language>en</language>
          <created>2024-04-02 10:06 AM CEST</created>
          <issued>2024-04-02 10:06 AM CEST</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/LegalStatusValue/agreed:2</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/LegalStatusValue/agreed</latestversion>
+         <thisversion>http://inspire.ec.europa.eu/codelist/LegalStatusValue/notAgreed:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/LegalStatusValue/notAgreed</latestversion>
          <previousversions>
-            <version>http://inspire.ec.europa.eu/codelist/LegalStatusValue/agreed:1</version>
+            <version>http://inspire.ec.europa.eu/codelist/LegalStatusValue/notAgreed:1</version>
          </previousversions>
-         <label xml:lang="en">agreed</label>
-         <definition xml:lang="en">The edge-matched boundary has been agreed between neighbouring administrative units and is stable now</definition>
+         <label xml:lang="en">notAgreed</label>
+         <definition xml:lang="en">The edge-matched boundary has not yet been agreed between neighbouring administrative units and could be changed</definition>
          <description xml:lang="en"></description>
          <codelist id="http://inspire.ec.europa.eu/codelist/LegalStatusValue">
             <label xml:lang="en">Legal status</label>

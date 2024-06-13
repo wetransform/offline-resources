@@ -34,7 +34,7 @@
         },
         "language" : "en",
         "label" : {
-          "text" : "underground",
+          "text" : "onGroundSurface",
           "lang" : "en"
         },
         "applicationschema" : {
@@ -67,13 +67,16 @@
           "lang" : "en"
         },
         "definition" : {
-          "text" : "The spatial object is underground",
+          "text" : "The spatial object is on ground level",
           "lang" : "en"
         },
-        "id" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue/underground",
+        "id" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue/onGroundSurface",
         "issued" : "2024-04-02 10:07 AM CEST",
-        "latestversion" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue/underground",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue/underground:2",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue/onGroundSurface",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue/onGroundSurface:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue/onGroundSurface:1"
+        } ],
         "status" : {
           "label" : {
             "text" : "Valid",
@@ -215,7 +218,7 @@
         },
         "language" : "en",
         "label" : {
-          "text" : "onGroundSurface",
+          "text" : "underground",
           "lang" : "en"
         },
         "applicationschema" : {
@@ -248,16 +251,13 @@
           "lang" : "en"
         },
         "definition" : {
-          "text" : "The spatial object is on ground level",
+          "text" : "The spatial object is underground",
           "lang" : "en"
         },
-        "id" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue/onGroundSurface",
+        "id" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue/underground",
         "issued" : "2024-04-02 10:07 AM CEST",
-        "latestversion" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue/onGroundSurface",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue/onGroundSurface:2",
-        "historyversion" : [ {
-          "version" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue/onGroundSurface:1"
-        } ],
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue/underground",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/VerticalPositionValue/underground:2",
         "status" : {
           "label" : {
             "text" : "Valid",

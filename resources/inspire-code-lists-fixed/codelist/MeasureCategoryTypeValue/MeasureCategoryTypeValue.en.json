@@ -1,0 +1,99 @@
+{
+  "codelist" : {
+    "governance level" : {
+      "label" : {
+        "text" : "Legal (EU)",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "created" : "2024-06-07 12:57 PM CEST",
+    "governance-level" : {
+      "label" : {
+        "text" : "eu-legal",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+    },
+    "description" : {
+      "text" : "Empty codelist to be used as a super-class for a number of specific codelist (e.g. for the Environmental Noise Directive purposes) whose values may be used to specify the attribute value.",
+      "lang" : "en"
+    },
+    "language" : "en",
+    "label" : {
+      "text" : "MeasureCategoryTypeValue",
+      "lang" : "en"
+    },
+    "extensibility" : {
+      "label" : {
+        "text" : "open",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "extensibility item" : {
+      "label" : {
+        "text" : "Extensible with values at any level",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+    },
+    "applicationschema" : {
+      "label" : {
+        "text" : "hh",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/applicationschema/hh"
+    },
+    "itemclass" : {
+      "label" : {
+        "text" : "CodeList",
+        "lang" : "en"
+      },
+      "id" : "CodeList"
+    },
+    "application schema" : {
+      "label" : {
+        "text" : "Human Health",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/applicationschema/hh"
+    },
+    "definition" : {
+      "text" : "The measure categories.",
+      "lang" : "en"
+    },
+    "theme" : {
+      "label" : {
+        "text" : "hh",
+        "lang" : "en"
+      },
+      "uri" : "http://inspire.ec.europa.eu/theme/hh"
+    },
+    "id" : "http://inspire.ec.europa.eu/codelist/MeasureCategoryTypeValue",
+    "issued" : "2024-06-07 12:36 PM CEST",
+    "latestversion" : "http://inspire.ec.europa.eu/codelist/MeasureCategoryTypeValue",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/MeasureCategoryTypeValue:1",
+    "status" : {
+      "label" : {
+        "text" : "Valid",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+    },
+    "register" : {
+      "registry" : {
+        "label" : {
+          "text" : "INSPIRE registry",
+          "lang" : "en"
+        },
+        "id" : "http://inspire.ec.europa.eu/registry"
+      },
+      "label" : {
+        "text" : "INSPIRE code list register",
+        "lang" : "en"
+      },
+      "id" : "http://inspire.ec.europa.eu/codelist"
+    }
+  }
+}

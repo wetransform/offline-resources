@@ -34,7 +34,7 @@
         },
         "language" : "en",
         "label" : {
-          "text" : "notEdgeMatched",
+          "text" : "edgeMatched",
           "lang" : "en"
         },
         "applicationschema" : {
@@ -67,7 +67,7 @@
           "lang" : "en"
         },
         "definition" : {
-          "text" : "The boundaries of neighbouring administrative units do not have the same set of coordinates",
+          "text" : "The boundaries of neighbouring administrative units have the same set of coordinates",
           "lang" : "en"
         },
         "theme" : {
@@ -77,12 +77,12 @@
           },
           "uri" : "http://inspire.ec.europa.eu/theme/au"
         },
-        "id" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/notEdgeMatched",
+        "id" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/edgeMatched",
         "issued" : "2024-04-02 10:07 AM CEST",
-        "latestversion" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/notEdgeMatched",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/notEdgeMatched:2",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/edgeMatched",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/edgeMatched:2",
         "historyversion" : [ {
-          "version" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/notEdgeMatched:1"
+          "version" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/edgeMatched:1"
         } ],
         "status" : {
           "label" : {
@@ -133,7 +133,7 @@
         },
         "language" : "en",
         "label" : {
-          "text" : "edgeMatched",
+          "text" : "notEdgeMatched",
           "lang" : "en"
         },
         "applicationschema" : {
@@ -166,7 +166,7 @@
           "lang" : "en"
         },
         "definition" : {
-          "text" : "The boundaries of neighbouring administrative units have the same set of coordinates",
+          "text" : "The boundaries of neighbouring administrative units do not have the same set of coordinates",
           "lang" : "en"
         },
         "theme" : {
@@ -176,12 +176,12 @@
           },
           "uri" : "http://inspire.ec.europa.eu/theme/au"
         },
-        "id" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/edgeMatched",
+        "id" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/notEdgeMatched",
         "issued" : "2024-04-02 10:07 AM CEST",
-        "latestversion" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/edgeMatched",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/edgeMatched:2",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/notEdgeMatched",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/notEdgeMatched:2",
         "historyversion" : [ {
-          "version" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/edgeMatched:1"
+          "version" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/notEdgeMatched:1"
         } ],
         "status" : {
           "label" : {

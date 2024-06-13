@@ -34,279 +34,15 @@
       </registry>
    </register>
    <containeditems>
-      <value id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/B">
+      <value id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/L">
          <language>en</language>
          <created>2023-07-28 12:02 PM CEST</created>
          <issued>2023-07-21 12:31 PM CEST</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/B:1</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/B</latestversion>
-         <label xml:lang="en">B</label>
-         <definition xml:lang="en">B horizons</definition>
-         <description xml:lang="en">These are horizons that formed below an A, E, H or O horizon, and in which the dominant features are the obliteration of all or much of the original rock structure, together with one or a combination of the following: - illuvial concentration, alone or in combination, of silicate clay, iron, aluminium, humus, carbonates, gypsum or silica; - evidence of removal of carbonates; - residual concentration of sesquioxides; - coatings of sesquioxides that make the horizon conspicuously lower in value, higher in chroma, or redder in hue than overlying and underlying horizons without apparent illuviation of iron; - alteration that forms silicate clay or liberates oxides or both and that forms a granular, blocky or prismatic structure if volume changes accompany changes in moisture content; - brittleness. All kinds of B horizons are, or were originally, subsurface horizons. Included as B horizons are layers of illuvial concentration of carbonates, gypsum or silica that are the result of pedogenetic processes (these layers may or may not be cemented) and brittle layers that have other evidence of alteration, such as prismatic structure or illuvial accumulation of clay. Examples of layers that are not B horizons are: layers in which clay films either coat rock fragments or are on finely stratified unconsolidated sediments, whether the films were formed in place or by illuviation; layers into which carbonates have been illuviated but that are not contiguous to an overlying genetic horizon; and layers with gleying but no other pedogenetic changes.</description>
-         <codelist id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue">
-            <label xml:lang="en">FAO Horizon Master</label>
-         </codelist>
-         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
-            <label xml:lang="en">Soil</label>
-         </applicationschema>
-         <theme id="http://inspire.ec.europa.eu/theme/so">
-            <label xml:lang="en">Soil</label>
-         </theme>
-         <referencelink id="http://inspire.ec.europa.eu/document/FaoMaster">
-            <label xml:lang="en">http://inspire.ec.europa.eu/document/FaoMaster</label>
-         </referencelink>
-         <referencesource xml:lang="en">Guidelines for soil description, 4th edition, Food and Agriculture Organization of the United Nations, Rome, 2006, pp. 67-71</referencesource>
-         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
-            <label xml:lang="en">Legal (EU)</label>
-         </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
-         </status>
-         <itemclass uriname="CodeListValue">
-            <label xml:lang="en">CodeListValue</label>
-         </itemclass>
-         <register id="http://inspire.ec.europa.eu/codelist">
-            <label xml:lang="en">INSPIRE code list register</label>
-            <registry id="http://inspire.ec.europa.eu/registry">
-               <label xml:lang="en">INSPIRE registry</label>
-            </registry>
-         </register>
-      </value>
-      <value id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/O">
-         <language>en</language>
-         <created>2023-07-28 12:02 PM CEST</created>
-         <issued>2023-07-21 12:31 PM CEST</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/O:1</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/O</latestversion>
-         <label xml:lang="en">O</label>
-         <definition xml:lang="en">O horizons or layers</definition>
-         <description xml:lang="en">These are layers dominated by organic material consisting of undecomposed or partially decomposed litter, such as leaves, needles, twigs, moss and lichens, that has accumulated on the surface; they may be on top of either mineral or organic soils. O horizons are not saturated with water for prolonged periods. The mineral fraction of such material is only a small percentage of the volume of the material and is generally much less than half of the weight. An O layer may be at the surface of a mineral soil or at any depth beneath the surface where it is buried. A horizon formed by illuviation of organic material into mineral subsoil is not an O horizon, although some horizons formed in this manner contain much organic matter.</description>
-         <codelist id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue">
-            <label xml:lang="en">FAO Horizon Master</label>
-         </codelist>
-         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
-            <label xml:lang="en">Soil</label>
-         </applicationschema>
-         <theme id="http://inspire.ec.europa.eu/theme/so">
-            <label xml:lang="en">Soil</label>
-         </theme>
-         <referencelink id="http://inspire.ec.europa.eu/document/FaoMaster">
-            <label xml:lang="en">http://inspire.ec.europa.eu/document/FaoMaster</label>
-         </referencelink>
-         <referencesource xml:lang="en">Guidelines for soil description, 4th edition, Food and Agriculture Organization of the United Nations, Rome, 2006, pp. 67-71</referencesource>
-         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
-            <label xml:lang="en">Legal (EU)</label>
-         </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
-         </status>
-         <itemclass uriname="CodeListValue">
-            <label xml:lang="en">CodeListValue</label>
-         </itemclass>
-         <register id="http://inspire.ec.europa.eu/codelist">
-            <label xml:lang="en">INSPIRE code list register</label>
-            <registry id="http://inspire.ec.europa.eu/registry">
-               <label xml:lang="en">INSPIRE registry</label>
-            </registry>
-         </register>
-      </value>
-      <value id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/C">
-         <language>en</language>
-         <created>2023-07-28 12:02 PM CEST</created>
-         <issued>2023-07-21 12:31 PM CEST</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/C:1</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/C</latestversion>
-         <label xml:lang="en">C</label>
-         <definition xml:lang="en">C horizons or layers</definition>
-         <description xml:lang="en">These are horizons or layers, excluding hard bedrock, that are little affected by pedogenetic processes and lack properties of H, O, A, E or B horizons. Most are mineral layers, but some siliceous and calcareous layers, such as shells, coral and diatomaceous earth, are included. The material of C layers may be either like or unlike that from which the solum presumably formed. A C horizon may have been modified even where there is no evidence of pedogenesis. Plant roots can penetrate C horizons, which provide an important growing medium. Included as C layers are sediments, saprolite, and unconsolidated bedrock and other geological materials that commonly slake within 24 hours when air dry or drier chunks are placed in water and when moist can be dug with a spade. Some soils form in material that is already highly weathered, and such material that does not meet the requirements of A, E or B horizons is designated C. Changes not considered pedogenetic are those not related to overlying horizons. Layers having accumulations of silica, carbonates or gypsum, even if indurated, may be included in C horizons unless the layer is obviously affected by pedogenetic processes; then it is a B horizon.</description>
-         <codelist id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue">
-            <label xml:lang="en">FAO Horizon Master</label>
-         </codelist>
-         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
-            <label xml:lang="en">Soil</label>
-         </applicationschema>
-         <theme id="http://inspire.ec.europa.eu/theme/so">
-            <label xml:lang="en">Soil</label>
-         </theme>
-         <referencelink xml:lang="en">http://inspire.ec.europa.eu/document/FaoMaster</referencelink>
-         <referencesource xml:lang="en">Guidelines for soil description, 4th edition, Food and Agriculture Organization of the United Nations, Rome, 2006, pp. 67-71</referencesource>
-         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
-            <label xml:lang="en">Legal (EU)</label>
-         </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
-         </status>
-         <itemclass uriname="CodeListValue">
-            <label xml:lang="en">CodeListValue</label>
-         </itemclass>
-         <register id="http://inspire.ec.europa.eu/codelist">
-            <label xml:lang="en">INSPIRE code list register</label>
-            <registry id="http://inspire.ec.europa.eu/registry">
-               <label xml:lang="en">INSPIRE registry</label>
-            </registry>
-         </register>
-      </value>
-      <value id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/E">
-         <language>en</language>
-         <created>2023-07-28 12:02 PM CEST</created>
-         <issued>2023-07-21 12:31 PM CEST</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/E:1</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/E</latestversion>
-         <label xml:lang="en">E</label>
-         <definition xml:lang="en">E horizons</definition>
-         <description xml:lang="en">These are mineral horizons in which the main feature is loss of silicate clay, iron, aluminium, or some combination of these, leaving a concentration of sand and silt particles, and in which all or much of the original rock structure has been obliterated. An E horizon is usually, but not necessarily, lighter in colour than an underlying B horizon. In some soils, the colour is that of the sand and silt particles, but in many soils coatings of iron oxides or other compounds mask the colour of the primary particles. An E horizon is most commonly differentiated from an underlying B horizon in the same soil profile: by colour of higher value or lower chroma, or both; by coarser texture; or by a combination of these properties. An E horizon is commonly near the surface, below an O or A horizon and above a B horizon. However, the symbol E may be used without regard to position in the profile for any horizon that meets the requirements and that has resulted from soil genesis.</description>
-         <codelist id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue">
-            <label xml:lang="en">FAO Horizon Master</label>
-         </codelist>
-         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
-            <label xml:lang="en">Soil</label>
-         </applicationschema>
-         <theme id="http://inspire.ec.europa.eu/theme/so">
-            <label xml:lang="en">Soil</label>
-         </theme>
-         <referencelink id="http://inspire.ec.europa.eu/document/FaoMaster">
-            <label xml:lang="en">http://inspire.ec.europa.eu/document/FaoMaster</label>
-         </referencelink>
-         <referencesource xml:lang="en">Guidelines for soil description, 4th edition, Food and Agriculture Organization of the United Nations, Rome, 2006, pp. 67-71</referencesource>
-         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
-            <label xml:lang="en">Legal (EU)</label>
-         </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
-         </status>
-         <itemclass uriname="CodeListValue">
-            <label xml:lang="en">CodeListValue</label>
-         </itemclass>
-         <register id="http://inspire.ec.europa.eu/codelist">
-            <label xml:lang="en">INSPIRE code list register</label>
-            <registry id="http://inspire.ec.europa.eu/registry">
-               <label xml:lang="en">INSPIRE registry</label>
-            </registry>
-         </register>
-      </value>
-      <value id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/I">
-         <language>en</language>
-         <created>2023-07-28 12:02 PM CEST</created>
-         <issued>2023-07-21 12:31 PM CEST</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/I:1</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/I</latestversion>
-         <label xml:lang="en">I</label>
-         <definition xml:lang="en">I layers</definition>
-         <description xml:lang="en">These are ice lenses and wedges that contain at least 75 percent ice (by volume) and that distinctly separate organic or mineral layers in the soil. Ice comes and goes in soils in areas affected by permafrost. Ice bodies in soils can grow to such an extent that they form lenses of wedges that separate entire soil layers. In case such, where ice concentrations occur within the depth of soil description, they can be designated as an I layer. The I symbol is not used in transitional horizon designations.</description>
-         <codelist id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue">
-            <label xml:lang="en">FAO Horizon Master</label>
-         </codelist>
-         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
-            <label xml:lang="en">Soil</label>
-         </applicationschema>
-         <theme id="http://inspire.ec.europa.eu/theme/so">
-            <label xml:lang="en">Soil</label>
-         </theme>
-         <referencelink id="http://inspire.ec.europa.eu/document/FaoMaster">
-            <label xml:lang="en">http://inspire.ec.europa.eu/document/FaoMaster</label>
-         </referencelink>
-         <referencesource xml:lang="en">Guidelines for soil description, 4th edition, Food and Agriculture Organization of the United Nations, Rome, 2006, pp. 67-71</referencesource>
-         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
-            <label xml:lang="en">Legal (EU)</label>
-         </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
-         </status>
-         <itemclass uriname="CodeListValue">
-            <label xml:lang="en">CodeListValue</label>
-         </itemclass>
-         <register id="http://inspire.ec.europa.eu/codelist">
-            <label xml:lang="en">INSPIRE code list register</label>
-            <registry id="http://inspire.ec.europa.eu/registry">
-               <label xml:lang="en">INSPIRE registry</label>
-            </registry>
-         </register>
-      </value>
-      <value id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/W">
-         <language>en</language>
-         <created>2023-07-28 12:02 PM CEST</created>
-         <issued>2023-07-21 12:31 PM CEST</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/W:1</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/W</latestversion>
-         <label xml:lang="en">W</label>
-         <definition xml:lang="en">W layers</definition>
-         <description xml:lang="en">These are water layers in soils or water submerging soils, either permanently or cyclic within the time frame of 24 hours. Some organic soils float on water. In such cases, the W symbol may be used at the end of the soil description to indicate the floating character. In other cases, shallow water (i.e. water not deeper than 1 m) may cover the soil permanently, as in the case of shallow lakes, or cyclic, as in tidal flats. The symbol W is then used to indicate the depth of submergence at the start of the horizon or layer sequence. The occurrence of tidal water can be indicated by (W).</description>
-         <codelist id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue">
-            <label xml:lang="en">FAO Horizon Master</label>
-         </codelist>
-         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
-            <label xml:lang="en">Soil</label>
-         </applicationschema>
-         <theme id="http://inspire.ec.europa.eu/theme/so">
-            <label xml:lang="en">Soil</label>
-         </theme>
-         <referencelink id="http://inspire.ec.europa.eu/document/FaoMaster">
-            <label xml:lang="en">http://inspire.ec.europa.eu/document/FaoMaster</label>
-         </referencelink>
-         <referencesource xml:lang="en">Guidelines for soil description, 4th edition, Food and Agriculture Organization of the United Nations, Rome, 2006, pp. 67-71</referencesource>
-         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
-            <label xml:lang="en">Legal (EU)</label>
-         </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
-         </status>
-         <itemclass uriname="CodeListValue">
-            <label xml:lang="en">CodeListValue</label>
-         </itemclass>
-         <register id="http://inspire.ec.europa.eu/codelist">
-            <label xml:lang="en">INSPIRE code list register</label>
-            <registry id="http://inspire.ec.europa.eu/registry">
-               <label xml:lang="en">INSPIRE registry</label>
-            </registry>
-         </register>
-      </value>
-      <value id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/H">
-         <language>en</language>
-         <created>2023-07-28 12:02 PM CEST</created>
-         <issued>2023-07-21 12:31 PM CEST</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/H:1</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/H</latestversion>
-         <label xml:lang="en">H</label>
-         <definition xml:lang="en">H horizons or layers</definition>
-         <description xml:lang="en">These are layers dominated by organic material formed from accumulations of undecomposed or partially decomposed organic material at the soil surface, which may be underwater. All H horizons are saturated with water for prolonged periods, or were once saturated but are now drained artificially. An H horizon may be on top of mineral soils or at any depth beneath the surface if it is buried.</description>
-         <codelist id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue">
-            <label xml:lang="en">FAO Horizon Master</label>
-         </codelist>
-         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
-            <label xml:lang="en">Soil</label>
-         </applicationschema>
-         <theme id="http://inspire.ec.europa.eu/theme/so">
-            <label xml:lang="en">Soil</label>
-         </theme>
-         <referencelink id="http://inspire.ec.europa.eu/document/FaoMaster">
-            <label xml:lang="en">http://inspire.ec.europa.eu/document/FaoMaster</label>
-         </referencelink>
-         <referencesource xml:lang="en">Guidelines for soil description, 4th edition, Food and Agriculture Organization of the United Nations, Rome, 2006, pp. 67-71</referencesource>
-         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
-            <label xml:lang="en">Legal (EU)</label>
-         </governance-level>
-         <status id="http://inspire.ec.europa.eu/registry/status/valid">
-            <label xml:lang="en">Valid</label>
-         </status>
-         <itemclass uriname="CodeListValue">
-            <label xml:lang="en">CodeListValue</label>
-         </itemclass>
-         <register id="http://inspire.ec.europa.eu/codelist">
-            <label xml:lang="en">INSPIRE code list register</label>
-            <registry id="http://inspire.ec.europa.eu/registry">
-               <label xml:lang="en">INSPIRE registry</label>
-            </registry>
-         </register>
-      </value>
-      <value id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/A">
-         <language>en</language>
-         <created>2023-07-28 12:02 PM CEST</created>
-         <issued>2023-07-21 12:31 PM CEST</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/A:1</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/A</latestversion>
-         <label xml:lang="en">A</label>
-         <definition xml:lang="en">A horizons</definition>
-         <description xml:lang="en">These are mineral horizons that formed at the surface or below an O horizon, in which all or much of the original rock structure has been obliterated and which are characterized by one or more of the following: - an accumulation of humified organic matter intimately mixed with the mineral fraction and not displaying properties characteristic of E or B horizons (see below); - properties resulting from cultivation, pasturing, or similar kinds of disturbance; - a morphology that is different from the underlying B or C horizon, resulting from processes related to the surface. If a surface horizon (or epipedon) has properties of both A and E horizons but the dominant feature is an accumulation of humified organic matter, it is designated an A horizon. In some places, where warm and arid climates prevail, the undisturbed surface horizon is less dark than the underlying horizon and contains only small amounts of organic matter. It has a morphology distinct from the C layer, although the mineral fraction may be unaltered or only slightly altered by weathering. Such a horizon is designated A because it is at the surface. Examples of epipedons that may have a different structure or morphology owing to surface processes are Vertisols, soils in pans or playas with little vegetation, and soils in deserts. However, recent alluvial or aeolian deposits that retain fine stratification are not considered to be an A horizon unless cultivated.</description>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/L:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/L</latestversion>
+         <label xml:lang="en">L</label>
+         <definition xml:lang="en">L layers</definition>
+         <description xml:lang="en">These are sediments deposited in a body of water (subaqueous) composed of both organic and inorganic materials, also known as limnic material. Limnic material is either: (i) deposited by precipitation or through action of aquatic organisms, such as algae or diatoms; or (ii) derived from underwater and floating aquatic plants and subsequently modified by aquatic animals (USDA Soil Survey Staff, 2003). L layers include coprogenous earth or sedimentary peat (mostly organic), diatomaceous earth (mostly siliceous), and marl (mostly calcareous). The L symbol is not used in transitional horizon designations.</description>
          <codelist id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue">
             <label xml:lang="en">FAO Horizon Master</label>
          </codelist>
@@ -374,15 +110,279 @@
             </registry>
          </register>
       </value>
-      <value id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/L">
+      <value id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/A">
          <language>en</language>
          <created>2023-07-28 12:02 PM CEST</created>
          <issued>2023-07-21 12:31 PM CEST</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/L:1</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/L</latestversion>
-         <label xml:lang="en">L</label>
-         <definition xml:lang="en">L layers</definition>
-         <description xml:lang="en">These are sediments deposited in a body of water (subaqueous) composed of both organic and inorganic materials, also known as limnic material. Limnic material is either: (i) deposited by precipitation or through action of aquatic organisms, such as algae or diatoms; or (ii) derived from underwater and floating aquatic plants and subsequently modified by aquatic animals (USDA Soil Survey Staff, 2003). L layers include coprogenous earth or sedimentary peat (mostly organic), diatomaceous earth (mostly siliceous), and marl (mostly calcareous). The L symbol is not used in transitional horizon designations.</description>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/A:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/A</latestversion>
+         <label xml:lang="en">A</label>
+         <definition xml:lang="en">A horizons</definition>
+         <description xml:lang="en">These are mineral horizons that formed at the surface or below an O horizon, in which all or much of the original rock structure has been obliterated and which are characterized by one or more of the following: - an accumulation of humified organic matter intimately mixed with the mineral fraction and not displaying properties characteristic of E or B horizons (see below); - properties resulting from cultivation, pasturing, or similar kinds of disturbance; - a morphology that is different from the underlying B or C horizon, resulting from processes related to the surface. If a surface horizon (or epipedon) has properties of both A and E horizons but the dominant feature is an accumulation of humified organic matter, it is designated an A horizon. In some places, where warm and arid climates prevail, the undisturbed surface horizon is less dark than the underlying horizon and contains only small amounts of organic matter. It has a morphology distinct from the C layer, although the mineral fraction may be unaltered or only slightly altered by weathering. Such a horizon is designated A because it is at the surface. Examples of epipedons that may have a different structure or morphology owing to surface processes are Vertisols, soils in pans or playas with little vegetation, and soils in deserts. However, recent alluvial or aeolian deposits that retain fine stratification are not considered to be an A horizon unless cultivated.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue">
+            <label xml:lang="en">FAO Horizon Master</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <referencelink id="http://inspire.ec.europa.eu/document/FaoMaster">
+            <label xml:lang="en">http://inspire.ec.europa.eu/document/FaoMaster</label>
+         </referencelink>
+         <referencesource xml:lang="en">Guidelines for soil description, 4th edition, Food and Agriculture Organization of the United Nations, Rome, 2006, pp. 67-71</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/H">
+         <language>en</language>
+         <created>2023-07-28 12:02 PM CEST</created>
+         <issued>2023-07-21 12:31 PM CEST</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/H:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/H</latestversion>
+         <label xml:lang="en">H</label>
+         <definition xml:lang="en">H horizons or layers</definition>
+         <description xml:lang="en">These are layers dominated by organic material formed from accumulations of undecomposed or partially decomposed organic material at the soil surface, which may be underwater. All H horizons are saturated with water for prolonged periods, or were once saturated but are now drained artificially. An H horizon may be on top of mineral soils or at any depth beneath the surface if it is buried.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue">
+            <label xml:lang="en">FAO Horizon Master</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <referencelink id="http://inspire.ec.europa.eu/document/FaoMaster">
+            <label xml:lang="en">http://inspire.ec.europa.eu/document/FaoMaster</label>
+         </referencelink>
+         <referencesource xml:lang="en">Guidelines for soil description, 4th edition, Food and Agriculture Organization of the United Nations, Rome, 2006, pp. 67-71</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/W">
+         <language>en</language>
+         <created>2023-07-28 12:02 PM CEST</created>
+         <issued>2023-07-21 12:31 PM CEST</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/W:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/W</latestversion>
+         <label xml:lang="en">W</label>
+         <definition xml:lang="en">W layers</definition>
+         <description xml:lang="en">These are water layers in soils or water submerging soils, either permanently or cyclic within the time frame of 24 hours. Some organic soils float on water. In such cases, the W symbol may be used at the end of the soil description to indicate the floating character. In other cases, shallow water (i.e. water not deeper than 1 m) may cover the soil permanently, as in the case of shallow lakes, or cyclic, as in tidal flats. The symbol W is then used to indicate the depth of submergence at the start of the horizon or layer sequence. The occurrence of tidal water can be indicated by (W).</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue">
+            <label xml:lang="en">FAO Horizon Master</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <referencelink id="http://inspire.ec.europa.eu/document/FaoMaster">
+            <label xml:lang="en">http://inspire.ec.europa.eu/document/FaoMaster</label>
+         </referencelink>
+         <referencesource xml:lang="en">Guidelines for soil description, 4th edition, Food and Agriculture Organization of the United Nations, Rome, 2006, pp. 67-71</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/I">
+         <language>en</language>
+         <created>2023-07-28 12:02 PM CEST</created>
+         <issued>2023-07-21 12:31 PM CEST</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/I:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/I</latestversion>
+         <label xml:lang="en">I</label>
+         <definition xml:lang="en">I layers</definition>
+         <description xml:lang="en">These are ice lenses and wedges that contain at least 75 percent ice (by volume) and that distinctly separate organic or mineral layers in the soil. Ice comes and goes in soils in areas affected by permafrost. Ice bodies in soils can grow to such an extent that they form lenses of wedges that separate entire soil layers. In case such, where ice concentrations occur within the depth of soil description, they can be designated as an I layer. The I symbol is not used in transitional horizon designations.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue">
+            <label xml:lang="en">FAO Horizon Master</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <referencelink id="http://inspire.ec.europa.eu/document/FaoMaster">
+            <label xml:lang="en">http://inspire.ec.europa.eu/document/FaoMaster</label>
+         </referencelink>
+         <referencesource xml:lang="en">Guidelines for soil description, 4th edition, Food and Agriculture Organization of the United Nations, Rome, 2006, pp. 67-71</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/E">
+         <language>en</language>
+         <created>2023-07-28 12:02 PM CEST</created>
+         <issued>2023-07-21 12:31 PM CEST</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/E:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/E</latestversion>
+         <label xml:lang="en">E</label>
+         <definition xml:lang="en">E horizons</definition>
+         <description xml:lang="en">These are mineral horizons in which the main feature is loss of silicate clay, iron, aluminium, or some combination of these, leaving a concentration of sand and silt particles, and in which all or much of the original rock structure has been obliterated. An E horizon is usually, but not necessarily, lighter in colour than an underlying B horizon. In some soils, the colour is that of the sand and silt particles, but in many soils coatings of iron oxides or other compounds mask the colour of the primary particles. An E horizon is most commonly differentiated from an underlying B horizon in the same soil profile: by colour of higher value or lower chroma, or both; by coarser texture; or by a combination of these properties. An E horizon is commonly near the surface, below an O or A horizon and above a B horizon. However, the symbol E may be used without regard to position in the profile for any horizon that meets the requirements and that has resulted from soil genesis.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue">
+            <label xml:lang="en">FAO Horizon Master</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <referencelink id="http://inspire.ec.europa.eu/document/FaoMaster">
+            <label xml:lang="en">http://inspire.ec.europa.eu/document/FaoMaster</label>
+         </referencelink>
+         <referencesource xml:lang="en">Guidelines for soil description, 4th edition, Food and Agriculture Organization of the United Nations, Rome, 2006, pp. 67-71</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/C">
+         <language>en</language>
+         <created>2023-07-28 12:02 PM CEST</created>
+         <issued>2023-07-21 12:31 PM CEST</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/C:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/C</latestversion>
+         <label xml:lang="en">C</label>
+         <definition xml:lang="en">C horizons or layers</definition>
+         <description xml:lang="en">These are horizons or layers, excluding hard bedrock, that are little affected by pedogenetic processes and lack properties of H, O, A, E or B horizons. Most are mineral layers, but some siliceous and calcareous layers, such as shells, coral and diatomaceous earth, are included. The material of C layers may be either like or unlike that from which the solum presumably formed. A C horizon may have been modified even where there is no evidence of pedogenesis. Plant roots can penetrate C horizons, which provide an important growing medium. Included as C layers are sediments, saprolite, and unconsolidated bedrock and other geological materials that commonly slake within 24 hours when air dry or drier chunks are placed in water and when moist can be dug with a spade. Some soils form in material that is already highly weathered, and such material that does not meet the requirements of A, E or B horizons is designated C. Changes not considered pedogenetic are those not related to overlying horizons. Layers having accumulations of silica, carbonates or gypsum, even if indurated, may be included in C horizons unless the layer is obviously affected by pedogenetic processes; then it is a B horizon.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue">
+            <label xml:lang="en">FAO Horizon Master</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <referencelink xml:lang="en">http://inspire.ec.europa.eu/document/FaoMaster</referencelink>
+         <referencesource xml:lang="en">Guidelines for soil description, 4th edition, Food and Agriculture Organization of the United Nations, Rome, 2006, pp. 67-71</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/O">
+         <language>en</language>
+         <created>2023-07-28 12:02 PM CEST</created>
+         <issued>2023-07-21 12:31 PM CEST</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/O:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/O</latestversion>
+         <label xml:lang="en">O</label>
+         <definition xml:lang="en">O horizons or layers</definition>
+         <description xml:lang="en">These are layers dominated by organic material consisting of undecomposed or partially decomposed litter, such as leaves, needles, twigs, moss and lichens, that has accumulated on the surface; they may be on top of either mineral or organic soils. O horizons are not saturated with water for prolonged periods. The mineral fraction of such material is only a small percentage of the volume of the material and is generally much less than half of the weight. An O layer may be at the surface of a mineral soil or at any depth beneath the surface where it is buried. A horizon formed by illuviation of organic material into mineral subsoil is not an O horizon, although some horizons formed in this manner contain much organic matter.</description>
+         <codelist id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue">
+            <label xml:lang="en">FAO Horizon Master</label>
+         </codelist>
+         <applicationschema id="http://inspire.ec.europa.eu/applicationschema/so">
+            <label xml:lang="en">Soil</label>
+         </applicationschema>
+         <theme id="http://inspire.ec.europa.eu/theme/so">
+            <label xml:lang="en">Soil</label>
+         </theme>
+         <referencelink id="http://inspire.ec.europa.eu/document/FaoMaster">
+            <label xml:lang="en">http://inspire.ec.europa.eu/document/FaoMaster</label>
+         </referencelink>
+         <referencesource xml:lang="en">Guidelines for soil description, 4th edition, Food and Agriculture Organization of the United Nations, Rome, 2006, pp. 67-71</referencesource>
+         <governance-level id="http://inspire.ec.europa.eu/registry/governance-level/eu-legal">
+            <label xml:lang="en">Legal (EU)</label>
+         </governance-level>
+         <status id="http://inspire.ec.europa.eu/registry/status/valid">
+            <label xml:lang="en">Valid</label>
+         </status>
+         <itemclass uriname="CodeListValue">
+            <label xml:lang="en">CodeListValue</label>
+         </itemclass>
+         <register id="http://inspire.ec.europa.eu/codelist">
+            <label xml:lang="en">INSPIRE code list register</label>
+            <registry id="http://inspire.ec.europa.eu/registry">
+               <label xml:lang="en">INSPIRE registry</label>
+            </registry>
+         </register>
+      </value>
+      <value id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/B">
+         <language>en</language>
+         <created>2023-07-28 12:02 PM CEST</created>
+         <issued>2023-07-21 12:31 PM CEST</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/B:1</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue/B</latestversion>
+         <label xml:lang="en">B</label>
+         <definition xml:lang="en">B horizons</definition>
+         <description xml:lang="en">These are horizons that formed below an A, E, H or O horizon, and in which the dominant features are the obliteration of all or much of the original rock structure, together with one or a combination of the following: - illuvial concentration, alone or in combination, of silicate clay, iron, aluminium, humus, carbonates, gypsum or silica; - evidence of removal of carbonates; - residual concentration of sesquioxides; - coatings of sesquioxides that make the horizon conspicuously lower in value, higher in chroma, or redder in hue than overlying and underlying horizons without apparent illuviation of iron; - alteration that forms silicate clay or liberates oxides or both and that forms a granular, blocky or prismatic structure if volume changes accompany changes in moisture content; - brittleness. All kinds of B horizons are, or were originally, subsurface horizons. Included as B horizons are layers of illuvial concentration of carbonates, gypsum or silica that are the result of pedogenetic processes (these layers may or may not be cemented) and brittle layers that have other evidence of alteration, such as prismatic structure or illuvial accumulation of clay. Examples of layers that are not B horizons are: layers in which clay films either coat rock fragments or are on finely stratified unconsolidated sediments, whether the films were formed in place or by illuviation; layers into which carbonates have been illuviated but that are not contiguous to an overlying genetic horizon; and layers with gleying but no other pedogenetic changes.</description>
          <codelist id="http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue">
             <label xml:lang="en">FAO Horizon Master</label>
          </codelist>

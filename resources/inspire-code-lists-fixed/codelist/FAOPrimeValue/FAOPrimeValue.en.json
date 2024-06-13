@@ -29,7 +29,7 @@
           "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
         },
         "description" : {
-          "text" : "One Prime applies to this layer or horizon",
+          "text" : "Three Primes apply to this layer or horizon",
           "lang" : "en"
         },
         "language" : "en",
@@ -41,7 +41,7 @@
           "id" : "http://inspire.ec.europa.eu/document/FaoPrime"
         },
         "label" : {
-          "text" : "1",
+          "text" : "3",
           "lang" : "en"
         },
         "applicationschema" : {
@@ -70,7 +70,7 @@
           "lang" : "en"
         },
         "definition" : {
-          "text" : "One Prime",
+          "text" : "Three Primes",
           "lang" : "en"
         },
         "theme" : {
@@ -80,109 +80,10 @@
           },
           "uri" : "http://inspire.ec.europa.eu/theme/so"
         },
-        "id" : "http://inspire.ec.europa.eu/codelist/FAOPrimeValue/1",
+        "id" : "http://inspire.ec.europa.eu/codelist/FAOPrimeValue/3",
         "issued" : "2023-07-21 12:31 PM CEST",
-        "latestversion" : "http://inspire.ec.europa.eu/codelist/FAOPrimeValue/1",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/FAOPrimeValue/1:1",
-        "status" : {
-          "label" : {
-            "text" : "Valid",
-            "lang" : "en"
-          },
-          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
-        },
-        "register" : {
-          "registry" : {
-            "label" : {
-              "text" : "INSPIRE registry",
-              "lang" : "en"
-            },
-            "id" : "http://inspire.ec.europa.eu/registry"
-          },
-          "label" : {
-            "text" : "INSPIRE code list register",
-            "lang" : "en"
-          },
-          "id" : "http://inspire.ec.europa.eu/codelist"
-        }
-      }
-    }, {
-      "value" : {
-        "governance level" : {
-          "label" : {
-            "text" : "Legal (EU)",
-            "lang" : "en"
-          },
-          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
-        },
-        "codelist" : {
-          "label" : "FAO Prime",
-          "id" : "http://inspire.ec.europa.eu/codelist/FAOPrimeValue"
-        },
-        "created" : "2023-07-28 12:02 PM CEST",
-        "governance-level" : {
-          "label" : {
-            "text" : "eu-legal",
-            "lang" : "en"
-          },
-          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
-        },
-        "description" : {
-          "text" : "No Prime applies to this layer or horizon",
-          "lang" : "en"
-        },
-        "language" : "en",
-        "reference link" : {
-          "label" : {
-            "text" : "http://inspire.ec.europa.eu/document/FaoPrime",
-            "lang" : "en"
-          },
-          "id" : "http://inspire.ec.europa.eu/document/FaoPrime"
-        },
-        "label" : {
-          "text" : "0",
-          "lang" : "en"
-        },
-        "applicationschema" : {
-          "label" : {
-            "text" : "so",
-            "lang" : "en"
-          },
-          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
-        },
-        "itemclass" : {
-          "label" : {
-            "text" : "CodeListValue",
-            "lang" : "en"
-          },
-          "id" : "CodeListValue"
-        },
-        "application schema" : {
-          "label" : {
-            "text" : "Soil",
-            "lang" : "en"
-          },
-          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
-        },
-        "referencesource" : {
-          "text" : "Guidelines for soil description, 4th edition, Food and Agriculture Organization of the United Nations, Rome, 2006, pp. 77",
-          "lang" : "en"
-        },
-        "definition" : {
-          "text" : "No Prime",
-          "lang" : "en"
-        },
-        "theme" : {
-          "label" : {
-            "text" : "so",
-            "lang" : "en"
-          },
-          "uri" : "http://inspire.ec.europa.eu/theme/so"
-        },
-        "id" : "http://inspire.ec.europa.eu/codelist/FAOPrimeValue/0",
-        "issued" : "2023-07-21 12:31 PM CEST",
-        "latestversion" : "http://inspire.ec.europa.eu/codelist/FAOPrimeValue/0",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/FAOPrimeValue/0:1",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/FAOPrimeValue/3",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/FAOPrimeValue/3:1",
         "status" : {
           "label" : {
             "text" : "Valid",
@@ -326,7 +227,7 @@
           "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
         },
         "description" : {
-          "text" : "Three Primes apply to this layer or horizon",
+          "text" : "No Prime applies to this layer or horizon",
           "lang" : "en"
         },
         "language" : "en",
@@ -338,7 +239,7 @@
           "id" : "http://inspire.ec.europa.eu/document/FaoPrime"
         },
         "label" : {
-          "text" : "3",
+          "text" : "0",
           "lang" : "en"
         },
         "applicationschema" : {
@@ -367,7 +268,7 @@
           "lang" : "en"
         },
         "definition" : {
-          "text" : "Three Primes",
+          "text" : "No Prime",
           "lang" : "en"
         },
         "theme" : {
@@ -377,10 +278,109 @@
           },
           "uri" : "http://inspire.ec.europa.eu/theme/so"
         },
-        "id" : "http://inspire.ec.europa.eu/codelist/FAOPrimeValue/3",
+        "id" : "http://inspire.ec.europa.eu/codelist/FAOPrimeValue/0",
         "issued" : "2023-07-21 12:31 PM CEST",
-        "latestversion" : "http://inspire.ec.europa.eu/codelist/FAOPrimeValue/3",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/FAOPrimeValue/3:1",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/FAOPrimeValue/0",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/FAOPrimeValue/0:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "FAO Prime",
+          "id" : "http://inspire.ec.europa.eu/codelist/FAOPrimeValue"
+        },
+        "created" : "2023-07-28 12:02 PM CEST",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "One Prime applies to this layer or horizon",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://inspire.ec.europa.eu/document/FaoPrime",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/document/FaoPrime"
+        },
+        "label" : {
+          "text" : "1",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Soil",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "referencesource" : {
+          "text" : "Guidelines for soil description, 4th edition, Food and Agriculture Organization of the United Nations, Rome, 2006, pp. 77",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "One Prime",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/so"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/FAOPrimeValue/1",
+        "issued" : "2023-07-21 12:31 PM CEST",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/FAOPrimeValue/1",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/FAOPrimeValue/1:1",
         "status" : {
           "label" : {
             "text" : "Valid",
