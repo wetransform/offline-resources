@@ -36,7 +36,7 @@ jobs:
         ORG_GRADLE_PROJECT_wetfArtifactoryPassword: ${{ secrets.WETF_ARTIFACTORY_PASSWORD }}
 
     - name: Publish Test Report
-      uses: mikepenz/action-junit-report@ac30be7acb0a361e5492575ab42e47fcadec4928 # v4.2.2
+      uses: mikepenz/action-junit-report@db71d41eb79864e25ab0337e395c352e84523afe # v4.3.1
       if: always() # always run even if the previous step fails
       with:
         report_paths: "test/build/test-results/**/*.xml"
@@ -51,7 +51,7 @@ jobs:
 
     - name: Create Pull Request for changes
       # https://github.com/marketplace/actions/create-pull-request
-      uses: peter-evans/create-pull-request@6d6857d36972b65feb161a90e484f2984215f83e # v6.0.5
+      uses: peter-evans/create-pull-request@c5a7806660adbe173f04e3e038b0ccdcd758773c # v6.1.0
       with:
         commit-message: "refactor: automated resource update"
         committer: wetransform Bot <admin@wetransform.to>
