@@ -34,7 +34,7 @@
         },
         "language" : "en",
         "label" : {
-          "text" : "ordinary",
+          "text" : "master",
           "lang" : "en"
         },
         "applicationschema" : {
@@ -67,7 +67,7 @@
           "lang" : "en"
         },
         "definition" : {
-          "text" : "Contour at the equidistance parameter (corresponding to the normal contour vertical interval) associated with the nominal scale, and which is not a master contour",
+          "text" : "Contour at a vertical distance which is multiple to the equidistance parameter (corresponding to a certain multiple of the normal contour vertical interval) associated with the nominal scale",
           "lang" : "en"
         },
         "theme" : {
@@ -77,12 +77,12 @@
           },
           "uri" : "http://inspire.ec.europa.eu/theme/el"
         },
-        "id" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/ordinary",
+        "id" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/master",
         "issued" : "2024-04-02 10:06 AM CEST",
-        "latestversion" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/ordinary",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/ordinary:2",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/master",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/master:2",
         "historyversion" : [ {
-          "version" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/ordinary:1"
+          "version" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/master:1"
         } ],
         "status" : {
           "label" : {
@@ -232,7 +232,7 @@
         },
         "language" : "en",
         "label" : {
-          "text" : "master",
+          "text" : "ordinary",
           "lang" : "en"
         },
         "applicationschema" : {
@@ -265,7 +265,7 @@
           "lang" : "en"
         },
         "definition" : {
-          "text" : "Contour at a vertical distance which is multiple to the equidistance parameter (corresponding to a certain multiple of the normal contour vertical interval) associated with the nominal scale",
+          "text" : "Contour at the equidistance parameter (corresponding to the normal contour vertical interval) associated with the nominal scale, and which is not a master contour",
           "lang" : "en"
         },
         "theme" : {
@@ -275,12 +275,12 @@
           },
           "uri" : "http://inspire.ec.europa.eu/theme/el"
         },
-        "id" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/master",
+        "id" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/ordinary",
         "issued" : "2024-04-02 10:06 AM CEST",
-        "latestversion" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/master",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/master:2",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/ordinary",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/ordinary:2",
         "historyversion" : [ {
-          "version" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/master:1"
+          "version" : "http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/ordinary:1"
         } ],
         "status" : {
           "label" : {

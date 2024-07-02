@@ -34,7 +34,7 @@
         },
         "language" : "en",
         "label" : {
-          "text" : "maximum",
+          "text" : "minimum",
           "lang" : "en"
         },
         "applicationschema" : {
@@ -67,7 +67,7 @@
           "lang" : "en"
         },
         "definition" : {
-          "text" : "The number of lanes is the maximum value for a given part of the road network",
+          "text" : "The number of lanes is the minimum value for a given part of the road network",
           "lang" : "en"
         },
         "theme" : {
@@ -77,13 +77,10 @@
           },
           "uri" : "http://inspire.ec.europa.eu/theme/tn"
         },
-        "id" : "http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/maximum",
+        "id" : "http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/minimum",
         "issued" : "2024-04-02 10:06 AM CEST",
-        "latestversion" : "http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/maximum",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/maximum:2",
-        "historyversion" : [ {
-          "version" : "http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/maximum:1"
-        } ],
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/minimum",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/minimum:2",
         "status" : {
           "label" : {
             "text" : "Valid",
@@ -232,7 +229,7 @@
         },
         "language" : "en",
         "label" : {
-          "text" : "minimum",
+          "text" : "maximum",
           "lang" : "en"
         },
         "applicationschema" : {
@@ -265,7 +262,7 @@
           "lang" : "en"
         },
         "definition" : {
-          "text" : "The number of lanes is the minimum value for a given part of the road network",
+          "text" : "The number of lanes is the maximum value for a given part of the road network",
           "lang" : "en"
         },
         "theme" : {
@@ -275,10 +272,13 @@
           },
           "uri" : "http://inspire.ec.europa.eu/theme/tn"
         },
-        "id" : "http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/minimum",
+        "id" : "http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/maximum",
         "issued" : "2024-04-02 10:06 AM CEST",
-        "latestversion" : "http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/minimum",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/minimum:2",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/maximum",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/maximum:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/maximum:1"
+        } ],
         "status" : {
           "label" : {
             "text" : "Valid",
