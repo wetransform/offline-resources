@@ -36,17 +36,17 @@
       </registry>
    </register>
    <containeditems>
-      <value id="http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/ordinary">
+      <value id="http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/master">
          <language>en</language>
          <created>2024-04-02 10:06 AM CEST</created>
          <issued>2024-04-02 10:06 AM CEST</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/ordinary:2</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/ordinary</latestversion>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/master:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/master</latestversion>
          <previousversions>
-            <version>http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/ordinary:1</version>
+            <version>http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/master:1</version>
          </previousversions>
-         <label xml:lang="en">ordinary</label>
-         <definition xml:lang="en">Contour at the equidistance parameter (corresponding to the normal contour vertical interval) associated with the nominal scale, and which is not a master contour</definition>
+         <label xml:lang="en">master</label>
+         <definition xml:lang="en">Contour at a vertical distance which is multiple to the equidistance parameter (corresponding to a certain multiple of the normal contour vertical interval) associated with the nominal scale</definition>
          <description xml:lang="en"></description>
          <codelist id="http://inspire.ec.europa.eu/codelist/ContourLineTypeValue">
             <label xml:lang="en">Contour line type</label>
@@ -114,17 +114,17 @@
             </registry>
          </register>
       </value>
-      <value id="http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/master">
+      <value id="http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/ordinary">
          <language>en</language>
          <created>2024-04-02 10:06 AM CEST</created>
          <issued>2024-04-02 10:06 AM CEST</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/master:2</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/master</latestversion>
+         <thisversion>http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/ordinary:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/ordinary</latestversion>
          <previousversions>
-            <version>http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/master:1</version>
+            <version>http://inspire.ec.europa.eu/codelist/ContourLineTypeValue/ordinary:1</version>
          </previousversions>
-         <label xml:lang="en">master</label>
-         <definition xml:lang="en">Contour at a vertical distance which is multiple to the equidistance parameter (corresponding to a certain multiple of the normal contour vertical interval) associated with the nominal scale</definition>
+         <label xml:lang="en">ordinary</label>
+         <definition xml:lang="en">Contour at the equidistance parameter (corresponding to the normal contour vertical interval) associated with the nominal scale, and which is not a master contour</definition>
          <description xml:lang="en"></description>
          <codelist id="http://inspire.ec.europa.eu/codelist/ContourLineTypeValue">
             <label xml:lang="en">Contour line type</label>
