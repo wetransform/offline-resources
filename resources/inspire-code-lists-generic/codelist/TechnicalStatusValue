@@ -36,17 +36,17 @@
       </registry>
    </register>
    <containeditems>
-      <value id="http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/edgeMatched">
+      <value id="http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/notEdgeMatched">
          <language>en</language>
          <created>2024-04-02 10:07 AM CEST</created>
          <issued>2024-04-02 10:07 AM CEST</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/edgeMatched:2</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/edgeMatched</latestversion>
+         <thisversion>http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/notEdgeMatched:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/notEdgeMatched</latestversion>
          <previousversions>
-            <version>http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/edgeMatched:1</version>
+            <version>http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/notEdgeMatched:1</version>
          </previousversions>
-         <label xml:lang="en">edgeMatched</label>
-         <definition xml:lang="en">The boundaries of neighbouring administrative units have the same set of coordinates</definition>
+         <label xml:lang="en">notEdgeMatched</label>
+         <definition xml:lang="en">The boundaries of neighbouring administrative units do not have the same set of coordinates</definition>
          <description xml:lang="en"></description>
          <codelist id="http://inspire.ec.europa.eu/codelist/TechnicalStatusValue">
             <label xml:lang="en">Technical status</label>
@@ -75,17 +75,17 @@
             </registry>
          </register>
       </value>
-      <value id="http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/notEdgeMatched">
+      <value id="http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/edgeMatched">
          <language>en</language>
          <created>2024-04-02 10:07 AM CEST</created>
          <issued>2024-04-02 10:07 AM CEST</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/notEdgeMatched:2</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/notEdgeMatched</latestversion>
+         <thisversion>http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/edgeMatched:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/edgeMatched</latestversion>
          <previousversions>
-            <version>http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/notEdgeMatched:1</version>
+            <version>http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/edgeMatched:1</version>
          </previousversions>
-         <label xml:lang="en">notEdgeMatched</label>
-         <definition xml:lang="en">The boundaries of neighbouring administrative units do not have the same set of coordinates</definition>
+         <label xml:lang="en">edgeMatched</label>
+         <definition xml:lang="en">The boundaries of neighbouring administrative units have the same set of coordinates</definition>
          <description xml:lang="en"></description>
          <codelist id="http://inspire.ec.europa.eu/codelist/TechnicalStatusValue">
             <label xml:lang="en">Technical status</label>

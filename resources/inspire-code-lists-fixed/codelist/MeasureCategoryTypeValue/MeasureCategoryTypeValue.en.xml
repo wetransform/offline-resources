@@ -1,18 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/MeasureCategoryTypeValue">
    <language>en</language>
-   <created>2024-06-17 10:16 AM CEST</created>
-   <issued>2024-06-14 15:57 PM CEST</issued>
-   <thisversion>http://inspire.ec.europa.eu/codelist/MeasureCategoryTypeValue:2</thisversion>
+   <created>2024-06-18 14:52 PM CEST</created>
+   <issued>2024-06-18 14:52 PM CEST</issued>
+   <thisversion>http://inspire.ec.europa.eu/codelist/MeasureCategoryTypeValue:3</thisversion>
    <latestversion>http://inspire.ec.europa.eu/codelist/MeasureCategoryTypeValue</latestversion>
    <previousversions>
+      <version>http://inspire.ec.europa.eu/codelist/MeasureCategoryTypeValue:2</version>
       <version>http://inspire.ec.europa.eu/codelist/MeasureCategoryTypeValue:1</version>
    </previousversions>
    <label xml:lang="en">MeasureCategoryTypeValue</label>
    <definition xml:lang="en">The measure categories.</definition>
    <description xml:lang="en">Empty codelist to be used as a super-class for a number of specific codelist (e.g. for the Environmental Noise Directive purposes) whose values may be used to specify the attribute value.</description>
-   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/open">
-      <label xml:lang="en">Extensible with values at any level</label>
+   <extensibility id="http://inspire.ec.europa.eu/registry/extensibility/any">
+      <label xml:lang="en">Empty code list</label>
    </extensibility>
    <applicationschema id="http://inspire.ec.europa.eu/applicationschema/hh">
       <label xml:lang="en">Human Health</label>

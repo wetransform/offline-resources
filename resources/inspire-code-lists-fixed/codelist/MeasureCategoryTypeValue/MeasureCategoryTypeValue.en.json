@@ -7,7 +7,7 @@
       },
       "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
     },
-    "created" : "2024-06-17 10:16 AM CEST",
+    "created" : "2024-06-18 14:52 PM CEST",
     "governance-level" : {
       "label" : {
         "text" : "eu-legal",
@@ -26,17 +26,17 @@
     },
     "extensibility" : {
       "label" : {
-        "text" : "open",
+        "text" : "any",
         "lang" : "en"
       },
-      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+      "uri" : "http://inspire.ec.europa.eu/registry/extensibility/any"
     },
     "extensibility item" : {
       "label" : {
-        "text" : "Extensible with values at any level",
+        "text" : "Empty code list",
         "lang" : "en"
       },
-      "id" : "http://inspire.ec.europa.eu/registry/extensibility/open"
+      "id" : "http://inspire.ec.europa.eu/registry/extensibility/any"
     },
     "applicationschema" : {
       "label" : {
@@ -71,10 +71,12 @@
       "uri" : "http://inspire.ec.europa.eu/theme/hh"
     },
     "id" : "http://inspire.ec.europa.eu/codelist/MeasureCategoryTypeValue",
-    "issued" : "2024-06-14 15:57 PM CEST",
+    "issued" : "2024-06-18 14:52 PM CEST",
     "latestversion" : "http://inspire.ec.europa.eu/codelist/MeasureCategoryTypeValue",
-    "thisversion" : "http://inspire.ec.europa.eu/codelist/MeasureCategoryTypeValue:2",
+    "thisversion" : "http://inspire.ec.europa.eu/codelist/MeasureCategoryTypeValue:3",
     "historyversion" : [ {
+      "version" : "http://inspire.ec.europa.eu/codelist/MeasureCategoryTypeValue:2"
+    }, {
       "version" : "http://inspire.ec.europa.eu/codelist/MeasureCategoryTypeValue:1"
     } ],
     "status" : {
