@@ -1,0 +1,20 @@
+type: object
+required:
+  - links
+  - collections
+properties:
+  links:
+    type: array
+    items:
+      $ref: '../common-core/link.yaml'
+  timeStamp:
+    type: string
+    format: date-time
+  numberMatched:
+    $ref: 'numberMatched.yaml'
+  numberReturned:
+    $ref: 'numberReturned.yaml'
+  collections:
+    type: array
+    items:
+      $ref: 'collectionDesc.yaml'

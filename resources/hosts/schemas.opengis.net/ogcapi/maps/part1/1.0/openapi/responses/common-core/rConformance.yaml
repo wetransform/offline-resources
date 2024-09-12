@@ -1,0 +1,36 @@
+description: The URIs of all conformance classes supported by the server
+content:
+   application/json:
+     schema:
+       allOf:
+         - $ref: '../../schemas/common-core/confClasses.yaml'
+       example:
+         conformsTo:
+           - http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/core
+           - http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/landing-page
+           - http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/json
+           - http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/html
+           - http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/oas30
+           - http://www.opengis.net/spec/ogcapi-common-2/1.0/conf/collections
+           - https://www.opengis.net/spec/ogcapi-maps-1/1.0/conf/core
+           - https://www.opengis.net/spec/ogcapi-maps-1/1.0/conf/tilesets
+           - https://www.opengis.net/spec/ogcapi-maps-1/1.0/conf/background
+           - https://www.opengis.net/spec/ogcapi-maps-1/1.0/conf/collections-selection
+           - https://www.opengis.net/spec/ogcapi-maps-1/1.0/conf/scaling
+           - https://www.opengis.net/spec/ogcapi-maps-1/1.0/conf/display-resolution
+           - https://www.opengis.net/spec/ogcapi-maps-1/1.0/conf/spatial-subsetting
+           - https://www.opengis.net/spec/ogcapi-maps-1/1.0/conf/datetime
+           - https://www.opengis.net/spec/ogcapi-maps-1/1.0/conf/general-subsetting
+           - https://www.opengis.net/spec/ogcapi-maps-1/1.0/conf/crs
+           - https://www.opengis.net/spec/ogcapi-maps-1/1.0/conf/orientation
+           - https://www.opengis.net/spec/ogcapi-maps-1/1.0/conf/projection
+           - https://www.opengis.net/spec/ogcapi-maps-1/1.0/conf/collection-map
+           - https://www.opengis.net/spec/ogcapi-maps-1/1.0/conf/dataset-map
+           - https://www.opengis.net/spec/ogcapi-maps-1/1.0/conf/styled-map
+           - https://www.opengis.net/spec/ogcapi-maps-1/1.0/conf/png
+           - https://www.opengis.net/spec/ogcapi-maps-1/1.0/conf/jpeg
+           - https://www.opengis.net/spec/ogcapi-maps-1/1.0/conf/jpegxl
+           - https://www.opengis.net/spec/ogcapi-maps-1/1.0/conf/tiff
+           - https://www.opengis.net/spec/ogcapi-maps-1/1.0/conf/svg
+           - https://www.opengis.net/spec/ogcapi-maps-1/1.0/conf/html
+           - https://www.opengis.net/spec/ogcapi-maps-1/1.0/conf/api-operations
