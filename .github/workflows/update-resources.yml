@@ -26,7 +26,7 @@ jobs:
         java-version: 17
 
     - name: Setup Gradle
-      uses: gradle/actions/setup-gradle@16bf8bc8fe830fa669c3c9f914d3eb147c629707 # v4.0.1
+      uses: gradle/actions/setup-gradle@d156388eb19639ec20ade50009f3d199ce1e2808 # v4.1.0
 
     - name: Download resources and run tests
       run: |
@@ -51,7 +51,7 @@ jobs:
 
     - name: Create Pull Request for changes
       # https://github.com/marketplace/actions/create-pull-request
-      uses: peter-evans/create-pull-request@8867c4aba1b742c39f8d0ba35429c2dfa4b6cb20 # v7.0.1
+      uses: peter-evans/create-pull-request@5e914681df9dc83aa4e4905692ca88beb2f9e91f # v7.0.5
       with:
         commit-message: "refactor: automated resource update"
         committer: wetransform Bot <admin@wetransform.to>
