@@ -12,7 +12,7 @@ buildscript {
     mavenCentral()
   }
   dependencies {
-    def haleVersion = '6.0.0'
+    def haleVersion = '6.1.0'
     // for Config class
     classpath "eu.esdihumboldt.hale:eu.esdihumboldt.util.config:$haleVersion"
     // for XMLSchemaUpdater (depends on https://github.com/halestudio/hale/pull/731)
