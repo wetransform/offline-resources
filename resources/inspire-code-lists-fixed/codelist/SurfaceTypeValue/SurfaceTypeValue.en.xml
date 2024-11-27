@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/SurfaceTypeValue">
    <language>en</language>
-   <created>2024-03-25 15:08 PM CET</created>
-   <issued>2024-03-25 15:08 PM CET</issued>
+   <created>2024-03-25 15:08 PM UTC</created>
+   <issued>2024-03-25 15:08 PM UTC</issued>
    <thisversion>http://inspire.ec.europa.eu/codelist/SurfaceTypeValue:2</thisversion>
    <latestversion>http://inspire.ec.europa.eu/codelist/SurfaceTypeValue</latestversion>
    <previousversions>
@@ -36,17 +36,17 @@
       </registry>
    </register>
    <containeditems>
-      <value id="http://inspire.ec.europa.eu/codelist/SurfaceTypeValue/DSM">
+      <value id="http://inspire.ec.europa.eu/codelist/SurfaceTypeValue/DTM">
          <language>en</language>
-         <created>2024-04-02 10:07 AM CEST</created>
-         <issued>2024-04-02 10:07 AM CEST</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/SurfaceTypeValue/DSM:2</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/SurfaceTypeValue/DSM</latestversion>
+         <created>2024-04-02 10:07 AM UTC</created>
+         <issued>2024-04-02 10:07 AM UTC</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SurfaceTypeValue/DTM:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SurfaceTypeValue/DTM</latestversion>
          <previousversions>
-            <version>http://inspire.ec.europa.eu/codelist/SurfaceTypeValue/DSM:1</version>
+            <version>http://inspire.ec.europa.eu/codelist/SurfaceTypeValue/DTM:1</version>
          </previousversions>
-         <label xml:lang="en">DSM</label>
-         <definition xml:lang="en">Digital surface model</definition>
+         <label xml:lang="en">DTM</label>
+         <definition xml:lang="en">Digital terrain model</definition>
          <description xml:lang="en"></description>
          <codelist id="http://inspire.ec.europa.eu/codelist/SurfaceTypeValue">
             <label xml:lang="en">Surface type</label>
@@ -75,17 +75,17 @@
             </registry>
          </register>
       </value>
-      <value id="http://inspire.ec.europa.eu/codelist/SurfaceTypeValue/DTM">
+      <value id="http://inspire.ec.europa.eu/codelist/SurfaceTypeValue/DSM">
          <language>en</language>
-         <created>2024-04-02 10:07 AM CEST</created>
-         <issued>2024-04-02 10:07 AM CEST</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/SurfaceTypeValue/DTM:2</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/SurfaceTypeValue/DTM</latestversion>
+         <created>2024-04-02 10:07 AM UTC</created>
+         <issued>2024-04-02 10:07 AM UTC</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/SurfaceTypeValue/DSM:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/SurfaceTypeValue/DSM</latestversion>
          <previousversions>
-            <version>http://inspire.ec.europa.eu/codelist/SurfaceTypeValue/DTM:1</version>
+            <version>http://inspire.ec.europa.eu/codelist/SurfaceTypeValue/DSM:1</version>
          </previousversions>
-         <label xml:lang="en">DTM</label>
-         <definition xml:lang="en">Digital terrain model</definition>
+         <label xml:lang="en">DSM</label>
+         <definition xml:lang="en">Digital surface model</definition>
          <description xml:lang="en"></description>
          <codelist id="http://inspire.ec.europa.eu/codelist/SurfaceTypeValue">
             <label xml:lang="en">Surface type</label>

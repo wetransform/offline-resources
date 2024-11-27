@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/MinMaxLaneValue">
    <language>en</language>
-   <created>2024-03-25 15:08 PM CET</created>
-   <issued>2024-03-25 15:08 PM CET</issued>
+   <created>2024-03-25 15:08 PM UTC</created>
+   <issued>2024-03-25 15:08 PM UTC</issued>
    <thisversion>http://inspire.ec.europa.eu/codelist/MinMaxLaneValue:2</thisversion>
    <latestversion>http://inspire.ec.europa.eu/codelist/MinMaxLaneValue</latestversion>
    <previousversions>
@@ -36,14 +36,17 @@
       </registry>
    </register>
    <containeditems>
-      <value id="http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/minimum">
+      <value id="http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/maximum">
          <language>en</language>
-         <created>2024-04-02 10:06 AM CEST</created>
-         <issued>2024-04-02 10:06 AM CEST</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/minimum:2</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/minimum</latestversion>
-         <label xml:lang="en">minimum</label>
-         <definition xml:lang="en">The number of lanes is the minimum value for a given part of the road network</definition>
+         <created>2024-04-02 10:06 AM UTC</created>
+         <issued>2024-04-02 10:06 AM UTC</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/maximum:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/maximum</latestversion>
+         <previousversions>
+            <version>http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/maximum:1</version>
+         </previousversions>
+         <label xml:lang="en">maximum</label>
+         <definition xml:lang="en">The number of lanes is the maximum value for a given part of the road network</definition>
          <description xml:lang="en"></description>
          <codelist id="http://inspire.ec.europa.eu/codelist/MinMaxLaneValue">
             <label xml:lang="en">Minimum or maximum track number</label>
@@ -74,8 +77,8 @@
       </value>
       <value id="http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/average">
          <language>en</language>
-         <created>2024-04-02 10:06 AM CEST</created>
-         <issued>2024-04-02 10:06 AM CEST</issued>
+         <created>2024-04-02 10:06 AM UTC</created>
+         <issued>2024-04-02 10:06 AM UTC</issued>
          <thisversion>http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/average:2</thisversion>
          <latestversion>http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/average</latestversion>
          <previousversions>
@@ -111,17 +114,14 @@
             </registry>
          </register>
       </value>
-      <value id="http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/maximum">
+      <value id="http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/minimum">
          <language>en</language>
-         <created>2024-04-02 10:06 AM CEST</created>
-         <issued>2024-04-02 10:06 AM CEST</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/maximum:2</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/maximum</latestversion>
-         <previousversions>
-            <version>http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/maximum:1</version>
-         </previousversions>
-         <label xml:lang="en">maximum</label>
-         <definition xml:lang="en">The number of lanes is the maximum value for a given part of the road network</definition>
+         <created>2024-04-02 10:06 AM UTC</created>
+         <issued>2024-04-02 10:06 AM UTC</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/minimum:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/MinMaxLaneValue/minimum</latestversion>
+         <label xml:lang="en">minimum</label>
+         <definition xml:lang="en">The number of lanes is the minimum value for a given part of the road network</definition>
          <description xml:lang="en"></description>
          <codelist id="http://inspire.ec.europa.eu/codelist/MinMaxLaneValue">
             <label xml:lang="en">Minimum or maximum track number</label>

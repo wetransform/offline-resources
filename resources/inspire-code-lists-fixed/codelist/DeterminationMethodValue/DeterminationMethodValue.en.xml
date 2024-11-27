@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <codelist xmlns="http://inspire.ec.europa.eu/codelist_register/CodeList" xsi:schemaLocation="http://inspire.ec.europa.eu/codelist_register/CodeList http://inspire.ec.europa.eu/registry/schemas/2.0/CodeList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://inspire.ec.europa.eu/codelist/DeterminationMethodValue">
    <language>en</language>
-   <created>2024-03-25 15:08 PM CET</created>
-   <issued>2024-03-25 15:08 PM CET</issued>
+   <created>2024-03-25 15:08 PM UTC</created>
+   <issued>2024-03-25 15:08 PM UTC</issued>
    <thisversion>http://inspire.ec.europa.eu/codelist/DeterminationMethodValue:2</thisversion>
    <latestversion>http://inspire.ec.europa.eu/codelist/DeterminationMethodValue</latestversion>
    <previousversions>
@@ -33,17 +33,17 @@
       </registry>
    </register>
    <containeditems>
-      <value id="http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/modelling">
+      <value id="http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/indirectDetermination">
          <language>en</language>
-         <created>2024-04-02 10:06 AM CEST</created>
-         <issued>2024-04-02 10:06 AM CEST</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/modelling:2</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/modelling</latestversion>
+         <created>2024-04-02 10:06 AM UTC</created>
+         <issued>2024-04-02 10:06 AM UTC</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/indirectDetermination:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/indirectDetermination</latestversion>
          <previousversions>
-            <version>http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/modelling:1</version>
+            <version>http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/indirectDetermination:1</version>
          </previousversions>
-         <label xml:lang="en">modelling</label>
-         <definition xml:lang="en">The area has been computed according to a model</definition>
+         <label xml:lang="en">indirectDetermination</label>
+         <definition xml:lang="en">The area has been defined by interpretation of available data and/or information</definition>
          <description xml:lang="en"></description>
          <codelist id="http://inspire.ec.europa.eu/codelist/DeterminationMethodValue">
             <label xml:lang="en">DeterminationMethodValue</label>
@@ -72,17 +72,17 @@
             </registry>
          </register>
       </value>
-      <value id="http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/indirectDetermination">
+      <value id="http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/modelling">
          <language>en</language>
-         <created>2024-04-02 10:06 AM CEST</created>
-         <issued>2024-04-02 10:06 AM CEST</issued>
-         <thisversion>http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/indirectDetermination:2</thisversion>
-         <latestversion>http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/indirectDetermination</latestversion>
+         <created>2024-04-02 10:06 AM UTC</created>
+         <issued>2024-04-02 10:06 AM UTC</issued>
+         <thisversion>http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/modelling:2</thisversion>
+         <latestversion>http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/modelling</latestversion>
          <previousversions>
-            <version>http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/indirectDetermination:1</version>
+            <version>http://inspire.ec.europa.eu/codelist/DeterminationMethodValue/modelling:1</version>
          </previousversions>
-         <label xml:lang="en">indirectDetermination</label>
-         <definition xml:lang="en">The area has been defined by interpretation of available data and/or information</definition>
+         <label xml:lang="en">modelling</label>
+         <definition xml:lang="en">The area has been computed according to a model</definition>
          <description xml:lang="en"></description>
          <codelist id="http://inspire.ec.europa.eu/codelist/DeterminationMethodValue">
             <label xml:lang="en">DeterminationMethodValue</label>

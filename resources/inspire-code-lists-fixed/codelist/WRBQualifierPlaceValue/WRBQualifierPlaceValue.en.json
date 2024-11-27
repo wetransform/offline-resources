@@ -20,106 +20,7 @@
           "label" : "WRB Qualifier Place",
           "id" : "http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue"
         },
-        "created" : "2023-03-17 12:01 PM CET",
-        "governance-level" : {
-          "label" : {
-            "text" : "eu-legal",
-            "lang" : "en"
-          },
-          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
-        },
-        "description" : {
-          "text" : "The placement of the Qualifier is after the WRB reference soil group (RSG)",
-          "lang" : "en"
-        },
-        "language" : "en",
-        "reference link" : {
-          "label" : {
-            "text" : "http://inspire.ec.europa.eu/document/WRBQuP",
-            "lang" : "en"
-          },
-          "id" : "http://inspire.ec.europa.eu/document/WRBQuP"
-        },
-        "label" : {
-          "text" : "suffix",
-          "lang" : "en"
-        },
-        "applicationschema" : {
-          "label" : {
-            "text" : "so",
-            "lang" : "en"
-          },
-          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
-        },
-        "itemclass" : {
-          "label" : {
-            "text" : "CodeListValue",
-            "lang" : "en"
-          },
-          "id" : "CodeListValue"
-        },
-        "application schema" : {
-          "label" : {
-            "text" : "Soil",
-            "lang" : "en"
-          },
-          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
-        },
-        "referencesource" : {
-          "text" : "World reference base for soil resources 2006, first update 2007, World Soil Resources Reports No. 103, Food and Agriculture Organization of the United Nations, Rome, 2007 (p. 51-66)",
-          "lang" : "en"
-        },
-        "definition" : {
-          "text" : "Suffix",
-          "lang" : "en"
-        },
-        "theme" : {
-          "label" : {
-            "text" : "so",
-            "lang" : "en"
-          },
-          "uri" : "http://inspire.ec.europa.eu/theme/so"
-        },
-        "id" : "http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue/suffix",
-        "issued" : "2023-03-16 15:02 PM CET",
-        "latestversion" : "http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue/suffix",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue/suffix:1",
-        "status" : {
-          "label" : {
-            "text" : "Valid",
-            "lang" : "en"
-          },
-          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
-        },
-        "register" : {
-          "registry" : {
-            "label" : {
-              "text" : "INSPIRE registry",
-              "lang" : "en"
-            },
-            "id" : "http://inspire.ec.europa.eu/registry"
-          },
-          "label" : {
-            "text" : "INSPIRE code list register",
-            "lang" : "en"
-          },
-          "id" : "http://inspire.ec.europa.eu/codelist"
-        }
-      }
-    }, {
-      "value" : {
-        "governance level" : {
-          "label" : {
-            "text" : "Legal (EU)",
-            "lang" : "en"
-          },
-          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
-        },
-        "codelist" : {
-          "label" : "WRB Qualifier Place",
-          "id" : "http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue"
-        },
-        "created" : "2023-03-17 12:01 PM CET",
+        "created" : "2023-03-17 12:01 PM UTC",
         "governance-level" : {
           "label" : {
             "text" : "eu-legal",
@@ -180,7 +81,7 @@
           "uri" : "http://inspire.ec.europa.eu/theme/so"
         },
         "id" : "http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue/prefix",
-        "issued" : "2023-03-16 15:02 PM CET",
+        "issued" : "2023-03-16 15:02 PM UTC",
         "latestversion" : "http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue/prefix",
         "thisversion" : "http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue/prefix:1",
         "status" : {
@@ -205,8 +106,107 @@
           "id" : "http://inspire.ec.europa.eu/codelist"
         }
       }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "WRB Qualifier Place",
+          "id" : "http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue"
+        },
+        "created" : "2023-03-17 12:01 PM UTC",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "The placement of the Qualifier is after the WRB reference soil group (RSG)",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "reference link" : {
+          "label" : {
+            "text" : "http://inspire.ec.europa.eu/document/WRBQuP",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/document/WRBQuP"
+        },
+        "label" : {
+          "text" : "suffix",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Soil",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/so"
+        },
+        "referencesource" : {
+          "text" : "World reference base for soil resources 2006, first update 2007, World Soil Resources Reports No. 103, Food and Agriculture Organization of the United Nations, Rome, 2007 (p. 51-66)",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "Suffix",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "so",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/so"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue/suffix",
+        "issued" : "2023-03-16 15:02 PM UTC",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue/suffix",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue/suffix:1",
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
     } ],
-    "created" : "2015-08-18 17:19 PM CEST",
+    "created" : "2015-08-18 17:19 PM UTC",
     "document" : {
       "label" : {
         "text" : "WRBQuP",
