@@ -20,106 +20,7 @@
           "label" : "Technical status",
           "id" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue"
         },
-        "created" : "2024-04-02 10:07 AM CEST",
-        "governance-level" : {
-          "label" : {
-            "text" : "eu-legal",
-            "lang" : "en"
-          },
-          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
-        },
-        "description" : {
-          "text" : "",
-          "lang" : "en"
-        },
-        "language" : "en",
-        "label" : {
-          "text" : "notEdgeMatched",
-          "lang" : "en"
-        },
-        "applicationschema" : {
-          "label" : {
-            "text" : "au",
-            "lang" : "en"
-          },
-          "uri" : "http://inspire.ec.europa.eu/applicationschema/au"
-        },
-        "itemclass" : {
-          "label" : {
-            "text" : "CodeListValue",
-            "lang" : "en"
-          },
-          "id" : "CodeListValue"
-        },
-        "referencelink" : {
-          "text" : "",
-          "lang" : "en"
-        },
-        "application schema" : {
-          "label" : {
-            "text" : "Administrative Units",
-            "lang" : "en"
-          },
-          "id" : "http://inspire.ec.europa.eu/applicationschema/au"
-        },
-        "referencesource" : {
-          "text" : "",
-          "lang" : "en"
-        },
-        "definition" : {
-          "text" : "The boundaries of neighbouring administrative units do not have the same set of coordinates",
-          "lang" : "en"
-        },
-        "theme" : {
-          "label" : {
-            "text" : "au",
-            "lang" : "en"
-          },
-          "uri" : "http://inspire.ec.europa.eu/theme/au"
-        },
-        "id" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/notEdgeMatched",
-        "issued" : "2024-04-02 10:07 AM CEST",
-        "latestversion" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/notEdgeMatched",
-        "thisversion" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/notEdgeMatched:2",
-        "historyversion" : [ {
-          "version" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/notEdgeMatched:1"
-        } ],
-        "status" : {
-          "label" : {
-            "text" : "Valid",
-            "lang" : "en"
-          },
-          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
-        },
-        "register" : {
-          "registry" : {
-            "label" : {
-              "text" : "INSPIRE registry",
-              "lang" : "en"
-            },
-            "id" : "http://inspire.ec.europa.eu/registry"
-          },
-          "label" : {
-            "text" : "INSPIRE code list register",
-            "lang" : "en"
-          },
-          "id" : "http://inspire.ec.europa.eu/codelist"
-        }
-      }
-    }, {
-      "value" : {
-        "governance level" : {
-          "label" : {
-            "text" : "Legal (EU)",
-            "lang" : "en"
-          },
-          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
-        },
-        "codelist" : {
-          "label" : "Technical status",
-          "id" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue"
-        },
-        "created" : "2024-04-02 10:07 AM CEST",
+        "created" : "2024-04-02 10:07 AM UTC",
         "governance-level" : {
           "label" : {
             "text" : "eu-legal",
@@ -177,7 +78,7 @@
           "uri" : "http://inspire.ec.europa.eu/theme/au"
         },
         "id" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/edgeMatched",
-        "issued" : "2024-04-02 10:07 AM CEST",
+        "issued" : "2024-04-02 10:07 AM UTC",
         "latestversion" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/edgeMatched",
         "thisversion" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/edgeMatched:2",
         "historyversion" : [ {
@@ -205,8 +106,107 @@
           "id" : "http://inspire.ec.europa.eu/codelist"
         }
       }
+    }, {
+      "value" : {
+        "governance level" : {
+          "label" : {
+            "text" : "Legal (EU)",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "codelist" : {
+          "label" : "Technical status",
+          "id" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue"
+        },
+        "created" : "2024-04-02 10:07 AM UTC",
+        "governance-level" : {
+          "label" : {
+            "text" : "eu-legal",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/registry/governance-level/eu-legal"
+        },
+        "description" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "language" : "en",
+        "label" : {
+          "text" : "notEdgeMatched",
+          "lang" : "en"
+        },
+        "applicationschema" : {
+          "label" : {
+            "text" : "au",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/applicationschema/au"
+        },
+        "itemclass" : {
+          "label" : {
+            "text" : "CodeListValue",
+            "lang" : "en"
+          },
+          "id" : "CodeListValue"
+        },
+        "referencelink" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "application schema" : {
+          "label" : {
+            "text" : "Administrative Units",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/applicationschema/au"
+        },
+        "referencesource" : {
+          "text" : "",
+          "lang" : "en"
+        },
+        "definition" : {
+          "text" : "The boundaries of neighbouring administrative units do not have the same set of coordinates",
+          "lang" : "en"
+        },
+        "theme" : {
+          "label" : {
+            "text" : "au",
+            "lang" : "en"
+          },
+          "uri" : "http://inspire.ec.europa.eu/theme/au"
+        },
+        "id" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/notEdgeMatched",
+        "issued" : "2024-04-02 10:07 AM UTC",
+        "latestversion" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/notEdgeMatched",
+        "thisversion" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/notEdgeMatched:2",
+        "historyversion" : [ {
+          "version" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/notEdgeMatched:1"
+        } ],
+        "status" : {
+          "label" : {
+            "text" : "Valid",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/registry/status/valid"
+        },
+        "register" : {
+          "registry" : {
+            "label" : {
+              "text" : "INSPIRE registry",
+              "lang" : "en"
+            },
+            "id" : "http://inspire.ec.europa.eu/registry"
+          },
+          "label" : {
+            "text" : "INSPIRE code list register",
+            "lang" : "en"
+          },
+          "id" : "http://inspire.ec.europa.eu/codelist"
+        }
+      }
     } ],
-    "created" : "2024-03-25 15:08 PM CET",
+    "created" : "2024-03-25 15:08 PM UTC",
     "governance-level" : {
       "label" : {
         "text" : "eu-legal",
@@ -270,7 +270,7 @@
       "uri" : "http://inspire.ec.europa.eu/theme/au"
     },
     "id" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue",
-    "issued" : "2024-03-25 15:08 PM CET",
+    "issued" : "2024-03-25 15:08 PM UTC",
     "latestversion" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue",
     "thisversion" : "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue:2",
     "historyversion" : [ {
