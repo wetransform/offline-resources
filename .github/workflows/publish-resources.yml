@@ -63,49 +63,46 @@ jobs:
         ORG_GRADLE_PROJECT_wetfArtifactoryUser: ${{ secrets.WETF_ARTIFACTORY_USER }}
         ORG_GRADLE_PROJECT_wetfArtifactoryPassword: ${{ secrets.WETF_ARTIFACTORY_PASSWORD }}
 
-    # FIXME update of p2 update site currently disabled because AWS CLI installation fails
-    # TODO or remove once update site is no longer required (hale-studio migrated to use hale-core)
+    - name: Install AWS CLI
+      uses: unfor19/install-aws-cli-action@e8b481e524a99f37fbd39fdc1dcb3341ab091367 # v1.0.7
+      with:
+        version: 2
 
-    # - name: Install AWS CLI
-    #   uses: unfor19/install-aws-cli-action@e8b481e524a99f37fbd39fdc1dcb3341ab091367 # v1.0.7
-    #   with:
-    #     version: 1
+    - name: Download current update site
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.BUILD_ARCHIVE_ACCESS_KEY }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.BUILD_ARCHIVE_SECRET_KEY }}
+      run: |
+        rm -r updatesite/p2 || true
+        mkdir updatesite/p2
+        aws s3 sync s3://build-artifacts.wetransform.to/p2/offline-resources/site updatesite/p2 --region eu-central-1
+        rm updatesite/p2/*_version.json || true # delete old version files that had wrong file name
+      shell: bash
 
-    # - name: Download current update site
-    #   env:
-    #     AWS_ACCESS_KEY_ID: ${{ secrets.BUILD_ARCHIVE_ACCESS_KEY }}
-    #     AWS_SECRET_ACCESS_KEY: ${{ secrets.BUILD_ARCHIVE_SECRET_KEY }}
-    #   run: |
-    #     rm -r updatesite/p2 || true
-    #     mkdir updatesite/p2
-    #     aws s3 sync s3://build-artifacts.wetransform.to/p2/offline-resources/site updatesite/p2 --region eu-central-1
-    #     rm updatesite/p2/*_version.json || true # delete old version files that had wrong file name
-    #   shell: bash
+    - name: Verify that update site was downloaded
+      run: |
+        folder=updatesite/p2
+        if [ -z "$(ls -A "$folder")" ]; then
+            echo "Error: The folder $folder is empty. No existing update site was downloaded"
+            exit 1
+        else
+            echo "The folder $folder is not empty."
+        fi
+      shell: bash
 
-    # - name: Verify that update site was downloaded
-    #   run: |
-    #     folder=updatesite/p2
-    #     if [ -z "$(ls -A "$folder")" ]; then
-    #         echo "Error: The folder $folder is empty. No existing update site was downloaded"
-    #         exit 1
-    #     else
-    #         echo "The folder $folder is not empty."
-    #     fi
-    #   shell: bash
+    - name: Create update site and append to existing one
+      env:
+          # CI marker
+          CI: 'true'
+      run: ./gradlew updateSite # Note: requires jars and publishJarsToMavenLocal to have run before
 
-    # - name: Create update site and append to existing one
-    #   env:
-    #       # CI marker
-    #       CI: 'true'
-    #   run: ./gradlew updateSite # Note: requires jars and publishJarsToMavenLocal to have run before
-
-    # - name: Publish combined update site
-    #   env:
-    #     AWS_ACCESS_KEY_ID: ${{ secrets.BUILD_ARCHIVE_ACCESS_KEY }}
-    #     AWS_SECRET_ACCESS_KEY: ${{ secrets.BUILD_ARCHIVE_SECRET_KEY }}
-    #   run: |
-    #     aws s3 sync updatesite/p2 s3://build-artifacts.wetransform.to/p2/offline-resources/site --acl public-read --delete --region eu-central-1
-    #   shell: bash
+    - name: Publish combined update site
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.BUILD_ARCHIVE_ACCESS_KEY }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.BUILD_ARCHIVE_SECRET_KEY }}
+      run: |
+        aws s3 sync updatesite/p2 s3://build-artifacts.wetransform.to/p2/offline-resources/site --acl public-read --delete --region eu-central-1
+      shell: bash
 
     - name: Notify slack on failure
       # https://github.com/marketplace/actions/slack-notify-build
