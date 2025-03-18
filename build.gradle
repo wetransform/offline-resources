@@ -740,6 +740,16 @@ task gdiRepositorySchemas(type: WgetHostIndexDownloadTask) {
 }
 tasks.downloads.dependsOn(gdiRepositorySchemas)
 
+task oasisDocsSchemas(type: WgetHostIndexDownloadTask) {
+  group 'Download'
+  indexUrls = [
+    // right now we are only interested in a subset (there are lots of other resources)
+    'https://docs.oasis-open.org/election/'
+  ]
+  fileExtensions = ['xsd']
+}
+tasks.downloads.dependsOn(oasisDocsSchemas)
+
 /**
  * Schemas for metadata validation:
  *
