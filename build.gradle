@@ -33,6 +33,10 @@ ext {
   now = LocalDate.now()
   time = LocalTime.now().format(DateTimeFormatter.ofPattern('HHmmss'))
   grgit = org.ajoberstar.grgit.Grgit.open(dir: projectDir)
+
+  // since about 2025-03-20 the download of the INSPIRE code lists consistently fails
+  // TODO try to re-enable at a later point
+  includeInspireCodelists = false
 }
 
 wrapper {
@@ -898,7 +902,9 @@ task downloadInspireCodeLists {
 
   }
 }
-tasks.downloads.dependsOn('downloadInspireCodeLists')
+if (project.ext.includeInspireCodelists) {
+  tasks.downloads.dependsOn('downloadInspireCodeLists')
+}
 
 
 /*
