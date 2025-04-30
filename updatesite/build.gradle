@@ -20,7 +20,7 @@ buildscript {
     }
   }
   dependencies {
-    classpath 'org.standardout:bnd-platform:3.1.0'
+    classpath 'org.standardout:bnd-platform:3.2.0'
 
     // for Version class
     classpath 'org.osgi:osgi.core:8.0.0'
