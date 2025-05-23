@@ -744,6 +744,7 @@ task gdiRepositorySchemas(type: WgetHostIndexDownloadTask) {
 }
 tasks.downloads.dependsOn(gdiRepositorySchemas)
 
+/* FIXME disabled for now because downloads fail with "too many requests"
 task oasisDocsSchemas(type: WgetHostIndexDownloadTask) {
   group 'Download'
   indexUrls = [
@@ -753,6 +754,7 @@ task oasisDocsSchemas(type: WgetHostIndexDownloadTask) {
   fileExtensions = ['xsd']
 }
 tasks.downloads.dependsOn(oasisDocsSchemas)
+*/
 
 /**
  * Schemas for metadata validation:
