@@ -29,7 +29,7 @@ dependencies {
   implementation group: 'org.slf4j', name: 'slf4j-api', version: '2.0.17'
 
   // Testing
-  testImplementation 'org.junit.jupiter:junit-jupiter:5.13.2'
+  testImplementation 'org.junit.jupiter:junit-jupiter:5.13.4'
   testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
   // Offline resources for testing
