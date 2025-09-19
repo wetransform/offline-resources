@@ -1,7 +1,0 @@
-name: tileMatrixSetId
-in: path
-description: Identifier for a supported TileMatrixSet
-required: true
-allowEmptyValue: false
-schema:
-  $ref: '../../schemas/dynamic/tileMatrixSets.yaml'
