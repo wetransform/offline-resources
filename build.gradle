@@ -91,6 +91,8 @@ class MetadataHelper {
 
     // add changes on relative path to index, so something like line-ending changes is not registered
     project.ext.grgit.add(patterns: [relativePath])
+    // make sure also deleted files are added to the index
+    project.ext.grgit.add(patterns: [relativePath], update: true)
 
     def status = project.ext.grgit.status()
 
@@ -147,7 +149,7 @@ class MetadataHelper {
     if (parentDir.exists()) {
       parentDir.eachFile { file ->
         if (file.isDirectory()) {
-          if (!file.name in ['.metadata']) {
+          if (!(file.name in ['.metadata'])) {
             project.delete(file)
           }
         } else {
