@@ -650,7 +650,8 @@ task opengisSchemas(type: ResourcesArchiveTask) {
   //FIXME some excludes like .html and .txt seem not to work in subfolders, while .zip does
   // reason unclear
   excludes = ['**/*.html', '**/*.zip', '.timestamp', '**/*.txt', '*.rss', '*.ico',
-    '.LISTING', '**/*.xmi', '**/*.yaml', '**/*.yml', '**/*.json', '**/.validaterc']
+    '.LISTING', '**/*.xmi', '**/*.yaml', '**/*.yml', '**/*.json', '**/.validaterc',
+    '**/*.proto', '**/examples/**', '**/Examples/**']
 }
 tasks.downloads.dependsOn(opengisSchemas)
 
