@@ -1,0 +1,8 @@
+[extend]
+useDefault = true
+
+[[allowlists]]
+paths = [
+  '''resources/(.*?)(example)'''
+]
+
