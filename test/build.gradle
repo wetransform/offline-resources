@@ -26,7 +26,7 @@ repositories {
 
 dependencies {
   implementation 'to.wetransform:offline-resources-api:1.0.0'
-  implementation group: 'org.slf4j', name: 'slf4j-api', version: '2.0.17'
+  implementation group: 'org.slf4j', name: 'slf4j-api', version: '2.0.18'
 
   // Testing
   testImplementation 'org.junit.jupiter:junit-jupiter:6.0.3'
