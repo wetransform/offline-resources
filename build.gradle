@@ -651,7 +651,7 @@ task opengisSchemas(type: ResourcesArchiveTask) {
   // reason unclear
   excludes = ['**/*.html', '**/*.zip', '.timestamp', '**/*.txt', '*.rss', '*.ico',
     '.LISTING', '**/*.xmi', '**/*.yaml', '**/*.yml', '**/*.json', '**/.validaterc',
-    '**/*.proto', '**/examples/**', '**/Examples/**']
+    '**/*.proto', '**/*.py', '**/examples/**', '**/Examples/**']
 }
 tasks.downloads.dependsOn(opengisSchemas)
 
