@@ -697,6 +697,21 @@ task porteleSchemas(type: HostPathsDownloadTask) {
 tasks.downloads.dependsOn(porteleSchemas)
 
 /**
+ * Schemas from shapechange.net
+ *
+ * Current location of the ShapeChange appinfo schema (formerly hosted at portele.de),
+ * e.g. imported by the AAA/NAS 7.1 schemas.
+ */
+task shapechangeSchemas(type: HostPathsDownloadTask) {
+  group 'Download'
+  hostUrl = "http://shapechange.net"
+  paths = [
+    'resources/schema/ShapeChangeAppinfo.xsd'
+  ]
+}
+tasks.downloads.dependsOn(shapechangeSchemas)
+
+/**
  * INSPIRE schemas
  */
 task inspireSchemas(type: INSPIREDownloadTask) {
@@ -1139,6 +1154,14 @@ task porteleSchemasBundle(type: ResourceBundleTask) {
   destDir = jarFolder
 }
 haleResourceBundles.dependsOn('porteleSchemasBundle')
+
+task shapechangeSchemasBundle(type: ResourceBundleTask) {
+  bundleId = 'schemas.shapechange.net'
+  host = 'shapechange.net'
+  sourceDir = new File(hostsFolder, 'shapechange.net')
+  destDir = jarFolder
+}
+haleResourceBundles.dependsOn('shapechangeSchemasBundle')
 
 task inspireFeatureConceptsBundle(type: ResourceBundleTask) {
   bundleId = 'featureconcepts.inspire'
